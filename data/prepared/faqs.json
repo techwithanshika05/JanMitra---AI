@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "How long does it take to get a new ration card?",
+    "answer": "Typically 15-30 days from application, depending on the state and verification process. Some states offer faster e-KYC-based issuance.",
+    "category": "ration",
+    "language": "en",
+    "source": "Department of Food & Public Distribution FAQ"
+  },
+  {
+    "id": 2,
+    "question": "Can I use my ration card in a different state?",
+    "answer": "Yes, under the One Nation One Ration Card (ONORC) scheme, Aadhaar-linked ration cards are portable across all states and union territories, allowing beneficiaries to draw foodgrains from any Fair Price Shop in the country.",
+    "category": "ration",
+    "language": "en",
+    "source": "ONORC Scheme Guidelines"
+  },
+  {
+    "id": 3,
+    "question": "What is the difference between APL, BPL, and AAY ration cards?",
+    "answer": "APL (Above Poverty Line) cards are for relatively better-off households with limited subsidy. BPL (Below Poverty Line) cards offer higher subsidy for poorer households. AAY (Antyodaya Anna Yojana) is for the poorest of the poor with the deepest subsidy and highest guaranteed quantity of foodgrain.",
+    "category": "ration",
+    "language": "en",
+    "source": "National Food Security Act, 2013"
+  },
+  {
+    "id": 4,
+    "question": "Do I need to reapply for PM-KISAN every year?",
+    "answer": "No, once registered and verified, PM-KISAN installments continue automatically every four months, as long as land records and bank details remain valid and e-KYC is completed.",
+    "category": "scheme",
+    "language": "en",
+    "source": "PM-KISAN Portal FAQ"
+  },
+  {
+    "id": 5,
+    "question": "How do I check the status of my grievance complaint?",
+    "answer": "You can track your grievance using the reference number provided at registration, via the CPGRAMS portal (pgportal.gov.in) or your state's dedicated grievance redressal portal/helpline.",
+    "category": "grievance",
+    "language": "en",
+    "source": "CPGRAMS User Guide"
+  },
+  {
+    "id": 6,
+    "question": "मुझे नया राशन कार्ड बनवाने में कितने दिन लगेंगे?",
+    "answer": "आमतौर पर आवेदन के 15-30 दिनों के भीतर नया राशन कार्ड जारी हो जाता है, यह राज्य और सत्यापन प्रक्रिया पर निर्भर करता है।",
+    "category": "ration",
+    "language": "hi",
+    "source": "खाद्य एवं सार्वजनिक वितरण विभाग"
+  },
+  {
+    "id": 7,
+    "question": "What documents are compulsory for every welfare scheme application?",
+    "answer": "While requirements vary by scheme, Aadhaar card, proof of residence, and a recent photograph are almost universally required. Income or category certificates are needed for income/caste-based schemes.",
+    "category": "scheme",
+    "language": "en",
+    "source": "JanMitra Knowledge Base"
+  },
+  {
+    "id": 8,
+    "question": "Is there a fee for filing a grievance?",
+    "answer": "No, filing a grievance through CPGRAMS or state grievance portals is free of cost for citizens.",
+    "category": "grievance",
+    "language": "en",
+    "source": "CPGRAMS User Guide"
+  },
+  {
+    "id": 9,
+    "question": "Can a disabled person get both a disability pension and PM-KISAN if they are a farmer?",
+    "answer": "Yes, welfare schemes are generally not mutually exclusive unless specifically stated. A disabled farmer meeting eligibility criteria for both schemes can typically apply for and receive both, subject to each scheme's independent verification.",
+    "category": "scheme",
+    "language": "en",
+    "source": "JanMitra Knowledge Base"
+  },
+  {
+    "id": 10,
+    "question": "What happens if my ration card application is rejected?",
+    "answer": "You will typically receive a rejection reason via SMS/portal. You can correct the issue (e.g., missing document) and reapply, or file an appeal/grievance with the Food & Supplies department within the stipulated time window.",
+    "category": "ration",
+    "language": "en",
+    "source": "State PDS Portal Guidelines"
+  }
+]

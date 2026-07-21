@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    container_name: janmitra-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./janmitra.db
+      - CHROMA_DIR=./chroma_store
+      - LLM_PROVIDER=none        # set to "gemini" or "openai" and add the API key below to enable generative answers
+      - GEMINI_API_KEY=
+      - OPENAI_API_KEY=
+      - JWT_SECRET=change-this-in-production
+    volumes:
+      - ./data:/app/data
+      - backend_db:/app/db_store
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: janmitra-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  backend_db:
