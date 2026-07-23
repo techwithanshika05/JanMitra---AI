@@ -1,0 +1,41 @@
+{
+  "document_id": "89_Guideline-role-of-iec",
+  "source_file": "89_Guideline-role-of-iec.pdf",
+  "source_path": "data\\raw\\89_Guideline-role-of-iec.pdf",
+  "file_size_bytes": 387810,
+  "total_pages": 1,
+  "extraction_summary": {
+    "successful_pages": 1,
+    "empty_pages": 0,
+    "failed_pages": 0,
+    "pages_requiring_ocr": 0
+  },
+  "pdf_metadata": {
+    "format": "PDF 1.7",
+    "title": "Microsoft Word - Document2",
+    "author": "dell",
+    "subject": "",
+    "keywords": "",
+    "creator": "",
+    "producer": "Microsoft: Print To PDF",
+    "creationDate": "D:20191009181341+05'30'",
+    "modDate": "D:20191009181341+05'30'",
+    "trapped": "",
+    "encryption": ""
+  },
+  "extraction_info": {
+    "extractor": "PyMuPDF",
+    "extracted_at": "2026-07-22T07:59:31.125982+00:00"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Role of Information, Education and Communication (IEC) in Ayushman Bharat \n \n \n \na. Understand the various target audiences for PM-JAY, and their attitudes and perceptions towards PM-JAY.  \nb. Drive awareness and educate the target audience about PM-JAY, by disseminating accurate information.  \nc. Develop communication based on key insights, so that it drives changes in attitudes and behaviour.  \nd. Create user friendly IEC material, select relevant communication channels and roll out messages at appropriate     \ntime; to maximize reach and impact amongst the target audiences.",
+      "character_count": 583,
+      "word_count": 81,
+      "has_text": true,
+      "needs_ocr": false,
+      "extraction_error": null
+    }
+  ]
+}
