@@ -1,0 +1,151 @@
+{
+  "page_num": 2,
+  "image_width": 2480,
+  "image_height": 3507,
+  "created_at": "2026-07-24T07:16:15.418233+00:00",
+  "blocks": [
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_2_block_000",
+      "coordinates": {
+        "x1": 250.0,
+        "y1": 352.0,
+        "x2": 2219.0,
+        "y2": 1136.0
+      },
+      "layout_tag": "chart",
+      "confidence": 0.9423913359642029,
+      "reading_order": 1,
+      "text": "| Month | Bihar (Green) | Madhya Pradesh (Yellow) | Uttar Pradesh (Grey) | Total (Red Stacked Top) |\n| :--- | :--- | :--- | :--- | :--- |\n| Apr-21 | ~5,000 | 0 | 0 | < 5,000 |\n| May-21 | - | 0 | 0 | Low (< 10,000 approx.) |\n| Jun-21 | - | Small (~3k range?) | Very small/Negligible | Medium Growth (> 10,000 but below Red Peak)|\n| Jul-21 to Mar-22 Range: Fluctuating Trend<br>Total Volume Peaks in Feb-Mar at >4M and dips around Jan.<br><br>**Note:** Values for months between Nov '21 & Oct '22 are not explicitly labeled on the Y-axis scale provided; values listed here represent visual estimates based on relative height compared to explicit labels.**\n\n**Explicit Data Points from Legend Labels:**\n*   **Bihar**: Ends exactly **7,48,306**. Starts near zero or negligible before April.\n*   **Madhya Pradesh**: ends approximately halfway up its segment (**~9L**) starting low then rising steadily through Sep-'Oct'.\n*   **Uttar Pradesh**: starts very high early ('High' bar), drops significantly by Dec', rises again mid year ending just above medium level of stack total volume end point(s).\n*   **Total End Value**: Explicitly stated as **38,98,875**, which is roughly double that of UP alone suggesting significant contribution primarily comes from Punjab area."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_2_block_001",
+      "coordinates": {
+        "x1": 227.0,
+        "y1": 1175.0,
+        "x2": 2252.0,
+        "y2": 1274.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.795451819896698,
+      "reading_order": 2,
+      "text": "**Source:** Integrated Management of Public Distribution System, Automated (ePoS-based) Distribution Dashboard. Available online at: https://\nwww.impds.nic.in/sale/. Last accessed on 1 December 2022."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_2_block_002",
+      "coordinates": {
+        "x1": 226.0,
+        "y1": 1376.0,
+        "x2": 2253.0,
+        "y2": 1653.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.949384331703186,
+      "reading_order": 3,
+      "text": "■ The reasons for the dips in the number of total ONORC transactions in November 2021 and June 2022 were due\nto the fall in the interstate transactions between Delhi-Bihar and Delhi-Uttar Pradesh. In November 2021, the\ninterstate transactions between Bihar and Delhi fell by 29 per cent and between Uttar Pradesh and Delhi by 28\nper cent. On the other hand, in June 2022, there were no interstate transactions recorded from households in\nUttar Pradesh."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_2_block_003",
+      "coordinates": {
+        "x1": 224.0,
+        "y1": 1687.0,
+        "x2": 2253.0,
+        "y2": 1855.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9292698502540588,
+      "reading_order": 4,
+      "text": "■ From April 2021 to December 2022, 90 per cent of all transactions from households in Bihar, 87 per cent of all\ntransactions from households in Uttar Pradesh, and 81 per cent of all transactions from households in Madhya\nPradesh were in Delhi, Haryana and Maharashtra."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_2_block_004",
+      "coordinates": {
+        "x1": 226.0,
+        "y1": 1953.0,
+        "x2": 830.0,
+        "y2": 2023.0
+      },
+      "layout_tag": "section-title",
+      "confidence": 0.8676328063011169,
+      "reading_order": 5,
+      "text": "STATE DISPARITIES"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_2_block_005",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 2062.0,
+        "x2": 2254.0,
+        "y2": 2283.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9450510740280151,
+      "reading_order": 6,
+      "text": "■ Looking deeper into transactions conducted by households from Bihar under ONORC, Delhi accounted for 76\nper cent transactions in FY 2021-22, which increased to 79 per cent (9,17,479) in FY 2022-23. For transactions in\nHaryana from households in Bihar, a similar rise was recorded from 6 per cent in FY 2021-22 to 10 per cent in\nFY 2022-23 till December 2022."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_2_block_006",
+      "coordinates": {
+        "x1": 405.0,
+        "y1": 2386.0,
+        "x2": 2069.0,
+        "y2": 2492.0
+      },
+      "layout_tag": "image-caption",
+      "confidence": 0.8498920798301697,
+      "reading_order": 7,
+      "text": "MORE THAN 90% OF ALL INTERSTATE TRANSACTIONS FROM HOUSEHOLDS IN\nBIHAR AND UTTAR PRADESH WERE RECORDED IN DELHI"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_2_block_007",
+      "coordinates": {
+        "x1": 338.0,
+        "y1": 2503.0,
+        "x2": 2234.0,
+        "y2": 3096.0
+      },
+      "layout_tag": "chart",
+      "confidence": 0.9323155283927917,
+      "reading_order": 8,
+      "text": "| State | Year | Number of transactions in Haryana (in thousands) | Number of transactions in Delhi (in thousands) | Total Transactions (Estimated/Calculated Sum) |\n| :--- | :--- | :--- | :--- | :--- |\n| Bihar | 2021-22 | 33 | 447 | ~480 |\n| Bihar | 2022-23 | 115 | 917 | ~1,032 |\n| Uttar Pradesh | 2021-22 | 138 | 574 | ~712 |\n| Uttar Pradesh | 2022-23 | 144 | 514 | ~658 |"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_2_block_008",
+      "coordinates": {
+        "x1": 227.0,
+        "y1": 3130.0,
+        "x2": 2247.0,
+        "y2": 3228.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.7593681812286377,
+      "reading_order": 9,
+      "text": "**Source:** Integrated Management of Public Distribution System, Automated (ePoS-based) Distribution Dashboard. Available online at: https://\nwww.impds.nic.in/sale/. Last accessed on 1 December 2022."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_2_block_009",
+      "coordinates": {
+        "x1": 1498.0,
+        "y1": 3347.0,
+        "x2": 2181.0,
+        "y2": 3386.0
+      },
+      "layout_tag": "footer",
+      "confidence": 0.8054645657539368,
+      "reading_order": 10,
+      "text": "BUDGET BRIEFS, NFSA-FS, GOI 2023-24, VOL 15/ISSUE 2"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_2_block_010",
+      "coordinates": {
+        "x1": 2218.0,
+        "y1": 3348.0,
+        "x2": 2246.0,
+        "y2": 3388.0
+      },
+      "layout_tag": "page-number",
+      "confidence": 0.5959898829460144,
+      "reading_order": 11,
+      "text": "11"
+    }
+  ]
+}

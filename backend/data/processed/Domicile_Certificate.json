@@ -1,0 +1,45 @@
+{
+  "source_file": "Domicile_Certificate.pdf",
+  "metadata": {
+    "total_pages": 2,
+    "total_blocks": 2,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.2222222222222222,
+    "processed_at": "2026-07-24T09:32:31Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:32:31Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "Procedure & Checklist Document \n \n1 \nName of Service \nDomicile Certificate \n2 \nName of Department \nRevenue Department \n3 \nApplicability Criteria \nAnyone can apply who is resident of Uttar Pradesh \n4 \nSLA/ Number of Days 20 days \n5 \nDocuments Required \n1. Ration Card / Electricity Bill \n2. Voter Id Proof \n3. Self-Declaration Form \n4. Educational Certificate (if required) \n6 \nForm Submission \nhttps://edistrict.up.gov.in/edistrictup/ \n7 \nProcedure for apply \n& getting certificate \nStep‐ 1: \na) The applicant shall open the Online e-District Portal using the \naddress https://edistrict.up.gov.in/edistrictup/ and click on \nCitizen login (e-Sathi). \nb) Register in online portal using their personal details and \ncontact details. \nc) A password is generated and sent through SMS/Email. \nd) Using the User id and Password applicant shall log into the \nonline portal. \nStep – 2: \nAfter logging into the web portal, the Applicant shall select “ESATHI INTEGRATED SERVICES” radio button. \nStep‐3: \nApplicant shall select “Domicile Certificate” service under \nRevenue Department. \nStep‐4: \nApplicant shall create profile (Select district & enter DOB, Mobile \nno.) \nStep‐5: \nApplicant shall pay the user charges i.e., Rs 15/- through online \npayment gateway. \nStep‐6: \nApplicant shall fill details, attach documents in application form \nfor “Domicile Certificate” & submit it. \nStep‐7: \nS.D.M. forward the application to Tehsildar for verification. \nStep‐8: \nTehsildar verifies the application & forward to Lekhpal for \ninspection. \nStep‐9: \nLekhpal submits the inspection report to Tehsildar \nStep‐10: \nBased on Tehsildar & Lekhpal report, S.D.M. approves the \napplication & issue domicile certificate",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:32:31Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "Step‐11: \nApplicant shall download the certificate from online portal/DigiLocker. \n8 \nFee \n1. User charges – Rs 15/- (Fixed) \n2. Service Fee – Not Required \n9 \nMode of payment \nOnline",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    }
+  ]
+}

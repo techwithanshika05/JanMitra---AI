@@ -1,0 +1,164 @@
+{
+  "page_num": 1,
+  "image_width": 2480,
+  "image_height": 3507,
+  "created_at": "2026-07-24T07:16:14.775723+00:00",
+  "blocks": [
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_1_block_000",
+      "coordinates": {
+        "x1": 224.0,
+        "y1": 359.0,
+        "x2": 2253.0,
+        "y2": 582.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9425613880157471,
+      "reading_order": 1,
+      "text": "■ Similarly, a closer look at transactions conducted by households from Uttar Pradesh showed that in FY 2021-\n22, Delhi accounted for 65 percent transactions (5,73,658), falling to 64 per cent (5,14,389) till December 2022.\nHowever, there was a rise in transactions in Haryana from households in Uttar Pradesh, from 16 per cent in FY\n2021-22 to 18 percent in FY 2022-23 till December 2022."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_1_block_001",
+      "coordinates": {
+        "x1": 229.0,
+        "y1": 677.0,
+        "x2": 1002.0,
+        "y2": 751.0
+      },
+      "layout_tag": "section-title",
+      "confidence": 0.8906025886535645,
+      "reading_order": 2,
+      "text": "UNIQUE TRANSACTIONS"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_1_block_002",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 788.0,
+        "x2": 2252.0,
+        "y2": 954.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.932357907295227,
+      "reading_order": 3,
+      "text": "■ Ration card holders can access NFSA and PMGKAY together at once or at multiple times in a month. If a ration\ncard was used only once in a month to get grain offtake from NFSA, or PMGKAY, or both, the transaction is\nconsidered to be unique."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_1_block_003",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 989.0,
+        "x2": 2253.0,
+        "y2": 1209.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9420546889305115,
+      "reading_order": 4,
+      "text": "■ From FY 2021-22 to FY 2022-23 till December 2022, 66 per cent of the total transactions between Bihar and\nDelhi were unique, and 60 per cent of the total transactions between Bihar and Haryana were unique. Similarly,\n60 per cent of the total transactions between Uttar Pradesh and Delhi were unique, and 76 per cent of the total\ntransactions between Uttar Pradesh and Haryana were unique."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_1_block_004",
+      "coordinates": {
+        "x1": 226.0,
+        "y1": 1244.0,
+        "x2": 2253.0,
+        "y2": 1410.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.938481330871582,
+      "reading_order": 5,
+      "text": "■ Nearly all unique transactions (97 per cent) between Bihar-Delhi were done to get grain offtake from both NFSA and PMGKAY at once. On the other hand, only 55 per cent of the unique transactions between Uttar Pradesh- Delhi were done to get grain offtake from both NFSA and PMGKAY at once."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_1_block_005",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 1445.0,
+        "x2": 2252.0,
+        "y2": 1612.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9302264451980591,
+      "reading_order": 6,
+      "text": "■ A similar situation was seen for Bihar-Haryana and Uttar Pradesh-Haryana. Most of the unique transactions\n(85 per cent) from Bihar were to access both PMGKAY and NFSA at once, whereas only 56 per cent of the\nhouseholds from Uttar Pradesh accessed both PMGKAY and NFSA at once."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_1_block_006",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 1644.0,
+        "x2": 2256.0,
+        "y2": 1868.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9449542164802551,
+      "reading_order": 7,
+      "text": "■ Thus, while households accessing only NFSA or PMGKAY in a month formed a small proportion of transactions\nbetween Bihar-Delhi (3 per cent) and Bihar-Haryana (15), for households from Uttar Pradesh, accessing only\nNFSA or PMGKAY in a month, accounted for 45 per cent of the unique transactions in Delhi and 44 per cent of\nthe unique transactions in Haryana."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_1_block_007",
+      "coordinates": {
+        "x1": 279.0,
+        "y1": 2035.0,
+        "x2": 2199.0,
+        "y2": 2140.0
+      },
+      "layout_tag": "image-caption",
+      "confidence": 0.8950263857841492,
+      "reading_order": 8,
+      "text": "MOST UNIQUE INTERSTATE TRANSACTIONS BETWEEN SELECTED STATES WERE DONE FOR\nBOTH PMGKAY AND NFSA, FROM 2021-22 TO 2022-23 TILL DECEMBER 2022"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_1_block_008",
+      "coordinates": {
+        "x1": 245.0,
+        "y1": 2188.0,
+        "x2": 2195.0,
+        "y2": 3088.0
+      },
+      "layout_tag": "chart",
+      "confidence": 0.9539797306060791,
+      "reading_order": 9,
+      "text": "| Region | Both | PMGKAY | NFSA |\n| :--- | :--- | :--- | :--- |\n| Haryana-UP | 1,19,789 | 36,889 | 56,087 |\n| Haryana-Bihar | 75,635 | 7,369 | 5,931 |\n| Delhi-UP | 3,67,659 | 92,908 | 2,07,573 |\n| Delhi-Bihar | 8,79,100 | 14,739 | 13,215 |"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_1_block_009",
+      "coordinates": {
+        "x1": 226.0,
+        "y1": 3129.0,
+        "x2": 2169.0,
+        "y2": 3225.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.8640549182891846,
+      "reading_order": 10,
+      "text": "**Source:** Integrated Management of Public Distribution System. Available online at: https://impds.nic.in/portal. Last accessed on 31 December 2022"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_1_block_010",
+      "coordinates": {
+        "x1": 233.0,
+        "y1": 3348.0,
+        "x2": 261.0,
+        "y2": 3384.0
+      },
+      "layout_tag": "page-number",
+      "confidence": 0.5826591849327087,
+      "reading_order": 11,
+      "text": "12"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_1_block_011",
+      "coordinates": {
+        "x1": 292.0,
+        "y1": 3346.0,
+        "x2": 1068.0,
+        "y2": 3391.0
+      },
+      "layout_tag": "footer",
+      "confidence": 0.7056301236152649,
+      "reading_order": 12,
+      "text": "ACCOUNTABILITY INITIATIVE, CENTRE FOR POLICY RESEARCH"
+    }
+  ]
+}

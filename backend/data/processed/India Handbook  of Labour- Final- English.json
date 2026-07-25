@@ -1,0 +1,1280 @@
+{
+  "source_file": "India Handbook  of Labour- Final- English.pdf",
+  "metadata": {
+    "total_pages": 82,
+    "total_blocks": 77,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.2222222222222222,
+    "processed_at": "2026-07-24T09:33:50Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 458,
+      "height": 706,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": []
+    },
+    {
+      "page_number": 2,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "INDIA\nHandbook of Labour\nV.V. Giri National Labour Institute\n2015",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "ISBN: 978-93-82902-32-4\nCopyright © V.V. Giri National Labour Institute, NOIDA\nNo. of Copies \n: 500\nFirst Edition \n: 2015\nThis document can be downloaded from the Institute’s website at \nwww.vvgnli.org\nOpinions expressed in the document are solely of the authors and \n摯⁮潴⁮散敳獡物汹⁲敦汥捴⁴桥⁶楥睳⁯映瑨攠䥮獴楴畴攮\nPrinted and Published by V.V. Giri National Labour Institute, \nSector – 24, Noida – 201301, U.P.\nPrinted at: Chandu Press, D-97, Shakarpur, Delhi -110092",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "PREFACE\nIndia is at a very important juncture of the development process. With \ngrowth expected to scale up exponentially, the country is emerging \nas one of the strongest economies of the world. An imperative is \nto make the distribution of the 扥湥晩瑳\u0000of this growth equitable, to \nmake certain that the fruits of development percolate to all sections \nof society. One of the most vital needs in this respect is to ensure \nquality employment for all and address labour issues because this \naspect is directly linked to the livelihood of the masses. \nQuestions confronting the country in relation to labour are \nmany and varied, ranging from concerns about employment and \nunderemployment to social security for workers to elimination \nof child labour. Considering the range and magnitude of India’s \nlabour issues it is important to involve different stakeholders in \nthe process of 晩湤楮朠solutions. This constructive engagement of \nstakeholders is possible if information and ideas related to labour \nare made accessible. \nIt is with this perspective that the V.V. Giri National Labour \nInstitute has brought out this handbook, which seeks to consolidate \nbasic information relating to key dimensions of the labour scenario \nin India. The idea is to provide relevant information in a simple, \ncomprehensible way that makes it accessible to the broad spectrum \nof society. The handbook is being translated into different Indian \nlanguages.\nOur hope is that the Handbook of Labour become an important \nreference tool in the process of evolving policies and actions relating \nto labour in India, and thus contributes to the country’s equitable \ngrowth.\nManish Kumar Gupta\nDirector General\nV.V. Giri National Labour Institute",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": []
+    },
+    {
+      "page_number": 6,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "CONTENTS\n \nIndia’s Labour and Employment Scenario:\nAn Overview\n \nS.K. Sasikumar\n1-12\n \nLabour Laws for Informal Sector Workers in India\n \nSanjay Upadhyaya\n13-26\n \nSocial Security and Rural Labour\n \nPoonam S. Chauhan\n27-38\n \nPreventing Children’s Entry into Employment at \nTender Age and Ending Child Labour in India\n \nHelen R. Sekar\n39-49\n \nHealth Insecurities and Protection of Workers in \nInformal Employment\n \nRuma Ghosh\n51-59\n \nGender Issues in Labour\n \nShashi Bala and Ellina Samantroy\n61-72",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": []
+    },
+    {
+      "page_number": 8,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 8,
+          "layout": "text",
+          "text": "India’s Labour and Employment Scenario:\nAn Overview\nDr. S.K. Sasikumar*\nProvision of quality employment is key to achieving economic and \nsocial development. Apart from its direct implications for improving \nindividual well-being, employment is central to 晵汦楬汩湧\u0000several \nsocial objectives like poverty reduction, productivity growth and \nsocial cohesion. The developmental 扥湥晩瑳\u0000accruing from quality \nemployment range from acquiring skills to empowering women. \nWith the creation of quality employment now regarded as vital \nto sustain high economic growth, the centrality of employment in \npublic policy has assumed renewed 獩杮楦楣慮捥\u0000in recent years. \nGiven such a scenario, it is crucial that appropriate policy measures \nare initiated to create conditions for generating quality employment \nso that it contributes to faster and equitable economic development. \nThe formulation of such policies must necessarily be based on an \nanalysis of the emerging labour and employment situation at the \nnational level and disaggregated across different income and social \ngroups. This brief paper provides a situational analysis of the \nemerging nature and characteristics of India’s labour market. \nDEMOGRAPHIC TRANSITION AND THE LABOUR FORCE\nIndia is in the midst of a demographic transition, with declining \ninfant mortality, declining fertility and rising life expectancy. The \naverage annual population growth rate fell from 2.16% during\n1981-91 to 1.64% during 2001-11. The effect of this demographic \ntransition on the labour market is transmitted through the key \nindicator of the dependency ratio (proportion of people younger \nthan 15 and older than 64 to the working age population, i.e. those \naged 15-64) which has been consistently falling. There is likely to \nbe a major increase in the proportion of potential economically \nactive persons in the population in the next three decades, when \nthe dependency ratio is expected to fall continuously. This has \n獩杮楦楣慮琠\nimplications for the labour market both in the short and \nlong terms. Strikingly, by 2020 nearly a quarter of India’s population \nwould be in the age cohort of 20-35 years. \n* \nSenior Fellow, V.V. Giri National Labour Institute; E-mail: sasikumarsk2@gmail.com",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 9,
+          "layout": "text",
+          "text": "2 \nIndia: Handbook of Labour\nIn recent years, despite the increasing size of the working age \npopulation, additions to the labour force have declined. This is \nprimarily due to the rising enrolment of the young in secondary and \nhigher education. While in the short run this may ease the pressures \non generation of employment, in the medium to long terms there \nwould be increasing pressure to generate employment both \nquantitatively (as larger numbers will enter the labour market) and \nqualitatively (as those who enter the labour market will have higher \neducational attainments as well as higher levels of aspirations and \nexpectations from the labour market).\nIndia’s labour force in 2011-12 was 483.7 million. After being \nconsistently pegged at 43%, the labour force participation rate \n(LFPR) in India fell below 40% by 2011-12, as indicated in Figure \n1. Given that India is in the midst of a demographic transition, it is \nimportant to understand the trends in the LFPR for the working age \npopulation. The LFPR for the age group 15-59 years fell from 67.1 in \n1993-94 to 66.6 in 2004-5 and 58.3 in 2011-12. This decline in recent \nyears is mainly due to: (a) a sharp decline in the LFPR of the age \ngroup 15-29 years; and (b) a drastic fall in the female LFPR which \nhas declined at double the rate of the male LFPR. The bulk of the \ndecline in the female LFPR has occurred since 2004, mainly in the \nworking age cohort of 15-29 years (from 37.1 in 2004-05 to 24.4% in \n2011-12). \n䉯砠ㄺ⁄敦楮楴楯湳⁕獥搠楮⁉湤楡鉳⁎慴楯湡氠卡浰汥⁓畲癥礠潮\u0000Employment and Unemployment\nThree reference periods are used in the National Sample Survey (NSS) on \nEmployment and Unemployment: (i) one year; (ii) one week; and (iii) each \nday of the reference week. This yields three different measures of activity \nstatus of an individual: (i) usual activity status (US); (ii) current weekly \nstatus (CWS); and (iii) current daily status (CDS). In addition, the usual \nstatus is further distinguished between persons who are: (a) engaged in \nthe activity for a relatively long part of the 365 days preceding the date of \nsurvey; or (b) remaining persons who were engaged in that activity for at \nleast 30 days during the reference period of 365 days. These are referred to \nas usual principal status and usual subsidiary status, respectively. Finally, \nthe usual principal and subsidiary status (UPSS) consists of both categories \nof persons, i.e. (a) and (b).",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 10,
+          "layout": "text",
+          "text": "India’s Labour and Employment Scenario: An Overview 3\nExplanations provided for the declining female LFPR range from \nincreasing educational enrolment, improvement in the earnings of \nmale workers that discourages women’s economic participation, \nand lack of employment opportunities at certain levels of skills and \n煵慬楦楣慴楯湳\u0000that discourage educated women from seeking work. \nIn fact, concerns were also raised about whether women’s work had \nbeen appropriately captured and even about the accuracy of the \n乡瑩潮慬⁓慭灬攠卵牶敹⁏晦楣攠⡎卓伩⁲敳畬瑳⸠\nEMPLOYMENT GROWTH\nA major challenge faced by the Indian economy is the lack of \nadequate employment generation; in fact, employment growth \nduring the current decade has been much lower than the rates \nrecorded during the two previous decades (see Table 1). Such \ndeceleration in employment growth is visible across spatial and \ngender differentials. \nTable 1: Growth of Employment (UPSS): 1983 to 2005-12\nYears\nRural\nUrban\nTotal\nMale Female Total\nMale Female Total\nMale Female Total\n1983-94\n1.92\n1.39\n1.72\n3.14\n3.38\n3.19\n2.21\n1.64\n2.02\n1994-2005\n1.40\n1.54\n1.45\n3.10\n3.30\n3.14\n1.86\n1.81\n1.84\n1983-2005\n1.65\n1.47\n1.58\n3.12\n3.34\n3.17\n2.03\n1.73\n1.93\n2005-12\n1.06\n-2.76\n-0.22\n2.54\n1.07\n2.23\n1.51\n-2.04\n0.44\nSource: NSSO (various years).\nFigure 1: Labour Force Participation Rate (UPSS) in India:\n1983 to 2011-12\nSource: NSSO (various years).",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 11,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 11,
+          "layout": "text",
+          "text": "4 \nIndia: Handbook of Labour\nLABOUR MARKET DUALITY\nThe persistent duality between organised and unorganised \nsectors (based on the de晩nition of enterprise size, the organised \nsector being 摥晩湥搠as consisting of 晩牭猠and establishments \nwhich have more than 10 workers) and between formal and \ninformal work (based on regularity of employment and access to \nsocial security) has been a matter of concern, particularly since \nthe 1990s. In India the overwhelming proportion of workers \nare employed in the unorganised sector, with nearly 83% in \n2011-12, albeit with a declining trend during the last decade \n(refer Table 2). While the total employment in the organised \nsector grew from 38.89 million in 1999-2000 to 81.6 million in\n2011-12, the informal jobs within the organised sector increased \nfrom 15.95 million to 47.20 million during the same period. This \nindicates that an overwhelming majority (nearly three-fourth) of \nthe new jobs generated in the organised sector in the last decade \nare informal in nature; at present informal jobs constitute 58% of \nthe organised sector employment. This trend is 牥晬散瑥搠\nclearly in \norganised manufacturing where there has been a sharp increase in \ntemporary and contractual jobs, which increased from 7.6% in the \n1970s to 13.2% in 1995-6 to 33.9% in 2010-11. \nTable 2: Total Workers in India by Organised/Unorganised Sector \nand Formal/Informal Workers: 1999-2000 and 2011-12\nFormal\nInformal\nTotal\n1999-2000\nOrganised\n22.94\n15.95\n38.89\nUnorganised\n1.44\n356.57\n358.01\nTotal\n24.38\n372.52\n396.90\n2011-12\nOrganised\n34.40\n47.20\n81.6\nUnorganised\n1.96\n389.44\n391.40\nTotal\n36.36\n436.64\n473.0\nSource: NSSO Rounds 2001 and 2013.\nSECTORAL DISTRIBUTION OF WORKFORCE\nThe long-anticipated structural transformation of the labour \nmarket—the movement of employment from the less productive",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 12,
+          "layout": "text",
+          "text": "India’s Labour and Employment Scenario: An Overview 5\nprimary sector—has gained pace in recent years. From around 70% \nin the early 1980s, the share of agriculture in total employment \ndeclined to 60% in 1999-2000 and to 49% in 2011-12, as indicated \nin Table 3. More importantly, the decline has been much faster in \nrecent years: a 4% decline was recorded during 2009-10 to 2011-12. \nHowever, the shift of workers from agriculture to manufacturing \ncontinues to be slow, with the share of the manufacturing sector \nremaining stagnant at 11-12% for the last three decades. The bulk of \nthe labour force moving out of agriculture has thus been absorbed \nin construction and the low-end service sector in the informal \neconomy. \nConstruction has now emerged as one of the most important sectors, \nabsorbing a large number of low-educated internal migrant workers \nfrom rural areas. The share of construction in the total workforce \nhas grown from 3.1% in 1993-94 to 10.6% in 2011-12, which is almost \nequal to the proportion of workers engaged in manufacturing \nactivities in India. More strikingly, the proportion of construction \nworkers among the non-agricultural workforce is currently 20.3%, \npointing further to the 獩杮楦楣慮琠\nrole played by construction in \nproviding employment in the context of structural transformation. \nTable 3: Share of Employment by Major Sectors (in %):\n1993-94 to 2011-12\nSectors\n1993-94\n2004-05\n2011-12\nAgriculture and allied activities\n64.8\n58.5\n48.9\nMining and quarrying\n0.7\n0.6\n0.5\nManufacturing\n10.5\n11.7\n12.8\nElectricity, gas and water supply\n0.4\n0.3\n0.4\nConstruction\n3.1\n5.6\n10.6\nTrade, hotels and restaurants\n7.4\n10.2\n11.4\nTransport, storage and communication\n2.8\n3.8\n4.4\nFinancing, real estate, business services\n0.9\n1.5\n2.6\nCommunity, social and personal services\n9.4\n7.7\n8.2\nSource: NSSO (various years).\nNATURE OF EMPLOYMENT\nA critical dimension of the structure of the labour market and \nquality of employment is provided by the status of the workforce.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 13,
+          "layout": "text",
+          "text": "6 \nIndia: Handbook of Labour\nThe predominance of self-employment in India is an important \ncharacteristic, with over 52% workers being self-employed (refer \nFigure 2). The proportion of the self-employed has fallen over the \nlast decades with the maximum decline being in rural areas, due \nmainly to the decline of self-cultivating farmers. The category of selfemployment is a heterogeneous one, including 晩湡湣楡氠\nconsultants, \nfreelance workers, professionals like doctors and lawyers in the \nhigh-end service sector as well as marginal and small farmers, street \nvendors, hawkers and other low-end service workers, with highly \ndiverse income pro晩les. It is estimated that 85% of the self-employed \nare engaged in low productive and precarious occupations. On \nthe other hand, a positive development has been the increase \nin the proportion of workers who report regular wage/salaried \nemployment which has increased from 13.5% to 18% during the \nperiod from 1983 to 2011-12. However, it is important to recognise \nthat a part of this growth is due to the increase of unprotected regular \nemployment such as domestic service. This is re晬ected in the fact \nthat 9% of those who report regular employment are present in the \npoorest consumption expenditure quintile in 2011-12. \nFigure 2: Status of Employment in India: 1983 to 2011-12\nSource: NSSO Rounds (various years).\nWithin wage employment, casual employment remains the most \nvulnerable, in terms of access to both employment and social \nsecurity. The proportion of casual employment in India has remained \nconstant at a relatively high level over the last three decade—at \naround 30% of total employment and nearly two-thirds of all wage \nemployment. It is important to note that a 獩杮楦楣慮琠\nproportion of \nthe socially disadvantaged groups such as SCs and STs are engaged",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 14,
+          "layout": "text",
+          "text": "India’s Labour and Employment Scenario: An Overview 7\nFigure 3: Employment Status in India across Gender \nand Social Groups: 2011-12\nSource: NSSO Round 2013.\nSource: NSSO Round 2013.\nFigure 4: Employment Status in India across Consumption \nExpenditure Quintiles: 2011-12\nas casual wage earners. These proportions are much higher than the \nnational average: 48% of the SCs and 38% of the STs are in casual \nemployment in 2011-12, compared to the national average of 30% \n(refer Figure 3). The existing inequities between different statuses \nof employment become clear when we note that 42% of the poorest \nquintile of consumption expenditure comprise casual workers (refer \nFigure 4).\nUNEMPLOYMENT SITUATION\nOne of the major concerns in the Indian labour market is the \nrelatively higher youth unemployment rate, as indicated in Table",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 15,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 15,
+          "layout": "text",
+          "text": "8 \nIndia: Handbook of Labour\n4. While the country’s open unemployment rate (for all age groups) \nhas been relatively low, the rate of unemployment amongst the \nyouth is almost double the overall rate.\nTable 4: Unemployment Rate (CDS) across Broad Age Groups:\n1993-94 to 2011-12\nMale\nFemale\nTotal\n1993-94\n15-24\n11.4\n10.8\n11.2\n25-34\n6.5\n6.7\n6.6\n35 & above\n3.0\n4.0\n3.3\nTotal\n5.9\n6.3\n6.0\n2004-05\n15-24\n14.5\n15.7\n14.8\n25-34\n7.8\n10.4\n8.5\n35 & above\n4.9\n6.1\n5.3\nTotal\n7.8\n9.2\n8.3\n2011-12\n15-24\n12.9\n14.7\n13.3\n25-34\n5.4\n7.4\n5.9\n35 & above\n2.9\n3.8\n3.1\nTotal\n5.3\n6.6\n5.6\n Source: NSSO (various years).\nThe magnitude of the problem becomes all the more evident when \none considers the high unemployment rate among the educated \nyouth. The demographic composition of the population, while \nproviding a window of opportunity, could become a serious issue if \njobs of adequate quality are not made available to the increasingly \neducated young entrants to the labour market (refer Table 5). \nTable 5: Percentage of Unemployment Rates for Different Levels\nof Education, 2011-12\nEducational Standard\nAge 15-29\nAge 15-59\nIlliterate\n4.6\n4.9\nBelow Primary\n4.3\n4.1\nPrimary\n7.8\n7.4\nMiddle\n16.0\n15.8\nSecondary\n14.4\n14.6\nHigher Secondary*\n20.2\n20.1\nGraduate and above\n32.7\n33.1\nTotal\n100.0\n100.0\n Note㨠⩩湣汵摥猠䑩灬潭愯䍥牴楦楣慴攠䍯畲獥献\n Source: NSSO, 2013.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 16,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 16,
+          "layout": "text",
+          "text": "India’s Labour and Employment Scenario: An Overview 9\nTRENDS IN WAGES\nAn analysis of wage trends over the last three decades indicates that \nthough the average wage rate in absolute terms has increased for \nboth regular and casual workers, the gap between the two segments \nhas widened over time, contributing to increasing wage inequality \nin the labour market (refer Figure 5). \nFigure 5: Trends in Wages in India (in `): 1983 to 2011-12\nSource: Computed from unit level data of various NSSO Rounds.\n400\n500\nRegular Rural\nRegular Urban\nCasual Rural\nCasual Urban\n0\n100\n200\n300\n1983\n1983-94\n2004-05\n2011-12\nGender wage disparity is a key feature of the Indian labour market, \nwith wide-ranging implications for the economy and society. \nWhile the wage gap between female and male workers seems to \nhave declined over the last 30 years, female wage rates are still only \n60% of those for males on an average across different locations and \nstatuses (refer Figure 6). \nFigure 6: Female-Male Wage Ratios across Different Categories\nin India: 1983 to 2011-12\n0.72\n0.60\n0 59\n0.63\n0.63\n0.66\n0.63\n0.70\n0.76\n0.81\n0.75\n0.80\n0 57\n0 58\n0.62\n0 60\n0.70\n0.80\n0.90\nRural Regular\nRural Urban\nUrban Regular\nUrban Casual\n0.60\n0.59\n0.50\n0.57\n0.58\n0.00\n0.10\n0.20\n0.30\n0.40\n0.50\n0.60\n1983\n1993-94\n2004-05\n2011-12\nSource: Computed from unit level data of various NSSO Rounds.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 17,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 17,
+          "layout": "text",
+          "text": "10 \nIndia: Handbook of Labour\nEDUCATION AND THE SKILL BASE\nThe level of employability is critically dependent on the educational \nand skill 灲潦楬攠of the workforce. At present less than 30% of the \nworkers have educational attainments above the secondary level \nand more than 30% of the workers are not literate. However, the \ntrend over the last two decades has exhibited several positive \nfeatures (refer Figure 7). Between 1993 and 2011, the share of the \nnon-literate among the workers has declined sharply from 51.2% \nto 31.2%. During the same period the proportion of workers with \nsecondary education and above has nearly doubled from 14.1 \nto 28.6%. However, the skill base of the workforce, measured by \nvocational training (formal or informal), continues to be one of the \nlowest in the world, with only 2% receiving formal and 8% informal \nvocational training. \n40\n50\n60\nNot Literate\nBelow Primary\nPrimary and Middle\nSecondary and Higher \nSecondary\nGraduate and Above\n0\n10\n20\n30\n1993-94\n2004-05\n2011-12\n䙩杵牥‷㨠䕤畣慴楯湡氠偲潦楬攠潦⁗潲步牳㨠ㄹ㤳ⴹ㐠瑯′〱ㄭㄲ\n\n(5 Years+)\nSource: NSSO Rounds (various years).\nAnother critical issue in the context of skill development in India \nrelates to the structure of the skill pyramid. Given that the focus \nis presently on the manufacturing sector, there is an urgent need \nto improve the skill base, particularly in relation to the low and \nmiddle bases of the skill pyramid. It would entail more focus on \nvocational training as a key driver to generate the requisite skills \nin different trades. Massive scaling up of skill endowment is a \ncrucial requirement for enhancing both the quantity and quality of \nemployment.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 18,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 18,
+          "layout": "text",
+          "text": "India’s Labour and Employment Scenario: An Overview 11\nPOLICY PERSPECTIVES \nIt is clearly evident from the above analysis that the provision \nof quality employment to the increasingly youthful population \nis emerging as one of the decisive challenges in India. Given the \npersistence of self-employment, special attention should be given \nto create income stability and sustainable livelihood options, \nespecially for the low-end self-employed in agriculture and \nservices, by enhancing social protection and improving their skills \nfor starting and managing their own microenterprises. This will \ncontribute to the growth of non-farm employment options in the \nrural areas. Along with encouraging the trend towards regular \nwage employment, there is a need to raise the remuneration of \ncasual wage earners and enhance social protection measures for \nthem. The trend towards declining gender-based wage inequality \nhas to be sustained and measures taken to achieve full parity. Such \nmeasures will also contribute to increased participation of women \nin the labour market. Policy measures such as 晬exible working \ntime, better maternity and paternal leave arrangements, stricter \nsafety and security norms at the workplace, and customised \ncounselling and job placement services for women could pave the \nway for more women joining the labour force. Policy measures \nshould be directed towards improving the labour market \noutcomes of the socially disadvantaged and youth by extension of \nsocial protection and imparting of customised and targeted skill \ndevelopment training. To improve the labour market outcomes \nof the vast majority of rural workers, an important intervention \nby the state could be enriching the skill content of the public \nemployment programmes.\nREFERENCES\nInternational Labour Organization (ILO) (2014), Global Employment Trends \n2014: Risk of a Jobless Recovery?, ILO, Geneva.\nNational \nSample \nSurvey \n佦晩捥\u0000(NSSO) \n(1983), \nEmployment \nand \nUnemployment Survey 1983, 38th Round, January-December 1983, NSSO, \nMinistry of Statistics and Programme Implementation, Government of \nIndia, New Delhi.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 19,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 19,
+          "layout": "text",
+          "text": "12 \nIndia: Handbook of Labour\n––––––– (1997) Employment and Unemployment in India 1993-94, 50th \nRound, July 1993-June 1994, Report No. 409, NSSO, Ministry of Statistics \nand Programme Implementation, Government of India, New Delhi.\n––––––– (2001), Employment and Unemployment Situation in India 1999–\n2000, 55th Round, July 1999-June 2000, Report No. 458, Part I and II and Unit \nLevel Data, NSSO, Ministry of Statistics and Programme Implementation, \nGovernment of India, New Delhi.\n––––––– (2006), Employment and Unemployment Situation in India 200405, 61st Round, July 2004-June 2005, Report No. 515, Part I and II and Unit \nLevel Data, NSSO, Ministry of Statistics and Programme Implementation, \nGovernment of India, New Delhi.\n––––––– (2013), Employment and Unemployment Situation in India 201112, 68th Round, July 2011-June 2012, NSSO and Ministry of Statistics and \nProgramme Implementation, Government of India, New Delhi.\nPapola, T.S. (2008), Employment Challenges and Strategies in India, ILO Asia \n偡捩晩挠坯牫楮朠偡灥爠卥物敳Ⱐ䥌伬⁎敷⁄敬桩\u0000Sasikumar, S.K. and Thimothy, Rakkee (2013), ‘Surmounting India’s \nEmployment Challenge: Evidence from NSSO Data (2004-05 to 2011-12)’, \nLabour & Development, 20(1): 1-18 (June).",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 20,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 20,
+          "layout": "text",
+          "text": "Labour Laws for Informal Sector Workers in India\nDr. Sanjay Upadhyaya*\nThe unorganised and informal sector of the economy has a key role \nin the overall development and economy of a nation, especially \nin terms of its contribution towards GDP and employment. The \nworkers engaged in this sector play a vital role in the growth of \nthis sector, and their rights and entitlements need to be protected. \nThis is all the more important in the case of developing economies \nlike India. A number of measures have been incorporated in the \nConstitution of India—especially in its Preamble; Chapter III dealing \nwith Fundamental Rights; and Chapter IV dealing with Directive \nPrinciples of State Policy—to address the various labour and social \nsecurity issues of the workers in general and those engaged in the \nunorganised and informal sector in particular. A number of labour \nlegislations have also been enacted in India both by the central \nand state legislatures to protect the interest of such workers. These \nlegislations touch upon various aspects such as wages, employment \nrelations, conditions of work, labour welfare measures and social \nsecurity, etc. The following sections provide a broad overview of \nthe salient features of the key labour legislations applicable to the \ninformal sector in India. \nPAYMENT OF WAGES ACT, 1936\nObject, Applicability and Coverage of the Act: The main object \nof the Act is to regulate the payment of wages of certain classes \nof employed persons, avoid unnecessary delay in the payment of \nwages, and prevent unauthorised deductions from the wages. This \nAct applies to factories, railway industrial establishments, tramway \nservice or motor transport service engaged in carrying passengers \nor goods or both by road; air transport service (other than such \nservice belonging to or exclusively employed to the military, naval \nor air forces of the Union or the Civil Aviation Department of the \nGovernment of India); dock, wharf or jetty; inland vessel, mine, \nquarry or 潩汦楥汤Ⱐ\nplantation, workshop or other establishments; \nconstruction activities or any other establishment or class of \n* \nFellow, V.V. Giri National Labour Institute; E-mail: sanjaynli@gmail.com",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 21,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 21,
+          "layout": "text",
+          "text": "14 \nIndia: Handbook of Labour\nestablishments of the government which employs people. At \npresent, employees drawing wages up to ` 18,000 per month are \ncovered under the Act.\nTime of Payment of Wages: The Act 獰散楦楥猠that wages of \nevery person employed should be paid, in case of establishments \nemploying up to 1,000 persons, before the expiry of the seventh day \nof the following month and, in case of establishments employing \n1,000 or more workers, before the expiry of the tenth day of the \nfollowing month. (Section 5)\nMode of Payment of Wages: The Act provides that all wages have \nto be paid in current coins or currency notes or in both. However, \nafter obtaining authorisation from the employee, the wages may be \npaid either by cheque or by crediting the wages in the employee’s \nbank account. (Section 6)\nDeduction from Wages: As per the Act, deductions such as, 晩湥猬\u0000reimbursement of amenities and services supplied by the employer, \nadvances paid, over-payment of wages, loans granted for house \nbuilding or other purposes, income tax payable, in pursuance of the \norder of the court, PF contributions, cooperative societies, premium \nfor life insurance, contribution to any fund constituted by the \nemployer or a trade union, recovery of losses, ESI contributions, etc. \ncan be made from the wages. The maximum permissible limit with \nrespect to deductions under the Act is 50% of the wages. However, \nin the event of deduction for the purpose of payment to cooperative \nsocieties, the limit of maximum permissible deduction is 75% of the \nwages paid to the employee. (Section 7)\nPenal Provisions: The Act provides for penalties for breach of \nprovisions in the form of 晩湥猠in the range of `1,500-7,500. Repeated \noffences under the Act attract penalty in the form of imprisonment \nfrom one month to six months, and 晩湥猠in the range of\n`3,750-22,500. Delayed wage payments attract a penalty of `750 \nper day. (Section 20)\nMINIMUM WAGES ACT, 1948\nObject, Applicability and Coverage of the Act: The main object \nof the Act is to provide for 晩硡瑩潮\u0000and revision of minimum rates",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 22,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 22,
+          "layout": "text",
+          "text": "Labour Laws for Informal Sector Workers in India \n15\nof wages in certain categories of employments and industries. \nThe Act applies to those scheduled employments in respect of \nwhich minimum rates of wages have been 晩硥搠and applies to \ndirectly employed employees as well as those employed through \ncontractors.\nFixation of Minimum Rates of Wages: Under the Act the minimum \nrates of wages from time to time for various industries/schedule of \n敭灬潹浥湴猠慲攠晩硥搠批⁴桥⁡灰牯灲楡瑥⁧潶敲湭敮琮 卥捴楯渠㌩\nPayment of Minimum Rates of Wages and Overtime: It is the duty \nof every employer to pay to every employee engaged in scheduled \nemployment a rate not less than minimum rates of wages as 晩硥搠\nby 湯瑩晩捡瑩潮\u0000and by not making deductions other than those \nprescribed. No employer can pay less than minimum rates of wages \nas 晩硥搠畮摥爠瑨攠䅣琮\u0000For overtime work, the wages are to be paid \nat double the normal rate. However, agriculture labourers are to be \npaid 1½ times the normal rate.\nMaintenance of Registers and Records: The employers covered by \nthe Act have to 晩汥\u0000annual returns in the prescribed form within the \nstipulated time period. They are supposed to maintain a Register for \nOvertime, a Register of Wages, a Muster Roll and also issue wage \nslips to their employees. (Section 18)\nPenal Provisions: For breach of provisions of the Act, the employer \nis punishable with imprisonment up to six months and/or a 晩湥\u0000up \nto `500. (Section 22)\nEQUAL REMUNERATION ACT, 1976\nObject and Applicability of the Act: The key object of this Act is to \nprovide for the payment of equal remuneration to men and women \nworkers and for the prevention of discrimination, on the grounds \nof sex, against women in the matter of employment and for matters \nconnected therewith or incidental thereto.\nBrief Legislative History of the Act: Article 39 of Constitution \nenvisages that the State shall direct its policy, among other things, \ntowards securing that there is equal pay for equal work for both \nmen and women. To give effect to this constitutional provision,",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 23,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 23,
+          "layout": "text",
+          "text": "16 \nIndia: Handbook of Labour\nthe President promulgated, on 26 September 1975, the Equal \nRemuneration Ordinance, 1975, so that the provisions of Article \n39 of the Constitution may be implemented in the year that was \nbeing celebrated as the International Women’s Year. The Ordinance \nprovided for payment of equal remuneration to men and women \nworkers for the same work or work of similar nature and for the \nprevention of discrimination on grounds of sex.\nImportant 䑥晩湩瑩潮猠under the Act: \n• Remuneration: As per section 2(g) of the Act ‘remuneration’ \nmeans the basic wage or salary and any additional emoluments \nwhatsoever payable, either in cash or in kind, to a person \nemployed in respect of employment or work done in such \nemployment, if the terms of the contract of employment, express \n潲⁩浰汩敤Ⱐ睥牥⁦畬晩汬敤⸠\n• Same Work or Work of a Similar Nature: As per section 2(h) \nof the Act, ‘Same Work or Work of a Similar Nature’ means \nwork in respect of which the skill, efforts and responsibilities \nrequired are the same, when performed under similar working \nconditions, by a man or a woman and the differences, if any, \nbetween the skill, effort and responsibility required of a man \nand those required of a woman are not of practical importance \nin relation to the terms and conditions of employment.\nRecruitment without any Prejudice: Section 5 of the Act provides \nthat while making recruitment for the same work or work of a similar \nnature, or in any condition of service subsequent to recruitment \nsuch as promotions, training or transfer, no employer shall make \nany discrimination against women except where the employment of \nwomen in such work is prohibited or restricted by or under any law \nfor the time being in force. As per Section 8, it is the duty of every \nemployer to maintain registers and other documents in relation to \nthe workers employed by him in the prescribed manner.\nPenal Provisions: Under the Act there is provision for penalty \nfor making any recruitment in contravention of the provisions of \nthis Act; making any payment of recruitment at unequal rates to \nmen and women workers for the same work or work of a similar",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 24,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 24,
+          "layout": "text",
+          "text": "Labour Laws for Informal Sector Workers in India \n17\nnature; making any discrimination between men or women \nworkers in contravention of the provisions of this Act; and any \nomission or failure on the part of the employer to carry out any \ndirections made by the appropriate government. The offences \nunder the Act attract penalty in terms of 晩湥猠up to ` 10,000 or/\nand imprisonment of one month. (Section 10)\nINTER-STATE \nMIGRANT \nWORKMAN \n(REGULATION \nOF \nEMPLOYMENT AND CONDITIONS OF SERVICE) ACT, 1979\nObject and Applicability of the Act: The main object of the Act \nis to regulate the employment of inter-state migrant workmen, to \nsafeguard their interests, and to provide for their conditions of \nservice and for matters connected therewith. The provisions of the \nAct are applicable to every establishment in which 晩癥\u0000or more \ninter-state workmen are employed or were employed on any day \nof the preceding 12 months and to every contractor who employs \nor employed 晩癥\u0000or more inter-state migrant workmen on any day \nof the preceding 12 months. The Act also provides for registration \nof the establishments employing inter-state migrant workmen and \nlicences for the contractors.\nRegistration and Licence: Every principal employer of an \nestablishment employing or intending to employ 晩癥\u0000or more interstate migrant workers has to make an application to the registering \n潦晩捥爠\nappointed under the ISMW (RE & CS) Act in the prescribed \nform and on payment of prescribed fee for the registration of the \nestablishment within the stipulated time limit. Similarly, every \ncontractor intending to recruit 晩癥\u0000or more persons from one state \nfor the purpose of employing them in any establishment situated \nin another state has to obtain a licence from the licencing 潦晩捥爠\nappointed under the Act. The licence issued to contractors under the \nAct normally contains conditions including, in particular, the terms \nand conditions of the agreement or other arrangements under which \nthe workmen will be recruited, the remuneration payable, hours of \nwork, 晩硡瑩潮\u0000of wages, and other essential amenities in respect of \nthe inter-state migrant workers as the appropriate government may \ndeem 晩琠\nto impose in accordance with the rules; the licence is issued \non payment of such fees as may be prescribed.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 25,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 25,
+          "layout": "text",
+          "text": "18 \nIndia: Handbook of Labour\nDisplacement Allowance: As per the Act, this allowance has to be \npaid by the contractor to every inter-state migrant workman at the \ntime of recruitment equal to 50% of the monthly wages payable to him.\n(Section 14)\nJourney Allowance: A journey allowance of a sum of not less \nthan the fare from the place of residence of the inter-state migrant \nworkman in his state to the place of work in the other state has to \nbe paid by the contractor to the workman both for the outward and \nreturn journeys and such a workman is entitled to payment of wages \nduring the period of such journeys as if he was on duty. (Section \n15)\nPenal Provisions: The penalty for offences committed under the \nAct by the defaulters is imprisonment upto one year or a 晩湥\u0000upto \n` 1,000 or both. In case the offence continues, there is a provision \nfor additional 晩湥\u0000upto ` 100 for each day during which the \n捯湴牡癥湴楯湳⁣潮瑩湵攠慦瑥爠瑨攠晩牳琠捯湶楣瑩潮\u0000CONTRACT LABOUR (REGULATION AND ABOLITION) ACT, \n1970\nObject and Applicability of the Act: The object of the Contract \nLabour (Regulation and Abolition) Act, 1970, is to prevent \nexploitation of contract labour and to introduce better conditions \nof work for them. As per the Act, a workman is deemed to be \nemployed as ‘contract labour’ when he is hired in connection \nwith the work of an establishment by or through a contractor. \nThe Act applies to the principal employer of an establishment and \nthe contractor who employs 20 or more workmen or employed \n20 or more workmen as contract labour even for a single day \nduring the preceding 12 months. For the purpose of calculating \nthe number, contract labourers employed for different purposes \nthrough different contractors have to be taken into consideration \nas far as the principal employer is concerned. This Act does not \napply to establishments where work performed is of intermittent \nor seasonal nature. If a principal employer or the contractor falls \nwithin the purview of this Act then such principal employer and \nthe contractor have to apply for registration of the establishment \nand licence respectively.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 26,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 26,
+          "layout": "text",
+          "text": "Labour Laws for Informal Sector Workers in India \n19\nWelfare Measures to be taken by the Contractor: The contractors \ncovered under the Act have to provide: canteen facility (if workers \nare 100 or more); 晩牳琠aid facilities; restrooms; drinking water, \nlatrines and washing facilities.\nLiability of Principal Employer: If the contractor fails in his \nresponsibilities, the principal employer has to ensure provision for \ncanteen, restrooms, 獵晦楣楥湴\u0000supply of drinking water, latrines, \nurinals and washing facilities, etc. However, the principal employer \nis entitled to recover the expenses incurred from the contractor \nfor providing such amenities or to make deductions from amount \npayable. The principal employer is also obliged to maintain a register \nof contractor(s) in respect of every establishment in the prescribed \nform.\nRecords and Registers to be Maintained by the Contractor: Every \ncontractor covered under the Act is obliged to maintain a Muster Roll \nand a Register of Wages in Form XVI and Form XVII respectively \nwhen combined; Register or Wage-cum-Muster Roll in prescribed \nForm; Register of Deductions for damage or loss; Register of Fines; \nRegister of Advances; and Register of Overtime. The contractor \nis also obliged to issue wage slips to the workmen at least a day \nprior to the disbursement of wages; obtain the signature or thumb \nimpression of the worker concerned against the entries relating to \nhim on the Register of Wages or Wage-cum-Muster Roll; display \nan abstract of the Act and rules in English and Hindi and in the \nlanguage spoken by the majority of workers in such forms as may \nbe approved by the appropriate authority; display notices showing \nrates of wages, hours of work, wage period, dates of payment, names \nand addresses of the inspector and send a copy to the inspector of \nany change forthwith; issue an employment card to each worker in \nprescribed form; and issue service 捥牴楦楣慴攠\nto every workman on \nhis termination in prescribed form.\nPenal Provisions: The Act provides that if the principal employer, \ncovered under the Act, fails to get himself/herself registered under \nthe Act, he/she cannot employ contract labour. For contravention \nof the provisions of the Act or any rules under the Act, there is \na provision of punishment in the form of imprisonment for a",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 27,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 27,
+          "layout": "text",
+          "text": "20 \nIndia: Handbook of Labour\nmaximum term up to three months or a 晩湥\u0000up to a maximum of \n` 1,000 or both; and in the case of a continuing contravention an \nadditional 晩湥\u0000will be levied which may extend to ` 100 for every \nday during which such contravention continues after conviction for \n瑨攠晩牳琠獵捨⁣潮瑲慶敮瑩潮\u0000BEEDI AND CIGAR WORKERS (CONDITIONS OF \nEMPLOYMENT) ACT, 1966\nObject and Applicability of the Act: This Act provides for the \nwelfare of the workers employed in beedi and cigar establishments. \nIt regulates the conditions of work of workers engaged in this \nindustry, and also makes provisions regarding other facilities like \ndrinking water, latrines, urinals, washing facilities, creches, 晩牳琠\naid and canteen facilities, etc. The Act also seeks to safeguard the \ninterests of home-based beedi workers’ to the extent possible.\nLicence and Renewal of Licence: Any person who intends to use \nor allows to be used any place or premises as industrial premises \nfor manufacturing of beedi or cigar or any other connected activity \nis obliged to make an application in writing to the competent \nauthority, in such form and on payment of such fees as may be \nprescribed. The application has to specify the maximum number \nof employees proposed to be employed at any time of the day \nin the place or premises. It has also to be accompanied by a plan \nof the place and premises prepared in the prescribed manner. A \nlicence granted under this section remains valid till the end of \nthe 晩nancial year in which it is granted but may be renewed from \n晩湡湣楡氠\nyear to 晩湡湣楡氠\nyear. An application for the renewal of \na licence granted under this Act has to be made at least 30 days \nbefore the expiry of the period of licence. (Section 4)\nPenal Provisions: Obstruction to the inspector under the Act or \nfailure on the part of any person to produce on demand by the \ninspector any register or other document kept in his custody in \npursuance of this Act is punishable with imprisonment for a term \nwhich may extend to six months or with a 晩湥\u0000which may extend to \n` 5,000 or with both. Contravention of any of the other provisions of \nthe Act or rule, or failure to pay the wages etc., is punishable for the \n晩牳琠潦晥湣攠睩瑨⁡⁦楮攠睨楣栠浡礠數瑥湤⁴漠\n` 250 and for a second",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 28,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 28,
+          "layout": "text",
+          "text": "Labour Laws for Informal Sector Workers in India \n21\nor subsequent offence with imprisonment for a term which shall \nnot be less than one month and more than six months or with a 晩湥\u0000which shall not be less than `100 or more than ` 500 or with both. \n(Sections 32 & 33)\nBUILDING AND OTHER CONSTRUCTION WORKERS \n(REGULATION OF EMPLOYMENT & CONDITIONS OF \nSERVICE) ACT, 1996\nObject and Applicability of the Act: The BOCW (RE&CS) Act \nprovides for regulating the employment and conditions of service \nof building and other construction workers and also provides for \ntheir safety, health and welfare measures and other connected \nmatters. The Act applies to every establishment, belonging to \nor under the control of government, any corporate or 晩牭Ⱐan \nindividual or association or other body of individuals which or who \nemploys building workers in any building and other construction \nwork, and includes an establishment belonging to a contractor \nwhich employs, or had employed on any day of the preceding \n12 months, 10 or more building workers in any building or other \nconstruction work. However, it does not include an individual who \nemploys such workers in any building or construction in relation \nto his residence if the total cost of the construction is not more than\n`10 lakhs.\nResponsibility and Liability of Employer under the Act: The \nAct makes it mandatory for every employer to give notice of \ncommencement of any building or other construction work at least \n30 days before the commencement of building and construction \nactivity with complete details, including nature of the work involved, \nnumber of workers likely to be employed, approximate duration of \nthe work, and the arrangement for the storage of the explosives to \nbe used in the building or other construction work.\nEvery employer is further required to get his/her establishment \nregistered within 60 days from commencement of building or \nconstruction activity carried out by it or from the date on which this \nAct becomes applicable to such establishment.\nEmployers covered under the Act are also responsible for payment \nof wages to each building worker employed by them, providing",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 29,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 29,
+          "layout": "text",
+          "text": "22 \nIndia: Handbook of Labour\nweekly paid rest; wages for overtime; basic welfare amenities like \ncreches, 晩牳琠\naid, canteen etc., as provided under the Act. Every \nemployer covered under the Act is also required to pay a cess of \n1% of the cost of construction to the Building & Other Construction \nWorkers Welfare Board of the concerned state.\nWelfare Boards: Every state government is obliged to constitute \na Board to be known as the (name of the state) Building & Other \nConstruction Workers Welfare Board to exercise the powers \nconferred on it, and perform the functions assigned to it, under the \nBOCW (RE&CS) Act. The functions of the welfare boards are:\n• \nto provide immediate assistance to a 扥湥晩捩慲礠in case of an \naccident\n• \nto make payment of pension to 扥湥晩捩慲楥猠\nwho have completed \nthe age of 60 years\n• \n瑯⁳慮捴楯渠汯慮猠慮搠慤癡湣敳⁴漠愠扥湥晩捩慲礠\nfor construction \nof a house not exceeding such amount and on such terms and \nconditions as may be prescribed\n• \nto pay such amount in connection with the premium for group \n楮獵牡湣攠獣桥浥⁯映瑨攠扥湥晩捩慲楥猠慳⁩琠浡礠扥⁤敥浥搠晩\u0000• \nto give such 晩湡湣楡氠\nassistance for the education of children of \n瑨攠扥湥晩捩慲楥猠慳⁭慹⁢攠灲敳捲楢敤\n• \nto meet such medical expenses for treatment of major ailments \n潦⁡⁢敮敦楣楡特⁯爠獵捨⁡⁤数敮摥湴⁡猠浡礠扥⁰牥獣物扥\u0000• \nto make payment of maternity 扥湥晩琠to the female \n扥湥晩捩慲楥\u0000• \nto make provision and improvement of such other welfare \nmeasures and facilities as may be prescribed\nWelfare Fund: Constituted by the Board, the welfare fund—known \nas the Building and Other Construction Workers’ Welfare Fund—\ncarries out various activities for the welfare of the building and \nconstruction workers registered as 扥湥晩捩慲楥猠\nunder the Act. \nCredited to this fund are: (a) any grants and loans made to the \nBoard by the central government; (b) all contributions made by the \n扥湥晩捩慲楥猻\u0000(c) all sums received by the Board from such other \nsources as may be decided by the central government.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 30,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 30,
+          "layout": "text",
+          "text": "Labour Laws for Informal Sector Workers in India \n23\nEnforcement: The Act is enforced by the organisation of the Chief \nLabour Commissioner (s) in the central sphere and 潦晩捩慬猠\nof the \nLabour Department of the concerned state.\nPenal Provisions: Contravention of the provisions of the BOCW (RE \n& CS) Act and the rules under it is punishable with imprisonment for \na term which may extend to three months, or with a 晩湥\u0000which may \nextend to `2,000, or with both. A continuing contravention under \nthe Act attracts an additional 晩湥\u0000which may extend to `100 for each \nday during which such contravention continues after conviction for \nthe 晩牳琠\nsuch contravention. If any person who has been convicted \nof any offence punishable under the Act is again found guilty of an \noffence involving a contravention of the same provision, s/he shall \nbe punishable on a subsequent conviction with imprisonment for \na term which may extend to six months, or with a 晩湥\u0000which shall \nnot be less than `500 but which may extend to `2,000, or with both.\n(Sections 47-50)\nMATERNITY BENEFIT ACT, 1961\nObject and Applicability of the Act: The prime object of this Act is \nto protect the dignity of motherhood and to provide certain 扥湥晩瑳\u0000to women employees at the time of childbirth. The Act is applicable \nto all women employees, whether employed directly or through a \ncontractor, in mines, factories, plantations and in other establishments \nif the state government so decides. The Act is also applicable to every \nshop or establishment in which 10 or more persons are employed. As \nper the Act, any pregnant working woman is entitled to maternity \nleave. She is entitled to avail six weeks of leave before the due date \nof expected delivery and six weeks after the child’s birth. Even in \nthe case of miscarriage or abortion, a woman covered under the Act \ncan avail six weeks’ leave. \nImportant Provisions of the Act: Some of the main provisions of the \nAct are as follows:\n• No employer can knowingly employ a woman in any \nestablishment during the six weeks immediately following the \nday of her delivery or her miscarriage. Also, no woman is allowed \nto work in any establishment during the six weeks immediately \nfollowing the day of her delivery or her miscarriage.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 31,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 31,
+          "layout": "text",
+          "text": "24 \nIndia: Handbook of Labour\n• Every woman covered under the Act is entitled to, and her \nemployer is liable for, the payment of maternity 扥湥晩琠at the \nrate of the average daily wage for the period of her actual absence \nimmediately preceding and including the day of her delivery \nand for the six weeks immediately following that day.\n• No woman is entitled to maternity 扥湥晩琠\nunless she has actually \nworked in an establishment of the employer from whom she \nclaims maternity 扥湥晩琬\u0000for a period of not less than 80 days in \nthe 12 months immediately preceding the date of her expected \ndelivery.\n• The maximum period for which any woman is entitled to \nmaternity 扥湥晩琠is 12 weeks, i.e. six weeks up to and including \nthe day of her delivery and six weeks immediately following \nthat day.\n• No deduction from the normal and usual daily wages of a \nwoman entitled to maternity 扥湥晩琠shall be made by reason \nonly of: (i) the nature of work assigned to her by virtue of the \nprovisions of the Act; or (ii) breaks for nursing the child allowed \nto her under the provisions of the Act. \n• If a woman works in any establishment after she has been \npermitted by her employer to absent herself for any period, \nduring such authorised absence, she shall forfeit her claim to the \n浡瑥牮楴礠扥湥晩琠景爠獵捨⁰敲楯搮\nPenal Provisions: For breach of the provisions of the Act, the \nemployer is punishable with imprisonment up to one year and/or \n晩湥⁮潴⁥硣敥摩湧\u0000`5,000. (Section 21)\nEMPLOYEES’ COMPENSATION ACT, 1923\nObject, Applicability and Coverage of the Act: Earlier known as \nthe Workmen’s Compensation Act, this Act was enacted as a kind \nof social security measure for workmen who suffer employment \ninjury, occupational disease, etc. The Act is applicable to employers \nemploying categories of employees listed in Schedule II of the Act \nand 摥晩湥搠as ‘employee’ under Section 2 (1)(dd) of the Act and to \nwhom the Employees’ State Insurance (ESI) Act is not applicable. \nIt is applicable to all such employees irrespective of their status or \nsalaries and engaged either directly or through a contractor or a \nperson recruited to work abroad.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 32,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 32,
+          "layout": "text",
+          "text": "Labour Laws for Informal Sector Workers in India \n25\nEligibility: Any employee who is injured by an accident arising out \nof and in the course of his employment, or contracts any occupational \ndisease peculiar to his occupation, is eligible for various 扥湥晩瑳\u0000under the Act.\n䉥湥晩瑳㨠In case of death resulting from injury, 50% of monthly \nwages multiplied by (X) relevant factor or `1,20,000, whichever is \nmore; in case of permanent total disablement resulting from the \ninjury, 60% of monthly wages multiplied by relevant factor or \n`1,40,000, whichever is more; where permanent, partial disablement \nor temporary disablement results from injury, as per prescribed \nschedule, and in case of death, funeral expenses of `5,000. The \nrelevant factor is based on the age of employee. For the purpose of \ncalculation of compensation, at present the monthly salary ceiling is \n`8,000. In the event of death or in the event of any dispute relating \nto compensation, the compensation has to be deposited with the \nCommissioner within one month.\nWhen an Employee is not Entitled to Compensation: An employee \nis not entitled to compensation in respect of any injury which results \nin the total or partial disablement of the workman for a period not \nexceeding three days; or in respect of any injury not resulting in \ndeath or permanent total disablement caused by an accident which \nis directly attributable to the employee having been at the time under \nthe 楮晬略湣攠of drink or drugs, wilful disobedience of the employee \nto an order expressly given, or to a rule expressly framed, for the \npurpose of securing the safety of the employee, or wilful removal \nor disregard by the employee of any safety guard or other device \nwhich he knew to have been provided for the purpose of securing \nthe safety of employees.\nBars: Under the Act, relinquishment by any employee of his right for \npersonal injury is not permissible. Further, when a person is entitled \nto any of the 扥湥晩瑳\u0000provided by this Act, he shall not be entitled to \nreceive any similar 扥湥晩琠admissible under the provisions of any \nother enactment.\nPenal Provisions: There is a provision for penalty under the Act for \nfailure on the part of the employer to (a) to maintain a Notice-book \nwhich he is required to maintain under Sub-section (3) of Section \n10, (b) failure to send to the Commissioner a statement which he is",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 33,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 33,
+          "layout": "text",
+          "text": "26 \nIndia: Handbook of Labour\nrequired to send under Sub-section (1) of Section 10A, (c) failure to \nsend a report which he is required to send under Section 10B, and (d) \nfailure to make a return which he is required to make under Section \n16 of the Act. The above failures on the part of the employer are \n灵湩獨慢汥⁷楴栠愠晩湥⁷桩捨⁭慹⁥硴敮搠瑯\u0000`5,000. (Section 18A)\nOTHER LEGISLATIVE PROVISIONS\nIn addition to the above mentioned Acts, there are also some other \nlegislations such as the Employees’ State Insurance Act, 1948; \nEmployees’ Provident Funds Miscellaneous Provisions Act, 1952; \nand a number of state-speci晩c labour legislations such as Shop & \nEstablishment Acts of various state governments which are also \napplicable to workers in the informal sector subject to ful晩lment of \ncertain conditions. In addition, the states of Kerala and Tripura also \n桡癥⁳瑡瑥⵳灥捩晩挠汥杩獬慴楯渠景爠慧物捵汴畲攠睯牫敲献\nCONCLUSION\nThe above discussion clearly reveals that India has a very \ncomprehensive legislative framework for addressing the various \nlabour and social security issues of the workers in the informal sector. \nHowever, having provisions alone is not enough; it is necessary to \nrationalise the provisions in the context of transformations in the \nlabour scenario so that they are in consonance with the needs of the \ncontemporary world of work. A beginning in this regard has already \nbeen made by the present government by initiating the process of \namalgamation and 捯摩晩捡瑩潮\u0000of a large number of labour laws \ninto 晩癥\u0000labour codes. Additionally, a strong awareness campaign \nis essential to educate the large numbers of 扥湥晩捩慲楥猠\nof various \nActs and familiarise them with their entitlements and obligations. \nFinally, an effective enforcement mechanism needs to be put in place \nto translate the various lofty ideals into reality to provide relief and \nsuccour to the teeming millions in the vast informal sector.\nAcknowledgements:\nThe author gratefully acknowledges the support provided by Dr. \nKavita Surabhi, Research Associate, for arranging the relevant \ninformation and Mr. Vikrant and Ms. Kusum Balooni, Computer \nOperators, for computer assistance for this write-up.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 34,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 34,
+          "layout": "text",
+          "text": "Social Security and Rural Labour\nDr. Poonam S. Chauhan*\nRural labourers constitute the largest segment of the labour force in \nthe country. They are also the most vulnerable group in rural society. \nThey lack virtually all productive assets, like land, capital, skills, \naccess to credit, etc. In most cases they are absolutely dependent \nupon the landed classes. Being unorganised, their bargaining \ncapacity is marginal, which leads to their ruthless exploitation by \nmoneylenders, landlords, rich capitalist farmers and middlemen. \nBesides, rural labourers are constituted largely by people belonging \nto socio-economically oppressed classes like the Scheduled Castes, \nScheduled Tribes and Other Backward Classes. They are not a \nhomogeneous group: some of them are free, some are attached and \nstill many of them are bonded. However, they have one thing in \ncommon: they are deprived of even basic minimum facilities for \n瑨敩爠摩杮楦楥搠數楳瑥湣攮\u0000In order to protect rural labour, the government has recently \nlaunched a number of social security programmes, namely, Atal \nPension Yojana, Pradhan Mantri Jan-Dhan Yojana, Pradhan Mantri \nSuraksha Bima Yojana, Pradhan Mantri Jeevan Jyoti Bima Yojana \nand Pradhan Mantri Krishi Sinchai Yojana. In addition, there are a \nsizeable number of programmes with social security components \nin operation. Of them, the Mahatma Gandhi National Rural \nEmployment Guarantee Act, 2005, Rashtriya Swasthya Bima Yojana \n(RSBY) and the Unorganised Workers Social Security Act, 2008, \nare the most prominent. There are also several social assistance \nprogrammes for senior citizens, differently abled persons and \nwidows. The central government also provides for the social security \nneeds of 晩獨\u0000workers, beedi workers, artisans and other groups of \nrural workers.\nGiven below are details of the leading programmes, including the \nnames of the agencies through which the programmes are accessed \n批⁴桥⁢敮敦楣楡物敳\u0000* \nSenior Fellow, V.V. Giri National Labour Institute; Email: poonamchauhan36@gmail.\ncom",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 35,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 35,
+          "layout": "text",
+          "text": "28 \nIndia: Handbook of Labour\nMAHATMA GANDHI NATIONAL RURAL EMPLOYMENT \nGUARANTEE ACT\nMahatma Gandhi National Rural Employment Guarantee Act \n(MGNREGA) is one of the 晬慧獨楰\u0000programmes of the Government \nof India (GoI) that directly touches the lives of the poor and promotes \ninclusive growth. The Act aims at enhancing livelihood security of \nthe rural poor by guaranteeing 100 days of wage employment in \na 晩湡湣楡氠year to every rural household whose adult members \nvolunteer to do unskilled manual work.\nImplemented by the Ministry of Rural Development from 2 February \n2006, this Act initially covered 200 of the most backward districts of \nthe country; it was extended in two phases to cover all remaining \ndistricts of the country. \nThe salient features of MGNREGA are:\n• At least 100 days of wage employment is assured to adults in \nevery rural household who volunteer to do unskilled manual \nwork.\n• Households have to apply for registration to the local Gram \nPanchayat, in writing or orally.\n• The Gram Panchayat, after due 癥物晩捡瑩潮Ⱐ\nissues a Job Card to \nthe household. The Job Card bears the photographs of all adult \nmembers of the household willing to work under MGNREGA \nand is provided to the eligible household free of cost.\n• A registered household may submit a written application \nfor employment to the Gram Panchayat, stating the time and \nduration for which work is sought.\n• Applications for work must be for at least 14 days or continuous \nwork, except for work relating to ‘access to sanitation facilities’, \nfor which applications must be for at least six days of continuous \nwork.\n• The Gram Panchayat is to issue a dated receipt of the valid \napplication for employment.\n• Employment is required to be provided within 15 days of receipt \nof an application or from the date work is sought in case of \nadvance application, whichever is later.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 36,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 36,
+          "layout": "text",
+          "text": "Social Security and Rural Labour \n29\n• If employment is not provided within 15 days, daily \nunemployment allowance has to be paid. States are liable to pay \nsuch unemployment allowances.\n• At least one-third of persons to whom work is allotted have to be \nwomen.\n• Disbursement of wages has to be done on weekly basis and not \ndelayed beyond a fortnight.\n• Panchayat Raj Institutions (PRIs) have been assigned a central \nrole in planning and implementation.\n• Each district is required to prepare a shelf of projects to meet the \ndemand for work. \nNATIONAL SOCIAL ASSISTANCE PROGRAMME\nThe Directive Principles of State Policy in the Constitution of India \nenjoin upon the State to undertake within its means a number of \nwelfare measures. Article 41 of the Constitution of India directs \nthe State to provide public assistance to its citizens in case of \nunemployment, old age, sickness and disablement and in other \ncases of undeserved want within the limit of its capacity. It is in \naccordance with these principles that the GoI on 15 August 1995 \nintroduced the National Social Assistance Programme (NSAP) in \nthe central budget for 1995-96. \nNSAP is a social assistance programme for the aged, widows and \ndisabled in Below the Poverty Line (BPL) households, and also \nincludes provision for one-time assistance in the case of death of the \nprimary breadwinner in a BPL family. \nThe scheme has the following components: \n• Indira Gandhi National Old Age Pension Scheme (IGNOAPS): \nAssistance of ` 200 per month is provided to BPL persons in the \nage group of 60-79 years and ` 500 per month to those above 80 \nyears of age.\n• Indira Gandhi National Widow Pension Scheme (IGNWPS): \nIntroduced in 2009, it provides assistance of ` 300 per month \nto widows in the age group of 40-79 years belonging to BPL",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 37,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 37,
+          "layout": "text",
+          "text": "30 \nIndia: Handbook of Labour\nhouseholds. After attaining the age of 80 years, the 扥湥晩捩慲礠\nis \nshifted to IGNOAPS for the pension of ` 500 per month.\n• Indira Gandhi National Disability Pension Scheme (IGNDPS): \nUnder this scheme introduced in 2009, assistance of ` 300 per \nmonth is provided to persons with severe or multiple disabilities \nbelonging to BPL households in the age group of 18-79 years. \nAfter attaining the age of 80 years, the 扥湥晩捩慲礠is shifted to \nIGNOAPS for the pension of ` 500 per month.\n• National Family 䉥湥晩琠Scheme (NFBS): One-time assistance of \n` 20,000 is provided to the bereaved BPL family in the case of death \nof the primary breadwinner in the age group of 18-59 years.\n• Annapurna: Under Annapurna, 10 kgs of food grains per month \nis provided free of cost to the 扥湥晩捩慲楥猠\nwho are eligible but \nnot covered under the erstwhile old age pension scheme. \nJANANI SURAKSHA YOJANA\nThis scheme seeks to reduce neonatal and maternal deaths in the \ncountry by promoting institutional delivery among poor pregnant \nwomen. Janani Suraksha Yojana (JSY) has 楤敮瑩晩敤\u0000accredited \nsocial health activists (ASHAs) as an effective link between the \ngovernment and poor pregnant women in achieving its goal. Their \nmain role is to facilitate pregnant women in availing maternal care \nservices and arranging referral transport.\nThe scheme categorises states into Low Performing States (LPS) and \nHigh Performing States (HPS) based on institutional delivery rates. \nTen states with a low institutional delivery rate, i.e. Uttar Pradesh, \nUttarakhand, Bihar, Jharkhand, Madhya Pradesh, Chhattisgarh, \nOdisha, Rajasthan, Assam and Jammu & Kashmir, are termed LPS \nand given special 扥湥晩瑳\u0000under the scheme. The remaining states \nare termed HPS.\n䉥湥晩瑳㨠\n• LPS: All women, including those from SC and ST families, are \neligible for assistance in government health centres like PHC/\nCHC/PRU/general wards of district and state hospitals, and \naccredited private institutions. All deliveries are to occur in a",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 38,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 38,
+          "layout": "text",
+          "text": "Social Security and Rural Labour \n31\nhealth centre—a government one or an accredited private health \ninstitution.\n• HPS: BPL pregnant women, aged 19 years and above, and SC \nand ST pregnant women are eligible for assistance under this \nscheme. Upto two live births are eligible for 扥湥晩瑳\u0000under this \nscheme in HPS. \nScale of Assistance: \nMother’s Package\nASHA’s Package\nRural Areas\nLPS\n1,400\n600\nHPS\n700\n-\nUrban Areas\nIn LPS\n1,000\n250\nIn HPS\n600\n-\n• \nThe government is not responsible for the 扥湥晩捩慲禒猠\ndelivery \ncosts. She has to bear the cost when choosing to go to an accredited \nprivate institution for delivery. She only gets her entitled cash \n(as elaborated in the table above).\n• \nCash assistance is given for referral transport for a pregnant \nwoman to go to the nearest health centre for delivery depending \non the topography and infrastructure available in her state. It \nwould, however, be the duty of the ASHA and the Auxiliary \nNurse Midwife (ANM) to organise, or facilitate in organising, the \ntransport in conjunction with the Gram Pradhan, Gram Sabha.\n• \nThe balance amount is to be paid to the ASHA for services \nrendered by her.\n• \nCost of caesarean section or the management of obstetric \ncomplications is subsidised upto `1,500 per delivery to the \ngovernment institution, where government specialists are not in \nposition.\nThe scheme is being implemented through the following \nstakeholders:\n• \nState governments through Public Health System\n• \nASHAs and ANMs\n• \nGram Panchayats",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 39,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 39,
+          "layout": "text",
+          "text": "32 \nIndia: Handbook of Labour\nRASHTRIYA SWASTHYA BIMA YOJANA\nLaunched in 2008, Rashtriya Swasthya Bima Yojana (RSBY) proposes \nto cover all unorganised workers’ families in 晩癥\u0000years. State nodal \nagencies implement the scheme through insurance companies \ninvolving village Panchayats and local bodies. This is an insurance \nscheme in which workers, the central government and the state \ngovernments share a proportion of premium.\nPremium:\n• The GoI bears 75% of the total annual premium of ` 750, subject \nto a maximum of ` 565 per family per annum. The cost of Smart \nCards is also borne by the central government\n• State governments contribute 25% of the annual premium, as \nwell as any additional premium\n• The 扥湥晩捩慲礠pays ` 30 per annum as registration/renewal \nfee\n• The administrative and other related costs are borne by the \nrespective state governments\n䉥湥晩瑳\u0000• Health insurance cover of ` 30,000\n• Cashless attendance for all covered ailments\n• Hospitalisation expenses, taking care of most common illnesses \nwith as few exclusions as possible\n• All pre-existing diseases to be covered\n• Transportation costs ` 100 per visit, with a maximum of ` 1,000, \nreimbursed\nHANDLOOM WEAVERS’ COMPREHENSIVE WELFARE \nSCHEME\nDuring 2005-06 and 2006-07, the GoI had two separate schemes for \nhandloom workers, i.e. the Health Insurance Scheme for providing \nhealth care facilities to handloom weavers in the country and the \nMahatma Gandhi Bunkar Bima Yojana for providing life insurance \ncover to handloom weavers in case of natural/accidental death and",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 40,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 40,
+          "layout": "text",
+          "text": "Social Security and Rural Labour \n33\ntotal/partial disability due to accident. During the 11th Plan, both \nschemes were amalgamated into one—the Handloom Weavers’ \nComprehensive Welfare Scheme. \nThe scheme covers the weaver, wife and two children. Ancillary \nhandloom workers like those engaged in warping, winding, dyeing, \nprinting, 晩湩獨楮本\u0000sizing, jhola making, jacquard cutting, etc. are \nalso eligible for it. The scheme covers all pre-existing diseases as \nwell as new diseases and a substantial provision has been kept for \nOPD. The annual limit per family is ` 15,000 out of which the OPD \ncover is ` 7,500. The handloom weavers’ scheme is implemented \nthrough the ICICI Lombard General Insurance Company Ltd.\nPremium:\n• The premium of ` 781.60 comprises GoI contribution of 80% and \nthe weavers’ contribution of 20%.\n• The weaver has to pay a minimum of ` 50. The state government \n楳⁦牥攠瑯⁰牯癩摥⁡摤楴楯湡氠慳獩獴慮捥⁴漠晩汬⁴桥⁧慰⸠\n䉥湥晩瑳\u0000• Annual limit per family (1+3 sub-limits per family): \n15,000 \n• All pre-existing diseases + new disease: \n15,000\n• 䵡瑥牮楴礠扥湥晩瑳 灥爠捨楬搠景爠瑨攠晩牳琠瑷漩\u0000 \n2,500\n• Dental treatment: \n250\n• Eye treatment: \n75\n• Spectacles: \n250\n• Domiciliary hospitalisation: \n4,000\n• Ayurvedic/Unani/Homeopethic/Siddha: \n4,000\n• Hospitalisations (including pre and post): \n15,000\n• Baby coverage: \n500\n• OPD: \n7,500\n• Limit per illness: \n7,500\nMAHATMA GANDHI BUNKAR BIMA YOJANA\nThe Mahatma Gandhi Bunkar Bima Yojana is being implemented \nthrough the Life Insurance Corporation of India at an annual",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 41,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 41,
+          "layout": "text",
+          "text": "34 \nIndia: Handbook of Labour\npremium of ` 330 per annum of which the 扥湥晩捩慲礠\ncontributes \nonly ` 80 per year. The 扥湥晩瑳\u0000provided are (i) Natural death \n` 60,000; (ii) Accidental death ` 1,50,000; (iii) Total disability\n` 1,50,000; (iv) Partial disability ` 75,000. Apart from this, there is \nalso a provision of scholarship of ` 300 per quarter for the children \nof weavers in school, from IX to XII standards.\nPENSION TO MASTER CRAFTS-PERSONS\nMaster crafts-persons of the age of 60 years or more who are \nrecipients of National Awards or Merit 䍥牴楦楣慴攠\nor State Awards in \nhandicrafts, whose private income is less than ` 15,000 per year, and \nwho are not in receipt of similar 晩湡湣楡氠\nassistance from any other \nsource are eligible for this scheme. They are provided a pension at the \nrate of ` 1,000 per month. The scheme is being implemented through \nthe 晩敬搠潦晩捥猠of the Development Commissioner (Handicrafts), \nMinistry of Textiles, GoI.\nNATIONAL SCHEME OF WELFARE OF FISHERMEN \nThe scheme is aimed at providing basic amenities like housing, \ndrinking water, etc. and facilitating the process of enhancing the \nliving standards of 晩獨敲\u0000folk in the country. Sub-schemes under \nthis include Development of Model Fishermen Villages, Group \nAccident Insurance for Active Fishermen, Saving-cum-Relief, and \nTraining & Extension.\nDevelopment of Model Fishermen Villages: A sum of ` 50,000 each \nis provided for developing model houses in 晩獨楮朠villages. The \nCabinet has approved an enhancement of ` 75,000 per house for the \n12th Plan. An amount of ` 40,000 per tube well in all States (except \nNorth-Eastern states) and Union Territories & ` 45,000 in the NorthEastern states is provided (for tube wells for drinking water). Another \ncomponent is the construction of common workplaces/community \nhalls, 晩獨\u0000processing centres, etc. The 晩湡湣楡氠\nassistance for this is \n` 1,75,000 per hall. There is approval from the Cabinet to enhance \nthe amount of assistance to ` 2,00,000 in the 12th Plan.\nGroup Accident Insurance for Active Fishermen: The extent \nof 扥湥晩琠is `50,000 in case of partial permanent disability and",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 42,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 42,
+          "layout": "text",
+          "text": "Social Security and Rural Labour \n35\n`1,00,000 in case of death/total disability. The Cabinet has approved \nan increase in the amount of 扥湥晩琠in the 12thPlan, to ` 1,00,000 in \ncase of partial permanent disability and ` 2,00,000 in case of death/\ntotal disability.\nSaving-cum-relief Scheme for Fishermen: The existing 晩湡湣楡氠\nassistance under the Saving-cum-Relief Scheme for three months is \n`1,800 (` 600 per month for the three months’ ban period for sea \n晩獨楮本\u0000i.e. July-September). It has been enhanced to `2,700 (`900 \nper month for the ban period) in the 12th Plan.\nTraining & Extension: The scheme provides a stipend of ` 125 per \nday subject to maximum of ` 1,875 per participant for a maximum of \n15 days of training, honorarium of ` 15,000 to authors of handbooks \nand of ` 5,000 to experts for preparation of manuals. An assistance \nfor workshops/seminars of ` 50,000 is also provided. The amount \nof 晩湡湣楡氠assistance for the construction of a training centre is\n` 30 lakh.\nPRADHAN MANTRI JAN-DHAN YOJANA\nPradhan Mantri Jan-Dhan Yojana (PMJDY) is aimed at providing \naccess to 晩湡湣楡氠services, i.e. banking/savings and deposit \naccounts, remittance, credit, insurance and pension, in an affordable \nmanner. The account can be opened in any bank branch or Business \nCorrespondent (Bank Mitra) outlet. PMJDY accounts can be opened \nwith zero balance. However, if the accountholder wishes to get a \n捨敱略⁢潯欬⁨支獨攠睩汬⁨慶攠瑯⁦畬晩氠愠浩湩浵洠扡污湣攠捲楴敲楡\u0000For opening an account, no other documents are required if an \nAadhaar Card/Aadhaar Number is available. Voter ID card, driving \nlicence, PAN card, passport & MGNREGA Card, etc. containing the \naddress can be given as proof of identity and address.\n䉥湥晩瑳\u0000• Interest on deposit\n• Accidental insurance cover of ` 1 lakh\n• No minimum balance required\n• Life insurance cover of ` 30,000",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 43,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 43,
+          "layout": "text",
+          "text": "36 \nIndia: Handbook of Labour\n• Easy transfer of money across India\n• 䉥湥晩捩慲楥猠\nof government schemes can get direct 扥湥晩琠\ntransfer in these accounts\n• After satisfactory operation of the account for six months, an \noverdraft facility will be permitted; overdraft facility up to\n` 5,000 is available in only one account per household, preferably \nthat of the lady of the household\n• Access to pension and insurance products\nATAL PENSION YOJANA\nThe scheme has been designed to provide pensions to workers in \nthe unorganised sector. The 扥湥晩捩慲楥猠\nwill be eligible for the \npension after a minimum 20 years of contribution. The age range of \neligibility for this scheme is 18-40 years; the age of exit and start of \ngetting pension is 60 years. The central government co-contributes \n50% of the total contribution or ` 1,000 per annum, whichever is \nlower, to each eligible 獵扳捲楢敲⁡捣潵湴Ⱐ景爠愠灥物潤⁯映晩癥⁹敡牳⸠\nThe 扥湥晩琠of the scheme is a guaranteed pension of ` 1,000 per \nmonth. The amount of pension may be more, i.e. ` 2,000-5,000, on \nthe basis of the amount deposited in the account.\nPRADHAN MANTRI SURAKSHA BIMA YOJANA\nThe scheme is aimed at providing insurance coverage to people \nin the age group 18-70 years who have a bank account, at a very \nsmall premium of ` 12 per annum. The amount of premium is autodebited by the bank from the subscriber's account; this is the only \nmode available. The scheme provides risk coverage for accidental \ndeath and full disability at the rate of ` 2 lakh; on partial disability \nthe 扥湥晩琠amount is ` 1 lakh. Any person with a bank account \nand Aadhaar Number linked to the bank account can give a simple \nform to the bank every year before 1 June in order to join the \nscheme.\nPRADHAN MANTRI JEEVAN JYOTI BIMA YOJANA\nThis insurance scheme offers a renewable one-year life cover to \npeople in the age group 18–50 years holding saving accounts. The",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 44,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 44,
+          "layout": "text",
+          "text": "Social Security and Rural Labour \n37\ninsurance coverage of ` 2 lakh will be given to the dependents of the \n扥湥晩捩慲楥献⁔桥⁰牥浩畭⁦潲⁴桥⁳捨敭攠楳\u0000` 330 per annum.\nCONCLUSION\nWhile the Government of India has, from time to time, taken \npromising initiatives in terms of social security to help the substantial \npopulation of the economically weaker sections of the society, the \nnationwide scenario indicates that our delivery system has to be \nsensitised, strengthened and made transparent. The poorer sections \nare grossly unaware of government programmes and schemes and \nalso of labour laws; such awareness needs to be instilled among the \nworking population countrywide. It is also vital to provide quality \neducation to workers and their children. Compulsory and free \neducation should be made accessible to poor families on a larger \nscale. Girls’ schools/colleges must be promoted, and illiterate adult \nworkers should be educated through adult education programmes. \nFurther, the poorer workers need to be organised, so that their \nbargaining power is enhanced. Organised bodies of such workers \ncan then be treated as stakeholders in accessing the social security \nentitlements. The delivery agents should thoroughly be sensitised \nand made accountable in delivering the goods honestly and in a \ntimely fashion. Stringent punitive action should be taken against \ncorrupt functionaries.\nREFERENCES\nAtal Pension Yojana, available at <https://npscra.nsdl.co.in/nsdl/schemedetails/APY_Scheme_ Details. pdf> accessed on 02.08.2015.\nGovernment of India (2006), Janani Suraksha Yojana, Ministry of Health and \nFamily Welfare, available at <http://mohfw.nic.in/WriteReadData/l892s/\n晩汥㈸ⴹ㤵㈶㐰㠮灤\nf> accessed on 07.08.2015.\n––––––– Animal Husbandry Schemes, Ministry of Agriculture & Farmers \nWelfare, Department of Animal Husbandry, Dairying & Fisheries, \navailable \nat \n<http://dahd.nic.in/dahd/schemes/animal-husbandary.\naspx> accessed on 04.08.2015.\n––––––– Policies/Schemes/Initiatives, Ministry of Textiles, available at <http://\ntexmin.nic.in/policy/ policy_scheme.htm> accessed on 10.08.2015.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 45,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 45,
+          "layout": "text",
+          "text": "38 \nIndia: Handbook of Labour\n––––––– Rashtriya Swasthya Bima Yojana, Ministry of Labour & Employment, \navailable at <http://labour.gov.in/content/schemes/rashtriya-swasthyabima-yojana.php> accessed on 05.08.2015.\n––––––– ‘The Mahatma Gandhi National Rural Employment Guarantee Act \n2005’, Ministry of Rural Development, available at <http://www.nrega.\nnic.in/netnrega/home.aspx> accessed on 11.08.2015.\nPradhan Mantri Jam-Dhan Yojana, available at <http://www.pmjdy.gov.\nin/> accessed on 17.08.2015.\nPradhan Mantri Suraksha Bima Yojana, available at <www.jansuraksha.gov.\nin/Files/PMSBY/English/Rules. pdf> accessed on 05.08.2015.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 46,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 46,
+          "layout": "text",
+          "text": "Preventing Children’s Entry into \nEmployment at Tender Age and Ending Child \nLabour in India\nDr. Helen R. Sekar*\nCONCEPT AND DEFINITIONS\nIn India, children are engaged in varied forms of activities such as \ndomestic work, household enterprises or farm and wage work. It \nis necessary to draw a line between child labour on the one hand \nand activities considered part of a natural socialisation process \non the other, where children combine other childhood activities \nwith the limited work roles assigned to them. Work may become \na burden and serious risk to children if it results in neglect of their \nsocial and educational growth. In such a case, work predominates \nand places children under severe stress. It becomes a danger to their \nhealthy development and future prospects. It is in this context that \n‘child work’ is exploitative and abusive. In other words, work that \nimpinges on children’s right to education, play, leisure, mental, \nphysical, spiritual and psychological development is child labour. \nIn spite of the child labour-child work distinction, the number of \nworking children is 獵晦楣楥湴汹\u0000high for the issue of child labour to \nbe a matter of huge concern in India.\nWhile this is the broad context in which child labour is understood, \nthere are varying de晩nitions of child labour depending on the \npurpose. According to Encyclopedia of Social Sciences, ‘When the \nbusiness of wage earning or of participation in itself or family \nsupport con晬icts directly or indirectly with the business of growth \nand education, the result is child labour.’ The International \nLabour Organization (ILO) 摥晩湥猠it thus: ‘Child Labour includes \nchildren prematurely leading adult lives, working long hours for \nlow wages under conditions damaging to their health and to their \nphysical and mental development, sometimes separated from \ntheir families, frequently deprived of meaningful educational \n* \nSenior Fellow, Coordinator of the National Resource Centre on Child Labour, V.V. Giri \nNational Labour Institute; E-mail: helensekar@gmail.com",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 47,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 47,
+          "layout": "text",
+          "text": "40 \nIndia: Handbook of Labour\nand training opportunities that could open up for them a better \nfuture.’\nIn India, starting with the Factories Act of 1881 and later amendments \nof this Act, almost all the labour-related Acts have 晩硥搠the \nminimum age of employment along with wages, working hours, \netc. The 摥晩湩瑩潮\u0000of child labour in terms of age changes from Act \nto Act depending on the nature of activities that the particular Act \ndeals with. The Child Labour (Prohibition and Regulation) Act of \n1986 摥晩湥猠a child as a person who has not completed his/her 14th \nyear of age. This is applicable to all forms of child labour. The UN \nConvention on the Child Rights (1989) and the ILO Convention 182 \non Worst Forms of Child Labour have 摥晩湥搠a child as a person \nwho has not completed the age of 18.\nFORMS OF CHILD LABOUR\nThe working conditions of children vary depending on the nature of \n睯牫⸠周敩爠睯牫楮朠獩瑵慴楯湳⁭慹⁢攠扲潡摬礠捬慳獩晩敤⁡猺\u0000• Children working in family farms with their parents are usually \nsubjected to less exploitative work relations, yet they may be \ndeprived of their education and other rights. Additionally, given \nthe economic situation of small farming households, children’s \nwork in family farms is not the same as it used to be. The pressure \non children was not much when farming was for subsistence. \nHowever, at present, owing to heavy economic pressure on small \nfarmers (due to the increasing market orientation of agriculture), \nthe pressure on children has become quite severe. It is a wellknown fact that the poorer sections of the farmers are the worst \nhit during any monsoon failure or economic crisis. Thus, the \nchildren of these farmers are also hard hit. \n• Children working for others as bonded labourers in agriculture \nare subjected to long hours of work, with or without pay, lack of \nfreedom and other rights to play, leisure and education.\n• Children working in home-based manufacturing (like beedimaking, carpet-weaving, gem-polishing, etc.) face severe \ndeprivations, as they work as part of the family at the cost of their \nbasic rights. There is also an element of bondage among many \nchildren working in such home-based/cottage production.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 48,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 48,
+          "layout": "text",
+          "text": "41\n \nPreventing Children’s Entry into Employment at Tender Age\n• Children working in harmful occupations and processes \n(such as matches and 晩牥睯牫猠manufacture, tanneries, knifemaking, glass industry, brassware, etc.) face health hazards and \nare deprived of their education and other developmental rights. \nThey are usually paid low wages and in most cases the wages \nare paid to the contractors or parents.\n• \nChildren working separated from their parents and family \noften work long hours with low wages or no wages (child \ndomestics), 捯湦楮敤\u0000to strangers’ houses, exposed to all forms \nof abuse, inaccessible to their parents for long years, with no one \nto care for them.\n• \nChildren working in formal sectors of production (such as \nsupply chains of organised factories) work long hours, face \nhealth hazards and are deprived of education.\n• \nBonded child labour: Children are pledged by their parents/\nguardians to employers in lieu of debts or payments. The rates \nof interest on loans are so high that the amount to be repaid \naccumulates every year, making repayment almost impossible.\n• \nInvisible child labour: Children who work in the unorganised \nor/and informal sectors do not come under the purview of law. \nChildren at work in these unorganised or/and informal sectors \nconstitute a substantial proportion of the child labour in the \ncountry and most of them are out of school.\n• \nMigrant child labour: Children migrate either alone or with \nfamily members or villagers from rural to urban areas or from \nsmaller towns to larger towns/cities because of reasons such as \n晬潯搬\u0000earthquake and other natural calamities; armed 捯湦汩捴Ⱐ\ncommunal clashes, caste discrimination and atrocities; to escape \nfrom bondage; corporal punishment in school; ill-treatment by \nfamily members and family disputes, etc. Pushed out from their \nnative places, these migrant children are vulnerable to abuse \nand exploitation in the places of their destination.\nECONOMIC SPHERES WHERE CHILDREN WORK\n• Agrarian Sector: In rural areas children are engaged in \nagricultural and allied occupations as a part of family labour",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 49,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 49,
+          "layout": "text",
+          "text": "42 \nIndia: Handbook of Labour\nor as individual workers. They may work as paid or unpaid \nworkers in different forms. \n• \nMining Sector: Children are engaged in various processes of \nillegal mining. Very often they work in sub-human conditions \nand in exploitative situations. Many of them are migrant labour \nand they remain invisible labour working for low wages.\n• \nService Sector: Children work as self-employed or as part of \nfamily labour, in dhabas (roadside eateries), and automobile \nworkshops or as vendors, ragpickers, scavengers, etc.\n• \nStreet Children:\n Children on the Streets: These are working children who \nhave families but spend most of their time on the streets. \nThey earn for themselves and may or may not contribute to \nthe family income.\n Children of the Streets: These are working children who have \nleft their families in villages or towns and have migrated to \nthe city. They do not have a place to live and hence spend \ntheir nights at the railway platforms, bus stations, etc. They \nlive independently and usually spend all that they earn the \nsame day.\n Abandoned/Orphaned Children: These comprise working \nchildren without families or whose families have abandoned \nthem. They spend their lives on the streets without any kind \nof support and are hence the most exploited and abused of \nthe lot.\n• \nWithin the Family: Children are engaged without pay in domestic \nhousehold tasks, agricultural/pastoral work, handicraft/cottage \nindustries, etc.\n• \nWithin the Family but Outside the Home: Children do \nagricultural/pastoral work, which consists of (seasonal/fulltime) migrant labour, local agricultural work, domestic service, \nconstruction work and informal occupation, e.g. recycling of \nwaste; they might be employed by others or self-employed.\n• \nOutside the Family: Children are employed by others in bonded \nwork, apprenticeship, skilled traders (carpet, embroidery, brass/",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 50,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 50,
+          "layout": "text",
+          "text": "43\n \nPreventing Children’s Entry into Employment at Tender Age\ncopper work), industrial unskilled occupation/mines, domestic \nwork, commercial work in shops and restaurants. Children \nwho are abused for begging, prostitution and pornography also \nbelong to this category.\nLEGISLATION DEALING WITH CHILD LABOUR\n(i) Select Constitutional Provisions on Child Labour\nIndia follows a proactive policy in tackling the problem of child \nlabour. The Constitution of India has adopted the following articles, \nwhich 牥晬散琠\nthe nation’s concern for children in general and child \nlabour in particular: \n Article 21(a): Constitution (Eighty-sixth Amendment) Act, 2002: \nThe State shall provide free and compulsory education to all \nchildren of the age of six to fourteen years in such manner as the \nState may, by law, determine.\n Article 23: Prohibition of 呲慦晩挠in Human Beings and Forced \nLabour: 呲慦晩挠in human beings and ‘begar’ and other similar \nforms of forced labour are prohibited and any contravention of \nthis provision shall be an offence punishable in accordance with \nlaw. \n Article 24: Prohibition of Employment of Children in Factories \netc.: No child below the age of fourteen years shall be employed \nto work in any factory or mine or engaged in any hazardous \nemployment. \n Article 39 (e) and (f): Certain Principles of Policy to be followed \nby the State: The State shall, in particular, direct its policy \ntowards securing: \n(e) That the health and strength of workers, men and women, and \nthe tender age of children are not abused and that citizens are \nnot forced by economic necessity to enter avocations unsuited to \ntheir age or strength. \n(f) Those children are given opportunities and facilities to develop \nin a healthy manner and in conditions of freedom and dignity \nand that childhood and youth are protected against exploitation \nand against moral and material abandonment.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 51,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 51,
+          "layout": "text",
+          "text": "44 \nIndia: Handbook of Labour\n(ii) Child Labour (Prohibition and Regulation) Act, 1986 (CLPR \nAct)\nThe salient features of the Act are:\n• 䑥晩湥猠‘child’ as a person who has not completed 14 years of \nage\n• Bans the employment of children below 14 years in 獰散楦楥搠\n(18) occupations and (65) processes\n• Lays down a procedure to make additions to the Schedule of \nProhibited Occupations or Processes\n• Regulates the working conditions of children in occupations \nwhere they are not prohibited from working\n• Lays down penalties for employment of children in violation \nof the provisions of this Act, and other Acts which prohibit the \nemployment of children\nProhibition of Employment of Children in Certain Occupations \nand Processes: Section 3 of the CLPR Act states: ‘No child shall \nbe employed or permitted to work in any of the occupations set \nforth in Part “A” of the Schedule or in any workshop wherein any \nof the processes set forth in Part “B” of the Schedule is carried on. \nProvided that nothing in this section shall apply to any workshop \nwherein any process is carried on by the occupier with the aid of \nhis family or to any school established by, or receiving assistance or \nrecognition from Government.’ The penalties are 獰散楦楥搠\nin Section \n14 of the CLPR Act as ‘(1) Whoever employs any child or permits \nany child to work in contravention of the provisions of Section 3 \nshall be punishable with imprisonment for a term which shall not \nbe less than three months but which may extend to one year or with \n晩湥\u0000which shall not be less than ten thousand rupees but which \nmay extend to twenty thousand rupees or with both. (2) Whoever, \nhaving been convicted of an offence under Section 3, commits a like \noffence afterwards, he shall be punishable with imprisonment for a \nterm which shall not be less than six months but which may extend \nto two years.’\nOccupations and processes where the employment of children is \nprohibited include:",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 52,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 52,
+          "layout": "text",
+          "text": "45\n \nPreventing Children’s Entry into Employment at Tender Age\nOccupations: Any occupation connected with:\n• Transport of passengers, goods or mails by railway\n• Cinder picking, clearing of an ash pit or building operation in \nthe railway premises\n• Work in a catering establishment at a railway station, involving \nthe movement of a vendor or any other employee of the \nestablishment from one platform to another or into or out of a \nmoving train\n• Work relating to the construction of a railway station or with \nany other work where such work is done in close proximity to \nor between railway lines\n• A port authority within the limits of any port\n• Work relating to selling or crackers and 晩牥睯牫猠in shops with \ntemporary licences\n• Abattoirs/slaughter houses\n• Automobile workshops and garages\n• Foundries\n• 䡡湤汩湧⁯映瑯硩挠潲⁩湦污浭慢汥⁳畢獴慮捥猠潲⁥硰汯獩癥\u0000• Handloom and power loom industry\n• Mines (underground and underwater)and collieries\n• 偬慳瑩挠畮楴猠慮搠晩扲攠杬慳猠睯牫獨潰\u0000• Employment of children as domestic workers or servants\n• Employment of children in dhabas, restaurants, hotels, motels, \nteashops, resorts, spas or other recreational centres\n• Diving \n• Caring of elephants\n• Children working in a circus\nProcesses\n• Beedi-making\n• Carpet-weaving\n• Cement manufacture, including bagging of cement\n• Cloth-printing, dyeing and weaving",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 53,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 53,
+          "layout": "text",
+          "text": "46 \nIndia: Handbook of Labour\n• 䵡湵晡捴畲攠潦⁭慴捨敳Ⱐ數灬潳楶敳⁡湤⁦楲敷潲歳\n• Mica-cutting and splitting\n• Shellac manufacture\n• Soap manufacture\n• Tanning\n• Wool-cleaning\n• Building and construction industry\n• Manufacture of slate pencils (including packing)\n• Manufacture of products from agate\n• Manufacturing processes using toxic metals and substances such \nas lead, mercury, manganese, chromium, cadmium, benezene, \npesticides and asbestos\n• ‘Hazardous processes’ as 摥晩湥搠in Section 2(cb) and ‘dangerous \noperations’ as 湯瑩晩敤\u0000in rules made under Section 87 of the \nFactories Act, 1948 (63 of 1948)\n• Printing as 摥晩湥搠in Section 2(k)(iv) of the Factories Act, 1948 \n(63 of 1948)\n• Cashew and cashewnut descaling and processing\n• Soldering processes in electronic industries\n• ‘Aggarbatti’ manufacturing\n• Automobile repairs and maintenance including processes \nincidental thereto, namely welding, lathe work, dent-beating \nand printing\n• Brick kilns and roof tiles units\n• Cotton ginning and processing and production of hosiery \ngoods\n• Detergent manufacturing \n• Fabrication workshops (ferrous and non-ferrous) \n• Gem-cutting and polishing\n• Handling of chromite and manganese ores\n• Jute textile manufacture and coir-making\n• Lime kilns and manufacture of lime\n• Lock-making",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 54,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 54,
+          "layout": "text",
+          "text": "47\n \nPreventing Children’s Entry into Employment at Tender Age\n• Manufacturing processes having exposure to lead, such as \nprimary and secondary smelting, welding and cutting of leadpainted metal constructions, welding of galvanised or zinc \nsilicate, polyvinyl chloride, mixing (by hand) of crystal glass \nmass, sanding of scrapping of lead paint, burning of lead in \nenamelling workshops, lead-mining, plumbing, cable-making, \nwire-patenting lead casting type found in printing shops, \nassembling of cars, shot-making and lead glass-blowing\n• Manufacture of cement pipes, cement product and other related \nwork\n• Manufacture of glass, glassware including bangles, 晬潲敳捥湴\u0000tubes, bulbs and other similar glass products \n• Manufacture of dyes and dye stuff\n• Manufacturing or processing and handling of pesticides and \ninsecticides\n• Manufacturing or processing and handling of corrosive and \ntoxic substances, metal-cleaning, photo-engraving and soldering \nprocesses in the electronic industry\n• Manufacturing or burning coal and coal briquettes\n• Manufacture of sport goods involving exposure to synthetic \nmaterial, chemicals and leather\n• 䵯畬摩湧⁡湤⁰牯捥獳楮朠潦⁦楢牥⁧污獳⁡湤⁰污獴楣\u0000• 佩氭數灥汬楮朠慮搠牥晩湥特\n• Paper-making \n• Potteries and ceramic industry\n• Polishing, moulding, cutting, welding, manufacture of brass \ngoods in all forms\n• Processing in agriculture where tractors, threshing and \nharvesting machines are used and chaff-cutting \n• Saw mill—all processes\n• Sericulture processing\n• Skinning, dying and processes for manufacturing of leather and \nleather products\n• Stone-breaking and stone-crashing",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 55,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 55,
+          "layout": "text",
+          "text": "48 \nIndia: Handbook of Labour\n• Tobacco-processing including manufacturing of tobacco, tobacco \npast and handling of tobacco in any form\n• Tyre-making, repairing, retreading and graphite benefaction\n• Utensils-making, polishing and metal-burring\n• Zari-making (all processes)\n• Electroplating\n• Graphite-powdering and incidental processing\n• Grinding and glazing of metals \n• Diamond-cutting and polishing\n• Extraction of slate from mines\n• Ragpicking and scavenging\n• Processes involving exposure to excessive heat (eg. working \nnear a furnace) and cold\n• 䵥捨慮楳敤⁦楳桩湧\n• Food processing\n• Beverage industry\n• Timber handling and loading \n• Mechanical lumbering\n• Warehousing\n• Processes involving exposure to free silica such as slate, pencil \nindustry, stone grinding, slate stone mining, stone, quarries, \nagate industry\n(iii) National Child Labour Policy, 1987\nThe Government of India has always followed a proactive policy \ntowards elimination of child labour. The Constitution of India not \nonly secures compulsory primary education to all children but \nhas, through its 86th Amendment, made the Right to Education a \nfundamental right for all children in the age group of 6-14 years. In \naddition, several other initiatives have been taken from time to time \nfor protection of children from a variety of forms of exploitation and \nto ensure that all children are brought into the purview of schooling. \nIn consonance with the overall framework, the National Policy on \nChild Labour was formulated in 1987. The components of the policy \nare:",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 56,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 56,
+          "layout": "text",
+          "text": "49\n \nPreventing Children’s Entry into Employment at Tender Age\n• Legislative Plan of Action, which envisages strict enforcement of \nlaws and rules relating to child labour\n• Project-based Plan of Action in areas of high concentration of \nchild labour in wage/quasi-wage employment\n• Convergence of services of general development programmes \nfor economic rehabilitation of child labour families\nREFERENCES\nGovernment of India (2006), Policy and Programme for the Rehabilitation of \nWorking Children & Manual for the Implementation of National Child Labour \nProjects, Ministry of Labour and Employment, New Delhi. \nSekar, Helen, R. (1995), Child Labour Legislation in India: A Study in Retrospect \nand Prospect, National Labour Institute, NOIDA.\nV.V. Giri National Labour Institute (VVGNLI) (1996), Child Labour: Challenge \nand Response, National Resource Centre on Child Labour, VVGNLI, \nNOIDA.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 57,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 57,
+          "layout": "text",
+          "text": "Labour & Development, a bi-annual journal, is dedicated to \nadvancing the understanding of various aspects of labour \nthrough theore-tical analysis and empirical investigations. \nPublication In-charge\nV.V. Giri National Labour Institute\nSector-24, NOIDA- 201 301, (U.P)\nE-mail: publicationsvvgnli@gmail.com\nFor further details, please contact:\nLABOUR & DEVELOPMENT\nThe Journal publishes \narticles of high academic \nquality in the 晩敬搠of \nlabour \nand \nrelated \nareas with emphasis \non \neconomic, \nsocial, \nhistorical as well as \nlegal aspects and also \npublishes research notes \nand book reviews on \nthem particularly in the \ncontext of developing \ncountries. \nThe annual subscription \nfor Labour & Development \nis \n` \n150 \nfor \nindividuals and ` 250 \nfor Institutions.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 58,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 58,
+          "layout": "text",
+          "text": "51\nHealth Insecurities and Protection of Workers in Informal Employment\nHealth Insecurities and Protection of Workers in \nInformal Employment\nDr. Ruma Ghosh*\nINTRODUCTION\nWhile the process of globalisation has led to growth in the economy \nand new employment avenues, most of the employment created is \ninformal in nature and of poor quality, with low productivity. As per \nthe NSSO, informal workers account for 92% of the total workers. \nOut of the 472 million workers in 2011-12, about 392 million or 83% \nwere estimated to be working in the unorganised or informal sector \ncomprising privately owned enterprises employing less than 10 \nworkers. Even the organised sector, which accounts for 80 million \nworkers, had 46 million workers (58%) in the informal category of \nemployment. A look at the different employment categories shows \nthat self-employment is the most dominant component, with a \n52.2% share in total employment. Studies have noted that in the \npost-liberalisation period when Indian industry experienced an \nexpansion in international trade, 獩杮楦楣慮琠\nchanges have taken place \nin the labour market. Although 獩杮楦楣慮琠\nchanges in the labour \nlaws have not been made, yet there has been a general weakening \nof the bargaining power of workers through relaxed enforcement \nmechanisms, increased use of contract labour, changing nature of \nthe workforce (with increased casualisation and feminisation), and \na general weakening of the trade unions (Pages and Roy, 2006; \nBhattacharjea, 2006; Ahmad and Pages, 2006). Such changes in \nthe labour market has affected a large population base engaged in \nindustrial activity, as the growth of the informal economy implies \nincreasing insecurity and vulnerability of workers.\nHEALTH INSECURITIES OF WORKERS IN INFORMAL \nEMPLOYMENT\nOne major insecurity faced by workers is with regard to their health \nand safety at the workplace. Workplace hazards and occupational \nhealth problems including diseases of various kinds, such as of the \n* \nFellow, V.V. Giri National Labour Institute; E-mail: rumanli@gmail.com",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 59,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 59,
+          "layout": "text",
+          "text": "52 \nIndia: Handbook of Labour\nrespiratory system, digestive system, urinary tract, nervous system \nand other sensory organs, hearing impairment, musculoskeletal \ndisorders, reproductive health issues and dermal allergies, are a \nmajor impediment for workers (Saiyed and Tiwari, 2004). As the \nwork environment constitutes over a third of the lifespan of adults \nand 獩杮楦楣慮瑬礠\ncontributes to their overall individual health and \nproductivity, it is important to ensure a healthy working atmosphere. \nHowever, the chronic insecurity of informal workers often force \nthem to work in extremely hazardous working conditions.\nThe International Labour Organization made a region wise global \nestimate of fatal, non-fatal accidents, diseases and mortality based \non data for 2003. It estimated that in India out of the total 473.3 \nmillion economically active population in 2003, as many as 47,000 \nhad met fatal accidents, 44,000 had accidents causing >= four days \nabsence from work, 3,56,000 suffered from work related diseases \nand there were as many as 4,03,000 mortality (ILO, 2008). The \nWorld Health Organization (WHO) estimates that only 10-15% \nof the workers have access to basic occupational health services. \nAccording to a World Bank estimate, two-thirds of disease burden \n(mortality and morbidity) and its equivalents (e.g., disability \nadjusted life years or DALYs) from occupational causes could be \nprevented by occupational health and safety (OSH) programmes, \nthereby increasing the productivity of the workers as well the \nperformance of the economy. Moreover, the occupational health \nscenario is undergoing a paradigm shift as a result of the ongoing \nglobalization of the world economies and rapid industrialisation in \nthe developing countries.\nAlthough the Constitution of India, through the Directive Principles \nof State Policy, provides for the management of safety and health \nrisks at workplaces through Article 39 (for securing the health and \nstrength of employees including men, women and children) and \nArticle 42 (for just and humane conditions of work and maternity \nrelief), yet the majority of the workforce is left outside the purview \nof any regulatory framework. At present, comprehensive safety \nand health statutes for regulating OSH at workplaces exist only \nin respect of four sectors, namely, mining, factories, ports and \nconstruction.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 60,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 60,
+          "layout": "text",
+          "text": "53\nHealth Insecurities and Protection of Workers in Informal Employment\nThe lack of access to adequate health facilities further aggravates \nthe vulnerability of the workers. The poor availability and access \nto health services and the burden of occupational diseases may \ncause an economic loss of up to 10-20% of the gross national \nproduct (Zodpey et al., 2009). Further, with the absence of an \nintegrated public healthcare or universal social health insurance \nsystem, a sizeable section of even the well-off are pushed into a \nsituation of abysmal poverty because of the catastrophic health \nexpenditures (Krishna, 2004; van Doorslaer et al., 2006; Garg and \nKaran, 2009). This situation has become particularly 摩晦楣畬琠\nsince \nmany governments in the developing countries have been obliged \nto implement structural adjustment programmes, which have led to \nsharply reduced expenditure on public health services. Higher user \ncharges have 獩杮楦楣慮瑬礠\nraised barriers for many people with low \nhealth status and low income.\nHealth care systems affect income and livelihood in two ways. \nThe availability of adequate, preventive and curative care is vital \nto ensure that workers are 晩琠to earn a living for themselves and \ntheir dependents. And it is the function of the health care 晩湡湣楮朠\nsystem to ensure that large and unpredictable costs of health care \ndo not have catastrophic effects for individual households. Health \ncare is equally important for everyone regardless of labour force \nparticipation or employment status. However, many workers, \nparticularly those who are outside regular wage employment, do not \nhave any satisfactory health coverage in many developing countries. \nAs a result, millions of people around the world are prevented from \nseeking and obtaining needed care because they cannot afford to pay \nthe heavy treatment charges (Preker et al., 2001). This often leads to \n晩湡湣楡氠\nhardship and even impoverishment, because people are \ntoo ill to work. The other side of the coin is that many of those who \nseek health care suffer 晩湡湣楡氠\ncatastrophe and impoverishment \nas a result of meeting these costs. This occurs in both rich and poor \ncountries (Xu et al., 2003). An episode of severe ill-health imposes \nboth direct and indirect costs. Direct 晩湡湣楡氠\ncosts are incurred in \nthe form of treatment and travel expenses for seeking treatment. \nMoreover, if the individual is economically active, sickness can \nresult in loss of income.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 61,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 61,
+          "layout": "text",
+          "text": "54 \nIndia: Handbook of Labour\nIn India, although there has been accelerated economic growth \nduring the last two decades, yet the country has fared poorly in \nterms of human develop­ment indicators and health outcomes, \nwhich is 牥晬散瑥搠through the performance of health status \nindicators such as infant and maternal mor­tality which are very \nhigh compared with countries having similar income levels and \nrates of economic growth. The factors largely responsible for the \npersistent and ever-widening differentials in health outcomes are \nsocio-economic inequities and inequities in provision of and access \nto health services. Availability, accessibility and affordability of \nhealth services are important determinants for improving the health \nof the pop­ulation. Healthcare 晩湡湣楮朠and arrange­ments play a \ncritical role in reducing or perpetuating inequities and shape the \npattern of health service use and ex­penditure (Gilson et al., 2007; \nBaru et al., 2010). \nAlthough National Health Policies have been formulated in India \nfrom time to time for achieving the goal of Health for All by 2000 \nand for attaining an acceptable standard of good health, yet in \nreality ensuring an effective public health care delivery system has \nbeen a huge challenge. India is one of the countries with very low \ngovernment spending on health. Over the years, there has been only \na marginal increase in public investment in health, from 0.9% of the \nGDP in 2004-05 to 1.1% in 2008-09.The decline in government health \nexpenditure is also 牥晬散瑥搠in the decline in state expenditure \non medical and public health and family welfare. The decline in \nthe share of the states’ health expenditure as compared to total \nexpenditure has been quite 獩杮楦楣慮琬\u0000dropping from almost 5% \nin 1999-2000 to almost 4% in 2009-10. As states account for threequarters of all government spending, any decline in the share of \nhealth expenditure by states 楮晬略湣敳\u0000total spending to a great \nextent. As a result, although there is a government-owned free health \ncare delivery chain, over 70% of the total spending is by individuals \nprivately, most of it being out-of-pocket. This has led to almost 64% \nof the poorest population in India getting into a debt situation every \nyear to pay for essential medical care. Added to this is the fact that \nthe large majority of the working population in the informal sector \nis outside the purview of any formal health insurance cover such as",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 62,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 62,
+          "layout": "text",
+          "text": "55\nHealth Insecurities and Protection of Workers in Informal Employment\nthe Central Government Health Scheme (CGHS), Employees’ State \nInsurance Scheme (ESIC), etc. \nAs per the 晩湤楮杳\u0000of NSSO, 85% of the informal sector workforce \ndo not have any kind of insurance, and only less than 1% of the \nhospitalisation in the rural areas and about 4% in the urban areas \nget some form of reimbursement (NSSO, 2006). This raises concerns \nwith regard to the catastrophic out-of-pocket spending, especially \nby households in the informal sector. Secondly, there seems to be \nan even greater burden on the rural than the urban population. \nThis is because compared to rural India, in urban areas a range \nof facilities, such as hospitals, community health centres of both \ngovernment and private sectors, exist and are widely utilised by the \nurban communities. In the rural areas, the quality of these services, \nespecially those provided by the government, is of very poor quality \n(Dreze and Sen, 1995), forcing individuals to visit the private sector \ninstead. Moreover, research has shown that indirect costs associated \nwith treatment, like those associated with travel to the facilities, act \nas deterrents for the rural population (Uplekar and George, 1994). \nIn fact, many urban areas witness large 楮晬畸\u0000of rural populations \nto the major hospitals, indicating the absence of similar facilities in \nthe rural areas.\nHEALTH SECURITY AND PROTECTION OF WORKERS IN \nINFORMAL EMPLOYMENT\nTaking the above issues in to consideration, there is a need to \nprovide health security and protection to the vast number of \nworkers in the informal sector through a comprehensive health \nsecurity programme. Health security can be thought of as having \nlow exposure to risk, plus having access to health care services with \nthe ability to pay for care and medicine. Such health security should \nbe equally available and accessible to all workers irrespective of \nthe sector in which they are involved. The ILO Convention 102 \non Social Security (Minimum Standards) consolidates the concept \nof social security by including nine core contingencies leading to \nthe cessation/reduction of earnings covering sickness, maternity, \nemployment injury, unemployment, invalidity, old age and death, \nprovision of medical care and subsidies for families with children.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 63,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 63,
+          "layout": "text",
+          "text": "56 \nIndia: Handbook of Labour\nHowever, as we have seen, the dualism in the Indian labour market \nhas resulted in a large segment of the workforce—workers in the \nunorganised sector workers—being excluded from the labour \nregulatory framework. As a result, social security provisions \nincluding health security and adequate labour standards are not \nuniversally applicable, leaving out a large majority of the workers \nin the informal economy. \nThus, there is a strong need for 獩杮楦楣慮琠\nlabour law reforms \nin order to bring the majority of the workers under the ambit of \nregulation and for a general (umbrella) legislation covering safety \nand health aspects of workers employed in all sectors of economy \nirrespective of the number of employees employed in those units.\nIt is seen that the agricultural sector provides employment to \nthe largest number of persons, which is about 48% of the total \nworkforce. However only two legislations the Insecticides Act, \n1968 and The Dangerous Machines (Regulation) Act, 1983 and their \nRules are applicable to 獰散楦楣\u0000aspects of agricultural operations. \nThe Insecticides Act, 1968, 1983 deals with the manufacturing, \npackaging, labeling, distribution, handling and use of insecticides \nin general. Therefore, the control measures given in this Act relating \nto the hazards in the use of insecticides are applicable to the \nagriculture sector also. This Act is enforced by the State Agriculture \nDepartments as far as its applicability to the agricultural operation \nis concerned. The Dangerous Machines (Regulation) Act, 1968 \nis enacted as “An Act to provide for the regulation of trade and \ncommerce in, and production, supply, distribution and use of, the \nproduct of any industry producing dangerous machines with a view \nto securing the welfare of labour, operating any such machine and \nfor payment of compensation for the death or bodily injury suffered \nby any labourer while operating any such machine, and for matters \nconnected therewith or incidental thereto.” This Act applies to the \ndangerous machines, as 摥晩湥搠under the Act, intended to be used \nin Agriculture or rural sector. The enforcement of this Act also lies \nwith the State Agricultural Departments. However as is well known \nthere is not much awareness of these Acts and therefore initiatives \nshould be made to create awareness of these provisions, so that the \n睯牫敲猠捡渠扥湥晩琠晲潭⁴桥獥⁬敧楳污瑩潮献\u0000",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 64,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 64,
+          "layout": "text",
+          "text": "57\nHealth Insecurities and Protection of Workers in Informal Employment\nThe construction industry in India which is the second largest \nindustry after agriculture in terms of employment generation, \nemploys about 44.1 million workers comprising 9.6% of the total \nworkforce (National Sample Survey Organisation, 2011-12). \nConstruction workers are one of the most vulnerable segments \nof unorganised labour in the country who are exposed to a wide \nvariety of serious occupational safety and health hazards. The \nIndian construction industry comprises of large construction 晩牭猠\nincluding large public sector undertakings. About one lakh medium \nand large 晩牭猠of contractors and sub-contractors execute small jobs \nincluding repairing. The Building and Other Construction Workers \n(Regulation of Employment and Conditions of Service) Act, 1986 \nis applicable to all establishments employing 10 or more workers \nin any building and other construction works. The Chief Labour \nCommissioner (Central) is entrusted with the task of enforcement of \nthis Act and the Central Rules. As a Director General of Inspection, \nthe Chief Labour Commissioner has been vested with Quasi-judicial \npowers. Based on the inspections carried out since the year 200001, it has been seen that the nature of violations relating to safety \nprovisions under the Act predominantly relates to provision of: \n(i) Medical facilities such a 晩牳琭慩搠\nboxes, essential life saving aid, \nambulance room, ambulance van, stretcher etc., (ii) Preparation of \nhealth and safety policy, (iii) Transport equipment and 瑲慦晩挬\u0000(iv) \nExcessive noise and vibration and (v) Fire Protection. The accidents \nin construction industry are mainly due to the factors such as:\n1. 䱡牧攠湵浢敲⁯映獭慬氠晩牭猠慮搠獥汦ⵥ浰汯祥搠睯牫敲\u00002. Shorter duration of construction activities at sites\n3. High-turnover of workers\n4. Large number of seasonal and migrant workers not familiar with \nconstruction activities.\n5. Many different trades and occupations involved in construction \nactivity.\nAlthough the Act of 1996 gives a wide coverage to take care of OSH \nof construction workers, there are a large number of construction \nworkers who do not come under the purview of the Act. Such issues \nshould be taken up as priority in order to prevent the large work \nforce of the construction sector from any OSH related problems.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 65,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 65,
+          "layout": "text",
+          "text": "58 \nIndia: Handbook of Labour\nWith regard to the manufacturing sector which involves also a large \nbase of workforce, initiatives should be taken to ensure that the \nobjective of improving the working conditions in the manufacturing \nsector (including small units) through regulatory measures \nirrespective of the size of the establishments.\nThere is also a need for implementation of National Policy on \nOccupational Safety, Health & Environment at Workplace through \ntime bound implementation of its action programme. Moreover there \nis a need for an increase in trained occupational health professionals \nincluding occupational physicians, industrial hygienists and safety \nspecialists, as well as development of a culture of OHS consciousness \namong workers, employers and enforcement agencies. Regulatory \nreforms are needed to ensure that occupational health laws cover \nall workers, including those in the informal sector as well as those \nengaged in agriculture. \nFinally taking a clue from the 晩湤楮杳\u0000of NSSO, that almost 85% of the \ninformal sector workforce do not have any kind of health insurance \n(NSSO, 2006), a health insurance coverage called Rashtriya Swasthya \nBima Yojana (RSBY) was launched in 2008. Although the programme \nhad a lot of merit, yet it was restricted to BPL households and for \nhospitalisation expenses only, thereby leaving out a large segment \nof informal workers who do not have adequate means for treatment \nas well as for treatment in OPD. There is a need to redesign the \nprogramme and bring under its fold all workers involved in informal \nemployment as well as meeting the OPD expenses. Moreover, as \nthe country has one of the largest health security system in place – \nthe ESIC, initiatives should be taken to explore the possibilities of \nusing this largest health security chain to provide health insurance \nto workers in the informal employment.\nREFERENCES\nAhmad, Ahsan and Pages, Carmen (2006), ‘Helping or Hurting Workers? \nAssessing the Effects of De Jure and De Facto Labor Regulation in India’, \nPaper presented at the Conference on India: Meeting the Employment \nChallenge, 28 July 2006, Institute for Human Development, New Delhi.\nBaru Rama, Acharya A., Acharya S., Shiva Kumar A.K. and Nagaraj K. (2010), \n‘Inequities in Access to Health Services in India: Caste, Class and Region’, \nEconomic & Political Weekly, September 18, 2010 45(38).",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 66,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 66,
+          "layout": "text",
+          "text": "59\nHealth Insecurities and Protection of Workers in Informal Employment\nBhattacharjea, Aditya (2006), ‘Labour Market Regulation and Industrial \nPerformance in India: A Critical Review of the Empirical Evidence’, The \nIndian Journal of Labour Economics, 49(2): 211-232.\nDreze, Jean and Sen, Amartya (1995), India: Economic Development and Social \nOpportunity, Oxford University Press.\nGarg, Charu and Karan, Anup K. (2009), Reducing Out-of-Pocket Expenditures \nto Reduce Poverty: A Disaggregated Analysis at Rural Urban and State Level in \nIndia, Health Policy and Planning, 24: 116-28.\nGilson, L., J. Doherty, R. Loewenson and V. Francis (2007): Challenging Inequity \nthrough Health Systems, Final Report, Knowledge Network on Health \nSystems, WHO Commission on the Social Determinants of Health, June.\nInternational Labour Organization (ILO) (2008), Beyond Deaths and Injuries: The \nILO’s Role in Promoting Safe and Healthy Jobs, ILO, Geneva.\nKrishna, A. (2004), ‘Escaping Poverty and Becoming Poor: Who Gains, Who \nLoses, and Why?’ World Development, 32: 121-36.\nPages, Carman and Roy, Tirthankar (2006), ‘Regulation, Enforcement and \nAdjudication in Indian Labour Markets: Historical Perspective, Recent \nChanges and Way Forward’, Paper Presented at Conference on “India: Meeting \nthe Employment Challenge,” 27-29 July 2006, New Delhi, IHD and World \nBank.\nPreker A.S., G. Carrin, D. Dror, M. Jakab, W. Hsiao, D. Arhin-Tenkorang \n(2002), ‘Effectiveness of Community Health Financing in Meeting the Cost \nof Illness’, Bulletin of the World Health Organization, 80(2): 143-50.\nSaiyed H.N. and Tiwari, R.R. (2004), ‘Occupational Health Research in India’, \nIndustrial Health, 42(3): 141-48.\nUplekar M. and George A. (1994), Access to Health Care in India: Present Situation \nand Innovative Approaches, Discussion Paper No. 12, Centre for Development \nStudies, Thiruvananthapuram.\nVan, Doorslaer E., O. O’Donnell and R.P. Rannan-Elaja (2006), ‘Effects of \nPayments for Healthcare on Poverty in 11 Countries in Asia: An Analysis \nof Household Survey Data’, The Lancet, 368: 1357-64.\nXu, K., Evans, D., Kawabata, K., Zeramdini, R., Klavus, J., & Murray, C. (2003), \n‘Household Catastrophic Health Expenditure: A Multi-country Analysis’, \nThe Lancet, 362: 111-117.\nZodpey S.P., H. Negandhi and R.R. Tiwari (2009), ‘Mapping Occupational \nHealth Courses in India: A Systematic Review’, Indian Journal of Occupational \nand Environmental Medicine, 13(3): 135-40.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 67,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 67,
+          "layout": "text",
+          "text": "AWARDS DIGEST\nPublication In-charge\nV.V. Giri National Labour Institute\nSector-24, NOIDA- 201 301, (U.P)\nE-mail: publicationsvvgnli@gmail.com\nFor further details, please contact:\nAwards Digest: Journal of Labour Legislation is a\nbi-monthly journal dedicated to the dissemination \nof information concerning labour laws. These laws are \ncontinuously being amended. Courts keep on interpreting \nthe provisions of labour laws. It is our endeavour to present \nthese \nchanges \nand \nalso gists of the court \ndecisions for executives \nfrom industries, labour \nadministrators, \ntrade \nunion \ncadres, \nlegal \npractitioners, researchers \nand students of labour \nlaws \netc. \nHowever, \nour primary concern \nis to present the digest \nof \njudicial \ndecisions \nof the various courts, \nconcerning labour and \nindustrial relations.\nThe annual subscription for Awards Digest \nis ` 200.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 68,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 68,
+          "layout": "text",
+          "text": "Gender Issues in Labour\nDr. Shashi Bala*, Dr. Ellina Samantroy**\nThe dynamics of employment patterns of men and women have \nattracted the attention of many labour statisticians and policymakers. \nSocially constructed gender roles, the biological differences between \nmen and women, and how these interact in the world of work lie at \nthe core of the ‘decent work’ agenda of the International Labour \nOrganization (ILO) and have been discussed in many international \nforums. The Beijing Platform for Action 1995 牥慦晩牭敤\u0000the \ncommitment to promote women’s economic independence, \nincluding employment, and eradicate the persistent and increasing \nburden of poverty on women by addressing the structural causes \nof poverty through changes in economic structures, ensuring equal \naccess for all women, including those in rural areas. The realisation \nof equal rights, opportunities and access to resources, and equal \nsharing of responsibilities for the family by men and women, are \ncritical to the well-being of both their families and also the nation. \nThe UN Millennium Development Goals have also reiterated full \nand productive employment and decent work for all. Despite these \nachievements and progress in implementing women’s empowerment \nand gender equality programmes, there is still a long way to go.\nWith \nthe \nintroduction \nof \nglobalisation \nand \ninternational \ncompetition, the labour market has undergone tremendous \nchanges. Disappointing job growth, increasing informalisation and \npoor-quality jobs continue to characterise the labour markets of \nmany developing countries like India. Despite high growth rates of \nthe Indian economy in the recent years, women’s participation in \nthe labour force has been low and has seen a decline in the recent \ndecades. Women’s labour force participation fell in rural areas from \n126.49 million in 2004-05 to 106.2 million in 2009-10. In urban areas, \nwomen’s labour force participation declined from 26.50 million in \n2004-05 to 24.2 million in 2009-10 (Government of India (GoI), 2011). \n* \nFellow & Coordinator, Centre for Gender and Labour, V.V. Giri National Labour \nInstitute; E-mail: shashibala2002@gmail.com\n** Associate Fellow & Co-coordinator, Centre for Gender and Labour, V.V. Giri National \nLabour Institute; E-mail: ellinasamantroy@gmail.com",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 69,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 69,
+          "layout": "text",
+          "text": "62 \nIndia: Handbook of Labour\nThere was a further decline in women’s labour force participation in \nrural areas in 2011-12, as estimated by the 68th round of the National \nSample Survey Organisation (NSSO). The labour force participation \nfor women in rural areas was 103.6 million in 2011-12, though there \nwas a marginal increase (28.8 million) in labour force participation \nfor women in urban areas (GoI, 2013).\nIn this scenario, there is a growing necessity for the formulation of \neffective employment policies and active labour market policies \naimed at ensuring labour-intensive growth. Given the gendered \nnature of labour markets, 獰散楦楣\u0000mechanisms are needed so that \ngender concerns are mainstreamed in policy discourse. Keeping \nin view the above background, the present chapter provides a \ncomprehensive understanding about gender issues in the labour \nmarket. It will highlight the inequalities prevalent in the world of \nwork and the challenges faced by women in the labour market, \nparticularly in the informal sector. The chapter also provides an \noverview of gender and development issues related to work, \neducation, skill, wages, social protection, international labour \nstandards/international instruments, developmental policies and \nlegislative measures pertaining to women workers.\nGENDER AND WORK \nThe employment trends in India are a 牥晬散瑩潮\u0000of the highly complex \nlabour market prevalent in the country. As discussed above, women \ncontinue to remain in a disadvantageous position as female labour \nforce participation continues to decline over the years as 牥晬散瑥搠\nin \nvarious NSS rounds. A low female Labour Force Participation Rate \n(LFPR) is responsible for pushing India’s overall LFPR to the bottom \nranks. Out of 184 countries for which data were available in 2008, \nIndia was ranked 42nd in male LFPR (in descending order of LFPR), \nbut 165th and 143rd in female LFPR and overall LFPR respectively, \nas reported in World Development Indicators of the World Bank \n(Thomas, 2012). Moreover, a large section of women are absorbed \nin the informal sector, particularly in casual work, piece rated \nwork and work within the household that remains invisible in the \nstatistical sources. An analysis of the employment status reveals that \n59.3% of rural women were engaged as self-employed workers, in",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 70,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 70,
+          "layout": "text",
+          "text": "63\nGender Issues in Labour\ncomparison to 54.5% males in rural areas. Further, the share of casual \nlabour in rural areas was 35.1% for females and 35.5% for males. In \nurban areas, the share was 14.3% for females and 14.9% for males. \nThe share of regular wage/salaried employment in total workforce \nwas higher in urban areas as compared to the corresponding share \nin rural areas. While 10% males and 5.6% females were engaged \nin regular/salaried employment in rural areas, 43.4% males and \n42.8% females were engaged in such employment in urban areas \n(GoI, 2013). Low-income women workers, especially in the informal \nsector, are one of the most vulnerable groups in the Indian economy \ndue to irregular work, low economic status, little or no bargaining \npower, lack of control over earnings, the need to balance paid work \nwith care and domestic work, little or no access to institutional \ncredit, lack of training and information, lack of assets, etc. \nApart from gender inequalities as seen in women’s concentration \nin certain industries and sectors of the economy, the devaluation \nof their contribution as unpaid workers has persisted. All of \nwomen’s work in the domestic sphere is excluded from the realm \nof economic activity, remains largely invisible, and is not 牥晬散瑥搠\nin the workforce participation rate. Unpaid work usually includes \nall non-remunerated work including all activities carried out for the \nhousehold that are not destined for the market. Feminist economists \nhave led the call for unpaid care work to be ‘counted’ in statistics, \n‘accounted for’ in representations of the economy, and ‘taken into \naccount’ in policymaking (Elson, 2000). The non-recognition of \nunpaid care by the policymakers is 牥晬散瑥搠in various studies \non missing labour force conducted in India (Hirway, 2012; Jain, \n2008). These studies have been critical of the labour force surveys \nincluding NSSO in capturing women’s work accurately (Samantroy \nand Khurana, 2015).\nA recent report of the NSSO, Participation of Women in 印散楦楣\n \nActivities along with Domestic Duties (2014), has clearly brought \nout that the participation of women in domestic duties in the age \ngroup of 15-59 years had increased from 53% in 2004-05 to 61.6% \nin 2011-12 in rural areas. However, the percentage in urban areas \nremained constant at 65.3% for both the rounds. It was 獩杮楦楣慮\u0000 \nthat the proportion was highest for women in the age group of 30-",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 71,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 71,
+          "layout": "text",
+          "text": "64 \nIndia: Handbook of Labour\n44 years, i.e. about 94% in rural areas and 95% in urban areas (GoI, \n2014a).\nGiven their vulnerable status at home and at work, income \ngeneration alone may not improve the socio-economic status \nof women working in the informal sector. Their economic \nempowerment needs to go hand in hand with social empowerment, \nwhich could improve their bargaining power both in the household \nand at work. While framing policies for the informal sector \nworkers, particularly women, there is a need to consider their \nwork burden and the constraints on their time which they divide \nbetween various roles.\nGENDER AND EDUCATION\nEducation is the single most important factor which paves the \nway to development in all spheres of life, which in turn would \nlead to gender equality and women’s empowerment. According \nto Census 2011, the female literacy rate is just 65.46%, while the \nmale literary rate is more than 82%. The District Information \nSystem for Education (DISE) report showed that in 2013-14 the \nenrolment of girls in primary education was 48%, whereas that of \nboys was 52%. In upper primary it was 49% for girls and 51% for \nboys, in secondary it was 47% in case of girls and 53% in case of \nboys, and the same percentage was also found in senior secondary \neducation. In 2012-13, 45% girls were enrolled in higher education \nas against 55% boys and the gender parity index is found to be \n0.88 in higher education in the age group 18-23 years (GoI, 2014b \nand 2014c).\nIn order to encourage education for women at all levels and for \npromoting greater gender equality, the Government of India has \nlaunched various programmes like Sarva Shiksha Abhiyan (SSA), \nDistrict Primary Education Programme (DPEP), Mid-day Meal \nScheme, Kasturba Gandhi Balika Vidyalaya (KGBV), appointment \nof Shiksha Karmi, Mahila Samakhya, National Programme for \nEducation of Girls at Elementary Level (NPEGEL), Padhe Bitiya \nBadhe Bitiya, Ladali Scheme, Integrated Education for Disabled \nChildren (IEDC), Vocationalisation of Education, etc.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 72,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 72,
+          "layout": "text",
+          "text": "65\nGender Issues in Labour\nGENDER AND SKILL GAP\nThe aim of skill development in the case of women is not merely \nto prepare them for jobs, but also to improve the performance of \nwomen workers by enhancing the quality of work in which they \nare engaged. Women face complex ground realities, including low \nlevels of literacy, discriminatory social customs and traditions, \nlimited hours available for training and work, limited exposure, \nunfamiliarity with new technology. Hence, to encourage women’s \nenrolment it is essential to make the skill development process \n慣捯浭潤慴楮朠慮搠晬數楢汥⸠\nThe National Skill Development Mission, headed by the Prime \nMinister, was launched in 2008 and a Co-ordinated Action Plan \nfor Skill Development was formulated with a three-tier structure \nthat includes (a) the Prime Minister’s National Council on Skill \nDevelopment, (b) the Skill Development Co-ordination Board to \ndevise detailed strategies, and (c) the National Skill Development \nCorporation (NSDC), a 湯渭灲潦楴\u0000company registered under the \nCompanies Act of 1956. The role of the corporation is to identify the \nfull range of skill development needs and to develop processes with \nspecial emphasis on excellent standards and 捥牴楦楣慴楯湳Ⱐ\ntraining \nof trainers and proper delivery of training. \nVocational education and training also plays an important role in \nfurnishing technical and management skills, and helps to develop \nappropriate attitudes for 獰散楦楣\u0000occupations and jobs in women. \nConsidering the low participation of women in vocational education, \nthe government has established various vocational training institutes \nin different parts of the country that have a special focus on women; \nthese include the National Vocational Training Institute (NVTI) and \nRegional Vocational Training Institute (RVTI).\nPresently the government has set up a separate Ministry of Skill \nDevelopment and Entrepreneurship. To achieve high inclusivity \nfrom the gender perspective, the government has framed goals \nsuch as skill development with greater gender equity in access to \ntraining; development of guidelines on women-related issues in \nskill training procedures, including a gender-sensitive training \nenvironment and employment of women trainers; equity in",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 73,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 73,
+          "layout": "text",
+          "text": "66 \nIndia: Handbook of Labour\nremuneration and complaint redressal mechanisms; and creation of \nan internet- or mobile-based platform of employment exclusively \nfor women by connecting skilled women and employers. The \ngovernment also plans to make efforts to encourage women \nentrepreneurs through appropriate incentives for women-owned \nbusinesses under the public procurement process; ensure priority \nfor mentorship and support system for women entrepreneurs in \nexisting business centres and incubators; build entrepreneurial \ncapacity for women by facilitating access to capital at relaxed \ncredit terms; etc. \nGENDER PAY GAP\nGender wage differentials are often a result of perceptions of \nwomen’s labour productivity or 敦晩捩敮捹\u0000levels that constrain their \nopportunities and ability to secure remuneration at par with their \nmale counterparts. According to the Equal Remuneration Act, 1976, \nit is the duty of the employer to pay equal remuneration to men and \nwomen workers for the same work or work of similar nature, and \nno discrimination is to be made while recruiting men and women \nworkers. However, there is substantial evidence of differential wage \nrates for men and women in the country. In India, across industries, \nfemale workers get 48% less wage than their male counterparts \non average (Chaudhuri and Panigrahi, 2013). According to the \nNSSO report (2013), the daily wages of regular wage/salaried male \nworkers of age 15-59 years in rural areas was ` 322.28, while for \nfemales it was ` 201.56. In urban areas, daily wages received by \nmale regular workers was ` 469.87; for females it was ` 366.15. \nDaily wages received by casual workers engaged in works other \nthan public works in rural areas was ` 149.32 for males and ` 103.28 \nfor females. In urban areas, wage rates were ` 182.04 and `110.62 \nfor males and females, respectively. The daily wages received by \ncasual workers engaged in public works other than those related to \nthe Mahatma Gandhi National Rural Employment Guarantee Act \n(MGNREGA) in rural areas was ` 127.39 for males and ` 110.62 for \nfemales; for those engaged in MGNREGA works in rural areas, the \ncorresponding 晩杵牥猠were ` 112.46 and ` 101.97, respectively (GoI, \n2013).",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 74,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 74,
+          "layout": "text",
+          "text": "67\nGender Issues in Labour\nDISCRIMINATION AT WORKPLACE\nGender discrimination involves the unfair treatment of an applicant \nor employee because of the person’s sex. In order to prevent \ndiscrimination and ensure gender equality at the workplace, \nvarious initiatives have been undertaken by the Government of \nIndia, including the Equal Remuneration Act, 1976; setting up \nof the National Commission for Women (a statutory body with \na 獰散楦楣\u0000mandate to study and monitor all matters relating to \nthe constitutional and legal safeguards provided for women) \nin 1992; and the Sexual Harassment of Women at Workplace \nProhibition, Prevention & Redressal Act, 2013. For the safety of \nwomen at the workplace, the Federation of Indian Chambers of \nCommerce and Industry (FICCI) and FICCI Ladies Organisation \n(FLO) have given some recommendations, such as clear display \nof emergency contact numbers, well-lit work areas, staircases and \nparking lots till the last woman employee leaves the site, separate \nand secure toilets for women close to their workstation, strict \nsurveillance of visitors, provision of company transport for women \nworking in night shifts, 晬數楢汥\u0000work arrangements, setting up of a \nsexual harassment committee, strict disciplinary action against those \nfound violating the code of conduct and many more. Employers in \nIndia are fast realising the importance of creating a healthy work \nenvironment that supports a work-life balance, and integrating \npolicies and programmes to assist employees through important \nphases in life, such as pregnancy, childbirth, infertility, adoption, \netc. Many corporations in the country are implementing various \nprogrammes supporting pregnant working women and working \nmothers to balance work and personal life.\nGENDER AND SOCIAL PROTECTION\nSocial protection refers to: ‘all interventions from public, private \nand voluntary organizations and informal networks which support \ncommunities, households and individuals in their efforts to prevent, \nmanage and overcome risks and vulnerabilities’ (Shepherd et al., \n2004). Several scholars investigating gender and social protection \nhave highlighted the vulnerability of women’s position with respect \nto employment and social protection, given the fact that they stand",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 75,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 75,
+          "layout": "text",
+          "text": "68 \nIndia: Handbook of Labour\nat the crossroads of the paid and unpaid care economy, being overrepresented within the informal economy and disproportionately \nimplicated in the unpaid work that goes into taking care of \nfamilies and households (Razavi, 2011). Social norms related to \nthe responsibilities of men and women entail an additional work \nburden for women as they are expected to undertake care and \ndomestic work along with paid work. Hence, policy initiatives to \nprovide social security to women are important in ensuring equality \nin opportunity and conditions of work. \nVarious labour and social security legislations such as Employees’ \nState Insurance Act, 1948, the Employees’ Provident Fund and \nMiscellaneous Provisions Act, 1952, the Maternity 䉥湥晩琠Act, 1961, \nthe Payment of Gratuity Act, 1972, etc. have been enacted from time \nto time. Programmes to cover unorganised workers in India include \nMGNREGA, 2006, and the Unorganised Workers’ Social Security \nAct, 2008. Under the latter the National Social Security Board was \nconstituted in 2009. It recommended that social security schemes, viz. \nRashtriya Swasthya Bima Yojana (RSBY) providing health insurance, \nJanashree Bima Yojana (JBY) providing death and disability cover, \nand Indira Gandhi National Old Age Pension Scheme (IGNOAPS) \nproviding old age pension, may be extended to building and other \nconstruction workers, MGNREGA workers, Accredited Social Health \nActivist (ASHA) workers, Anganwadi workers and helpers, porters/\ncoolies/foremen, and casual and daily wagers.\nLABOUR LAWS PERTAINING TO WOMEN IN INDIA\nIndia has undertaken various policy measures and legislations for \nthe protection of women workers. It has formulated laws and policies \nsuch as the Equal Remuneration Act, 1976, following 牡瑩晩捡瑩潮\u0000of \ninternational labour standards like ILO conventions (for instance, the \nequality convention C100, the equal remuneration convention, 1951, \nand the discrimination (employment and occupation) convention \nC111); Maternity 䉥湥晩琠Act, 1961, following the ILO equality \nconvention C183 and the maternity protection convention, 2000; \nand Employees’ State Insurance Act. In addition to these 慦晩牭慴楶攠\nlegal initiatives, there are other labour laws that guarantee certain \nsafeguards to women workers, such as the Employees’ Provident",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 76,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 76,
+          "layout": "text",
+          "text": "69\nGender Issues in Labour\nFund and Misc. Provisions Act, 1952; Factories Act, 1948; Industrial \nDisputes Act, 1947; Payment of Bonus Act, 1965; Payment of Gratuity \nAct, 1972; Workmen’s Compensation Act, 1923 etc. For example, \nThe Factories Act, 1948, has various provisions of interest to women \n(Sections 19, 22(2), 27,42(1)(b), 48, 66, 79(1) and 114) which prohibit \nthe employment of women in cleaning, lubricating or adjusting \ncertain machinery when it is in motion, stipulate provision of suitable \nsanitation facilities and a free creche on the premises for children \nunder six years of age in establishments employing more than 30 \nwomen, and prohibit the exemption of women from the requirement \nthat the maximum working day for adults is nine hours. \nSEXUAL HARASSMENT OF WOMEN AT WORKPLACE \n(PREVENTION, PROHIBITION AND REDRESSAL) ACT, 2013\nThe Government of India passed the Sexual Harassment Act in 2013, \nwhich has been a 獩杮楦楣慮琠\nstep in safeguarding the dignity and \nfreedom of working women. The rules were 湯瑩晩敤\u0000by the Ministry \nof Women & Child Development on 9 December 2013. The 晩牳琠\nmeasure relating to resolution and prevention of sexual harassment \nat the workplace were the Supreme Court’s 1997 Vishaka Guidelines, \nwhich was triggered by the Bhanwari Devi case. It is envisaged as \na comprehensive legislation covering every workplace, whether in \nthe organised or unorganised sector, and aims to provide women, \nirrespective of their age or status, a safe and secure environment \nfree from sexual harassment. The Act contributes to safeguarding \nwomen’s right to life, liberty and equality in working conditions, \nthereby improving women’s work participation, and promoting \neconomic empowerment and inclusive growth. \nGENDER AND DEVELOPMENT: POLICIES AND \nPROGRAMMES\nVarious policies and programmes intended for the empowerment \nof women have been implemented, for which special budgetary \nallocations are made in the 晩癥⵹敡爠plans. The Planning \nCommission’s ‘Plans and Prospects for Social Welfare in India 19511961’ was 瑨攠晩牳琠瑯⁤敳捲楢攠\nthe status of women in the country; it \npointed out that ‘women are considered to be handicapped by social",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 77,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 77,
+          "layout": "text",
+          "text": "70 \nIndia: Handbook of Labour\ncustoms and social values and, therefore, social welfare services \nhave specially endeavoured to rehabilitate them’. It 摥晩湥搠three \nmajor areas—education, social welfare and health—for women’s \ndevelopment. National Action Plan, 1976, based on UN guidelines, \n楤敮瑩晩敤\u0000areas of health, family planning, nutrition, education, \nemployment, legislation and social welfare for formulating and \nimplementing of action programmes for women. \nIn the 7th 晩癥⵹敡爠plan a new scheme for Women’s Development \nCorporation was taken up for promoting women’s employmentgenerating activities by supporting schemes from women’s groups \nand women from poorer sections of society. A women’s development \nplanning and monitoring cell was also set up for collection of data \nand monitoring of plan programmes. The government has set up \nnational resource units for women which act as apex bodies for \npromoting and incorporating gender perspectives in politics and \nprogrammes of the government. To achieve the goals laid down \ntherein, a number of initiatives, such as the enactment of legislation \nto ban sex determination tests to prevent female foeticide, have been \nlaunched. The 73rd and 74th Constitutional Amendment Acts of 1993 \nensure reservation of 1/3 of seats for women in all elected 潦晩捥猠\nof \nlocal bodies, in rural and urban areas. \nThe National Policy for Empowerment of Women, 2001, aims at \nupliftment, development and empowerment of women in socioeconomic and politico-cultural aspects, by creating awareness on \nvarious issues related to women’s empowerment. The Ministry of \nWomen & Child Development is the nodal agency for all matters \npertaining to welfare, development and empowerment of women. \nThe various schemes undertaken for economic empowerment are \nSwashakti, Swayamsidha, Support to Training and Employment \nProgramme (STEP), Mission Poorna Shakti and Swavlamban. \nWorking women’s hostels and creches provide support services. \nSwadhar (‘a scheme for women in 摩晦楣畬琠\ncircumstances’) and \nshort stay homes provide protection and rehabilitation to women \nin 摩晦楣畬琠\ncircumstances. The Ministry also supports autonomous \nbodies like the National Commission, Central Social Welfare \nBoard and Rashtriya Mahila Kosh which work for the welfare and \ndevelopment of women.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 78,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 78,
+          "layout": "text",
+          "text": "71\nGender Issues in Labour\nCONCLUSION\nAs has been outlined in the chapter, gender is a 獩杮楦楣慮琠\nfactor \nin India’s labour scenario, with major differences evident in men \nand women’s participation in the labour market, opportunities for \nparticular occupations, upward mobility and sustenance in paid \nemployment. The guarantee of equality in rights and opportunities \nprovided by the Constitution of India can be translated into \nreality only though concrete and consistent steps to ensure greater \ngender equality in the sphere of work and the larger public sphere. \nWhile many 獩杮楦楣慮琠\npolicy initiatives have been introduced \nand implemented so far, consistent efforts in ensuring equality of \nopportunity and workplace rights for men and women are essential \nfor bringing about a more inclusive growth and development in the \ncountry. \nREFERENCES\nChaudhuri, B. and Panigrahi, A.K. (2013), ‘Gender Bias in Indian Industry’, \nJournal of Industrial Statistics 2(1): 108-127, available at http://mospi.nic.\nin/Mospi_New/upload/JIS_2012/ \nGender_Bias_in_Indian_ \nIndustryBivas%20Chaudhuri_JISVol-2_Num-1_mar2013.pdf> \naccessed \non \n26.07.2015.\nElson, D. (2000), Progress of the World’s Women 2000: UNIFEM Biennial Report, \nUnited Nations Development Fund for Women, New York.\nGovernment of India (2011), Key Indicators of Employment and Unemployment in \nIndia (2009-10), 66th Round, July 2009-June 2010, National Sample Survey \n佦晩捥Ⱐ䝯癥牮浥湴⁯映䥮摩愬⁎敷⁄敬桩\u0000––––––– (2013), Key Indicators of Employment and Unemployment in India, 68th \nRound, July 2011-June 2012, National Sample Survey 佦晩捥\u0000and Ministry \nof Statistics and Programme Implementation, Government of India, New \nDelhi. \n––––––– (2014a), Participation of Women in 印散楦楥搠\nActivities along with Domestic \nDuties, NSS 68th Round, July 2011-June 2012, National Sample Survey 佦晩捥\u0000and Ministry of Statistics and Programme Implementation, Government of \nIndia, New Delhi.\n––––––– (2014b), All India Survey of Higher Education, 2012-13 (Provisional), \nMinistry of Human Resource Development, Department of Higher \nEducation, Government of India, New Delhi.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 79,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 79,
+          "layout": "text",
+          "text": "72 \nIndia: Handbook of Labour\n––––––– (2014c), Education for All towards Quality with Equality, Ministry of \nHuman Resource Development, available at <http://mhrd.gov.in/sites/\n異汯慤彦楬敳⽭桲搯晩汥猯異汯慤彤潣畭敮琠⽅䙁ⵒ敶楥眭剥灯牴ⵦ楮慬\u0000pdf> accessed on 25.07.2015.\nHirway, I. (2012), ‘Missing Labour Force, An Explanation’, Economic and \nPolitical Weekly 47(37): 67-72.\nJain, D. (2008), ‘Integrating Unpaid Work into Macro Economics: Some Indian \nExperiences’, in Report of the International Seminar on ‘Towards Mainstreaming \nTime Use Surveys’, Ministry of Women and Child Development, Government \nof India, New Delhi.\nRazavi, S. (2011), Engendering Social Security and Protection: Challenges for \nMaking Social Security and Protection Gender Equitable, International Policy \nAnalysis, Friedrich Ebert Stiftung, Germany.\nSamantroy, Ellina and Khurana, S. (2015), ‘Capturing Unpaid Work: Labour \nStatistics and Time Use Surveys’, in Uttam Kumar Panda (ed.), Gender \nIssues and Challenges in the Twenty First Century, Satyam Law International, \nNew Delhi.\nShepherd, A., Marcus, R. and Barrientos, A. (2004), General Review of Current \nSocial Protection Policies and Programmes, paper prepared for UK Department \nfor International Development (DFID), Overseas Development Institute, \nLondon.\nThomas, Jayan Jose (2012), ‘India’s Labour Market During 2000s’, Economic \nand Political Weekly 47(51): 29-31.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 80,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": [
+        {
+          "page": 80,
+          "layout": "text",
+          "text": "Je fo/kku }S&ekfld fgUnh if=dk gSA Je dkuwuksa vkSj muesa \nle;&le; ij gksus okys cnykoksa dh tkudkjh dks vk/kkfjd Lrj \n(Grass Roots level) rd ljy vkSj lqcks/k Hkk’kk esa igqapkus ds fy, bl \nif=dk dk çdk”ku fd;k tkrk \ngSA bl if=dk esa laxfBr vkSj \nvlaxfBr nksuksa {ks=ksa ds fy, \nvf/kfu;fer ekStwnk dkuwuksa dh \nlqlaxr tkudkjh] muesa gksus \nokys la”kks/kuksa] Je rFkk blls \nlac) fo’k;ksa ij ekSfyd ,oa \nvuwfnr ys[k] Hkkjr ljdkj \n}kjk le;&le; ij tkjh \nvfèklwpuk,a] vkS|ksfxd Jfedksa \nds fy, miHkksDrk ewY; lwpdkad \nds çdk”ku ds lkFk&lkFk Je \nls lacaf/kr ekeyksa ij mPpre \nU;k;ky; rFkk mPp U;k;ky;ksa }kjk fn, x, QSlyksa dks lkj ds :i \nesa çdkf”kr fd;k tkrk gSA \npans dh okf’kZd nj ` 200 gSA\nçdk’ku çHkkjh\noh-oh- fxfj jk\"Vªh; Je laLFkku\nlsDVj&24] uks,Mk&201301] mÙkj izns’k\nbZ&esy% publicationsvvgnli@gmail.com\nvf/kd tkudkjh ds fy, lEidZ djsa%\nJe fo/kku",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 81,
+      "width": 484,
+      "height": 718,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": []
+    },
+    {
+      "page_number": 82,
+      "width": 464,
+      "height": 707,
+      "created_at": "2026-07-24T09:33:50Z",
+      "blocks": []
+    }
+  ]
+}

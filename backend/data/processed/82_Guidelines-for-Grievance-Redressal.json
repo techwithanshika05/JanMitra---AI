@@ -1,0 +1,317 @@
+{
+  "source_file": "82_Guidelines-for-Grievance-Redressal.pdf",
+  "metadata": {
+    "total_pages": 19,
+    "total_blocks": 19,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.4444444444444444,
+    "processed_at": "2026-07-24T09:28:56Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "Grievance Redressal Guidelines \n \nAYUSHMAN BHARAT - PRADHAN MANTRI JAN AROGYA YOJANA (AB PMJAY) \n \n \nJanuary 2019",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n2 \nCONTENTS \n \nABBREVIATIONS AND ACRONYMS ........................................................................................................3 \n1. \nINTRODUCTION .................................................................................................................................4 \n2. \nDEFINITIONS ......................................................................................................................................4 \n3. \nOBJECTIVES OF THE GRIEVANCE REDRESSAL SYSTEM ........................................................5 \n4. \nGRIEVANCE TYPES AND WHO CAN FILE GRIEVANCES ..........................................................5 \n5. \nGRIEVANCE REDRESSAL STRUCTURE AND AUTHORITIES ...................................................6 \n5.1 \nDISTRICT GRIEVANCE REDRESSAL COMMITTEE ....................................................................................... 6 \n5.2 \nSTATE GRIEVANCE REDRESSAL COMMITTEE ............................................................................................ 7 \n5.3 \nNATIONAL GRIEVANCE REDRESSAL COMMITTEE ................................................................................. 8 \n6. \nMEETING SCHEDULE OF COMMITTEES .....................................................................................9 \n7. \nGRIEVANCE REDRESSAL MATRIX ................................................................................................9 \n8. \nLODGING AND REGISTRATION OF GRIEVANCES ................................................................... 13 \n9. \nGRIEVANCE REDRESSAL MECHANISMS ................................................................................... 14 \n9.1 \nDETERMINING THE MODE OF REDRESSAL ............................................................................................ 14 \n9.2 \nREDRESSAL THROUGH DIRECT CHANNEL ............................................................................................ 14 \n9.3 \nREDRESSAL THROUGH THE RELEVANT GRIEVANCE COMMITTEE...................................................... 15 \n10. \nCOMPLIANCE WITH ORDERS OF GRIEVANCE REDRESSAL COMMITTEES ..................... 17 \n11. \nMODE OF COMMUNICATION ....................................................................................................... 17 \n12. \nREPORTING ...................................................................................................................................... 17 \n13. \nMONITORING ................................................................................................................................... 18",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n3 \nAbbreviations and Acronyms \n \nAB PMJAY \nAyushman Bharat Pradhan Mantri Jan Arogya Yojana \nATA \nAction Taking Authority \nCGRMS \nCentral Grievance Redressal Management System \nCMO \nChief Medical Officer \nDGNO \nDistrict Grievance Nodal Officer \nDGRC \nDistrict Grievance Redressal Committee \nGOI \n \nGovernment of India \nGR \n \nGrievance Redressal \nGRC \nGrievance Redressal Committee \nISA \n \nImplementation Support Agency \nMOHFW \nMinistry of Health and Family Welfare \nNGNO \nNational Grievance Nodal Officer \nNGRC \nNational Grievance Redressal Committee \nNHA \nNational Health Authority \nSGNO \nState Grievance Nodal Officer \nSGRC \nState Grievance Redressal Committee \nSHA \nState Health Agency \nTPA \n \nThird Party Administrators",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n4 \n1. INTRODUCTION \n \nAyushman Bharat – Pradhan Mantri Jan Arogya Yojna is a flagship program of the \nGovernment which provides a cover up to Rs.5 lakh per family per year for secondary and \ntertiary care hospitalization to over 10.74 crore entitled beneficiary families listed as per SECC \n2011. The benefits are available free of cost at an empanelled public or private hospital in \ncashless and paperless manner, portable across India. \n \nNational Health Authority (NHA) is the Nodal Authority set up for Scheme implementation \nand oversight. To ensure that disputes and grievances of AB PMJAY beneficiaries, healthcare \nproviders and other stakeholders are resolved in an efficient, transparent and time bound \nmanner, NHA has developed Grievance Redressal Guidelines and has established a Central \nGrievance Redressal Management System (CGRMS). NHA has the sole prerogative for \nsubsequent amendments to Guidelines. \n \n2. DEFINITIONS \n \nAB PMJAY Beneficiary refers to all beneficiaries entitled to receive benefits under AB \nPMJAY \n \nAction Taking Authority or the ATA Any authority, which may include an individual or an \norganization, that has the mandate and the responsibility under AB PMJAY to take action on \nthe subject matter of the grievance filed by any aggrieved party \n \nAppellate Authority shall mean the State Grievance redressal Committee (SGRC) or the \nNational Grievance Redressal Committee (NGRC) as the case may be that has the authority \nto accept, hear and adjudicate on appeals against the relevant GRC orders. \n \nCentral Grievance Redressal Management System or the CGRMS refers to system set by \nthe National Health Authority for registering, processing, managing and monitoring \nredressing all grievances under the AB PMJAY. \n \nDirect Channel refers to the mode of grievance redressal where the concerned District \nGrievance Nodal Officer (DGNO) or the State Grievance Nodal Officer (SGNO) redresses \nthe grievance by directly getting in touch with the concerned stakeholders and / or the Action \nTaking authority (ATA) without having to route the matter through one of the Grievance \nRedressal Committees (GRC). \n \nEmpanelled Health Care Provider refers to all public or private health care providers that \nhave been empanelled by any State Health Agency (SHA) in the country or by any Insurance \nCompany on behalf of a SHA for providing cashless hospitalisation benefits under the AB \nPMJAY.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n5 \nGRC Channel refers to the mode of grievance redressal where the grievance is redressed by \none of the Grievance Redressal Committees (GRC) set up under the AB PM-JAY. \nGrievance: A Grievance/complaint refers to any communication that expresses \ndissatisfaction about an action or lack of action, about unfair/wrongful treatment, about the \nstandard of service/deficiency of service that may violate any norms, provisions or \nguidelines laid down for AB PMJAY or asks for remedial action. \nGrievance Redressal means the mechanisms for receiving, registering and addressing \ngrievances received from any of the aggrieved stakeholder. \n \nGrievance Redressal Committee (GRC) refers to committees set up by the SHA or the NHA \nfor redressing all stakeholder grievances under the AB PMJAY. \n \n3. OBJECTIVES OF THE GRIEVANCE REDRESSAL SYSTEM \n \nTo ensure that grievances of all stakeholders are redressed within the time frames prescribed \nin the GR Guidelines up to the satisfaction of the aggrieved party based on the principles of \nnatural justice while ensuring that cashless access to timely and quality care to remains \nuncompromised. \n \n4. GRIEVANCE TYPES AND WHO CAN FILE GRIEVANCES \n \n4.1 Grievances can be filed by any party directly or indirectly involved with the AB PMJAY \nor any stakeholder \nFor this purpose, a stakeholder includes: \ni. \nAB PMJAY Beneficiary; \nii. \nHealthcare Provider \niii. \nInsurer or its employees; \niv. \nImplementation Support Agency (ISA) or its employees \nv. \nState Health Agency (SHA) or its employees or nominated functionaries for \nimplementation of the Scheme; and \nvi. \nAny other person having an interest or participating in the implementation of the \nScheme. \n \n4.2 Any person, who is not a beneficiary of PM-JAY and is not acting on behalf of a ABPMJAY beneficiary and who may have observations, comments, feedback on any aspect \nof the Scheme, shall resort to other channels of feedback and not use the provisions of the \nGRMS. \n \n4.3 Illustrative and indicative list of grievances is given in the Grievance Redressal Matrix \n(refer to Table 1 in this document).",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n6 \n5. GRIEVANCE REDRESSAL STRUCTURE AND AUTHORITIES \n \nAB PMJAY has a three-tier grievance redressal structure to ensure timely redressal of \ngrievances. This section of the guidelines lays down these structures, their constitution and \nfunctions. \n \n5.1 District Grievance Redressal Committee \n \n5.1.1 A District Grievance Redressal Committee (DGRC) will be constituted by the SHA \nin each district as per the following schedule: \na. For insurance mode: Within 15 days of the SHA signing of MoU with the \nInsurance Company. \nb. For assurance mode: Within 15 days of the SHA signing of MoU with the \nCentral Government. \n \n5.1.2 Constitution of the DGRC: \na. The District Magistrate or District Collector or Deputy Commissioner shall be the \nChairperson of the DGRC \nb. The Chief Medical Officer of the district shall be the Convener. \nc. Representative of Rural Development Department of the state government. \nd. District Coordinator of the Insurer (in case of insurance mode) \ne. District Grievance Nodal Officer (DGNO) \nf. Other experts for specific cases as determined by the Chairperson or the Convenor on \nbehalf of the Chairperson. \n \n5.1.3 Functions of the DGRC: \n \nThe DGRC shall perform all functions related to handling and resolution of grievances \nwithin their respective districts. The specific functions will include: \na. Track and redress all grievances referred to it, following the principles of natural \njustice. \nb. Call for additional information as required either directly from an aggrieved party \nor from the concerned agencies / individuals. \nc. Conduct grievance redressal proceedings as required. \nd. If required, call for hearings and representations from the parties concerned while \ndetermining the merits and demerits of a case. \ne. Adjudicate and issue final orders on grievances. \nf. In case of grievances that need urgent redressal, develop internal mechanisms for \nredressing the grievances within the shortest possible time, which could include, \nbut not be limited to, convening special meetings of the DGRC. \ng. Review grievance records. \nh. Monitor the grievance database to ensure that all grievances are resolved within 30 \ndays or earlier stated as per the provisions of these guidelines or any amendments \nto the GRMS Guidelines issued by the NHA and / or the SHA.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 7,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n7 \n \n \n5.2 State Grievance Redressal Committee \n \n5.2.1 The State Grievance Redressal Committee (SGRC) will be constituted by the SHA \nwithin 15 days of the SHA signing the MoU with the Central Government. \n \n5.2.2 Constitution of the SGRC: \na. CEO of SHA / State Nodal Agency (SNA) shall be the Chairperson of the \nSGRC. \nb. The State Grievance Nodal Officer (SGNO) of the SHA shall be the Convenor \nof SGRC. \nc. Representatives of the Departments of Rural Development, Women & Child \nDevelopment, Labour, Tribal Welfare. \nd. Director Health Services. \ne. Medical Superintendent of the leading state level government hospital or the \nDean of the leading medical college in the State. \nf. Representative of Insurance Company (Applicable only where scheme is in \nInsurance Mode) \ng. Other experts for specific cases as determined by the Chairperson or the \nConvenor on behalf of the Chairperson. \nNote: In case of any grievance between SHA and Insurance Company or the SHA and \nan EHCP, the appellete authority will be the Principal Secretary of Department of \nHealth & Family Welfare. \n \n5.2.3 Functions of the SGRC: \nThe SGRC shall perform all functions related to handling and resolution of all \ngrievances received either directly or escalated through the DGRC. When beneficiary \nis the one of the party the decision of the SGRC will be final. The specific functions \nwill include: \na. Act as an Appellate Authority for appealing against the orders of the DGRC. \nb. Track and redress all grievances referred to it, following the principles of \nnatural justice. \nc. Call for additional information as required either directly from an aggrieved \nparty or from the concerned agencies / individuals. \nd. Conduct grievance redressal proceedings as required. \ne. Nominate District Grievance Nodal Officer (DGNO) at each District. \nf. Oversee grievance redressal functions of the DGRC including but not limited \nto monitoring the turnaround time for grievance redressal. \ng. Perform all tasks necessary to decide on all such appeals within 30 days of \nreceiving such appeal. \nh. Adjudicate and issue final orders on grievances. \ni. Ensure compliance to the GRMS Guidelines",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 8,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n8 \n5.2.4 For any appeal escalated to the SHA, the SHA may at its sole discretion assign the \ntask of investigation of the grievance to the independent agency or relevant official if \nneed be. \n \n5.3 National Grievance Redressal Committee \n \n5.3.1 The National Grievance Redressal Committee (NGRC) shall be formed by the \nNational Health Authority at the national level. \n \n5.3.2 Constitution of the NGRC: \na. The constitution of the NGRC shall be determined by the NHA in accordance with the \nGR Guidelines from time to time. \nb. Proposed members for NGRC are: \ni. \nDeputy CEO of National Health Authority (NHA) - Chairperson \nii. \nExecutive Director, Monitoring and Evaluations & operations (NHA) – \nConvenor \niii. \nGeneral Manager, Operations- Member \niv. \nOther experts for specific cases as determined by the Chairperson or the \nConvenor on behalf of the Chairperson. \n \n5.3.3 Functions of the NGRC: \na. The NGRC shall act as the final Appellate Authority at the national level. \nb. The NGRC shall only accept appeals and petitions against the orders of the \nSGRC of a State. The decision of NGRC will be final. \nc. Review state-wise performance of the GRMS. Review may include but not be \nlimited to analysis of monthly reports from the SHA and field visits for \nmonitoring, evaluation and make suggestions for improvement in the system. \nd. Provide need-based mentoring and capacity building support to the SGRCs. \ne. Any other reference on which report of NGRC is specifically sought by any \nCompetent Authority. \nf. Issue specific recommendations to the states for corrective actions and process \nimprovement based on state-wise review of grievance redressal data. \ng. Issue amendments to the national grievance redressal guidelines as and when \nrequired. \n \n5.3.4 The meetings of the NGRC will be convened as per the cases received with it for \nconsideration or as per the convenience of the Chairman, NGRC. \n5.3.5 For any appeal escalated to the NHA, the NHA may at its sole discretion assign the \ntask of investigation of the grievance to the independent agency or relevant official if \nneed be. \n \n5.4 Grievance Officer \n5.4.1 District Grievance Nodal Officer (DGNO)",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 9,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n9 \nDGNO is a person who is nominated by SGRC to resolve the grievances at district \nlevel under PM-JAY. The roles and responsibilities of DGNO are as listed below \na. Addressing grievances of stakeholders directly or through DGRC within the \ntimeframe defined. \nb. Ratifying the actions taken against the grievances by placing in the DGRC from \ntime to time \nc. Enter the particulars of the grievance on the CGRMS portal received directly, \ntelephonically, through letter, email or social media and updating the status in \nCGRMS. \nd. Referring grievances to convener of DGRC \ne. Submitting reports and records \n \n5.4.2 State Grievance Nodal Officer (SGNO) \nSGNO is a person who is nominated by SHA to address the grievances at state level \nunder PM-JAY. The roles and responsibilities of the SGNO are as listed below \na. Addressing grievances of stakeholders directly or through SGRC within the \ntimeframe defined. \nb. Ratifying the actions taken against the grievances by placing them in the SGRC \nfrom time to time \nc. Forwarding the grievances which are received at state level to concerned DGNO \nfor further actions \nd. Referring grievances to convener of SGRC \ne. Submitting reports and records \n \n5.4.3 National Grievance Nodal Officer \nNGNO is a person who is nominated by NHA to address the grievances at National \nlevel under PM-JAY. The roles and responsibilities of the NGNO are as listed below \na. Forwarding the grievances received at national level to concerned SGNO for \nfurther actions \nb. Referring grievances to convener of NGRC \nc. Monitoring of the grievances and ensuring grievances are resolved as per the time \nframe \nd. Submitting reports and records \n6. Meeting Schedule of Committees \n \nThe DGRC & SGRC meeting should be conducted every month on a specific day regularly. \nState can decide a particular date based on the convenience and availability of the members \nof the committee. \n7. GRIEVANCE REDRESSAL MATRIX \n \n7.1 Grievances under the AB PMJAY shall be redressed as per the matrix presented in Table \n1 below:",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "width": 840,
+      "height": 595,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 10,
+          "layout": "text",
+          "text": "Table 1: AB PMJAY Grievance Redressal Matrix \nAggrieved \nparty \nGrievance \nagainst \nIndicative nature of grievances \nApproach \nauthority \nTurn- around \ntime \nGrievance escalated to \nCommittees (if either party is \nnot satisfied) \nBeneficiary \nEmpanelled \nHealthcare \nproviders \n• Denied treatment under PMJAY by \nempanelled healthcare provider at \nthe time of admission \n• Demanding extra money for the \npackages covered under the scheme \n(Grievances registered before \ndischarge) \n• Not returning PMJAY card at the \ntime of discharge \n \n \nDGNO \n48 hours \nIf not resolved in 48 hours by \nDGNO, case shall be referred to \nDGRC \n \nBeneficiary \nEmpanelled \nHealthcare \nproviders \n• Denied treatment under PMJAY \n(grievance registered at the time \nof discharge or after discharge) \n• Demanding extra money for the \npackages covered under the scheme \n(grievance registered after \ndischarge) \n \n \nDGNO \n15 days \nDGRC (Within 30 days of the \nDGNO decision) \nBeneficiary \nInsurance \ncompany / \n• Denied treatment \nDGNO / \nDGRC \n15 days of \nreceipt of \n• \nIf grievance is not resolved \nby DGNO within 15 days,",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 11,
+      "width": 840,
+      "height": 595,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 11,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n11\nTPA/hospital/any \nfunctionary of \nPM-JAY \n• Money sought for treatment, despite Sum \nInsured under PMJAY Cover being \navailable \n• Demanding more than Package Rate/ \nPre-Authorized Amount, if Sum Insured \nunder PM-JAY Cover is insufficient or \nexhausted \n• PMJAY eCard retained by Empaneled \nHealth Care Provider \n• Medicines not provided against OPD \nBenefits or follow-up care \n• Ecard not provided despite eligibility \ngrievance for \nDGNO \n30 days of \nreceipt of \ngrievance for \nDGRC \n \ncase shall be referred to \nDGRC. \n• \nIf either party is not \nsatisfied with DGNO’s \ndecision, then they can \nappeal to DGRC within 30 \ndays of the DGNO order \n• \nDGRC shall have 30 days \nto resolve the grievance. \n• \nIf either party is not \nsatisfied with DGRC \ndecision, then they can \nappeal to SGRC within 30 \ndays \n• \nSGRC shall have 30 days \nto resolve the grievance. \n• \nSGRC decision will be \nfinal \n \nBeneficiary \nDistrict \nauthorities \n• Grievance not addressed by the \nconcerned officer \nSGNO / \nSGRC \n30 days of \nreceipt of \ngrievance \nDecision of the SGRC on such \ncases shall be final and binding. \nHealth Care \nProvider \nBeneficiary / \nInsurance \nCompany / ISA / \nTPA / any \nfunctionary / \nSHA \n• Claims rejected by Insurer or full Claim \namount not paid \n• Suspension or de-empanelment of \nEmpaneled Health Care Provider \n• Hospital IT Infrastructure not \nfunctioning, Insurer/ISA not assisting in \nsolving issue or not accepting manual \ntransaction \n• Not received claims reimbursement in \ntime \nDGNO / \nDGRC \n15 days of \nreceipt of \ngrievance \n- \nIf grievance is not resolved by \nDGNO within 15 days, case \nshall be referred to DGRC. \n- \nIf either party is not satisfied \nwith DGNO’s decision, then \nthey can appeal to DGRC \nwithin 30 days of the DGNO \norder",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "width": 840,
+      "height": 595,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 12,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n12\n- \nDGRC shall have 30 days to \nresolve the grievance. \n- \nIf either party is not satisfied \nwith DGRC decision, then they \ncan appeal to SGRC within 30 \ndays \n- \n \n- \nSGRC shall have 30 days to \nresolve the grievance \n- \nIf either party is not satisfied \nwith SGRC order, they may \napproach the NGRC within 30 \ndays of the SGRC order. \n- \nDecision of the NGRC shall be \nfinal and binding. \nInsurance \nCompany / \nISA / TPA \nDistrict \nAuthorities / \nHealth Care \nProviders / SHA \n• Premium not received within time \nprescribed \n• AB-PMJAY Beneficiary Database not \nupdated \n \n \nSGNO / \nSGRC \n30 days of \nreceipt of \ngrievance \n- \nNGRC (within 30 days of the \nSGRC decision) \n- \nNGRC shall decide within 30 \ndays of the receipt of appeal. \n- \nDecision of the NGRC shall be \nfinal and binding.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 13,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n13\n \n7.2 Beneficiary grievances related to eligibility, hospitalisation, denial of services or demand \nfor any out-of-pocket payment by the empanelled provider or any of its or agents shall be \nresolved within 48 hours of receipt of the complaint / appeal. \n \n7.3 For inter-state / Union Territory (Portability) cases: \na. All beneficiaries’ grievances against the hospital shall be referred to the DGNO of \nthe State/UT where beneficiary is applying/availing benefits of PM-JAY (other than \nparent State/UT) \n \nb. Inter-state beneficiary cases should be solved by concerned DGRC and SGRC. The \nSGRCs of both the states shall coordinate between themselves, if required, to \namicably redress the grievance. \n \nc. All Empanelled Health Care Provider grievances against the Insurer / SHA shall be \nreferred to the SGRC of both parent State/UT and State/UT where the claim is \nraised State/UT. The SGRCs of both the states shall coordinate between them, if \nrequired, to amicably redress the grievance. \n \n \n8. LODGING AND REGISTRATION OF GRIEVANCES \n \n8.1 If any stakeholder has a grievance (aggrieved party) against any stakeholder of AB \nPMJAY as set forth in Table 1, she / he may lodge a grievance through one of the following \nmeans: \n \nOnline Mode \n \n• Through online grievance redressal portal \n– CGRMS of AB PMJAY \n(https://cgrms.pmjay.gov.in/) \n \n \nOffline Mode \n• \nAB PMJAY Call center helpline operated by the State/ NHA. \n• \nThrough letter, telephone, e-mail, and fax to the official addresses of the SHA or the \nNHA \n• \nDirectly with the DGNO of the district where such stakeholder is located or where such \ngrievance has arisen \n• \nDGNO shall enter the particulars of grievances received via offline mode in the portal. \n \n \n8.2 For all grievances received by the call center, call center executives shall register the \ndetails of the grievance in the CGRMS defined format and forward the same to DGNO or \nState Grievance Nodal Officer of the State concerned in case DGNO details are not \nupdated. SGNO shall allocate the same to the concerned District.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 14,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n14\n \n8.3 All grievances, irrespective of the means through which it is lodged, shall be forwarded to \nthe concerned DGNO with a copy to the SGNO. \n \n8.4 The DGNO shall enter the particulars of the grievance on the CGRMS portal established \nby the NHA. \n \n8.5 The CGRMS will automatically: (i) generate a Unique Ticket Number (UTN); (ii) \ncategorize the nature of the grievance; and (iii) an e-mail / letter / SMS to be sent to the \nappropriate stakeholder to which such category of grievance is to be referred (including \nupdating on phone) as per the Grievance Redressal Matrix (Table 1). \n \n8.6 Special powers of the authorities: The SHA, SGRC and/ or the NHA shall have the \nauthority to initiate suo moto proceedings and file a grievance on behalf of itself and / or \nPM-JAY Beneficiaries under the Scheme. They can also take cognizance of reports in \nsocial media and other public forums for further investigation and redressal. \n \n9. GRIEVANCE REDRESSAL MECHANISMS \n \n9.1 Determining the mode of redressal \n \n9.1.1 Upon a grievance being received by the DGNO, the DGNO shall decide whether: \n \na. the substance of the grievance is a matter that can be directly addressed by the \nstakeholder against whom the grievance is lodged or an Action Taking \nAuthority (ATA) (‘Direct Channel’); or \n \nb. whether such matter requires to be dealt with through the grievance redressal \ncommittees (‘Grievance Redressal Committee Channel’ – GRC Channel). \n \n9.1.2 To the extent possible, the DGNO shall exercise its authorities to ensure that \ngrievances are redressed through the Direct Channel. \n \n9.1.3 If the DGNO decides that the grievance must be dealt with under the GRC channel, \nthe DGNO shall refer such grievance to the Convener of the relevant Grievance \nRedressal Committee. \n \n9.2 Redressal through Direct Channel \n \nIf the DGNO decides that the grievance need not be dealt with under the grievance redressal \nmechanism and opts for the Direct Channel, then the following procedures shall be \nfollowed:",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 15,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 15,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n15\n9.2.1 Once the UTN is generated, the DGNO shall send or cause to be sent an \nacknowledgement email / SMS / phone call to an aggrieved party and provide an \naggrieved party with the UTN. Upon receipt of the UTN, an aggrieved party will have \nthe ability to track the progress of grievance resolution online through CGRMS and \nuse the same at the time of calling the helpline for allowing easy retrieval of the \nspecific grievance data. \n \n9.2.2 The stakeholder against whom a grievance has been lodged must send its comments/ \nresponse to an aggrieved party and copy to the DGNO within 15 days. If the \ngrievance is not addressed within such 15-day period, the DGNO shall send a reminder \nto such stakeholder(s) for redressal within a time period specified by the DGNO. \n \n9.2.3 The DGNO shall try to resolve the grievance by forwarding the same to Action Taking \nAuthority (ATA). If the grievance is not resolved or comments are not received over \nthe same within 15 days of the grievance, then the matter may be referred to DGRC. \n \n9.2.4 If the DGNO is satisfied that the comments/ response received from the stakeholder \nsatisfactorily addresses the grievance(s), then the DGNO shall communicate this to an \naggrieved party by e-mail / SMS and phone and update the CGRMS. \n \n9.2.5 If the DGNO is not satisfied with the comments/ response received or if no comment/ \nresponse is received from the stakeholder despite a reminder, then the DGNO shall \nrefer such grievance to the Convener of the relevant Grievance Redressal Committee \ndepending on the nature of the grievance after which the procedures set out shall \napply. \n \n9.3 Redressal through the Relevant Grievance Committee \n \n9.3.1 The DGNO shall update the CGRMS, categorize the grievance and automatically refer \nit to the Convener of the relevant Grievance Redressal Committee by way of e-mail. \n \n9.3.2 The Convener of the relevant Grievance Redressal Committee shall place the \ngrievance before the Grievance Redressal Committee for its decision at its next \nmeeting. \n \n9.3.3 Each grievance shall be addressed by the relevant Grievance Redressal Committee \nwithin a period of 30 days of the receipt of the grievance. For this purpose, each \nGrievance Redressal Committee shall be convened at least once every 30 days to \nensure that all grievances are addressed within this time frame. Depending on the \nurgency of the case, the Grievance Redressal Committee may decide to meet earlier \nfor a speedier resolution of the grievance. \n \n9.3.4 The relevant Grievance Redressal Committee shall arrive at a reasoned decision \nwithin 30 days of receipt of the grievance. All such decisions shall be based on the",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 16,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 16,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n16\nprinciples of natural justice (including giving the parties a reasonable opportunity to \nbe heard) and be taken by majority vote of its members present. \n \n9.3.5 If any party to a grievance is not satisfied with the decision of the relevant Grievance \nRedressal Committee, it may appeal against the decision within 30 days to the relevant \nGrievance Redressal Committee or other authority having powers of appeal as set \nforth in Table 1. \n9.3.6 If an appeal is not filed within 30-day period, the aggrieved party shall lose its right \nto appeal and the decision of the original Grievance Redressal Committee shall be \nfinal and binding. \n \n9.3.7 A Grievance Redressal Committee or other authority having powers of appeal shall \ndispose of an appeal within 30 days of receipt of the appeal. The decision of the \nGrievance Redressal Committee or other authority with powers of appeal shall be \ntaken by majority vote of its members. Such decision shall be given after following \nthe principles of natural justice, including giving the parties a reasonable opportunity \nto be heard. The decision of the Grievance Redressal Committee or other authority \nhaving powers of appeal shall be final and binding. \n \nThe grievance redressal mechanism is presented in the flow chart in the figure below. If there \nare any inconsistencies in the flow chart and the provisions of Section 8 of these GRMS \nGuidelines, \nthe \nlatter \nshall \nprevail.\n \n \n \n \nFigure 1: Grievance Redressal Mechanism Flowchart",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 17,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 17,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n17\n10. COMPLIANCE WITH ORDERS OF GRIEVANCE REDRESSAL COMMITTEES \n \n10.1 Parties against whom an order has been issued by any GRC, shall ensure that all orders are \nfully complied with and executed within not more than 30 calendar of the issuance of the \norder unless such order has been stayed on appeal. \n \n10.2 If the party against whom such orders have been issued, fails to comply with the order \nwithin 30-day period or a time period set forth in the GRC Order, the defaulting party shall \nbe liable to pay penalty as described under the contract between the parties or penalty of \nRs. 25,000 per month for the first month or part thereof of such non-compliance and Rs. \n50,000 per month or part thereof thereafter until the order of such GRC is complied with. \nThe defaulting party shall be liable to pay such penalty to the SHA within 15 days of \nreceiving a written notice from the SHA. All such payments have be made by the \ndefaulting party in the manner specified by the SHA in such a notice. However, if the \nSHA is the defaulting party, such notices shall be issued by the NHA and the penal interest \nshall be paid by the SHA to the NHA. \n \n10.3 On failure to pay such penalty, the defaulting party shall be liable to pay a penal interest \nat the rate of one percent of the total outstanding penalty amount for every 15 days for \nwhich such penalty amount remains unpaid. \n \n10.4 For delays in compliance to the order beyond three months of the date of its issue, the SHA \n/ NHA shall have the right to seek recourse to available legal remedies all costs of which \nshall be borne by the defaulting party. \n \n11. Mode of Communication \nThe decision made by the grievance officer or the grievance committee must be \ncommunicated to the parties within 3 days through any of the below channels \nIn case of beneficiary- he/she should be informed through \n1. Letters or \n2. Emails \n3. SMS- About the status \n4. Outbound call from call centre (Should be recorded and saved) \nIn case of Hospitals/Insurance Company/ISA \n1. Letters \n2. Emails \n \n12. REPORTING \n \n12.1 The SGRC shall, through the SHA, submit monthly status reports of the grievance \nredressal management system to the NGRC. \n \n12.2 All such reports shall be in the form and manner prescribed by the NHA from time to time.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 18,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 18,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n18\n \n13. MONITORING \n \n13.1 The SHA shall be responsible for monitoring the functioning of the GRMS within the state. \n \n13.2 Some of the key indicators for tracking the efficiency of the GRS system shall be: \n \nTable 2: Resolution turn-around time ratio \n \nIndicator \nResolution turn-around time ratio \nDescription \nShare of grievances that are resolved within the prescribed \ntime frame \nNumerator (N) \nNumber of grievances resolved within the prescribed time \nDenominator (D) \nTotal number of grievances registered \nCalculation \nN * 100 / D \nFrequency of \nmeasurement \nMonthly \nAcceptable Threshold \n98 percent or more \n \n \nTable 3: Escalation ratio \n \nIndicator \nEscalation ratio \nDescription \nShare of grievances that needed escalation \nNumerator (N) \nNumber of GRC orders that were appealed against \nDenominator (D) \nTotal number of GRC orders issued \nCalculation \nN * 100 / D \nFrequency of measurement Monthly \nAcceptable Threshold \n10 percent or less \n \nTable 4: Grievance registration efficiency ratio \n \nIndicator \nGrievance registration efficiency ratio",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 19,
+      "width": 594,
+      "height": 842,
+      "created_at": "2026-07-24T09:28:56Z",
+      "blocks": [
+        {
+          "page": 19,
+          "layout": "text",
+          "text": "GRIEVANCE REDRESSAL SYSTEM \n \n19\nDescription \nShare of grievances forwarded by the NHA that were registered \nin the CGRMS within 24 hours. \nNumerator (N) \nNumber of grievances forwarded by the NHA that were not \nregistered by the SGNO / DGNO within the prescribed time \nframe \nDenominator (D) \nTotal number of grievances forwarded by the NHA to the SGNO \n/ DGNO \nCalculation \nN * 100 / D \nFrequency of \nmeasurement \nMonthly \nAcceptable \nThreshold \n1 percent or less \n \n \n13.3 The NHA shall provide overall supervision and monitoring of the implementation of the \nGRMS across all states. This may include site visits, and internal and third-party process \naudits. \n \n13.4 These indicators are illustrative and may evolve and be amended by the NHA and / or the \nSHA from time to time. \n \n13.5 Monitoring of time series grievance data may also provide insights into the overall \nperformance of the AB PMJAY. Some of these indicators could be: \na. Number of grievances resolved through Direct Channel \nb. Number of beneficiary grievances related to out-of-pocket payments \nc. Number of beneficiary grievances related to quality of services \nd. Number of beneficiary grievances related to denial of services \ne. Number of beneficiary grievances related to delays in receiving services \nf. Number of grievances from empanelled providers related to partially or fully \nrejected claims \ng. Number of grievances from empanelled providers related to delays in receiving \nclaims reimbursements \nh. Number of beneficiary grievances related to portability benefits \ni. Number of provider grievances related to portability claims \n \n13.6 Analyses of these grievance related indicators over time and across states (may be even \nacross districts) is likely to provide useful insights for course corrections and strengthening \nthe implementation mechanisms under the AB PMJAY. \n \n*****",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    }
+  ]
+}

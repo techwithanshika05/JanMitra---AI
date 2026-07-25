@@ -1,0 +1,189 @@
+{
+  "source_file": "grievance_portal_user_manual_V1.1.pdf",
+  "metadata": {
+    "total_pages": 11,
+    "total_blocks": 11,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.4444444444444444,
+    "processed_at": "2026-07-24T09:33:03Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:33:03Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "Department of Higher Education \n (HED) \n \nInternal Grievance Redress System \n(IGRS) \nUser Manual \n \n \n \n \n \n \n \n \n \nSubmitted by: \n \n \n \n \n \n \n \nSubmitted To: \nMAP_IT, Bhopal \n \n \n \n \n \n Dept. of Higher Education",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:33:03Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "DOCUMENT CONTROL \n \nDocument Publication History \n \nDate \nDescription of changes \nVersion \nAuthor \n09th Oct 2019 \nGrievance portal user manual \n1.0 \nVipen Goswami \n15 Oct 2019 \nUpdated the content and screens \n1.1 \nVipen Goswami \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nReviewers \n \nDate \nVersion \nReviewer \nRemarks \n15 Oct 2019 \n1.1 \nMr. Vinay Pandey \n \n \n \n \n \n \n \n \n \n \nDistribution \n \nDate \nVersion \nName \nLocation",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:33:03Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "Table of Contents \nDepartment of Higher Education ........................................................................................................... 1 \n(HED) ........................................................................................................................................................... 1 \nAbbrevations and Definitions ................................................................................................................. 4 \n1 \nIntroduction ........................................................................................................................................... 5",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:33:03Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "Abbrevations and Definitions \nCOE \n \n: \nCentre of Excellence, a unit of MAP_IT responsible for development of solution \nDept \n \n: \nDepartment \nHED \n \n: \nHigher Education department \nGoMP \n: \nGovernment of Madhya Pradesh \nICT \n \n: \nInformation and Communication Technology. \nIT \n \n: \nInformation Technology. \nMAP_IT \n: \nMadhya Pradesh Agency for Promotion of Information and Technology. \nMPSEDC \n: \nMadhya Pradesh State Data Centre \nSI \n \n: \nSystem Integrator \nCMS \n \n: \nContent Management system \nIGRS : \nInternal Grievance Redress system",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:33:03Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "text",
+          "text": "1 Introduction \nThis document is a training document for user in Higher education department who intend to raise grievance \nthrough IGRS portal \nURL: http://www.highereducation.mp.gov.in/ \n \n विभाग की िेबसाइट \n1) \nऊपर दी गयी छवि विभाग की एप्लीकेशन का होम पेज है. \n2) एप्लीकेशन में लॉवगन करने के वलए वनचे ददए हुए ऑप्शन्स में कममचारी कानमर पर वललक करे \n3) कममचारी कानमर पे वललक करने पे आप लॉग इन पेज पर होंगे \n \n कर्मचारी के विए सविमस ऑप्शन",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:33:03Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "IGRS पोटमि िॉग इन पेज \n4) यदद आप सेिा में है तो सेिारत कममचारी के वलए ददए गए आप्शन के द्वारा लॉग इन करे \n5) अगर आप सेिावनिृत/ररटायर्म कममचारी है, तो पहले आप अपनी प्रोफाइल रवजस्टर करे और दफर लॉग इन करे \n6) लोग इन करने के वलए लॉग इन करे पे वललक करे",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:33:03Z",
+      "blocks": [
+        {
+          "page": 7,
+          "layout": "text",
+          "text": "7) लॉग इन करने के वलए “लॉग इन” पर वललक करे. वललक करने पर आप लोग इन पेज पर रर र्ायरेलट दकये जायेंगे. वनचे दी \nहुई स्रीन पे आप ”अपनी ईमेल आई र्ी और पासिर्म टाइप करे और दफर \"Sign-In\" पे वललक करे \n \n8) लोग इन करने के बाद आपको र्ैशबोर्म प्राप्त होगा \n9) र्ैशबोर्म पे आप अपनी प्रोफाइल की जानकारी और आपने द्वारा दकये गए अभ्यािेदन का वििरण भी देख सकेंगे \nईर्ेि आई डी \n पासिडम",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:33:03Z",
+      "blocks": [
+        {
+          "page": 8,
+          "layout": "text",
+          "text": "10) आंतररक वशकायत वनिारण सवमवत को नविन अभ्यािेदन प्रस्तुत करने के वलए \"आंतररक वशकायत वनिारण सवमवत हेतु \nअभ्यािेदन\" पर वललक करे \n11) उसके बाद ड्राप र्ाउन में आये हुए ऑप्शन \"निीन आिेदन\" पर वललक करे \n \n12) अभ्यािेदन के प्रकार का चयन करे \n13) अभ्यािेदन का विषय ५० से कम शब्दों में टाइप करे \n14) अभ्यािेदन का वििरण ५००० से कम शब्दों में टाइप करे. अभ्यािेदन का वििरण टाइप करने के बाद, सेि ड्राफ्ट पे वललक \nकरे \n15) नोट: आप दकसी अन्य स्थान से कॉपी करके टेलस्ट पेस्ट भी कर सकते है. ध्यान रहे की टाइपपंग पहंदी में यूवनकोर् में ही करे. \nअन्य फॉण्ट का उपयोग करने पर आपका अभ्यािेदन पंजीकृत नहीं होगा.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:33:03Z",
+      "blocks": [
+        {
+          "page": 9,
+          "layout": "text",
+          "text": "16) ड्राफ्ट सेि करने के बाद अभ्यािेदन के समथमन में जो र्ॉलयूमेंट अपलोर् करना है िो अवभलेख अपलोर् करे \n17) अगर उपरोक्त अभ्यािेदन के संबंध में माननीय न्यायलय में प्रकरण विचारधीन है? तो हााँ पर वललक करे अन्यथा नहीं पर \nवललक करे \n \n1) अगर यावचका न्यायलय में दजम है तो उसका वििरण दे और उसके बाद जानकारी जोड़े बटन को वललक करे और सबवमट \nकरे \n \n2) एप्लीकेशन सबवर्ट करने पर आपको स्क्रीन पर सक्सेस र्ेसेज प्राप्त होगा",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:33:03Z",
+      "blocks": [
+        {
+          "page": 10,
+          "layout": "text",
+          "text": "3) सक्सेस र्ेसेज के “Ok” पर क्लिक करने पर आपको एप्लीकेशन नंबर प्राप्त होगा. \n \n4) एप्लीकेशन नंबर पे क्लिक करने पर आप अपने द्वारा दजम की गयी वशकायत की पंक्लि पर होंगे \n5) वकसी भी वशकायत पे “आिेदन देख” पे क्लिक कर के आप उस वशकायत पे जाकर उस आिेदन की प्रीवत वप्रंट कर \nसकते है \nआिेदन देखे",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 11,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:33:03Z",
+      "blocks": [
+        {
+          "page": 11,
+          "layout": "text",
+          "text": "वप्रंट करे",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    }
+  ]
+}

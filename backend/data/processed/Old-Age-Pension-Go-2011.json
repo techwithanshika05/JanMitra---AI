@@ -1,0 +1,45 @@
+{
+  "source_file": "Old-Age-Pension-Go-2011.pdf",
+  "metadata": {
+    "total_pages": 2,
+    "total_blocks": 2,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.2222222222222222,
+    "processed_at": "2026-07-24T09:33:54Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 522,
+      "height": 792,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "D.D. (5) \n23 \nviGI-2oll /26--2-2021--10o(1)/2017 \nGT T \nyfa areff f \nlA| \nogT5: f¢i :l6 far, 2021 \n50 500 HÍtHIE 9i Hi galor 50 1000 9ÍdHI8 \nGIHIeut \n0 200/-\nT TT 50 300/-\nT 34eit z \n60 500 / \n27/GO.Rajiv",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 549,
+      "height": 792,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "5 \n6 \n2 \n3 \n4 \n5 \n-2 \n()/26--2--2021 GEfeO \n3151T \n/ \n28/GO.Rajiv",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    }
+  ]
+}

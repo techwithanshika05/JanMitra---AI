@@ -1,0 +1,397 @@
+{
+  "source_file": "one_nation (1).pdf",
+  "metadata": {
+    "total_pages": 24,
+    "total_blocks": 24,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.4444444444444444,
+    "processed_at": "2026-07-24T09:33:54Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "ONE NATION,\nONE RATION CARD\nNationwide portability of ration\nReforms in Public Distribution System",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "“\n“हमारे गरीब भाई- बहन एक ही राशन \nकार्ड पर देश के किसी भी राज्य में \nराशन ले सकें, इसके लिए एक राष्ट्र \nएक राशन कार्ड योजना शुरू की गयी \nहै। .. इसका सबसे बडा लाभ उन गरीब \nसाथियों को मिलेगा, जो रोज़गार या \nदूसरी आवश्यकताओं के लिए अपना \nगाँव छोड़कर कहीं और जाते हैं”\n- प्रधानमंत्री नरेन्द्र मोदीी",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "Chapters\n Introduction ........................................................................................................\n1. \nOne Nation One Ration Card..........................................................................\n2. Technology Driven ...........................................................................................\n3. Present impacts and achievements .........................................................\n4. Beneficiary outreach........................................................................................\n01\n03\n05\n11\n15",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "1\nONE NATION, ONE RATION CARD\nIntroduction \nThe implementation of nation-wide portability \nof ration cards through “One Nation One Ration \nCard (ONORC) plan”, is an ambitious endeavor of \nthe Department of Food & Public Distribution, \nGovernment of India to empower about 81 Crore \nbeneficiaries. This includes ensuring food security \nfor migrants as well. Through this facility, while \na migrant beneficiary is enabled to get his/her \nration through portability in the destination \nState/UT, at the same time, the family back home \nis also allowed to get their part of the entitled \nration to support itself. The usage of portability \ncan be seasonal or long-term.\nOwing to the defined coverage of beneficiaries \nunder the National Food Security Act (NFSA), \n2013 in each States/UT, it is difficult for migrant \nbeneficiaries to get a new ration card issued. And \nif they are able to get one issued, it introduces \nthe ‘duplicity’ of ration cards/beneficiaries in the \ncountry’s Targeted Public Distribution System \n(TPDS), thereby potentially depriving many other \nIntroduction",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "text",
+          "text": "2\nONE NATION, ONE RATION CARD\nleft-out and genuinely deserving beneficiaries \nfrom getting included under the fold of NFSA. \nMoreover, their un-accessed/un-lifted foodgrain \nin their tagged FPS in the native village/town are \nalso prone to diversion by the FPS dealers, leading \nto losses of food subsidy to the government.\nThe One Nation One Ration Card reform has its \ngenesis in the vision that the computerisation \nof Targeted Public Distribution System (TPDS) \nin the country must be taken to the next level \nin ensuring food security in the country. This \ntechnology-driven system of portability is being \nimplemented in all States and Union Territories \nwhere the system is being built upon the strong \nfoundations of computerised TPDS operations \nincluding the installed infrastructure of electronic \nPoint of Sale (ePoS) devices at the Fair Price \nShops (FPS) and seeding of beneficiaries’ Aadhaar \nnumbers with their ration cards.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "3\nONE NATION, ONE RATION CARD\nChapter 1\nOne Nation\nOne Ration Card\nTo address the difficulties of migrants, the \nportability of ration cards, a technology-driven \nsystem for intra-State & inter-State portability \nof ration cards, commonly called as the ‘One \nNation One Ration Card’ (ONORC) plan, has been \nintroduced by the Government. Presently, this \nsystem is enabling many migrant beneficiaries to \nseamlessly get their foodgrains from any FPS of \ntheir choice, in most parts of the country, by using \ntheir same/existing ration card with biometric \nauthentication of identity on an ePoS device. This \ninitiative also provides leverage to States/UTs to \nserve many more beneficiaries, without actually \nincurring any additional burden. Furthermore, \nthis mechanism can plug the leakage/diversion \nof un-lifted foodgrains in FPSs, as they can now \nbe lifted by their rightful beneficiaries through \nportability and gets reconciled/adjusted between",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 7,
+          "layout": "text",
+          "text": "4\nONE NATION, ONE RATION CARD\nStates/UTs, thereby minimizing the chances of \nun-lifted foodgrains getting diverted.\nBesides serving migrants, this system provides \nflexibility to all NFSA beneficiaries to lift their \nfoodgrains from any FPS of choice. Thus, it \npotentially reduces the whims and fancies of \nFPS dealers and encourage a sense of healthy \ncompetition among them to better serve the \nbeneficiaries.\nDifficult to obtain New Ration Card \n! Cumbersome to apply new ration card in a new place \n! 5-6 months to complete formalities and process \n! Dependency on various supporting documents/proofs \n! Leads to duplicity of ration card/beneficiary \nRation Card tagged to a particular FPS \n! Ration card holders avail entitlements from tagged FPS only \n! Dependent on the whims-and-fancies of the FPS dealer \nMigration = Loss of Food Security \n! Migrant beneficiaries lose access to subsidised foodgrains \n! Forced to purchase from open market at inflated prices \n! Very purpose of ‘Food Security’ under NFSA is not fulfilled \nMigrants lose \naccess to PDS \nfoodgrains \nBeneficiary \nconfined to a \nparticular Fair \nPrice Shop \n(FPS) \nTime \nConsuming and \nCumbersome \nProcess \nNO NEED TO SURRENDER & \nRE-APPLY NEW RATION CARD \nNO NEED TO REGISTER FOR \nPORTABILITY \nNO PAPER-WORK \nUSE EXISTING / SAME RATION \nCARD NUMBER or AADHAAR \nJUST WALK-IN TO ANY FPS \nWITH E-POS \nAUTHENTICATE ON E-POS \nWITH AADHAAR BIOMETRIC \nRECEIVE PART OR FULL \nENTITLEMENTS \nFAMILY MEMBERS CAN ALSO \nACCESS IN NATIVE PLACE \nPROBLEM\nSITUATION\nRESOLUTION",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 8,
+          "layout": "text",
+          "text": "5\nONE NATION, ONE RATION CARD\nChapter 2\nTECHNOLOGY DRIVEN \nThe foundations of this transformational \ninitiative were laid by the earlier efforts of the \ncurrent central government in association with \nall States/UTs for end-to-end computerisation of \nthe TPDS in the country. But it is mainly dependent \non the availability of operating electronic Point \nof Sale (ePoS) devices at the FPSs coupled with \nbiometric (fingerprint/IRIS) scanners conforming \nto UIDAI norms and Aadhaar seeding of \nbeneficiaries with their ration cards.\nIn the backend, the States/UTs ePoS servers are \nsupported by a central repository/system setup by \nthe Department of Food & Public Distribution for \nseamless exchange of ration cards/beneficiaries’ \ninformation and acts as a gateway to check the \nduplicity of ration cards/beneficiaries in and \nacross States/UTs through a continuous Aadhaar \nbased de- duplication process.\nOperationally, the migrant beneficiaries desirous \nof receiving their foodgrains through portability,",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 9,
+          "layout": "text",
+          "text": "6\nONE NATION, ONE RATION CARD\nmay simply walk-in to any ePoS enabled FPS of \nchoice in the ONORC enabled States/UTs and \nquote or present either their ration card number \nor seeded Aadhaar number to access their \nentitlements after biometric authentication on a \nePoS device.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 10,
+          "layout": "text",
+          "text": "7\nONE NATION, ONE RATION CARD\n‘MERA RATION’ MOBILE APP\nEMPOWERING MIGRANTS FOR ONE NATION \nONE RATION CARD\nThe Department of Food & Public Distribution \nin association with NIC has launched a Mobile \nApplication “MERA RATION” (मेरा राशन) for the \nbenefit of NFSA beneficiaries, particularly migrant \nbeneficiaries to take maximum advantage of the \nOne Nation One Ration Card (ONORC) plan. \nThe salient features of the App which can be \neasily accessed by beneficiaries using either their \nRation Card number or Aadhaar number include \nthe following:",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 11,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 11,
+          "layout": "text",
+          "text": "8\nONE NATION, ONE RATION CARD\nCurrently, the ‘Mera Ration’ (मेरा राशन) mobile \napplication is available in 12 languages, namely- \nEnglish, Hindi, Kannada, Odiya, Gujarati, Punjabi, \nTelugu, Malayalam, Marathi and Tamil, Urdu and \nBangla, and can be easily downloaded from Google \nPlay Store. Going forward, the App may also be \nmade available in few more regional languages \nand shall be enriched with more features and \nfunctionalities to improve its utility and for \nmaximum benefit of migrant NFSA beneficiaries.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 12,
+          "layout": "text",
+          "text": "9\nONE NATION, ONE RATION CARD",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 13,
+          "layout": "text",
+          "text": "10\nONE NATION, ONE RATION CARD",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 14,
+          "layout": "text",
+          "text": "11\nONE NATION, ONE RATION CARD\nChapter 3\nPRESENT IMPACTS & \nACHIEVEMENTS\nOver the period of last 7 years, ALL OUT efforts \nwere made to bring reforms in the functioning of \nTPDS with the main objective of modernizing and \nbringing about transparency and efficiency in the",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 15,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 15,
+          "layout": "text",
+          "text": "12\nONE NATION, ONE RATION CARD\ndistribution of food grains to the beneficiaries. \nSince then, significant physical progress has \nbeen achieved at the national level. As a result of \nthe above e-governance activities, presently, an \naverage of about 80%~85% of monthly allocated \nfood grains by the Department to States/UTs are \nbeing distributed to the beneficiaries through \nbiometrically/Aadhaar \nauthenticated \nePoS \ntransactions. Further, this indicator is steadily \nimproving.\nThe singular achievement of the One Nation \nOne Ration Card (ONORC) is that, this initiative \nhas been developed fully indigenously with the \ntechnical support of National Informatics Centre \n(NIC). What is remarkable is that the broadbased reform of portability covering nearly 81 \nCrore NFSA beneficiaries in all States/UTs is \nbeing achieved with minimal outlay of just Rs. \n127 Crore, over a period of 4 years. Further, this is \na one-of- its-kind Citizen-Centric initiative in the \ncountry, swiftly implemented in 34 States/UTs \nin a short-span of time (as of August 2021), after \nbeing sanctioned in 2018-19 and implemented \nfrom August 2019. These 34 States/UTs are \nintegrated in a seamless portability platform,",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 16,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 16,
+          "layout": "text",
+          "text": "13\nONE NATION, ONE RATION CARD\nempowering almost 94% NFSA population with \nseamless Food Security anywhere in the Country.\nIn this way, portability of ration is making every \nNFSA beneficiary AtmaNirbhar.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 17,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 17,
+          "layout": "text",
+          "text": "14\nONE NATION, ONE RATION CARD\nHow ONORC helped NFSA \nbeneficiaries during COVID pandemic: \nOne Nation One Ration Card was helpful to \nNFSA beneficiaries in availingfoodgrains \nfrom any location during COVID pandemic/\nlockdown period. This freedom of choice \nis a tremendous value-added service to \neach NFSA beneficiary. Portability is being \noperated at different levels i.e. Intra-State \n(Inter- District or Intra-District) and InterState. During the period 01-April-2020 \nto \n30-September-2021, \nabout \n24.32 \ncroreportability transactionsunder NFSA have \nbeen carried out across States/UTs, benefiting \nlarge number of NFSA beneficiaries, mostly \nmigrants, at the FPSs near to their location \nof work/temporary stay. Implementation \nof ONORC has made steady improvement \nduring COVID pandemic period. Number of \nStates under One Nation One Ration card \nhas increased from 12 States in April’20 to \n34 States in August’21. The remaining two \nStates i.e. Assam and Chhattisgarh would \nbe brought under ONORC in the next few \nmonths depending upon their achieving the \nrequisite technical readiness.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 18,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 18,
+          "layout": "text",
+          "text": "15\nONE NATION, ONE RATION CARD\nChapter 4\nBENEFICIARY OUTREACH\nSince, the responsibility of distribution of \nfoodgrains to beneficiaries under TPDS rests \nwith the States/UTs, they have been primarily \nentrusted to undertake publicity and awareness \ngeneration campaigning for the initiative in \nrespective States/UTs and have also been \nrequested to enable a dedicated 14445 toll-free \nnumber for ONORC operations, and at present, it \nis functional in most of the States/UTs.\nDepartment also undertook a Radio based \npublicity campaigning in Hindi and 10 other \nregional languages through 164 FM and 91 \nCommunity Radio Stations spread across the \nStates/UTs under ONORC. Besides, these audio \nspots are also being played at key railway \nstations with support of Indian Railways all over \nthe country to deepen the outreach to migrants. \nThe Department is also actively leveraging \nsocial media (Twitter and YouTube channels) to \npopularize the initiative through soft publicity.\nFurthermore, the Department has also reached",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 19,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 19,
+          "layout": "text",
+          "text": "16\nONE NATION, ONE RATION CARD\nout to targeted migrant population through \nadvertising on State Transport Buses and audiovisual spots at railway stations. A specially \ncustomised ONORC Mobile App ‘Mera Ration’ in \n12 languages, as mentioned in Chapter-2 before, \nhas been downloaded more than 15 Lakh times \nfrom Google Play Store and is enabling maximum \nbenefit to migrant beneficiaries by making the \nportability of ration easier.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 20,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 20,
+          "layout": "text",
+          "text": "17\nONE NATION, ONE RATION CARD\nBeneficiary Speaks:\nTestimonials of NFSA \nBeneficiaries recorded in \nSept. 2020 :\nName: Shavan Bai\nRation Card Number: AUR14134279\nHome State: Karnataka\nRation drawing state: Telangana\nRation drawing district: Rangareddy",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 21,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 21,
+          "layout": "text",
+          "text": "18\nONE NATION, ONE RATION CARD\nName : Amna Khatun\nMobile :9725304871\nHome State : Bihar\nSale State : Dadra & Nagar Haveli and \nDaman & Diu\nSale District: Daman\nName : Radhakrishnan\nRation Card Number: 272010624154\nHome State: Maharashtra\nRation drawing state: Kerala\nRation drawing district: Kannur",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 22,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 22,
+          "layout": "text",
+          "text": "19\nONE NATION, ONE RATION CARD\n1",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 23,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 23,
+          "layout": "text",
+          "text": "20\nONE NATION, ONE RATION CARD",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 24,
+      "width": 396,
+      "height": 612,
+      "created_at": "2026-07-24T09:33:54Z",
+      "blocks": [
+        {
+          "page": 24,
+          "layout": "text",
+          "text": "21\nONE NATION, ONE RATION CARD\nMINISTRY OF INFORMATION AND BROADCASTING\nGOVERNMENT OF INDIA",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    }
+  ]
+}

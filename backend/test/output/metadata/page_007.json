@@ -1,0 +1,151 @@
+{
+  "page_num": 7,
+  "image_width": 2480,
+  "image_height": 3507,
+  "created_at": "2026-07-24T07:16:17.259258+00:00",
+  "blocks": [
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_7_block_000",
+      "coordinates": {
+        "x1": 248.0,
+        "y1": 351.0,
+        "x2": 2230.0,
+        "y2": 407.0
+      },
+      "layout_tag": "image-caption",
+      "confidence": 0.8283910155296326,
+      "reading_order": 1,
+      "text": "TOTAL FOODGRAIN ALLOCATIONS REACHED A RECORD HIGH OF 1,002 LAKH TONS IN 2021-22"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_7_block_001",
+      "coordinates": {
+        "x1": 237.0,
+        "y1": 408.0,
+        "x2": 2291.0,
+        "y2": 1217.0
+      },
+      "layout_tag": "chart",
+      "confidence": 0.9525555372238159,
+      "reading_order": 2,
+      "text": "| Year | Allocations (NFSA in lakh tons) | Offtake (NFSA in lakh tons) | Total NFSA Volume Labelled (%) | COVID-19 and non-NFSA In Lakh Tons | Percentage of offtake out of allocations |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| 2018-19 | 553 | ~476* | N/A | - | **95%** |\n| 2019-20 | 549 | ~475* | *Estimated based on visual height difference from previous year.* | Not explicitly labelled, but total volume is implied by the bar length relative to prior years (~Total Height = Previous Years' Bar + New Red Section). The red section appears roughly constant width across bars despite increasing yellow line value indicating higher percentage share for later periods.|\n| 2020-21 | 548 | ~477* | Estimated at same level as start due to similar grey base size; no explicit label provided above stack or below x-axis text \"COVID\". This represents an increase over baseline allocation volumes without new specific labelling per row like 'Non-NFSA'. However visually it sits between earlier rows suggesting growth not captured numerically here unless inferred against trend lines which are absent except final column header context.<br><br>*Note: Values marked with asterisk (*) represent estimated values derived via proportional analysis where exact labels were missing within stacked columns beyond initial two entries.\" | Explicitly visible only under first three categories (\"Allocations\", etc.) showing distinct numerical increases corresponding generally inversely related trends compared directly adjacent stacks e.g., As Allocation % drops slightly each period so does its absolute number while other metrics rise proportionally shown clearly elsewhere. |\n| 2021-22 | 549 | ~486* | Increasing visibly towards end timeline<br>Red segment grows significantly larger than blue one specifically noted around mid point then decreases again toward last entry implying dynamic changes during reporting window covered partially till Nov specified note:<br>\"Percentage...out...\" shows clear drop off after peak near middle timeframe before slight recovery seen late term data points included partial view ending November scope mentioned footnote style captioning\" | Visible primarily through comparative stacking proportions rather direct numeric extraction since some segments lack individual numbers apart form aggregate totals indicated implicitly along y axis scale progression upwards reflecting cumulative effect described overall chart narrative flow. |\n\n*(Estimates made when precise figures weren't fully legible)*"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_7_block_002",
+      "coordinates": {
+        "x1": 226.0,
+        "y1": 1255.0,
+        "x2": 2252.0,
+        "y2": 1353.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.908660352230072,
+      "reading_order": 3,
+      "text": "**Source:** Allocation and Offtake of Foodgrains from Food Grain Bulletin, Department of Food and Public Distribution. Available online at: https://dfpd.gov.in/food-grain-bulletin.htm. Last accessed on 23 December 2022."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_7_block_003",
+      "coordinates": {
+        "x1": 224.0,
+        "y1": 1483.0,
+        "x2": 2256.0,
+        "y2": 1708.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9468991756439209,
+      "reading_order": 4,
+      "text": "■ Looking at the phase-wise trends specifically for PMGKAY, there are some differences in the proportion of\nfoodgrains lifted. The phases implemented during the peak of the COVID-19 pandemic, namely PMGKAY-I (April\nto June 2020) and PMGKAY-III (May-June 2021) saw the highest proportion (98 per cent) of grains lifted out of\ntotal allocations. On the other hand, it was marginally lower for other phases in FY 2020-21 and FY 2021-22."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_7_block_004",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 1740.0,
+        "x2": 2253.0,
+        "y2": 1853.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9164495468139648,
+      "reading_order": 5,
+      "text": "■ Percentage of offtake has been considerably lower in Phase-VI at 84 per cent. For Phase-VII, as on 22 December 2022, 8 days before the scheme ended, only 69 per cent of total allocations had been lifted."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_7_block_005",
+      "coordinates": {
+        "x1": 223.0,
+        "y1": 1885.0,
+        "x2": 2253.0,
+        "y2": 1998.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9132366180419922,
+      "reading_order": 6,
+      "text": "In terms of quantum of grains, despite differences in total allocations, per month allocation for all phases remained between 39 to 41 lakh tons, averaging around 39.9 lakh tons for the seven phases."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_7_block_006",
+      "coordinates": {
+        "x1": 453.0,
+        "y1": 2118.0,
+        "x2": 2025.0,
+        "y2": 2221.0
+      },
+      "layout_tag": "image-caption",
+      "confidence": 0.8833156228065491,
+      "reading_order": 7,
+      "text": "PERCENTAGE OF FOODGRAINS LIFTED OUT OF TOTAL ALLOCATIONS WAS\nLOWER FOR PMGKAY-VI COMPARED TO PREVIOUS PHASES"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_7_block_007",
+      "coordinates": {
+        "x1": 229.0,
+        "y1": 2233.0,
+        "x2": 2285.0,
+        "y2": 2868.0
+      },
+      "layout_tag": "chart",
+      "confidence": 0.9493551254272461,
+      "reading_order": 8,
+      "text": "| Period | Allocations (in lakh tons) | Offtake (in lakh tons) | Percentage of foodgrains lifted out of total allocations |\n| :--- | :--- | :--- | :--- |\n| PMGKAY-I (Apr-Jun 2020) | 120 | 117 | ~98% |\n| PMGKAY-II (Jul-Nov 2020) | 200 | 188 | ~94% |\n| PMGKAY-III (May-Jun 2021) | 80 | 78 | ~98% |\n| PMGKAY-IV (Jul-Nov 2021) | 199 | 193 | ~97% |\n| PMGKAY-V (Dec 21-Mar 2022) | 159 | 153 | ~96% |\n| PMGKAY-VI (Apr-Sep 2022) | 239 | 200 | ~84% |\n| PMGKAY-VII (Oct-Dec 2022) | 120 | 83 | ~69% |"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_7_block_008",
+      "coordinates": {
+        "x1": 224.0,
+        "y1": 2910.0,
+        "x2": 2254.0,
+        "y2": 3175.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.8129540085792542,
+      "reading_order": 9,
+      "text": "**Source:** (1) Allocation and lifting of foodgrains under PMGKAY-V from Food Corporation of India. Available online at: https://fci.gov.in/app/\nwebroot/upload/sales/PMGKAY-%20I-V_1.pdf. (2) Allocation and lifting of foodgrains under PMGKAY-VI from Food Grain Bulletin, Department of\nFood and Public Distribution. Available online at: https://dfpd.gov.in/writereaddata/Portal/Magazine/FoodgrainBulletinforSeptember2022.pdf.\n(3) Allocation and lifting of foodgrains under PMGKAY-VII from Food Corporation of India. Available online at: https://fci.gov.in/app/webroot/\nupload/sales/PMGKAY%20VII.pdf. Last accessed on 26 December 2022.\n**Note:** Offtake figures for PMGKAY-VII as on 22 December 2022."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_7_block_009",
+      "coordinates": {
+        "x1": 232.0,
+        "y1": 3349.0,
+        "x2": 256.0,
+        "y2": 3385.0
+      },
+      "layout_tag": "page-number",
+      "confidence": 0.6137572526931763,
+      "reading_order": 10,
+      "text": "6"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_7_block_010",
+      "coordinates": {
+        "x1": 282.0,
+        "y1": 3346.0,
+        "x2": 1055.0,
+        "y2": 3389.0
+      },
+      "layout_tag": "footer",
+      "confidence": 0.7429409027099609,
+      "reading_order": 11,
+      "text": "ACCOUNTABILITY INITIATIVE, CENTRE FOR POLICY RESEARCH"
+    }
+  ]
+}

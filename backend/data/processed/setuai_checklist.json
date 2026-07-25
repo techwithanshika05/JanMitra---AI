@@ -1,0 +1,29 @@
+{
+  "source_file": "setuai_checklist.pdf",
+  "metadata": {
+    "total_pages": 1,
+    "total_blocks": 1,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.2222222222222222,
+    "processed_at": "2026-07-24T09:34:52Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-24T09:34:52Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "SetuAI — Document Checklist\nAI-Powered PDS & Welfare Assistant — Uttar Pradesh\nService: New Ration Card Application\nGenerated: 21 July 2026\n#\nDocument\nRequired\nNotes\n1\nAadhaar Card\n\u0013 Mandatory\nOriginal + photocopy for all family members\n2\nResidence Proof\n\u0013 Mandatory\nElectricity bill / Voter ID / Rent agreement\n3\nIncome Certificate\n\u0013 Mandatory\nFrom Lekhpal or SDM office\n4\nPassport Size Photographs\n\u0013 Mandatory\n2 copies each for all members\n5\nFamily Photo\nOptional\nOptional but speeds up process\n6\nCaste Certificate\nOptional\nRequired for SC/ST/OBC categories\nI Responsible AI Disclaimer\nSetuAI provides AI-generated guidance for educational and assistance purposes only. It is not an official Government of India service\nand does not provide legal or administrative approval. Users should verify important information with the respective government\ndepartment before taking action.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    }
+  ]
+}

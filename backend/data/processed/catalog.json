@@ -1,0 +1,1661 @@
+{
+  "source_file": "catalog.pdf",
+  "metadata": {
+    "total_pages": 103,
+    "total_blocks": 103,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.4444444444444444,
+    "processed_at": "2026-07-24T09:29:18Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "Products & Services\narpan\n1\nDate: 25th Jan’26\nCommon Service Center",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "Index\nIndex\nAbout CSC\nCSC e- Governance Service India Limited is a \nSpecial Purpose Vehicle (CSC SPV) incorporated \nunder the Companies Act, 1956 by the Ministry of \nElectronics and Information Technology ( MeitY)\nIt provides a centralized collaborative framework for \ndelivery to services to citizens through CSCs, \nbesides ensuring systematic viability and \nsustainability of system.\nThey are the access points for delivery of various \ndigital services to villages in India, thereby \ncontributing to a digitally and financially inclusive \nsociety.\nThey are positioned as change agents, promoting \nrural entrepreneurship and building rural capacities \nand livelihoods. \nThey are enablers of community participation and \ncollective action for engendering social change \nthrough a bottom-up approach with key focus on the \nrural citizen\nCSCs are the access points for delivery of essential \npublic utility services, social welfare schemes, \nhealthcare, financial, education and agriculture \nservices, apart from host of B2C services to citizens \nin rural and remote areas of the country",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "Index\nIndex\nOur Vision\nTo develop CSCs as a dependable, reliable \nand ubiquitous IT enabled network of Citizen\n Service Points connecting local population \nwith the government departments, business \nestablishments, \nbanks \nand \ninsurance \ncompanies and educational institutions, with \nan impact on primary, secondary and tertiary \nsectors of the country's economy.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "4\nIndex\nIndex\nIndex\nS. N. \nProducts Category\nPage No. \n1\nPradhan Mantri Welfare Schemes \n5 – 11\n2\nAadhar (ASK) Services\n12 – 13\n3\nGovernment to Citizen (G2C) Services\n14 – 21\n4\nState Government Services\n22 – 25\n5\nB2B Services\n26 - 29\n6\nFinancial Inclusion Services\n30 - 39\n7\nInsurance\n40\n8\nDigi-Pay\n41 - 42\n9\nAgriculture Services\n43 - 49\n10\nHealth Services\n50 - 53\n11\nTele-Law\n54 - 58\n12\nGrameen e-Store Services\n59\n13\nTravel & Tourism Services\n60 - 61\n14\nSkill Services\n62 – 70\n15\nEducation\n71 – 86\n16\nDigital Services\n87 – 93\n17\nAPAAR\n94\n18\nDTH\n95\n19\nShree Maruti Courier Service\n96\n20\nOther Services\n97 - 101",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "text",
+          "text": "5\nGovernment Schemes in India are launched \nby the government to address the social and \neconomic welfare of the citizens of this \nnation.\nThese schemes play a crucial role in solving \nmany socio-economic problems that beset \nIndian society; thus, their awareness is a \nmust for any concerned citizen.\nCSC SPV is the implementing agency of the \nschemes to the last mile through VLE’s \n1. Pradhan Mantri Welfare \nSchemes\nIndex\nIndex\n1.1\nAyushman Bharat Yojana\n1.2\nPM - Kisan Maan-dhan Yojana\n1.3\nPM - Kisan Samman Nidhi Yojana\n1.4\nPM Street Vendor’s AtmaNirbhar Nidhi \nYojana\n1.5\nPM - Shram Yogi Maan-dhan Yojana\n1.6\nPM Fasal Bima Yojana\n1.7\nPM - Laghu Vyapari Maandhan \n(NPS Traders)\n1.8\nE-Shram Registrations\n1.9\nPM Vishwakarma Yojana \n1.10\nPradhan Mantri Matsya Kisan Samridhi \nSah-yojana",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "6\n1.1 Ayushman Card\nAyushman Bharat Yojana provides a health \ncover of Rs. 5 lakh per family per year for \nsecondary and tertiary care hospitalization to \npoor and vulnerable families.\nServices: \n•\nRegistration of Beneficiaries\n•\nAyushman Card Print\nIndex\nIndex\n1.2 Pradhan Mantri Kisan \nMaandhan Yojana (PMKMY)\nPMKMY is a contributory pension scheme where \na monthly pension of Rs 3,000 will be provided \nto all eligible small and marginal landholding \nfarmers, who make a monthly contribution of Rs. \n55 to Rs. 200 till the age of 60 years.\nServices:\n•\nRegistration Update \n•\nDonation \n•\nReprint \n•\nRevival \n•\nDeath/ Self Exit",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 7,
+          "layout": "text",
+          "text": "7\n1.3 Pradhan Mantri \nKisan Samman Nidhi \nYojana(PMKSNY)\nServices: \n•\nRegistration of Farmers\n•\nEKYC of farmers\nIndex\nIndex\nPM Kisan Samman Nidhi Yojana \nprovides income support of Rs. \n6,000 per year to all small & \nmedium land holding farmer \nfamilies \nin \nthree \nequal \ninstallments directly into their \nbank accounts. \n1.4 PM Street Vendor’s \nAtmaNirbhar Nidhi Yojana \n(PMSVA NIDHI)\nThis is a special micro-credit scheme \nfor street vendors which facilitates \nworking capital loan up to Rs. 10,000.\nThe scheme will help formalize the \nstreet vendors with above objectives \nand will open up new opportunities \nto this sector to move up the \neconomic ladder.\nServices: \n•\nRegistration of Beneficiaries",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 8,
+          "layout": "text",
+          "text": "8\n1.5 Pradhan Mantri \nShram Yogi Maandhan \n(PMSYM)\nServices: \nRegistration | Reprint\nUpdate | Donation | Revival\nDeath/Self Exit\nIndex\nIndex\nPradhan \nMantri \nShram \nYogi \nMaandhan \nis \na \ncontributory \npension scheme for workers of \nunorganized sector between the \nage of 18 to 40 years and with a \nmonthly income of up to Rs. \n15,000. The workers receive a \nmonthly pension of Rs. 3000 per \nmonth after 60 years of age.\n1.6 Pradhan Mantri Fasal \nBima Yojana (PMFBY)\nPMFBY was launched from Kharif 2016 \nwith aim to support production in \nagriculture by providing an affordable crop \ninsurance \nproduct \nto \nensure \ncomprehensive risk cover for crops of \nfarmers against all non-preventable natural \nrisks from pre-sowing to post-harvest \nstage. It is a comprehensive, yield based \ncrop insurance scheme which aims to \nprovide financial support to farmers \nsuffering crop loss/damage arising out of \nunforeseen events.\nObjective:\nProviding financial support to farmers \nsuffering crop loss/damage arising out of \nunforeseen events.\nServices: \n•\nRegistration of \nFarmers",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 9,
+          "layout": "text",
+          "text": "It is a voluntary and contribution based central \nsector scheme.\n9\n1.7 Pradhan Mantri Laghu \nVyapari Maandhan \n(NPS Traders)\nService : \n•\nRegistration\n•\nUpdate\n•\nDonate\n•\nReprint\n•\nRevival\n•\nDeath Exit\n•\nSelf Exit\nIndex\nIndex\nPradhan Mantri Laghu Vyapari Maandhan Yojana \n(National Pension Scheme for Traders and SelfEmployed Persons) is a contributory pension scheme \nfor shopkeepers/ retail traders and the selfemployed, between the age of 18-40 years, for \nproviding a monthly pension of Rs. 3,000. \n1.8 E-Shram Portal\nE-Shram portal seeks to create a National Database \nof Unorganized Workers, including Construction \nWorkers, Migrant Workers, Gig and Platform \nWorkers, Street Vendors, Domestic Workers, \nAgriculture Workers, etc., to ensure optimum \nrealization of their employability and extension of \nthe benefits of social security schemes to these \nworkers.\nServices: Registration & Updation\nWhat is required for registration?\n1.\nAadhaar Number\n2.\nMobile number linked with Aadhaar.\n3.\nSavings Bank Account number with IFSC code.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 10,
+          "layout": "text",
+          "text": "10\nIndex\nIndex\n1.9 PM Vishwakama\nThe PM Vishwakarma Yojana was launched on 17th \nSeptember 2023. by Prime Minister of India on the \noccasion of Vishwakarma Jayanti.\nThe scheme provides benefits to artists of various \nfields who are engaged in using their artistic skills for \nearning purposes. If you are also an artisan and want \nto scale up your business with the help of the \ngovernment they new should also all yourself on the \nofficial website of PM Vishwakarma Yojana 2023. \nBeneficiaries will get technical skill training as well \nas low interest rates loans on pm Vishwakarma \nscheme 2023.\nServices: \nRegistration",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 11,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 11,
+          "layout": "text",
+          "text": "11\nIndex\nIndex\n1.10 Pradhan Mantri Matsya Kisan Samridhi Sah-yojana\nServices: \nFishery Registration\nPromotion of digitization and \ninnovation in the fisheries sector \nThrough National Fisheries Digital \nPlatform (NFDP):\n•\n Registration of stakeholders \nassociated with the fisheries \nsector through CSC. \n•\nEasier access to loans for fish \nfarmers \n•\nEmpowerment of fishermen and \nfish farmers",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 12,
+          "layout": "text",
+          "text": "12\n2.1 \nAADHAAR (ASK)\n2.2 \nAadhaar (UCL)\nIndex\nIndex\n2",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 13,
+          "layout": "text",
+          "text": "13\n2.1 AADHAAR (ASK)\nServices: \nEnrollment | Demographic update| Document Upload| Biometric Update | E-KYC & Authentication | Card Print\nTarget Population : All Citizens\nIndex\nIndex\nThe ‘Aadhaar Seva Kendra’ or ASK of the Unique Identification Authority of \nIndia (UIDAI) is a single stop destination for all Aadhaar services for the \nresidents. The ASK will offer dedicated Aadhaar enrolment and update \nservices to residents in a state-of-the-art environment.\n2.1 AADHAAR - UCL (for VLE)\nThe ‘Online Demographic Update Center’ or UCL \nof the Unique Identification Authority of India \n(UIDAI) is a single stop destination for all Aadhaar \nservices for the residents. The UCL will offer \ndedicated Aadhaar Demographic & Document \nupdate services to residents in a state-of-the-art \nenvironment.\nServices: \n•\nDemographic Update like \nAddress, Mobile, Email ID \n•\nDocument Update\n•\nAadhaar ePrint",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 14,
+          "layout": "text",
+          "text": "14\n3. Central G2C Services\nIndex\nIndex\n3.1\nPAN Card Services\n3.2\nWater & Electricity Bill Payment \nservices\n3.3\nITR Filing\n3.4\nJeevan Praman\n3.5\nPassport\n3.6\nE-Stamp\n3.7\nUdyam Services\n3.8\nCPGRAMS",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 15,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 15,
+          "layout": "text",
+          "text": "15\n3.1 PAN CARD SERVICES\nServices: Application for allotment of New PAN | Updation of PAN Card\nCSC E-Governance Services India Limited \n(CSC SPV) executed an Agreement with the \nUTI Infrastructure Technology & Services \nLimited; UTIITSL & Protean (formerly known \nas NSDL) for providing the services of \nreceiving Applications from the citizens \nthrough CSCs and submitting the same to \nUTIITSL & Protean for issuing PAN Card.\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 16,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 16,
+          "layout": "text",
+          "text": "CSC is engaged in delivering various \nbill payment services such as Water & \nElectricity Bill payments. Citizens can \npay their water & electricity bills \ninstantly by visiting their nearest CSC.\n3.2 Water & Electricity Bills \nPayment Services\n3.3 ITR Filing\nCSC SPV provides Income Tax services \nsuch as e-return filing, verification, \npayment, etc. through CSCs.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 17,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 17,
+          "layout": "text",
+          "text": "17\n3.4 Jeevan Pramaan\nServices: Jeevan Praman ID/ \nDLC registration and related \nservices.\nJeevan Pramaan – Life Certificate for Pensioners through CSCs in \nIndia\nJeevan Pramaan is a biometric enabled digital service for pensioners. \nPensioners of Central/State Government or any other Government \norganization can take benefit of this facility. One of the major requisites \nfor the pensioners post their retirement from service, is to provide life \ncertificates to the authorized pension disbursing agencies, following \nwhich their pension is credited to their account. \nIn order to get this life certificate, the pensioner is required to either \npersonally present before the Pension Disbursing Agency or have the Life \nCertificate issued by authority where he/she has served earlier and have \nit delivered to the disbursing agency.\nREQUIREMENTS : \n•\nAadhaar Number\n•\nName\n•\nMobile Number\n•\nPension Account number\n•\nBank details\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 18,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 18,
+          "layout": "text",
+          "text": "18\n3.5 Passport Seva kendra\nServices: \nRegistration & Booking | Documents Uploading | Verification \nThe CSCs facilitate filling and uploading of Passport application \nform, payment of applicable fee (through debit/credit card or \nthrough SBI internet banking/challan mode) and scheduling of \nappointment for the visit to the Passport Seva Kendra (PSK) at a \ncharge not exceeding Rs. 100/-.\nAs per the appointment schedule, an applicant will have to visit \nthe PSK for completion of application submission process \n(including \ncollection \nof \ndigital \nphotographs/ \nbiometrics, \nverification of supporting documents and approval).\nTutorial Video: https://www.youtube.com/watch?v=BtKR1zQaCgk\nhttps://digitalseva.csc.gov.in/\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 19,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 19,
+          "layout": "text",
+          "text": "19\n3.6 e-Stamp\nServices: Registration\nE-Stamping is a computer-based application \nfor online payment of nonjudicial stamp duty \nto the Government.\nTutorial Video: https://www.youtube.com/watch?v=FhGR-hwQNeA\nIndex\nIndex\nE-Stamp service through CSC is available in:\n \n•\nAndhra Pradesh \n•\nAssam \n•\nChhattisgarh \n•\nGujarat\n•\nHimachal Pradesh\n•\nJharkhand \n•\nTripura \n•\nKarnataka \n•\nOdisha \n•\nUttar Pradesh \n•\nMeghalaya",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 20,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 20,
+          "layout": "text",
+          "text": "20\n3.7 Udyam Services\nUdyam is an online system for registering micro, small and medium \nenterprises launched by the Ministry of Micro Small and Medium \nEnterprises.\nCommon Service Centres Provide MSME Registration services at \nease.\nBenefits:\n•\nAdditional edge in Government Tenders.\n•\nProtection of delayed payment.\n•\nPublic Procurement Policy\n•\nCredit Guarantee Scheme\nTutorial Video: https://www.youtube.com/watch?v=W62zzeMCcpQ\nIndex\nIndex\nServices: Registration of micro, small \nand medium enterprises (MSME)\nTarget Population : All Citizens",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 21,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 21,
+          "layout": "text",
+          "text": "21\n3.8 CPGRAMS\nCentralised Public Grievance Redress and Monitoring System \n(CPGRAMS) is an online platform available to the citizens 24x7 to \nlodge their grievances to the public authorities on any subject \nrelated to service delivery. It is a single portal connected to all the \nMinistries/Departments of Government of India and States. Every \nMinistry and States have role-based access to this system. \nCPGRAMS is also accessible to the citizens through standalone \nmobile application downloadable through Google Play store and \nmobile application integrated with UMANG.\nService: Registration\nIndex\nIndex\nTarget Population: Citizens",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 22,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 22,
+          "layout": "text",
+          "text": "22\n4 State Government Services\nIndex\nIndex\n4.1\nE-District Services\n4.2\nPublic Distribution Services\n4.3\nBOCW Labour Registration\n4.4\nE-Vahan & E-Sarathi Transport \nServices\n4.5\nMunicipal Services",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 23,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 23,
+          "layout": "text",
+          "text": "23\n4.1 E-District Services\nThe \ne-District \nproject \nhas \nbeen \nconceptualized to improve the experience of \nGovernment to Citizen interactions at the \ndistrict level through seamless delivery of \nvarious G2C services. \nObjective: Providing Single Window Service \nTo The Citizens Of The State.\nIndex\nIndex\n4.2 PDS Services\nPublic Distribution Service (PDS) services \nare available through CSC, where Ration \nCard holders can get various services \nlike:\n•\nUpdate Ration Card\n•\nAadhar Seeding\n•\nTake duplicate print of Ration Card\n•\nCheck status of availability of ration \n•\nRegistration of grievances\n•\nApplication of new Ration Cards",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 24,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 24,
+          "layout": "text",
+          "text": "24\n4.3 BOCW Labour \nRegistration\nLabour registration to provide financial aid \nand other entitlements to people employed \nin Building and other Construction Works \nare available through CSC.\nIndex\nIndex\n4.4 E-Vahan and E-Sarathi\nE-Vahan & e-Sarathi transport services \nare being provided through CSC in the \nStates of Uttarakhand and Jammu & \nKashmir. \nServices available in 7 states\n•\nLabour Registration\n•\nLabour Contribution \n•\nLabour Certificate \n•\nLabour Services \n•\nRenewal Registration \n•\nRegistration and Smart Card Printing \n•\nConversion of Red Book to Smart Card \n•\nDocument Verification & Smart Card printing by CSC BOC \nWorkers Registration \n•\nBOC Workers Subscription Payment\nServices\nChhattisgarh\nHaryana\nTripura\nUttrakhand\nGujarat\nPunjab\nUttar Pradesh\nServices under e-vahan \n•\nRC services \n•\nOwnership Transfer \n•\nChange of Address \n•\nRenewal of Registration \n•\nConversion/ Alteration of Vehicle \n•\nHypothecation services \nServices under e-Sarathi\n•\nDriving License services \n•\nAdding Class of Vehicle \n•\nPrinting Application Forms \n•\nUpdate Mobile Number \n•\nFee Payment & Uploading Documents \n•\nApplication Status \n•\nTutorial of Learners License Test and Appointments",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 25,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 25,
+          "layout": "text",
+          "text": "25\n4.5 Municipal Services\nCSC SPV has partnered with the Municipal Corporations of States for the provision of \ncivic services to citizens at their doorsteps.\nIndex\nIndex\nServices available in 16 states\n•\nProperty Tax Collection\n•\nMCD Birth Certificate\n•\nMCD Birth Certificate Update\nServices\nAssam\nDelhi\nJharkhand\nTripura\nChattisgarh\nHaryana\nMadhya Pradesh\nUttar Pradesh\nDadra & Nagra Haveli\nHimachal Pradesh\nMaharashtra\nUttrakhand\nDamn & Deu\nJammu & Kashmir\nPuducherry\nWest Bengal",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 26,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 26,
+          "layout": "text",
+          "text": "26\n5 B2C Services\nIndex\nIndex\n5.1\nBharat Bill Payment System\n5.2\nCSC Dhwani\n5.3\nE-Vigyapan\n5.4\nDigiName\n5.5\nMobile, DTH Recharge, & Bill Payment",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 27,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 27,
+          "layout": "text",
+          "text": "27\n5.1 Bharat Bill Payment System\nIndex\nIndex\nServices: Bill Payments \nBharat Bill Payment System (BBPS) is an integrated bill payment system in India offering \ninteroperable and accessible bill payment service to customers through a network of agents \nof registered member as Agent Institutions (AI), enabling multiple payment modes, and \nproviding instant confirmation of payment. BBPS offers various bill payment options.\nTarget: All Citizens\nTutorial Video: https://www.youtube.com/watch?v=kVO6jksw--8\nProduct\nCategory\nBBPS Broadband Postpaid BBPS\nTelecom\nBBPS Electricity BBPS\nElectricity\nBBPS LPG Gas BBPS\nGas\nBBPS Generic BBPS\nBBPS\nBBPS Landline Post paid BBPS\nTelecom\nBBPS Mobile Postpaid BBPS\nTelecom\nBBPS Municipal Taxes and Services Government\nBBPS Water BBPS\nWater\nFastag BBPS\nFastag\nLoan BBPS\nLoan",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 28,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 28,
+          "layout": "text",
+          "text": "5.2 CSC Dhwani\nCSC Dhwani is an audio advertisement service for services and \nproducts. Any VLE or citizen can avail the service for advertising any \nkind of business. \nServices: Audio Making\nE-Vigyapan is a nationwide commercial network of digital display signage \nthat seeks to capitalize the attention of captive audience inside CSCs \nthrough advertisement and/or experiential marketing.\nServices: Advertisement publish\n5.3 E-Vigyapan\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 29,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 29,
+          "layout": "text",
+          "text": "5.4 DigiName\nDiginame provides platform to buy your domain name and have own a web \naddress which will guards your brand online. Diginame is offering big savings \nover the Competition, with full domain control panel and Website Builder tool \naccessibility. Diginame makes domain registering Domain Names fast, simple, \nand affordable with web presence.\nServices: \n•\nDomain Registration\n•\nWebsite Design and builder Tool\n•\nManage DNS\nIndex\nIndex\n5.5 Mobile, DTH Recharge and Bill Payment\nMobile and DTH recharge for various service providers is one of the key \nB2C services available at CSC. Citizens can also pay their mobile bills \nthrough CSC.\nServices: Mobile, DTH recharge and \nBill Payment\n29",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 30,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 30,
+          "layout": "text",
+          "text": "30\nFinancial Inclusion \nProducts & Services\n6\nIndex\nIndex\n6.1\nBanking – BC \nProgram\n6.2\nLOAN\n6.3\nNational Pension Scheme\n6.4\nCIBIL\n6.5\nFast TAG\n6.6\nMutual Fund Distribution Service",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 31,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 31,
+          "layout": "text",
+          "text": "31\n6.1 BANKING BC SERVICE\nCSC SPV has partnered with various Public Sector Banks, Private Banks and RRBs to provide a \nrange of Banking services through BCs to citizens. \nPSU Bank partnerships:\n•\nState Bank of India\n•\nPunjab National Bank\n•\nBank of India\n•\nIndian Bank\n•\nCentral Bank of India\n•\nUCO Bank\n•\nBank of Baroda\nPrivate Banks\n•\nHDFC Bank\n•\nAxis Bank\n•\nIDBI Bank\n•\nKotak Bank\nIndex\nIndex\nRegional Rural Bank (RRB)\n•\nBangia Gramin \n•\nVikas Bank \n•\nBaroda U.P. Gramin Bank \n•\nBaroda Rajasthan Kshetriya \n•\nGramin Bank \n•\nChhattisgarh Gramin Bank \n•\nDakshin Bihar Gramin Bank \n•\nHimachal Gramin Bank \n•\nJharkhand Rural Gramin \nBank \n•\nMadhya Pradesh Gramin \nBank \n•\nPrathma UP Gramin Bank \n•\nPunjab Gramin Bank \n•\nSarva Haryana Gramin Bank\n•\nRajasthan Marudhar Gramin \nBank \n•\nUtkal Gramin Bank \n•\nMeghalaya Rural Bank \nArunachal Gramin Bank \n•\nNainital Bank \n•\nTripura Gramin Bank \n•\nTripura State Cooperative \nBank",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 32,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 32,
+          "layout": "text",
+          "text": "32\nServices Available\nPublic Sector Banks (PSB)\n32\nIndex\nIndex\n1\nAccount Opening\n24\nBlock Debit card\n2\nCash Deposit(own bank) \n25\nLaunch Complaints\n3\nCash Deposit(other bank-EPS/Rupay Card)\n26\nTrack Complaints\n4\nCash withdrawal ( on us ) \n27\nRequest for SMS alert/email statement (if mobile no./e-mail is already \nregistered)\n5\nCash withdrawal ( off us ) \n28\nPension Life Certificate authentication through Jeevan Praman( Aadhaar \nenabled)\n6\nFund transfer ( own bank) \n29\nRecovery /collection upto bank approved limits\n7\nFund transfer ( other bank-AEPS/Rupay Card)\n30\nApply for Rupay debit cards\n8\nBalance enquiry ( own bank)\n31\nPassbook update\n9\nBalance enquiry ( other bank-AEPS/Rupay Card)\n32\nLoan request initiation for Personal Loan \n10\nMini Statement\n33\nLoan request initiation for Vehicle Loan\n11\nRD opening \n34\nLoan request initiation for Home Loan\n12\nEnroll for Micro Accidental Death Insurance\n35\nLead generation for Current Account\n13\nEnroll for Micro Life Insurance\n36\nRequest initiation for Mutual Fund\n14\nEnroll for Social Security Pension Scheme\n37\nRequest initiation for Life Insurance\n15\nCheque Collection\n38\nRequest initiation for Health Insurance \n16\nAadhaar Seeding\n39\nRequest initiation for Motor insurance \n17\nMobile Seeding\n40\nSukanya Samriddhi Account (SSA)\n18\nIMPS \n41\nNational Pension Scheme(NPS) Account Opening\n19\nNEFT \n42\nNational Pension Scheme(NPS) Status Check\n20\nRequest for new Cheque book\n43\nSovereign Gold Bond(SGB)\n21\nStop payment of cheque\n44\nFloating Rate Saving Bond(FRSB)\n22\nCheque status enquiry\n45\nSenior Citizen Savings Scheme(SCSS)\n23\nRenewal of TD/RD\n46\nPublic Provident Fund(PPF)",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 33,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 33,
+          "layout": "text",
+          "text": "Product Type\n33\nIndex\nIndex\nCitizens can now avail various Loan products of HDFC Bank, Axis Bank, Adani Capital, \nPiramal, Bajaj, Kotak Mahindra Bank, PNB and TVS Credit through CSC.\n6.2 LOAN BAZAR Portal",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 34,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 34,
+          "layout": "text",
+          "text": "34\nIndex\nIndex\nLive Banks & Institutions Name on \nLoan Bazar Portal",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 35,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 35,
+          "layout": "text",
+          "text": "35\nIndex\nIndex\nEMI Collection\nFixed Deposit\n•\nMahindra Rural Housing \n•\nTVS Credit\n•\nMahindra & Mahindra \n•\nPiramal Finance\n•\nBajaj Finserv FD\nCredit Card\n•\nAxis Bank Credit Card\n•\nBajaj Finserv Insta EMI \nCredit Card\n•\nHDFC Bank Credit Card\n•\nLIC Credit Card\n•\nRBL – Patanjali Credit Card\nAccount Opening\n•\nSaving Account\n•\nCurrent Account\n•\nV-KYC Account",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 36,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 36,
+          "layout": "text",
+          "text": "36\nContributions + Investment Growth - Charges = Accumulated Pension Wealth\n❑Government of India introduced NPS for \nCentral \nGovernment \nEmployees \njoining \nservices w.e.f 1st Jan 2004. On 1st May 2009, on \nvoluntary basis NPS was made available for All \ncitizens of India.\n❑\nPFRDA was created as regulator for the \nPension sector.\n❑\nNPS is based on Personal retirement accounts \n(PRAs) created for individual members.\n❑\nNPS accretes savings into subscribers PRA \nwhile he is working and use the accumulations \nat retirement to procure a pension for the rest \nof his life.\nIndex\nIndex\nTarget Population: All Citizens\nService: Registration\n6.3 National Pension Scheme",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 37,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 37,
+          "layout": "text",
+          "text": "37\nIndex\nIndex\nCSC SPV has partnered with TransUnion CIBIL for providing the CIBIL score, which\nmeasures credit health, to customers. \nImportance:\n•\nIt will help peoples to get the loan easily and with higher \nCIBIL score customer can get approval of high amount of \nloan. \n•\nVLE can check the CIBIL report of the customer before \nputting loan leads.\n•\nIt will help customer to know the CIBIL score & get the loan \neasily from band and also for VLE to help other peoples in \ntheir area to get the loan and other banking services.\nService: Check the online report and take the print out.\nTarget Population: All Citizens\n6.4 CIBIL REPORT\nSite Link: Bureau.csccloud.in",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 38,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 38,
+          "layout": "text",
+          "text": "38\nElectronic payment of highway tolls without human intervention. ETC systems use vehicle-toroadside communication technologies to perform an electronic monetary transaction \nbetween a vehicle and the toll collection agency. \nFASTAG@CSC.GOV.IN\nTarget Population: All Citizens\nIndex\nIndex\nServices: \n•\nSale of Fastags\n•\nRecharge\nFASTAG ORDER AND SALE PROCESS\n6.5 FASTAG",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 39,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 39,
+          "layout": "text",
+          "text": "39\nIndex\nIndex\nAbout CSC-MFD Portal:\nThe goal of the CSC MFD Portal platform is to enable \nbetter order management and execution capabilities while \noffering efficient CRM features. The CSC-MFD Portal \ncan be used to expand the customer base and improve \ncustomer relationships with less administrative cost and \neffort. CSC-MFD Portal will help the VLEs to do \nseamless Mutual Fund related transaction and checking \nthe request on real time basis.\nhttps://mutualfunds.csccloud.in/\n6.6 Mutual Fund Distribution Service",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 40,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 40,
+          "layout": "text",
+          "text": "40\nSale of new insurance policies and Premium Renewal service for\nvarious Life & General insurance companies is available through CSCs. \nTo provide these services, VLEs need to take RAP certification or VLE \nInsurance certification. \nInsurance products available:\n•\nLife Insurance\n•\nLife Insurance Policy Renewal \n•\nMotor Insurance \n•\nPersonal Accident Insurance\n•\nCrop Insurance (Fasal Bima)\n•\nHealth Insurance\n•\nFire & Allied Perils.\nNew Policies | Policy Renewal Payment\nPlatform for all types of insurance products (Life & General)\nService\n7 INSURANCE\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 41,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 41,
+          "layout": "text",
+          "text": "41\nDigiPay is an Aadhaar Enabled Payment System \n(AePS) developed by CSC e-Governance Services India \nLimited. Common Service Centres (CSCs) are physical \nfacilities established to deliver various digital services \nto citizens in rural and remote areas of India. These \ncenters are operated and managed by Village Level \nEntrepreneurs (VLEs). CSC SPV has collaborated with \nNational Payment Corporation of India (NPCI), an \nAadhaar Enable Payment System (AePS) through \nCSCs.\nhttps://digipay.csccloud.in/\n8 DigiPay\nIndex\nIndex\nServices Offered:\n• Cash Withdrawal • Cash Deposit • Mini Statement • Balance Enquiry • Domestic Money Transfer \n• Micro ATM • Aadhaar Pay (Aadhaar to Aadhaar Fund Transfer)• Digital Seva Portal Wallet Top-up",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 42,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 42,
+          "layout": "text",
+          "text": "42\nhttps://digipay.csccloud.in/\n8 DigiPay\nIndex\nIndex\nBenefits\n•\nFinancial Inclusion: Enables people \nin rural areas to access basic \nbanking services without having to \nvisit traditional bank branches.\n•\nAccessibility: Makes banking and \nfinancial services available to those \nwho might not have easy access to \ntraditional banking infrastructure.\nHow it Works\n•\nBiometric \nAuthentication: \nTransactions \nare \nauthenticated using the customer's Aadhaar \nnumber and biometric authentication (fingerprint \nor iris scan).\n•\nTransaction \nProcessing: \nOnce \nauthenticated, \ntransactions \nlike \ncash \nwithdrawal, \nBalance \nEnquiry,Mini Statement and Aadhaar Pay services \nare processed through the AEPS platform.\n•\nReceipt Generation: A receipt is generated for \nevery transaction, providing a record for the \ncustomer.\nRequirements for DigiPay\n• Computer/Laptop\n• Biometric Devices (Fingerprint/ IRIS)\n• Internet Connectivity\n• Smart Phone\n• Printer (For Receipt)\n• UPS for Power Back-up\n• Micro ATM Device",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 43,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 43,
+          "layout": "text",
+          "text": "43\nFor more information, please visit: https://www.cscagri.in/fpo/index\nAgriculture\nTarget Population: Applicable for all farmers\n9\nServices : Lead Generation\nIndex\nIndex\n9.1 CSC eAgri Portal\n9.2 Retail Portals\n9.3 Krishi e-Nidanshala\n9.4 Government Projects – FPO, PACS",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 44,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 44,
+          "layout": "text",
+          "text": "9.1 E-AGRI\nCSC E-Agri is a dedicated B2B portal designed for CSC’s network of FPOs (Farmer Producer \nOrganizations), Societies, and VLEs (Village Level Entrepreneurs). This platform provides access to a \nwide range of agricultural products, including fertilizers, pesticides, seeds, machinery, and cattle \nfeed from leading brands. CSC E Agri simplifies bulk ordering for group-based farming \norganizations, ensuring that they receive quality products at market-competitive rates while \ncomplying with necessary regulations.\nPartner Brands:\nFertilizers: IFFCO, KRIBHCO, CRIYAGEN, Patanjali Organics\nAgrochemicals: TATA Rallis, Bayer, IFFCO MC, PI Industries, HIL\nCattle Feed: Patanjali, Amul, Godrej\nSeeds: Ishved, HIL\nMachinery: Mahindra\n44\nIndex\nIndex\nVisit the Portal: \nhttps://agri.csccloud.in/",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 45,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 45,
+          "layout": "text",
+          "text": "9.2 Retail Portals\n45\nIndex\nIndex\nThe Agriculture Department provides two retail portals for VLEs to order agriculture-related \nproducts. Both portals allow CSC VLEs to order agricultural products directly, without the need for \nlicenses. These portals offer a wide range of products at retail rates, and VLEs can earn \ncommissions on every order placed.\nKisan eStore\nKisan eStore is a comprehensive online marketplace \ntailored for agricultural needs, offering a wide range of \nproducts including seeds, fertilizers, pesticides, animal \nfeed, farm machinery, and more. The platform is \nspecifically designed for CSC VLEs to cater to farmers’ \nrequirements, \nensuring \neasy \naccessibility \nand \naffordability.\nKisan eStore (accessible at \nhttps://www.kisanestore.in/) offers over 200 brands \nand various agricultural products. It is a one-stop shop \nfor VLEs to order products for themselves or on behalf \nof farmers.\nDeHaat Agri\nDeHaat Agri is an advanced digital platform \ndeveloped by DeHaat, known for its extensive \ncatalog of agricultural products and services. This \nportal is integrated with CSC’s Digital Seva Portal, \nallowing VLEs to offer a wide array of farming \nsolutions to rural farmers.\nDeHaat Agri is operated by DeHaat and integrated \nwith CSC’s platform, offering agricultural products \nlike Kisan eStore. VLEs can log in via the Digital \nSeva Portal or directly through the DeHaat \nwebsite (https://digiacre.com/login).",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 46,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 46,
+          "layout": "text",
+          "text": "9.3 Krishi e-Nidanshala (Kisan Sarathi)\n46\nIndex\nIndex\nKrishi e-Nidanshala, also known as Kisan Sarathi, is an innovative digital platform \ndeveloped as a collaborative initiative between the Indian Council of Agricultural \nResearch (ICAR), Digital India Corporation (DIC), and Common Service Centres (CSCs). \nThis platform empowers farmers by providing real-time expert agricultural advice in \ntheir native language. It aims to improve decision-making, productivity, and \nsustainability in farming practices.\nVisit https://agri.csccloud.in/kisansarthi/.\nTeleconsultation & Follow-up: \nThe KVK (Krishi Vigyan Kendra) expert \nwill contact the farmer at the \nscheduled time.\nTypes of advice and information are available \n•\nCrop management\n•\nHorticulture\n•\nAnimal husbandry\n•\nFisheries\n•\nPest and disease management\n•\nMarket prices and weather updates",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 47,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 47,
+          "layout": "text",
+          "text": "9.4 Government Projects Undertaken \nby CSC Agriculture Department\n47\nIndex\nIndex\n1. Central Sector Scheme for Formation & \nPromotion of 10,000 FPOs: \nUnder the Central Sector Scheme for \n10,000 Farmer Producer Organizations \n(FPOs), the CSC Agriculture Department is \nplaying a pivotal role as a Value Chain \nOrganization (VCO). CSC has successfully \nestablished 180 government-funded FPOs \nand is currently providing them with \nhandholding support in critical areas such \nas:\n•\nCompliance \nwith \ngovernment \nregulations.\n•\nAccounting and audit guidance.\n•\nBusiness advisory services.\n3. Kisan Credit Card\n2. PACS Onboarding Project\nAs part of the government's Sahakar Se Samriddhi \nVision, the CSC has signed an MoU with NABARD, the \nMinistry of Cooperation, and the Ministry of \nElectronics and IT to modernize Primary Agricultural \nCredit Societies (PACS) across the country.\nObjective: To computerize and convert over 62,000 \nPACS into CSCs, enabling them to deliver the full range \nof CSC services to citizens while strengthening their \nincome sources.\nImpact: This transformation will empower PACS to \nfunction similarly to Village Level Entrepreneurs (VLEs) \nby offering essential digital services like G2C services, \nbanking, insurance, and e-commerce to rural \ncommunities.\nStatus: With over 62,000 PACS targeted, the project is \nnearing completion.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 48,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 48,
+          "layout": "text",
+          "text": "48\nHEALTH SERVICES\n10\nIndex\nIndex\nCSC SPV since 2014 has its footprints in providing healthcare services primarily to rural \nregions. Elements which are germane to healthcare service provided by CSC through VLE’s.\n10.1 Health & wellness medicines and OTC \nproducts\n10.2 PM- Surya Ghar: Muft Bijli Yojana \n10.3 FSSAI Spices Surveillance",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 49,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 49,
+          "layout": "text",
+          "text": "49\n10.1 Health & Wellness Medicines and OTC \nProducts\nDigital Seva portal has provided access to VLEs to buy for self consumption or to facilitate citizens to \nbuy OTC products and prescription medicines.\n•\nMedicines are available at discounted price.\n•\nDoorstep delivery\n•\nAvailability of Allopathy, Homeopathy, Ayurveda & OTC products.\n•\nDoctors team for help in prescription generation.\n•\nOrder is through Digital Seva Portal.\nJiva Ayurveda: Jiva ayurvedic products can be \npurchase through CSC centres\nTATA 1Mg: Health services and OTC products can \nbe availed\nWelcome Cure: Homeopathic medicines can be \nobtained \nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 50,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 50,
+          "layout": "text",
+          "text": "50\n10.2 PM- Surya Ghar: Muft Bijli Yojana \nThe PM Surya Ghar Muft Bijli Yojana is a government initiative aimed at promoting solar \nenergy use by providing subsidized solar panel installations for eligible households. This \nscheme allows families to generate their own electricity, significantly reducing their energy \nbills while also enabling them to sell surplus power back to the grid for additional income.\nServices:\n•\nApplication (Phase 2) of Beneficiary\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 51,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 51,
+          "layout": "text",
+          "text": "51\n10.3 FSSAI Spices Surveillance\nThe FSSAI Spices Surveillance Project is an initiative aimed at ensuring the quality and \nsafety of commonly used spices by identifying and addressing issues of adulteration. The \nproject involves systematic sampling of spices such as turmeric, chili powder, and \ncoriander from markets and suppliers, followed by laboratory testing to verify compliance \nwith FSSAI standards. It also focuses on raising awareness about food safety and promoting \nthe consumption of unadulterated spices.\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 52,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 52,
+          "layout": "text",
+          "text": "52\nTele - Law\n11.1 TELE LAW\n11.2 E-Court Services\n11\nIndex\nIndex\n11.3 Cultural Mapping",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 53,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 53,
+          "layout": "text",
+          "text": "53\n11.1 TELE LAW\nServices: Free Pre-litigation advice\nIndex\nIndex\nDepartment of Justice (DoJ) has partnered with CSC e-Governance Service India Limited for mainstreaming \nlegal aid to the marginalised communities through Common Services Centre (CSC). Tele-Law means the use\nof communications and information technology for the delivery of legal information and advice. \nThe concept of Tele-Law is to facilitate delivery of legal advice through a panel of lawyers stationed at CSC. The\nproject initiates to connect citizens with panel lawyers through video conferencing and telephone/IVR calls. \nCitizen can also avail the services by registering cases through the Citizen Tele law mobile app , Naya\nSahayaks and Tele Facilitation Centre / toll free number 14454.\nTele Law is operational in 2.5 Lakh Gram Panchayat , 765 districts ,36 States/UTs\nTarget Population: All Citizens\nService delivered by VLE’s , Naya Sahayaks and Tele Facilitation centre \nFor more information please visit : https://www.tele-law.in",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 54,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 54,
+          "layout": "text",
+          "text": "54\n11.1 TELE LAW\n▪\nFree Legal service - Pre litigation services -Accidental \ncompensation Case\n▪\n Child Labour/ Bonded Labour, Right to Education.\n▪\n Civil Suit\n▪\n Consumer dispute & Corporate matter\n▪\n Criminal Matters- Arrest, F.I.R, Bail.\n▪\n Delay or rejection in providing basic services matters\n▪\n Dowry, Family dispute, Talak, Protection of Women \nAgainst Domestic Violence.\n▪\n Equal Pay for Equal Work, Minimum wages\n▪\n Family, matrimonial, succession matters\n▪\n Land Disputes, Tenancy and Lease, Property, and \nInheritance rights\n▪\n Maternity Benefits, Medical termination of \nPregnancy, Prevention of misuse of Pre- and PostNatal\n▪\nNegligence matters\nService\n▪\nPrevention of Atrocities against Scheduled \nCaste and Scheduled Tribes\n▪\nProhibition of Child Marriage.\n▪\nProperty dispute\n▪\nProtection of Children from Sexual Offences\n▪\nRTI and Service matter\n▪\nSexual Harassment of Women at Workplace \n(Prevention & Prohibition)\n▪\nTenancy and lease related matter\n▪\n Women, Children and Senior Citizens \nMaintenance\n▪\nWords, acts, gestures intended to insult the \nmodesty of women, indecent representation of \nwomen.\n▪\n *Others(Scholarship, Aadhar card, bank loan, \nIncorrect Name, D-voters, Cheque Bounce, \nElectricity matter, PAN card, Labour matter)*\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 55,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 55,
+          "layout": "text",
+          "text": "Service\n55\n11.2 E-Court Services\nLitigants can access easily, and readily \ncase status information and download \nthe Order/Judgement copy available on \nthe e-Courts database. They can also \navail the facility of use of computers, \nperipherals and internet services from \nany CSCs.\n▪Case status and Orders/Judgments \ncopy (District & High Court) \n▪Mobile Application (downloading \nservice)\n▪Identification of court location\n▪Charges per five minutes of use of \ncomputers, peripherals and internet \nof CSC for availing e Court services \nnot otherwise specified.\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 56,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 56,
+          "layout": "text",
+          "text": "56\n11.3 Cultural Mapping\nThe Ministry of Culture has partnered with CSC SPV and initiated a survey titled Mera Gaon \nMeri Dharohar with the objective to create a template of Village Cultural Gazette. The \nsurvey seeks to document the cultural identity at the village level by involving citizens to \nshare what makes their village, block, or district unique.\nTarget Population: All Citizens\nCultural domain on which survey is carried out are:\n•\nBeliefs\n•\nTraditional Foods\n•\nTraditional dress and ornaments\n•\nHeritage places \n•\nFestivals and fairs \n•\nTraditional arts and crafts\n•\nFamous Personalities\n•\nProminent Artists\nFor more information: https://www.culturemap.in/ \nCultural Mapping of 6.5 Lakh villages along with \ntheir geographical, demographic profiles, and \ncreative capitals has been envisaged under this \nproject.\nThe nodal agency for implementation of the \nSurvey is CSC e-Governance Services India Ltd., a \nSpecial Purpose Vehicle (SPV). \nVillage level Cultural asset mapping is undertaken \nthrough Field Surveys involving Respondents. CSC \nVillage level Entrepreneurs present (VLE) at \nvillage level carry out the survey through mobile \napplication developed for village survey. \nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 57,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 57,
+          "layout": "text",
+          "text": "57\nCSC Grameen e-Store is a revolutionary e-commerce enterprise that reaches world-class \nproducts to rural areas of India. We currently cover more than 10,000 pin codes across India. \nWith more than 5 lakh CSC Grameen e-Store, we have disrupted the distribution of goods in \nIndia, serving markets that traditional networks have not been able to reach.\nThe CSC eStore network is enabling a rural eCommerce model by delivering products directly \nto customers’ doorsteps. It opens business opportunities for the VLE and their betterment.\nServices: Grameen e-Store App - Registration & Selling the Products\nFeatures: \nOffline Store + Online Store\nCSC \nGrameen eStore VLE \nAPP\nURL: https://cscestore.in/\nTarget : All VLEs\n12\nIndex\nIndex\nGrameen e-Store",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 58,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 58,
+          "layout": "text",
+          "text": "58\nTours & Travel\nServices \n: Registration | Booking | Cancellation | Refund\nTarget Citizen \n: All Citizen\n13.1\nIndex\nIndex\nhttps://cscsafar.in/\nThrough CSC SPV users can avail tour and travels \nservices that includes booking of train tickets, bus \ntickets, air tickets and hotel bookings. CSC \n(Common Services Centers) Safar provides taxi \nbooking services as part of its broader range of \ntravel-related offerings.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 59,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 59,
+          "layout": "text",
+          "text": "59\nForex Service\n13.2\nIndex\nIndex\nhttps://cscsafar.in/\nCSC (Common Services Centers) Forex service, in partnership with Unimoni, allows citizens\nto buy and sell foreign currency, send money abroad, and obtain travel cards. VLEs (Village\nLevel Entrepreneurs) can generate leads for these services through the CSC platform and\nearn commissions.\nVLEs can generate leads for the mentioned services through the CSC platform and earn a\ncommission on successful transactions.\nProducts:\n•\nSend Money Abroad\n•\nForex Cards\n•\nForeign Currency Sale\n•\nForeign Currency Purchase",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 60,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 60,
+          "layout": "text",
+          "text": "60\n14 Skill Development\n1\nOptical Fiber Splicer\n2\nDTH Set Top Box Installation and Service Technician\n3\nSmart Meter-Assistant Technician\n4\nUSHA_Sewing and Tailoring Course\n5\nDigital Wellness\n6\nSoft Skills and Personality Development\n7\nCCTV Installation Technician\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 61,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 61,
+          "layout": "text",
+          "text": "61\n14.1 Optical Fiber Splicer\nService: Training, Assessment and Certification \nCSC SPV with Electronics Sector Skill Council of India \nhas come up with a program called Optical Fiber \nSplicer for those individuals who seek their career in \nElectronics Sector and are ready to work as OFS \nTechnicians for Installation and maintenance of \nbroad-band .\nIndex\nIndex\nOFS Training Program:\n•\nDuration: 28 Hours\n•\nSelf Study through Digital content\n•\n2 Virtual Classroom sessions of 2 hours each\n•\nOnline assessment and certification by \nSector Skill Council\nTarget Population: Interested Youth \nabove 18+ years of age",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 62,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 62,
+          "layout": "text",
+          "text": "62\n14. 2 DTH Set Top Box Installation \n& Service Technician\nTarget Population: Youth above (18+ age)\nThis course is developed for those individuals who \nseek their career in Electronics Sector.\nThe individual at work will be responsible for \ninstalling the set-top box at customer’s premises; \naddressing the field serviceable complaints and \ncoordinating with the technical team for activation of \nnew connections.\nIndex\nIndex\nService: Training, Assessment and \nCertification",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 63,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 63,
+          "layout": "text",
+          "text": "63\nIndex\nIndex\n14. 3 Smart Meter-Assistant \nTechnician\nThis course is developed for those individuals \nwho seek their career in Electronics Sector.\nThe incumbent at work is responsible for \ninstallation, replacement and testing of smart \nenergy, water and gas meters at consumer's \nplace by following organizational procedures and \nstandards. \nThe scope covers the following : \n•\nPreparing for energy meter installation or \nreplacement work\n•\nInstalling a single or three phase meter \nappropriately \n•\nRecording meter details and readings\nService: Training, Assessment and \nCertification \nTarget Population: Interested Youth \nabove 18+ years of age",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 64,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 64,
+          "layout": "text",
+          "text": "64\n14.4 Sewing & Tailoring Course\n- with USHA International Ltd.\nTarget Population: All Citizens\nAge: No bar (preferably 15+ years of age)\nEducation: No bar\nCourse Duration: 800 hours \nService: App based learning for Sewing and \nTailoring \nA new certification course named as Sewing and \nTailoring Course through mobile application (USHA \nSilai App).\nThis course is available in 12 different languages \nincluding English, Hindi, Marathi, Gujarati, Bengali, \nTamil, Malayalam, Telugu, Kannada, Odia, Urdu, \nand Assamese.\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 65,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 65,
+          "layout": "text",
+          "text": "65\n14.5 Digital Wellness \nTarget Population: All Citizens\nService: Self Paced e-Learning\nAs we become more cyber-smart every day, we \nalso become more cyber-endangered. This Course \nis about what cyber wellness implies, why it is \nneeded in today’s world and the values that \npromote cyber wellness.\nKey Features of Course\n•\nBasic of cyber ethics and cyber security \n•\nBasic terminologies and principles of Cyber \nSecurity\n•\nKnowledge about online etiquettes and online \nbehavior\n•\nPrinciple and necessity of Online Security\n•\nRole and importance of Security on Mobile and \nTab devices\n•\nImportance of Health and safety\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 66,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 66,
+          "layout": "text",
+          "text": "66\n14.6 Soft Skills & Personality \nDevelopment\nTarget Population: All Citizens\nThis course improves self-perception and demystifying \nthe modern workplace, changing lives for the \nbetterment of an Individual/ student/ working \nprofessional.\nThe programme offers:\nI.\nCommunication skills\nII.\nInterpersonal skills\nIII.\nTeam Management & Goal Setting\nIV.\nBasic language skills\nV.\nPersonal health, hygiene and grooming\nVI.\nResume writing\nVII.\nInterview skills\nVIII.\nGroup discussion\nService: Self Paced e-Learning\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 67,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 67,
+          "layout": "text",
+          "text": "67\n14.7 CCTV Installation Technician\nTarget Population: Interested Youth above \n18+ years of age\nEligibility: No bar\nServices: Training, Assessment and Certification \nIndex\nIndex\nThis course is developed for those individuals \nwho seek their career in Electronics Sector.\nThe individual at work is responsible for \ninstalling the CCTV system in the customer \npremises. The individual understands the \ncustomer and site requirement, installs the \ncamera and integrates the hardware for \neffective \nCCTV \nsurveillance \nsystem \nfunctioning.\nThe individual must be willing to travel to client \npremises in order to install equipment at \ndifferent locations.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 68,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 68,
+          "layout": "text",
+          "text": "68\nIndex\nIndex\nSelf Paid Courses\nCourse Name\nCourse Fee \nincluding GST \n(INR)\nWallet Deduction (INR)\nVLE Margin \n(INR)\nOptical Fiber Splicer* \n499\n274.02\n224.98\nDTH Technician*\n499\n298.45\n200.55\nSmart Meter-Assistant Technician*\n499\n298.45\n200.55\nCCTV Installation Technician*\n499\n298.45\n200.55\nUSHA_Sewing and Tailoring Course\n499\n291.61\n207.39\nSoft Skills and Personality Development\n59\n35.25\n23.75\nDigital Wellness \n59\n35.25\n23.75",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 69,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 69,
+          "layout": "text",
+          "text": "69\n15. EDUCATION\nIndex\nIndex\n1\nBusiness Correspondent / Business \nFacilitator (BC/BF) Training (CSC Academy)\n10 Certificate Course in Entrepreneurship (CCE) – \nISB\n2\nShoolini University – Online Degree \nPrograms via CSC (CSC Academy)\n11 CSC Olympiad\n3\nBOSSE – Board of Open Schooling and Skill \nEducation (Education)\n12 CSC Tiny Tech\n4\nDebt Recovery Agent\n13 Basic Computer Course (BCC)\n5\nNIELIT Courses – IT Certification Course & \nFacilitation Center\n14 Financial Accounting :\nGST Advance & GST Advance Kit\n6\nNational Institute of Open School (NIOS)\n15\n21st Century employability skills- Wadhwani \nfoundation:\n- Effective Workplace Courses\n- Building Entrepreneurship Mindset\n7\nTally Education Training courses:\n- Tally Kaushal Parman Patra (Tally KPP)\n- GST Using Tally ERP\n16 Cyber Security\n8\nSarkari Pariksha\n17 Maglayatan University\n9\nTelecentre Entrepreneur Course\n18 Earth Care Foundation\n19 Bharath Institute of Schooling Education (BISE)",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 70,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 70,
+          "layout": "text",
+          "text": "70\n15. 1 Business Correspondent / Business \nFacilitator (BC/BF) Training\nIndex\nIndex\nThe BC/BF Training is designed to empower individuals to deliver basic banking \nservices in rural and underserved regions. It is a certified program by IIBF to \nenable financial inclusion through CSPs.\nKey Highlights:\n•\nProvides banking services in unbanked areas as Bank Representatives\n•\nCertification as per IBA letter SB/MBR/BC/0742 dated January 5, 2024\n•\nRoles include: Account opening, Deposits, Loan facilitation, Financial literacy, \nMicrocredit\n•\nTraining offered through CSC Academy with live online classes and LMS access\nEligibility & Duration:\n•\nMinimum 10+2 pass, 18+ years of age\n•\nBasic Training: 28 Hours | 4h/day over 7 days\n•\nAdvanced Training: 42 Hours | 3h/day over 14 days",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 71,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 71,
+          "layout": "text",
+          "text": "71\n15. 2 Shoolini University – Online Degree \nPrograms \nIndex\nIndex\nUndergraduate Programs:\n• BBA – Bachelor of Business Administration\n• B.Com – Bachelor of Commerce\n• BCA – Bachelor of Computer Application\nPostgraduate Programs:\n• MBA – Master of Business Administration\n• MCA – Masters in Computer Application\n• MA – Masters of Art\nPrograms Offered\nEligibility Criteria\n•\nFor UG programs: Must have completed 10+2 from a recognized board\n•\nFor PG programs: Must hold a valid bachelor's degree from a recognized university\nShoolini University is a top-ranked, not-for-profit, private research university located in the \nHimalayan foothills near Kasauli, Himachal Pradesh, India. Founded in 2009, it is recognized \nfor its focus on biotechnology, management, and engineering, often ranked among the top \nprivate institutions in India and globally.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 72,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 72,
+          "layout": "text",
+          "text": "72\n15.3 BOSSE\nBoard of Open Schooling and Skill Education\nIndex\nIndex\nThe Board of Open Schooling and Skill Education (BOSSE), Sikkim, is an open schooling board that \naims to cater to the varied academic needs of the divergent group or school dropouts’ students up \nto pre-degree level including Secondary/Senior Secondary, skill and vocational education. BOSSE is \nan open schooling education board in Sikkim, was established under Act No. 14 of 2020 of the \nSikkim Legislative Assembly, passed on 21-09-2020, according to the Sikkim Act 2020 to \npromulgate and disseminate the open schooling education at state & national level.\nBOSSE has partnered with CSC SPV to extend open schooling opportunities through Common \nService Centres (CSCs), especially targeting rural and underserved learners. \nRole & Responsibilities of VLE\n•\nPromote open schooling in rural India\n•\nRegister students for BOSSE courses\n•\nFacilitate fee payments for registration & examinations\n•\nTrack admission status and declare results\nTarget Audience\nFresh students and school dropouts seeking to \ncomplete education up to Class 12\nWho Can apply?\nStudents appearing for the first time in Secondary \n(X) or Senior Secondary (XII)",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 73,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 73,
+          "layout": "text",
+          "text": "73\n15.4 A Debt Recovery Agent \n(DRA) \nIndex\nIndex\nThe Debt Recovery Agent (DRA) Training is a certified program developed under the \nguidelines of the Reserve Bank of India (RBI) to prepare individuals to work in the field of \nloan recovery. The training is mandatory and accredited by the Indian Institute of Banking & \nFinance (IIBF).\nKey Highlights:\n•\nWorks in collection & recovery roles for Banks, NBFCs, and Financial Institutions\n•\nCertification as per RBI circular RBI/2007-2008/296 dated April 24, 2008\n•\nRoles include: Collecting from debtors, Repossessing security, Legal action, Book-keeping\n•\nLive Online Training with access to LMS and digital content\nEligibility & Duration:\n•\nUndergraduate: Minimum Class 10th | 100 Hours | Full-time (16 days)\n•\nGraduate: Minimum Bachelor’s Degree | 50 Hours | Part-time (13 days)\n•\nExam eligibility: 100% attendance",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 74,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 74,
+          "layout": "text",
+          "text": "74\n15. 5 NIELIT Courses – \nIT Certification Course & \nFacilitation Center\nIndex\nIndex\nNIELIT IS NOW PROVIDING STUDY \nCENTER FOR ACC, BCC, CCC, CCC+ AND \nECC COURSES \nNational Institute of Electronics and Information \nTechnology (NIELIT) is an autonomous scientific society \nthat provides higher and professional education through \nnon-formal sector. CSCs provide services to the students \nfor several courses offered by NIELIT. \nService: \n1.\nOnline Registration/ Fee Collection of Students\n2.\nOnline Examination Form Submission\n3.\nPrinting of Exam Admit Card\nThe National Institute of Open Schooling is an \neducational organization which imparts education \nthrough open and distance learning mode and \nalso conducts examination for grant of certificates \nupto pre degree.\n The National Institute of Open Schooling (NIOS) \nand CSC SPV joined hands to make CSCs as NIOS \nFacilitation Centers. Under this partnership, CSCs \ncan promote the Open Schooling in rural India, \nregister \nstudents, \npay \nregistration \nand \nexamination fees , know the admission and \nresults.\n15.6 National Institute \nof Open School\nServices: \n•\nOnline Admission \n•\nExam Registration\nTarget Population: All Citizen \n(min Age 14 Yrs)",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 75,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 75,
+          "layout": "text",
+          "text": "75\nTally will give a much needed boost to your career by enhancing your knowledge in \nAccounting, Inventory Management, and Taxation. ... Tally is system with exemplary \naccounting features. Apart from this, it also has other business features that an organization \nrequires.\nCourse Content:\n•\nFundamentals of Accounts\n•\nMaintaining Chart of Accounts\n•\nMaintaining Stock Keeping Units(SKU)\n•\nPerforming the accounting entry/ Recording Day to \nday business transactions\n•\nAccounts Receivable and Payable Management\n•\nMIS Reports\n•\nRecording Tax invoices for Trading Businesses(VAT)\n•\nRecording Tax invoices for Service Industries(Service \nTax)\n•\nRecording vouchers with TDS\nhttps://digitalseva.csc.gov.in/\nService: Registration\nTarget Population: All Citizen\n15.7 TALLY KAUSHAL PRAMAN PATRA \nTRAINING COURSE\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 76,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 76,
+          "layout": "text",
+          "text": "Service: Registration\n76\nGST Using Tally ERP.9 is an advanced level \nCertification Course for General Citizen, \nStudents, \nProfessionals, \nHousewives \nand \nanyone who want to venture in the world of \nTally. Candidate who is interested in making \nGST Using Tally ERP.9 and wants to pursue it as \ncareer choice can opt for this course.\nFor more Information: \nhttps://www.youtube.com/watch?v=4xBLdP7jAQI\nGST USING TALLY ERP.9\nIndex\nIndex\nTALLY PRIME WITH \nGST BASIC\nSince this is job oriented course hence it is suitable \nfor those seeking immediate employment, learner is \nskilled with a Practical training program which helps \nstudent to gain an entry in SME (Small and Medium \nEnterprise), Corporate Business world through \nComputer Accounting Using Tally.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 77,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 77,
+          "layout": "text",
+          "text": "77\n15.8 SARKARI PARIKSHA\nSarkariPariksha.com is a comprehensive online platform designed to support last-mile \naspirants preparing for various government exams. With a user-friendly interface, extensive \nstudy materials, and real-time exam updates, it bridges the gap between aspirants and their \ndream government jobs.\nTarget Audience\n•\nStudents and job seekers preparing for government & entrance exams\n•\nAspirants from rural and semi-urban areas with limited access to coaching centers\n•\nStudents aiming for admission in Jawahar Navodaya and Sainik Schools\n•\nStudents pursuing CCC, CCC+, BCC, and RSCIT courses\nScope of Coverage\n•\nCovers 150+ Central and State Level Government Exams\n•\nUpdated syllabus-based mock tests and practice papers\n•\nStudy materials in written, PDF, and video lecture formats\n•\nPersonalized performance tracking and improvement insights\nMinimum Qualification: 12th Pass\nTarget Population : Students who \nare preparing for competitive \nexams\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 78,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 78,
+          "layout": "text",
+          "text": "78\nIndex\nIndex\n15.9 Tele-centre Entrepreneur \nCourse\nTelecentre Entrepreneur Course (TEC) is a certification course designed \nby CSC Academy. This course is for all the Village Level Entrepreneurs \n(VLE) who intends to become a certified Entrepreneur. Main objective of \nthe Telecentre Entrepreneur Course (TEC) is to aware the Village level \nEntrepreneur (VLE) about the various government services provided by \nCommon Services Centre and to make them certified under Telecentre \nEntrepreneur Course (TEC).\nTarget Population: VLE and Citizens who intend to Become a certified \nVLE\nServices: Certification",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 79,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 79,
+          "layout": "text",
+          "text": "79\n15.10 Certificate Course in \nEntrepreneurship (CCE) - ISB\nService: Registration & Certification\nTarget Population: All Citizen\nCertificate Course in Entrepreneurship (CCE) is an \nEntrepreneurship course offered by CSC Academy & Indian \nSchool of Business (ISB), Hyderabad. This Course is for \ngeneral Citizens, students, professionals and housewives \nand anyone who wants to venture into the world of \nEntrepreneurship.\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 80,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 80,
+          "layout": "text",
+          "text": "80\n15.11 CSC Olympiad\nServices: Registration\nTarget Population: Students who are preparing for \ncompetitive exams\nCSC Academy Olympiad’s do not lead directly to any career \nbenefits; rather, they provide a stimulus to begin a career and to \nundertake a lifelong journey into the realms of exciting intellectual \nchallenges. The CSC Academy Olympiad is just not a competition \nbut it shall be the meeting places of the brightest young minds of \nthe world. Much like the Olympics in sports, the CSC Academy \nOlympiad shall be a celebration of the very best in school level \nsubjects.\n \n CSC Academy designed & conceptualized the CSC Olympiad during \nlockdown period. \nCourses Offered: \n•\nHindi Olympiad\n•\nMathematics Olympiad\n•\nEnglish Olympiad\n•\nScience Olympiad\n•\nPhysics Olympiad\n•\nChemistry Olympiad\n•\nBiology Olympiad\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 81,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 81,
+          "layout": "text",
+          "text": "81\n15.12 CSC Tiny Tech\nCSC Tiny Tech is a technology-integrated preschool curriculum by CSC Academy and IIT Delhi, \ndesigned for children aged 3–6. Combining traditional teaching methods with advanced tools \nlike Augmented Reality (AR) and Artificial Intelligence (AI), it fosters engaging and holistic \nlearning. Implemented in 3700+ centers across 31 Indian states, it ensures joyful education, \nparticularly for children from rural and disadvantaged backgrounds.\nServices: \nRegistration for opening the Pre School\nCurriculum & Training Support\nTarget Population: Children 3 to 6 yrs Old\nFor More Information: \nhttps://www.cscbalvidyalaya.com/\nTechnology enabled playful learning\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 82,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 82,
+          "layout": "text",
+          "text": "82\n15.14 Financial \nAccounting\nGST Advance & GST Advance Kit \nTally with GST\nSince this is job oriented course hence it is suitable \nfor those seeking immediate employment, learner is \nskilled with a Practical training program\nService: Registration\nThe course consist of basic of accounting as well as \nbasic of Tally default feature such as basic inventory, \nAdvance Accounting , Advanced Inventory, Getting \nStarted with GST Goods, TDS and Getting started \nwith GST Services.\nIndex\nIndex\n15.13 Basic \nComputer Course\nCSC Academy has launched a programme\n“Basic Computer Course (BCC)”. The programme \noffers basic computer training to equip a person to \nuse computers in day-to-day life for professional and \npersonal use. After completing the course, the \nperson will be computer literate and will be able to \nachieve the basic knowledge.\nService: \n•\nRegistration\n•\nCertification",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 83,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 83,
+          "layout": "text",
+          "text": "83\n15.15 21st Century Employability Skills - \nWadhwani\nServices: Registration\n21st-Century Employability Skills are a set of skills, knowledge, and attributes that \nincrease an individual’s chances of getting a job. These skills are important because \ncompanies look for individuals who have good communication skills, basic knowledge \nof computers, and a positive mindset towards work. This course empowers the \ncandidate with these 21st Century Skills and helps to succeed in the career. Course \nduration- 30 hours.\nBuilding Entrepreneurship Mindset\nEffective Workplace Courses\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 84,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 84,
+          "layout": "text",
+          "text": "84\n15.16 Cyber Security\nTarget Population: All Citizens\nCyber Security- It is an online skill course to identify cyber threats and complete information \non cyber ethics\nServices: Registration\nCyber Security course aims to equip students with \nthe knowledge and skills required to defend the \ncomputer operating systems, networks and data \nfrom cyber-attacks. It will further help in \nunderstanding of cybercrime and cyber threats. \nKey Features of Course\n•\nEssentials of Cyber Security;\n•\nSecurity Concept\n•\nFunctioning of Internet and Network Layers\n•\nBasic Threats and Vulnerabilities\n•\nAdditional Threats and Vulnerabilities\n•\nExploitation: Threats and Vulnerabilities\n•\nNew Trends in Cyber Threats and Attacks\nIndex\nIndex\nCertification: After completion of the \nonline course, Sorbon Institute & CSC \nAcademy certificate will be awarded to \nparticipants \nfollowed \nby \nan \nonline \nassessment.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 85,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 85,
+          "layout": "text",
+          "text": "85\n15.17 Maglayatan University\nTarget Population: All Citizens\nServices: Registration\nIndex\nIndex\nMangalayatan University (MU) is a prominent private university established in \n2006 in Aligarh, Uttar Pradesh, with another campus in Jabalpur. It offers \ndiverse undergraduate, postgraduate, and PhD programs in fields like \nengineering, management, and pharmacy. Accredited by NAAC with an 'A+' \ngrade, it focuses on providing quality education and fostering research-driven \nlearning.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 86,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 86,
+          "layout": "text",
+          "text": "86\n15.18 Earth Care Foundation\nTarget Population: All Citizens\nServices: Registration\nIndex\nIndex\nEarth Care Foundation (ECF) is a New Delhi-based non-profit, registered in 2005 as a \nTrust, focused on creating a sustainable society by empowering underprivileged \nyouth, women, and children through education, skill development, and \nenvironmental conservation.\n15.19 BISE\nBharath Institute of Schooling Education (BISE) is a Bengaluru-based open schooling \nboard providing 10th and 12th (2nd PUC) education for dropouts and students needing \nflexible learning. It aims to offer alternative, accessible education for underserved, \nrural, or working populations. It offers arts, commerce, and science streams.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 87,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 87,
+          "layout": "text",
+          "text": "87\n16 Digital Services\nIndex\nIndex\nS. N.\nServices\n16.1\nSPARSH Defence Pension Services Portal\n16.2\nE-Sign and Digital Signature\n16.3\nE-Office\n16.4\nDigilocker\n16.5\nWhatsApp Messaging Services – META\n16.6\nFaceAuth Services",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 88,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 88,
+          "layout": "text",
+          "text": "88\nIndex\nIndex\n16.1 SPARSH \nSPARSH (System for Pension Administration (Raksha) : SPARSH is a web based interactive\npension disbursement system. It has automated the entire pension process starting with \ninitiation of claim to sanction, disbursement and periodic revisions for Defense pensioners \nfor Armed Forces Viz. Army, Navy, Air Force and Defense Civilians and their families.\nVLEs can assist all Defense Pensioners for Defense \npensioner Services:-\n•\nPensioner Data Verification (PDV)\n•\nAnnual identification through Digital and \nManual Life Certificate.\n•\nLodging of Grievance.\n•\nRegistering Service Request.\n•\nProviding information against queries\n•\nRequest for initiation of family pension on \ndemise of pensioner.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 89,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 89,
+          "layout": "text",
+          "text": "89\nIndex\nIndex\n16.2 e-Sign and Digital Signature\nCSC e-Governance Services India Limited is a registered Certifying \nAuthority (CA) with Controller of Certifying Authorities (CCA), Ministry \nof Electronics and IT, Government of India and have been on-boarded \nas licensed eSign service provider (ESP) to launch eSign services and \nDigital Signature Certificate Dongle based issuance (Type Class 3 \nsignature and encryption). \neSign : Electronic Signature Service is an innovative \ninitiative for allowing easy, efficient, and secure \nsigning of electronic documents by authenticating \nsigner using e-KYC services. \nWith this service, any eSign user can digitally sign an \nelectronic document without having to obtain a \nphysical digital signature dongle. \nToken Based Digital Signature: \nDigital signature Issuance in which User \nPrivate key always resides in Crypto \ntokens and Signature services can be \nperformed on document based on \navailability of private key in Crypto token.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 90,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 90,
+          "layout": "text",
+          "text": "90\nIndex\nIndex\n16.3 e-Office\ne-office (eFile and SPARROW) services\nE-Office, is Government of India’s important initiative \nfor bringing transparency, efficiency and speed in \ngovernance and functioning of different Departments. \nE-office is a medium to achieve a Simplified, \nResponsive, \nEffective, \nAccountable \nand \nmaking \npaperless working in Government offices. It is a digital \nworkplace solution built on open architecture making it \na standard reusable product amenable for replication \nacross the Governments. It is a product suite comprised \nof several applications for transforming the day-to-day \nofficial work-related activities of a government \norganization.\nThe key components of e-Office \noffering by CSCSPV are as follows-\n•\nFile Management System (e-File)\n•\nKnowledge Management System (KMS)\n•\nWork from Anywhere (WAW) Portal:\n•\nSmart Performance Appraisal Report \nRecording Online Window (SPARROW)\nE-OFFICE",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 91,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 91,
+          "layout": "text",
+          "text": "91\nIndex\nIndex\n16.4 DigiLocker\n•\nDigiLocker is a flagship initiative under Digital India by MeitY.\n•\nProvides secure cloud-based platform for document storage, access, and sharing.\n•\nEnables paperless governance and faster citizen service delivery.\nKey Features\n•\n24x7 access to authentic digital documents \nissued by Government agencies.\n•\nIssued documents are legally valid under IT \nAct, 2000.\n•\nSecure access using Aadhaar-based \nauthentication.\n•\nSupports issuance, upload, and sharing of \ndocuments in real-time.\nTypes of Documents in DigiLocker:\n•\nDriving License and Vehicle RCs (Transport \nDepartment)\n•\nAcademic Certificates (CBSE, State Boards, \nUniversities)\n•\nInsurance and Pension Records\n•\nUtility Bills, PAN, Aadhaar, and more",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 92,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 92,
+          "layout": "text",
+          "text": "92\nIndex\nIndex\n16.5 WHATSAPP MESSAGING \nSERVICES –META\nAI-powered feature that allows users to chat with Meta's AI directly within the app. It can be \nused to ask questions, get recommendations, or even just have a conversation. When using \nMeta AI in WhatsApp, your prompts and messages shared with the AI, as well as your feedback, \nare sent to Meta to deliver relevant responses.\n❖CSC SPV has been onboarded as Service Provider for WhatsApp \nmessaging services and onboarded with BSPs for the META \nServices.\n❖CSC SPV will support clients end to end integration through API.\n❖CSC SPV will also help clients in customizations as per \nrequirements.\n❖Cost effective solutions with high end resources for support.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 93,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 93,
+          "layout": "text",
+          "text": "93\nIndex\nIndex\n16.6 FACEAUTH SERVICES\nAI-powered Face Recognition-Based Authentication System designed to streamline and secure authentication \nprocesses. The system is optimized for scalability and operational efficiency, addressing the needs of \nDepartments/Organizations.\nEnrolment Phase: All users' faces are enrolled in a \ncentralized or federated database provided by \nDepartments/Organizations.\nVerification Workflow:\n•\nUser walks up to the face authentication device.\n•\nFace is captured in real-time and matched against \ncentralized or federated database.\n•\nMatching confidence is compared against a \npredefined threshold (e.g, 0.85). This algorithm has \nalready been tested in Digi-Yatra.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 94,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 94,
+          "layout": "text",
+          "text": "94\n17 - APAAR\nAPAAR - Stands for Automated Permanent Academic Account Registry, is a unique and \npermanent 12-digit ID card for all students . This is part of the ‘One nation, One Student \nID’ initiative stemming from the new National Education Policy of 2020.\nService: Registration\nIndex\nIndex\nLink for registering student in APAAR is https://apaar.csccloud.in/\nCommercial: Rs 30 +taxes per APAAR Card and Rs 30 \n+taxes for every duplicate download request from \nthe applicant.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 95,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 95,
+          "layout": "text",
+          "text": "95\n18 – DTH\nIndex\nIndex\nBenefits of Using Digital Seva Portal for Dish TV New \nConnections:\n•\nStreamlined Operations\n•\nImproved Customer Experience\n•\nTransparent and Secure Transactions\n•\nReal-Time Updates\n•\nAfter-Sales Support\n•\nCentralized Data Management\n•\nQuick Issue Resolution\nWatcho Recharge/Connection\nDish & D2H – New Connection /Recharge",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 96,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 96,
+          "layout": "text",
+          "text": "Once a booking is completed:\n•\nThe VLE collects the parcel and generates a barcode through the portal.\n•\nShree Maruti provides a dedicated porter/pick-up facility from the VLE centres.\n•\nThis ensures hassle-free operations for the VLEs and guarantees timely and efficient deliveries across the \ncountry.\n96\n19 Shree Maruti Courier Service\nIndex\nIndex\nThe Common Services Centre (CSC), operating under the Ministry of Electronics & Information Technology \n(MeitY), has partnered with Shree Maruti Integrated Logistics Limited to introduce Shree Maruti Courier \nServices across its last-mile delivery network.\nThis initiative enables over 4.5 lakh Village Level Entrepreneurs (VLEs) nationwide to offer courier services, \nincluding Speed Post and Registered Parcel bookings, directly to citizens via CSC’s Digital Seva Portal.\nThis collaboration aims to expand logistics access to rural areas/Tier1/Tier2 cities, create income \nopportunities for VLEs, and enhance last-mile connectivity for citizens in underserved regions.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 97,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 97,
+          "layout": "text",
+          "text": "97\n20 Other Services\nIndex\nIndex\nS. N.\nServices\n20.1\nOnline Recruitment Management System (ORMS)\n20.2\nGramin Naukri Portal\n20.3\nNational Career Services\n20.4\nLPG Refill Booking & Distribution\n20.5\nFarmer Registry -Agri stack\n20.6\nDoorstep Delivery of Service",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 98,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 98,
+          "layout": "text",
+          "text": "98\n18.5 ORMS\nCSC SPV propose for design and development of end-to-end Online Recruitment Management System \n(ORMS) without any direct cost to department (but a nominal processing charges may be charged from \ncandidates similarly done in BSF, CRPF and other departments).\nServices:\nTarget Population: All Citizens\nIndex\nIndex\n20.1 Online Recruitment Management \nSystem (ORMS)",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 99,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 99,
+          "layout": "text",
+          "text": "CSC Gramin Naukri is a platform to bridge the \ngap between job seekers and Job Providers with \na vision to transform the employment process \nfor the youth in Gramin Bharat.\nKey Features:\n•\nFree Registration for\n•\nJob Seekers and \n•\nJob Providers\n•\nResume Writing\n•\nOnline and offline Interview at CSCs.\n99\n20.2 Gramin Naukri Portal\nServices : Registration\nIndex\nIndex\n20.3 National Career Service \n(NCS)\nThis portal facilitates registration of Job Seekers, \nEmployers, Skill Providers, Career Counselors, Local \nService Providers (LSP’s), Career Centers, Placement \nOrganizations & Households (for availing the services \nof the LSP’s).\nThe NCS project reaches out to the people of the \ncountry through its three essential pillars i.e. \n▪\nA well designed ICT based portal which is NCS \nportal, \n▪\nCountry wide set up of Model Career Centers \nand \n▪\nInter linkage with all the states through \nemployment exchanges\nServices:\nManaging NCS Portal\nManaging Call Center\nRegistration of Job Seekers through CSCs",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 100,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 100,
+          "layout": "text",
+          "text": "100\n20.4 LPG New Connection, Refill Booking \n& Distribution\nCSC e Governance Services India Limited (CSC SPV) and Oil Marketing Companies (OMCs) agrees to \nfacilitate their distributors to avail the following services through Common Services Centres;\no\nHPCL New connection registration through CSCs\no\nBooking of LPG refills (14.2 Kg cylinders) \no\nSupply & distribution of LPG cylinders (storage up to 100 Kgs,) through CSCs.\nCommon Services Centre’s are helping beneficiaries to provide the above OMCs service near to their \nhome accessing through Digital Seva Portal. \nVLEs can book cylinder(HPCL, BPCL & IOCL) from digital sewa portal by selecting gas connection \noption.\nEach VLE can book up to 20 cylinders through LPG refill booking.\nService: Distribution, Refill booking and HPCL New registration \nhttps://services.csccloud.in/mop/\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 101,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 101,
+          "layout": "text",
+          "text": "101\n20.5 Farmer Registry -Agri stack\nIndex\nIndex\nAgristack is a digital infrastructure project aimed at enhancing \nfarming through integrated databases. It provides real-time data \nand services to farmers, including weather updates, soil health, crop \nadvisory, market prices, and financial services like insurance and \ncredit. Agristack promotes sustainable agriculture and improves \nfarmers' economic wellbeing.\nService: Registration",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 102,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 102,
+          "layout": "text",
+          "text": "102\n20.6 Doorstep Delivery of Service\nIndex\nIndex\nDoorstep Delivery of Service: Doorstep delivery of services refers to the initiative where various \ngovernment services are provided to citizens at their doorstep. It benefits citizens by saving them \ntime and effort, eliminating the need to visit government offices physically.\nService: Registration\nVision of the Project:\n•\nTo Provide multi-department services to citizens in a time bound manner with no hassle\n•\nto visit government offices to avail the services\n•\nReduce the complexity of getting the G2C (Government to Citizen) services from various \nDepartments and multiple platforms and to provide the G2C Services at doorstep on request \nof a citizen.\n•\nTo provide faster delivery of citizen services.\nPresently Doorstep Delivery of Services running in three states:\n•\nJammu &amp; Kashmir\n•\nGoa\n•\nUttrakhand ( on pilot basis)",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 103,
+      "width": 780,
+      "height": 540,
+      "created_at": "2026-07-24T09:29:18Z",
+      "blocks": [
+        {
+          "page": 103,
+          "layout": "text",
+          "text": "238, 3rd Floor, Okhla Industrial Area,Phase-III, New Delhi-110020. \n103\nFor More Information, Please visit at below URL\nhttps://jaankari.csccloud.in/\nSend your feedback at csccapacitybuilding@cscacademy.org\nIndex\nIndex",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    }
+  ]
+}

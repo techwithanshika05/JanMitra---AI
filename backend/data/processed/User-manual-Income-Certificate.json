@@ -1,0 +1,109 @@
+{
+  "source_file": "User-manual-Income-Certificate.pdf",
+  "metadata": {
+    "total_pages": 6,
+    "total_blocks": 6,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.4444444444444444,
+    "processed_at": "2026-07-24T09:36:52Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:36:52Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "User Manual for Income Certificate \n \n1. Login with username and password. An OTP will be sent to your registered mobile number. \n \n \n2. After successful login, if Aadhaar not update , Update Aadhaar",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:36:52Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "3. If Aadhaar not update, Update Aadhaar details. \n \n \n \n \n4. Once Aadhaar updated, Update Income certificate to fill application form. Click on “”",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:36:52Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "5. Now click on Please verify and update Your Income Certificate to go to Income certificate page. \n \n \n \n6. Enter Income certificate application number and Certificate id of father or mother and click on Verify \nCertificate Button to validate income certificate. \n \n \n \n7. Verifying certificate to validate income certificate.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:36:52Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "8. If details not matched with Father or Mother than show error like this. \n \n \n \n \n9. If certificate verified, certificate verified message appears.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:36:52Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "text",
+          "text": "10. When details verified, verified details shows. \n \n \n \n11. Click on Confirm Submission button to update income certificate details.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-24T09:36:52Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "12. After updated income certificate details, success message appears. \n \n \n \n**************************************************************************************",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {}
+        }
+      ]
+    }
+  ]
+}
