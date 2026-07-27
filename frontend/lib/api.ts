@@ -47,7 +47,7 @@ export const api = {
   guideGrievance: (payload: { category: string; description: string; state?: string }) =>
     request("/grievance/guide", { method: "POST", body: JSON.stringify(payload) }),
 
-  login: (payload: { email: string; password: string }) =>
+  login: (payload: { email?: string; mobile?: string; password: string }) =>
     request("/auth/login", { method: "POST", body: JSON.stringify(payload) }),
 
   register: (payload: Record<string, unknown>) =>
@@ -107,6 +107,39 @@ export const api = {
     },
   ): Promise<ChatFeedback> =>
     request(`/api/chat/messages/${messageId}/feedback`, {
+      method: "POST",
+      body: JSON.stringify(payload),
+    }),
+
+  uploadDocument: async (file: File) => {
+    const formData = new FormData();
+    formData.append("file", file);
+    const res = await fetch(`${API_URL}/documents/upload`, {
+      method: "POST",
+      body: formData,
+      credentials: "include",
+      headers: authHeaders(),
+    });
+    if (!res.ok) {
+      const body = await res.json().catch(() => ({}));
+      throw new Error(body.detail || "Upload failed");
+    }
+    return res.json();
+  },
+
+  askDocument: (payload: { doc_id: string; question: string; language?: string }) =>
+    request("/documents/ask", { method: "POST", body: JSON.stringify(payload) }),
+
+  listFaqs: (params?: { category?: string; language?: string }) => {
+    const qs = new URLSearchParams();
+    if (params?.category) qs.set("category", params.category);
+    if (params?.language) qs.set("language", params.language);
+    const suffix = qs.toString() ? `?${qs.toString()}` : "";
+    return request(`/faqs${suffix}`);
+  },
+
+  submitFeedback: (payload: { chat_id?: number; rating: number; comment?: string }) =>
+    request("/analytics/feedback", {
       method: "POST",
       body: JSON.stringify(payload),
     }),

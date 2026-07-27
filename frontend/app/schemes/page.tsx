@@ -37,12 +37,12 @@ export default function SchemesPage() {
   return (
     <div className="max-w-7xl mx-auto px-5 md:px-8 py-14">
       <h1 className="font-display text-3xl font-semibold">Smart Scheme Finder</h1>
-      <p className="text-indigo-900/60 dark:text-white/50 mt-2 max-w-2xl">
+      <p className="text-maroon-dark/60 mt-2 max-w-2xl">
         Tell us a bit about yourself. We'll match schemes and explain exactly why each one fits —
         this is guidance only, not an official eligibility confirmation.
       </p>
 
-      <div className="grid md:grid-cols-3 gap-4 mt-8 rounded-card p-6 bg-white/80 dark:bg-white/5 border border-indigo-50 dark:border-white/10 shadow-card">
+      <div className="grid md:grid-cols-3 gap-4 mt-8 rounded-card p-6 bg-white/80 border border-blush/40 shadow-card">
         <Field label="State">
           <input className="input" placeholder="e.g. Uttar Pradesh" value={form.state} onChange={(e) => update("state", e.target.value)} />
         </Field>
@@ -89,7 +89,7 @@ export default function SchemesPage() {
         <button
           onClick={search}
           disabled={loading}
-          className="md:col-span-3 mt-2 bg-marigold text-white rounded-full py-3 font-medium hover:bg-marigold-600 transition-colors flex items-center justify-center gap-2 disabled:opacity-60"
+          className="md:col-span-3 mt-2 bg-rose text-white rounded-full py-3 font-medium hover:brightness-110 transition-colors flex items-center justify-center gap-2 disabled:opacity-60"
         >
           {loading && <Loader2 size={16} className="animate-spin" />}
           Find matching schemes
@@ -107,7 +107,7 @@ export default function SchemesPage() {
             ))}
           </div>
           {results.length === 0 && (
-            <p className="text-sm text-indigo-900/60 dark:text-white/50">
+            <p className="text-sm text-maroon-dark/60">
               No exact matches found. Try widening your criteria, or ask JanMitra AI directly in the chat.
             </p>
           )}
@@ -116,7 +116,7 @@ export default function SchemesPage() {
 
       <style jsx global>{`
         .input {
-          @apply w-full border border-indigo-100 dark:border-white/10 rounded-lg px-3 py-2 text-sm bg-transparent outline-none focus-visible:border-marigold;
+          @apply w-full border border-blush/60 rounded-lg px-3 py-2 text-sm bg-transparent outline-none focus-visible:border-rose;
         }
       `}</style>
     </div>
@@ -126,7 +126,7 @@ export default function SchemesPage() {
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <label className="text-sm">
-      <span className="block mb-1 text-indigo-900/70 dark:text-white/60">{label}</span>
+      <span className="block mb-1 text-maroon-dark/70">{label}</span>
       {children}
     </label>
   );

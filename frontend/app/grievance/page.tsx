@@ -31,13 +31,13 @@ export default function GrievancePage() {
   return (
     <div className="max-w-3xl mx-auto px-5 md:px-8 py-14">
       <h1 className="font-display text-3xl font-semibold">Grievance Assistant</h1>
-      <p className="text-indigo-900/60 dark:text-white/50 mt-2">
+      <p className="text-maroon-dark/60 mt-2">
         Describe the issue — we'll point you to the right department and the exact escalation path.
       </p>
 
       <div className="mt-8 space-y-4">
         <select
-          className="w-full border border-indigo-100 dark:border-white/10 rounded-lg px-4 py-3 text-sm bg-transparent"
+          className="w-full border border-blush/60 rounded-lg px-4 py-3 text-sm bg-transparent"
           value={category}
           onChange={(e) => setCategory(e.target.value)}
         >
@@ -47,7 +47,7 @@ export default function GrievancePage() {
           <option value="other">Other</option>
         </select>
         <textarea
-          className="w-full border border-indigo-100 dark:border-white/10 rounded-lg px-4 py-3 text-sm bg-transparent min-h-[120px]"
+          className="w-full border border-blush/60 rounded-lg px-4 py-3 text-sm bg-transparent min-h-[120px]"
           placeholder="Describe what happened — e.g. 'My ration shop denied entitled quantity this month.'"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
@@ -55,7 +55,7 @@ export default function GrievancePage() {
         <button
           onClick={submit}
           disabled={loading}
-          className="bg-marigold text-white rounded-full px-6 py-3 font-medium hover:bg-marigold-600 transition-colors flex items-center gap-2 disabled:opacity-60"
+          className="bg-rose text-white rounded-full px-6 py-3 font-medium hover:brightness-110 transition-colors flex items-center gap-2 disabled:opacity-60"
         >
           {loading && <Loader2 size={16} className="animate-spin" />}
           Get guidance
@@ -64,18 +64,18 @@ export default function GrievancePage() {
 
       {result && (
         <div className="mt-10 space-y-6">
-          <div className="rounded-card p-5 bg-white/80 dark:bg-white/5 border border-indigo-50 dark:border-white/10 shadow-card">
-            <div className="flex items-center gap-2 text-teal font-semibold">
+          <div className="rounded-card p-5 bg-white/80 border border-blush/40 shadow-card">
+            <div className="flex items-center gap-2 text-rose font-semibold">
               <Building2 size={16} /> Department to contact
             </div>
             <p className="mt-1 text-sm">{result.department}</p>
-            <p className="text-xs text-indigo-900/50 dark:text-white/40 mt-1">
+            <p className="text-xs text-maroon-dark/50 mt-1">
               Expected resolution: ~{result.expected_resolution_days} days
             </p>
           </div>
 
-          <div className="rounded-card p-5 bg-white/80 dark:bg-white/5 border border-indigo-50 dark:border-white/10 shadow-card">
-            <div className="flex items-center gap-2 text-marigold font-semibold">
+          <div className="rounded-card p-5 bg-white/80 border border-blush/40 shadow-card">
+            <div className="flex items-center gap-2 text-rose font-semibold">
               <ListChecks size={16} /> Steps to file
             </div>
             <ol className="mt-3 space-y-1.5 text-sm list-decimal list-inside">
@@ -83,8 +83,8 @@ export default function GrievancePage() {
             </ol>
           </div>
 
-          <div className="rounded-card p-5 bg-white/80 dark:bg-white/5 border border-indigo-50 dark:border-white/10 shadow-card">
-            <div className="flex items-center gap-2 text-indigo font-semibold">
+          <div className="rounded-card p-5 bg-white/80 border border-blush/40 shadow-card">
+            <div className="flex items-center gap-2 text-maroon font-semibold">
               <ArrowUpCircle size={16} /> If unresolved: escalation path
             </div>
             <ol className="mt-3 space-y-1.5 text-sm list-decimal list-inside">
@@ -92,7 +92,7 @@ export default function GrievancePage() {
             </ol>
           </div>
 
-          <p className="text-xs text-indigo-900/50 dark:text-white/40">{result.reference_note}</p>
+          <p className="text-xs text-maroon-dark/50">{result.reference_note}</p>
         </div>
       )}
     </div>

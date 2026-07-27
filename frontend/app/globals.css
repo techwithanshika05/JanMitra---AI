@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --font-display: 'Fraunces', ui-serif, Georgia, serif;
+  --font-display: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
   --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -12,40 +12,122 @@ html {
 }
 
 body {
-  @apply bg-paper text-indigo-900 font-body antialiased;
+  @apply bg-paper text-maroon-dark font-body antialiased;
 }
 
-.dark body {
-  @apply bg-ink text-white;
+/* ---------- Signature background: soft gradient + blurred glow blobs ----------
+   Every page section that wants the "premium atmosphere" adds .glow-field as
+   a positioned ancestor, then places two .blob children (pink + gold) behind
+   its content. Kept to ONE recurring device across the site (not scattered
+   ad hoc gradients per component) so it reads as a deliberate signature. */
+.glow-field {
+  position: relative;
+  isolation: isolate;
+}
+.blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(80px);
+  z-index: -1;
+  opacity: 0.55;
+  pointer-events: none;
+}
+.blob-pink {
+  background: #D6DCEA;
+}
+.blob-gold {
+  background: #FDF3E7;
 }
 
-/* Signature element: the "thread" motif -- a warm marigold path that runs
-   through the citizen journey timeline on the landing page and dashboard,
-   representing a single citizen's path through government services. */
-.thread-line {
-  stroke: theme('colors.marigold.DEFAULT');
-  stroke-width: 2;
-  fill: none;
-  stroke-dasharray: 6 6;
-}
-
+/* ---------- Glassmorphism ---------- */
 .glass {
-  background: rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.72);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(232, 135, 30, 0.25);
 }
 
-.dark .glass {
-  background: rgba(27, 42, 74, 0.45);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+/* ---------- Premium card hover: lift + scale + glow, per brief ---------- */
+.premium-card {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+}
+.premium-card:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 20px 60px -10px rgba(232, 135, 30, 0.35);
+  border-color: rgba(232, 135, 30, 0.35);
 }
 
-.gradient-card {
-  background: linear-gradient(135deg, #1B2A4A 0%, #0F6A5D 100%);
+/* ---------- Gradient border trick (soft gradient border on cards) ---------- */
+.gradient-border {
+  position: relative;
+  background: white;
+}
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(232,135,30,0.5), rgba(240,162,76,0.5));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
 }
 
-/* Respect reduced motion preference */
+/* ---------- Buttons ---------- */
+.btn-primary {
+  @apply bg-maroon text-white rounded-pill font-semibold transition-all duration-300;
+  position: relative;
+  overflow: hidden;
+}
+.btn-primary:hover {
+  background-image: linear-gradient(135deg, #1B2A4A 0%, #E8871E 100%);
+  box-shadow: 0 8px 30px -6px rgba(232, 135, 30, 0.45);
+}
+
+.btn-secondary {
+  @apply rounded-pill font-semibold border-2 border-rose text-rose transition-all duration-300;
+}
+.btn-secondary:hover {
+  background-color: #D6DCEA;
+  color: #1B2A4A;
+}
+
+.btn-highlight {
+  @apply bg-gold text-maroon rounded-pill font-semibold transition-all duration-300;
+}
+.btn-highlight:hover {
+  filter: brightness(1.05);
+  box-shadow: 0 8px 24px -6px rgba(240, 162, 76, 0.6);
+}
+
+/* Ripple element created on click via JS (see Button component) */
+.ripple {
+  position: absolute;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.6);
+  transform: scale(0);
+  animation: ripple 0.6s ease-out forwards;
+  pointer-events: none;
+}
+
+/* ---------- Loading skeletons ---------- */
+.skeleton {
+  background: linear-gradient(90deg, #F4F1EA 25%, #EAE4D6 37%, #F4F1EA 63%);
+  background-size: 400% 100%;
+  animation: shimmer 1.8s ease-in-out infinite;
+  border-radius: 12px;
+}
+
+/* ---------- Motion + accessibility ---------- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
@@ -55,8 +137,8 @@ body {
   }
 }
 
-/* Visible keyboard focus ring, consistent everywhere */
 a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
-  outline: 2px solid theme('colors.marigold.DEFAULT');
+  outline: 2px solid #E8871E;
   outline-offset: 2px;
+  border-radius: 4px;
 }

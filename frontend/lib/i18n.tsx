@@ -1,12 +1,12 @@
 "use client";
 import { createContext, useContext, useState, ReactNode, useEffect } from "react";
 
-export type Lang = "en" | "hi";
+export type Lang = "en" | "hi" | "hinglish";
 
 /**
  * Central translation dictionary. Keep keys flat and short so any component
  * can call t("chat.placeholder") etc. Add new keys here as new pages adopt
- * translation -- this is the single source of truth for UI copy in both
+ * translation -- this is the single source of truth for UI copy in all
  * languages, kept separate from the AI's own (dynamically generated)
  * answers, which are translated server-side by the LLM/prompt instead.
  */
@@ -17,6 +17,9 @@ const dict = {
     "nav.chat": "Ask JanMitra",
     "nav.checklist": "Checklist",
     "nav.grievance": "Grievance",
+    "nav.documents": "My Documents",
+    "nav.faq": "FAQ",
+    "nav.helpline": "Helpline",
     "nav.admin": "Admin",
     "hero.tag": "A citizen assistant, not a chatbot",
     "hero.title1": "Every Indian's path through",
@@ -42,6 +45,9 @@ const dict = {
     "nav.chat": "JanMitra से पूछें",
     "nav.checklist": "चेकलिस्ट",
     "nav.grievance": "शिकायत",
+    "nav.documents": "मेरे दस्तावेज़",
+    "nav.faq": "सामान्य प्रश्न",
+    "nav.helpline": "हेल्पलाइन",
     "nav.admin": "एडमिन",
     "hero.tag": "एक नागरिक सहायक, सिर्फ चैटबॉट नहीं",
     "hero.title1": "हर भारतीय का",
@@ -60,6 +66,34 @@ const dict = {
     "chat.listening": "सुन रहा हूं…",
     "chat.speak": "जवाब सुनें",
     "chat.mic": "बोलकर पूछें",
+  },
+  hinglish: {
+    "nav.dashboard": "Dashboard",
+    "nav.schemes": "Scheme Khojo",
+    "nav.chat": "JanMitra se Pucho",
+    "nav.checklist": "Checklist",
+    "nav.grievance": "Shikayat",
+    "nav.documents": "Mere Documents",
+    "nav.faq": "FAQ",
+    "nav.helpline": "Helpline",
+    "nav.admin": "Admin",
+    "hero.tag": "Ek citizen assistant, chatbot nahi",
+    "hero.title1": "Har Indian ka",
+    "hero.title2": "welfare aur ration",
+    "hero.title3": "services ka raasta, ab clear.",
+    "hero.desc":
+      "JanMitra AI aapki bhasha mein schemes, ration processes, aur shikayat ke tareeke samjhata hai — har jawab official sources par based hai, confidence ke saath, kabhi bhi eligibility ka jhoota vaada nahi karta.",
+    "hero.cta1": "JanMitra se Pucho",
+    "hero.cta2": "Mere liye schemes khojo",
+    "chat.title": "JanMitra AI se Pucho",
+    "chat.subtitle": "Official scheme aur PDS data par based. Har jawab confidence score aur sources dikhata hai.",
+    "chat.placeholder": "Kisi scheme, ration process, ya document ke baare mein pucho…",
+    "chat.welcome":
+      "Namaste! Main JanMitra AI hoon. Mujhse ration card, welfare schemes, zaroori documents, ya shikayat darj karne ke baare mein pucho. Mera har jawab official scheme data par based hota hai aur sources dikhata hai.",
+    "chat.thinking": "JanMitra soch raha hai…",
+    "chat.listening": "Sun raha hoon…",
+    "chat.speak": "Jawab suno",
+    "chat.mic": "Bolkar pucho",
   },
 } as const;
 
@@ -81,7 +115,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   // app running in the user's own browser, not the Claude artifact sandbox).
   useEffect(() => {
     const saved = window.localStorage.getItem("janmitra_lang") as Lang | null;
-    if (saved === "en" || saved === "hi") setLangState(saved);
+    if (saved === "en" || saved === "hi" || saved === "hinglish") setLangState(saved);
   }, []);
 
   const setLang = (l: Lang) => {

@@ -17,6 +17,12 @@ import {
 } from "lucide-react";
 import { api } from "@/lib/api";
 import { useLanguage } from "@/lib/i18n";
+import {
+  pickVoice,
+  speechLangCode,
+  speechRecognitionErrorMessage,
+  waitForVoices,
+} from "@/lib/speech";
 import type { ChatMessage, ChatSession } from "@/lib/chatTypes";
 import ConfidenceMeter from "./ConfidenceMeter";
 import FAQResponseCard from "./FAQResponseCard";
@@ -126,6 +132,7 @@ export default function ChatWidget({
   const [ttsSupported, setTtsSupported] = useState(false);
   const [historyLoading, setHistoryLoading] = useState(false);
   const [error, setError] = useState("");
+  const [voiceError, setVoiceError] = useState("");
   const [copiedMessage, setCopiedMessage] = useState<string | null>(null);
   const [expandedSources, setExpandedSources] = useState<Set<string>>(new Set());
 
@@ -214,40 +221,52 @@ export default function ChatWidget({
     recognition.onresult = (event: any) => {
       const transcript = event.results[0][0].transcript;
       setInput(transcript);
+      setVoiceError("");
     };
     recognition.onend = () => setListening(false);
-    recognition.onerror = () => setListening(false);
+    recognition.onerror = (event: any) => {
+      setListening(false);
+      setVoiceError(speechRecognitionErrorMessage(event.error, lang));
+    };
     recognitionRef.current = recognition;
   }, []);
 
   // Keep recognition language in sync with the selected UI language.
   useEffect(() => {
     if (recognitionRef.current) {
-      recognitionRef.current.lang = lang === "hi" ? "hi-IN" : "en-IN";
+      recognitionRef.current.lang = speechLangCode(lang);
     }
   }, [lang]);
 
   const toggleListening = () => {
     if (!recognitionRef.current) return;
+    setVoiceError("");
     if (listening) {
       recognitionRef.current.stop();
       setListening(false);
     } else {
       setInput("");
-      recognitionRef.current.start();
-      setListening(true);
+      try {
+        recognitionRef.current.start();
+        setListening(true);
+      } catch {
+        setVoiceError(speechRecognitionErrorMessage("generic", lang));
+      }
     }
   };
 
-  const speak = (text: string, index: number) => {
+  const speak = async (text: string, index: number) => {
     if (!("speechSynthesis" in window)) return;
     window.speechSynthesis.cancel(); // stop any ongoing speech first
     if (speakingIndex === index) {
       setSpeakingIndex(null);
       return;
     }
+    const langCode = speechLangCode(lang);
+    const voices = await waitForVoices();
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = lang === "hi" ? "hi-IN" : "en-IN";
+    utterance.lang = langCode;
+    utterance.voice = pickVoice(voices, langCode) ?? null;
     utterance.onend = () => setSpeakingIndex(null);
     utterance.onerror = () => setSpeakingIndex(null);
     setSpeakingIndex(index);
@@ -485,6 +504,9 @@ export default function ChatWidget({
         ))}
         {loading && <div className="text-xs text-indigo-900/50 dark:text-white/40">{t("chat.thinking")}</div>}
         {error && <div className="text-xs text-red-600" role="alert">{error}</div>}
+        {voiceError && (
+          <div className="text-xs text-red-600" role="alert">{voiceError}</div>
+        )}
         {listening && <div className="text-xs text-marigold font-medium">🎙 {t("chat.listening")}</div>}
         <div ref={bottomRef} />
       </div>

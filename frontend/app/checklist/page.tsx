@@ -46,13 +46,13 @@ export default function ChecklistPage() {
   return (
     <div className="max-w-4xl mx-auto px-5 md:px-8 py-14">
       <h1 className="font-display text-3xl font-semibold">Document Checklist Generator</h1>
-      <p className="text-indigo-900/60 dark:text-white/50 mt-2">
+      <p className="text-maroon-dark/60 mt-2">
         Select a service to get exactly which documents and steps you need.
       </p>
 
       <div className="mt-8 flex flex-col md:flex-row gap-3">
         <select
-          className="flex-1 border border-indigo-100 dark:border-white/10 rounded-lg px-4 py-3 text-sm bg-transparent"
+          className="flex-1 border border-blush/60 rounded-lg px-4 py-3 text-sm bg-transparent"
           value={service}
           onChange={(e) => setService(e.target.value)}
         >
@@ -63,7 +63,7 @@ export default function ChecklistPage() {
         <button
           onClick={generate}
           disabled={loading}
-          className="bg-indigo text-white rounded-lg px-6 py-3 font-medium hover:bg-indigo-600 transition-colors flex items-center justify-center gap-2 disabled:opacity-60"
+          className="bg-maroon text-white rounded-lg px-6 py-3 font-medium hover:bg-maroon-dark transition-colors flex items-center justify-center gap-2 disabled:opacity-60"
         >
           {loading ? <Loader2 size={16} className="animate-spin" /> : <FileCheck size={16} />}
           Generate checklist
@@ -71,25 +71,25 @@ export default function ChecklistPage() {
       </div>
 
       {result && (
-        <div className="mt-10 rounded-card p-6 bg-white/80 dark:bg-white/5 border border-indigo-50 dark:border-white/10 shadow-card">
+        <div className="mt-10 rounded-card p-6 bg-white/80 border border-blush/40 shadow-card">
           <div className="flex items-center justify-between">
             <h2 className="font-display text-xl font-semibold">
               {SERVICES.find((s) => s.key === service)?.label}
             </h2>
             <button
               onClick={downloadPdf}
-              className="text-sm flex items-center gap-1.5 text-marigold font-medium hover:underline"
+              className="text-sm flex items-center gap-1.5 text-rose font-medium hover:underline"
             >
               <Download size={14} /> Download PDF
             </button>
           </div>
-          <p className="text-xs text-indigo-900/50 dark:text-white/40 mt-1">
+          <p className="text-xs text-maroon-dark/50 mt-1">
             Estimated processing time: {result.estimated_time}
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mt-6">
             <div>
-              <h3 className="text-sm font-semibold uppercase tracking-wide text-teal">Required documents</h3>
+              <h3 className="text-sm font-semibold uppercase tracking-wide text-rose">Required documents</h3>
               <ul className="mt-3 space-y-2 text-sm">
                 {result.documents.map((d) => (
                   <li key={d} className="flex items-start gap-2">
@@ -100,7 +100,7 @@ export default function ChecklistPage() {
               </ul>
             </div>
             <div>
-              <h3 className="text-sm font-semibold uppercase tracking-wide text-marigold">Application steps</h3>
+              <h3 className="text-sm font-semibold uppercase tracking-wide text-rose">Application steps</h3>
               <ol className="mt-3 space-y-2 text-sm list-decimal list-inside">
                 {result.steps.map((s) => (
                   <li key={s}>{s}</li>
@@ -109,7 +109,7 @@ export default function ChecklistPage() {
             </div>
           </div>
 
-          <p className="text-xs text-indigo-900/50 dark:text-white/40 mt-6 border-t border-indigo-50 dark:border-white/10 pt-4">
+          <p className="text-xs text-maroon-dark/50 mt-6 border-t border-blush/40 pt-4">
             {result.notes}
           </p>
         </div>

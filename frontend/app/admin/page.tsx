@@ -26,12 +26,12 @@ export default function AdminPage() {
   return (
     <div className="max-w-7xl mx-auto px-5 md:px-8 py-14">
       <h1 className="font-display text-3xl font-semibold">Admin Dashboard</h1>
-      <p className="text-indigo-900/60 dark:text-white/50 mt-2">
+      <p className="text-maroon-dark/60 mt-2">
         Monitor AI usage, response quality, and knowledge gaps.
       </p>
 
       {error && (
-        <div className="mt-6 rounded-card p-4 bg-marigold-50 dark:bg-white/5 border border-marigold/30 text-sm">
+        <div className="mt-6 rounded-card p-4 bg-gold/30 border border-rose/30 text-sm">
           {error}
         </div>
       )}
@@ -46,23 +46,23 @@ export default function AdminPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 mt-10">
-            <div className="rounded-card p-6 bg-white/80 dark:bg-white/5 border border-indigo-50 dark:border-white/10 shadow-card">
+            <div className="rounded-card p-6 bg-white/80 border border-blush/40 shadow-card">
               <h3 className="font-display font-semibold flex items-center gap-2">
                 <FileStack size={16} /> Knowledge base
               </h3>
-              <p className="text-sm mt-2 text-indigo-900/60 dark:text-white/50">
+              <p className="text-sm mt-2 text-maroon-dark/60">
                 {summary.total_schemes} schemes · {summary.total_documents} uploaded documents indexed
               </p>
             </div>
 
-            <div className="rounded-card p-6 bg-white/80 dark:bg-white/5 border border-indigo-50 dark:border-white/10 shadow-card">
+            <div className="rounded-card p-6 bg-white/80 border border-blush/40 shadow-card">
               <h3 className="font-display font-semibold">Most asked questions</h3>
               <ol className="mt-3 space-y-1.5 text-sm list-decimal list-inside">
                 {summary.top_questions.slice(0, 6).map((q, i) => (
-                  <li key={i}>{q.question} <span className="text-indigo-900/40 dark:text-white/30">({q.count})</span></li>
+                  <li key={i}>{q.question} <span className="text-maroon-dark/40">({q.count})</span></li>
                 ))}
                 {summary.top_questions.length === 0 && (
-                  <p className="text-indigo-900/50 dark:text-white/40">No queries logged yet.</p>
+                  <p className="text-maroon-dark/50">No queries logged yet.</p>
                 )}
               </ol>
             </div>
@@ -75,10 +75,10 @@ export default function AdminPage() {
 
 function Stat({ icon: Icon, label, value }: { icon: React.ElementType; label: string; value: string | number }) {
   return (
-    <div className="rounded-card p-5 bg-white/80 dark:bg-white/5 border border-indigo-50 dark:border-white/10 shadow-card">
-      <Icon size={18} className="text-marigold" />
+    <div className="rounded-card p-5 bg-white/80 border border-blush/40 shadow-card">
+      <Icon size={18} className="text-rose" />
       <p className="text-2xl font-display font-semibold mt-2">{value}</p>
-      <p className="text-xs text-indigo-900/50 dark:text-white/40">{label}</p>
+      <p className="text-xs text-maroon-dark/50">{label}</p>
     </div>
   );
 }
