@@ -188,11 +188,43 @@ class DocumentRouter:
             self.force_processor is not None,
         )
 
+        # -----------------------------------------------------------
+        # Processing, with automatic Sarvam -> pymupdf fallback.
+        #
+        # Sarvam calls can fail transiently or terminally (429 rate
+        # limit / no credits, 500, 503, timeouts, network errors,
+        # etc). Rather than failing the whole document in that case,
+        # retry the same PDF locally with PyMuPDF so ingestion keeps
+        # moving. If the pymupdf retry also fails, or the fallback is
+        # disabled, the document is marked as failed as before.
+        # -----------------------------------------------------------
+
         try:
 
             if processor == "sarvam":
 
-                document = self.sarvam_processor.process_pdf(pdf_path)
+                try:
+
+                    document = self.sarvam_processor.process_pdf(pdf_path)
+
+                except Exception as sarvam_error:
+
+                    if not self.fallback_to_pymupdf:
+
+                        raise
+
+                    logger.warning(
+                        "Sarvam processing failed for %s (%s); "
+                        "falling back to pymupdf (quality may suffer "
+                        "on scanned/graphic-heavy pages).",
+                        pdf_path.name, sarvam_error,
+                    )
+
+                    processor = "pymupdf"
+
+                    document = self._process_with_pymupdf(
+                        pdf_path, analysis
+                    )
 
             else:
 
@@ -251,11 +283,37 @@ class DocumentRouter:
 
         for pdf_path in pdf_files:
 
+            out_file = output_dir / f"{pdf_path.stem}.json"
+
+            # Skip files that were already processed successfully in a
+            # previous run, so re-running process_directory() doesn't
+            # redo work (and doesn't re-burn Sarvam credits).
+            if out_file.exists():
+
+                logger.info(
+                    "Skipping already processed: %s", pdf_path.name
+                )
+
+                results.append(
+                    RouteResult(
+                        document_id=pdf_path.stem,
+                        source_file=str(pdf_path.resolve()),
+                        processor_used="skipped",
+                        recommended_processor="already_processed",
+                        confidence=1.0,
+                        status="success",
+                        error=None,
+                        output_path=str(out_file),
+                        analysis=None,
+                        processing_time_seconds=0.0,
+                    )
+                )
+
+                continue
+
             route_result, document = self.process_pdf(pdf_path)
 
             if document is not None:
-
-                out_file = output_dir / f"{pdf_path.stem}.json"
 
                 with open(out_file, "w", encoding="utf-8") as f:
 
