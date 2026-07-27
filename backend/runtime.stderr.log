@@ -1,0 +1,49 @@
+INFO:     Started server process [22832]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-07-27 10:48:48,019 | INFO | Initializing multilingual embedding service
+2026-07-27 10:48:48,019 | INFO | Embedding model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-07-27 10:48:48,020 | INFO | Loading embedding model...
+2026-07-27 10:48:48,023 | INFO | Use pytorch device_name: cpu
+2026-07-27 10:48:48,023 | INFO | Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-07-27 10:48:52,905 | INFO | Embedding model loaded successfully
+2026-07-27 10:48:52,907 | INFO | Embedding dimension: 384
+2026-07-27 10:48:52,907 | INFO | Device: cpu
+2026-07-27 10:48:52,908 | INFO | Initializing ChromaDB
+2026-07-27 10:48:52,909 | INFO | Database directory: D:\Desktop\Major_Project\PDS_SW\JanMitra---AI\backend\data\vector_db\chroma
+2026-07-27 10:48:52,909 | INFO | Collection: pds_welfare_knowledge
+2026-07-27 10:48:52,985 | INFO | Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-07-27 10:48:53,226 | INFO | ChromaDB initialized successfully
+2026-07-27 10:48:53,243 | INFO | Existing records: 1212
+2026-07-27 10:48:53,243 | INFO | Initializing MultilingualRetriever
+2026-07-27 10:48:53,244 | INFO | MultilingualRetriever initialized
+2026-07-27 10:48:53,244 | INFO | Default top_k: 4
+2026-07-27 10:48:53,244 | INFO | Minimum similarity: 0.2000
+2026-07-27 10:48:53,245 | INFO | Vector store records: 1212
+2026-07-27 10:48:53,245 | INFO | Initializing JanMitra RAG pipeline...
+2026-07-27 10:48:53,245 | INFO | QueryProcessor initialized
+2026-07-27 10:48:53,245 | INFO | QueryProcessor initialized.
+2026-07-27 10:48:53,246 | INFO | Retriever initialized.
+2026-07-27 10:48:53,246 | INFO | ContextBuilder initialized | max_characters=16000 | max_chunks=4
+2026-07-27 10:48:53,246 | INFO | ContextBuilder initialized.
+2026-07-27 10:48:53,247 | INFO | PromptBuilder initialized | assistant=JanMitra
+2026-07-27 10:48:53,247 | INFO | PromptBuilder initialized.
+2026-07-27 10:48:53,471 | INFO | Groq LLMClient initialized | model=llama-3.3-70b-versatile | temperature=0.1 | max_tokens=500
+2026-07-27 10:48:53,472 | INFO | LLMClient initialized.
+2026-07-27 10:48:53,472 | INFO | JanMitra RAG pipeline initialized successfully.
+2026-07-27 10:48:53,472 | INFO | Starting RAG query.
+2026-07-27 10:48:53,473 | INFO | Query processed | language=english | type=scheme_information
+2026-07-27 10:48:53,474 | INFO | Retrieving documents for query: Explain One Nation One Ration Card portability and cite the source.
+2026-07-27 10:48:53,474 | INFO | Generating query embedding
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|##########| 1/1 [00:00<00:00, 15.87it/s]
+2026-07-27 10:48:53,731 | INFO | Raw retrieval results: 12
+2026-07-27 10:48:53,731 | INFO | Final retrieval results: 4
+2026-07-27 10:48:53,731 | INFO | Retrieval complete | chunks=4
+2026-07-27 10:48:53,732 | INFO | Context built successfully | chunks=1 | characters=115 | truncated=False
+2026-07-27 10:48:53,732 | INFO | Context built | chunks=1 | characters=115
+2026-07-27 10:48:53,733 | INFO | LLM prompt built successfully.
+2026-07-27 10:48:53,733 | INFO | Sending generation request to Groq | model=llama-3.3-70b-versatile | temperature=0.1 | max_tokens=1000
+2026-07-27 10:48:54,862 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-27 10:48:54,865 | INFO | Groq response generated successfully.
+2026-07-27 10:48:54,866 | INFO | RAG query completed | retrieved=4 | context=1 | time=1.3940s

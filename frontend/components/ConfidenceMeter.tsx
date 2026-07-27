@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 
 /**
  * Visual confidence indicator used everywhere the AI gives an answer.

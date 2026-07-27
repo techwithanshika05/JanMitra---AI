@@ -1,0 +1,13 @@
+INFO:     127.0.0.1:61064 - "POST /api/chat/sessions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:61064 - "POST /api/chat/sessions/f58f7525-68d7-4ef6-97dc-bdce771ee5b8/messages HTTP/1.1" 201 Created
+INFO:     127.0.0.1:61064 - "POST /api/chat/messages/0b13185b-9662-4f3d-84d1-7e911e96fdf0/feedback HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61064 - "GET /api/chat/messages/0b13185b-9662-4f3d-84d1-7e911e96fdf0/feedback HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61064 - "DELETE /api/chat/sessions/f58f7525-68d7-4ef6-97dc-bdce771ee5b8 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:61063 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52937 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55926 - "POST /api/chat/sessions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55926 - "POST /api/chat/sessions/05732bde-59eb-4c76-ac18-078fe54d9878/messages HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55926 - "POST /api/chat/sessions/05732bde-59eb-4c76-ac18-078fe54d9878/messages HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55926 - "GET /api/chat/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55926 - "GET /api/chat/sessions/05732bde-59eb-4c76-ac18-078fe54d9878 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55926 - "DELETE /api/chat/sessions/05732bde-59eb-4c76-ac18-078fe54d9878 HTTP/1.1" 204 No Content

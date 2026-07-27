@@ -1,3 +1,9 @@
+import type {
+  ChatFeedback,
+  ChatMessage,
+  ChatSession,
+} from "@/lib/chatTypes";
+
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 function authHeaders(): Record<string, string> {
@@ -9,6 +15,7 @@ function authHeaders(): Record<string, string> {
 async function request(path: string, options: RequestInit = {}) {
   const res = await fetch(`${API_URL}${path}`, {
     ...options,
+    credentials: "include",
     headers: {
       "Content-Type": "application/json",
       ...authHeaders(),
@@ -47,6 +54,62 @@ export const api = {
     request("/auth/register", { method: "POST", body: JSON.stringify(payload) }),
 
   adminSummary: () => request("/admin/summary"),
+
+  listChatSessions: (): Promise<ChatSession[]> =>
+    request("/api/chat/sessions"),
+
+  createChatSession: (payload: { title?: string | null }): Promise<ChatSession> =>
+    request("/api/chat/sessions", {
+      method: "POST",
+      body: JSON.stringify(payload),
+    }),
+
+  getChatSession: (
+    sessionId: string,
+  ): Promise<ChatSession & { messages: ChatMessage[] }> =>
+    request(`/api/chat/sessions/${sessionId}`),
+
+  renameChatSession: (sessionId: string, title: string): Promise<ChatSession> =>
+    request(`/api/chat/sessions/${sessionId}`, {
+      method: "PATCH",
+      body: JSON.stringify({ title }),
+    }),
+
+  deleteChatSession: (sessionId: string): Promise<void> =>
+    request(`/api/chat/sessions/${sessionId}`, { method: "DELETE" }),
+
+  sendChatMessage: (
+    sessionId: string,
+    payload: { message: string; language: string; client_message_id: string },
+  ): Promise<{
+    user_message: ChatMessage;
+    assistant_message: ChatMessage;
+    answer: string;
+    confidence: number;
+    sources: ChatMessage["sources"];
+    disclaimer: string;
+    is_grounded: boolean;
+  }> =>
+    request(`/api/chat/sessions/${sessionId}/messages`, {
+      method: "POST",
+      body: JSON.stringify(payload),
+    }),
+
+  getFeedback: (messageId: string): Promise<ChatFeedback> =>
+    request(`/api/chat/messages/${messageId}/feedback`),
+
+  saveFeedback: (
+    messageId: string,
+    payload: {
+      reaction: "like" | "dislike" | "neutral";
+      rating: number | null;
+      feedback_text: string | null;
+    },
+  ): Promise<ChatFeedback> =>
+    request(`/api/chat/messages/${messageId}/feedback`, {
+      method: "POST",
+      body: JSON.stringify(payload),
+    }),
 };
 
 export { API_URL };
