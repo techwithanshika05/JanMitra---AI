@@ -1,8 +1,10 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Request, Response
 from sqlalchemy.orm import Session
 
 from app.database import get_db
 from app import models, schemas
+from app.chat_identity import resolve_identity
+from app.identity_tracking.service import track_feature_activity
 
 router = APIRouter(prefix="/grievance", tags=["grievance"])
 
@@ -15,7 +17,13 @@ DEPARTMENT_MAP = {
 
 
 @router.post("/guide", response_model=schemas.GrievanceResponse)
-def guide_grievance(payload: schemas.GrievanceRequest, db: Session = Depends(get_db)):
+def guide_grievance(
+    payload: schemas.GrievanceRequest,
+    request: Request,
+    response: Response,
+    db: Session = Depends(get_db),
+):
+    identity = resolve_identity(request, response, db)
     department = DEPARTMENT_MAP.get(payload.category, DEPARTMENT_MAP["other"])
 
     steps = [
@@ -33,6 +41,13 @@ def guide_grievance(payload: schemas.GrievanceRequest, db: Session = Depends(get
     ]
 
     db.add(models.AnalyticsEvent(event_type="grievance_started", payload={"category": payload.category}))
+    track_feature_activity(
+        db,
+        identity,
+        feature="grievance",
+        action_type="guide_generated",
+        metadata={"category": payload.category},
+    )
     db.commit()
 
     return schemas.GrievanceResponse(

@@ -1,14 +1,19 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Request, Response
 from sqlalchemy.orm import Session
 
 from app.database import get_db
 from app import models, schemas
+from app.chat_identity import resolve_identity
+from app.identity_tracking.service import track_scheme_activity
 
 router = APIRouter(prefix="/schemes", tags=["schemes"])
 
 
 @router.get("", response_model=list[schemas.SchemeOut])
-def list_schemes(db: Session = Depends(get_db)):
+def list_schemes(
+    request: Request, response: Response, db: Session = Depends(get_db)
+):
+    resolve_identity(request, response, db)
     return db.query(models.Scheme).all()
 
 
@@ -57,7 +62,13 @@ def _matches(scheme: models.Scheme, f: schemas.SchemeFinderRequest) -> tuple[boo
 
 
 @router.post("/find", response_model=list[schemas.SchemeOut])
-def find_schemes(payload: schemas.SchemeFinderRequest, db: Session = Depends(get_db)):
+def find_schemes(
+    payload: schemas.SchemeFinderRequest,
+    request: Request,
+    response: Response,
+    db: Session = Depends(get_db),
+):
+    identity = resolve_identity(request, response, db)
     all_schemes = db.query(models.Scheme).all()
     matched = []
     for s in all_schemes:
@@ -66,6 +77,14 @@ def find_schemes(payload: schemas.SchemeFinderRequest, db: Session = Depends(get
             out = schemas.SchemeOut.model_validate(s)
             out.match_reason = "; ".join(reasons) if reasons else "General eligibility criteria satisfied"
             matched.append(out)
+            track_scheme_activity(
+                db,
+                identity,
+                scheme_id=s.id,
+                action_type="recommended",
+                result_position=len(matched),
+                metadata={"filters": payload.model_dump(exclude_none=True)},
+            )
 
     db.add(models.AnalyticsEvent(event_type="scheme_search", payload=payload.model_dump()))
     db.commit()
@@ -73,5 +92,17 @@ def find_schemes(payload: schemas.SchemeFinderRequest, db: Session = Depends(get
 
 
 @router.get("/{scheme_id}", response_model=schemas.SchemeOut)
-def get_scheme(scheme_id: int, db: Session = Depends(get_db)):
-    return db.query(models.Scheme).filter(models.Scheme.id == scheme_id).first()
+def get_scheme(
+    scheme_id: int,
+    request: Request,
+    response: Response,
+    db: Session = Depends(get_db),
+):
+    identity = resolve_identity(request, response, db)
+    scheme = db.query(models.Scheme).filter(models.Scheme.id == scheme_id).first()
+    if scheme is not None:
+        track_scheme_activity(
+            db, identity, scheme_id=scheme_id, action_type="viewed"
+        )
+        db.commit()
+    return scheme

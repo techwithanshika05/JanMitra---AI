@@ -1,5 +1,5 @@
 import io
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Request, Response
 from fastapi.responses import StreamingResponse
 from sqlalchemy.orm import Session
 from reportlab.lib.pagesizes import A4
@@ -7,6 +7,8 @@ from reportlab.pdfgen import canvas
 
 from app.database import get_db
 from app import models, schemas
+from app.chat_identity import resolve_identity
+from app.identity_tracking.service import track_feature_activity
 
 router = APIRouter(prefix="/checklist", tags=["checklist"])
 
@@ -72,7 +74,13 @@ CHECKLIST_LIBRARY = {
 
 
 @router.post("/generate", response_model=schemas.ChecklistResponse)
-def generate_checklist(payload: schemas.ChecklistRequest, db: Session = Depends(get_db)):
+def generate_checklist(
+    payload: schemas.ChecklistRequest,
+    request: Request,
+    response: Response,
+    db: Session = Depends(get_db),
+):
+    identity = resolve_identity(request, response, db)
     entry = CHECKLIST_LIBRARY.get(
         payload.service_type,
         {"documents": ["Aadhaar card", "Proof of residence", "Income certificate"],
@@ -80,6 +88,13 @@ def generate_checklist(payload: schemas.ChecklistRequest, db: Session = Depends(
          "estimated_time": "Varies"},
     )
     db.add(models.AnalyticsEvent(event_type="checklist_generated", payload={"service_type": payload.service_type}))
+    track_feature_activity(
+        db,
+        identity,
+        feature="checklist",
+        action_type="generated",
+        reference_id=payload.service_type,
+    )
     db.commit()
 
     return schemas.ChecklistResponse(
@@ -92,7 +107,21 @@ def generate_checklist(payload: schemas.ChecklistRequest, db: Session = Depends(
 
 
 @router.post("/generate/pdf")
-def generate_checklist_pdf(payload: schemas.ChecklistRequest):
+def generate_checklist_pdf(
+    payload: schemas.ChecklistRequest,
+    request: Request,
+    response: Response,
+    db: Session = Depends(get_db),
+):
+    identity = resolve_identity(request, response, db)
+    track_feature_activity(
+        db,
+        identity,
+        feature="checklist",
+        action_type="pdf_generated",
+        reference_id=payload.service_type,
+    )
+    db.commit()
     entry = CHECKLIST_LIBRARY.get(payload.service_type, {"documents": [], "steps": [], "estimated_time": "N/A"})
 
     buffer = io.BytesIO()

@@ -1,20 +1,40 @@
 from datetime import datetime
 from typing import Optional, List, Any
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel, EmailStr, Field, model_validator
 
 
 # ---------- Auth ----------
 class UserCreate(BaseModel):
-    name: str
-    email: EmailStr
+    name: Optional[str] = None
+    full_name: Optional[str] = None
+    email: Optional[EmailStr] = None
+    mobile: Optional[str] = Field(default=None, pattern=r"^\d{10}$")
+    address: Optional[str] = None
+    gender: Optional[str] = None
+    pincode: Optional[str] = Field(default=None, pattern=r"^\d{6}$")
     password: str
     state: Optional[str] = None
     preferred_language: Optional[str] = "en"
 
+    @model_validator(mode="after")
+    def validate_registration_identity(self):
+        if not (self.name or self.full_name):
+            raise ValueError("Name is required")
+        if not (self.email or self.mobile):
+            raise ValueError("Email or mobile number is required")
+        return self
+
 
 class UserLogin(BaseModel):
-    email: EmailStr
+    email: Optional[EmailStr] = None
+    mobile: Optional[str] = Field(default=None, pattern=r"^\d{10}$")
     password: str
+
+    @model_validator(mode="after")
+    def validate_login_identity(self):
+        if not (self.email or self.mobile):
+            raise ValueError("Email or mobile number is required")
+        return self
 
 
 class UserOut(BaseModel):
@@ -24,6 +44,11 @@ class UserOut(BaseModel):
     role: str
     state: Optional[str]
     preferred_language: str
+    mobile: Optional[str] = None
+    address: Optional[str] = None
+    gender: Optional[str] = None
+    pincode: Optional[str] = None
+    public_id: Optional[str] = None
 
     class Config:
         from_attributes = True
@@ -33,6 +58,9 @@ class Token(BaseModel):
     access_token: str
     token_type: str = "bearer"
     user: UserOut
+    authenticated: bool = True
+    guest_data_imported: bool = False
+    migration: dict[str, Any] = Field(default_factory=dict)
 
 
 # ---------- Chat / RAG ----------
@@ -78,6 +106,18 @@ class SchemeOut(BaseModel):
     application_steps: Optional[List[str]]
     official_source: Optional[str]
     match_reason: Optional[str] = None
+
+    class Config:
+        from_attributes = True
+
+
+class FAQOut(BaseModel):
+    id: int
+    question: str
+    answer: str
+    category: Optional[str] = None
+    language: str = "en"
+    source: Optional[str] = None
 
     class Config:
         from_attributes = True

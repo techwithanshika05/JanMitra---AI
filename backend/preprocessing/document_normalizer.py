@@ -5,7 +5,7 @@ Canonical normalized-document schema for the RAG ingestion pipeline,
 plus converters that turn raw output from each processing path
 (Sarvam Document Intelligence ZIPs, local PyMuPDF extraction) into
 that shared schema.
-
+ 
 This schema lives in its own module -- not inside sarvam_processor.py
 or router.py -- so both processing paths (and any future one) produce
 interchangeable output without importing each other.

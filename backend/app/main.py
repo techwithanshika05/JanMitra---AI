@@ -10,6 +10,8 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
 from app.database import Base, engine
+from app.checklists import router as saved_checklists
+from app.identity_tracking import router as identity_tracking
 from app.routers import (
     admin,
     analytics,
@@ -17,6 +19,7 @@ from app.routers import (
     chat,
     chat_history,
     checklist,
+    faqs,
     grievance,
     ration,
     schemes,
@@ -46,12 +49,15 @@ app.include_router(auth.router)
 app.include_router(chat.router)
 app.include_router(schemes.router)
 app.include_router(checklist.router)
+app.include_router(faqs.router)
 app.include_router(ration.router)
 app.include_router(grievance.router)
 app.include_router(upload.router)
 app.include_router(admin.router)
 app.include_router(analytics.router)
 app.include_router(chat_history.router)
+app.include_router(saved_checklists.router)
+app.include_router(identity_tracking.router)
 
 
 @app.get("/")

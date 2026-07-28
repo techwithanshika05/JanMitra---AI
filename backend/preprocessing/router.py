@@ -1,7 +1,7 @@
 """
 router.py
 
-Routes PDFs between two processing paths based on DocumentAnalyzer's
+Routes PDFs between two processing paths based on DocumentAnalyzer's 
 per-page heuristics:
 
     "pymupdf" -> cheap local text extraction (document_analyzer.py's

@@ -52,3 +52,27 @@ These schemes support housing, clean energy, and healthcare."""
     assert len(structured["sections"][0]["points"]) == 3
     assert structured["sections"][0]["points"][0].startswith("**Pradhan Mantri")
     assert structured["summary"].startswith("These schemes support")
+
+
+def test_markdown_headings_become_sections_without_visible_markers_or_truncation():
+    answer = """## Overview of One Nation One Ration Card
+
+ONORC enables nationwide ration-card portability under the NFSA 2013. It helps migrant families access their entitlement away from home.
+
+## Objective and Intended Beneficiaries
+- Supports migrant beneficiaries while preserving access for family members.
+
+## Adding a New Member
+- Follow the process on the relevant state food portal."""
+    response_type, structured = format_if_informational(
+        "Explain ONORC and how to add a member", answer, "en"
+    )
+
+    assert response_type == "faq"
+    assert structured["title"] == "Overview of One Nation One Ration Card"
+    assert structured["summary"].endswith("away from home.")
+    assert [section["heading"] for section in structured["sections"]] == [
+        "Objective and Intended Beneficiaries",
+        "Adding a New Member",
+    ]
+    assert "##" not in str(structured)

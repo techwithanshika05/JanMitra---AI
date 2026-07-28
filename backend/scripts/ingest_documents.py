@@ -2159,7 +2159,7 @@ def ingest(
 
         logger.warning(
             "No files matching %s in %s -- nothing to do.",
-            pattern, input_dir,
+            pattern, input_dir, 
         )
 
         return []
