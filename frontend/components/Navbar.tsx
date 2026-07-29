@@ -5,13 +5,14 @@ import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Menu, X, Landmark, Languages, LogIn, LogOut, ChevronDown,
-  Search, MessageCircleQuestion, ShieldCheck, ShieldAlert,
+  Search, MessageCircleQuestion, ShieldCheck, ShieldAlert, UserRound,
 } from "lucide-react";
 import { useLanguage } from "@/lib/i18n";
 
 const TOP_LINK_KEYS = [
   { href: "/dashboard", key: "nav.dashboard" as const },
   { href: "/checklist", key: "nav.checklist" as const },
+  { href: "/my-checklists", key: "nav.myChecklists" as const },
   { href: "/documents", key: "nav.documents" as const },
   { href: "/faq", key: "nav.faq" as const },
   { href: "/helpline", key: "nav.helpline" as const },
@@ -34,8 +35,16 @@ export default function Navbar() {
   const menuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    setLoggedIn(!!window.localStorage.getItem("janmitra_token"));
+    const syncLoginState = () =>
+      setLoggedIn(!!window.localStorage.getItem("janmitra_token"));
+    syncLoginState();
     setMenuOpen(false);
+    window.addEventListener("storage", syncLoginState);
+    window.addEventListener("janmitra-auth-changed", syncLoginState);
+    return () => {
+      window.removeEventListener("storage", syncLoginState);
+      window.removeEventListener("janmitra-auth-changed", syncLoginState);
+    };
   }, [pathname]);
 
   useEffect(() => {
@@ -48,6 +57,7 @@ export default function Navbar() {
 
   const logout = () => {
     window.localStorage.removeItem("janmitra_token");
+    window.dispatchEvent(new Event("janmitra-auth-changed"));
     setLoggedIn(false);
     setMenuOpen(false);
     router.push("/");
@@ -150,6 +160,21 @@ export default function Navbar() {
             {lang === "en" ? "EN" : lang === "hi" ? "हिं" : "HG"}
           </button>
 
+          {loggedIn && (
+            <Link
+              href="/dashboard"
+              aria-label="Logged-in profile"
+              title="Logged in"
+              className="relative h-10 w-10 shrink-0 rounded-full bg-maroon text-white flex items-center justify-center shadow-sm hover:bg-maroon-dark transition-colors"
+            >
+              <UserRound size={18} />
+              <span
+                className="absolute right-0 bottom-0 h-3 w-3 rounded-full bg-emerald-500 border-2 border-white"
+                aria-hidden="true"
+              />
+            </Link>
+          )}
+
           <button
             className="lg:hidden w-10 h-10 flex items-center justify-center rounded-full hover:bg-blush/40 text-maroon"
             aria-label="Toggle menu"
@@ -183,6 +208,19 @@ export default function Navbar() {
               ))}
             </div>
             <div className="border-t border-blush/50 pt-1">
+              {loggedIn && (
+                <Link
+                  href="/dashboard"
+                  onClick={() => setOpen(false)}
+                  className="px-3 py-2.5 rounded-lg text-maroon-dark hover:bg-blush/40 flex items-center gap-2"
+                >
+                  <span className="relative">
+                    <UserRound size={17} />
+                    <span className="absolute -right-1 -bottom-1 h-2.5 w-2.5 rounded-full bg-emerald-500 border border-white" />
+                  </span>
+                  Logged-in profile
+                </Link>
+              )}
               {loggedIn ? (
                 <button onClick={logout} className="px-3 py-2.5 rounded-lg text-maroon-dark hover:bg-blush/40 w-full text-left">
                   Logout

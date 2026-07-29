@@ -41,6 +41,7 @@ export default function RegisterPage() {
         password: form.password,
       });
       window.localStorage.setItem("janmitra_token", res.access_token);
+      window.dispatchEvent(new Event("janmitra-auth-changed"));
       router.push("/dashboard");
     } catch (e: any) {
       setError(e.message || "Registration failed.");

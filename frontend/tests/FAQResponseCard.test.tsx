@@ -46,4 +46,27 @@ describe("FAQResponseCard", () => {
     expect(container.textContent).not.toContain("Summary");
     expect(container.textContent).not.toContain("**");
   });
+
+  it("removes legacy markdown heading markers from every visible level", () => {
+    const { container } = render(
+      <FAQResponseCard
+        content={{
+          response_type: "faq",
+          title: "## ONORC Overview",
+          summary: "Nationwide ration-card portability.",
+          sections: [{
+            heading: "## Objective",
+            points: ["## Migrant beneficiaries", "**Portable** entitlement"],
+          }],
+          steps: [],
+          note: null,
+        }}
+      />,
+    );
+
+    expect(screen.getByRole("heading", { name: "ONORC Overview" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Objective" })).toBeInTheDocument();
+    expect(container.textContent).not.toContain("##");
+    expect(screen.getByText("Portable").tagName).toBe("STRONG");
+  });
 });

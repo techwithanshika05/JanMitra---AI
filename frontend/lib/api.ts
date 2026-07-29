@@ -26,6 +26,7 @@ async function request(path: string, options: RequestInit = {}) {
     const body = await res.json().catch(() => ({}));
     throw new Error(body.detail || `Request failed: ${res.status}`);
   }
+  if (res.status === 204) return undefined;
   return res.json();
 }
 
@@ -35,6 +36,12 @@ export const api = {
 
   findSchemes: (payload: Record<string, unknown>) =>
     request("/schemes/find", { method: "POST", body: JSON.stringify(payload) }),
+
+  findSchemesHybrid: (payload: Record<string, unknown>) =>
+    request("/schemes/find-hybrid", {
+      method: "POST",
+      body: JSON.stringify(payload),
+    }),
 
   listSchemes: () => request("/schemes"),
 
@@ -145,4 +152,4 @@ export const api = {
     }),
 };
 
-export { API_URL };
+export { API_URL, request };

@@ -1,12 +1,17 @@
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FutureTimeout
+
 from fastapi import APIRouter, Depends, Request, Response
 from sqlalchemy.orm import Session
 
 from app.database import get_db
 from app import models, schemas
 from app.chat_identity import resolve_identity
+from app.config import settings
 from app.identity_tracking.service import track_scheme_activity
+from integration.rag_adapter import rag_adapter
 
 router = APIRouter(prefix="/schemes", tags=["schemes"])
+_rag_executor = ThreadPoolExecutor(max_workers=1, thread_name_prefix="scheme-rag")
 
 
 @router.get("", response_model=list[schemas.SchemeOut])
@@ -61,6 +66,51 @@ def _matches(scheme: models.Scheme, f: schemas.SchemeFinderRequest) -> tuple[boo
     return ok, reasons
 
 
+def _rule_based_matches(
+    db: Session, payload: schemas.SchemeFinderRequest
+) -> list[tuple[models.Scheme, schemas.SchemeOut]]:
+    matched = []
+    for scheme in db.query(models.Scheme).all():
+        ok, reasons = _matches(scheme, payload)
+        if ok:
+            out = schemas.SchemeOut.model_validate(scheme)
+            out.match_reason = (
+                "; ".join(reasons)
+                if reasons
+                else "General eligibility criteria satisfied"
+            )
+            matched.append((scheme, out))
+    return matched
+
+
+def _rag_query(payload: schemas.SchemeFinderRequest) -> str:
+    filters = payload.model_dump(exclude_none=True)
+    details = ", ".join(
+        f"{key.replace('_', ' ')}: {value}"
+        for key, value in filters.items()
+        if value not in ("", False)
+    )
+
+
+def _rag_answer_with_timeout(payload: schemas.SchemeFinderRequest) -> dict:
+    future = _rag_executor.submit(rag_adapter.answer, _rag_query(payload), "en")
+    try:
+        return future.result(timeout=settings.RAG_REQUEST_TIMEOUT_SECONDS)
+    except FutureTimeout:
+        future.cancel()
+        return {
+            "answer": "",
+            "confidence": 0.0,
+            "is_grounded": False,
+            "sources": [],
+        }
+    return (
+        "Find a government welfare scheme matching this citizen profile. "
+        f"{details or 'No profile filters supplied.'} "
+        "Only use verified government scheme documents and cite the source."
+    )
+
+
 @router.post("/find", response_model=list[schemas.SchemeOut])
 def find_schemes(
     payload: schemas.SchemeFinderRequest,
@@ -69,26 +119,98 @@ def find_schemes(
     db: Session = Depends(get_db),
 ):
     identity = resolve_identity(request, response, db)
-    all_schemes = db.query(models.Scheme).all()
-    matched = []
-    for s in all_schemes:
-        ok, reasons = _matches(s, payload)
-        if ok:
-            out = schemas.SchemeOut.model_validate(s)
-            out.match_reason = "; ".join(reasons) if reasons else "General eligibility criteria satisfied"
-            matched.append(out)
-            track_scheme_activity(
-                db,
-                identity,
-                scheme_id=s.id,
-                action_type="recommended",
-                result_position=len(matched),
-                metadata={"filters": payload.model_dump(exclude_none=True)},
-            )
+    matched_rows = _rule_based_matches(db, payload)
+    for position, (scheme, _) in enumerate(matched_rows, start=1):
+        track_scheme_activity(
+            db,
+            identity,
+            scheme_id=scheme.id,
+            action_type="recommended",
+            result_position=position,
+            metadata={"filters": payload.model_dump(exclude_none=True)},
+        )
 
     db.add(models.AnalyticsEvent(event_type="scheme_search", payload=payload.model_dump()))
     db.commit()
-    return matched
+    return [out for _, out in matched_rows]
+
+
+@router.post("/find-hybrid", response_model=schemas.HybridSchemeFinderResponse)
+def find_schemes_hybrid(
+    payload: schemas.SchemeFinderRequest,
+    request: Request,
+    response: Response,
+    db: Session = Depends(get_db),
+):
+    """Use deterministic eligibility rules first, then grounded RAG fallback."""
+    identity = resolve_identity(request, response, db)
+    matched_rows = _rule_based_matches(db, payload)
+    if matched_rows:
+        for position, (scheme, _) in enumerate(matched_rows, start=1):
+            track_scheme_activity(
+                db,
+                identity,
+                scheme_id=scheme.id,
+                action_type="recommended",
+                result_position=position,
+                metadata={
+                    "filters": payload.model_dump(exclude_none=True),
+                    "result_source": "database",
+                },
+            )
+        db.add(
+            models.AnalyticsEvent(
+                event_type="scheme_search",
+                payload={
+                    **payload.model_dump(),
+                    "result_source": "database",
+                    "result_count": len(matched_rows),
+                },
+            )
+        )
+        db.commit()
+        return schemas.HybridSchemeFinderResponse(
+            schemes=[out for _, out in matched_rows],
+            result_source="database",
+        )
+
+    rag_result = _rag_answer_with_timeout(payload)
+    grounded = bool(
+        rag_result.get("is_grounded")
+        and rag_result.get("sources")
+        and float(rag_result.get("confidence") or 0.0)
+        >= settings.MIN_CONFIDENCE_TO_ANSWER
+    )
+    result_source = "rag" if grounded else "none"
+    db.add(
+        models.AnalyticsEvent(
+            event_type="scheme_search",
+            payload={
+                **payload.model_dump(),
+                "result_source": result_source,
+                "result_count": 0,
+            },
+        )
+    )
+    db.commit()
+    if grounded:
+        return schemas.HybridSchemeFinderResponse(
+            schemes=[],
+            result_source="rag",
+            rag_result=schemas.SchemeRAGResult(
+                answer=rag_result["answer"],
+                confidence=rag_result["confidence"],
+                sources=rag_result["sources"],
+            ),
+        )
+    return schemas.HybridSchemeFinderResponse(
+        schemes=[],
+        result_source="none",
+        alert=(
+            "We could not find a verified matching scheme in the scheme database "
+            "or official RAG sources. Please widen your criteria or try again later."
+        ),
+    )
 
 
 @router.get("/{scheme_id}", response_model=schemas.SchemeOut)

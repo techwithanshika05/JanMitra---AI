@@ -111,6 +111,19 @@ class SchemeOut(BaseModel):
         from_attributes = True
 
 
+class SchemeRAGResult(BaseModel):
+    answer: str
+    confidence: float
+    sources: List[SourceRef]
+
+
+class HybridSchemeFinderResponse(BaseModel):
+    schemes: List[SchemeOut]
+    result_source: str  # database | rag | none
+    rag_result: Optional[SchemeRAGResult] = None
+    alert: Optional[str] = None
+
+
 class FAQOut(BaseModel):
     id: int
     question: str

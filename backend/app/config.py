@@ -52,6 +52,9 @@ class Settings:
     MIN_CONFIDENCE_TO_ANSWER: float = float(
         os.getenv("MIN_CONFIDENCE_TO_ANSWER", "0.35")
     )
+    RAG_REQUEST_TIMEOUT_SECONDS: float = float(
+        os.getenv("RAG_REQUEST_TIMEOUT_SECONDS", "12")
+    )
 
     # --- CORS ---
     ALLOWED_ORIGINS: list = [

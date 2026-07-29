@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import { api } from "@/lib/api";
 import { Users, MessageSquare, Gauge, AlertOctagon, FileStack } from "lucide-react";
+import type { ChecklistAnalytics } from "@/lib/checklists/types";
+import { checklistsApi } from "@/lib/checklists/api";
 
 type Summary = {
   total_users: number;
@@ -16,11 +18,15 @@ type Summary = {
 export default function AdminPage() {
   const [summary, setSummary] = useState<Summary | null>(null);
   const [error, setError] = useState("");
+  const [checklistAnalytics, setChecklistAnalytics] = useState<ChecklistAnalytics | null>(null);
 
   useEffect(() => {
-    api.adminSummary().then(setSummary).catch(() =>
-      setError("Log in as an admin to view analytics (admin@janmitra.gov.in / Admin@123 by default).")
-    );
+    api.adminSummary()
+      .then(setSummary)
+      .catch(() =>
+        setError("Log in as an admin to view analytics (admin@janmitra.gov.in / Admin@123 by default).")
+      );
+    checklistsApi.analytics().then(setChecklistAnalytics).catch(() => undefined);
   }, []);
 
   return (
@@ -67,6 +73,44 @@ export default function AdminPage() {
               </ol>
             </div>
           </div>
+
+          {checklistAnalytics && (
+            <section className="mt-10">
+              <h2 className="font-display text-xl font-semibold">Saved checklist analytics</h2>
+              <p className="mt-1 text-xs text-maroon-dark/50">
+                Aggregate statistics only · active storage: {checklistAnalytics.active_storage_mode}
+              </p>
+              <div className="mt-5 grid gap-4 md:grid-cols-4">
+                <Stat icon={FileStack} label="Saved checklists" value={checklistAnalytics.total_checklists} />
+                <Stat icon={Gauge} label="Completion rate" value={`${Math.round(checklistAnalytics.completion_rate * 100)}%`} />
+                <Stat icon={AlertOctagon} label="Abandonment rate" value={`${Math.round(checklistAnalytics.abandonment_rate * 100)}%`} />
+                <Stat icon={AlertOctagon} label="Outdated checklists" value={checklistAnalytics.outdated_count} />
+              </div>
+              <div className="mt-6 grid gap-6 md:grid-cols-2">
+                <div className="rounded-card border border-blush/40 bg-white/80 p-6 shadow-card">
+                  <h3 className="font-display font-semibold">Most saved checklists</h3>
+                  <ol className="mt-3 list-decimal space-y-1.5 pl-5 text-sm">
+                    {checklistAnalytics.most_saved_checklists.map((item) => (
+                      <li key={item.service_id}>{item.service_name} ({item.count})</li>
+                    ))}
+                  </ol>
+                </div>
+                <div className="rounded-card border border-blush/40 bg-white/80 p-6 shadow-card">
+                  <h3 className="font-display font-semibold">Frequently incomplete steps</h3>
+                  <ol className="mt-3 list-decimal space-y-1.5 pl-5 text-sm">
+                    {checklistAnalytics.frequently_incomplete_steps.map((item) => (
+                      <li key={item.title}>{item.title} ({item.count})</li>
+                    ))}
+                  </ol>
+                  <p className="mt-4 text-xs text-maroon-dark/50">
+                    Average completion time: {checklistAnalytics.average_completion_hours} hours ·
+                    PostgreSQL: {checklistAnalytics.storage_usage.postgresql} ·
+                    SQLite fallback: {checklistAnalytics.storage_usage.sqlite}
+                  </p>
+                </div>
+              </div>
+            </section>
+          )}
         </>
       )}
     </div>

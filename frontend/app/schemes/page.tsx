@@ -4,31 +4,56 @@ import { api } from "@/lib/api";
 import SchemeCard, { Scheme } from "@/components/SchemeCard";
 import { Loader2 } from "lucide-react";
 
+type RAGResult = {
+  answer: string;
+  confidence: number;
+  sources: { title: string; snippet: string; score: number }[];
+};
+
 export default function SchemesPage() {
   const [form, setForm] = useState({
     state: "", age: "", gender: "", income: "", occupation: "", category: "", disability: false,
   });
   const [results, setResults] = useState<Scheme[] | null>(null);
+  const [ragResult, setRagResult] = useState<RAGResult | null>(null);
+  const [alert, setAlert] = useState("");
   const [loading, setLoading] = useState(false);
 
   const update = (k: string, v: string | boolean) => setForm((f) => ({ ...f, [k]: v }));
 
   const search = async () => {
     setLoading(true);
+    setRagResult(null);
+    setAlert("");
+    const payload = {
+      state: form.state || undefined,
+      age: form.age ? Number(form.age) : undefined,
+      gender: form.gender || undefined,
+      income: form.income ? Number(form.income) : undefined,
+      occupation: form.occupation || undefined,
+      category: form.category || undefined,
+      disability: form.disability,
+    };
     try {
-      const payload = {
-        state: form.state || undefined,
-        age: form.age ? Number(form.age) : undefined,
-        gender: form.gender || undefined,
-        income: form.income ? Number(form.income) : undefined,
-        occupation: form.occupation || undefined,
-        category: form.category || undefined,
-        disability: form.disability,
-      };
-      const res = await api.findSchemes(payload);
-      setResults(res);
+      const res = await api.findSchemesHybrid(payload);
+      setResults(res.schemes);
+      setRagResult(res.rag_result || null);
+      setAlert(res.alert || "");
     } catch {
-      setResults([]);
+      try {
+        // Keep database matching available during a stale restart or temporary
+        // hybrid/RAG route failure.
+        const fallback = await api.findSchemes(payload);
+        setResults(fallback);
+        if (fallback.length === 0) {
+          setAlert(
+            "No matching scheme was found in the database, and verified RAG search is temporarily unavailable. Please widen your criteria or try again shortly."
+          );
+        }
+      } catch {
+        setResults([]);
+        setAlert("Scheme search is temporarily unavailable. Please try again shortly.");
+      }
     } finally {
       setLoading(false);
     }
@@ -107,9 +132,28 @@ export default function SchemesPage() {
             ))}
           </div>
           {results.length === 0 && (
-            <p className="text-sm text-maroon-dark/60">
-              No exact matches found. Try widening your criteria, or ask JanMitra AI directly in the chat.
-            </p>
+            <>
+              {ragResult && (
+                <div className="rounded-card border border-blush/50 bg-white/80 p-5 shadow-card">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-rose">
+                    Verified RAG result
+                  </p>
+                  <p className="mt-2 whitespace-pre-line text-sm text-maroon-dark/80">
+                    {ragResult.answer}
+                  </p>
+                  {ragResult.sources.length > 0 && (
+                    <p className="mt-3 text-xs text-maroon-dark/50">
+                      Sources: {ragResult.sources.map((source) => source.title).join(", ")}
+                    </p>
+                  )}
+                </div>
+              )}
+              {alert && (
+                <p className="rounded-lg border border-rose/20 bg-gold/30 p-4 text-sm text-maroon-dark/70">
+                  {alert}
+                </p>
+              )}
+            </>
           )}
         </div>
       )}

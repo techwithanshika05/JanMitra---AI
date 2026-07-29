@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { api, API_URL } from "@/lib/api";
 import { Download, Loader2, FileCheck } from "lucide-react";
+import SaveChecklistButton from "@/components/checklists/SaveChecklistButton";
 
 const SERVICES = [
   { key: "new_ration_card", label: "New Ration Card" },
@@ -76,12 +77,18 @@ export default function ChecklistPage() {
             <h2 className="font-display text-xl font-semibold">
               {SERVICES.find((s) => s.key === service)?.label}
             </h2>
-            <button
-              onClick={downloadPdf}
-              className="text-sm flex items-center gap-1.5 text-rose font-medium hover:underline"
-            >
-              <Download size={14} /> Download PDF
-            </button>
+            <div className="flex flex-wrap items-center gap-3">
+              <SaveChecklistButton
+                serviceId={service}
+                serviceName={SERVICES.find((s) => s.key === service)?.label || service}
+              />
+              <button
+                onClick={downloadPdf}
+                className="text-sm flex items-center gap-1.5 text-rose font-medium hover:underline"
+              >
+                <Download size={14} /> Download PDF
+              </button>
+            </div>
           </div>
           <p className="text-xs text-maroon-dark/50 mt-1">
             Estimated processing time: {result.estimated_time}

@@ -5,6 +5,8 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { User, ShieldCheck, UserRound, Loader2 } from "lucide-react";
 import { api } from "@/lib/api";
+import GuestChecklistImportPrompt from "@/components/checklists/GuestChecklistImportPrompt";
+import { useLanguage } from "@/lib/i18n";
 
 type Role = "user" | "admin" | "guest";
 
@@ -15,6 +17,8 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [importPending, setImportPending] = useState(false);
+  const { lang } = useLanguage();
 
   const continueAsGuest = () => {
     window.localStorage.removeItem("janmitra_token");
@@ -36,6 +40,14 @@ export default function LoginPage() {
         return;
       }
       window.localStorage.setItem("janmitra_token", res.access_token);
+      window.dispatchEvent(new Event("janmitra-auth-changed"));
+      if (
+        role === "user"
+        && window.localStorage.getItem("janmitra_guest_checklists") === "true"
+      ) {
+        setImportPending(true);
+        return;
+      }
       router.push(role === "admin" ? "/admin" : "/dashboard");
     } catch (e: any) {
       setError(e.message || "Login failed. Check your mobile number and password.");
@@ -43,6 +55,17 @@ export default function LoginPage() {
       setLoading(false);
     }
   };
+
+  if (importPending) {
+    return (
+      <div className="max-w-lg mx-auto px-5 py-16">
+        <GuestChecklistImportPrompt
+          lang={lang}
+          onDone={() => router.push("/my-checklists")}
+        />
+      </div>
+    );
+  }
 
   return (
     <div className="max-w-md mx-auto px-5 py-16">
