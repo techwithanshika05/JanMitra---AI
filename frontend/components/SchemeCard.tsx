@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { CheckCircle2, ExternalLink } from "lucide-react";
+import { useLanguage } from "@/lib/i18n";
 
 export type Scheme = {
   id: number;
@@ -16,6 +17,9 @@ export type Scheme = {
 };
 
 export default function SchemeCard({ scheme, index }: { scheme: Scheme; index: number }) {
+  const { lang } = useLanguage();
+  const hi = lang === "hi";
+  const hg = lang === "hinglish";
   return (
     <motion.div
       initial={{ opacity: 0, y: 12 }}
@@ -26,12 +30,12 @@ export default function SchemeCard({ scheme, index }: { scheme: Scheme; index: n
       <div className="flex items-start justify-between gap-3">
         <div>
           <span className="text-xs uppercase tracking-wide text-rose font-semibold">
-            {scheme.category || "Welfare Scheme"}
+            {scheme.category || (hi ? "कल्याण योजना" : hg ? "Welfare Scheme" : "Welfare Scheme")}
           </span>
           <h3 className="font-display text-lg font-semibold mt-1">{scheme.name}</h3>
         </div>
         <span className="text-xs px-2 py-1 rounded-full bg-blush/30 whitespace-nowrap">
-          {scheme.state || "All India"}
+          {scheme.state || (hi ? "संपूर्ण भारत" : hg ? "All India" : "All India")}
         </span>
       </div>
 
@@ -42,14 +46,14 @@ export default function SchemeCard({ scheme, index }: { scheme: Scheme; index: n
       {scheme.match_reason && (
         <div className="mt-3 flex items-start gap-2 text-sm text-rose">
           <CheckCircle2 size={16} className="mt-0.5 shrink-0" />
-          <span>Why this matched: {scheme.match_reason}</span>
+          <span>{hi ? "यह क्यों मेल खाया: " : hg ? "Yeh kyun match hua: " : "Why this matched: "}{scheme.match_reason}</span>
         </div>
       )}
 
       {scheme.required_documents && scheme.required_documents.length > 0 && (
         <div className="mt-3">
           <p className="text-xs font-semibold text-maroon-dark/60 uppercase tracking-wide">
-            Documents needed
+            {hi ? "आवश्यक दस्तावेज़" : hg ? "Zaroori documents" : "Documents needed"}
           </p>
           <ul className="text-sm mt-1 list-disc list-inside space-y-0.5">
             {scheme.required_documents.slice(0, 3).map((d) => (
@@ -62,7 +66,7 @@ export default function SchemeCard({ scheme, index }: { scheme: Scheme; index: n
       {scheme.official_source && (
         <div className="mt-4 flex items-center gap-1.5 text-xs text-maroon-dark/50">
           <ExternalLink size={12} />
-          Source: {scheme.official_source}
+          {hi ? "स्रोत: " : hg ? "Source: " : "Source: "}{scheme.official_source}
         </div>
       )}
 
@@ -73,7 +77,7 @@ export default function SchemeCard({ scheme, index }: { scheme: Scheme; index: n
           rel="noopener noreferrer"
           className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-white bg-maroon px-4 py-2 rounded-full hover:bg-maroon-dark transition-colors"
         >
-          Visit official page <ExternalLink size={14} />
+          {hi ? "आधिकारिक पेज देखें" : hg ? "Official page dekho" : "Visit official page"} <ExternalLink size={14} />
         </a>
       )}
     </motion.div>

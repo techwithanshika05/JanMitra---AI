@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Landmark, Phone, Mail, Github } from "lucide-react";
 import { useLanguage } from "@/lib/i18n";
 
-const COLUMNS = [
+const COLUMNS_EN = [
   {
     title: "Product",
     links: [
@@ -23,8 +23,29 @@ const COLUMNS = [
   },
 ];
 
+const COLUMNS_HI = [
+  {
+    title: "उत्पाद",
+    links: [
+      { href: "/dashboard", label: "डैशबोर्ड" },
+      { href: "/schemes", label: "योजना खोजें" },
+      { href: "/chat", label: "JanMitra से पूछें" },
+      { href: "/checklist", label: "चेकलिस्ट" },
+    ],
+  },
+  {
+    title: "सहायता",
+    links: [
+      { href: "/grievance", label: "शिकायत" },
+      { href: "/helpline", label: "हेल्पलाइन" },
+      { href: "/documents", label: "मेरे दस्तावेज़" },
+    ],
+  },
+];
+
 export default function Footer() {
   const { lang } = useLanguage();
+  const COLUMNS = lang === "hi" ? COLUMNS_HI : COLUMNS_EN;
   return (
     <footer className="relative mt-24 glow-field overflow-hidden">
       <div className="blob blob-pink w-72 h-72 -top-10 left-10" />
@@ -67,13 +88,13 @@ export default function Footer() {
             </h4>
             <ul className="mt-4 space-y-2.5 text-sm text-white/75">
               <li className="flex items-center gap-2">
-                <Phone size={14} /> 1967 (PDS Helpline)
+                <Phone size={14} /> 1967 ({lang === "hi" ? "PDS हेल्पलाइन" : "PDS Helpline"})
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={14} /> support@janmitra.gov.in
               </li>
               <li className="flex items-center gap-2">
-                <Github size={14} /> Open source project
+                <Github size={14} /> {lang === "hi" ? "ओपन सोर्स प्रोजेक्ट" : "Open source project"}
               </li>
             </ul>
           </div>

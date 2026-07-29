@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { useLanguage } from "@/lib/i18n";
 
 export default function FeatureCard({
   icon: Icon,
@@ -16,6 +17,7 @@ export default function FeatureCard({
   href: string;
   index?: number;
 }) {
+  const { lang } = useLanguage();
   return (
     <motion.div
       initial={{ opacity: 0, y: 16 }}
@@ -33,7 +35,7 @@ export default function FeatureCard({
         <h3 className="font-display text-lg font-bold mt-5 text-maroon-dark">{title}</h3>
         <p className="text-sm text-maroon-dark/60 mt-2 leading-relaxed">{desc}</p>
         <span className="inline-flex items-center gap-1 text-sm font-semibold text-rose mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
-          Explore <ArrowUpRight size={14} />
+          {lang === "hi" ? "देखें" : lang === "hinglish" ? "Dekho" : "Explore"} <ArrowUpRight size={14} />
         </span>
       </Link>
     </motion.div>
