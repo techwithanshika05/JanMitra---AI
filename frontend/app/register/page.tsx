@@ -5,9 +5,12 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { Loader2 } from "lucide-react";
 import { api } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 
 export default function RegisterPage() {
   const router = useRouter();
+  const { lang } = useLanguage();
+  const hi = lang === "hi";
   const [form, setForm] = useState({
     full_name: "", address: "", gender: "", pincode: "", mobile: "", password: "",
   });
@@ -18,15 +21,15 @@ export default function RegisterPage() {
 
   const submit = async () => {
     if (!form.full_name || !form.address || !form.pincode || !form.mobile || !form.password) {
-      setError("Full name, address, pincode, mobile, and password are required.");
+      setError(hi ? "पूरा नाम, पता, पिनकोड, मोबाइल, और पासवर्ड आवश्यक हैं।" : "Full name, address, pincode, mobile, and password are required.");
       return;
     }
     if (form.mobile.length !== 10 || !/^\d{10}$/.test(form.mobile)) {
-      setError("Mobile number must be exactly 10 digits.");
+      setError(hi ? "मोबाइल नंबर बिल्कुल 10 अंकों का होना चाहिए।" : "Mobile number must be exactly 10 digits.");
       return;
     }
     if (form.pincode.length !== 6 || !/^\d{6}$/.test(form.pincode)) {
-      setError("Pincode must be exactly 6 digits.");
+      setError(hi ? "पिनकोड बिल्कुल 6 अंकों का होना चाहिए।" : "Pincode must be exactly 6 digits.");
       return;
     }
     setLoading(true);
@@ -43,7 +46,7 @@ export default function RegisterPage() {
       window.localStorage.setItem("janmitra_token", res.access_token);
       router.push("/dashboard");
     } catch (e: any) {
-      setError(e.message || "Registration failed.");
+      setError(e.message || (hi ? "पंजीकरण विफल रहा।" : "Registration failed."));
     } finally {
       setLoading(false);
     }
@@ -57,45 +60,47 @@ export default function RegisterPage() {
         transition={{ duration: 0.4 }}
         className="glass-card rounded-card p-8 shadow-card"
       >
-        <h1 className="font-display text-2xl font-bold text-maroon-dark text-center">Create your account</h1>
+        <h1 className="font-display text-2xl font-bold text-maroon-dark text-center">{hi ? "अपना खाता बनाएं" : "Create your account"}</h1>
         <p className="text-sm text-maroon-dark/60 text-center mt-1">
-          You'll get a unique ID (like PDS482913) to track your applications.
+          {hi
+            ? "आपको अपने आवेदनों को ट्रैक करने के लिए एक विशिष्ट ID (जैसे PDS482913) मिलेगी।"
+            : "You'll get a unique ID (like PDS482913) to track your applications."}
         </p>
 
         <div className="grid md:grid-cols-2 gap-4 mt-7">
-          <Field label="Full Name" required full>
+          <Field label={hi ? "पूरा नाम" : "Full Name"} required full>
             <input className="input" value={form.full_name} onChange={(e) => update("full_name", e.target.value)} />
           </Field>
-          <Field label="Mobile Number" required>
+          <Field label={hi ? "मोबाइल नंबर" : "Mobile Number"} required>
             <input
               className="input"
               maxLength={10}
-              placeholder="10-digit mobile number"
+              placeholder={hi ? "10-अंकों का मोबाइल नंबर" : "10-digit mobile number"}
               value={form.mobile}
               onChange={(e) => update("mobile", e.target.value.replace(/\D/g, ""))}
             />
           </Field>
-          <Field label="Password" required>
+          <Field label={hi ? "पासवर्ड" : "Password"} required>
             <input type="password" className="input" value={form.password} onChange={(e) => update("password", e.target.value)} />
           </Field>
-          <Field label="Gender">
+          <Field label={hi ? "लिंग" : "Gender"}>
             <select className="input" value={form.gender} onChange={(e) => update("gender", e.target.value)}>
-              <option value="">Select</option>
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-              <option value="other">Other</option>
+              <option value="">{hi ? "चुनें" : "Select"}</option>
+              <option value="male">{hi ? "पुरुष" : "Male"}</option>
+              <option value="female">{hi ? "महिला" : "Female"}</option>
+              <option value="other">{hi ? "अन्य" : "Other"}</option>
             </select>
           </Field>
-          <Field label="Pincode" required>
+          <Field label={hi ? "पिनकोड" : "Pincode"} required>
             <input
               className="input"
               maxLength={6}
-              placeholder="6-digit pincode"
+              placeholder={hi ? "6-अंकों का पिनकोड" : "6-digit pincode"}
               value={form.pincode}
               onChange={(e) => update("pincode", e.target.value.replace(/\D/g, ""))}
             />
           </Field>
-          <Field label="Address" required full>
+          <Field label={hi ? "पता" : "Address"} required full>
             <textarea
               className="input min-h-[80px]"
               value={form.address}
@@ -112,13 +117,13 @@ export default function RegisterPage() {
           className="btn-primary w-full mt-6 py-3 flex items-center justify-center gap-2 disabled:opacity-60"
         >
           {loading && <Loader2 size={16} className="animate-spin" />}
-          Create account
+          {hi ? "खाता बनाएं" : "Create account"}
         </button>
 
         <p className="text-sm text-center text-maroon-dark/60 mt-4">
-          Already have an account?{" "}
+          {hi ? "पहले से खाता है? " : "Already have an account? "}
           <Link href="/login" className="text-rose font-semibold hover:underline">
-            Log in
+            {hi ? "लॉगिन करें" : "Log in"}
           </Link>
         </p>
       </motion.div>

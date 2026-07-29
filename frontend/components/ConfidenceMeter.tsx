@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage } from "@/lib/i18n";
 
 /**
  * Visual confidence indicator used everywhere the AI gives an answer.
@@ -7,10 +8,16 @@
  * the text of the answer.
  */
 export default function ConfidenceMeter({ score }: { score: number }) {
+  const { lang } = useLanguage();
   const pct = Math.round(score * 100);
   const color =
     score >= 0.65 ? "bg-maroon" : score >= 0.35 ? "bg-rose" : "bg-red-500";
-  const label = score >= 0.65 ? "High confidence" : score >= 0.35 ? "Moderate confidence" : "Low confidence";
+  const label =
+    lang === "hi"
+      ? score >= 0.65 ? "उच्च विश्वास" : score >= 0.35 ? "मध्यम विश्वास" : "निम्न विश्वास"
+      : lang === "hinglish"
+      ? score >= 0.65 ? "High confidence" : score >= 0.35 ? "Medium confidence" : "Low confidence"
+      : score >= 0.65 ? "High confidence" : score >= 0.35 ? "Moderate confidence" : "Low confidence";
 
   return (
     <div className="w-full">

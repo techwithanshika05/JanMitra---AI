@@ -87,7 +87,7 @@ export default function Navbar() {
                 menuOpen ? "text-white bg-maroon" : "text-maroon-dark hover:bg-blush/40"
               }`}
             >
-              Menu
+              {lang === "hi" ? "मेन्यू" : lang === "hinglish" ? "Menu" : "Menu"}
               <ChevronDown size={14} className={`transition-transform ${menuOpen ? "rotate-180" : ""}`} />
             </button>
 
@@ -130,14 +130,14 @@ export default function Navbar() {
               aria-label="Log out"
               className="hidden sm:flex h-10 px-4 rounded-pill items-center gap-1.5 text-xs font-bold text-maroon-dark hover:bg-blush/40 transition-colors"
             >
-              <LogOut size={14} /> Logout
+              <LogOut size={14} /> {lang === "hi" ? "लॉगआउट" : lang === "hinglish" ? "Logout" : "Logout"}
             </button>
           ) : (
             <Link
               href="/login"
               className="hidden sm:flex h-10 px-4 rounded-pill items-center gap-1.5 text-xs font-bold bg-maroon text-white hover:bg-maroon-dark transition-colors"
             >
-              <LogIn size={14} /> Login
+              <LogIn size={14} /> {lang === "hi" ? "लॉगिन" : lang === "hinglish" ? "Login" : "Login"}
             </Link>
           )}
 
@@ -185,11 +185,11 @@ export default function Navbar() {
             <div className="border-t border-blush/50 pt-1">
               {loggedIn ? (
                 <button onClick={logout} className="px-3 py-2.5 rounded-lg text-maroon-dark hover:bg-blush/40 w-full text-left">
-                  Logout
+                  {lang === "hi" ? "लॉगआउट" : "Logout"}
                 </button>
               ) : (
                 <Link href="/login" onClick={() => setOpen(false)} className="px-3 py-2.5 rounded-lg text-maroon-dark hover:bg-blush/40 block">
-                  Login
+                  {lang === "hi" ? "लॉगिन" : "Login"}
                 </Link>
               )}
             </div>

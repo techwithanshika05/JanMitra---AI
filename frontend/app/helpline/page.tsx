@@ -12,7 +12,7 @@ type HelplineEntry = {
 // Real, publicly published Government of India national helpline numbers.
 // State-specific ration/PDS toll-free numbers vary; citizens should confirm
 // their state's number via the official NFSA/state PDS portal, linked below.
-const HELPLINES: HelplineEntry[] = [
+const HELPLINES_EN: HelplineEntry[] = [
   {
     name: "National Food Security Helpline (PDS/Ration)",
     number: "1967 / 1800-XXX-XXXX (state toll-free)",
@@ -57,8 +57,54 @@ const HELPLINES: HelplineEntry[] = [
   },
 ];
 
+const HELPLINES_HI: HelplineEntry[] = [
+  {
+    name: "राष्ट्रीय खाद्य सुरक्षा हेल्पलाइन (PDS/राशन)",
+    number: "1967 / 1800-XXX-XXXX (राज्य टोल-फ्री)",
+    desc: "राशन कार्ड समस्याओं, PDS दुकान शिकायतों, खाद्यान्न मात्रा/गुणवत्ता समस्याओं के लिए। सटीक टोल-फ्री नंबर राज्य अनुसार अलग होता है — अपने राज्य के खाद्य एवं नागरिक आपूर्ति विभाग पोर्टल पर जांचें।",
+    icon: Wheat,
+  },
+  {
+    name: "CPGRAMS — केंद्रीकृत सार्वजनिक शिकायत पोर्टल",
+    number: "pgportal.gov.in",
+    desc: "किसी भी केंद्रीय सरकारी विभाग के खिलाफ ऑनलाइन शिकायत दर्ज करें और मुफ्त में ट्रैक करें।",
+    icon: ShieldAlert,
+  },
+  {
+    name: "PM-KISAN हेल्पलाइन",
+    number: "155261 / 1800-115-526",
+    desc: "PM-KISAN आय सहायता योजना, भुगतान स्थिति, और पंजीकरण समस्याओं के लिए।",
+    icon: Wheat,
+  },
+  {
+    name: "महिला हेल्पलाइन (संपूर्ण भारत)",
+    number: "181",
+    desc: "हिंसा या संकट का सामना कर रही महिलाओं के लिए 24x7 हेल्पलाइन; कल्याण योजना तक पहुंच में भी सहायता।",
+    icon: HeartHandshake,
+  },
+  {
+    name: "चाइल्ड हेल्पलाइन",
+    number: "1098",
+    desc: "देखभाल व सुरक्षा की ज़रूरत वाले बच्चों के लिए 24x7 हेल्पलाइन।",
+    icon: Baby,
+  },
+  {
+    name: "वरिष्ठ नागरिक हेल्पलाइन",
+    number: "14567 (एल्डर लाइन)",
+    desc: "वरिष्ठ नागरिकों के लिए राष्ट्रीय हेल्पलाइन — पेंशन प्रश्न, वृद्ध दुर्व्यवहार, और कल्याण योजना मार्गदर्शन।",
+    icon: Users,
+  },
+  {
+    name: "राष्ट्रीय उपभोक्ता हेल्पलाइन",
+    number: "1915",
+    desc: "उपभोक्ता शिकायतों के लिए, जिसमें राशन दुकान डीलरों या सब्सिडी वाले सामान से जुड़ी समस्याएं शामिल हैं।",
+    icon: ShieldAlert,
+  },
+];
+
 export default function HelplinePage() {
   const { lang } = useLanguage();
+  const HELPLINES = lang === "hi" ? HELPLINES_HI : HELPLINES_EN;
   return (
     <div className="max-w-5xl mx-auto px-5 md:px-8 py-14">
       <h1 className="font-display text-3xl font-semibold">

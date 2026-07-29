@@ -187,7 +187,7 @@ export default function ChatWidget() {
   };
 
   return (
-    <div className="flex flex-col h-[70vh] rounded-card border border-blush/40 bg-white/70 shadow-card overflow-hidden">
+    <div className="flex flex-col min-h-[320px] max-h-[75vh] rounded-card border border-blush/40 bg-white/70 shadow-card overflow-hidden">
       <div className="flex-1 overflow-y-auto p-5 space-y-5">
         {messages.map((m, i) => (
           <div key={i} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>

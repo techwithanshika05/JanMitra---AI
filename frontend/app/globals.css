@@ -15,6 +15,21 @@ body {
   @apply bg-paper text-maroon-dark font-body antialiased;
 }
 
+/* Form fields (search bars, text inputs, selects, textareas) previously used
+   border-blush/60, which is nearly the same tone as the paper background and
+   almost invisible. Give every field a clearly visible border regardless of
+   which page/card it sits on, with the rose accent still showing on focus. */
+input,
+select,
+textarea {
+  border-color: rgba(27, 42, 74, 0.24) !important;
+}
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  border-color: #E8871E !important;
+}
+
 /* ---------- Signature background: soft gradient + blurred glow blobs ----------
    Every page section that wants the "premium atmosphere" adds .glow-field as
    a positioned ancestor, then places two .blob children (pink + gold) behind

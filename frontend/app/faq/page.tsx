@@ -4,8 +4,9 @@ import { motion } from "framer-motion";
 import { Search, MessageCircleQuestion } from "lucide-react";
 import { api } from "@/lib/api";
 import FAQAccordion, { FAQItem } from "@/components/FAQAccordion";
+import { useLanguage } from "@/lib/i18n";
 
-const CATEGORIES = [
+const CATEGORIES_EN = [
   { key: "", label: "All" },
   { key: "ration", label: "Ration" },
   { key: "scheme", label: "Schemes" },
@@ -13,7 +14,18 @@ const CATEGORIES = [
   { key: "general", label: "General" },
 ];
 
+const CATEGORIES_HI = [
+  { key: "", label: "सभी" },
+  { key: "ration", label: "राशन" },
+  { key: "scheme", label: "योजनाएं" },
+  { key: "grievance", label: "शिकायत" },
+  { key: "general", label: "सामान्य" },
+];
+
 export default function FAQPage() {
+  const { lang } = useLanguage();
+  const hi = lang === "hi";
+  const CATEGORIES = hi ? CATEGORIES_HI : CATEGORIES_EN;
   const [faqs, setFaqs] = useState<FAQItem[]>([]);
   const [category, setCategory] = useState("");
   const [search, setSearch] = useState("");
@@ -38,11 +50,13 @@ export default function FAQPage() {
     <div className="max-w-3xl mx-auto px-5 md:px-8 py-14">
       <div className="flex items-center gap-2 text-rose">
         <MessageCircleQuestion size={20} />
-        <span className="text-xs font-bold uppercase tracking-wide">FAQ Assistant</span>
+        <span className="text-xs font-bold uppercase tracking-wide">{hi ? "FAQ सहायक" : "FAQ Assistant"}</span>
       </div>
-      <h1 className="font-display text-3xl font-bold mt-2 text-maroon-dark">Frequently Asked Questions</h1>
+      <h1 className="font-display text-3xl font-bold mt-2 text-maroon-dark">{hi ? "अक्सर पूछे जाने वाले प्रश्न" : "Frequently Asked Questions"}</h1>
       <p className="text-maroon-dark/60 mt-2">
-        Browse common questions about ration cards, welfare schemes, and grievances.
+        {hi
+          ? "राशन कार्ड, कल्याण योजनाओं और शिकायतों से जुड़े सामान्य सवाल देखें।"
+          : "Browse common questions about ration cards, welfare schemes, and grievances."}
       </p>
 
       <div className="mt-6 flex flex-col md:flex-row gap-3">
@@ -51,7 +65,7 @@ export default function FAQPage() {
           <input
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search FAQs..."
+            placeholder={hi ? "FAQ खोजें..." : "Search FAQs..."}
             className="w-full pl-9 pr-4 py-2.5 rounded-pill border border-blush/60 text-sm outline-none focus-visible:border-rose bg-white"
           />
         </div>
@@ -81,7 +95,9 @@ export default function FAQPage() {
           <FAQAccordion items={filtered} />
         ) : (
           <p className="text-sm text-maroon-dark/50 text-center py-10">
-            No FAQs found. Try a different search or category, or ask JanMitra AI directly in chat.
+            {hi
+              ? "कोई FAQ नहीं मिला। कोई और खोज या श्रेणी आज़माएं, या सीधे चैट में JanMitra AI से पूछें।"
+              : "No FAQs found. Try a different search or category, or ask JanMitra AI directly in chat."}
           </p>
         )}
       </motion.div>
