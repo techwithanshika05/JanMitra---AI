@@ -1,0 +1,404 @@
+{
+  "source_file": "UP_Ration_Card_PDS_Complete_Reference_1.pdf",
+  "metadata": {
+    "total_pages": 23,
+    "total_blocks": 23,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.2222222222222222,
+    "processed_at": "2026-07-30T09:48:59Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "Uttar Pradesh Ration Card & \nPublic Distribution System \nThe Complete Reference: Law, Eligibility, Documents, Certificates, Application Process, Digital \nSystems, Procurement, Grievances & Facts/Figures \nCompiled as a knowledge-base / dataset-training reference for the Public Distribution Scheme (Ration) and \nWelfare Scheme project \nScope: Uttar Pradesh only. Official portals referenced: fcs.up.gov.in, edistrict.up.gov.in (esathi.up.gov.in), familyid.up.gov.in, \nnfsa.up.gov.in, dfpd.gov.in, fci.gov.in \nAll facts and figures in this document are drawn from published government sources (PIB, DFPD, FCI, Economic Survey, PRS Legislative \nResearch) and reputable secondary guides, with sources cited at the end of each section. Where a specific UP-level statistic is not publicly \navailable in verifiable form, this document says so explicitly rather than estimating.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "Table of Contents",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "1. Introduction \nA Ration Card in Uttar Pradesh is an official document issued by the Department of Food & Civil Supplies \n(Khadya Evam Rasad Vibhag) that entitles eligible households to buy subsidised — and since January 2023, \nlargely free — food grains (wheat, rice, and coarse grains/millets) from Fair Price Shops (FPS) under the National \nFood Security Act (NFSA), 2013. Uttar Pradesh operates one of the largest Public Distribution Systems (PDS) in \nthe country. \nAccording to figures compiled from the FCS UP portal and secondary aggregators, Uttar Pradesh has over 3.6 \ncrore ration cards covering around 14.6 crore beneficiaries, distributed through more than 80,000 Fair Price \nShops spread across all 75 districts of the state. This makes UP's PDS network the largest of any single state in \nIndia by beneficiary count. \nBeyond food subsidy, the ration card doubles as a supporting identity and address-proof document accepted for \nseveral other government services, and — together with the Family ID (Ek Parivar Ek Pehchan) — acts as an \nentry point into the wider welfare ecosystem in UP, including pension schemes, scholarships, and schemes such \nas Kanya Sumangala Yojana. \nSource: fcs.up.gov.in aggregated via CitizenNest and India Customer Care guides \n2. History & Evolution of the Ration Card System \n2.1 Origins in India \nRationing in India traces back to World War II-era food scarcity in the 1940s, when the colonial government \nintroduced grain rationing in select cities. After independence, the system was gradually expanded and \nformalised into the Public Distribution System (PDS), which for decades operated as a general entitlement \nscheme without strict income-based targeting. \n2.2 Shift to Targeted PDS (1997) \nIn June 1997, the Government of India launched the Targeted Public Distribution System (TPDS), which for the \nfirst time distinguished Below Poverty Line (BPL) and Above Poverty Line (APL) households, aiming to direct \nsubsidies more specifically toward poorer households rather than the population at large. \n2.3 Antyodaya Anna Yojana (2000) \nOn 25 December 2000, the Antyodaya Anna Yojana (AAY) was launched as a special sub-scheme within TPDS to \nidentify and support the 'poorest of the poor' — households such as those headed by widows, disabled persons, \nelderly people without support, and other highly vulnerable groups — with a larger, low-cost monthly foodgrain \nentitlement. \n2.4 National Food Security Act, 2013 \nThe National Food Security Act (NFSA), also called the Right to Food Act, was passed by Parliament on 5 July \n2013 (signed into law 12 September 2013, retroactively effective from 5 July 2013) under the UPA government \nled by Prime Minister Manmohan Singh. This converted food subsidy from a discretionary welfare scheme into a \nlegal entitlement for eligible households, covering PDS, the midday meal scheme, and maternity entitlements \nunder one umbrella law. \n2.5 Digitisation Era (2014 onward)",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "From the mid-2010s, states including Uttar Pradesh progressively digitised ration card databases, seeded \nAadhaar numbers against beneficiary records, and rolled out electronic Point of Sale (e-PoS) devices at Fair Price \nShops for biometric authentication — aimed at removing duplicate/bogus cards ('ghost beneficiaries') and \nimproving last-mile delivery accuracy. \n2.6 COVID-19 and PMGKAY (2020–2023) \nThe Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY) was launched on 26 March 2020 in response to the \nCOVID-19 pandemic, initially providing an additional 5 kg of free foodgrain and 1 kg of pulses per person per \nmonth, on top of regular NFSA entitlements, to roughly 80 crore beneficiaries nationwide. It was extended in \nphases through 2020–2022. \n2.7 Integration of PMGKAY into NFSA (2023–2028) \nFrom 1 January 2023, the government merged PMGKAY into NFSA and began providing the standard NFSA \nentitlement (5 kg/person/month for Priority Households, 35 kg/household/month for AAY) completely free of \ncost, rather than at the earlier subsidised prices of Rs. 1–3/kg. This arrangement has since been extended for a \nfurther five years, through December 2028. \n2.8 One Nation One Ration Card (ONORC) \nONORC, rolled out nationally by mid-2020s, allows any NFSA cardholder to draw their entitlement from any Fair \nPrice Shop in the country using Aadhaar-based biometric or OTP authentication, benefiting migrant workers in \nparticular. Uttar Pradesh, both as a large source state for migrant labour and a destination state, is a full \nparticipant in ONORC. \nSource: Business Standard; PubAdmin Institute; PMFIAS; Grokipedia summary of NFSA, 2013; DFPD notifications",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "text",
+          "text": "3. Legal Framework: National Food Security Act, 2013 \nThe NFSA is the central law underpinning ration card entitlements everywhere in India, including Uttar Pradesh. \nKey provisions relevant to beneficiaries: \n• \nCoverage: up to 75% of the rural population and up to 50% of the urban population are legally entitled \nto subsidised/free foodgrains — together, about two-thirds of India's population nationally. \n• \nTwo beneficiary categories: Antyodaya Anna Yojana (AAY) households (poorest of the poor) and Priority \nHouseholds (PHH), identified by state governments using prescribed criteria. \n• \nEntitlement quantities: AAY households get 35 kg of foodgrain per household per month; PHH \nbeneficiaries get 5 kg per person per month. \n• \nLegislated prices (pre-2023): not exceeding Rs. 3/kg for rice, Rs. 2/kg for wheat, and Rs. 1/kg for coarse \ngrains — foodgrains have been provided free of cost since January 2023 under the PMGKAY–NFSA \nmerger. \n• \nWomen's empowerment provision: the eldest woman of the household, aged 18 years or above, is to be \nrecognised as the head of household for the purpose of issuing the ration card, unless no adult woman is \navailable. \n• \nFood Security Allowance: if entitled foodgrains are not supplied to a beneficiary in a given month, the \nState Government is legally required to pay a Food Security Allowance, under the Food Security \nAllowance Rules, 2015. \n• \nGrievance redressal: every district is required to have a District Grievance Redressal Officer (DGRO) \nempowered to hear PDS-related complaints, alongside State Food Commissions constituted under the \nAct. \n• \nTransparency provisions: PDS-related records (allocation, offtake, FPS-wise beneficiary lists) are required \nto be disclosed publicly — this is the legal basis for the eligibility lists published on fcs.up.gov.in and \nnfsa.up.gov.in. \n• \nDecentralised procurement: the Act permits state governments/agencies to procure, store, and \ndistribute foodgrains within the state directly (with central government reimbursement), rather than \nrelying solely on central pool stocks routed through the Food Corporation of India (FCI). \nSource: dfpd.gov.in — National Food Security Act, 2013 (Act No. 20 of 2013); PRS Legislative Research; PMFIAS \n4. Types of Ration Cards Issued in UP \nCard Type \nWho it is for \nMonthly Entitlement \nCurrent Price (as of Jan 2023 \nonward) \nAntyodaya Anna Yojana \n(AAY) \nPoorest of the poor — no regular \nincome, widows, disabled persons, \nelderly without support, primitive \ntribal households \n35 kg foodgrain per \nhousehold \nFree of cost (was Rs. 1–3/kg pr\n2023) \nPriority Household (PHH) \nFamilies meeting BPL/NFSA criteria \nbased on SECC data and state income \nlimits \n5 kg foodgrain per person \nFree of cost (was Rs. 1–3/kg pr\n2023) \nEligible Household (EHH) \nUP-specific NFSA sub-category for \ncertain additional vulnerable groups \nAs per state notification \nFree of cost under NFSA-PMGK\nmerger",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "Non-NFSA / APL \nHouseholds above the NFSA income \nthreshold \nMinimal or nil subsidy \nMarket/near-market rate whe\napplicable \n \nNote: Card colour coding used historically in UP: yellow for AAY, and typically white/other colours for PHH and Non-NFSA \ncards, though exact colour conventions can vary by district printing format — the card category label is the authoritative \nmarker, not colour alone. \nSource: CitizenNest; ClearTax; dfpd.gov.in NFSA notification (free foodgrain S.O. 6148(E)) \n5. Eligibility Criteria (Detailed) \n5.1 General eligibility to apply \n• \nMust be a permanent resident of Uttar Pradesh with valid address proof in the state. \n• \nMust be at least 18 years old to apply as head of the family. \n• \nThe family must not already hold a valid ration card anywhere else in India. \n• \nAnnual family income must be below the state-prescribed limit — commonly cited as up to Rs. 2 \nlakh/year for rural households and Rs. 3 lakh/year for urban households (these limits are set/revised by \nthe state government; always confirm the current limit on fcs.up.gov.in). \n• \nNewly married couples without an existing card, and holders of expired/temporary cards, can apply for a \nfresh regular card. \n5.2 AAY-specific eligibility (poorest-of-the-poor priority) \n• \nHouseholds headed by widows, disabled persons, or persons aged 60 years or more with no assured \nmeans of subsistence or societal support. \n• \nPrimitive tribal households, and households with no regular source of income. \n• \nLandless agricultural labourers, marginal farmers, rickshaw pullers, hand-cart pullers, cobblers, and \nsimilarly placed casual/informal workers, per broader central AAY guidelines adopted by states. \n5.3 Exclusion criteria (commonly applied) \n• \nIncome-tax payers or professional-tax payers in the household. \n• \nGovernment employees above certain grade levels. \n• \nOwners of four-wheeler motor vehicles (excluding those used commercially, per some state guidelines). \n• \nHouseholds already covered under a ration card in another state (until surrendered). \nNote: Exact income limits and exclusion criteria are revised periodically by the state government; the figures above reflect \ncommonly cited thresholds in recent secondary reporting and should be reconfirmed on fcs.up.gov.in before an application is \nfiled. \nSource: India Customer Care; CitizenNest guides",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 7,
+          "layout": "text",
+          "text": "6. Documents Required for a New Ration Card \nCollect the following before starting an application, either online at fcs.up.gov.in / your nearest CSC, or offline at \nthe Tehsil Supply Office: \nDocument \nPurpose \nWhere to obtain it \nAadhaar Card (all family \nmembers) \nPrimary identity proof; e-KYC and biometric \nlinking is mandatory \nUIDAI enrolment centre / Aadhaar \nSeva Kendra \nFamily ID (Ek Parivar Ek Pehchan) \nUnique 12-digit household ID required by \nmany UP welfare portals \nfamilyid.up.gov.in \nProof of Residence \nConfirms UP address — electricity bill, water \nbill, rent agreement, bank passbook, or Voter \nID \nUtility provider / bank / rent-deed \nregistrar \nIncome Certificate (Aay Praman \nPatra) \nRequired especially for PHH/AAY category \napplications \nedistrict.up.gov.in \n(esathi.up.gov.in) — Tehsildar \nPassport-size Photograph \nPhoto of the head of family \nAny photo studio, or Aadhaar \nphoto option on portal \nBank Account Details / Passbook \nLinked for direct benefit transfer and identity \nverification \nYour bank branch \nMobile Number (linked to \nAadhaar) \nOTP verification during application and card \ndownloads \nYour telecom provider \nDomicile Certificate (if applicable) \nSometimes sought for specific welfare linkages edistrict.up.gov.in — \nTehsildar/SDM/ADM \nCaste Certificate (if applicable) \nFor reserved-category benefit linkage \nalongside ration entitlements \nedistrict.up.gov.in — \nTehsildar/SDM/ADM \nDisability Certificate (if applicable, \nfor AAY) \nSupports AAY priority-category classification \nfor disabled applicants \nChief Medical Officer (CMO) office \n/ district hospital \nDeath Certificate (for member \nremoval) \nRequired to delete a deceased member from \nthe card \nNagar Nigam/Nagar Palika (urban) \nor Gram Panchayat (rural) via \nedistrict.up.gov.in \nMarriage Certificate (for new \nhousehold split) \nSupports issuing a separate card to a newly \nmarried couple \nedistrict.up.gov.in / Sub-Registrar \noffice \n \nNote: The government does not charge any fee for issuing a ration card itself. CSC/Jan Seva Kendra operators may charge a \nnominal service fee, typically around Rs. 10–30. \nSource: Tribune India; India Customer Care; CitizenNest guides \n6.1 Aadhaar Card \nAadhaar, issued by UIDAI, is the base identity document for nearly every step of the ration card process — \napplication, e-KYC, and biometric authentication at the Fair Price Shop. \n1. Locate your nearest Aadhaar Seva Kendra or bank-based enrolment centre.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 8,
+          "layout": "text",
+          "text": "2. Carry an existing ID/address proof (birth certificate, school ID, existing ration card, etc.) for first-time \nenrolment. \n3. Complete biometric capture (fingerprints, iris, photograph) at the centre. \n4. Aadhaar is generated and posted, and is also downloadable from uidai.gov.in once ready. \nUpdating Aadhaar details \nName, address, date of birth, or mobile number can be updated online (for some fields) or at an Aadhaar Seva \nKendra. Address updates in particular are relevant before a ration card application, since the e-KYC pulls the \naddress on record. \nSource: UIDAI general enrolment guidance \n6.2 Family ID (Ek Parivar Ek Pehchan) \nThe UP Family ID is a unique 12-digit identification number assigned to each household, consolidating family \ndetails for streamlined access to ration cards, pensions, scholarships, and other welfare schemes. If your family \nalready holds a ration card, the card number itself typically becomes/links to the Family ID; households without \na ration card register fresh. \nHow to apply \n5. Visit familyid.up.gov.in and select New Registration. \n6. Choose 'Ration Card holder' if you already have a ration card (the system pulls existing family data), or \n'Naya Pehchan' (New Identity) if you do not. \n7. Enter the head of family's Aadhaar number and verify via OTP sent to the Aadhaar-linked mobile \nnumber. \n8. Fill in details of all family members and submit. \nNote: Processing is largely instant to a few days depending on data-matching accuracy. There is no fee for Family ID \nregistration. \nSource: egovtschemes.com; pppfamilyiid.com — UP Family ID guides \n6.3 Income Certificate (Aay Praman Patra) \nIssued by the Revenue Department through the local Tehsildar; certifies the applicant/family's income from all \nsources. Commonly needed for PHH/AAY ration card category applications, plus scholarships and other subsidy \nschemes. Valid for 3 years in UP. \nDocuments needed to obtain it \n• \nAadhaar card (mandatory e-KYC — name and photo auto-fill from UIDAI) \n• \nSelf-Declaration Form (Swaprashit Ghoshna Patra) stating total annual family income, downloadable \nfrom the eSathi portal footer \n• \nProof of address \n• \nRecent photograph (or use the Aadhaar photo option) \nHow to apply (online, via eSathi) \n9. Go to edistrict.up.gov.in and click Citizen Login (redirects to esathi.up.gov.in); new users click New User \nRegistration. \n10. After logging in, choose Apply for Certificate → Income Certificate (Aay Praman Patra).",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 9,
+          "layout": "text",
+          "text": "11. Select Rural (Gramin) or Urban (Nagariya) based on actual residence — this decides who verifies the \napplication. \n12. Fill personal details, upload documents (PDF/JPEG, generally under ~100 KB each), and submit. \n13. Field verification is carried out by the Lekhpal (rural) or Revenue Inspector (urban) before the Tehsildar \ndigitally signs and issues the certificate. \n14. Track status online using the application number, and download the signed certificate once approved. \nNote: Offline option: collect/print the form at your nearest Tehsil office, fill it, attach documents, and submit at the counter. \nCSC operators may charge an additional Rs. 30–50 service fee. \nSource: India Customer Care; edistrictup.in \n6.4 Domicile / Residence Certificate (Niwas Praman Patra) \nUP recognises two variants: Samanya Niwas Praman Patra (Ordinary Residence Certificate — current address) \nand Mool Niwas Praman Patra (Permanent/Original Domicile Certificate — ancestral/permanent UP residence). \nThe latter is generally required for state-quota admissions, government job applications, and certain welfare \nscheme linkages. \nEligibility \n• \n3 years of continuous residence in Uttar Pradesh, OR \n• \nBorn in UP, or parents are permanent UP residents (qualifies regardless of the applicant's own residence \nduration) \nDocuments required \n• \nProof of identity (Aadhaar, Voter ID, Passport, etc.) \n• \nProof of address (ration card, utility bills, bank passbook, rent agreement) \n• \nProof of long-term stay (school certificates, property documents, older utility bills) \n• \nFamily ID (mandatory on the eSathi portal) \n• \nSelf-declaration affidavit of residence \nHow to apply \n15. Visit edistrict.up.gov.in (via esathi.up.gov.in), log in, and select Domicile Certificate under Apply for \nCertificate. \n16. Select Rural or Urban, and enter your Family ID. \n17. Fill personal and residence-history details and upload supporting documents. \n18. Field verification by the Lekhpal/Revenue Inspector, followed by issue from the Tehsildar's office — \ntypically within about 30 days. \nSource: India Customer Care; LegalRaasta — UP Domicile Certificate guides \n6.5 Caste Certificate (Jati Praman Patra) \nNeeded only where reserved-category benefits are being claimed alongside ration/welfare entitlements. Issued \nby the Tehsildar/SDM/ADM. \n• \nAddress proof: Aadhaar, ration card, voter ID, or utility bill \n• \nIdentity proof: Aadhaar, PAN, or voter ID \n• \nSelf-declaration certificate",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 10,
+          "layout": "text",
+          "text": "• \nRecent photograph \n• \nIncome certificate (for OBC/non-creamy-layer claims) \nOnline application is generally routed through edistrict.up.gov.in; where online filing isn't available for a \nparticular caste category, applicants submit the form with a Rs. 1.50 court-fee stamp at the local Tehsil office or \nCSC. \nSource: LegalRaasta — UP Caste Certificate guide \n6.6 Disability Certificate (for AAY priority classification) \nFor households where a disabled member is the basis for AAY (poorest-of-the-poor) classification, a disability \ncertificate issued by the Chief Medical Officer (CMO) or a district hospital medical board is typically required \nalongside standard identity/address documents. \n• \nApplication at the CMO office or notified district hospital \n• \nMedical board assessment and disability percentage certification \n• \nAadhaar and photograph required alongside the medical assessment form \nSource: General Persons with Disabilities Act, 2016 certification framework as applied at district level \n6.7 Death, Birth & Marriage Certificates (for card updates) \nThese civil registration documents are frequently needed when updating an existing ration card rather than for a \nfresh application: \n• \nDeath Certificate — required to remove a deceased member from the card. Apply via edistrict.up.gov.in \n(Nagar Nigam/Nagar Palika for urban, Gram Panchayat for rural registration). \n• \nBirth Certificate — required to add a newborn to the family's card. Registration is done with the local \nmunicipal body or Gram Panchayat, typically within 21 days of birth for the simplest process. \n• \nMarriage Certificate — supports splitting a household into a new, separate ration card for a newly \nmarried couple; can be obtained via the Sub-Registrar's office or edistrict.up.gov.in's marriage \nregistration service. \nSource: edistrict.up.gov.in civil registration services — general guidance",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 11,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 11,
+          "layout": "text",
+          "text": "7. Step-by-Step: How to Apply for a New Ration Card \n7.1 Online Application (fcs.up.gov.in) \n19. Go to the official portal: fcs.up.gov.in. \n20. Register using your mobile number if you're a new user, and create your login. \n21. Look for 'नवीन राशन कार्ड के लिए आवेदन' (Apply for New Ration Card) on the homepage. \n22. Fill the application form: head of family details, all family members with Aadhaar numbers, address, \nLPG/electricity connection details, income, and bank information. \n23. Upload the required documents (JPG/PDF, usually under ~200 KB per file). \n24. Review all entered details carefully, then submit the form. \n25. Note down the application Reference ID / Sandarbh ID shown on the acknowledgement — needed to \ntrack status later. \nNote: There is no government fee for a new ration card. If anyone demands payment beyond the standard CSC service \ncharge, it may be fraudulent — report it via the helplines in Section 14. \nSource: CitizenNest; India Customer Care — application steps \n7.2 Offline Application (CSC / Tehsil Supply Office) \n26. Visit your nearest Common Service Centre (CSC/Jan Seva Kendra) or the Tehsil (Block) Supply Office. \n27. The CSC operator logs into the e-District/FCS system on your behalf and fills the form, or you collect and \nfill a printed form (separate formats for rural/urban applicants). \n28. Submit the filled form with self-attested photocopies of all required documents. \n29. Collect the acknowledgement slip bearing your Reference ID. \n30. A Supply Inspector (आपूलतड लनरीक्षक) — via the Gram Panchayat Officer in rural areas — carries out field \nverification, typically within 15–30 days. \n31. After verification and approval, your name is added to the NFSA eligibility list and the ration card is \nissued. \nSource: India Customer Care; Tribune India — offline application steps \n7.3 Field Verification Process (What Happens Behind the Scenes) \nOnce an application is submitted (online or offline), it is routed to the local revenue/supply hierarchy for \nphysical verification before approval: \n• \nRural areas: the Gram Panchayat Officer/Lekhpal verifies household details, income claims, and \nresidence, often visiting the address in person. \n• \nUrban areas: a Revenue Inspector/Supply Inspector conducts the equivalent verification for households \nwithin municipal limits. \n• \nVerification typically checks: actual residence at the stated address, family composition against \nAadhaar/Family ID records, absence of an existing ration card elsewhere, and rough consistency of the \nincome claim with visible household circumstances. \n• \nThe verifying officer submits a report/recommendation to the District Supply Officer (DSO), who \napproves or rejects the application and assigns the card category (AAY/PHH/EHH). \nSource: Compiled from CitizenNest and India Customer Care process descriptions",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 12,
+          "layout": "text",
+          "text": "7.4 Checking Application Status \n32. Go to fcs.up.gov.in. \n33. Click 'राशन कार्ड आवेदन की स्थिलत' (Ration Card Application Status) under Important Links. \n34. Enter your Ration ID / Reference ID / Sandarbh ID and the captcha code. \n35. Click 'Get OTP', enter the OTP received on your registered mobile number, and submit. \n36. Your current status is displayed on screen. \nSource: Sarkari Yojana — FCS UP status check steps \n7.5 Ration Card Eligibility List / Downloading the Card \nOnce approved, you can view/search your entry and download the card in a few ways: \n• \nFCS Portal: fcs.up.gov.in → 'राशन कार्ड की पात्रता सूची' → select District → Block/Town → Gram \nPanchayat/Ward → Fair Price Shop dealer to see the full beneficiary list, or search directly by ration card \nnumber with OTP verification. \n• \nDigiLocker: Open the DigiLocker app or digilocker.gov.in, log in with your Aadhaar-linked mobile \nnumber, search 'Ration Card', select the issuing department, and fetch the document. \n• \nMera Ration 2.0 App: Available on Play Store/App Store; log in with Aadhaar-based authentication to \nview/download your card and check entitlements — useful under ONORC. \nSource: Bajaj Finserv; India Customer Care — ration card download methods",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 13,
+          "layout": "text",
+          "text": "8. Fee Structure — Ration Card and Related Certificates \nService \nGovernment Fee \nTypical CSC/Jan Seva Kendra Service \nCharge \nNew Ration Card issuance \nNil \nApprox. Rs. 10–30 \nRation card correction/modification \nNil (in most cases) \nApprox. Rs. 10–30 \nIncome Certificate (Aay Praman Patra) \nNominal portal fee (varies) \nApprox. Rs. 30–50 \nDomicile Certificate (Niwas Praman Patra) \nNominal portal fee (varies) \nApprox. Rs. 20–40 \nCaste Certificate — offline \nRs. 1.50 court-fee stamp \nApprox. Rs. 20 \nFamily ID registration \nNil \nNil (self-service) / minor CSC assistance \ncharge \n \nNote: Exact CSC service charges are not centrally fixed and can vary by operator/district; the figures above are commonly \nreported ranges from secondary sources, not an official fee notification. \nSource: Compiled from LegalRaasta, India Customer Care, and CitizenNest fee references \n9. Managing an Existing Ration Card \n9.1 Adding a family member \n37. Log in at fcs.up.gov.in → Modification section → 'Add Member'. \n38. Enter the new member's details and Aadhaar number. \n39. Attach supporting document (e.g., birth certificate for a newborn, marriage certificate for a spouse). \n40. Submit for verification by the Supply Inspector. \n9.2 Removing a member \n41. Use the 'Delete Member' option on the same portal. \n42. Attach supporting proof — typically a death certificate, or proof of the member's inclusion on a separate \nnew household card. \n9.3 Corrections (name, address, category) \nApply through the correction/modification link on fcs.up.gov.in, or at the Tehsil Supply Office, with supporting \ndocuments proving the correct detail (e.g., Aadhaar for name spelling). \n9.4 Renewal, duplicate card & surrender \n• \nRenewal: use the renewal form on fcs.up.gov.in or edistrict.up.gov.in when a card nears expiry or needs \nreissue. \n• \nDuplicate/lost card: apply for a duplicate at the Tehsil Supply Office or online, typically with an \nFIR/police report reference if the original was lost or stolen, plus identity proof.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 14,
+          "layout": "text",
+          "text": "• \nSurrender: required before permanently moving to another state (to avoid duplicate-card violations), or \nwhen a household is being merged/split. \nSource: CitizenNest — UP Ration Card modification steps \n10. Digital Systems: e-PoS, Aadhaar Seeding & ONORC \n10.1 Electronic Point of Sale (e-PoS) \nFair Price Shops in UP use e-PoS devices that authenticate beneficiaries biometrically (fingerprint/iris) or via OTP \nbefore dispensing foodgrain, and log the transaction quantity electronically against the beneficiary's Aadhaarseeded ration card. UP has also linked e-PoS machines with electronic weighing scales, an initiative highlighted \nat the national level for improving delivery accuracy of the exact entitled quantity. \n10.2 Aadhaar Seeding \nAadhaar seeding — linking each beneficiary's Aadhaar number to their ration card entry — is mandatory \nnationwide, including in UP, to prevent duplicate/ghost beneficiaries and to enable biometric authentication at \nthe FPS. \n10.3 One Nation One Ration Card (ONORC) \nONORC allows ration cardholders to draw their entitlement from any Fair Price Shop in India using Aadhaarbased authentication. Nationally, during 2024, roughly 30 crore portability transactions were recorded over 11 \nmonths, delivering around 66 lakh metric tonnes (LMT) of foodgrain through inter-state and intra-state \nportability under NFSA and PMGKAY combined — with more than 2.5 crore portability transactions recorded per \nmonth under PMGKAY foodgrain distribution specifically. Uttar Pradesh, as both a major source state for \nmigrant labour and a large PDS state, participates fully in ONORC. \n10.4 Mera Ration 2.0 App & DigiLocker \nThe Mera Ration 2.0 mobile app (Play Store/App Store) and DigiLocker allow Aadhaar-authenticated cardholders \nto view entitlements, locate nearby Fair Price Shops, and download a digital copy of the ration card without \nvisiting an office. \nSource: PIB — Year-End Review of Department of Food and Public Distribution, 2024 (ONORC transaction volumes); PIB/news reports on \nUP e-PoS–weighing scale integration",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 15,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 15,
+          "layout": "text",
+          "text": "11. Procurement & Supply Chain Behind the PDS \n11.1 Minimum Support Price (MSP) & Procurement \nBefore foodgrain reaches Fair Price Shops, it must first be procured from farmers at the Minimum Support Price \n(MSP) — a floor price set by the Central Government each season to protect farmer incomes — and \nstored/transported through the Food Corporation of India (FCI) and, in some states, state procurement agencies \nunder decentralised procurement. \nVerified procurement figures \n• \nRabi Marketing Season (RMS) 2024-25: total wheat procurement across India reached about 266 Lakh \nMetric Tonnes (LMT), up from 262 LMT in RMS 2023-24 and 188 LMT in RMS 2022-23. \n• \nUttar Pradesh's wheat procurement in RMS 2024-25 was reported at approximately 9.31 LMT (an \ninterim government release) — a sharp rise from about 2.20 LMT in the previous season — with a \nseparate mid-season figure citing 9.07 LMT as of late May 2024; both figures come from official \nConsumer Affairs Ministry updates at different points in the procurement window, and reflect UP's \ntraditionally modest share of central-pool wheat procurement compared to Punjab, Haryana, and \nMadhya Pradesh. \n• \nMSP for wheat, RMS 2024-25: Rs. 2,275 per quintal, benefiting more than 22 lakh farmers nationally \nwith about Rs. 61,000 crore credited directly to farmer bank accounts. \n• \nKharif Marketing Season 2023-24 (national): paddy procurement exceeded 728 LMT, equivalent to \nabout 489.15 LMT of milled rice, from around 98.26 lakh farmers, with an MSP outflow of roughly Rs. \n1,60,000 crore. \n• \nProduction context (Economic Survey 2025-26, 2024-25 crop year): Uttar Pradesh is India's largest \nwheat-producing state, with 35.65 million tonnes (about 30.2% of national wheat production), and the \nlargest rice-producing state, with 20.76 million tonnes (about 13.8% of national rice production). \nNote: UP's large production base does not automatically translate into large central-pool procurement volumes — much of \nUP's wheat and rice moves through open-market and local trade channels rather than government procurement, which is \nwhy its MSP procurement figures are modest relative to Punjab/Haryana despite leading national production. \nSource: PIB press releases on RMS 2024-25 wheat procurement; Business Standard, Business Today, NewsOnAir coverage of the same \ngovernment release; Economic Survey 2025-26 Statistical Appendix (Table 1.18) \n11.2 Central Issue Price (CIP) & Economic Cost \nThe Central Issue Price is the rate at which the Centre supplies foodgrain to states for PDS distribution; the \ndifference between CIP and the government's actual economic cost of handling grain is borne as food subsidy. \n• \nIn 2002-03 (when CIP first became effective), the economic cost of rice was about Rs. 11.7/kg and wheat \nabout Rs. 8.8/kg. \n• \nBy 2024-25 (estimated), the economic cost had risen to about Rs. 39.8/kg for rice and Rs. 27.7/kg for \nwheat — reflecting storage, transport, and procurement cost inflation over two decades. \n• \nSince foodgrain is now supplied free to NFSA beneficiaries, nearly the entire economic cost is absorbed \nas central food subsidy. \nSource: PRS Legislative Research — Demand for Grants 2024-25 Analysis: Food and Public Distribution \n11.3 Storage, Transit & Losses",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 16,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 16,
+          "layout": "text",
+          "text": "Foodgrain moves from procurement centres to FCI/state godowns, then onward to Fair Price Shops via a districtlevel supply chain. Some loss occurs in storage and transit, tracked and reported by FCI for accountability. \n• \nAt the national level, FCI has been increasing use of containerised rail ('rakes') and multi-modal \ntransport (coastal shipping plus road) to cut freight costs and transit time, including inter-state \nmovement relevant to UP's supply chain as both a producing and consuming state. \n• \nDuring 2024 (January–October), FCI moved a total of 10,205 rakes of foodgrain, amounting to \napproximately 358.93 LMT, nationally. \nSource: PIB — Year-End Review of Department of Food and Public Distribution, 2024 \n12. Fair Price Shop (FPS) System \n12.1 Dealer appointment & margins \nFair Price Shop dealers are appointed by the district administration (District Supply Officer) under state PDS \ncontrol order rules, typically preferring cooperative societies, self-help groups, or individuals meeting eligibility \nnorms set by the state. Dealers earn a commission/margin per quintal of foodgrain sold, partly reimbursed by \nthe central government under NFSA. \n12.2 Vigilance & monitoring \n• \nVigilance Committees at the Fair Price Shop, block, and district levels are meant to include local citizen \nrepresentatives to monitor stock arrival, distribution, and pricing at FPS outlets. \n• \ne-PoS transaction logs create a digital audit trail that supply departments and vigilance authorities can \ncross-check against physical stock registers. \n• \nCommon malpractices flagged historically include short-weighing, diversion of stock to the open market, \nand inclusion of ineligible ('bogus') beneficiaries — these are precisely the issues Aadhaar seeding and ePoS digitisation are designed to reduce. \n12.3 Reporting problems at an FPS \nBeneficiaries facing short-weighing, denial of entitlement, or dealer misconduct can complain via the toll-free \nhelpline, the fcs.up.gov.in grievance section, or in person to the District Supply Officer (see Section 14). \nSource: General PDS control order framework as reported across state PDS guidance and government vigilance mechanisms",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 17,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 17,
+          "layout": "text",
+          "text": "13. Facts & Figures (Sourced) \nThis chapter consolidates verifiable, sourced statistics on India's and Uttar Pradesh's PDS/foodgrain system. Only \nfigures traceable to an official release or a reputable secondary report of one are included; where UP-specific \nyearly retail-offtake data (i.e., exact tonnes of wheat/rice actually distributed through UP's Fair Price Shops in a \ngiven year) was not accessible in verifiable form during research for this document, that gap is stated explicitly \nrather than filled with an estimate. \nMetric \nFigure \nPeriod / As of \nUP ration cards (total) \n≈ 3.6 crore \nRecent (2026 secondary aggregation) \nUP PDS beneficiaries (total) \n≈ 14.6 crore \nRecent (2026 secondary aggregation) \nUP Fair Price Shops \n80,000+ \nRecent (2026 secondary aggregation) \nUP districts covered \n75 \nAll districts \nUP wheat procurement, RMS 2024-25 \n≈ 9.31 LMT (interim); ≈ 9.07 LMT (as of late May \n2024) \nRMS 2024-25 (Apr 2024 onward) \nUP wheat procurement, RMS 2023-24 \n≈ 2.20 LMT \nRMS 2023-24 \nNational wheat procurement, RMS 202425 \n≈ 266 LMT \nAs of Jul 2024 update \nNational wheat procurement, RMS 202324 \n≈ 262 LMT \nRMS 2023-24 \nNational paddy/rice procurement, KMS \n2023-24 \n≈ 728 LMT paddy (≈ 489.15 LMT rice) \nKMS 2023-24 \nUP wheat production \n35.65 million tonnes (≈ 30.2% of national) \n2024-25 crop year (largest producing \nstate) \nUP rice production \n20.76 million tonnes (≈ 13.8% of national) \n2024-25 crop year (largest producing \nstate) \nNational NFSA coverage \n≈ 80 crore persons (of ≈ 81.34 crore max \nentitlement) \nRecent official figure \nNational ONORC portability transactions \n≈ 30 crore transactions / ≈ 66 LMT foodgrain (11 \nmonths) \n2024 \nEconomic cost of rice (Centre) \n≈ Rs. 39.8/kg (2024-25 est.), up from Rs. 11.7/kg \nin 2002-03 \n2024-25 estimate \nEconomic cost of wheat (Centre) \n≈ Rs. 27.7/kg (2024-25 est.), up from Rs. 8.8/kg \nin 2002-03 \n2024-25 estimate \n \nNote: UP-specific year-by-year Fair Price Shop offtake (how much wheat/rice was actually distributed to beneficiaries within \nUP each year) is published by DFPD/FCI in datasets such as data.gov.in's 'State/UT-wise Foodgrains Allocation under NFSA' \nseries, but the live table could not be extracted in verifiable numeric form during this research session (the hosting page \nrenders via JavaScript and the underlying dataset table wasn't retrievable). If this level of granularity is needed for dataset \ntraining, the recommended path is downloading the CSV/API export directly from data.gov.in or indiastat.com rather than \nrelying on a secondary summary.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 18,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 18,
+          "layout": "text",
+          "text": "Source: Figures compiled from: PIB press releases (RMS 2024-25 wheat procurement, Year-End Review 2024); Business Standard, Business \nToday, NewsOnAir (procurement reporting); Economic Survey 2025-26 Statistical Appendix; PRS Legislative Research (Demand for Grants \n2024-25); official NFSA coverage figures as reported via Kamaraj IAS Academy summary of government data \n14. Grievance Redressal & Helplines \nHelpline / Channel \nNumber / Link \nPurpose \nUP PDS Toll-Free Helpline \n1967 / 1800-1800-150 \nRation card & FPS-related \ncomplaints (short weighing, denial \nof ration, etc.) \nOnline Grievance \nfcs.up.gov.in → Grievance section \nFile a written complaint online and \ntrack resolution \nDistrict Supply Officer (DSO) \nVisit in person with card/application \ndetails \nEscalation if the toll-free line doesn't \nresolve the issue \nDistrict Grievance Redressal Officer \n(DGRO) \nDistrict Collectorate / Tehsil office \nStatutory NFSA grievance officer for \nentitlement/delivery complaints \nCPGRAMS \npgportal.gov.in \nCentral grievance portal — Dept. of \nFood & Public Distribution \nRTI (Right to Information) \nDistrict Supply Officer / Tehsil Food \nInspector, as Public Information \nOfficers \nFormal request for \napplication/verification status if \nseverely delayed \n \n14.1 Escalation sequence for a stuck application \n43. Check status online at fcs.up.gov.in using the Reference ID. \n44. If unresolved beyond the normal 15–30 day window, call the toll-free helpline (1967 / 1800-1800-150). \n45. File an online grievance at fcs.up.gov.in and/or CPGRAMS (pgportal.gov.in) — Department of Food & \nPublic Distribution. \n46. If still unresolved, file an RTI request under the RTI Act, 2005, addressed to the District Supply Officer \nand/or Tehsil Food Inspector, requesting the verification report and current file status. \n47. A First Appeal under Section 19(1) of the RTI Act can follow if the RTI response is silent or evasive, and a \nSecond Appeal to the State Information Commission thereafter. \nSource: India Customer Care; righttoinformation.wiki — grievance/RTI escalation guidance; NFSA statutory DGRO provision \n15. Related UP Welfare Schemes Linked via Ration Card / Family ID \nBecause the ration card and Family ID are used as base identity/eligibility layers for several other UP welfare \nprogrammes, applicants working on a broader PDS/welfare chatbot may also want to track these adjoining \nschemes: \n• \nPension Schemes (old-age, widow, disability pensions) — often cross-verified against ration card/Family \nID data for eligibility and duplicate-beneficiary checks. \n• \nKanya Sumangala Yojana — a girl-child welfare scheme in UP where family income and Family ID/ration \ncard records may be used as supporting eligibility documentation.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 19,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 19,
+          "layout": "text",
+          "text": "• \nScholarship schemes (pre-matric/post-matric, OBC/SC/ST) — income and caste certificates obtained via \nthe same edistrict.up.gov.in workflow described in Section 6 are commonly reused here. \nNote: This document's core focus remains the ration card/PDS system; the above is included only as cross-reference context \nrelevant to the wider Public Distribution Scheme (Ration) and Welfare Scheme project.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 20,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 20,
+          "layout": "text",
+          "text": "16. Glossary of Terms \nTerm (Hindi/English) \nMeaning \nPDS / TPDS \nPublic Distribution System / Targeted Public Distribution System — the \ngovernment's foodgrain distribution mechanism \nNFSA \nNational Food Security Act, 2013 — the central law entitling eligible \nhouseholds to subsidised/free foodgrain \nAAY (Antyodaya Anna Yojana) \nPriority sub-category for the poorest-of-the-poor households, entitled to \n35 kg foodgrain/household/month \nPHH (Priority Household) \nNFSA category entitled to 5 kg foodgrain/person/month \nFPS (Fair Price Shop) \nThe local retail outlet ('ration dukaan') where beneficiaries collect their \nmonthly entitlement \ne-PoS \nElectronic Point of Sale device used at FPS for biometric/OTP \nauthentication and transaction logging \nONORC \nOne Nation One Ration Card — portability scheme letting cardholders use \nany FPS in India \nPMGKAY \nPradhan Mantri Garib Kalyan Anna Yojana — the scheme now merged into \nNFSA that makes foodgrain free of cost \nCIP \nCentral Issue Price — the rate at which the Centre supplies foodgrain to \nstates \nMSP \nMinimum Support Price — the floor price the government pays farmers for \nprocurement \nFCI \nFood Corporation of India — the central agency handling procurement, \nstorage, and movement of foodgrain \nAay Praman Patra \nIncome Certificate \nNiwas / Mool Niwas Praman Patra \nResidence Certificate / Permanent Domicile Certificate \nJati Praman Patra \nCaste Certificate \nLekhpal \nVillage-level revenue official who conducts rural field verification \nTehsildar \nSub-district revenue officer who signs/issues most certificates \nDSO (District Supply Officer) \nDistrict-level officer overseeing ration card approval and PDS \nadministration \nDGRO \nDistrict Grievance Redressal Officer — statutory NFSA grievance officer \nSandarbh ID / Reference ID \nThe tracking number issued on submitting a ration card or certificate \napplication \nFamily ID / Ek Parivar Ek Pehchan \nUP's unique 12-digit household identification number \nSECC \nSocio Economic Caste Census — data source historically used to identify \nBPL/PHH households",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 21,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 21,
+          "layout": "text",
+          "text": "17. Comprehensive FAQ \nIs there any fee for a new ration card? \nNo government fee for issuance itself. CSC/Jan Seva Kendra may charge a nominal service fee (roughly Rs. 10–\n30). \nHow long does it take to get a ration card? \nTypically 15–30 days after submission, including field verification, though actual timelines can vary by district. \nCan I apply if I already have a ration card in another state? \nNo — a household can hold only one active ration card in India. You must surrender the old card before/while \napplying fresh in UP. \nIs Aadhaar mandatory? \nYes, for the head of family at minimum, and generally for all members being added, for e-KYC and biometric \nauthentication at the Fair Price Shop. \nWhat if my income certificate application is rejected or delayed? \nCheck the reason on the eSathi status page; common causes are mismatched Aadhaar e-KYC details or \nincomplete self-declaration. Reapply after correcting the flagged issue, or visit the Tehsil office directly. \nIs foodgrain really free now, or subsidised? \nSince 1 January 2023, NFSA foodgrain (5 kg/person for PHH, 35 kg/household for AAY) is provided completely \nfree of cost under the PMGKAY–NFSA merger, extended through December 2028. \nWhat is the difference between Samanya Niwas Praman Patra and Mool Niwas Praman Patra? \nSamanya Niwas Praman Patra proves your current residential address; Mool Niwas Praman Patra proves \npermanent/ancestral domicile in UP and is generally what's needed for state-quota admissions and government \njobs. \nCan a migrant worker from UP use their ration card outside the state? \nYes, under ONORC, a UP ration card can be used at any Fair Price Shop in India with Aadhaar-based \nauthentication, without needing to apply for a new card in the destination state. \nWhat happens if the Fair Price Shop dealer gives less quantity than entitled? \nThis is a reportable violation — complain via the toll-free helpline (1967 / 1800-1800-150) or the fcs.up.gov.in \ngrievance section; under NFSA, a Food Security Allowance may also be payable if entitlement isn't supplied. \nDoes the ration card expire? \nCards can need renewal/reissue over time (e.g., damaged card, long-unused card flagged in periodic verification \ndrives); use the renewal option on fcs.up.gov.in or edistrict.up.gov.in when required. \nWho decides whether a household gets AAY or PHH classification? \nThe District Supply Officer, based on the field verification report from the Lekhpal/Supply Inspector and the \neligibility criteria set by the state (income, vulnerability indicators such as disability/widowhood/old age, and \nNFSA quotas). \nCan women apply as head of household?",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 22,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 22,
+          "layout": "text",
+          "text": "Yes — NFSA specifically provides that the eldest woman of the household, aged 18 or above, is to be recognised \nas the head of household for ration card issuance, unless no adult woman is available in the family. \nWhat is the role of the Family ID in the ration card process? \nFamily ID consolidates household data across schemes; many certificate applications (e.g., Domicile Certificate) \nnow mandate entering the Family ID, and it can also link the household to other welfare schemes beyond PDS. \nIs there a helpline specifically for senior citizens or SC/ST grievances related to welfare schemes? \nYes, at the national level there are dedicated helplines such as the National Helpline for Senior Citizens \n(14567/Elderline) and the SC/ST Atrocities Prevention National Helpline (14566), alongside the general PDS \nhelpline for ration-specific issues. \nSource: Compiled from CitizenNest, India Customer Care, edistrictup.in, dfpd.gov.in NFSA text, and PIB releases referenced throughout this \ndocument \n18. Key Official Portals \n• \nfcs.up.gov.in — Department of Food & Civil Supplies, UP (ration card application, status, eligibility list, \ndownload, grievance) \n• \nedistrict.up.gov.in / esathi.up.gov.in — e-District UP portal (income, domicile, caste certificates and \nother services) \n• \nfamilyid.up.gov.in — UP Family ID (Ek Parivar Ek Pehchan) registration \n• \nnfsa.up.gov.in — NFSA beneficiary/eligibility list by district \n• \ndigilocker.gov.in — Digital document wallet (download issued ration card) \n• \npgportal.gov.in (CPGRAMS) — Central grievance redressal portal \n• \ndfpd.gov.in — Department of Food & Public Distribution, Government of India (NFSA text, PMGKAY \nnotifications) \n• \ndata.gov.in — Open Government Data Platform (for raw NFSA allocation/offtake datasets, where \nCSV/API export is needed)",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 23,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T09:48:59Z",
+      "blocks": [
+        {
+          "page": 23,
+          "layout": "text",
+          "text": "19. Sources Consulted \nThis guide summarises publicly available information from the official portals listed above and the following secondary \nsources, current as of July 2026. Government rules, fee structures, income thresholds, and procurement/production figures \nchange regularly — always confirm current details on the official fcs.up.gov.in / edistrict.up.gov.in / dfpd.gov.in portals \nbefore relying on this document for a live decision or for exact current-year statistics. \n• \nCitizenNest — UP Ration Card Apply Online guide (citizennest.com) \n• \nIndia Customer Care — UP Ration Card, Income Certificate, Domicile Certificate guides \n(g.indiacustomercare.com) \n• \nClearTax — UP Ration Card overview (cleartax.in) \n• \nTribune India — UP Ration Card application process (tribuneindia.com) \n• \nSarkari Yojana — FCS UP status/list check steps (sarkariyojana.com) \n• \nLegalRaasta — UP Domicile Certificate & Caste Certificate guides (legalraasta.com) \n• \nedistrictup.in — e-District UP certificate guides \n• \negovtschemes.com / pppfamilyiid.com — UP Family ID registration guides \n• \nrighttoinformation.wiki — Grievance/RTI escalation guidance for stuck ration card applications \n• \nBajaj Finserv — Ration Card Download UP guide (bajajfinserv.in) \n• \nDepartment of Food & Public Distribution (dfpd.gov.in) — National Food Security Act, 2013, full text and \nNFSA free-foodgrain notification S.O. 6148(E) \n• \nPress Information Bureau (pib.gov.in) — RMS 2024-25 wheat procurement releases; Year-End Review of \nDepartment of Food and Public Distribution, 2024 \n• \nBusiness Standard, Business Today, NewsOnAir, Krishi Jagran, Prokerala, New Kerala — news coverage \nof the same PIB procurement releases (cross-checked for consistency) \n• \nPRS Legislative Research — Demand for Grants 2024-25 Analysis: Food and Public Distribution \n(CIP/economic cost figures) \n• \nEconomic Survey 2025-26, Statistical Appendix, Table 1.18 (indiabudget.gov.in) — state-wise crop \nproduction figures \n• \nPMFIAS, PubAdmin Institute, Business Standard, Grokipedia, Kamaraj IAS Academy — NFSA/PMGKAY \nhistorical and legal background (cross-checked across sources) \n• \ndata.gov.in — Open Government Data Platform (NFSA allocation dataset identified but not numerically \nextractable in this session; recommended for direct CSV/API download if exact UP-level yearly offtake \nfigures are required)",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    }
+  ]
+}

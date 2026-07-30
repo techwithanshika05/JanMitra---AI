@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_b91f582a72b44524_p0006_b0007",
+  "chart_type": "chart",
+  "title": "PERCENTAGE OF FOODGRAINS LIFTED OUT OF TOTAL ALLOCATIONS WAS LOWER FOR PMGKAY-VI COMPARED TO PREVIOUS PHASES",
+  "description": "| Period | Allocations (in lakh tons) | Offtake (in lakh tons) | Percentage of foodgrains lifted out of total allocations |\n| :--- | :--- | :--- | :--- |\n| PMGKAY-I (Apr-Jun 2020) | 120 | 117 | ~98% |\n| PMGKAY-II (Jul-Nov 2020) | 200 | 188 | ~94% |\n| PMGKAY-III (May-Jun 2021) | 80 | 78 | ~98% |\n| PMGKAY-IV (Jul-Nov 2021) | 199 | 193 | ~97% |\n| PMGKAY-V (Dec 21-Mar 2022) | 159 | 153 | ~96% |\n| PMGKAY-VI (Apr-Sep 2022) | 239 | 200 | 84% |\n| PMGKAY-VII (Oct-Dec 2022) | 120 | 83 | 69% |",
+  "categories": [],
+  "series": [],
+  "source_page": 6,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_b91f582a72b44524_p0006_b0007.png"
+}

@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_b91f582a72b44524_p0007_b0004",
+  "chart_type": "chart",
+  "title": "FOR MOST STATES, OFFTAKE IN 2022-23 TILL NOVEMBER WAS ALREADY HIGHER THAN OFFTAKE IN 2019-20",
+  "description": "| State | Offtake 2019-20 (in thousand tons) | Offtake 2020-21 (in thousand tons) | Offtake in 2021-22 (in thousand tons) | Offtake 2022-23 (till November) (in thousand tons) |\n| :--- | :--- | :--- | :--- | :--- |\n| Uttar Pradesh | ~8,959 | 14,795 | >15,694* | 9,496 |\n| Bihar | ~5,404 | 8,427 | ~9,187 | 6,367 |\n| West Bengal | ~3,919 | 6,380 | ~6,824 | 4,832 |\n| Maharashtra | ~4,029 | 6,664 | ~6,487 | 4,149 |\n| Madhya Pradesh | ~3,394 | 5,170 | ~5,517 | 3,572 |\n| Rajasthan | ~2,843 | 4,639 | ~4,642 | 3,246 |\n| Gujarat | ~1,925 | 3,432 | ~3,780 | 2,599 |\n| Odisha | ~2,047 | 3,330 | ~3,703 | 2,870 |\n| Jharkhand | ~1,679 | 2,771 | ~2,797 | 2,019 |\n| Chhattisgarh | ~1,375 | 2,182 | ~2,437 | 1,623 |\n| Meghalaya | 176 | 263 | 289 | 197 |\n\n*Note: The value for 'Offtake in 2021-22' is visually estimated as it exceeds the top of the chart axis.*",
+  "categories": [],
+  "series": [],
+  "source_page": 7,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_b91f582a72b44524_p0007_b0004.png"
+}

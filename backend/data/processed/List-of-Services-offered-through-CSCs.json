@@ -1,0 +1,76 @@
+{
+  "source_file": "List-of-Services-offered-through-CSCs.pdf",
+  "metadata": {
+    "total_pages": 2,
+    "total_blocks": 2,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.2222222222222222,
+    "processed_at": "2026-07-30T07:52:35Z",
+    "sarvam_visual_blocks": 2
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T07:52:35Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "List of Services offered through CSCs \nSL \nNO. \nCONTENTS \nSL \nNO. \nCONTENTS \n \n \n \n \n1 \nAadhaar Services \n5 \nEducational Services \n1.1 \nAadhaar Services – Generation of \nAadhaar \n5.1 \nEducation Services – Digital Literacy \n1.2 \nAadhaar Services – E-KYC & \nAuthentication \n5.2 \nVarious On-line courses of NIELIT & \nNIOS, various courses of IGNOU, IITs, \nPrivate Universities \n1.3 \nAadhaar Services – Aadhaar \nPrinting \n5.3 \nVarious courses of CSC Academy \n1.4 \nAadhaar Updates (UCL) \n6 \nLegal Services \n2 \nCentral G2C Services - PM \nWelfare Schemes \n6.1 \nTele-Legal Consultation Services \n2.1 \nAyushman Bharat Yojana \n6.2 \nE-Courts Services \n2.2 \nPM FasalBima Yojana \n7 \nFinancial Inclusion Services \n2.3 \nPM - Ujjwala Scheme (LPG \nBooking) \n7.1 \nFinancial Inclusion – Banking Services \n2.4 \nPM - Shram Yogi Maan-dhan \nYojana \n7.2 \nFinancial Inclusion – DigiPay (AEPS) \n2.5 \nPM - Kisan Maan-dhan Yojana \n7.3 \nFinancial Inclusion – Insurance Services \n2.6 \nPM - Kisan Samman Nidhi Yojana \n7.4 \nFinancial Inclusion – NPS & APY \n2.7 \nPM - Merchant Pension Yojana \n7.5 \nFinancial Inclusion – Fastag Services \n2.8 \nPM - Kisan Credit Cards Yojana \n7.6 \nFinancial Inclusion - CIBIL Registrations \n2.9 \nPM - SVA Nidhi Yojana \n8 \nTours & Travels \n2.1 \nE-Shram Registrations \n8.1 \nTours & Travels – IRCTC Services \n3 \nOther Central G2C Services \n8.2 \nTours & Travels – Other Services \n3.1 \nElection Commission Services \n9 \nUtility Bill Payment Services \n3.2 \nPassport Application \n9.1 \nUtility Bill Payment – Bharat Bill \nPayment System (BBPS) \n3.3 \nPAN Application \n9.2 \nUtility Services – Electricity Bill Payment \n3.4 \nSwachh Bharat Abhiyan \n9.3 \nUtility Services – Water Bill Payment \n3.5 \nFSSAI Registration/Licence \n9.4 \nUtility Services – LPG Booking \n3.6 \nJeevan Pramaan \n10 \nHealthcare Services \n3.7 \nUdyam Jyoti Parichay \n10.1 \nHealthcare Services – Tele-Medicine \n3.8 \nRecruitment Applications through \nCSCs \n10.2 \nHealthcare Services - Medicine Sales",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "table",
+          "text": "<table></table>",
+          "confidence": 0.9739421010017395,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 144.0,
+            "y1": 406.0,
+            "x2": 2342.0,
+            "y2": 2883.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_112cc374958740f8\\tables\\doc_112cc374958740f8_p0001_b0000.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T07:52:35Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "4 \nState G2C Services \n10.3 \nHealthcare Services – StreeSwabhiman \n4.1 \nE-District Services \n11 \nOther B2C / B2B Services \n4.2 \nPDS Services \n11.1 \nGrameen E-Store \n4.3 \nLabour Registration Services \n11.2 \nOther Services – Products Distribution \n4.4 \nE-Stamp \n11.3 \nOther Services – Agriculture Services \n4.5 \nE-Vahan – Sarathi Transport \nServices \n11.4 \nOther Services – Mobile/DTH Recharge \n4.6 \nHimachal SwasthyaBima Yojana \n(HIMCARE) \n11.5 \nOther Services – IT Return Filing \n4.7 \nOther State G2C Services - \nRecruitment Services \n11.6 \nOther Services – Diginame \n4.8 \nOther State G2C Services - \nMunicipal Services \n12 \nSkill Development \n4.9 \nOther State G2C Services - \nSwasthaBima \n12.1 \nSkill Development: Schemes and Courses \n4.1 \nOther State G2C Services - \nFasalBima Yojana \n12.2 \nSkill Development – Job Portals",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "table",
+          "text": "<table></table>",
+          "confidence": 0.9709234833717346,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 145.0,
+            "y1": 299.0,
+            "x2": 2343.0,
+            "y2": 1410.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_112cc374958740f8\\tables\\doc_112cc374958740f8_p0001_b0000.png"
+        }
+      ]
+    }
+  ]
+}

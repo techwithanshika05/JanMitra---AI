@@ -1,0 +1,30 @@
+{
+  "source_file": "New_Ration_Card_Application.pdf",
+  "metadata": {
+    "total_pages": 1,
+    "total_blocks": 1,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.2222222222222222,
+    "processed_at": "2026-07-30T07:54:00Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-30T07:54:00Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "New Ration Card Application\nRequired documents\n1. Aadhaar card of all family members\n2. Address proof (electricity bill / rent agreement)\n3. Income certificate\n4. Bank passbook (first page)\n5. Passport-size family photograph\n6. Deletion certificate (if migrated)\n7. Mobile number linked to Aadhaar\nSetuAI provides AI-generated guidance for educational and assistance purposes only. It is not an official Government of India service and does\nnot provide legal or administrative approval. Users should verify important information with the respective government department before taking\naction.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    }
+  ]
+}

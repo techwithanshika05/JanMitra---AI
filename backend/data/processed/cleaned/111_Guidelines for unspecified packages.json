@@ -1,0 +1,103 @@
+{
+  "document_id": "111_Guidelines for unspecified packages",
+  "source_file": "111_Guidelines for unspecified packages.pdf",
+  "source_path": "data\\raw\\111_Guidelines for unspecified packages.pdf",
+  "file_size_bytes": 718173,
+  "total_pages": 4,
+  "extraction_summary": {
+    "successful_pages": 4,
+    "empty_pages": 0,
+    "failed_pages": 0,
+    "pages_requiring_ocr": 0
+  },
+  "pdf_metadata": {
+    "format": "PDF 1.5",
+    "title": "",
+    "author": "Pooja Chavan",
+    "subject": "",
+    "keywords": "",
+    "creator": "Microsoft® Office Word 2007",
+    "producer": "Microsoft® Office Word 2007",
+    "creationDate": "D:20190717194339+05'30'",
+    "modDate": "D:20191011124957+05'30'",
+    "trapped": "",
+    "encryption": ""
+  },
+  "extraction_info": {
+    "extractor": "PyMuPDF",
+    "extracted_at": "2026-07-22T07:59:30.198433+00:00"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "page 1 \n \n \n \n \n \n \n \nGuidelines for \nUnspecified Packages \n \nIssued on 17/07/2019",
+      "character_count": 82,
+      "word_count": 9,
+      "has_text": true,
+      "needs_ocr": false,
+      "extraction_error": null,
+      "cleaned_text": "Guidelines for Unspecified Packages\n\nIssued on 17/07/2019",
+      "original_character_count": 82,
+      "cleaned_character_count": 57,
+      "cleaned_word_count": 7,
+      "text_changed": true
+    },
+    {
+      "page_number": 2,
+      "text": "page 2 \n \n \n \n \nAll unspecified packages: \nTo ensure that PM-JAY beneficiaries are not denied care, for treatments/procedures that do \nnot feature in the listed interventions, there is an exclusive provision that has been enabled in \nthe TMS (transaction management system) for blocking such treatments, subject to satisfying \ncertain defined criteria (as mentioned)  \nWhen can Unspecified Surgical be booked/ criteria for treatments that can be availed: \n \nOnly for surgical treatments. \n \nCompulsory pre-authorization is in-built while selecting this code for blocking \ntreatments. \n \nCannot be raised under multiple package selection. Not applicable for medical \nmanagement cases. \n \nGovernment reserved packages cannot be availed by private hospitals under this \ncode. PPD/ CPD may reject such claims on these grounds. In addition, SHA may \ncirculate Government reserved packages to all hospitals. Further, States need to \nestablish suitable mechanisms to refer such cases to the public system – as a means \nto avoid denial of care. \n \nCannot be booked for removal of implants, which were inserted under the same \npolicy. Exceptions where removal of implants is not covered under any other \npackage, to be approved by State Health Agencies or National Health Authority. \n \nIn the event of portability, the home state approval team may either reject if a \nGovernment reserved package of the home state is selected by a private hospital in \nthe treating state or consider on grounds of ‘emergency’. \n \nAesthetic treatments of any nature cannot be availed under this code or as such \nunder any other listed codes under PM-JAY. Only medically necessary with functional \npurpose/ \nindications \ncan \nbe \ncovered. \nThe \nprocedure \nshould \nresult \nin \nimproving/restoring bodily function or to correct significant deformity resulting from \naccidental injury, trauma or to address congenital anomalies that have resulted in \nsignificant functional impairment. \n \nIndividual drugs or diagnostics cannot be availed under this code. Only LISTED drugs \nand diagnostics with fixed price schedules, listed under the drop down of respective \nspecialties, are included for blocking treatments. \n \nNone of the treatments that fall under the exclusion list of PM-JAY can be availed viz. \nindividual diagnostics for evaluation, out-patient care, drug rehabilitation, cosmetic/ \naesthetic treatments, vaccination, hormone replacement therapy for sex change or \nany treatment related to sex change, any dental treatment or surgery which is \ncorrective, cosmetic or of aesthetic procedure, filling of cavity, root canal including",
+      "character_count": 2619,
+      "word_count": 385,
+      "has_text": true,
+      "needs_ocr": false,
+      "extraction_error": null,
+      "cleaned_text": "All unspecified packages:\nTo ensure that PM-JAY beneficiaries are not denied care, for treatments/procedures that do not feature in the listed interventions, there is an exclusive provision that has been enabled in the TMS (transaction management system) for blocking such treatments, subject to satisfying certain defined criteria (as mentioned) When can Unspecified Surgical be booked/ criteria for treatments that can be availed:\n\nOnly for surgical treatments.\n\nCompulsory pre-authorization is in-built while selecting this code for blocking treatments.\n\nCannot be raised under multiple package selection. Not applicable for medical management cases.\n\nGovernment reserved packages cannot be availed by private hospitals under this code. PPD/ CPD may reject such claims on these grounds. In addition, SHA may circulate Government reserved packages to all hospitals. Further, States need to establish suitable mechanisms to refer such cases to the public system – as a means to avoid denial of care.\n\nCannot be booked for removal of implants, which were inserted under the same policy. Exceptions where removal of implants is not covered under any other package, to be approved by State Health Agencies or National Health Authority.\n\nIn the event of portability, the home state approval team may either reject if a Government reserved package of the home state is selected by a private hospital in the treating state or consider on grounds of ‘emergency’.\n\nAesthetic treatments of any nature cannot be availed under this code or as such under any other listed codes under PM-JAY. Only medically necessary with functional purpose/ indications can be covered.\nThe procedure should result in improving/restoring bodily function or to correct significant deformity resulting from accidental injury, trauma or to address congenital anomalies that have resulted in significant functional impairment.\n\nIndividual drugs or diagnostics cannot be availed under this code. Only LISTED drugs and diagnostics with fixed price schedules, listed under the drop down of respective specialties, are included for blocking treatments.\n\nNone of the treatments that fall under the exclusion list of PM-JAY can be availed viz.\nindividual diagnostics for evaluation, out-patient care, drug rehabilitation, cosmetic/ aesthetic treatments, vaccination, hormone replacement therapy for sex change or any treatment related to sex change, any dental treatment or surgery which is corrective, cosmetic or of aesthetic procedure, filling of cavity, root canal including",
+      "original_character_count": 2619,
+      "cleaned_character_count": 2540,
+      "cleaned_word_count": 374,
+      "text_changed": true
+    },
+    {
+      "page_number": 3,
+      "text": "page 3 \n \n \n \n \n \nwear and tear etc. unless arising from disease or injury and which requires \nhospitalization for treatment etc.  \n \nHowever, for life threatening cases e.g. of suicide attempt or accident due to excess \nconsumption of alcohol, treatment shall be provided by the hospital till the patient’s \ncondition stabilizes.  \n \nIn case the State/UT is getting multiple requests for the same unspecified package \nfrom multiple hospitals or for multiple patients, then the same should be taken up with \nthe Medical Committee for inclusion in the package master for that State/UT within a \ndefined time frame as per the State/UT.  \n \nThe same should also be shared with NHA for consideration to include such \npackages in national package master \nFor deciding on the approval amount, the PPD may consider the rate of closest match of the \nrequested surgery, in listed PM-JAY packages. It should be noted that the amount approved \nby the PPD would be sacrosanct, to be communicated to the hospital, and the CPD would \nnot be able to deduct any amount or approve partial payment for that claim.  \n \nUnspecified package above 1 lakh: For any State/UT to utilize the unspecified package \nabove 1 lakh, it is to be ensured that the same is approved only in (a) exceptional \ncircumstances and (b) for life saving conditions. \nThe following process to be adhered:  \n \nFor Public Hospitals: \n1. A standing Medical committee will be constituted by CEO of each state to provide inputs \non unspecified packages among their other deliverables.  \n2. CEO, SHA will approve every case after recommendation from the standing medical \ncommittee (wherever committee is yet to be constituted, opinion of 2 medical experts will \nsuffice as recommendation in the interim period), with details of treatment and pricing \nthat is duly negotiated with the provider. This approval should have insurance company \nconcurrence, wherever applicable. \n3. The price should be based on the principle of case based lump sum rate that includes all \ninvestigations, procedure cost, consumables and post-op care included – preferably \nciting rates as ceiling from any govt. purchasing scheme like CGHS etc. if available. \n4. A letter or request from the SHA with approval of competent authority may be sent to \nNHA as an intimation of their approval and requesting technical support for backend",
+      "character_count": 2363,
+      "word_count": 376,
+      "has_text": true,
+      "needs_ocr": false,
+      "extraction_error": null,
+      "cleaned_text": "wear and tear etc. unless arising from disease or injury and which requires hospitalization for treatment etc.\n\nHowever, for life threatening cases e.g. of suicide attempt or accident due to excess consumption of alcohol, treatment shall be provided by the hospital till the patient’s condition stabilizes.\n\nIn case the State/UT is getting multiple requests for the same unspecified package from multiple hospitals or for multiple patients, then the same should be taken up with the Medical Committee for inclusion in the package master for that State/UT within a defined time frame as per the State/UT.\n\nThe same should also be shared with NHA for consideration to include such packages in national package master For deciding on the approval amount, the PPD may consider the rate of closest match of the requested surgery, in listed PM-JAY packages. It should be noted that the amount approved by the PPD would be sacrosanct, to be communicated to the hospital, and the CPD would not be able to deduct any amount or approve partial payment for that claim.\n\nUnspecified package above 1 lakh: For any State/UT to utilize the unspecified package above 1 lakh, it is to be ensured that the same is approved only in (a) exceptional circumstances and (b) for life saving conditions.\nThe following process to be adhered:\n\nFor Public Hospitals:\n1. A standing Medical committee will be constituted by CEO of each state to provide inputs\non unspecified packages among their other deliverables.\n2. CEO, SHA will approve every case after recommendation from the standing medical\ncommittee (wherever committee is yet to be constituted, opinion of 2 medical experts will suffice as recommendation in the interim period), with details of treatment and pricing that is duly negotiated with the provider. This approval should have insurance company concurrence, wherever applicable.\n3. The price should be based on the principle of case based lump sum rate that includes all\ninvestigations, procedure cost, consumables and post-op care included – preferably citing rates as ceiling from any govt. purchasing scheme like CGHS etc. if available.\n4. A letter or request from the SHA with approval of competent authority may be sent to\nNHA as an intimation of their approval and requesting technical support for backend",
+      "original_character_count": 2363,
+      "cleaned_character_count": 2300,
+      "cleaned_word_count": 371,
+      "text_changed": true
+    },
+    {
+      "page_number": 4,
+      "text": "page 4 \n \n \n \n \n \nchange of amount via ticket (including an intimation via mail); TMS will permit to block \nthe unspecified package ≥ Rs. 1 lakh. \n5. Upon request of State Coordinator at NHA, technical team will carry out backend \nchange. \n \nFor Private Hospitals: \n1. A standing Medical committee will be constituted by CEO of each state to provide inputs \non unspecified packages among their other deliverables.  \n2. CEO, SHA will approve every case after recommendation from the standing medical \ncommittee (wherever committee is yet to be constituted, opinion of 2 medical experts will \nsuffice as recommendation in the interim period), with details of treatment and pricing \nthat is duly negotiated with the provider. Justification for the case not being carried \nout at a public hospital will be required to be highlighted in the approval. This \napproval should have insurance company concurrence, wherever applicable. \n3. The price should be based on the principle of case based lump sum rate that includes all \ninvestigations, procedure cost, consumables and post-op care included – preferably \nciting rates as ceiling from any govt. purchasing scheme like CGHS etc. if available. \n4. A letter or request from the SHA with approval of competent authority may be sent to \nNHA for approval along with request for technical support for backend change of amount \nvia ticket (including an intimation via mail); TMS will permit to block the unspecified \npackage ≥ Rs. 1 lakh. \n5. The case upon recommendation of ED (HNW&QA) will be assessed on its merit for \napproval. Once approved, it will be shared by State Coordinator with technical team for \nbackend change.",
+      "character_count": 1665,
+      "word_count": 265,
+      "has_text": true,
+      "needs_ocr": false,
+      "extraction_error": null,
+      "cleaned_text": "change of amount via ticket (including an intimation via mail); TMS will permit to block the unspecified package ≥ Rs. 1 lakh.\n5. Upon request of State Coordinator at NHA, technical team will carry out backend\nchange.\n\nFor Private Hospitals:\n1. A standing Medical committee will be constituted by CEO of each state to provide inputs\non unspecified packages among their other deliverables.\n2. CEO, SHA will approve every case after recommendation from the standing medical\ncommittee (wherever committee is yet to be constituted, opinion of 2 medical experts will suffice as recommendation in the interim period), with details of treatment and pricing that is duly negotiated with the provider. Justification for the case not being carried out at a public hospital will be required to be highlighted in the approval. This approval should have insurance company concurrence, wherever applicable.\n3. The price should be based on the principle of case based lump sum rate that includes all\ninvestigations, procedure cost, consumables and post-op care included – preferably citing rates as ceiling from any govt. purchasing scheme like CGHS etc. if available.\n4. A letter or request from the SHA with approval of competent authority may be sent to\nNHA for approval along with request for technical support for backend change of amount via ticket (including an intimation via mail); TMS will permit to block the unspecified package ≥ Rs. 1 lakh.\n5. The case upon recommendation of ED (HNW&QA) will be assessed on its merit for\napproval. Once approved, it will be shared by State Coordinator with technical team for backend change.",
+      "original_character_count": 1665,
+      "cleaned_character_count": 1623,
+      "cleaned_word_count": 263,
+      "text_changed": true
+    }
+  ],
+  "cleaning_info": {
+    "cleaner": "TextCleaner",
+    "cleaned_at": "2026-07-22T08:03:53.151887+00:00",
+    "cleaning_version": "1.0"
+  },
+  "cleaning_summary": {
+    "document_id": "111_Guidelines for unspecified packages",
+    "total_pages": 4,
+    "pages_with_cleaned_text": 4,
+    "empty_pages": 0,
+    "pages_requiring_ocr": 0,
+    "original_character_count": 6729,
+    "cleaned_character_count": 6520,
+    "characters_removed": 209
+  }
+}

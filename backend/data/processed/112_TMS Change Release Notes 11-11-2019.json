@@ -1,0 +1,498 @@
+{
+  "source_file": "112_TMS Change Release Notes 11-11-2019.pdf",
+  "metadata": {
+    "total_pages": 12,
+    "total_blocks": 32,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.4444444444444444,
+    "processed_at": "2026-07-30T06:42:39Z",
+    "sarvam_visual_blocks": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T06:42:39Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "TMS – Change Release Note \n \nChanges deployed on 11th November 2019 in One TMS \n \n1. Case Search - IP details will be available in case search download for all user types. \n2. Support documents attachment – For uploading support documents, PMAM will now enter the name of the \ndocument like X- Ray, MRI, CT Scan, same name will be saved as the document name for better \nunderstanding of the approvers before they open the document. \n3. Maharashtra – Medical committee logins provided after CPD user. \n4. User details (login id) of TMS user to be displayed the top right corner where User role is displayed. \n5. Hindi SMS to be sent to beneficiaries at various checkpoints in TMS (This functionality already exists for \nsending SMS in English). \n6. EDC notifications – TMS users will be notified on EDC action taken form HEM portal. (Suspension stop \npayment/De-empanel, Revocation of stop payment). \n7. Query, Rejection standardization – For PPD and CPD, query and rejection option available in dropdown as \nwell as remarks field. (Refer detailed concept note). \n8. Additional fields added in detailed case report – IP number, CPD pending count, CPD processing time, \nRevoked cases, Revoked date, Revoked remarks. \n9. Hospital name which was removed from past history is not made available for all cases. \n10. Punjab – State beneficiary portability to be enabled only in Chandigarh. \n11. Response file upload option be available for erroneous claims. \n12. Anti-Fraud Workflow enhancement: The Anti-Fraud workflow in TMS has been enhanced in a way that \nhenceforth cases which have been marked as suspicious by NAFU would appear in SAFO’s worklist and \nwould be removed from the normal transactional flow in TMS i.e. CEX/CPD/ACO/SHA unless SHA AntiFraud Officer takes an action on the case (Refer detailed concept note). \n \n \n \nChanges deployed on 05th August 2019 in TMS: \n \n1. One TMS rollout- In One TMS, both TMS (Transaction Management System) and NTMS (National \nTransaction Management System) processes are performed in a single portal. All workflow \nprocesses will remain as is. \n2. ACO login: Claims not updation Tab – In the current system, number of cases which doesn't have \naccount details are shown in this menu, As per the new change, instead of cases we will show \nHospital details. We will be renamed from \"Claim Not updation\" to \"Hospital without Bank A/c\". \n3. ACO login & SHA Login: Claims Not updation Tab & Claim Updation tab – In the current system \nnumber of cases are shown in the menu, after deployment of OneTMS no of cases will not be display \nin Menu \n4. Cases Search - All roles - The State and Case type will be mandatory along with any one other search \nparameter for generating results in Cases Search. And also the duration in dates will be limited to 3 \nmonths max.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 33.54999923706055,
+            "y1": 55.499977111816406,
+            "x2": 133.35000610351562,
+            "y2": 101.5999755859375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p1_img0.jpeg"
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 522.9000244140625,
+            "y1": 55.499977111816406,
+            "x2": 578.3500366210938,
+            "y2": 112.5999755859375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p1_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T06:42:39Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "Changes deployed on 19th August 2019 in TMS for fraud control: \n \n1. Integration of mandatory documents in TMS: The system should not allow the PMAM to submit pre \nand post claim unless all mandatory documents are uploaded. Medical package list is now updated in \nthe system for these 11 states: Haryana, Bihar, Manipur, Uttar Pradesh, Goa, Himachal Pradesh, \nJharkhand, Jammu and Kashmir, Madhya Pradesh, Sikkim, Daman and Diu. \n2. Gender Mismatch Flag: In order to control fraud prone packages, a check is implemented in the \nsystem to display a pop-up to all relevant level logins in TMS when a gender mismatch anomaly is \nobserved for a case. \n3. Kaizala form field investigation functionality with save feature: The Kaizala field investigation \nfunctionality is now enhanced with a save feature to allow the field investigation officers to fill the \nsurvey forms in parts. \n4. Record Entry Page: A new page is available to NAFU and SAFU users in TMS that allows them to enter \nsuspicious records in the system. \n \nChanges deployed on 24 June 2019 in TMS: \n5. The system is now capable of stopping payments, suspending and de-empaneling any empaneled \nhospital using EDC (Empanelment and Disciplinary Committee) functionality \n6. The system will now be capturing the latest communication address and mobile number of the \nbeneficiaries at the time of registration \n7. As per the Beneficiary Empowerment Guidelines of NHA, the system will be sending SMS to beneficiaries \nat the time of Pre-Auth Initiation, Pre-Approval/Pre-Auth Rejection and Discharge in TMS \n8. For Unspecified Surgical Packages, the partially rejected amount by the PPD at the time of Pre-Auth \napproval will be added back to the beneficiaries family wallet \n9. We have defined working hours in TMS as 11:00 AM to 6 PM for Auto-Approval of the Pre-Auths \n• TMS system calculates time by running schedulers on the data and our schedulers shall be running \nbetween 11:00 AM and 6:00 PM with a frequency of 2 minutes. \n• For example, if a Pre-Auth is raised at 5:00 PM in the evening and no action is taken on the same till 11:00 \nAM, the Pre-Auth will be auto-approved at 11:00 AM. \n• We have kept scheduler start time as 11:00 AM because we wanted to give hospitals 2 hour time in the \nmorning (assuming working hours start at 9:00 AM) for processing all previous day cases \n6. The system will now have a new Analytical Dashboard \n7. Beneficiary Name, mobile number and Aadhar address have been added in Detailed Case Report \n8. Category and Procedure details have been restored in Case Search view and Case Search downloaded \nExcel \n9. NTMS will now have state package master for all the states \n10. The system will now be able to Adjust and Recover claim amount for all the erroneous claims settled in \npast. Hospitals can raise adjustment requests for all the settled claims and ACO can initiate recovery for all \nthe overpaid or penalty cases \n11. The system will now have the functionality to handle all the rejected transactions by banks in states \nwhere payment integration has been enabled \n12. The system will now allow the PPD/CPD to enter standard rejections reason while rejecting any Pre-Auth \nand Claims",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T06:42:39Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "13. The system will now allow the Hospital/MEDCO to reinitiate (only once) the rejected Pre-Auth \n14. Processor names of PPD/CEX/CPD etc. will be hidden from the MEDCO \n \n15. In SHA login, the system will have the capability to send notice/communication to either all the hospitals or a \nspecific hospital \n \n16. Changes/modification have been made to the Fraud functionality available in TMS for SAFU and NAFU",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T06:42:39Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "TMS – Change Release Note \n \nChanges deployed on 8 May 2019 in TMS: \n1. The system is now capable of registering and discharging the patients through BioAuth. \n2. Patient Name and Mobile Number have been restored in Detailed Case Report and only one day \nincremental data will be available in this report. Complete data dump will be provided to the concerned \nstakeholders \n3. Patient Name and Mobile Number are also being displayed in Case Search View \nChanges deployed on 8 May 2019 in NTMS: \n1. Detailed Case Report will have Patient Name and Mobile Number and only one day incremental data will \nbe available in this report. Complete data dump will be provided once to the concerned stakeholders \n2. Patient Name and Mobile Number are also being displayed in Case Search View \n3. Revoke option for the cases with case status as ‘Claim Forwarded by ACO’ has been added back in the \nsystem. Now cases which are CPD Approved/CPD Rejected/ACO Forwarded can be revoked from SHA-Trust \nlogin \n4. The system will display the pendency for assigned cases at PPD and CPD level \n5. The system will display the cases linked to the Family ID in ‘Past History’ tab instead of the cases tagged \nto the beneficiary’s Golden ID \n6. The system will have Assign Flag, Assign User and Assign Group details in the exported excel from \nthe Case Search \n7. The system will have a new filter criterion ‘Case Type’ in Case Search for all the states on Hybrid \nModel \n8. District Name of the hospital has been added in the ‘Hospital Details’ MIS report available in SHA login \n9. NTMS will accept all the attachments in PDF format \n10. The system will now have additional action buttons namely Reject and Raise Query in the SHA login",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 33.54999923706055,
+            "y1": 28.800025939941406,
+            "x2": 133.35000610351562,
+            "y2": 74.9000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p4_img0.jpeg"
+        },
+        {
+          "page": 4,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 522.9000244140625,
+            "y1": 29.300025939941406,
+            "x2": 578.3500366210938,
+            "y2": 86.4000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p4_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T06:42:39Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "text",
+          "text": "TMS – Change Release Note \n \n11. The system will have a new MIS report namely ‘Portability Cases’ in SHA login with \nthe details of the portable cases registered in their specific state \n12. At least one filter has to be applied in Case Search for fetching all the available \nrecords \nChanges deployed on 9 April 2019: \n1. The system will have pre-populated Detailed Case Report in CSV format with additional fields. This report \nwill be updated once in a day during the non-working hours. \n2. A new mobile application Kaizala has been launched to upload the beneficiary/document \nimages in TMS \n3. The system will allow SAFU (State Anti-Fraud Unit) to view Fraud triggers and initiate field investigations \nbased on the same for specific cases. All the field investigation reports will be made in Kaizala mobile app \nand will be uploaded back in TMS from the mobile application (Kaizala). \n4. The system will allow SHA Insurer to use the Revoke functionality for PPD rejected cases \n5. TMS will accept all the attachments in PDF format \n6. Revoke option for the cases with case status as ‘Claim Forwarded by ACO’ has been added back in the \nsystem. Now cases which are CPD Approved/CPD Rejected/ACO Forwarded can be revoked from SHA-Trust \nlogin \n7. The system will now have additional action buttons namely Reject and Raise Query in the SHA login \n8. The system will have Gender and Hospital Type in the Patient Details view in all logins \n9. Due to security and privacy concerns, Beneficiary Name has been encrypted while storing in the \ndatabases and was thus, causing performance issues while populating the same in TMS. Therefore, as a Stop \nGap arrangement, Beneficiary Name has been removed from all the reports in TMS and simultaneously \nteams are working to find a permanent solution for this issue. \nChanges deployed on 18 March 2019: \n1. At least one filter has to be applied in Case Search for fetching all the available records",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 33.54999923706055,
+            "y1": 28.800025939941406,
+            "x2": 133.35000610351562,
+            "y2": 74.9000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p5_img0.jpeg"
+        },
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 522.9000244140625,
+            "y1": 29.300025939941406,
+            "x2": 578.3500366210938,
+            "y2": 86.4000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p5_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T06:42:39Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "TMS – Change Release Note \n \n2. The system will now display beneficiary photograph from BIS and the one uploaded \nby MEDCO in TMS to all the approvers \n3. Category Name and Procedure Name have been removed from the Case Search in all \nTMS logins. Kindly use Detailed Case Report for fetching these details \nChanges deployed on 1 March 2019: \n13. Hybrid feature has been rolled out for the states in Hybrid model. This feature will allow insurer/trust to \napprove & pay their respective liabilities w.r.t. to all the cases \n14. Revoke option for the cases with case status as ‘Claim Forwarded by ACO’ has been removed. Now only \ncases which are CPD Approved/CPD Rejected can be revoked from SHA-Trust login \n15. The system will display the pendency for assigned cases at PPD and CPD level \n16. The system will display the cases linked to the Family ID in ‘Past History’ tab instead of the cases tagged \nto the beneficiary’s Golden ID \n17. The system will have Assign Flag, Assign User and Assign Group details in the exported excel from \nthe Case Search \n18. The system will have multiple procedures separated by Comma in the exported Excel from the Case \nSearch \n19. The system will have a new filter criterion ‘Case Type’ in Case Search for all the states on Hybrid \nModel \n20. District Name of the hospital has been added in the ‘Hospital Details’ MIS report available in SHA login \nChanges deployed on 23 January 2019: \n1. The system will allow registration for beneficiaries awaiting BIS Approval and PreAuth can be raised for \nsuch patients post BIS approval \n2. The system will have ‘Claim Paid Report’ with all the claim related information such as UTR number, \nclaim paid date etc. in MEDCO and SHA logins. \n3. The system will also have claim paid date and UTR number in detailed case view for all logins \n4. The system will have ‘Detailed Case Report’ under MIS tab for hospitals and SHA",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 6,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 33.54999923706055,
+            "y1": 28.800025939941406,
+            "x2": 133.35000610351562,
+            "y2": 74.9000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p6_img0.jpeg"
+        },
+        {
+          "page": 6,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 522.9000244140625,
+            "y1": 29.300025939941406,
+            "x2": 578.3500366210938,
+            "y2": 86.4000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p6_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T06:42:39Z",
+      "blocks": [
+        {
+          "page": 7,
+          "layout": "text",
+          "text": "TMS – Change Release Note \n \nChanges deployed on 16 December 2018: \n1. The system will allow the users (except MEDCO/MITHRA) to reassign the task to either a different user \nwithin same role or a different role altogether for seeking their feedback/comment(s). This new feature \nwill be available as Assign in the action dropdown menu for all the users except MEDCO/MITHRA. \n2. The system will allow CPD to make Partial Payment of claimed amount \n3. The system will allow MEDCO/MITHRA to select the LAMA or DAMA case while discharging the \nbeneficiary for adjusting the claim amount as per applicability of the case \n4. The system will have a separate queue for Day Care procedures in PPD login for pre-authorization \napproval. \n5. The system will allow the SHA Trust to revoke cases whose Pre-authorization or claim request had \nbeen previously rejected or approved. \n6. For the places/hospitals where there is no internet connectivity, the system will have a single user named \nas Offline TMS at SHA. Through Offline TMS login, the user would be able to drive the entire process on behalf \nof hospital (applicable only for auto-approved procedures). \n7. The system will allow the users to zoom in, zoom out and rotate all the attachments. \n8. PPD Multi and CPD Multi Login concept has been removed. \n9. The system will allow MEDCO/MITHRA to upload attachments from the respective screen without going \nto the Attachment tab. \n10. The system will allow users to enter page no. manually in the worklist and go to it directly. \n11. The system will allow the PPD to reject the entire pre-authorization during first enhancement (for a \nmedical case) using the Case Reject option in the action dropdown menu. \n12. Auto-approval after 6 hours has been removed for cases with Unspecified Surgical Procedures. \nChanges deployed on 20 November 2018: \n1. After registering the patient in Register Patient tab, the system will allow to raise new Pre-Auth (using a \nsingle form) directly from Pre-Auth Initiation (New) tab and hence, Registered Patient View has been removed. \n2. All cases which are awaiting Pre-Auth initiation prior to this change release have been moved to Pre-Auth \nInitiation (Old) tab.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 7,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 33.54999923706055,
+            "y1": 28.800025939941406,
+            "x2": 133.35000610351562,
+            "y2": 74.9000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p7_img0.jpeg"
+        },
+        {
+          "page": 7,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 522.9000244140625,
+            "y1": 29.300025939941406,
+            "x2": 578.3500366210938,
+            "y2": 86.4000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p7_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T06:42:39Z",
+      "blocks": [
+        {
+          "page": 8,
+          "layout": "text",
+          "text": "TMS – Change Release Note \n \n3. Once a Pre-auth has been approved, the system will allow the details of the surgery / \ntreatment and discharge can be filled through a single form once the patient is ready \nto be discharged. Hence, Cases for Surgery / Treatment Updation tab has been\nremoved and Cases for Discharge Updation tab has been renamed as Cases for \nSurgery / Discharge tab. \n4. The system will Auto-approve Pre-Auth case if not acted upon within 6 hours \n5. Hospitals gradations can now be configured and applied. \n6. The system will display Family ID and MIS reports \n7. While discharging the patient from TMS, uploading of Hospital’s Discharge \nSummary has been made mandatory \n8. Claim Executive would not be required to check the availability of Patient Satisfaction \nLetter. \n9. The system will allow to delete procedure even when only one item is added \n10. Once an added procedure has been deleted, the system will allow to add a new \nprocedure using Add Procedure button \n11. The system will allow the Preauth Panel Doctor (PPD) to reject an enhancement \nrequest without affecting the previous pre-auth approvals for the case. \n12. The system will allow to raise a new Enhancement request even if the earlier \nenhancement request has been rejected by PPD \n13. The system will maintain audit trail for all the enhancement requests.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 8,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 33.54999923706055,
+            "y1": 28.800025939941406,
+            "x2": 133.35000610351562,
+            "y2": 74.9000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p8_img0.jpeg"
+        },
+        {
+          "page": 8,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 522.9000244140625,
+            "y1": 29.300025939941406,
+            "x2": 578.3500366210938,
+            "y2": 86.4000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p8_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T06:42:39Z",
+      "blocks": [
+        {
+          "page": 9,
+          "layout": "text",
+          "text": "TMS – Change Release Note \n \nChanges deployed on 29 October 2018: \nHospital View: \n1. System will have a common menu at the Login Page for easy accessibility to Mera \nPMJAY, BIS, NTMS, all state TMS, HEM, Support and Insights URL(s) \n2. For all public hospitals, Doctor Registration Number and Qualification have been \nmade non-mandatory \n3. Remarks field has been made non-mandatory across all logins under TMS and NTMS \napplications \n4. Uploading Medical & Cardiology Clearance and Blood Transfusion Clearance is not \nrequired and hence, field for the same has been removed from MEDCO/MITHRA login \n5. System will prompt MEDCO/MITHRA while Initiating Pre-Auth that PRF is not \nrequired and a note with the same message has also been added at the bottom of page. \n6. Under Cases for Surgery Updation tab, system by default will have Anesthetist, Asst. \nSurgeon and Procedure Details in collapsed mode \nApprover View: \n1. In ACO login Under Case Search tab, system will allow to search cases based on \nCategory Name, Procedure and Hospital Name \n2. In ACO and SHA logins, system will show claims whose initiating hospital has not \nupdated Bank Details (in HEM), under Claim Not Updated tab and claim whose \ninitiating hospital has updated Bank details (in HEM), Claim Updated tab. \n3. In ACO and SHA logins, system will display the Bank Account Number, IFSC code, \nHospital Type etc. for all the cases \n4. In ACO and SHA logins, system will allow to download reports with bank details, \nhospital name, hospital code, hospital type (Public or Private), category code, \nprocedure code etc. \n5. System will have a Package Master under MIS tab, which can be printed and \ndownloaded from all user logins including MEDCO/MITHRA logins \nDefect Fixed: \n1. System will allow to Register a New Born in back date up to a maximum of 5 days \nfrom current system date \n2. System will not allow MEDCO/MITHRA to initiate a Pre-Authorization, if the Pre-Auth \namount is Zero \n3. System will not allow MEDCO/MITHRA to initiate a claim, if the Claim Amount is Zero",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 9,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 33.54999923706055,
+            "y1": 28.800025939941406,
+            "x2": 133.35000610351562,
+            "y2": 74.9000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p9_img0.jpeg"
+        },
+        {
+          "page": 9,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 522.9000244140625,
+            "y1": 29.300025939941406,
+            "x2": 578.3500366210938,
+            "y2": 86.4000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p9_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T06:42:39Z",
+      "blocks": [
+        {
+          "page": 10,
+          "layout": "text",
+          "text": "TMS – Change Release Note \n \nChanges deployed on 22 October 2018: \nHospital View: \n1. System will allow to Register Patient in back date up to a maximum of 5 days from \ncurrent system date \n2. System will accept a back dated Admission Date up to the Registration Date \n3. System will accept a back dated Surgery Date up to the Admission Date \n4. System by default will open Pre-Auth tab, once a case is selected from the Pre-Auth \nInitiation tab \n5. Downloading and uploading of Pre-Auth Request Form (PRF) is not required in TMS\nand NTMS applications. Hence, the button to download PRF has been removed from\nthe application. \n6. System will allow to directly Initiate Pre-Auth in MEDCO login without clicking 'Save' \naction type. \n7. Under Pre-Auth Initiation tab, the Action Type Initiate has been renamed as \"Initiate \nPre-auth\". \n8. \"Surgery/Discharge\" has been renamed to \"Treatment/Discharge\" \n9. System will not accept Discharge/Death Date & Follow up Date prior to Surgery Date \n10. Under Cases for Discharge Updation tab, Death label color has been changed to red. \n11. System will prompt the MEDCO for a confirmation, if he/she marks a patient as dead \n12. Under Cases for Discharge Updation tab, Discharge summary as an attachment is not \nrequired during discharge of the beneficiary. \n13. Under Claim Initiation tab, Make Case Sheet attachments and Claim Attachments have \nbeen non mandatory \n14. System by default will open Claim tab, once a case is selected from the Claim Initiation \ntab",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 10,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 33.54999923706055,
+            "y1": 28.800025939941406,
+            "x2": 133.35000610351562,
+            "y2": 74.9000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p10_img0.jpeg"
+        },
+        {
+          "page": 10,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 522.9000244140625,
+            "y1": 29.300025939941406,
+            "x2": 578.3500366210938,
+            "y2": 86.4000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p10_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 11,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T06:42:39Z",
+      "blocks": [
+        {
+          "page": 11,
+          "layout": "text",
+          "text": "TMS – Change Release Note \n \nChanges deployed on 17 October 2018 \nHospital View: \n1. The system will display workflow wise dashboard counts. \n2. In MEDCO/MITHRA login, the system will display Hospital District and Hospital state \n3. The system will allow to access deleted attachments under the Attachment tab \n4. The system will displaying admissible amount on Ward Change for medical cases \nbefore clicking save button. \n5. Patient Consent attachment has been removed. \n6. Uploading Claim Clinical Photo has been made non-mandatory \n7. The system will display Ajax loader while fetching procedures \n8. For medico legal cases, “Case Number” has been renamed as “FIR Number” \n9. “Preauth Update” tab has been renamed as “Preauth Query Update” \n10. Under Attachment tab, “Operation Document” has been renamed as “Operation \nDocument (OT Notes & Anesthetist’s Notes” \n11. “Claim Attachments” has been renamed as “Claim Attachments(Additional support \ndocuments)” \n12. Emergency / telephonic registration will only be visible to the initiating hospitals \n13. The system will allow to register new born baby in another hospital \n14. “Claims Update” sub heading has been renamed as “Claims Query Update” \n15. “Add Specialty” has been renamed as “Add Procedure” \n16. The system will display Treating Doctor Name in Case Form, if the patient is treated \nby Treating Doctor. \n17. “Preauth Cancel” has been renamed as “Case Cancel” \n18. The system will request MEDOC/MITHRA for a confirmation while marking a patient \nas Dead \n19. The system will allow to raise Enhancement for Medical Procedures on Forth day of \nthe already approved Pre-Auth \n20. The system will display dashboard amounts separated by comma \n21. The Package Master will have a separate column for displaying packages reserved for \nGovernment hospitals \n22. In MEDCO/MITHRA login, a separate report for all the Death Cases of their respective \nhospital will be available \nApprover View: \n1. The system will display workflow wise dashboard counts. \n2. At all approval levels, the system will display the total amount consumed by the \nbeneficiary \n3. The system will allow to access past history cases of the patient through a hyperlink \n4. The system will display beneficiary Registration No, Age, Hospital District and \nHospital state in Patient Details View \n5. The system will display patient photo from both BIS and TMS \n6. The system will populate Remarks with 'Approved ' text for all cases in SHA login",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 11,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 33.54999923706055,
+            "y1": 28.800025939941406,
+            "x2": 133.35000610351562,
+            "y2": 74.9000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p11_img0.jpeg"
+        },
+        {
+          "page": 11,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 522.9000244140625,
+            "y1": 29.300025939941406,
+            "x2": 578.3500366210938,
+            "y2": 86.4000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p11_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T06:42:39Z",
+      "blocks": [
+        {
+          "page": 12,
+          "layout": "text",
+          "text": "TMS – Change Release Note \n7. In CEX login, “Patient signature match” has been renamed as “Patient/Attendant \nsignature” \n8. The system will not allow ACO to forward cases to CPD if Destination Bank Account \nNumber is not available in the system \n9. In SHA login, the system will have a payment report with all the payment details \n10. “Fraud” button has been renamed to “Flag” \n11. While raising flag, attachments have been made non-mandatory \n12. The system will bucket Insurance and Trust cases in respective Insurance and Trust \nlogins for PPD, CEX, CPD, ACO and SHA \n13. The system will allow to forward the cases in claims and pre-authorization work flow \nfrom Trust to Insurance and Vice versa \n14. In SHA login, separate report for state wide death cases will be available \nDefects Fixed: \n1. The system will check follow-up date with discharge date but not current date if \ndischarge date is available \n2. The system was not allowing Search Cases based on their Status \n3. The system was not displaying Unspecified Procedures.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 12,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 33.54999923706055,
+            "y1": 28.079978942871094,
+            "x2": 132.14999389648438,
+            "y2": 72.22998046875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p12_img0.jpeg"
+        },
+        {
+          "page": 12,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 522.9000244140625,
+            "y1": 32.150001525878906,
+            "x2": 578.3500366210938,
+            "y2": 89.25
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\112_TMS Change Release Notes 11-11-2019_p12_img1.jpeg"
+        }
+      ]
+    }
+  ]
+}

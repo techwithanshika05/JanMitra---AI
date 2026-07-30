@@ -1,0 +1,3115 @@
+{
+  "source_file": "UP-Samuhik-Vivah-Yojana-Registration-Form-PDF-Download-for-Urban-Area.pdf",
+  "metadata": {
+    "sarvam_jobs": [
+      {
+        "job_id": "20260730_29a8455c-bdf3-4715-80f1-92f40ce0ffee",
+        "status": "Completed",
+        "start_page": 1,
+        "end_page": 5,
+        "metrics": {
+          "total_pages": 5,
+          "pages_processed": 5,
+          "pages_succeeded": 5,
+          "pages_failed": 0
+        }
+      }
+    ],
+    "processor": "sarvam_system",
+    "document_id": "doc_0c19478bb7394ddc",
+    "sha256": "43e7fd5de1906ee70b628898d899921cf172c7c461162348d0dea6caa1a17c6b",
+    "artifact_contract": {
+      "text": "text/markdown",
+      "table": "text/html",
+      "chart_graph": "text/html+application/json+optional_image/png",
+      "image": "image/png",
+      "metadata": "application/json"
+    },
+    "artifacts": [
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0000",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0000",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0000.md",
+        "content": "(परिशिष्ट-2)",
+        "embedding_text": "(परिशिष्ट-2)",
+        "metadata": {
+          "reading_order": 0,
+          "confidence": 0.3563416004180908,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0000.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0001",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0001",
+        "element_type": "unknown",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0001.md",
+        "content": "उत्तर प्रदेश समाज कल्याण विभाग द्वारा संचालित \"मुख्यमंत्री सामूहिक विवाह योजना\" हेतु आवेदन पत्र का प्रारूप (नगरीय क्षेत्र के लिये)",
+        "embedding_text": "उत्तर प्रदेश समाज कल्याण विभाग द्वारा संचालित \"मुख्यमंत्री सामूहिक विवाह योजना\" हेतु आवेदन पत्र का प्रारूप (नगरीय क्षेत्र के लिये)",
+        "metadata": {
+          "reading_order": 1,
+          "confidence": 0.6952500939369202,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0001.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0002",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0002",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0002.md",
+        "content": "प्रति",
+        "embedding_text": "प्रति",
+        "metadata": {
+          "reading_order": 2,
+          "confidence": 0.3875929117202759,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0002.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0003",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0003",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0003.md",
+        "content": "नगर आयुक्त,",
+        "embedding_text": "नगर आयुक्त,",
+        "metadata": {
+          "reading_order": 3,
+          "confidence": 0.5306644439697266,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0003.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0004",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0004",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0004.md",
+        "content": "नगर निगम..................जनपद..................",
+        "embedding_text": "नगर निगम..................जनपद..................",
+        "metadata": {
+          "reading_order": 4,
+          "confidence": 0.5974494814872742,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0004.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0005",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0005",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0005.md",
+        "content": "अधिशासी अधिकारी,",
+        "embedding_text": "अधिशासी अधिकारी,",
+        "metadata": {
+          "reading_order": 5,
+          "confidence": 0.591785192489624,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0005.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0006",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0006",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0006.md",
+        "content": "नगर पालिका परिषद / नगर पंचायत..................जनपद..................उत्तर प्रदेश। विषय-\"मुख्यमंत्री सामूहिक विवाह योजना\" के अन्तर्गत सामूहिक विवाह कार्यक्रम में सम्मिलित होने हेतु पंजीयन एवं विवाह सहायता राशि स्वीकृत करने के सम्बन्ध में।",
+        "embedding_text": "नगर पालिका परिषद / नगर पंचायत..................जनपद..................उत्तर प्रदेश। विषय-\"मुख्यमंत्री सामूहिक विवाह योजना\" के अन्तर्गत सामूहिक विवाह कार्यक्रम में सम्मिलित होने हेतु पंजीयन एवं विवाह सहायता राशि स्वीकृत करने के सम्बन्ध में।",
+        "metadata": {
+          "reading_order": 6,
+          "confidence": 0.6121101975440979,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0006.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0007",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0007",
+        "element_type": "heading",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0007.md",
+        "content": "# भाग-अ",
+        "embedding_text": "# भाग-अ",
+        "metadata": {
+          "reading_order": 7,
+          "confidence": 0.3673464059829712,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0007.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0008",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0008",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0008.md",
+        "content": "आवेदक का आधार कार्ड क्रमांक ....................",
+        "embedding_text": "आवेदक का आधार कार्ड क्रमांक ....................",
+        "metadata": {
+          "reading_order": 8,
+          "confidence": 0.513629138469696,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0008.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0009",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0009",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0009.md",
+        "content": "आवेदक का बीपीएल कार्ड क्रमांक ....................",
+        "embedding_text": "आवेदक का बीपीएल कार्ड क्रमांक ....................",
+        "metadata": {
+          "reading_order": 9,
+          "confidence": 0.4957551956176758,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0009.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0010",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0010",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0010.md",
+        "content": "1- आवेदिका का नाम........................",
+        "embedding_text": "1- आवेदिका का नाम........................",
+        "metadata": {
+          "reading_order": 10,
+          "confidence": 0.47724902629852295,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0010.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0011",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0011",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0011.md",
+        "content": "2- आवेदिका के पिता/अभिभावक का नाम....................",
+        "embedding_text": "2- आवेदिका के पिता/अभिभावक का नाम....................",
+        "metadata": {
+          "reading_order": 11,
+          "confidence": 0.7003136873245239,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0011.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0012",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0012",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0012.md",
+        "content": "आवेदिका का पासपोर्ट साइज फोटो",
+        "embedding_text": "आवेदिका का पासपोर्ट साइज फोटो",
+        "metadata": {
+          "reading_order": 12,
+          "confidence": 0.5496271252632141,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0012.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0013",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0013",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0013.md",
+        "content": "3- आवेदिका की माता का नाम....................",
+        "embedding_text": "3- आवेदिका की माता का नाम....................",
+        "metadata": {
+          "reading_order": 13,
+          "confidence": 0.7192200422286987,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0013.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0014",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0014",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0014.md",
+        "content": "4- निवास का पता ....................................",
+        "embedding_text": "4- निवास का पता ....................................",
+        "metadata": {
+          "reading_order": 14,
+          "confidence": 0.5806874632835388,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0014.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0015",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0015",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0015.md",
+        "content": "5- आवेदिका की जन्म तिथि ........ दिनांक ........ माह ............वर्ष",
+        "embedding_text": "5- आवेदिका की जन्म तिथि ........ दिनांक ........ माह ............वर्ष",
+        "metadata": {
+          "reading_order": 15,
+          "confidence": 0.7522503137588501,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0015.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0016",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0016",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0016.md",
+        "content": "6- आवेदिका की विवाह के समय आयु ....................",
+        "embedding_text": "6- आवेदिका की विवाह के समय आयु ....................",
+        "metadata": {
+          "reading_order": 16,
+          "confidence": 0.7436794638633728,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0016.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0017",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0017",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0017.md",
+        "content": "7- जाति/वर्ग(अनुसूचित जाति/जनजाति/पिछड़ा वर्ग/सामान्य/अल्पसंख्यक).........",
+        "embedding_text": "7- जाति/वर्ग(अनुसूचित जाति/जनजाति/पिछड़ा वर्ग/सामान्य/अल्पसंख्यक).........",
+        "metadata": {
+          "reading_order": 17,
+          "confidence": 0.679375946521759,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0017.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0018",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0018",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0018.md",
+        "content": "8- आवेदिका के परिवार की वार्षिक आय (रू०).................... (सक्षम प्राधिकारी द्वारा जारी किये गये प्रमाण पत्र के आधार पर)",
+        "embedding_text": "8- आवेदिका के परिवार की वार्षिक आय (रू०).................... (सक्षम प्राधिकारी द्वारा जारी किये गये प्रमाण पत्र के आधार पर)",
+        "metadata": {
+          "reading_order": 18,
+          "confidence": 0.7953950762748718,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0018.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0019",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0019",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0019.md",
+        "content": "9- परिवार का बी०पी०एल० कार्ड क्रमांक एवं दिनांक ....................",
+        "embedding_text": "9- परिवार का बी०पी०एल० कार्ड क्रमांक एवं दिनांक ....................",
+        "metadata": {
+          "reading_order": 19,
+          "confidence": 0.7562562823295593,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0019.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0020",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0020",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0020.md",
+        "content": "10- बचत खाता बैंक का नाम –................शाखा का नाम............ खाता क्रमांक ............ आईएफसी कोड ....................................",
+        "embedding_text": "10- बचत खाता बैंक का नाम –................शाखा का नाम............ खाता क्रमांक ............ आईएफसी कोड ....................................",
+        "metadata": {
+          "reading_order": 20,
+          "confidence": 0.8085235357284546,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0020.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0021",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0021",
+        "element_type": "heading",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0021.md",
+        "content": "# भाग-ब-",
+        "embedding_text": "# भाग-ब-",
+        "metadata": {
+          "reading_order": 21,
+          "confidence": 0.5766893625259399,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0021.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0022",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0022",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0022.md",
+        "content": "वर का आधार कार्ड क्रमांक",
+        "embedding_text": "वर का आधार कार्ड क्रमांक",
+        "metadata": {
+          "reading_order": 22,
+          "confidence": 0.45213547348976135,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0022.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0023",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0023",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0023.md",
+        "content": "11- वर का नाम.........................",
+        "embedding_text": "11- वर का नाम.........................",
+        "metadata": {
+          "reading_order": 23,
+          "confidence": 0.4894314408302307,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0023.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0024",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0024",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0024.md",
+        "content": "12- वर के पिता/अभिभावक का नाम ....................",
+        "embedding_text": "12- वर के पिता/अभिभावक का नाम ....................",
+        "metadata": {
+          "reading_order": 24,
+          "confidence": 0.7164593935012817,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0024.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0025",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0025",
+        "element_type": "image",
+        "page_number": 1,
+        "media_type": "image/png",
+        "relative_path": "images/doc_0c19478bb7394ddc_p0001_b0025.png",
+        "content": null,
+        "embedding_text": "भाग-ब-\nImage: वर का पासपोर्ट\nसाइज फोटो\nSource page: 1",
+        "metadata": {
+          "reading_order": 25,
+          "confidence": 0.25788792967796326,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\images\\doc_0c19478bb7394ddc_p0001_b0025.png"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0026",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0026",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0026.md",
+        "content": "13- वर की माता का नाम ....................",
+        "embedding_text": "13- वर की माता का नाम ....................",
+        "metadata": {
+          "reading_order": 26,
+          "confidence": 0.6897690892219543,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0026.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0027",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0027",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0027.md",
+        "content": "14- निवास का पता.........................",
+        "embedding_text": "14- निवास का पता.........................",
+        "metadata": {
+          "reading_order": 27,
+          "confidence": 0.3596116006374359,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0027.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0028",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0028",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0028.md",
+        "content": "15- वर की जन्म तिथि दिनांक ............ माह ............ वर्ष ................",
+        "embedding_text": "15- वर की जन्म तिथि दिनांक ............ माह ............ वर्ष ................",
+        "metadata": {
+          "reading_order": 28,
+          "confidence": 0.7464929223060608,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0028.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0029",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0029",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0029.md",
+        "content": "16- विवाह के समय आयु ....................",
+        "embedding_text": "16- विवाह के समय आयु ....................",
+        "metadata": {
+          "reading_order": 29,
+          "confidence": 0.7414313554763794,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0029.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0030",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0030",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0030.md",
+        "content": "17- व्यवसाय एवं वार्षिक आय ....................",
+        "embedding_text": "17- व्यवसाय एवं वार्षिक आय ....................",
+        "metadata": {
+          "reading_order": 30,
+          "confidence": 0.746737003326416,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0030.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0001_b0031",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0001_b0031",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0001_b0031.md",
+        "content": "18- बचत खाता : बैक का नाम : ....................शाखा का नाम .................... खाता क्रमांक ....... आईएफसी कोड ....................",
+        "embedding_text": "18- बचत खाता : बैक का नाम : ....................शाखा का नाम .................... खाता क्रमांक ....... आईएफसी कोड ....................",
+        "metadata": {
+          "reading_order": 31,
+          "confidence": 0.7431688904762268,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0001_b0031.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0000",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0000",
+        "element_type": "heading",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0000.md",
+        "content": "# भाग-स",
+        "embedding_text": "# भाग-स",
+        "metadata": {
+          "reading_order": 0,
+          "confidence": 0.758073091506958,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0000.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0001",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0001",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0001.md",
+        "content": "19- विधवा/परित्यक्त आवेदिका के सम्बन्ध में जानकारी -",
+        "embedding_text": "19- विधवा/परित्यक्त आवेदिका के सम्बन्ध में जानकारी -",
+        "metadata": {
+          "reading_order": 1,
+          "confidence": 0.75215083360672,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0001.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0002",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0002",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0002.md",
+        "content": "(1) पूर्व पति का नाम ....................",
+        "embedding_text": "(1) पूर्व पति का नाम ....................",
+        "metadata": {
+          "reading_order": 2,
+          "confidence": 0.6770338416099548,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0002.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0003",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0003",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0003.md",
+        "content": "(2) पूर्व पति से विवाह होने का दिनांक",
+        "embedding_text": "(2) पूर्व पति से विवाह होने का दिनांक",
+        "metadata": {
+          "reading_order": 3,
+          "confidence": 0.5556827187538147,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0003.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0004",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0004",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0004.md",
+        "content": "(3) पूर्व पति की मृत्यु/विवाह विच्छेद होने का दिनांक ....................",
+        "embedding_text": "(3) पूर्व पति की मृत्यु/विवाह विच्छेद होने का दिनांक ....................",
+        "metadata": {
+          "reading_order": 4,
+          "confidence": 0.7571369409561157,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0004.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0005",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0005",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0005.md",
+        "content": "(4) पूर्व पति के पिता/अभिभावक का नाम एवं पता ....................................",
+        "embedding_text": "(4) पूर्व पति के पिता/अभिभावक का नाम एवं पता ....................................",
+        "metadata": {
+          "reading_order": 5,
+          "confidence": 0.6627032160758972,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0005.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0006",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0006",
+        "element_type": "heading",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0006.md",
+        "content": "# अभिकथन",
+        "embedding_text": "# अभिकथन",
+        "metadata": {
+          "reading_order": 6,
+          "confidence": 0.743327796459198,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0006.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0007",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0007",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0007.md",
+        "content": "मैं सत्यनिष्ठा से कथन करती हूँ कि मेरे द्वारा दी गई उक्त जानकारी सही है तथा मैंने \"मुख्यमंत्री सामूहिक विवाह योजना\" के अन्तर्गत पूर्व में किसी तरह की विवाह सहायता प्राप्त नहीं की है। मैं यह विवाह परिवार और अपनी सहमति से कर रही हूँ।",
+        "embedding_text": "मैं सत्यनिष्ठा से कथन करती हूँ कि मेरे द्वारा दी गई उक्त जानकारी सही है तथा मैंने \"मुख्यमंत्री सामूहिक विवाह योजना\" के अन्तर्गत पूर्व में किसी तरह की विवाह सहायता प्राप्त नहीं की है। मैं यह विवाह परिवार और अपनी सहमति से कर रही हूँ।",
+        "metadata": {
+          "reading_order": 7,
+          "confidence": 0.8331896066665649,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0007.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0008",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0008",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0008.md",
+        "content": "स्थान...........................",
+        "embedding_text": "स्थान...........................",
+        "metadata": {
+          "reading_order": 8,
+          "confidence": 0.6307598948478699,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0008.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0009",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0009",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0009.md",
+        "content": "दिनांक ....................",
+        "embedding_text": "दिनांक ....................",
+        "metadata": {
+          "reading_order": 9,
+          "confidence": 0.5513060092926025,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0009.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0010",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0010",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0010.md",
+        "content": "आवेदिका के हस्ताक्षर ........................",
+        "embedding_text": "आवेदिका के हस्ताक्षर ........................",
+        "metadata": {
+          "reading_order": 10,
+          "confidence": 0.4071362018585205,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0010.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0011",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0011",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0011.md",
+        "content": "एवं पूरा नाम ....................................",
+        "embedding_text": "एवं पूरा नाम ....................................",
+        "metadata": {
+          "reading_order": 11,
+          "confidence": 0.4523661732673645,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0011.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0012",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0012",
+        "element_type": "heading",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0012.md",
+        "content": "# अभिकथन",
+        "embedding_text": "# अभिकथन",
+        "metadata": {
+          "reading_order": 12,
+          "confidence": 0.7654610276222229,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0012.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0013",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0013",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0013.md",
+        "content": "मैं सत्यनिष्ठा से कथन करता हूँ कि मैं \"मुख्यमंत्री सामूहिक विवाह योजना\" के अन्तर्गत पात्रता के मापदण्ड में आता हूँ तथा मेरी कन्या/पुत्री के विवाह हेतु पहली बार सहायता प्राप्त करने के लिए आवेदन कर रहा हूँ। मेरी कन्या एवं वर दोनों की आयु विवाह योग्य है।",
+        "embedding_text": "मैं सत्यनिष्ठा से कथन करता हूँ कि मैं \"मुख्यमंत्री सामूहिक विवाह योजना\" के अन्तर्गत पात्रता के मापदण्ड में आता हूँ तथा मेरी कन्या/पुत्री के विवाह हेतु पहली बार सहायता प्राप्त करने के लिए आवेदन कर रहा हूँ। मेरी कन्या एवं वर दोनों की आयु विवाह योग्य है।",
+        "metadata": {
+          "reading_order": 13,
+          "confidence": 0.8271364569664001,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0013.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0014",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0014",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0014.md",
+        "content": "स्थान ....................",
+        "embedding_text": "स्थान ....................",
+        "metadata": {
+          "reading_order": 14,
+          "confidence": 0.6118742227554321,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0014.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0015",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0015",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0015.md",
+        "content": "दिनांक ....................",
+        "embedding_text": "दिनांक ....................",
+        "metadata": {
+          "reading_order": 15,
+          "confidence": 0.5984785556793213,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0015.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0016",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0016",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0016.md",
+        "content": "कन्या के पिता/अभिभावक के ........................ हस्ताक्षर/अंगूठा निशानी एवं पूरा नाम ........................",
+        "embedding_text": "कन्या के पिता/अभिभावक के ........................ हस्ताक्षर/अंगूठा निशानी एवं पूरा नाम ........................",
+        "metadata": {
+          "reading_order": 16,
+          "confidence": 0.26910921931266785,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0016.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0017",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0017",
+        "element_type": "heading",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0017.md",
+        "content": "# नोट :-",
+        "embedding_text": "# नोट :-",
+        "metadata": {
+          "reading_order": 17,
+          "confidence": 0.7435823082923889,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0017.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0018",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0018",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0018.md",
+        "content": "आवेदन पत्र के साथ निम्नांकित दस्तावेज अनिवार्य रूप से संलग्न किये जायें :—",
+        "embedding_text": "आवेदन पत्र के साथ निम्नांकित दस्तावेज अनिवार्य रूप से संलग्न किये जायें :—",
+        "metadata": {
+          "reading_order": 18,
+          "confidence": 0.7774444222450256,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0018.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0019",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0019",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0019.md",
+        "content": "1- आयु सम्बन्धी प्रमाण पत्र की छायाप्रति",
+        "embedding_text": "1- आयु सम्बन्धी प्रमाण पत्र की छायाप्रति",
+        "metadata": {
+          "reading_order": 19,
+          "confidence": 0.7870174646377563,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0019.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0020",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0020",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0020.md",
+        "content": "2- गरीबी रेखा / निराश्रित / बी०पी०एल० कार्ड की छायाप्रति,",
+        "embedding_text": "2- गरीबी रेखा / निराश्रित / बी०पी०एल० कार्ड की छायाप्रति,",
+        "metadata": {
+          "reading_order": 20,
+          "confidence": 0.7918623685836792,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0020.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0021",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0021",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0021.md",
+        "content": "3- कन्या एवं वर की एक-एक पासपोर्ट साइज फोटो",
+        "embedding_text": "3- कन्या एवं वर की एक-एक पासपोर्ट साइज फोटो",
+        "metadata": {
+          "reading_order": 21,
+          "confidence": 0.7851439118385315,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0021.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0022",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0022",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0022.md",
+        "content": "4- विधवा होने की स्थिति में पूर्व पति के मृत्यु प्रमाण पत्र की छायाप्रति",
+        "embedding_text": "4- विधवा होने की स्थिति में पूर्व पति के मृत्यु प्रमाण पत्र की छायाप्रति",
+        "metadata": {
+          "reading_order": 22,
+          "confidence": 0.8095921874046326,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0022.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0023",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0023",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0023.md",
+        "content": "5- परित्यक्ता होने की स्थिति में न्यायालयी आदेश की छायाप्रति",
+        "embedding_text": "5- परित्यक्ता होने की स्थिति में न्यायालयी आदेश की छायाप्रति",
+        "metadata": {
+          "reading_order": 23,
+          "confidence": 0.794847846031189,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0023.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0024",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0024",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0024.md",
+        "content": "6- कन्या के बैंक खाता से सम्बन्धित पास बुक की छायाप्रति।",
+        "embedding_text": "6- कन्या के बैंक खाता से सम्बन्धित पास बुक की छायाप्रति।",
+        "metadata": {
+          "reading_order": 24,
+          "confidence": 0.7830724716186523,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0024.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0025",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0025",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0025.md",
+        "content": "........................................प्राप्ति रसीद...",
+        "embedding_text": "........................................प्राप्ति रसीद...",
+        "metadata": {
+          "reading_order": 25,
+          "confidence": 0.30210059881210327,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0025.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0026",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0026",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0026.md",
+        "content": "आवेदक का नाम:-",
+        "embedding_text": "आवेदक का नाम:-",
+        "metadata": {
+          "reading_order": 26,
+          "confidence": 0.6228908896446228,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0026.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0027",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0027",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0027.md",
+        "content": "पता-",
+        "embedding_text": "पता-",
+        "metadata": {
+          "reading_order": 27,
+          "confidence": 0.522744357585907,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0027.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0028",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0028",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0028.md",
+        "content": "दिनांक:-",
+        "embedding_text": "दिनांक:-",
+        "metadata": {
+          "reading_order": 28,
+          "confidence": 0.5751920342445374,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0028.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0002_b0029",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0002_b0029",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0002_b0029.md",
+        "content": "कार्यालय प्राप्तकर्ता का हस्ताक्षर एवं नाम/पदनाम",
+        "embedding_text": "कार्यालय प्राप्तकर्ता का हस्ताक्षर एवं नाम/पदनाम",
+        "metadata": {
+          "reading_order": 29,
+          "confidence": 0.33045676350593567,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0002_b0029.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0003_b0001",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0003_b0001",
+        "element_type": "unknown",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0003_b0001.md",
+        "content": "मुख्यमंत्री कन्यादान योजनान्तर्गत जाँच प्रतिवेदन (प्रारूप)",
+        "embedding_text": "मुख्यमंत्री कन्यादान योजनान्तर्गत जाँच प्रतिवेदन (प्रारूप)",
+        "metadata": {
+          "reading_order": 1,
+          "confidence": 0.5226708054542542,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0003_b0001.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0003_b0002",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0003_b0002",
+        "element_type": "paragraph",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0003_b0002.md",
+        "content": "जाँचकर्ता अधिकारी का नाम... पदनाम.......",
+        "embedding_text": "जाँचकर्ता अधिकारी का नाम... पदनाम.......",
+        "metadata": {
+          "reading_order": 2,
+          "confidence": 0.272657573223114,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0003_b0002.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0003_b0003",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0003_b0003",
+        "element_type": "paragraph",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0003_b0003.md",
+        "content": "1- आवेदिका का नाम:- 2- निवास का पूर्ण पता:-",
+        "embedding_text": "1- आवेदिका का नाम:- 2- निवास का पूर्ण पता:-",
+        "metadata": {
+          "reading_order": 3,
+          "confidence": 0.40998396277427673,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0003_b0003.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0003_b0004",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0003_b0004",
+        "element_type": "paragraph",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0003_b0004.md",
+        "content": "3- आवेदिका के पिता का नाम:- माता का नाम:- माता/पिता के न होने पर अभिभावक का नाम:- 4-निवास का पूर्ण पता:-",
+        "embedding_text": "3- आवेदिका के पिता का नाम:- माता का नाम:- माता/पिता के न होने पर अभिभावक का नाम:- 4-निवास का पूर्ण पता:-",
+        "metadata": {
+          "reading_order": 4,
+          "confidence": 0.4186432957649231,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0003_b0004.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0003_b0005",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0003_b0005",
+        "element_type": "image",
+        "page_number": 3,
+        "media_type": "image/png",
+        "relative_path": "images/doc_0c19478bb7394ddc_p0003_b0005.png",
+        "content": null,
+        "embedding_text": "नोट :-\nImage: 5-जन्म तिथि/आयु:-\nकन्या- दिनांक माह वर्ष विवाह दिनांक के\nवर- दिनांक माह वर्ष विवाह दिनांक के\nदिन आयु\nविवाह दिनांक के\nदिन आयु\nSource page: 3",
+        "metadata": {
+          "reading_order": 5,
+          "confidence": 0.739220917224884,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\images\\doc_0c19478bb7394ddc_p0003_b0005.png"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0003_b0006",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0003_b0006",
+        "element_type": "paragraph",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0003_b0006.md",
+        "content": "6-आवेदक परिवार के आय के स्रोत और वार्षिक आय:-",
+        "embedding_text": "6-आवेदक परिवार के आय के स्रोत और वार्षिक आय:-",
+        "metadata": {
+          "reading_order": 6,
+          "confidence": 0.390580415725708,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0003_b0006.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0003_b0007",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0003_b0007",
+        "element_type": "paragraph",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0003_b0007.md",
+        "content": "7-परिवार बी०पी०एल0 श्रेणी में आता है तो वार्ड क्रमांक व दिनांक:- 8-आवेदिका विधवा/परित्यक्तता श्रेणी की है तो उसका विवरण:-.....",
+        "embedding_text": "7-परिवार बी०पी०एल0 श्रेणी में आता है तो वार्ड क्रमांक व दिनांक:- 8-आवेदिका विधवा/परित्यक्तता श्रेणी की है तो उसका विवरण:-.....",
+        "metadata": {
+          "reading_order": 7,
+          "confidence": 0.5374434590339661,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0003_b0007.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0003_b0008",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0003_b0008",
+        "element_type": "paragraph",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0003_b0008.md",
+        "content": "जाँच अधिकारी की टीम:-",
+        "embedding_text": "जाँच अधिकारी की टीम:-",
+        "metadata": {
+          "reading_order": 8,
+          "confidence": 0.29883280396461487,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0003_b0008.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0003_b0009",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0003_b0009",
+        "element_type": "paragraph",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0003_b0009.md",
+        "content": "(अ)-जाँच अधिकारी का विवाह के सम्बन्ध में जिसमें कन्या/वर की निर्धारित आयु पूर्ण कर ली है अथवा नही/कन्या बी०पी०एल० कार्डधारी है, को देखते हुये स्पष्ट अनुशंसा अंकित की जाय.........",
+        "embedding_text": "(अ)-जाँच अधिकारी का विवाह के सम्बन्ध में जिसमें कन्या/वर की निर्धारित आयु पूर्ण कर ली है अथवा नही/कन्या बी०पी०एल० कार्डधारी है, को देखते हुये स्पष्ट अनुशंसा अंकित की जाय.........",
+        "metadata": {
+          "reading_order": 9,
+          "confidence": 0.5844240784645081,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0003_b0009.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0003_b0010",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0003_b0010",
+        "element_type": "paragraph",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0003_b0010.md",
+        "content": "(ब)—जाँच उपरान्त कन्या अपात्र पाये जाने पर मुख्य कारण अंकित करें..",
+        "embedding_text": "(ब)—जाँच उपरान्त कन्या अपात्र पाये जाने पर मुख्य कारण अंकित करें..",
+        "metadata": {
+          "reading_order": 10,
+          "confidence": 0.6186598539352417,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0003_b0010.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0003_b0011",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0003_b0011",
+        "element_type": "paragraph",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0003_b0011.md",
+        "content": "दिनांक:-",
+        "embedding_text": "दिनांक:-",
+        "metadata": {
+          "reading_order": 11,
+          "confidence": 0.7065207958221436,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0003_b0011.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0003_b0012",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0003_b0012",
+        "element_type": "paragraph",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0003_b0012.md",
+        "content": "जाँच अधिकारी का हस्ताक्षर एवं मुहर",
+        "embedding_text": "जाँच अधिकारी का हस्ताक्षर एवं मुहर",
+        "metadata": {
+          "reading_order": 12,
+          "confidence": 0.6641843914985657,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0003_b0012.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0004_b0001",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0004_b0001",
+        "element_type": "unknown",
+        "page_number": 4,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0004_b0001.md",
+        "content": "उत्तर प्रदेश शासन समाज कल्याण विभाग",
+        "embedding_text": "उत्तर प्रदेश शासन समाज कल्याण विभाग",
+        "metadata": {
+          "reading_order": 1,
+          "confidence": 0.7852154970169067,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0004_b0001.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0004_b0002",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0004_b0002",
+        "element_type": "paragraph",
+        "page_number": 4,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0004_b0002.md",
+        "content": "पंजीयन संख्या:-.........................",
+        "embedding_text": "पंजीयन संख्या:-.........................",
+        "metadata": {
+          "reading_order": 2,
+          "confidence": 0.6738249659538269,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0004_b0002.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0004_b0003",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0004_b0003",
+        "element_type": "paragraph",
+        "page_number": 4,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0004_b0003.md",
+        "content": "दिनांक:...................................",
+        "embedding_text": "दिनांक:...................................",
+        "metadata": {
+          "reading_order": 3,
+          "confidence": 0.33104264736175537,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0004_b0003.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0004_b0004",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0004_b0004",
+        "element_type": "paragraph",
+        "page_number": 4,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0004_b0004.md",
+        "content": "मुख्यमंत्री सामूहिक विवाह योजना के अन्तर्गत सम्पन्न विवाह का प्रमाण पत्र",
+        "embedding_text": "मुख्यमंत्री सामूहिक विवाह योजना के अन्तर्गत सम्पन्न विवाह का प्रमाण पत्र",
+        "metadata": {
+          "reading_order": 4,
+          "confidence": 0.47103703022003174,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0004_b0004.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0004_b0005",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0004_b0005",
+        "element_type": "paragraph",
+        "page_number": 4,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0004_b0005.md",
+        "content": "................ के साथ मुख्यमंत्री सामूहिक विवाह योजना के अन्तर्गत स्थान........................में आयोजित सामूहिक विवाह कार्यक्रम में दिनांक..................................................को सम्पन्न हुआ।",
+        "embedding_text": "................ के साथ मुख्यमंत्री सामूहिक विवाह योजना के अन्तर्गत स्थान........................में आयोजित सामूहिक विवाह कार्यक्रम में दिनांक..................................................को सम्पन्न हुआ।",
+        "metadata": {
+          "reading_order": 5,
+          "confidence": 0.4750942587852478,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0004_b0005.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0004_b0006",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0004_b0006",
+        "element_type": "paragraph",
+        "page_number": 4,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0004_b0006.md",
+        "content": "नव-दम्पत्ति के सुखमय जीवन एवं उज्जवल भविष्य की कामना करते हैं।",
+        "embedding_text": "नव-दम्पत्ति के सुखमय जीवन एवं उज्जवल भविष्य की कामना करते हैं।",
+        "metadata": {
+          "reading_order": 6,
+          "confidence": 0.5344600677490234,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0004_b0006.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0004_b0007",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0004_b0007",
+        "element_type": "paragraph",
+        "page_number": 4,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0004_b0007.md",
+        "content": "स्थान:...................",
+        "embedding_text": "स्थान:...................",
+        "metadata": {
+          "reading_order": 7,
+          "confidence": 0.6605890989303589,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0004_b0007.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0004_b0008",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0004_b0008",
+        "element_type": "paragraph",
+        "page_number": 4,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0004_b0008.md",
+        "content": "दिनांक:...................",
+        "embedding_text": "दिनांक:...................",
+        "metadata": {
+          "reading_order": 8,
+          "confidence": 0.6451545357704163,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0004_b0008.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0004_b0009",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0004_b0009",
+        "element_type": "paragraph",
+        "page_number": 4,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0004_b0009.md",
+        "content": "हस्ताक्षर.........................",
+        "embedding_text": "हस्ताक्षर.........................",
+        "metadata": {
+          "reading_order": 9,
+          "confidence": 0.5422301292419434,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0004_b0009.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0004_b0010",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0004_b0010",
+        "element_type": "paragraph",
+        "page_number": 4,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0004_b0010.md",
+        "content": "निकाय का नाम/मुहर..................",
+        "embedding_text": "निकाय का नाम/मुहर..................",
+        "metadata": {
+          "reading_order": 10,
+          "confidence": 0.6691164374351501,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0004_b0010.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0004_b0011",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0004_b0011",
+        "element_type": "paragraph",
+        "page_number": 4,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0004_b0011.md",
+        "content": "जनपद-....................उत्तर प्रदेश",
+        "embedding_text": "जनपद-....................उत्तर प्रदेश",
+        "metadata": {
+          "reading_order": 11,
+          "confidence": 0.7376912832260132,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0004_b0011.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0001",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0001",
+        "element_type": "unknown",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0001.md",
+        "content": "मुख्यमंत्री सामूहिक विवाह योजना के तहत कन्या को प्रदाय गृहस्थी की सामग्री पावती रसीद",
+        "embedding_text": "मुख्यमंत्री सामूहिक विवाह योजना के तहत कन्या को प्रदाय गृहस्थी की सामग्री पावती रसीद",
+        "metadata": {
+          "reading_order": 1,
+          "confidence": 0.8930677771568298,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0001.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0002",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0002",
+        "element_type": "paragraph",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0002.md",
+        "content": "विवाह तिथि:- ....................................",
+        "embedding_text": "विवाह तिथि:- ....................................",
+        "metadata": {
+          "reading_order": 2,
+          "confidence": 0.3146404027938843,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0002.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0003",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0003",
+        "element_type": "paragraph",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0003.md",
+        "content": "कन्या का नाम:- ....................................",
+        "embedding_text": "कन्या का नाम:- ....................................",
+        "metadata": {
+          "reading_order": 3,
+          "confidence": 0.3217519223690033,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0003.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0004",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0004",
+        "element_type": "paragraph",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0004.md",
+        "content": "पिता का नाम:- ....................................",
+        "embedding_text": "पिता का नाम:- ....................................",
+        "metadata": {
+          "reading_order": 4,
+          "confidence": 0.2740918695926666,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0004.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0005",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0005",
+        "element_type": "paragraph",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0005.md",
+        "content": "निवास का पता:- .................................... मेरे द्वारा सामूहिक विवाह कार्यक्रम में नीचे उल्लिखित कन्यादान सामग्री प्राप्त की गई:-",
+        "embedding_text": "निवास का पता:- .................................... मेरे द्वारा सामूहिक विवाह कार्यक्रम में नीचे उल्लिखित कन्यादान सामग्री प्राप्त की गई:-",
+        "metadata": {
+          "reading_order": 5,
+          "confidence": 0.5444439053535461,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0005.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0006",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0006",
+        "element_type": "paragraph",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0006.md",
+        "content": "1.",
+        "embedding_text": "1.",
+        "metadata": {
+          "reading_order": 6,
+          "confidence": 0.29734474420547485,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0006.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0007",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0007",
+        "element_type": "paragraph",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0007.md",
+        "content": "2.",
+        "embedding_text": "2.",
+        "metadata": {
+          "reading_order": 7,
+          "confidence": 0.26859012246131897,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0007.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0008",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0008",
+        "element_type": "paragraph",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0008.md",
+        "content": "5.",
+        "embedding_text": "5.",
+        "metadata": {
+          "reading_order": 8,
+          "confidence": 0.2587908208370209,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0008.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0009",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0009",
+        "element_type": "paragraph",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0009.md",
+        "content": "6.",
+        "embedding_text": "6.",
+        "metadata": {
+          "reading_order": 9,
+          "confidence": 0.27733439207077026,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0009.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0010",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0010",
+        "element_type": "paragraph",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0010.md",
+        "content": "10.",
+        "embedding_text": "10.",
+        "metadata": {
+          "reading_order": 10,
+          "confidence": 0.28473496437072754,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0010.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0011",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0011",
+        "element_type": "paragraph",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0011.md",
+        "content": "सामग्री प्राप्तकर्ता का नाम हस्ताक्षर",
+        "embedding_text": "सामग्री प्राप्तकर्ता का नाम हस्ताक्षर",
+        "metadata": {
+          "reading_order": 11,
+          "confidence": 0.29014384746551514,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0011.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0012",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0012",
+        "element_type": "paragraph",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0012.md",
+        "content": "साक्षी (गवाह)",
+        "embedding_text": "साक्षी (गवाह)",
+        "metadata": {
+          "reading_order": 12,
+          "confidence": 0.46874290704727173,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0012.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0013",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0013",
+        "element_type": "paragraph",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0013.md",
+        "content": "1...................................",
+        "embedding_text": "1...................................",
+        "metadata": {
+          "reading_order": 13,
+          "confidence": 0.6068282127380371,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0013.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0014",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0014",
+        "element_type": "paragraph",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0014.md",
+        "content": "2...................................",
+        "embedding_text": "2...................................",
+        "metadata": {
+          "reading_order": 14,
+          "confidence": 0.6999287009239197,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0014.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_0c19478bb7394ddc_p0005_b0015",
+        "document_id": "doc_0c19478bb7394ddc",
+        "block_id": "doc_0c19478bb7394ddc_p0005_b0015",
+        "element_type": "unknown",
+        "page_number": 5,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_0c19478bb7394ddc_p0005_b0015.md",
+        "content": "हस्ताक्षर एवं पदमुहर नोडल अधिकारी",
+        "embedding_text": "हस्ताक्षर एवं पदमुहर नोडल अधिकारी",
+        "metadata": {
+          "reading_order": 15,
+          "confidence": 0.5347751379013062,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\text\\doc_0c19478bb7394ddc_p0005_b0015.md"
+        }
+      }
+    ]
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 2472,
+      "height": 3343,
+      "created_at": "2026-07-30T09:48:58.856479+00:00",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "(परिशिष्ट-2)",
+          "confidence": 0.3563416004180908,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 2075.0,
+            "y1": 150.0,
+            "x2": 2324.0,
+            "y2": 220.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "unknown",
+          "text": "उत्तर प्रदेश समाज कल्याण विभाग द्वारा संचालित \"मुख्यमंत्री सामूहिक विवाह योजना\" हेतु आवेदन पत्र का प्रारूप (नगरीय क्षेत्र के लिये)",
+          "confidence": 0.6952500939369202,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 323.0,
+            "y1": 205.0,
+            "x2": 2265.0,
+            "y2": 368.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "प्रति",
+          "confidence": 0.3875929117202759,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 261.0,
+            "y1": 356.0,
+            "x2": 374.0,
+            "y2": 430.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "नगर आयुक्त,",
+          "confidence": 0.5306644439697266,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 407.0,
+            "y1": 431.0,
+            "x2": 721.0,
+            "y2": 501.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "नगर निगम..................जनपद..................",
+          "confidence": 0.5974494814872742,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 407.0,
+            "y1": 502.0,
+            "x2": 1318.0,
+            "y2": 572.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "अधिशासी अधिकारी,",
+          "confidence": 0.591785192489624,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 408.0,
+            "y1": 568.0,
+            "x2": 860.0,
+            "y2": 639.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "नगर पालिका परिषद / नगर पंचायत..................जनपद..................उत्तर प्रदेश। विषय-\"मुख्यमंत्री सामूहिक विवाह योजना\" के अन्तर्गत सामूहिक विवाह कार्यक्रम में सम्मिलित होने हेतु पंजीयन एवं विवाह सहायता राशि स्वीकृत करने के सम्बन्ध में।",
+          "confidence": 0.6121101975440979,
+          "reading_order": 6,
+          "coordinates": {
+            "x1": 251.0,
+            "y1": 640.0,
+            "x2": 2324.0,
+            "y2": 863.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "heading",
+          "text": "# भाग-अ",
+          "confidence": 0.3673464059829712,
+          "reading_order": 7,
+          "coordinates": {
+            "x1": 258.0,
+            "y1": 856.0,
+            "x2": 452.0,
+            "y2": 920.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "आवेदक का आधार कार्ड क्रमांक ....................",
+          "confidence": 0.513629138469696,
+          "reading_order": 8,
+          "coordinates": {
+            "x1": 255.0,
+            "y1": 920.0,
+            "x2": 1325.0,
+            "y2": 994.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "आवेदक का बीपीएल कार्ड क्रमांक ....................",
+          "confidence": 0.4957551956176758,
+          "reading_order": 9,
+          "coordinates": {
+            "x1": 256.0,
+            "y1": 992.0,
+            "x2": 1317.0,
+            "y2": 1066.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "1- आवेदिका का नाम........................",
+          "confidence": 0.47724902629852295,
+          "reading_order": 10,
+          "coordinates": {
+            "x1": 254.0,
+            "y1": 1066.0,
+            "x2": 1197.0,
+            "y2": 1133.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "2- आवेदिका के पिता/अभिभावक का नाम....................",
+          "confidence": 0.7003136873245239,
+          "reading_order": 11,
+          "coordinates": {
+            "x1": 252.0,
+            "y1": 1133.0,
+            "x2": 1573.0,
+            "y2": 1207.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "आवेदिका का पासपोर्ट साइज फोटो",
+          "confidence": 0.5496271252632141,
+          "reading_order": 12,
+          "coordinates": {
+            "x1": 1802.0,
+            "y1": 1075.0,
+            "x2": 2082.0,
+            "y2": 1262.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "3- आवेदिका की माता का नाम....................",
+          "confidence": 0.7192200422286987,
+          "reading_order": 13,
+          "coordinates": {
+            "x1": 253.0,
+            "y1": 1206.0,
+            "x2": 1367.0,
+            "y2": 1277.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "4- निवास का पता ....................................",
+          "confidence": 0.5806874632835388,
+          "reading_order": 14,
+          "coordinates": {
+            "x1": 251.0,
+            "y1": 1280.0,
+            "x2": 1271.0,
+            "y2": 1343.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "5- आवेदिका की जन्म तिथि ........ दिनांक ........ माह ............वर्ष",
+          "confidence": 0.7522503137588501,
+          "reading_order": 15,
+          "coordinates": {
+            "x1": 251.0,
+            "y1": 1338.0,
+            "x2": 1878.0,
+            "y2": 1417.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "6- आवेदिका की विवाह के समय आयु ....................",
+          "confidence": 0.7436794638633728,
+          "reading_order": 16,
+          "coordinates": {
+            "x1": 250.0,
+            "y1": 1417.0,
+            "x2": 1473.0,
+            "y2": 1487.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "7- जाति/वर्ग(अनुसूचित जाति/जनजाति/पिछड़ा वर्ग/सामान्य/अल्पसंख्यक).........",
+          "confidence": 0.679375946521759,
+          "reading_order": 17,
+          "coordinates": {
+            "x1": 251.0,
+            "y1": 1483.0,
+            "x2": 2122.0,
+            "y2": 1562.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "8- आवेदिका के परिवार की वार्षिक आय (रू०).................... (सक्षम प्राधिकारी द्वारा जारी किये गये प्रमाण पत्र के आधार पर)",
+          "confidence": 0.7953950762748718,
+          "reading_order": 18,
+          "coordinates": {
+            "x1": 250.0,
+            "y1": 1558.0,
+            "x2": 1765.0,
+            "y2": 1700.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "9- परिवार का बी०पी०एल० कार्ड क्रमांक एवं दिनांक ....................",
+          "confidence": 0.7562562823295593,
+          "reading_order": 19,
+          "coordinates": {
+            "x1": 249.0,
+            "y1": 1697.0,
+            "x2": 1834.0,
+            "y2": 1772.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "10- बचत खाता बैंक का नाम –................शाखा का नाम............ खाता क्रमांक ............ आईएफसी कोड ....................................",
+          "confidence": 0.8085235357284546,
+          "reading_order": 20,
+          "coordinates": {
+            "x1": 250.0,
+            "y1": 1774.0,
+            "x2": 1914.0,
+            "y2": 1983.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "heading",
+          "text": "# भाग-ब-",
+          "confidence": 0.5766893625259399,
+          "reading_order": 21,
+          "coordinates": {
+            "x1": 248.0,
+            "y1": 1983.0,
+            "x2": 468.0,
+            "y2": 2047.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "वर का आधार कार्ड क्रमांक",
+          "confidence": 0.45213547348976135,
+          "reading_order": 22,
+          "coordinates": {
+            "x1": 249.0,
+            "y1": 2047.0,
+            "x2": 857.0,
+            "y2": 2119.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "11- वर का नाम.........................",
+          "confidence": 0.4894314408302307,
+          "reading_order": 23,
+          "coordinates": {
+            "x1": 250.0,
+            "y1": 2125.0,
+            "x2": 1072.0,
+            "y2": 2192.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "12- वर के पिता/अभिभावक का नाम ....................",
+          "confidence": 0.7164593935012817,
+          "reading_order": 24,
+          "coordinates": {
+            "x1": 249.0,
+            "y1": 2192.0,
+            "x2": 1371.0,
+            "y2": 2263.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "भाग-ब-\nImage: वर का पासपोर्ट\nसाइज फोटो\nSource page: 1",
+          "confidence": 0.25788792967796326,
+          "reading_order": 25,
+          "coordinates": {
+            "x1": 1795.0,
+            "y1": 2025.0,
+            "x2": 2151.0,
+            "y2": 2269.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\images\\doc_0c19478bb7394ddc_p0001_b0025.png"
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "13- वर की माता का नाम ....................",
+          "confidence": 0.6897690892219543,
+          "reading_order": 26,
+          "coordinates": {
+            "x1": 249.0,
+            "y1": 2263.0,
+            "x2": 1307.0,
+            "y2": 2333.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "14- निवास का पता.........................",
+          "confidence": 0.3596116006374359,
+          "reading_order": 27,
+          "coordinates": {
+            "x1": 245.0,
+            "y1": 2334.0,
+            "x2": 1109.0,
+            "y2": 2401.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "15- वर की जन्म तिथि दिनांक ............ माह ............ वर्ष ................",
+          "confidence": 0.7464929223060608,
+          "reading_order": 28,
+          "coordinates": {
+            "x1": 250.0,
+            "y1": 2398.0,
+            "x2": 2034.0,
+            "y2": 2477.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "16- विवाह के समय आयु ....................",
+          "confidence": 0.7414313554763794,
+          "reading_order": 29,
+          "coordinates": {
+            "x1": 249.0,
+            "y1": 2474.0,
+            "x2": 1235.0,
+            "y2": 2545.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "17- व्यवसाय एवं वार्षिक आय ....................",
+          "confidence": 0.746737003326416,
+          "reading_order": 30,
+          "coordinates": {
+            "x1": 248.0,
+            "y1": 2544.0,
+            "x2": 1278.0,
+            "y2": 2614.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "18- बचत खाता : बैक का नाम : ....................शाखा का नाम .................... खाता क्रमांक ....... आईएफसी कोड ....................",
+          "confidence": 0.7431688904762268,
+          "reading_order": 31,
+          "coordinates": {
+            "x1": 248.0,
+            "y1": 2618.0,
+            "x2": 2017.0,
+            "y2": 2829.0
+          },
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 2472,
+      "height": 3373,
+      "created_at": "2026-07-30T09:48:58.856479+00:00",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "heading",
+          "text": "# भाग-स",
+          "confidence": 0.758073091506958,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 303.0,
+            "y1": 149.0,
+            "x2": 490.0,
+            "y2": 209.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "19- विधवा/परित्यक्त आवेदिका के सम्बन्ध में जानकारी -",
+          "confidence": 0.75215083360672,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 306.0,
+            "y1": 207.0,
+            "x2": 1606.0,
+            "y2": 282.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "(1) पूर्व पति का नाम ....................",
+          "confidence": 0.6770338416099548,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 452.0,
+            "y1": 284.0,
+            "x2": 1300.0,
+            "y2": 354.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "(2) पूर्व पति से विवाह होने का दिनांक",
+          "confidence": 0.5556827187538147,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 448.0,
+            "y1": 352.0,
+            "x2": 1314.0,
+            "y2": 422.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "(3) पूर्व पति की मृत्यु/विवाह विच्छेद होने का दिनांक ....................",
+          "confidence": 0.7571369409561157,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 452.0,
+            "y1": 421.0,
+            "x2": 1943.0,
+            "y2": 495.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "(4) पूर्व पति के पिता/अभिभावक का नाम एवं पता ....................................",
+          "confidence": 0.6627032160758972,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 452.0,
+            "y1": 493.0,
+            "x2": 2003.0,
+            "y2": 567.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "heading",
+          "text": "# अभिकथन",
+          "confidence": 0.743327796459198,
+          "reading_order": 6,
+          "coordinates": {
+            "x1": 1213.0,
+            "y1": 563.0,
+            "x2": 1447.0,
+            "y2": 627.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "मैं सत्यनिष्ठा से कथन करती हूँ कि मेरे द्वारा दी गई उक्त जानकारी सही है तथा मैंने \"मुख्यमंत्री सामूहिक विवाह योजना\" के अन्तर्गत पूर्व में किसी तरह की विवाह सहायता प्राप्त नहीं की है। मैं यह विवाह परिवार और अपनी सहमति से कर रही हूँ।",
+          "confidence": 0.8331896066665649,
+          "reading_order": 7,
+          "coordinates": {
+            "x1": 297.0,
+            "y1": 614.0,
+            "x2": 2358.0,
+            "y2": 843.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "स्थान...........................",
+          "confidence": 0.6307598948478699,
+          "reading_order": 8,
+          "coordinates": {
+            "x1": 302.0,
+            "y1": 851.0,
+            "x2": 796.0,
+            "y2": 913.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "दिनांक ....................",
+          "confidence": 0.5513060092926025,
+          "reading_order": 9,
+          "coordinates": {
+            "x1": 300.0,
+            "y1": 915.0,
+            "x2": 814.0,
+            "y2": 986.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "आवेदिका के हस्ताक्षर ........................",
+          "confidence": 0.4071362018585205,
+          "reading_order": 10,
+          "coordinates": {
+            "x1": 1327.0,
+            "y1": 903.0,
+            "x2": 2206.0,
+            "y2": 982.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "एवं पूरा नाम ....................................",
+          "confidence": 0.4523661732673645,
+          "reading_order": 11,
+          "coordinates": {
+            "x1": 1341.0,
+            "y1": 979.0,
+            "x2": 2202.0,
+            "y2": 1060.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "heading",
+          "text": "# अभिकथन",
+          "confidence": 0.7654610276222229,
+          "reading_order": 12,
+          "coordinates": {
+            "x1": 1211.0,
+            "y1": 1115.0,
+            "x2": 1445.0,
+            "y2": 1188.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "मैं सत्यनिष्ठा से कथन करता हूँ कि मैं \"मुख्यमंत्री सामूहिक विवाह योजना\" के अन्तर्गत पात्रता के मापदण्ड में आता हूँ तथा मेरी कन्या/पुत्री के विवाह हेतु पहली बार सहायता प्राप्त करने के लिए आवेदन कर रहा हूँ। मेरी कन्या एवं वर दोनों की आयु विवाह योग्य है।",
+          "confidence": 0.8271364569664001,
+          "reading_order": 13,
+          "coordinates": {
+            "x1": 292.0,
+            "y1": 1159.0,
+            "x2": 2356.0,
+            "y2": 1410.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "स्थान ....................",
+          "confidence": 0.6118742227554321,
+          "reading_order": 14,
+          "coordinates": {
+            "x1": 295.0,
+            "y1": 1476.0,
+            "x2": 748.0,
+            "y2": 1543.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "दिनांक ....................",
+          "confidence": 0.5984785556793213,
+          "reading_order": 15,
+          "coordinates": {
+            "x1": 296.0,
+            "y1": 1545.0,
+            "x2": 758.0,
+            "y2": 1616.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "कन्या के पिता/अभिभावक के ........................ हस्ताक्षर/अंगूठा निशानी एवं पूरा नाम ........................",
+          "confidence": 0.26910921931266785,
+          "reading_order": 16,
+          "coordinates": {
+            "x1": 1045.0,
+            "y1": 1525.0,
+            "x2": 2133.0,
+            "y2": 1690.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "heading",
+          "text": "# नोट :-",
+          "confidence": 0.7435823082923889,
+          "reading_order": 17,
+          "coordinates": {
+            "x1": 294.0,
+            "y1": 1748.0,
+            "x2": 478.0,
+            "y2": 1819.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "आवेदन पत्र के साथ निम्नांकित दस्तावेज अनिवार्य रूप से संलग्न किये जायें :—",
+          "confidence": 0.7774444222450256,
+          "reading_order": 18,
+          "coordinates": {
+            "x1": 294.0,
+            "y1": 1811.0,
+            "x2": 2025.0,
+            "y2": 1890.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "1- आयु सम्बन्धी प्रमाण पत्र की छायाप्रति",
+          "confidence": 0.7870174646377563,
+          "reading_order": 19,
+          "coordinates": {
+            "x1": 297.0,
+            "y1": 1891.0,
+            "x2": 1262.0,
+            "y2": 1961.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "2- गरीबी रेखा / निराश्रित / बी०पी०एल० कार्ड की छायाप्रति,",
+          "confidence": 0.7918623685836792,
+          "reading_order": 20,
+          "coordinates": {
+            "x1": 294.0,
+            "y1": 1959.0,
+            "x2": 1631.0,
+            "y2": 2030.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "3- कन्या एवं वर की एक-एक पासपोर्ट साइज फोटो",
+          "confidence": 0.7851439118385315,
+          "reading_order": 21,
+          "coordinates": {
+            "x1": 295.0,
+            "y1": 2032.0,
+            "x2": 1514.0,
+            "y2": 2099.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "4- विधवा होने की स्थिति में पूर्व पति के मृत्यु प्रमाण पत्र की छायाप्रति",
+          "confidence": 0.8095921874046326,
+          "reading_order": 22,
+          "coordinates": {
+            "x1": 294.0,
+            "y1": 2097.0,
+            "x2": 1871.0,
+            "y2": 2170.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "5- परित्यक्ता होने की स्थिति में न्यायालयी आदेश की छायाप्रति",
+          "confidence": 0.794847846031189,
+          "reading_order": 23,
+          "coordinates": {
+            "x1": 294.0,
+            "y1": 2169.0,
+            "x2": 1732.0,
+            "y2": 2240.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "6- कन्या के बैंक खाता से सम्बन्धित पास बुक की छायाप्रति।",
+          "confidence": 0.7830724716186523,
+          "reading_order": 24,
+          "coordinates": {
+            "x1": 296.0,
+            "y1": 2239.0,
+            "x2": 1681.0,
+            "y2": 2315.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "........................................प्राप्ति रसीद...",
+          "confidence": 0.30210059881210327,
+          "reading_order": 25,
+          "coordinates": {
+            "x1": 300.0,
+            "y1": 2384.0,
+            "x2": 1197.0,
+            "y2": 2455.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "आवेदक का नाम:-",
+          "confidence": 0.6228908896446228,
+          "reading_order": 26,
+          "coordinates": {
+            "x1": 297.0,
+            "y1": 2458.0,
+            "x2": 695.0,
+            "y2": 2520.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "पता-",
+          "confidence": 0.522744357585907,
+          "reading_order": 27,
+          "coordinates": {
+            "x1": 298.0,
+            "y1": 2527.0,
+            "x2": 431.0,
+            "y2": 2583.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "दिनांक:-",
+          "confidence": 0.5751920342445374,
+          "reading_order": 28,
+          "coordinates": {
+            "x1": 297.0,
+            "y1": 2586.0,
+            "x2": 497.0,
+            "y2": 2652.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "कार्यालय प्राप्तकर्ता का हस्ताक्षर एवं नाम/पदनाम",
+          "confidence": 0.33045676350593567,
+          "reading_order": 29,
+          "coordinates": {
+            "x1": 1578.0,
+            "y1": 2571.0,
+            "x2": 2225.0,
+            "y2": 2717.0
+          },
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 2471,
+      "height": 3348,
+      "created_at": "2026-07-30T09:48:58.856479+00:00",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "header",
+          "text": "(परिशिष्ट-3)",
+          "confidence": 0.5930023789405823,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 2072.0,
+            "y1": 186.0,
+            "x2": 2352.0,
+            "y2": 267.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "unknown",
+          "text": "मुख्यमंत्री कन्यादान योजनान्तर्गत जाँच प्रतिवेदन (प्रारूप)",
+          "confidence": 0.5226708054542542,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 748.0,
+            "y1": 242.0,
+            "x2": 1930.0,
+            "y2": 336.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "paragraph",
+          "text": "जाँचकर्ता अधिकारी का नाम... पदनाम.......",
+          "confidence": 0.272657573223114,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 932.0,
+            "y1": 377.0,
+            "x2": 1562.0,
+            "y2": 532.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "paragraph",
+          "text": "1- आवेदिका का नाम:- 2- निवास का पूर्ण पता:-",
+          "confidence": 0.40998396277427673,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 315.0,
+            "y1": 585.0,
+            "x2": 952.0,
+            "y2": 753.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "paragraph",
+          "text": "3- आवेदिका के पिता का नाम:- माता का नाम:- माता/पिता के न होने पर अभिभावक का नाम:- 4-निवास का पूर्ण पता:-",
+          "confidence": 0.4186432957649231,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 309.0,
+            "y1": 859.0,
+            "x2": 1347.0,
+            "y2": 1165.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "नोट :-\nImage: 5-जन्म तिथि/आयु:-\nकन्या- दिनांक माह वर्ष विवाह दिनांक के\nवर- दिनांक माह वर्ष विवाह दिनांक के\nदिन आयु\nविवाह दिनांक के\nदिन आयु\nSource page: 3",
+          "confidence": 0.739220917224884,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 305.0,
+            "y1": 1203.0,
+            "x2": 1887.0,
+            "y2": 1595.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_0c19478bb7394ddc\\images\\doc_0c19478bb7394ddc_p0003_b0005.png"
+        },
+        {
+          "page": 3,
+          "layout": "paragraph",
+          "text": "6-आवेदक परिवार के आय के स्रोत और वार्षिक आय:-",
+          "confidence": 0.390580415725708,
+          "reading_order": 6,
+          "coordinates": {
+            "x1": 299.0,
+            "y1": 1624.0,
+            "x2": 1486.0,
+            "y2": 1723.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "paragraph",
+          "text": "7-परिवार बी०पी०एल0 श्रेणी में आता है तो वार्ड क्रमांक व दिनांक:- 8-आवेदिका विधवा/परित्यक्तता श्रेणी की है तो उसका विवरण:-.....",
+          "confidence": 0.5374434590339661,
+          "reading_order": 7,
+          "coordinates": {
+            "x1": 295.0,
+            "y1": 1762.0,
+            "x2": 1726.0,
+            "y2": 1932.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "paragraph",
+          "text": "जाँच अधिकारी की टीम:-",
+          "confidence": 0.29883280396461487,
+          "reading_order": 8,
+          "coordinates": {
+            "x1": 299.0,
+            "y1": 1972.0,
+            "x2": 855.0,
+            "y2": 2051.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "paragraph",
+          "text": "(अ)-जाँच अधिकारी का विवाह के सम्बन्ध में जिसमें कन्या/वर की निर्धारित आयु पूर्ण कर ली है अथवा नही/कन्या बी०पी०एल० कार्डधारी है, को देखते हुये स्पष्ट अनुशंसा अंकित की जाय.........",
+          "confidence": 0.5844240784645081,
+          "reading_order": 9,
+          "coordinates": {
+            "x1": 298.0,
+            "y1": 2036.0,
+            "x2": 2324.0,
+            "y2": 2212.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "paragraph",
+          "text": "(ब)—जाँच उपरान्त कन्या अपात्र पाये जाने पर मुख्य कारण अंकित करें..",
+          "confidence": 0.6186598539352417,
+          "reading_order": 10,
+          "coordinates": {
+            "x1": 298.0,
+            "y1": 2315.0,
+            "x2": 1779.0,
+            "y2": 2413.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "paragraph",
+          "text": "दिनांक:-",
+          "confidence": 0.7065207958221436,
+          "reading_order": 11,
+          "coordinates": {
+            "x1": 288.0,
+            "y1": 2596.0,
+            "x2": 490.0,
+            "y2": 2668.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "paragraph",
+          "text": "जाँच अधिकारी का हस्ताक्षर एवं मुहर",
+          "confidence": 0.6641843914985657,
+          "reading_order": 12,
+          "coordinates": {
+            "x1": 1736.0,
+            "y1": 2608.0,
+            "x2": 2151.0,
+            "y2": 2765.0
+          },
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 2477,
+      "height": 3356,
+      "created_at": "2026-07-30T09:48:58.856479+00:00",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "header",
+          "text": "(परिशिष्ट-4)",
+          "confidence": 0.8000013828277588,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 2079.0,
+            "y1": 109.0,
+            "x2": 2352.0,
+            "y2": 184.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "unknown",
+          "text": "उत्तर प्रदेश शासन समाज कल्याण विभाग",
+          "confidence": 0.7852154970169067,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 1115.0,
+            "y1": 178.0,
+            "x2": 1592.0,
+            "y2": 319.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "paragraph",
+          "text": "पंजीयन संख्या:-.........................",
+          "confidence": 0.6738249659538269,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 339.0,
+            "y1": 376.0,
+            "x2": 1071.0,
+            "y2": 457.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "paragraph",
+          "text": "दिनांक:...................................",
+          "confidence": 0.33104264736175537,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 1636.0,
+            "y1": 385.0,
+            "x2": 2222.0,
+            "y2": 462.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "paragraph",
+          "text": "मुख्यमंत्री सामूहिक विवाह योजना के अन्तर्गत सम्पन्न विवाह का प्रमाण पत्र",
+          "confidence": 0.47103703022003174,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 683.0,
+            "y1": 511.0,
+            "x2": 2012.0,
+            "y2": 675.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "paragraph",
+          "text": "................ के साथ मुख्यमंत्री सामूहिक विवाह योजना के अन्तर्गत स्थान........................में आयोजित सामूहिक विवाह कार्यक्रम में दिनांक..................................................को सम्पन्न हुआ।",
+          "confidence": 0.4750942587852478,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 327.0,
+            "y1": 1272.0,
+            "x2": 2196.0,
+            "y2": 1415.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "paragraph",
+          "text": "नव-दम्पत्ति के सुखमय जीवन एवं उज्जवल भविष्य की कामना करते हैं।",
+          "confidence": 0.5344600677490234,
+          "reading_order": 6,
+          "coordinates": {
+            "x1": 394.0,
+            "y1": 1411.0,
+            "x2": 1937.0,
+            "y2": 1489.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "paragraph",
+          "text": "स्थान:...................",
+          "confidence": 0.6605890989303589,
+          "reading_order": 7,
+          "coordinates": {
+            "x1": 325.0,
+            "y1": 1551.0,
+            "x2": 659.0,
+            "y2": 1616.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "paragraph",
+          "text": "दिनांक:...................",
+          "confidence": 0.6451545357704163,
+          "reading_order": 8,
+          "coordinates": {
+            "x1": 326.0,
+            "y1": 1616.0,
+            "x2": 683.0,
+            "y2": 1688.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "paragraph",
+          "text": "हस्ताक्षर.........................",
+          "confidence": 0.5422301292419434,
+          "reading_order": 9,
+          "coordinates": {
+            "x1": 1732.0,
+            "y1": 1630.0,
+            "x2": 2247.0,
+            "y2": 1698.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "paragraph",
+          "text": "निकाय का नाम/मुहर..................",
+          "confidence": 0.6691164374351501,
+          "reading_order": 10,
+          "coordinates": {
+            "x1": 1540.0,
+            "y1": 1690.0,
+            "x2": 2249.0,
+            "y2": 1767.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "paragraph",
+          "text": "जनपद-....................उत्तर प्रदेश",
+          "confidence": 0.7376912832260132,
+          "reading_order": 11,
+          "coordinates": {
+            "x1": 1541.0,
+            "y1": 1767.0,
+            "x2": 2239.0,
+            "y2": 1836.0
+          },
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 2471,
+      "height": 3369,
+      "created_at": "2026-07-30T09:48:58.856479+00:00",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "header",
+          "text": "(परिशिष्ट-5)",
+          "confidence": 0.7868850231170654,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 2034.0,
+            "y1": 259.0,
+            "x2": 2312.0,
+            "y2": 332.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "unknown",
+          "text": "मुख्यमंत्री सामूहिक विवाह योजना के तहत कन्या को प्रदाय गृहस्थी की सामग्री पावती रसीद",
+          "confidence": 0.8930677771568298,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 756.0,
+            "y1": 393.0,
+            "x2": 1855.0,
+            "y2": 543.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "paragraph",
+          "text": "विवाह तिथि:- ....................................",
+          "confidence": 0.3146404027938843,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 285.0,
+            "y1": 607.0,
+            "x2": 1816.0,
+            "y2": 676.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "paragraph",
+          "text": "कन्या का नाम:- ....................................",
+          "confidence": 0.3217519223690033,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 288.0,
+            "y1": 684.0,
+            "x2": 1801.0,
+            "y2": 747.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "paragraph",
+          "text": "पिता का नाम:- ....................................",
+          "confidence": 0.2740918695926666,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 288.0,
+            "y1": 751.0,
+            "x2": 1801.0,
+            "y2": 824.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "paragraph",
+          "text": "निवास का पता:- .................................... मेरे द्वारा सामूहिक विवाह कार्यक्रम में नीचे उल्लिखित कन्यादान सामग्री प्राप्त की गई:-",
+          "confidence": 0.5444439053535461,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 286.0,
+            "y1": 820.0,
+            "x2": 2243.0,
+            "y2": 957.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "paragraph",
+          "text": "1.",
+          "confidence": 0.29734474420547485,
+          "reading_order": 6,
+          "coordinates": {
+            "x1": 291.0,
+            "y1": 961.0,
+            "x2": 355.0,
+            "y2": 1023.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "paragraph",
+          "text": "2.",
+          "confidence": 0.26859012246131897,
+          "reading_order": 7,
+          "coordinates": {
+            "x1": 288.0,
+            "y1": 1032.0,
+            "x2": 356.0,
+            "y2": 1093.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "paragraph",
+          "text": "5.",
+          "confidence": 0.2587908208370209,
+          "reading_order": 8,
+          "coordinates": {
+            "x1": 287.0,
+            "y1": 1239.0,
+            "x2": 354.0,
+            "y2": 1300.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "paragraph",
+          "text": "6.",
+          "confidence": 0.27733439207077026,
+          "reading_order": 9,
+          "coordinates": {
+            "x1": 286.0,
+            "y1": 1309.0,
+            "x2": 352.0,
+            "y2": 1368.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "paragraph",
+          "text": "10.",
+          "confidence": 0.28473496437072754,
+          "reading_order": 10,
+          "coordinates": {
+            "x1": 288.0,
+            "y1": 1583.0,
+            "x2": 372.0,
+            "y2": 1644.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "paragraph",
+          "text": "सामग्री प्राप्तकर्ता का नाम हस्ताक्षर",
+          "confidence": 0.29014384746551514,
+          "reading_order": 11,
+          "coordinates": {
+            "x1": 290.0,
+            "y1": 1629.0,
+            "x2": 1964.0,
+            "y2": 1786.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "paragraph",
+          "text": "साक्षी (गवाह)",
+          "confidence": 0.46874290704727173,
+          "reading_order": 12,
+          "coordinates": {
+            "x1": 287.0,
+            "y1": 1847.0,
+            "x2": 573.0,
+            "y2": 1924.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "paragraph",
+          "text": "1...................................",
+          "confidence": 0.6068282127380371,
+          "reading_order": 13,
+          "coordinates": {
+            "x1": 288.0,
+            "y1": 1935.0,
+            "x2": 749.0,
+            "y2": 1991.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "paragraph",
+          "text": "2...................................",
+          "confidence": 0.6999287009239197,
+          "reading_order": 14,
+          "coordinates": {
+            "x1": 284.0,
+            "y1": 1999.0,
+            "x2": 744.0,
+            "y2": 2062.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "unknown",
+          "text": "हस्ताक्षर एवं पदमुहर नोडल अधिकारी",
+          "confidence": 0.5347751379013062,
+          "reading_order": 15,
+          "coordinates": {
+            "x1": 1429.0,
+            "y1": 2127.0,
+            "x2": 1871.0,
+            "y2": 2267.0
+          },
+          "image_path": null
+        }
+      ]
+    }
+  ]
+}

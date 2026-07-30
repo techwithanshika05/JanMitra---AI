@@ -1,0 +1,190 @@
+{
+  "page_num": 4,
+  "image_width": 2480,
+  "image_height": 3507,
+  "created_at": "2026-07-24T07:16:16.209372+00:00",
+  "blocks": [
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_4_block_000",
+      "coordinates": {
+        "x1": 226.0,
+        "y1": 367.0,
+        "x2": 1245.0,
+        "y2": 438.0
+      },
+      "layout_tag": "section-title",
+      "confidence": 0.8948440551757812,
+      "reading_order": 1,
+      "text": "ONE NATION, ONE RATION CARD"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_4_block_001",
+      "coordinates": {
+        "x1": 224.0,
+        "y1": 477.0,
+        "x2": 2253.0,
+        "y2": 753.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9530484676361084,
+      "reading_order": 2,
+      "text": "■ The ‘One Nation, One Ration Card’ (ONORC) scheme was launched in August 2019 to allow for nationwide\nportability of NFSA benefits. The scheme provides flexibility to migrant eligible citizens to lift foodgrains\nfrom any FPS of their choice in most parts of the country, by using their existing ration card with biometric\nauthentication of identity on an electronic Point of Sale (ePoS) device. ONORC is currently being implemented\nin all 36 states and UTs, with Assam being the latest state to join in June 2022."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_4_block_002",
+      "coordinates": {
+        "x1": 224.0,
+        "y1": 787.0,
+        "x2": 2231.0,
+        "y2": 845.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.8656971454620361,
+      "reading_order": 3,
+      "text": "For people to avail the scheme benefits, a copy of either their ration card or seeded Aadhaar card is required."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_4_block_003",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 878.0,
+        "x2": 2250.0,
+        "y2": 988.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9185492396354675,
+      "reading_order": 4,
+      "text": "As per a PIB bulletin, as of July 2022, out of the total 19.5 crore ration cards issued under NFSA, 99 percent have already been seeded with Aadhaar of at least one member of the household."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_4_block_004",
+      "coordinates": {
+        "x1": 228.0,
+        "y1": 1086.0,
+        "x2": 812.0,
+        "y2": 1158.0
+      },
+      "layout_tag": "section-title",
+      "confidence": 0.8798031210899353,
+      "reading_order": 5,
+      "text": "ACCESS TO ONORC"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_4_block_005",
+      "coordinates": {
+        "x1": 226.0,
+        "y1": 1196.0,
+        "x2": 2255.0,
+        "y2": 1420.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9483633041381836,
+      "reading_order": 6,
+      "text": "■ Given the difficulty in implementing Aadhaar-based biometric transactions at FPS that are located in shadow\nareas with limited or no data connectivity, the Standing Committee on Food, Consumer, and Public Distribution\nhas advised states that genuine households should not be denied their entitled foodgrains on the ground of\nnot possessing an Aadhaar number or due to any technical failure of ePoS device."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_4_block_006",
+      "coordinates": {
+        "x1": 226.0,
+        "y1": 1454.0,
+        "x2": 2254.0,
+        "y2": 1620.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9365506172180176,
+      "reading_order": 7,
+      "text": "■ In FY 2021-22, 205 crore electronic transactions (e-transactions) took place, of which 85 per cent were Aadhaar-\nseeded transactions. Throughout the year, the e-transactions were consistently in the range of 16 to 18 crore\nper month. However, the Aadhar-seeded transactions took a small dip in June 2021."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_4_block_007",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 1654.0,
+        "x2": 2256.0,
+        "y2": 1875.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9462217688560486,
+      "reading_order": 8,
+      "text": "■ In FY 2022-23, as on 1 December 2022, 110 crore e-transactions took place, of which 96 per cent were Aadhaar-\nseeded transactions. In the latter part of the year, the number of e-transactions dropped substantially, reaching\nthe lowest point in November 2022, with only 8 crore e-transactions being recorded. However, the number of\nAadhaar-seeded transactions stayed consistently around 97 per cent."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_4_block_008",
+      "coordinates": {
+        "x1": 520.0,
+        "y1": 1954.0,
+        "x2": 1957.0,
+        "y2": 2056.0
+      },
+      "layout_tag": "image-caption",
+      "confidence": 0.896734893321991,
+      "reading_order": 9,
+      "text": "THE PERCENTAGE OF AADHAR-SEEDED TRANSACTIONS INCREASED\nOVER THE COURSE OF 2021-22 AND 2022-23"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_4_block_009",
+      "coordinates": {
+        "x1": 227.0,
+        "y1": 2077.0,
+        "x2": 2255.0,
+        "y2": 2761.0
+      },
+      "layout_tag": "chart",
+      "confidence": 0.9580267667770386,
+      "reading_order": 10,
+      "text": "| Month | Percentage of Aadhaar transactions (Yellow) | Total e-transactions in crore (Red Line Top Label) | Non-authenticated Transactions % Estimate (%) |\n| :--- | :--- | :--- | :--- |\n| Apr-21 | 89% | ~1750 Crores (~34%) | N/A |\n| May-21 | 75% | ~1600 Crores (~31%) | < 1% (< Gray bar height)|\n| Jun-21 | 72% | ~1600 Crores (~30%) | > 1%, approx estimated at low level|< Grey Bar Height|>~<1>\n| Jul-21 | 83% | ~1700 Crores (>33%) | Low, below red line peak but above baseline grey bars.|\n| Aug-21 | 82% | ~1700 Crores (+/- small rise from previous month's total label value). Red text is '18'. The actual data point on the curve sits lower than July and August labels indicating an increase to roughly 16M-17M range based off visual position relative other months with similar values like Sep=Oct etc..|\n| Sep-21 | 80% | ~1650 - (17m if following trend), labeled as \"17\" visually higher then prior year Jan&Feb levels or slightly less depending exact scale interpretation.<br/>Note: This row contains two distinct numerical markers (\"17\", \"$18\") which likely represent different metrics for that specific period rather than one continuous flow; we will use both visible numbers where they exist next to eachother.) | Very High,<br/>estimated around mid single digits percentage due to very thin gray portion remaining compared to others even though absolute count may be high given context not fully clear without source doc.|\n| Oct-21 | 83% | '17', matching Sept     Nov trends exactly despite being earlier date showing slight dip down after initial surge seen between Mar->Apr periods when it was flatlined before dropping again later half way through timeline shown here.   nbsp;<br/>The first number represents current monthly average while second shows cumulative sum up until end of observed window? We can only see what exists per chart design rules applied so far:<br/>So October = Current Value + Cumulative Sum So far...17+(16+16+...+<br/>(approximate calculation needed)<br/><br/>Nov-22|97$, matches all subsequent rows constant throughout rest of time series displayed ending stable at same final figure across entire duration covered by dataset provided. | Negligible / Below Baseline threshold indicated via short yellow sliver barely rising above zero mark consistently over last few recorded points. |"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_4_block_010",
+      "coordinates": {
+        "x1": 226.0,
+        "y1": 2797.0,
+        "x2": 2251.0,
+        "y2": 2890.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.7568951845169067,
+      "reading_order": 11,
+      "text": "**Source:** Integrated Management of Public Distribution System, Automated (ePoS-based) Distribution Dashboard. Available online at: https://\nwww.impds.nic.in/sale/. Last accessed on 1 December 2022."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_4_block_011",
+      "coordinates": {
+        "x1": 227.0,
+        "y1": 2954.0,
+        "x2": 2255.0,
+        "y2": 3229.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9589357376098633,
+      "reading_order": 12,
+      "text": "■ In FY 2021-22, ONORC was accessed by 73 lakh eligible citizens. There was consistent growth in the number\nof people accessing ONORC till October 2021. However, November 2021 saw a dip with only 5.7 lakh eligible\ncitizens accessing ONORC. Consequently, in November 2021, the total number of transactions excluding\nPMGKY was only 1.3 lakh. In FY 2021-22, the total number of transactions under ONORC (16.5 lakh) were only\n0.08 per cent of the total e-transactions."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_4_block_012",
+      "coordinates": {
+        "x1": 1507.0,
+        "y1": 3347.0,
+        "x2": 2186.0,
+        "y2": 3385.0
+      },
+      "layout_tag": "footer",
+      "confidence": 0.7778293490409851,
+      "reading_order": 13,
+      "text": "BUDGET BRIEFS, NFSA-FS, GOI 2023-24, VOL 15/ISSUE 2"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_4_block_013",
+      "coordinates": {
+        "x1": 2225.0,
+        "y1": 3348.0,
+        "x2": 2248.0,
+        "y2": 3385.0
+      },
+      "layout_tag": "page-number",
+      "confidence": 0.5127527117729187,
+      "reading_order": 14,
+      "text": "9"
+    }
+  ]
+}

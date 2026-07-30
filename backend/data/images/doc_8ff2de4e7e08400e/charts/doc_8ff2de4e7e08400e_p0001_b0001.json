@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_8ff2de4e7e08400e_p0001_b0001",
+  "chart_type": "chart",
+  "title": "MORE THAN 12 CRORE ELIGIBLE CITIZENS LEFT OUT OF NFSA IN 2022",
+  "description": "| Year | Number of eligible citizens not covered (in crore) | Percentage of citizens covered (according to Census 2011) |\n| :--- | :--- | :--- |\n| 2016 | 6.7 | 98% |\n| 2017 | 7.0 | 99% |\n| 2018 | 9.2 | 98% |\n| 2019 | 9.9 | 98% |\n| 2020 | 11.1 | 98% |\n| 2021 | 12.0 | 98% |\n| 2022 | 12.3 | 98% |",
+  "categories": [],
+  "series": [],
+  "source_page": 8,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_8ff2de4e7e08400e_p0001_b0001.png"
+}

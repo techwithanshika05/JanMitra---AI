@@ -1,0 +1,1165 @@
+{
+  "source_file": "Unconfirmed 146345.crdownload.pdf",
+  "metadata": {
+    "sarvam_jobs": [
+      {
+        "job_id": "20260730_cbc94483-8caf-48b2-bc1e-dbbba6698602",
+        "status": "Completed",
+        "start_page": 1,
+        "end_page": 3,
+        "metrics": {
+          "total_pages": 3,
+          "pages_processed": 3,
+          "pages_succeeded": 3,
+          "pages_failed": 0
+        }
+      }
+    ],
+    "processor": "sarvam_system",
+    "document_id": "doc_169a7e1a2c9b469e",
+    "sha256": "9873156660c8c52fe71952c71a0c818b9e42f542ee984b0f259645eb04155b83",
+    "artifact_contract": {
+      "text": "text/markdown",
+      "table": "text/html",
+      "chart_graph": "text/html+application/json+optional_image/png",
+      "image": "image/png",
+      "metadata": "application/json"
+    },
+    "artifacts": [
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0001_b0000",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0001_b0000",
+        "element_type": "heading",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0001_b0000.md",
+        "content": "# छात्रों हेतु महत्वपूर्ण निर्देश",
+        "embedding_text": "# छात्रों हेतु महत्वपूर्ण निर्देश",
+        "metadata": {
+          "reading_order": 0,
+          "confidence": 0.6379585266113281,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0001_b0000.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0001_b0001",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0001_b0001",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0001_b0001.md",
+        "content": "1-छात्र क्या करें:-",
+        "embedding_text": "1-छात्र क्या करें:-",
+        "metadata": {
+          "reading_order": 1,
+          "confidence": 0.6630871295928955,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0001_b0001.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0001_b0002",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0001_b0002",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0001_b0002.md",
+        "content": "• छात्रों हेतु आनलाइन आवेदन पत्र भरने से पूर्व अपने शैक्षिक योग्यता के अंकपत्र/प्रमाण पत्र, जाति/आय निवास प्रमाण पत्र (आनलाइन जारी), पाठ्यकम की अनिवार्य वार्षिक नान रिफण्डेबिल शुल्क धनराशि, वर्तमान विश्वविद्यालय/ बोर्ड का अपना पंजीयन क्रमांक (प्रथम वर्ष को छोड़कर), आधार नम्बर आदि अभिलेख होना आवश्यक है।",
+        "embedding_text": "• छात्रों हेतु आनलाइन आवेदन पत्र भरने से पूर्व अपने शैक्षिक योग्यता के अंकपत्र/प्रमाण पत्र, जाति/आय निवास प्रमाण पत्र (आनलाइन जारी), पाठ्यकम की अनिवार्य वार्षिक नान रिफण्डेबिल शुल्क धनराशि, वर्तमान विश्वविद्यालय/ बोर्ड का अपना पंजीयन क्रमांक (प्रथम वर्ष को छोड़कर), आधार नम्बर आदि अभिलेख होना आवश्यक है।",
+        "metadata": {
+          "reading_order": 2,
+          "confidence": 0.9389150738716125,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0001_b0002.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0001_b0003",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0001_b0003",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0001_b0003.md",
+        "content": "• हाई-स्कूल अंक पत्र एवं प्रमाण-पत्र में अंकित नाम, पिता का नाम, लिंग एवं जन्म तिथि का उसी तरह आधार कार्ड में भी अंकन होना आवश्यक है।",
+        "embedding_text": "• हाई-स्कूल अंक पत्र एवं प्रमाण-पत्र में अंकित नाम, पिता का नाम, लिंग एवं जन्म तिथि का उसी तरह आधार कार्ड में भी अंकन होना आवश्यक है।",
+        "metadata": {
+          "reading_order": 3,
+          "confidence": 0.9120399951934814,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0001_b0003.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0001_b0004",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0001_b0004",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0001_b0004.md",
+        "content": "• नवीनीकरण के छात्र आधार नम्बर का जनसांख्यिकीय प्रमाणीकरण (Demographic Authentication)(आधार नम्बर, नाम एवं जन्म तिथि का मिलान) तथा आधार लिंक मोबाइल नम्बर पर प्राप्त ओ०टी०पी० को अंकित करने के बाद ही छात्र अपने आवेदन पत्र को भरकर आनलाइन टेम्पेरेरी लाक कर सकेगा ।",
+        "embedding_text": "• नवीनीकरण के छात्र आधार नम्बर का जनसांख्यिकीय प्रमाणीकरण (Demographic Authentication)(आधार नम्बर, नाम एवं जन्म तिथि का मिलान) तथा आधार लिंक मोबाइल नम्बर पर प्राप्त ओ०टी०पी० को अंकित करने के बाद ही छात्र अपने आवेदन पत्र को भरकर आनलाइन टेम्पेरेरी लाक कर सकेगा ।",
+        "metadata": {
+          "reading_order": 4,
+          "confidence": 0.9395776987075806,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0001_b0004.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0001_b0005",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0001_b0005",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0001_b0005.md",
+        "content": "• नवीन छात्र डिजीलाकर के माध्यम से के०वाई०सी० कर आधार नम्बर का जनसांख्यिकीय प्रमाणीकरण (Demographic Authentication) (आधार नम्बर, नाम एवं जन्म तिथि का मिलान) करने के बाद ही छात्र अपने आवेदन पत्र को भरकर आनलाइन टेम्पेरेरी लाक कर सकेगा ।",
+        "embedding_text": "• नवीन छात्र डिजीलाकर के माध्यम से के०वाई०सी० कर आधार नम्बर का जनसांख्यिकीय प्रमाणीकरण (Demographic Authentication) (आधार नम्बर, नाम एवं जन्म तिथि का मिलान) करने के बाद ही छात्र अपने आवेदन पत्र को भरकर आनलाइन टेम्पेरेरी लाक कर सकेगा ।",
+        "metadata": {
+          "reading_order": 5,
+          "confidence": 0.9437163472175598,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0001_b0005.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0001_b0006",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0001_b0006",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0001_b0006.md",
+        "content": "• नवीनीकरण तथा नवीन छात्र अपने मोबाइल नम्बर अंकित कर ओ०टी०पी० के माध्यम से सत्यापन करेंगे तथा छात्र द्वारा उपयोग किया गया मोबाइल नम्बर एक ही आवेदन पत्र में मान्य होगा।",
+        "embedding_text": "• नवीनीकरण तथा नवीन छात्र अपने मोबाइल नम्बर अंकित कर ओ०टी०पी० के माध्यम से सत्यापन करेंगे तथा छात्र द्वारा उपयोग किया गया मोबाइल नम्बर एक ही आवेदन पत्र में मान्य होगा।",
+        "metadata": {
+          "reading_order": 6,
+          "confidence": 0.9193955063819885,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0001_b0006.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0001_b0007",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0001_b0007",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0001_b0007.md",
+        "content": "• आधार नम्बर से सीडेड बैंक खाता एवं एन०पी०सी०आई० में मैपिंग अनिवार्य है। सीडिंग न होने पर छात्र का आवेदन पत्र पूर्ण नहीं हो सकेगा। इस कार्य को सम्बन्धित बैंक शाखा से अनिवार्य रूप से करायें अन्यथा की स्थिति में ट्रांजेक्शन फेल होने की सम्भावना रहेगी। वित्तीय वर्ष-2023-24 में छात्रवृत्ति का भुगतान आधार नम्बर से सीडेड बैंक खाते में ही होगा ।",
+        "embedding_text": "• आधार नम्बर से सीडेड बैंक खाता एवं एन०पी०सी०आई० में मैपिंग अनिवार्य है। सीडिंग न होने पर छात्र का आवेदन पत्र पूर्ण नहीं हो सकेगा। इस कार्य को सम्बन्धित बैंक शाखा से अनिवार्य रूप से करायें अन्यथा की स्थिति में ट्रांजेक्शन फेल होने की सम्भावना रहेगी। वित्तीय वर्ष-2023-24 में छात्रवृत्ति का भुगतान आधार नम्बर से सीडेड बैंक खाते में ही होगा ।",
+        "metadata": {
+          "reading_order": 7,
+          "confidence": 0.9431892037391663,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0001_b0007.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0001_b0008",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0001_b0008",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0001_b0008.md",
+        "content": "• छात्र अपने आधार सीडेड बैंक खाते को संचालित रखें, न्यूनतम बैलेन्स बनाये रखें एवं खाते में धनराशि आने की अधिकतम लिमिट न लगी हो तथा हर 03 माह में बैंक खाते में ट्रांजेक्शन अवश्य करें ।",
+        "embedding_text": "• छात्र अपने आधार सीडेड बैंक खाते को संचालित रखें, न्यूनतम बैलेन्स बनाये रखें एवं खाते में धनराशि आने की अधिकतम लिमिट न लगी हो तथा हर 03 माह में बैंक खाते में ट्रांजेक्शन अवश्य करें ।",
+        "metadata": {
+          "reading_order": 8,
+          "confidence": 0.9105197787284851,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0001_b0008.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0001_b0009",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0001_b0009",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0001_b0009.md",
+        "content": "• छात्र अपना आवेदन आनलाइन करने के पश्चात एवं टेम्परेरी लाक करने से पूर्व अपना सम्पूर्ण विवरण यथा- हाईस्कूल/इण्टरमीडिएट का रोल नम्बर, जाति/आय प्रमाण-पत्र का क्रमांक एवं आवेदन का क्रमांक, छात्र द्वारा गत परीक्षा में प्राप्त अंकों का विवरण, वर्तमान पाठ्यक्रम में प्रवेश लेने की न्यूनतम योग्यता, पाठ्यक्रम एवं पाठ्यक्रम का प्रकार, अनुमोदित वार्षिक शुल्क की धनराशि, आवेदन पत्र में अंकित की गयी कैटेगरी (अनुसूचित जाति, अनुसूचित जनजाति, सामान्य वर्ग, पिछडा वर्ग, अल्पसंख्यक वर्ग) आदि का किया गया अंकन सावधानीपूर्वक जांच लें ।",
+        "embedding_text": "• छात्र अपना आवेदन आनलाइन करने के पश्चात एवं टेम्परेरी लाक करने से पूर्व अपना सम्पूर्ण विवरण यथा- हाईस्कूल/इण्टरमीडिएट का रोल नम्बर, जाति/आय प्रमाण-पत्र का क्रमांक एवं आवेदन का क्रमांक, छात्र द्वारा गत परीक्षा में प्राप्त अंकों का विवरण, वर्तमान पाठ्यक्रम में प्रवेश लेने की न्यूनतम योग्यता, पाठ्यक्रम एवं पाठ्यक्रम का प्रकार, अनुमोदित वार्षिक शुल्क की धनराशि, आवेदन पत्र में अंकित की गयी कैटेगरी (अनुसूचित जाति, अनुसूचित जनजाति, सामान्य वर्ग, पिछडा वर्ग, अल्पसंख्यक वर्ग) आदि का किया गया अंकन सावधानीपूर्वक जांच लें ।",
+        "metadata": {
+          "reading_order": 9,
+          "confidence": 0.952147364616394,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0001_b0009.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0001_b0010",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0001_b0010",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0001_b0010.md",
+        "content": "• सभी छात्र अपना आवेदन पत्र स्वयं भरें। आनलाइन आवेदन पत्र के लिये पासवर्ड स्वयं सृजित करें। छात्र यदि साइबर कैफे/संस्था से आवेदन कर रहे हैं तो अपने सामने ही सभी प्रविष्टियों को आवेदन पत्र में भरवायें एवं जांच का प्रिन्ट लेकर स्वयं समस्त प्रविष्टियों की जांच कर लें तथा यदि कोई त्रुटि है तो उसको सुधार करने के उपरान्त ही आवेदन पत्र को आनलाइन सबमिट करें ।",
+        "embedding_text": "• सभी छात्र अपना आवेदन पत्र स्वयं भरें। आनलाइन आवेदन पत्र के लिये पासवर्ड स्वयं सृजित करें। छात्र यदि साइबर कैफे/संस्था से आवेदन कर रहे हैं तो अपने सामने ही सभी प्रविष्टियों को आवेदन पत्र में भरवायें एवं जांच का प्रिन्ट लेकर स्वयं समस्त प्रविष्टियों की जांच कर लें तथा यदि कोई त्रुटि है तो उसको सुधार करने के उपरान्त ही आवेदन पत्र को आनलाइन सबमिट करें ।",
+        "metadata": {
+          "reading_order": 10,
+          "confidence": 0.9424135684967041,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0001_b0010.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0001_b0011",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0001_b0011",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0001_b0011.md",
+        "content": "• आवेदन पत्र सबमिट करने के उपरान्त तीन दिन बाद संस्था हेतु फाइनल प्रिन्ट ले सकेंगे, यदि आवेदन पत्र में जाति/आय/निवास प्रमाण-पत्र क्रमांक एवं आवेदन क्रमांक, आय तथा हाईस्कूल/इण्टरमीडिएट के रोल नम्बर में कोई त्रुटि होगी तो उसे इन तीन दिनों में आपकी लागिन पर प्रदर्शित किया जायेगा। सही करने के उपरान्त (हाईस्कूल रोल नम्बर को छोड़कर) ही आवेदन पत्र शिक्षण संस्थान को सबमिट (Submit) करने हेतु फाइनल प्रिन्ट लें एवं संस्थान से आवेदन पत्र जमा करने की पावती अवश्य लें।",
+        "embedding_text": "• आवेदन पत्र सबमिट करने के उपरान्त तीन दिन बाद संस्था हेतु फाइनल प्रिन्ट ले सकेंगे, यदि आवेदन पत्र में जाति/आय/निवास प्रमाण-पत्र क्रमांक एवं आवेदन क्रमांक, आय तथा हाईस्कूल/इण्टरमीडिएट के रोल नम्बर में कोई त्रुटि होगी तो उसे इन तीन दिनों में आपकी लागिन पर प्रदर्शित किया जायेगा। सही करने के उपरान्त (हाईस्कूल रोल नम्बर को छोड़कर) ही आवेदन पत्र शिक्षण संस्थान को सबमिट (Submit) करने हेतु फाइनल प्रिन्ट लें एवं संस्थान से आवेदन पत्र जमा करने की पावती अवश्य लें।",
+        "metadata": {
+          "reading_order": 11,
+          "confidence": 0.937918484210968,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0001_b0011.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0001_b0012",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0001_b0012",
+        "element_type": "image",
+        "page_number": 1,
+        "media_type": "image/png",
+        "relative_path": "images/doc_169a7e1a2c9b469e_p0001_b0012.png",
+        "content": null,
+        "embedding_text": "छात्रों हेतु महत्वपूर्ण निर्देश\nImage: (राजकुंवर वर्मा)\nसहायक प्रबन्धक\nसम्बद्ध अस्पताल\nशिक्षा-क.\nSource page: 1",
+        "metadata": {
+          "reading_order": 12,
+          "confidence": 0.8171015381813049,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\images\\doc_169a7e1a2c9b469e_p0001_b0012.png"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0001_b0013",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0001_b0013",
+        "element_type": "image",
+        "page_number": 1,
+        "media_type": "image/png",
+        "relative_path": "images/doc_169a7e1a2c9b469e_p0001_b0013.png",
+        "content": null,
+        "embedding_text": "छात्रों हेतु महत्वपूर्ण निर्देश\nImage: d ∉\nSource page: 1",
+        "metadata": {
+          "reading_order": 13,
+          "confidence": 0.688549816608429,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\images\\doc_169a7e1a2c9b469e_p0001_b0013.png"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0001",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0001",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0002_b0001.md",
+        "content": "• पाठ्यक्रम की अनिवार्य वार्षिक शुल्क (Non Refundable fee) के कालम में शिक्षण संस्थान से जानकारी करने के बाद ही वास्तविक फीस की धनराशि ही अंकित करें।",
+        "embedding_text": "• पाठ्यक्रम की अनिवार्य वार्षिक शुल्क (Non Refundable fee) के कालम में शिक्षण संस्थान से जानकारी करने के बाद ही वास्तविक फीस की धनराशि ही अंकित करें।",
+        "metadata": {
+          "reading_order": 1,
+          "confidence": 0.9069176912307739,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0002_b0001.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0002",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0002",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0002_b0002.md",
+        "content": "• छात्र प्रथम वर्ष में धनराशि न मिलने पर भी पूर्व आवेदन पत्र का अगली कक्षा में नवीनीकरण ही करें, न कि नवीन आवेदन पत्र भरें। छात्रों को नवीनीकरण हेतु आवेदन पत्र की कुछ अनिवार्य प्रविष्टियों को ही भरना है, जिसमें विगत परीक्षा के प्राप्तांक, पूर्णांक, वर्तमान पाठ्यक्रम में प्रवेश की तिथि तथा विश्वविद्यालय/बोर्ड का अपना पंजीयन क्रमांक भरना होगा। नवीनीकरण हेतु पात्र छात्र आवेदन पत्र में विगत कक्षा के पूर्णांक/प्राप्तांक को सही भरें क्योंकि अंको का मिलान विश्वविद्यालय/एफिलियेटिंग एजेंसी द्वारा अपलोड किये गये परीक्षाफल से किया जायेगा ।",
+        "embedding_text": "• छात्र प्रथम वर्ष में धनराशि न मिलने पर भी पूर्व आवेदन पत्र का अगली कक्षा में नवीनीकरण ही करें, न कि नवीन आवेदन पत्र भरें। छात्रों को नवीनीकरण हेतु आवेदन पत्र की कुछ अनिवार्य प्रविष्टियों को ही भरना है, जिसमें विगत परीक्षा के प्राप्तांक, पूर्णांक, वर्तमान पाठ्यक्रम में प्रवेश की तिथि तथा विश्वविद्यालय/बोर्ड का अपना पंजीयन क्रमांक भरना होगा। नवीनीकरण हेतु पात्र छात्र आवेदन पत्र में विगत कक्षा के पूर्णांक/प्राप्तांक को सही भरें क्योंकि अंको का मिलान विश्वविद्यालय/एफिलियेटिंग एजेंसी द्वारा अपलोड किये गये परीक्षाफल से किया जायेगा ।",
+        "metadata": {
+          "reading_order": 2,
+          "confidence": 0.9558342695236206,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0002_b0002.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0003",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0003",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0002_b0003.md",
+        "content": "• सभी निजी क्षेत्र के संस्थानों में पाठ्यक्रम का प्रकार स्ववित्त पोषित ही रहेगा। शासकीय (GOVT) एवं शासकीय सहायता प्राप्त (AIDED) संस्थानों में पाठ्यक्रम पाठ्यक्रम के प्रकार (नियमित (Regular)/स्ववित्त पोषित (SELF FINANCE) व पाठ्यक्रम के वर्ष का अंकन सही-सही ध्यानपूर्वक करें।",
+        "embedding_text": "• सभी निजी क्षेत्र के संस्थानों में पाठ्यक्रम का प्रकार स्ववित्त पोषित ही रहेगा। शासकीय (GOVT) एवं शासकीय सहायता प्राप्त (AIDED) संस्थानों में पाठ्यक्रम पाठ्यक्रम के प्रकार (नियमित (Regular)/स्ववित्त पोषित (SELF FINANCE) व पाठ्यक्रम के वर्ष का अंकन सही-सही ध्यानपूर्वक करें।",
+        "metadata": {
+          "reading_order": 3,
+          "confidence": 0.9271945357322693,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0002_b0003.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0004",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0004",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0002_b0004.md",
+        "content": "• छात्र/छात्रायें स्वयं का ई०-मेल आई०डी० व आधार नम्बर से लिंक स्वयं का मोबाइल नम्बर ही दें ।",
+        "embedding_text": "• छात्र/छात्रायें स्वयं का ई०-मेल आई०डी० व आधार नम्बर से लिंक स्वयं का मोबाइल नम्बर ही दें ।",
+        "metadata": {
+          "reading_order": 4,
+          "confidence": 0.8572342395782471,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0002_b0004.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0005",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0005",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0002_b0005.md",
+        "content": "• वर्तमान सत्र हेतु प्रचलित नियमावली, समय सारिणी, प्रदर्शित सूचनायें एवं अन्य विस्तृत जानकारी हेतु https://scholarship.up.gov.in पर समय-समय पर सर्च करें एवं वेबसाइट पर निरन्तर प्रदर्शित हो रहे आवश्यक निर्देशों का भली-भांति पालन करें एवं समय सारिणी में दी गयी समयावधि का उल्लंघन कदापि न करें।",
+        "embedding_text": "• वर्तमान सत्र हेतु प्रचलित नियमावली, समय सारिणी, प्रदर्शित सूचनायें एवं अन्य विस्तृत जानकारी हेतु https://scholarship.up.gov.in पर समय-समय पर सर्च करें एवं वेबसाइट पर निरन्तर प्रदर्शित हो रहे आवश्यक निर्देशों का भली-भांति पालन करें एवं समय सारिणी में दी गयी समयावधि का उल्लंघन कदापि न करें।",
+        "metadata": {
+          "reading_order": 5,
+          "confidence": 0.9375849366188049,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0002_b0005.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0006",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0006",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0002_b0006.md",
+        "content": "• नवीनीकरण के छात्र अपने आवेदन पत्र में पास (Pass)/प्रोन्नत (Promoted with marks) के साथ अपने सही प्राप्तांक ही भरें। परीक्षा परिणाम न निकलने की दशा में रिजल्ट नाट यट डिक्लेयर्ड (Result Not yet Declared) के आप्शन के साथ आवेदन कर सकते हैं, लेकिन संदेहास्पद डाटा को सही करने की समयावधि में परीक्षा परिणाम न निकलने अथवा छात्र द्वारा आवेदन पत्र में परीक्षा परिणाम भरकर संस्थान से पुनः अग्रसारित न कराने की दशा में छात्र का डाटा रिजेक्ट माना जाएगा।",
+        "embedding_text": "• नवीनीकरण के छात्र अपने आवेदन पत्र में पास (Pass)/प्रोन्नत (Promoted with marks) के साथ अपने सही प्राप्तांक ही भरें। परीक्षा परिणाम न निकलने की दशा में रिजल्ट नाट यट डिक्लेयर्ड (Result Not yet Declared) के आप्शन के साथ आवेदन कर सकते हैं, लेकिन संदेहास्पद डाटा को सही करने की समयावधि में परीक्षा परिणाम न निकलने अथवा छात्र द्वारा आवेदन पत्र में परीक्षा परिणाम भरकर संस्थान से पुनः अग्रसारित न कराने की दशा में छात्र का डाटा रिजेक्ट माना जाएगा।",
+        "metadata": {
+          "reading_order": 6,
+          "confidence": 0.9482483863830566,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0002_b0006.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0007",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0007",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0002_b0007.md",
+        "content": "• छात्र अपने आवेदन की स्थिति अपने लागिन एवं पासवर्ड के माध्यम से स्वयं देख सकते हैं। छात्रवृत्ति आवेदन संस्था द्वारा अग्रसारित करने/रिजेक्ट होने पर छात्र के मोबाइल पर एस०एम०एस०(SMS) भी जायेगा। संस्थान द्वारा आवेदन पत्र निर्धारित समयावधि में अग्रसारित होना आवश्यक है।",
+        "embedding_text": "• छात्र अपने आवेदन की स्थिति अपने लागिन एवं पासवर्ड के माध्यम से स्वयं देख सकते हैं। छात्रवृत्ति आवेदन संस्था द्वारा अग्रसारित करने/रिजेक्ट होने पर छात्र के मोबाइल पर एस०एम०एस०(SMS) भी जायेगा। संस्थान द्वारा आवेदन पत्र निर्धारित समयावधि में अग्रसारित होना आवश्यक है।",
+        "metadata": {
+          "reading_order": 7,
+          "confidence": 0.9316394329071045,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0002_b0007.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0008",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0008",
+        "element_type": "heading",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0002_b0008.md",
+        "content": "# 2-छात्र क्या न करें।",
+        "embedding_text": "# 2-छात्र क्या न करें।",
+        "metadata": {
+          "reading_order": 8,
+          "confidence": 0.8498178124427795,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0002_b0008.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0009",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0009",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0002_b0009.md",
+        "content": "• शिक्षण संस्था में जमा करने के लिये आवेदन पत्र किसी अन्य व्यक्ति को न सौंपे। शिक्षण संस्थान में स्वयं जमा करें एवं पावती रसीद अवश्य प्राप्त कर लें।",
+        "embedding_text": "• शिक्षण संस्था में जमा करने के लिये आवेदन पत्र किसी अन्य व्यक्ति को न सौंपे। शिक्षण संस्थान में स्वयं जमा करें एवं पावती रसीद अवश्य प्राप्त कर लें।",
+        "metadata": {
+          "reading_order": 9,
+          "confidence": 0.907431960105896,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0002_b0009.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0010",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0010",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0002_b0010.md",
+        "content": "• किसी दूसरे आवेदन पत्र में उपयोग किये गये मोबाइल नम्बर का पुनः प्रयोग करने पर छात्र का फाइनल प्रिन्ट मान्य नहीं होगा।",
+        "embedding_text": "• किसी दूसरे आवेदन पत्र में उपयोग किये गये मोबाइल नम्बर का पुनः प्रयोग करने पर छात्र का फाइनल प्रिन्ट मान्य नहीं होगा।",
+        "metadata": {
+          "reading_order": 10,
+          "confidence": 0.9094354510307312,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0002_b0010.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0011",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0011",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0002_b0011.md",
+        "content": "• अपने व्यक्तिगत विवरण/अभिलेख यथा-आधार नम्बर, हाईस्कूल का अनुक्रमांक व बैंक खाता संख्या तथा आवेदन हेतु सृजित पासवर्ड एवं अन्य कोई भी डाटा अथवा अभिलेख किसी से भी साझा (Share) न करें ।",
+        "embedding_text": "• अपने व्यक्तिगत विवरण/अभिलेख यथा-आधार नम्बर, हाईस्कूल का अनुक्रमांक व बैंक खाता संख्या तथा आवेदन हेतु सृजित पासवर्ड एवं अन्य कोई भी डाटा अथवा अभिलेख किसी से भी साझा (Share) न करें ।",
+        "metadata": {
+          "reading_order": 11,
+          "confidence": 0.9122791290283203,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0002_b0011.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0012",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0012",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0002_b0012.md",
+        "content": "• आवेदन पत्र भरने की अन्तिम तिथि का इन्तजार न करें ।",
+        "embedding_text": "• आवेदन पत्र भरने की अन्तिम तिथि का इन्तजार न करें ।",
+        "metadata": {
+          "reading_order": 12,
+          "confidence": 0.8592972159385681,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0002_b0012.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0013",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0013",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0002_b0013.md",
+        "content": "• अनुत्तीर्ण (Fail) छात्र किसी भी दशा में छात्रवृत्ति हेतु आवेदन न करें ।",
+        "embedding_text": "• अनुत्तीर्ण (Fail) छात्र किसी भी दशा में छात्रवृत्ति हेतु आवेदन न करें ।",
+        "metadata": {
+          "reading_order": 13,
+          "confidence": 0.8863000273704529,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0002_b0013.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0014",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0014",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0002_b0014.md",
+        "content": "• शिक्षण संस्थान में जमा करने हेतु आवेदन पत्र का फाइनल प्रिन्ट आउट बिना निकाले आवेदन पत्र भरा हुआ नहीं माना जायेगा। समय सारिणी में निर्धारित समयावधि में संशोधन करने के उपरान्त भी संस्थान में जमा करने हेतु",
+        "embedding_text": "• शिक्षण संस्थान में जमा करने हेतु आवेदन पत्र का फाइनल प्रिन्ट आउट बिना निकाले आवेदन पत्र भरा हुआ नहीं माना जायेगा। समय सारिणी में निर्धारित समयावधि में संशोधन करने के उपरान्त भी संस्थान में जमा करने हेतु",
+        "metadata": {
+          "reading_order": 14,
+          "confidence": 0.8846381902694702,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0002_b0014.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0015",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0015",
+        "element_type": "image",
+        "page_number": 2,
+        "media_type": "image/png",
+        "relative_path": "images/doc_169a7e1a2c9b469e_p0002_b0015.png",
+        "content": null,
+        "embedding_text": "2-छात्र क्या न करें।\nImage: The image contains handwritten signatures and initials. There is no text or mathematical content to transcribe.\nSource page: 2",
+        "metadata": {
+          "reading_order": 15,
+          "confidence": 0.707891047000885,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\images\\doc_169a7e1a2c9b469e_p0002_b0015.png"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0002_b0016",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0002_b0016",
+        "element_type": "image",
+        "page_number": 2,
+        "media_type": "image/png",
+        "relative_path": "images/doc_169a7e1a2c9b469e_p0002_b0016.png",
+        "content": null,
+        "embedding_text": "2-छात्र क्या न करें।\nImage: The image contains a signature that reads \"L. Gr.\"\nSource page: 2",
+        "metadata": {
+          "reading_order": 16,
+          "confidence": 0.7322446703910828,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\images\\doc_169a7e1a2c9b469e_p0002_b0016.png"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0003_b0000",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0003_b0000",
+        "element_type": "paragraph",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0003_b0000.md",
+        "content": "संशोधित फाइनल प्रिन्ट निकाल कर संस्था में जमा करने एवं संस्था द्वारा अग्रसारित करने के उपरान्त ही संशोधित आवेदन पत्र मान्य होगा।",
+        "embedding_text": "संशोधित फाइनल प्रिन्ट निकाल कर संस्था में जमा करने एवं संस्था द्वारा अग्रसारित करने के उपरान्त ही संशोधित आवेदन पत्र मान्य होगा।",
+        "metadata": {
+          "reading_order": 0,
+          "confidence": 0.8877350687980652,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0003_b0000.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0003_b0001",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0003_b0001",
+        "element_type": "paragraph",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0003_b0001.md",
+        "content": "• छात्र/छात्रा द्वारा आवेदन पत्र में त्रुटिपूर्ण/अपूर्ण/गलत प्रविष्टियां भरने पर पूर्ण उत्तरदायित्व छात्र/छात्रा का ही होगा एवं आवेदन पत्र निरस्त हो जायेगा तथा छात्रवृत्ति अनुमन्य नहीं होगी। यदि छात्र/छात्रा द्वारा आवेदन करते समय किसी अन्य छात्र/छात्रा का आधार नम्बर, हाई स्कूल रोल नम्बर, बैंक खाता, आय एवं जाति प्रमाण-पत्र तथा कोई अन्य अभिलेख प्रयोग किया हुआ पाया जाता है तो छात्र एवं संस्था के विरुद्ध नियमानुसार दण्डात्मक कार्यवाही करते हुए आवेदन निरस्त कर दिया जायेगा।",
+        "embedding_text": "• छात्र/छात्रा द्वारा आवेदन पत्र में त्रुटिपूर्ण/अपूर्ण/गलत प्रविष्टियां भरने पर पूर्ण उत्तरदायित्व छात्र/छात्रा का ही होगा एवं आवेदन पत्र निरस्त हो जायेगा तथा छात्रवृत्ति अनुमन्य नहीं होगी। यदि छात्र/छात्रा द्वारा आवेदन करते समय किसी अन्य छात्र/छात्रा का आधार नम्बर, हाई स्कूल रोल नम्बर, बैंक खाता, आय एवं जाति प्रमाण-पत्र तथा कोई अन्य अभिलेख प्रयोग किया हुआ पाया जाता है तो छात्र एवं संस्था के विरुद्ध नियमानुसार दण्डात्मक कार्यवाही करते हुए आवेदन निरस्त कर दिया जायेगा।",
+        "metadata": {
+          "reading_order": 1,
+          "confidence": 0.9333382248878479,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0003_b0001.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0003_b0002",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0003_b0002",
+        "element_type": "paragraph",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0003_b0002.md",
+        "content": "• यदि छात्र का डाटा सन्देहास्पद श्रेणी में आ जाता है तो सन्देह के कारण का उत्तर साक्ष्यों सहित अपनी संस्था के माध्यम से आनलाइन देना होगा। जनपद स्तरीय अधिकारियों (जिला समाज कल्याण अधिकारी/जिला पिछड़ा वर्ग कल्याण अधिकारी/जिला अल्पसंख्यक कल्याण अधिकारी) को संस्थान के माध्यम से छात्रवृत्ति वेबसाइट पर प्रदर्शित निर्धारित समयावधि में आनलाइन उपलब्ध न कराये जाने पर अथवा दिये गये उत्तर/अभिलेखों से छात्र के सही होने के दावे की पुष्टि नहीं होने पर जनपदीय अधिकारियों द्वारा जनपदीय छात्रवृत्ति स्वीकृति समिति से निर्णय प्राप्त करते हुये डाटा डिजिटल हस्ताक्षर से अस्वीकृत (REJECT) कर दिया जायेगा।",
+        "embedding_text": "• यदि छात्र का डाटा सन्देहास्पद श्रेणी में आ जाता है तो सन्देह के कारण का उत्तर साक्ष्यों सहित अपनी संस्था के माध्यम से आनलाइन देना होगा। जनपद स्तरीय अधिकारियों (जिला समाज कल्याण अधिकारी/जिला पिछड़ा वर्ग कल्याण अधिकारी/जिला अल्पसंख्यक कल्याण अधिकारी) को संस्थान के माध्यम से छात्रवृत्ति वेबसाइट पर प्रदर्शित निर्धारित समयावधि में आनलाइन उपलब्ध न कराये जाने पर अथवा दिये गये उत्तर/अभिलेखों से छात्र के सही होने के दावे की पुष्टि नहीं होने पर जनपदीय अधिकारियों द्वारा जनपदीय छात्रवृत्ति स्वीकृति समिति से निर्णय प्राप्त करते हुये डाटा डिजिटल हस्ताक्षर से अस्वीकृत (REJECT) कर दिया जायेगा।",
+        "metadata": {
+          "reading_order": 2,
+          "confidence": 0.9418889284133911,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0003_b0002.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0003_b0003",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0003_b0003",
+        "element_type": "paragraph",
+        "page_number": 3,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_169a7e1a2c9b469e_p0003_b0003.md",
+        "content": "• छात्रवृत्ति सम्बन्धी किसी भी समस्या के लिये कान्टेक्ट सेन्टर के दूरभाष संख्या 0522-3538700 (प्रातः 9:30 बजे से सायं 6:00 बजे तक अवकाश के दिनों को छोड़कर) पर कार्यालय अवधि में सम्पर्क कर सकते हैं।",
+        "embedding_text": "• छात्रवृत्ति सम्बन्धी किसी भी समस्या के लिये कान्टेक्ट सेन्टर के दूरभाष संख्या 0522-3538700 (प्रातः 9:30 बजे से सायं 6:00 बजे तक अवकाश के दिनों को छोड़कर) पर कार्यालय अवधि में सम्पर्क कर सकते हैं।",
+        "metadata": {
+          "reading_order": 3,
+          "confidence": 0.877924382686615,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\text\\doc_169a7e1a2c9b469e_p0003_b0003.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0003_b0004",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0003_b0004",
+        "element_type": "image",
+        "page_number": 3,
+        "media_type": "image/png",
+        "relative_path": "images/doc_169a7e1a2c9b469e_p0003_b0004.png",
+        "content": null,
+        "embedding_text": "2-छात्र क्या न करें।\nImage: निदेशक\nसमाज कल्याण\nउत्तर प्रदेश।\nSource page: 3",
+        "metadata": {
+          "reading_order": 4,
+          "confidence": 0.3995036482810974,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\images\\doc_169a7e1a2c9b469e_p0003_b0004.png"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_169a7e1a2c9b469e_p0003_b0005",
+        "document_id": "doc_169a7e1a2c9b469e",
+        "block_id": "doc_169a7e1a2c9b469e_p0003_b0005",
+        "element_type": "image",
+        "page_number": 3,
+        "media_type": "image/png",
+        "relative_path": "images/doc_169a7e1a2c9b469e_p0003_b0005.png",
+        "content": null,
+        "embedding_text": "2-छात्र क्या न करें।\nImage: (असि\nप्रबन्धक\nविद्यालय\n@\nमु०\n(सिद्धार्थ मिश्र)\nसहायक निदेशक (छात्रवृत्ति)\nमुख्यालय\n(सुनील कुमार बिसेन)\nसंयुक्त निदेशक (मु०)\nSource page: 3",
+        "metadata": {
+          "reading_order": 5,
+          "confidence": 0.864831805229187,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\images\\doc_169a7e1a2c9b469e_p0003_b0005.png"
+        }
+      }
+    ]
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 2480,
+      "height": 3509,
+      "created_at": "2026-07-30T09:48:09.304422+00:00",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "heading",
+          "text": "# छात्रों हेतु महत्वपूर्ण निर्देश",
+          "confidence": 0.6379585266113281,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 1116.0,
+            "y1": 448.0,
+            "x2": 1592.0,
+            "y2": 527.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "1-छात्र क्या करें:-",
+          "confidence": 0.6630871295928955,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 427.0,
+            "y1": 529.0,
+            "x2": 781.0,
+            "y2": 593.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "• छात्रों हेतु आनलाइन आवेदन पत्र भरने से पूर्व अपने शैक्षिक योग्यता के अंकपत्र/प्रमाण पत्र, जाति/आय निवास प्रमाण पत्र (आनलाइन जारी), पाठ्यकम की अनिवार्य वार्षिक नान रिफण्डेबिल शुल्क धनराशि, वर्तमान विश्वविद्यालय/ बोर्ड का अपना पंजीयन क्रमांक (प्रथम वर्ष को छोड़कर), आधार नम्बर आदि अभिलेख होना आवश्यक है।",
+          "confidence": 0.9389150738716125,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 421.0,
+            "y1": 609.0,
+            "x2": 2290.0,
+            "y2": 823.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "• हाई-स्कूल अंक पत्र एवं प्रमाण-पत्र में अंकित नाम, पिता का नाम, लिंग एवं जन्म तिथि का उसी तरह आधार कार्ड में भी अंकन होना आवश्यक है।",
+          "confidence": 0.9120399951934814,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 420.0,
+            "y1": 833.0,
+            "x2": 2292.0,
+            "y2": 973.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "• नवीनीकरण के छात्र आधार नम्बर का जनसांख्यिकीय प्रमाणीकरण (Demographic Authentication)(आधार नम्बर, नाम एवं जन्म तिथि का मिलान) तथा आधार लिंक मोबाइल नम्बर पर प्राप्त ओ०टी०पी० को अंकित करने के बाद ही छात्र अपने आवेदन पत्र को भरकर आनलाइन टेम्पेरेरी लाक कर सकेगा ।",
+          "confidence": 0.9395776987075806,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 419.0,
+            "y1": 987.0,
+            "x2": 2293.0,
+            "y2": 1198.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "• नवीन छात्र डिजीलाकर के माध्यम से के०वाई०सी० कर आधार नम्बर का जनसांख्यिकीय प्रमाणीकरण (Demographic Authentication) (आधार नम्बर, नाम एवं जन्म तिथि का मिलान) करने के बाद ही छात्र अपने आवेदन पत्र को भरकर आनलाइन टेम्पेरेरी लाक कर सकेगा ।",
+          "confidence": 0.9437163472175598,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 414.0,
+            "y1": 1209.0,
+            "x2": 2293.0,
+            "y2": 1420.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "• नवीनीकरण तथा नवीन छात्र अपने मोबाइल नम्बर अंकित कर ओ०टी०पी० के माध्यम से सत्यापन करेंगे तथा छात्र द्वारा उपयोग किया गया मोबाइल नम्बर एक ही आवेदन पत्र में मान्य होगा।",
+          "confidence": 0.9193955063819885,
+          "reading_order": 6,
+          "coordinates": {
+            "x1": 414.0,
+            "y1": 1431.0,
+            "x2": 2291.0,
+            "y2": 1575.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "• आधार नम्बर से सीडेड बैंक खाता एवं एन०पी०सी०आई० में मैपिंग अनिवार्य है। सीडिंग न होने पर छात्र का आवेदन पत्र पूर्ण नहीं हो सकेगा। इस कार्य को सम्बन्धित बैंक शाखा से अनिवार्य रूप से करायें अन्यथा की स्थिति में ट्रांजेक्शन फेल होने की सम्भावना रहेगी। वित्तीय वर्ष-2023-24 में छात्रवृत्ति का भुगतान आधार नम्बर से सीडेड बैंक खाते में ही होगा ।",
+          "confidence": 0.9431892037391663,
+          "reading_order": 7,
+          "coordinates": {
+            "x1": 410.0,
+            "y1": 1586.0,
+            "x2": 2295.0,
+            "y2": 1870.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "• छात्र अपने आधार सीडेड बैंक खाते को संचालित रखें, न्यूनतम बैलेन्स बनाये रखें एवं खाते में धनराशि आने की अधिकतम लिमिट न लगी हो तथा हर 03 माह में बैंक खाते में ट्रांजेक्शन अवश्य करें ।",
+          "confidence": 0.9105197787284851,
+          "reading_order": 8,
+          "coordinates": {
+            "x1": 410.0,
+            "y1": 1882.0,
+            "x2": 2293.0,
+            "y2": 2028.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "• छात्र अपना आवेदन आनलाइन करने के पश्चात एवं टेम्परेरी लाक करने से पूर्व अपना सम्पूर्ण विवरण यथा- हाईस्कूल/इण्टरमीडिएट का रोल नम्बर, जाति/आय प्रमाण-पत्र का क्रमांक एवं आवेदन का क्रमांक, छात्र द्वारा गत परीक्षा में प्राप्त अंकों का विवरण, वर्तमान पाठ्यक्रम में प्रवेश लेने की न्यूनतम योग्यता, पाठ्यक्रम एवं पाठ्यक्रम का प्रकार, अनुमोदित वार्षिक शुल्क की धनराशि, आवेदन पत्र में अंकित की गयी कैटेगरी (अनुसूचित जाति, अनुसूचित जनजाति, सामान्य वर्ग, पिछडा वर्ग, अल्पसंख्यक वर्ग) आदि का किया गया अंकन सावधानीपूर्वक जांच लें ।",
+          "confidence": 0.952147364616394,
+          "reading_order": 9,
+          "coordinates": {
+            "x1": 403.0,
+            "y1": 2035.0,
+            "x2": 2296.0,
+            "y2": 2402.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "• सभी छात्र अपना आवेदन पत्र स्वयं भरें। आनलाइन आवेदन पत्र के लिये पासवर्ड स्वयं सृजित करें। छात्र यदि साइबर कैफे/संस्था से आवेदन कर रहे हैं तो अपने सामने ही सभी प्रविष्टियों को आवेदन पत्र में भरवायें एवं जांच का प्रिन्ट लेकर स्वयं समस्त प्रविष्टियों की जांच कर लें तथा यदि कोई त्रुटि है तो उसको सुधार करने के उपरान्त ही आवेदन पत्र को आनलाइन सबमिट करें ।",
+          "confidence": 0.9424135684967041,
+          "reading_order": 10,
+          "coordinates": {
+            "x1": 402.0,
+            "y1": 2399.0,
+            "x2": 2293.0,
+            "y2": 2695.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "• आवेदन पत्र सबमिट करने के उपरान्त तीन दिन बाद संस्था हेतु फाइनल प्रिन्ट ले सकेंगे, यदि आवेदन पत्र में जाति/आय/निवास प्रमाण-पत्र क्रमांक एवं आवेदन क्रमांक, आय तथा हाईस्कूल/इण्टरमीडिएट के रोल नम्बर में कोई त्रुटि होगी तो उसे इन तीन दिनों में आपकी लागिन पर प्रदर्शित किया जायेगा। सही करने के उपरान्त (हाईस्कूल रोल नम्बर को छोड़कर) ही आवेदन पत्र शिक्षण संस्थान को सबमिट (Submit) करने हेतु फाइनल प्रिन्ट लें एवं संस्थान से आवेदन पत्र जमा करने की पावती अवश्य लें।",
+          "confidence": 0.937918484210968,
+          "reading_order": 11,
+          "coordinates": {
+            "x1": 403.0,
+            "y1": 2692.0,
+            "x2": 2290.0,
+            "y2": 3062.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "छात्रों हेतु महत्वपूर्ण निर्देश\nImage: (राजकुंवर वर्मा)\nसहायक प्रबन्धक\nसम्बद्ध अस्पताल\nशिक्षा-क.\nSource page: 1",
+          "confidence": 0.8171015381813049,
+          "reading_order": 12,
+          "coordinates": {
+            "x1": 363.0,
+            "y1": 3049.0,
+            "x2": 979.0,
+            "y2": 3307.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\images\\doc_169a7e1a2c9b469e_p0001_b0012.png"
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "छात्रों हेतु महत्वपूर्ण निर्देश\nImage: d ∉\nSource page: 1",
+          "confidence": 0.688549816608429,
+          "reading_order": 13,
+          "coordinates": {
+            "x1": 1474.0,
+            "y1": 3060.0,
+            "x2": 1816.0,
+            "y2": 3244.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\images\\doc_169a7e1a2c9b469e_p0001_b0013.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 2480,
+      "height": 3509,
+      "created_at": "2026-07-30T09:48:09.304422+00:00",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "header",
+          "text": "This image contains no text.",
+          "confidence": 0.5194668173789978,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 86.0,
+            "y1": 163.0,
+            "x2": 418.0,
+            "y2": 449.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "• पाठ्यक्रम की अनिवार्य वार्षिक शुल्क (Non Refundable fee) के कालम में शिक्षण संस्थान से जानकारी करने के बाद ही वास्तविक फीस की धनराशि ही अंकित करें।",
+          "confidence": 0.9069176912307739,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 384.0,
+            "y1": 367.0,
+            "x2": 2310.0,
+            "y2": 524.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "• छात्र प्रथम वर्ष में धनराशि न मिलने पर भी पूर्व आवेदन पत्र का अगली कक्षा में नवीनीकरण ही करें, न कि नवीन आवेदन पत्र भरें। छात्रों को नवीनीकरण हेतु आवेदन पत्र की कुछ अनिवार्य प्रविष्टियों को ही भरना है, जिसमें विगत परीक्षा के प्राप्तांक, पूर्णांक, वर्तमान पाठ्यक्रम में प्रवेश की तिथि तथा विश्वविद्यालय/बोर्ड का अपना पंजीयन क्रमांक भरना होगा। नवीनीकरण हेतु पात्र छात्र आवेदन पत्र में विगत कक्षा के पूर्णांक/प्राप्तांक को सही भरें क्योंकि अंको का मिलान विश्वविद्यालय/एफिलियेटिंग एजेंसी द्वारा अपलोड किये गये परीक्षाफल से किया जायेगा ।",
+          "confidence": 0.9558342695236206,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 372.0,
+            "y1": 524.0,
+            "x2": 2314.0,
+            "y2": 898.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "• सभी निजी क्षेत्र के संस्थानों में पाठ्यक्रम का प्रकार स्ववित्त पोषित ही रहेगा। शासकीय (GOVT) एवं शासकीय सहायता प्राप्त (AIDED) संस्थानों में पाठ्यक्रम पाठ्यक्रम के प्रकार (नियमित (Regular)/स्ववित्त पोषित (SELF FINANCE) व पाठ्यक्रम के वर्ष का अंकन सही-सही ध्यानपूर्वक करें।",
+          "confidence": 0.9271945357322693,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 369.0,
+            "y1": 902.0,
+            "x2": 2308.0,
+            "y2": 1128.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "• छात्र/छात्रायें स्वयं का ई०-मेल आई०डी० व आधार नम्बर से लिंक स्वयं का मोबाइल नम्बर ही दें ।",
+          "confidence": 0.8572342395782471,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 368.0,
+            "y1": 1136.0,
+            "x2": 2110.0,
+            "y2": 1210.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "• वर्तमान सत्र हेतु प्रचलित नियमावली, समय सारिणी, प्रदर्शित सूचनायें एवं अन्य विस्तृत जानकारी हेतु https://scholarship.up.gov.in पर समय-समय पर सर्च करें एवं वेबसाइट पर निरन्तर प्रदर्शित हो रहे आवश्यक निर्देशों का भली-भांति पालन करें एवं समय सारिणी में दी गयी समयावधि का उल्लंघन कदापि न करें।",
+          "confidence": 0.9375849366188049,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 359.0,
+            "y1": 1220.0,
+            "x2": 2308.0,
+            "y2": 1445.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "• नवीनीकरण के छात्र अपने आवेदन पत्र में पास (Pass)/प्रोन्नत (Promoted with marks) के साथ अपने सही प्राप्तांक ही भरें। परीक्षा परिणाम न निकलने की दशा में रिजल्ट नाट यट डिक्लेयर्ड (Result Not yet Declared) के आप्शन के साथ आवेदन कर सकते हैं, लेकिन संदेहास्पद डाटा को सही करने की समयावधि में परीक्षा परिणाम न निकलने अथवा छात्र द्वारा आवेदन पत्र में परीक्षा परिणाम भरकर संस्थान से पुनः अग्रसारित न कराने की दशा में छात्र का डाटा रिजेक्ट माना जाएगा।",
+          "confidence": 0.9482483863830566,
+          "reading_order": 6,
+          "coordinates": {
+            "x1": 350.0,
+            "y1": 1453.0,
+            "x2": 2308.0,
+            "y2": 1828.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "• छात्र अपने आवेदन की स्थिति अपने लागिन एवं पासवर्ड के माध्यम से स्वयं देख सकते हैं। छात्रवृत्ति आवेदन संस्था द्वारा अग्रसारित करने/रिजेक्ट होने पर छात्र के मोबाइल पर एस०एम०एस०(SMS) भी जायेगा। संस्थान द्वारा आवेदन पत्र निर्धारित समयावधि में अग्रसारित होना आवश्यक है।",
+          "confidence": 0.9316394329071045,
+          "reading_order": 7,
+          "coordinates": {
+            "x1": 344.0,
+            "y1": 1833.0,
+            "x2": 2308.0,
+            "y2": 2062.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "heading",
+          "text": "# 2-छात्र क्या न करें।",
+          "confidence": 0.8498178124427795,
+          "reading_order": 8,
+          "coordinates": {
+            "x1": 343.0,
+            "y1": 2136.0,
+            "x2": 746.0,
+            "y2": 2206.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "• शिक्षण संस्था में जमा करने के लिये आवेदन पत्र किसी अन्य व्यक्ति को न सौंपे। शिक्षण संस्थान में स्वयं जमा करें एवं पावती रसीद अवश्य प्राप्त कर लें।",
+          "confidence": 0.907431960105896,
+          "reading_order": 9,
+          "coordinates": {
+            "x1": 339.0,
+            "y1": 2223.0,
+            "x2": 2299.0,
+            "y2": 2386.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "• किसी दूसरे आवेदन पत्र में उपयोग किये गये मोबाइल नम्बर का पुनः प्रयोग करने पर छात्र का फाइनल प्रिन्ट मान्य नहीं होगा।",
+          "confidence": 0.9094354510307312,
+          "reading_order": 10,
+          "coordinates": {
+            "x1": 338.0,
+            "y1": 2380.0,
+            "x2": 2294.0,
+            "y2": 2552.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "• अपने व्यक्तिगत विवरण/अभिलेख यथा-आधार नम्बर, हाईस्कूल का अनुक्रमांक व बैंक खाता संख्या तथा आवेदन हेतु सृजित पासवर्ड एवं अन्य कोई भी डाटा अथवा अभिलेख किसी से भी साझा (Share) न करें ।",
+          "confidence": 0.9122791290283203,
+          "reading_order": 11,
+          "coordinates": {
+            "x1": 334.0,
+            "y1": 2539.0,
+            "x2": 2293.0,
+            "y2": 2720.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "• आवेदन पत्र भरने की अन्तिम तिथि का इन्तजार न करें ।",
+          "confidence": 0.8592972159385681,
+          "reading_order": 12,
+          "coordinates": {
+            "x1": 336.0,
+            "y1": 2700.0,
+            "x2": 1339.0,
+            "y2": 2781.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "• अनुत्तीर्ण (Fail) छात्र किसी भी दशा में छात्रवृत्ति हेतु आवेदन न करें ।",
+          "confidence": 0.8863000273704529,
+          "reading_order": 13,
+          "coordinates": {
+            "x1": 335.0,
+            "y1": 2783.0,
+            "x2": 1560.0,
+            "y2": 2876.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "• शिक्षण संस्थान में जमा करने हेतु आवेदन पत्र का फाइनल प्रिन्ट आउट बिना निकाले आवेदन पत्र भरा हुआ नहीं माना जायेगा। समय सारिणी में निर्धारित समयावधि में संशोधन करने के उपरान्त भी संस्थान में जमा करने हेतु",
+          "confidence": 0.8846381902694702,
+          "reading_order": 14,
+          "coordinates": {
+            "x1": 327.0,
+            "y1": 2869.0,
+            "x2": 2290.0,
+            "y2": 3066.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "2-छात्र क्या न करें।\nImage: The image contains handwritten signatures and initials. There is no text or mathematical content to transcribe.\nSource page: 2",
+          "confidence": 0.707891047000885,
+          "reading_order": 15,
+          "coordinates": {
+            "x1": 351.0,
+            "y1": 3014.0,
+            "x2": 979.0,
+            "y2": 3312.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\images\\doc_169a7e1a2c9b469e_p0002_b0015.png"
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "2-छात्र क्या न करें।\nImage: The image contains a signature that reads \"L. Gr.\"\nSource page: 2",
+          "confidence": 0.7322446703910828,
+          "reading_order": 16,
+          "coordinates": {
+            "x1": 1439.0,
+            "y1": 3087.0,
+            "x2": 1791.0,
+            "y2": 3266.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\images\\doc_169a7e1a2c9b469e_p0002_b0016.png"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 2480,
+      "height": 3509,
+      "created_at": "2026-07-30T09:48:09.304422+00:00",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "paragraph",
+          "text": "संशोधित फाइनल प्रिन्ट निकाल कर संस्था में जमा करने एवं संस्था द्वारा अग्रसारित करने के उपरान्त ही संशोधित आवेदन पत्र मान्य होगा।",
+          "confidence": 0.8877350687980652,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 364.0,
+            "y1": 439.0,
+            "x2": 2277.0,
+            "y2": 616.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "paragraph",
+          "text": "• छात्र/छात्रा द्वारा आवेदन पत्र में त्रुटिपूर्ण/अपूर्ण/गलत प्रविष्टियां भरने पर पूर्ण उत्तरदायित्व छात्र/छात्रा का ही होगा एवं आवेदन पत्र निरस्त हो जायेगा तथा छात्रवृत्ति अनुमन्य नहीं होगी। यदि छात्र/छात्रा द्वारा आवेदन करते समय किसी अन्य छात्र/छात्रा का आधार नम्बर, हाई स्कूल रोल नम्बर, बैंक खाता, आय एवं जाति प्रमाण-पत्र तथा कोई अन्य अभिलेख प्रयोग किया हुआ पाया जाता है तो छात्र एवं संस्था के विरुद्ध नियमानुसार दण्डात्मक कार्यवाही करते हुए आवेदन निरस्त कर दिया जायेगा।",
+          "confidence": 0.9333382248878479,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 362.0,
+            "y1": 605.0,
+            "x2": 2283.0,
+            "y2": 986.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "paragraph",
+          "text": "• यदि छात्र का डाटा सन्देहास्पद श्रेणी में आ जाता है तो सन्देह के कारण का उत्तर साक्ष्यों सहित अपनी संस्था के माध्यम से आनलाइन देना होगा। जनपद स्तरीय अधिकारियों (जिला समाज कल्याण अधिकारी/जिला पिछड़ा वर्ग कल्याण अधिकारी/जिला अल्पसंख्यक कल्याण अधिकारी) को संस्थान के माध्यम से छात्रवृत्ति वेबसाइट पर प्रदर्शित निर्धारित समयावधि में आनलाइन उपलब्ध न कराये जाने पर अथवा दिये गये उत्तर/अभिलेखों से छात्र के सही होने के दावे की पुष्टि नहीं होने पर जनपदीय अधिकारियों द्वारा जनपदीय छात्रवृत्ति स्वीकृति समिति से निर्णय प्राप्त करते हुये डाटा डिजिटल हस्ताक्षर से अस्वीकृत (REJECT) कर दिया जायेगा।",
+          "confidence": 0.9418889284133911,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 358.0,
+            "y1": 984.0,
+            "x2": 2289.0,
+            "y2": 1435.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "paragraph",
+          "text": "• छात्रवृत्ति सम्बन्धी किसी भी समस्या के लिये कान्टेक्ट सेन्टर के दूरभाष संख्या 0522-3538700 (प्रातः 9:30 बजे से सायं 6:00 बजे तक अवकाश के दिनों को छोड़कर) पर कार्यालय अवधि में सम्पर्क कर सकते हैं।",
+          "confidence": 0.877924382686615,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 356.0,
+            "y1": 1433.0,
+            "x2": 2289.0,
+            "y2": 1587.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "2-छात्र क्या न करें।\nImage: निदेशक\nसमाज कल्याण\nउत्तर प्रदेश।\nSource page: 3",
+          "confidence": 0.3995036482810974,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 1877.0,
+            "y1": 1609.0,
+            "x2": 2152.0,
+            "y2": 1891.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\images\\doc_169a7e1a2c9b469e_p0003_b0004.png"
+        },
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "2-छात्र क्या न करें।\nImage: (असि\nप्रबन्धक\nविद्यालय\n@\nमु०\n(सिद्धार्थ मिश्र)\nसहायक निदेशक (छात्रवृत्ति)\nमुख्यालय\n(सुनील कुमार बिसेन)\nसंयुक्त निदेशक (मु०)\nSource page: 3",
+          "confidence": 0.864831805229187,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 573.0,
+            "y1": 1952.0,
+            "x2": 2164.0,
+            "y2": 2403.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_169a7e1a2c9b469e\\images\\doc_169a7e1a2c9b469e_p0003_b0005.png"
+        },
+        {
+          "page": 3,
+          "layout": "page_number",
+          "text": "y = 1/2x² + 3x - 5",
+          "confidence": 0.3719213604927063,
+          "reading_order": 6,
+          "coordinates": {
+            "x1": 2352.0,
+            "y1": 3244.0,
+            "x2": 2390.0,
+            "y2": 3313.0
+          },
+          "image_path": null
+        }
+      ]
+    }
+  ]
+}

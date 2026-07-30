@@ -1,0 +1,1 @@
+• 1 कोविड-19 से मृत्यु का साक्ष्य (साक्ष्य के लिए Antigen या RT-PCR के +ve test report, Blood report या C.T. scan में covid-19 का infection होना माना जा सकता है। कोविड-19 का patient कतिपय परिस्थितियों में test में negative आने के बाद भी post- covid complication से उसकी मृत्यु हो सकती है। यह मृत्यु भी covid-19 की वजह से ही मानी जायेगी।)

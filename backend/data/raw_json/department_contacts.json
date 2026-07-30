@@ -1,0 +1,261 @@
+[
+    {
+        "sr_no": 1,
+        "department_name": "श्रम विभाग 3",
+        "department_nodal_email": "shamimakht@gmail.com",
+        "technical_nodal_email": "labour.upssb@gmail.com",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 2,
+        "department_name": "स्वास्थ्य एवं परिवार कल्याण विभाग",
+        "department_nodal_email": "directorplanbudget@gmail.com",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 3,
+        "department_name": "प्रशासनिक सुधार विभाग",
+        "department_nodal_email": "sheel.asthana-up@gov.in",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 4,
+        "department_name": "महिला कल्याण विभाग",
+        "department_nodal_email": "directormahilakalyan@gmail.com",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 5,
+        "department_name": "पुलिस विभाग",
+        "department_nodal_email": "rkvips@gmail.com",
+        "technical_nodal_email": "murari.krishan@hotmail.com",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 6,
+        "department_name": "उत्तर प्रदेश कोआपरेटिव फेडरेशन लिमिटेड",
+        "department_nodal_email": "hq.pcfho@gmail.com",
+        "technical_nodal_email": "hq.pcfho@gmail.com",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 7,
+        "department_name": "उत्तर प्रदेश पावर कारपोरेशन लिमिटेड",
+        "department_nodal_email": "cecomuppcl@gmail.com",
+        "technical_nodal_email": "ritikdwivediuppcl@gmail.com",
+        "helpline_details": "uppclhelp@otpl.com 0522-4150500"
+    },
+    {
+        "sr_no": 8,
+        "department_name": "प्रशिक्षण और रोजगार विभाग",
+        "department_nodal_email": "kumarmith66@gmail.com",
+        "technical_nodal_email": "hemant.arora@nic.in",
+        "helpline_details": "sewayojan-up@gov.in 7839454211 , 0522-2638995"
+    },
+    {
+        "sr_no": 9,
+        "department_name": "भूगर्भ जल विभाग,उत्तर प्रदेश",
+        "department_nodal_email": "upgwd.in@gmail.com",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 10,
+        "department_name": "एन.आर.आई. विभाग",
+        "department_nodal_email": "PawanKumar@upfcindia.com",
+        "technical_nodal_email": "OmPrakash@otpl.co.in",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 11,
+        "department_name": "स्टाम्प और पंजीकरण",
+        "department_nodal_email": "amit.97491@gov.in",
+        "technical_nodal_email": "vinay.singh@nic.in",
+        "helpline_details": "igruplko@gmail.com 0522-2308697"
+    },
+    {
+        "sr_no": 12,
+        "department_name": "सी. एम. कार्यालय लोक शिकायत अनुभाग-5",
+        "department_nodal_email": "amitgwalior@yahoo.com",
+        "technical_nodal_email": "hemant.arora@nic.in",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 13,
+        "department_name": "खेल विभाग",
+        "department_nodal_email": "dir.sportsup@gmail.com",
+        "technical_nodal_email": "dir.sportsup@gmail.com",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 14,
+        "department_name": "महिला एवं बाल विकास विभाग",
+        "department_nodal_email": "gmsrcwc@gmail.com",
+        "technical_nodal_email": "amita.srivastava@nic.in",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 15,
+        "department_name": "धर्मार्थ कार्य विभाग",
+        "department_nodal_email": "dhramarthkarya57@gmail.com",
+        "technical_nodal_email": "dhramarthkarya57@gmail.com",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 16,
+        "department_name": "डेयरी विकास विभाग",
+        "department_nodal_email": "arvindyadav93@gmail.com",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 17,
+        "department_name": "रेशम विभाग उत्तर प्रदेश",
+        "department_nodal_email": "shivpratapa@gmail.com",
+        "technical_nodal_email": "mshaiq007@gmail.com",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 18,
+        "department_name": "खाद्य एवं औषधि विभाग",
+        "department_nodal_email": "upfdadrug@gmail.com",
+        "technical_nodal_email": "rashid.hussain@nic.in",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 19,
+        "department_name": "खाद्य लाइसेंस और पंजीकरण प्रणाली",
+        "department_nodal_email": "jitendra.s@semt.gov.in",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 20,
+        "department_name": "नगरीय विकास विभाग",
+        "department_nodal_email": "diruplb@nic.in",
+        "technical_nodal_email": "mt.e9ov18@gmail.com",
+        "helpline_details": "dirbh982012@gmail.com 8189077799"
+    },
+    {
+        "sr_no": 21,
+        "department_name": "कृषि विभाग 3",
+        "department_nodal_email": "ad.agri.lu-up@gov.in",
+        "technical_nodal_email": "adcc.agri-up@gov.in",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 22,
+        "department_name": "पशुपालन विभाग",
+        "department_nodal_email": "fdgoshala.up@gmail.com",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 23,
+        "department_name": "आबकारी विभाग",
+        "department_nodal_email": "statupexcise@gmail.com",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 24,
+        "department_name": "श्रम विभाग 2",
+        "department_nodal_email": "lcupknp@yahoo.com",
+        "technical_nodal_email": "ajit.kumar@margsoftware.com",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 25,
+        "department_name": "तकनीकी शिक्षा विभाग",
+        "department_nodal_email": "directordteup@gmail.com",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 26,
+        "department_name": "विधिक माप विज्ञान",
+        "department_nodal_email": "dclmzone.lu-up@gov.in",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 27,
+        "department_name": "उत्तर प्रदेश लोक निर्माण विभाग",
+        "department_nodal_email": "ssogenerallko@gmail.com",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 28,
+        "department_name": "राजनैतिक पेंशन विभाग",
+        "department_nodal_email": "prakash.12851@gov.in",
+        "technical_nodal_email": "politicalpensionupgov@gmail.com",
+        "helpline_details": ""
+    },
+    {
+        "sr_no": 29,
+        "department_name": "निदेशालय सैनिक कल्याण एवं पुनर्वास",
+        "department_nodal_email": "dirskpnlu-up@nic.in",
+        "technical_nodal_email": "dirskpnlu-up@nic.in",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 30,
+        "department_name": "उ0प्र0 खादी तथा ग्रामोउद्योग बोर्ड",
+        "department_nodal_email": "ceoupkvib@gmail.com",
+        "technical_nodal_email": "ceoupkvib@gmail.com",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 31,
+        "department_name": "राज्य व्यावसायिक प्रशिक्षण परिषद्",
+        "department_nodal_email": "rppuplucknow@gmail.com",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 32,
+        "department_name": "आवास और शहरी नियोजन विभाग",
+        "department_nodal_email": "dube.vk@gmail.com",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 33,
+        "department_name": "उत्तर प्रदेश सड़क परिवाहन निगम",
+        "department_nodal_email": "gmit@upsrtc.com",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 34,
+        "department_name": "मनोरंजन कर विभाग",
+        "department_nodal_email": "etcomup@nic.in",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 35,
+        "department_name": "माध्यमिक शिक्षा विभाग",
+        "department_nodal_email": "",
+        "technical_nodal_email": "",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 36,
+        "department_name": "उत्तर प्रदेश अग्निशमन सेवा",
+        "department_nodal_email": "a@gmail.com",
+        "technical_nodal_email": "-",
+        "helpline_details": "- -"
+    },
+    {
+        "sr_no": 37,
+        "department_name": "खाद्य एवं रसद विभाग",
+        "department_nodal_email": "jclucknow92@gmail.com",
+        "technical_nodal_email": "sunil.sharma@nic.in",
+        "helpline_details": "up.fncs@gmail.com 1967/18001800150"
+    }
+]

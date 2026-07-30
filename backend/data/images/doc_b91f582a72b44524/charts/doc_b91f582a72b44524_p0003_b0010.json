@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_b91f582a72b44524_p0003_b0010",
+  "chart_type": "chart",
+  "title": "USING BUDGETARY PROVISIONS FROM GOI, FCI'S DEBT BURDEN DECREASED SIGNIFICANTLY IN 2022-23",
+  "description": "| Year | Total Borrowings (₹ crore) | NSSF Loan (Approx.) | Short Term Loan (STL, Approx.) | Bonds/CCL Share Estimate (%) | Cash Credit Limit Component Value ₹ Crore* | Notes |\n|---|---|---|---|---|---|---|\n| 2014-15 | **91,353** | ~68,700 (~75%)<br>~22,650 (<25%) | - | <1% each visible segment approx.<br>(Total ≈  ∼1M split roughly evenly or slightly higher for CCL)<br><br>*Calculated based on total and visual proportions.* |\n\n| Year | Total Borrowings (₹ crore) | NSSF Loan (Approx.) | Short Term Loan (STL, Approx.) | Bonds/<br>Cash Split Est. % | Key Trend Observation |\n|---|---|---|---|---|---|\n| ... | *...* | *(Visuals only)* | -(Visual data not provided in image; values are explicit above). Estimated from bar heights relative to the Y axis scale.| Data points explicitly labeled where available: [Table Above]. |\n| 2019-20 Max Peak | **3,28,153** | >2,50,000 (>80%) / High Volatility spike before drop of other categories compared with previous years' steady growth trend until then|<br>*(Note that 'NSSF loan', etc., bars represent portions but their absolute value is unlabelled).* | Highest point across all series shown here prior to sharp decline post-peak year ||\n| Post-Peak Decline & Recovery Phase (approx) | Declining steadily after peak:<br>- Starts at ∼60k (-∼60%), rises back up by end period (∼39K), showing volatility between peaks despite overall downward trajectory since max||\n| Final Point (till 31 Dec) | Explicitly Labeled as \"38,730\" | Lowest recorded figure among non-\"Short term loans\". | Explicit label confirms final position within dataset range. |",
+  "categories": [],
+  "series": [],
+  "source_page": 3,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_b91f582a72b44524_p0003_b0010.png"
+}

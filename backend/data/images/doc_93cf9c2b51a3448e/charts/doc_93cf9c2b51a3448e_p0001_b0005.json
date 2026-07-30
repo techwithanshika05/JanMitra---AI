@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_93cf9c2b51a3448e_p0001_b0005",
+  "chart_type": "chart",
+  "title": "(5 Years+)",
+  "description": "| Year | Not Literate | Primary and Middle | Secondary and Higher Secondary | Below Primary | Graduate and Above |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| 1993-94 | ~52 | ~23 | ~10.5 | ~6 | null (not visible) |\n| 2004-05 | ~38 | ~29 | ~12 | ~7 | ~6 |\n| 2011-12 | ~31 | ~30 | ~18 | ~10 | ~9 |",
+  "categories": [],
+  "series": [],
+  "source_page": 17,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_93cf9c2b51a3448e_p0001_b0005.png"
+}

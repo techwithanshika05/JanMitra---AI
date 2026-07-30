@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_93cf9c2b51a3448e_p0001_b0007",
+  "chart_type": "chart",
+  "title": "Figure 4: Employment Status in India across Consumption Expenditure Quintiles: 2011-12",
+  "description": "| Category | Self-Employed | Regular | Casual |\n| :--- | :--- | :--- | :--- |\n| Poorest | 48.72 | 9.42 | 41.86 |\n| 2nd Poorest | 51.78 | 14.10 | 34.12 |\n| Middle | 53.04 | 17.31 | 29.66 |\n| 2nd Richest | 54.12 | 22.04 | 23.81 |\n| Richest | 54.40 | 29.87 | 15.73 |",
+  "categories": [],
+  "series": [],
+  "source_page": 14,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_93cf9c2b51a3448e_p0001_b0007.png"
+}

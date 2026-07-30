@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_93cf9c2b51a3448e_p0001_b0003",
+  "chart_type": "chart",
+  "title": "Figure 1: Labour Force Participation Rate (UPSS) in India: 1983 to 2011-12",
+  "description": "| Year | Male | Female | Person |\n| :--- | :--- | :--- | :--- |\n| 1983 | 55.1 | 30.0 | 42.9 |\n| 1993-94 | 55.6 | 29.0 | 42.8 |\n| 2004-05 | 55.9 | 29.4 | 43.0 |\n| 2011-12 | 55.6 | 22.5 | 39.5 |",
+  "categories": [],
+  "series": [],
+  "source_page": 10,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_93cf9c2b51a3448e_p0001_b0003.png"
+}

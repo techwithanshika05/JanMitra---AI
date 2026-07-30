@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_8ff2de4e7e08400e_p0001_b0000",
+  "chart_type": "chart",
+  "title": "INTERSTATE TRANSACTIONS: Bihar, Madhya Pradesh, Uttar Pradesh and Total Volume End-of-Period by Month",
+  "description": "| Month | Bihar (Est.) | Madhya Pradesh (Est.) | Uttar Pradesh (Est.) | Total Volume End-of-Period |\n| :--- | :--- | :--- | :--- | :--- |\n| Apr-21 | ~5,000 | 0 | 0 | < 5,000 |\n| May-21 | ~8,000 | 0 | 0 | ~9,000 |\n| Jun-21 | ~30,000 | 0 | 0 | ~40,000 |\n| Jul-21 | ~60,000 | 0 | 0 | ~70,000 |\n| Aug-21 | ~100,000 | 0 | 0 | ~110,000 |\n| Sep-21 | ~150,000 | Low (~<10k) | 0 | >150,000 total peak start of year low point mid period high points around Jan/Feb then drop to lowest in June and July before rising again at the end Nov-Dec range is approx between these two values for each month but not exact numbers given below are approximate based on visual height relative y axis scale provided above |\n| Oct-21 | High (>~2M likely), specific value unreadable due to overlap with red bar or text cutoff by image edge; visually appears highest single segment yet still part of 'Total' category contextually meaning it contributes significantly without being explicitly labeled as such here per instructions if label was present we would use that instead even though technically incorrect interpretation otherwise just note visible data from chart only where possible e.g., \"High\" vs numerical labels like others have been used when clear enough | N/A / Not applicable within stack since stacked nature implies sum rather than individual contribution unless specified which isn't done clearly except final totals shown separately so omitted entirely despite presence ||\n| Nov-21 | Very Large Segment reaching near top max Y=10m+ area covered mostly Red color indicating largest share among all categories combined including previous months contributions thus making up majority portion overall volume seen across timeline hence fits description perfectly well matching title statement exactly verbatim | Specific Value: **1,85,032** | Specific Value: **16,93,752** | Final Totals Shown Right Side Chart Explicitly Labeled: Top = `38,98,875`, Middle Layer Summed Up Below It specifically says layer name matches middle grey section + bottom green one sums together equals those figures respectively |",
+  "categories": [],
+  "series": [],
+  "source_page": 11,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_8ff2de4e7e08400e_p0001_b0000.png"
+}

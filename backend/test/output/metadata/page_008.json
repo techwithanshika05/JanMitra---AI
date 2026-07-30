@@ -1,0 +1,190 @@
+{
+  "page_num": 8,
+  "image_width": 2480,
+  "image_height": 3507,
+  "created_at": "2026-07-24T07:16:16.314433+00:00",
+  "blocks": [
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_8_block_000",
+      "coordinates": {
+        "x1": 277.0,
+        "y1": 356.0,
+        "x2": 2197.0,
+        "y2": 413.0
+      },
+      "layout_tag": "image-caption",
+      "confidence": 0.816739559173584,
+      "reading_order": 1,
+      "text": "TOTAL ALLOCATIONS FOR FOOD SUBSIDY IN 2023-24 WERE 31% LOWER THAN 2022-23 REs"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_8_block_001",
+      "coordinates": {
+        "x1": 272.0,
+        "y1": 462.0,
+        "x2": 2154.0,
+        "y2": 976.0
+      },
+      "layout_tag": "chart",
+      "confidence": 0.9371329545974731,
+      "reading_order": 2,
+      "text": "| Fiscal Year | GoI allocations to MoCAF&PD (in ₹ crore) | Total Food Subsidy (in ₹ crore) |\n| :--- | :--- | :--- |\n| 2019-20 | 1,17,290 | 1,08,688 |\n| 2020-21 | 4,50,687 | 4,22,618 |\n| 2021-22 | 3,04,454 | 2,86,469 |\n| 2022-23 | 2,96,523 | 2,87,194 |\n| 2023-24 | 2,05,765 | 1,97,350 |"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_8_block_002",
+      "coordinates": {
+        "x1": 228.0,
+        "y1": 1026.0,
+        "x2": 2250.0,
+        "y2": 1118.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.8957161903381348,
+      "reading_order": 3,
+      "text": "**Source:** Union Expenditure Budget, MoCAF&PD FY 2018-19 to FY 2023-24. Available online at: https://www.indiabudget.gov.in. Last accessed on\n1 February 2023."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_8_block_003",
+      "coordinates": {
+        "x1": 227.0,
+        "y1": 1118.0,
+        "x2": 1945.0,
+        "y2": 1167.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.8446484208106995,
+      "reading_order": 4,
+      "text": "Note: Figures are in crores of Rupees and Revised Estimates (REs), except for FY 2023-24 which are Budget Estimates (BEs)."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_8_block_004",
+      "coordinates": {
+        "x1": 227.0,
+        "y1": 1315.0,
+        "x2": 422.0,
+        "y2": 1370.0
+      },
+      "layout_tag": "section-title",
+      "confidence": 0.846046507358551,
+      "reading_order": 5,
+      "text": "Releases"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_8_block_005",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 1408.0,
+        "x2": 2253.0,
+        "y2": 1631.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9464508891105652,
+      "reading_order": 6,
+      "text": "■ Allocations for Food Subsidy are released by GoI to FCI. Release of funds by GoI has been falling since FY 2013-14,\nresulting in large arrears and increase in debt burden as the dues are carried over to the next financial year. To meet\nits debt obligation, FCI borrows funds through Cash Credit Limit (CCL), Ways and Means Advances (WMA), Short\nTerm Loan (STL), National Small Saving Fund (NSSF) Loan, and bonds."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_8_block_006",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 1663.0,
+        "x2": 2251.0,
+        "y2": 1772.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9060344696044922,
+      "reading_order": 7,
+      "text": "FCI’s debt burden increased from ₹84,446 crore in March 2014 to ₹3,28,153 crore in March 2020 – more than a three-fold increase."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_8_block_007",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 1809.0,
+        "x2": 2254.0,
+        "y2": 1976.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9363250136375427,
+      "reading_order": 8,
+      "text": "■ The trend, however, changed in FY 2020-21 when, against a claim of ₹2,16,833 crore, GoI released ₹4,62,789 crore or over two-fold the subsidy claimed during the year. With a repayment of ₹3,39,236 crore during FY 2020-21, NSSF loans have been fully repaid out of the additional subsidy provided by GoI."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_8_block_008",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 2009.0,
+        "x2": 2251.0,
+        "y2": 2120.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9062603116035461,
+      "reading_order": 9,
+      "text": "In FY 2022-23, as on 1 December 2022, the total debt burden decreased further by 24 per cent. The largest proportion of this debt burden is through bonds, at ₹37,000 crore."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_8_block_009",
+      "coordinates": {
+        "x1": 556.0,
+        "y1": 2269.0,
+        "x2": 1920.0,
+        "y2": 2375.0
+      },
+      "layout_tag": "image-caption",
+      "confidence": 0.8688915967941284,
+      "reading_order": 10,
+      "text": "USING BUDGETARY PROVISIONS FROM GOI, FCI'S DEBT BURDEN\nDECREASED SIGNIFICANTLY IN 2022-23"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_8_block_010",
+      "coordinates": {
+        "x1": 236.0,
+        "y1": 2405.0,
+        "x2": 2210.0,
+        "y2": 2971.0
+      },
+      "layout_tag": "chart",
+      "confidence": 0.9234344959259033,
+      "reading_order": 11,
+      "text": "| Financial Year | Total Borrowings (₹ crore) | NSSF Loan (Approximate Bar Height in Crore ₹s) | Short Term Loan (STL, Approximate Bar Height in Crore ₹s) | Bonds/CCL Share of STL (~Ratio to Y-Axis 50k bar height if visible)| Cash Credit Limit / Other Minor Components (<1% visual estimate or negligible text labels present>) |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **2014-15** | 91,353 | ~68K -70K range* | <~15K<br>*(Bar is low relative to axis)* | Not clearly distinct from other bars at base level but visually separate.* | None explicitly labeled on main plot; likely part of the stacked total.|\n| **2015-16** | 89,978 | ~65K -68K range* | Low value similar trend as previous year.<br>*Estimated based on position vs Axis label \"50,000\".* | Same pattern continues for remaining years where data points are clustered near baseline values below '50,000'. Labels appear only above red line and specific yellow peak markers which do not align with these minor components' heights due to scale differences between major lines versus small component stacks*. |\n\n***Note:** The chart contains significant scaling issues making precise extraction impossible without hallucination regarding unlabeled sub-components like CCL shares within short term loans.**"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_8_block_011",
+      "coordinates": {
+        "x1": 226.0,
+        "y1": 3016.0,
+        "x2": 2253.0,
+        "y2": 3110.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.8720714449882507,
+      "reading_order": 12,
+      "text": "**Source:** Borrowings from different sources by FCI for FY 2014-15 to FY 2022-23. Available online at: https://fci.gov.in/finances.php?view=113. Last\naccessed on 1 January 2023."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_8_block_012",
+      "coordinates": {
+        "x1": 1508.0,
+        "y1": 3347.0,
+        "x2": 2189.0,
+        "y2": 3385.0
+      },
+      "layout_tag": "footer",
+      "confidence": 0.8058080673217773,
+      "reading_order": 13,
+      "text": "BUDGET BRIEFS, NFSA-FS, GOI 2023-24, VOL 15/ISSUE 2"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_8_block_013",
+      "coordinates": {
+        "x1": 2227.0,
+        "y1": 3346.0,
+        "x2": 2248.0,
+        "y2": 3384.0
+      },
+      "layout_tag": "page-number",
+      "confidence": 0.38484349846839905,
+      "reading_order": 14,
+      "text": "3"
+    }
+  ]
+}

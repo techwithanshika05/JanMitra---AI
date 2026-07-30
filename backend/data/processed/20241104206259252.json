@@ -1,0 +1,104 @@
+{
+  "source_file": "20241104206259252.pdf",
+  "metadata": {
+    "total_pages": 2,
+    "total_blocks": 4,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.2222222222222222,
+    "processed_at": "2026-07-30T06:46:21Z",
+    "sarvam_visual_blocks": 3
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-30T06:46:21Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "ONE NATION \nONE RATION CARD \nNationwide Portability of Ration Reforms in Public Distribution System \nNational Informatics Centre \n= \nMinistry of Electronics & Information Technology \nGovernment of India \nTTS \nHl \nNational \nInformatics \nCentre",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": -0.00201416015625,
+            "x2": 595.8720092773438,
+            "y2": 842.1099853515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\20241104206259252_p1_img0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-30T06:46:21Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "The implementation \nof nation-wide portability of \nration cards through “One Nation One Ration Card \n(ONORC) plan”, is an ambitious endeavour of the \nDepartment of Food & Public Distribution System, \nGovernment \nof India developed by NIC to empower \nabout 78.74 Crore beneficiaries \nunder the National \nFood Security Act, 2013 (NFSA). This includes \nensuring \nfood \nsecurity \nfor \nmigrants \nas \nwell. \nThrough this facility, while a migrant beneficiary is \nenabled to get his/her ration through portability in \nthe destination State/UT, \nat the same time, \nthe \nfamily back home is also allowed to get their part of \nthe entitled ration to support itself. \nONORC \nuses \nInformation \n& \nCommunication \nTechnology (ICT) to implement Right to Food with \nthe concept \nof 5R's \n= Right Quantity and Right \nQuality to Right Beneficiary at Right Time and at \nRight Fair Price. \nONORC \nis also become integral part of “Pradhan \nMantri \nGarib \nKalyan Anna \nYojna (PMGKAY)\" \nto \ndistribute \nfree \ncommodities \nto \nmigrants \nduring \nCOVID-19. \nKey \nComponents \nare \nNational \nPortability, \nDe- \nduplication of beneficiaries, Creation of ration card \nCentral repository, Data Analytics. NIC is technical \npartner and implementation agency for Department \nof Food and Public Distribution(DFPD). \nInformative Dashboards links \n: \nhttps://nfsa.gov.in, https://impds.nic.in \nSalient features of One Nation \nOne \nRation Card \n1. \nA complete technology \n- driven \ninitiative empowering \nmigrants \nto \nbe \nself-reliant \nfor \ntheir \nfood \nsecurity \nin \na \ntransparent manner. \n2. \nNo need to carry original ration card or Aadhaar card. A \ncopy of either of the two is acceptable or just quote any of \nthe two numbers to the FPS dealer. \n3. \nEntitlements from Home State are available online on \nthe ePoS devices of chosen FPS. \n4. \nLift the Foodgrains with satisfaction after establishing \nidentity through Aadhaar based \nauthentication \nof ePoS \n(portability) transactions. \nLinks with \n: UIDAL,PFMS,CSCs,PM Dashboard \n(PRAYAS),DBT Bharat, UMANG App, Ayushmann \nBharat (NHA), Ministry of Labour & Employment \n(MoLE).",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "Image: The image displays a circular logo, likely representing a government identification or welfare card. The design is divided into three horizontal sections. The top section features a graphic of a blue hand releasing green and orange dots, symbolizing food grains. The middle section is a solid blue horizontal band containing the text \"1 Nation Ration Card\" in white, bold, sans-serif font. The bottom section is white, displaying the acronym \"ONORC\" in black, centered text. The entire logo is enclosed within a double blue circular border.\nSource page: 2",
+          "confidence": 0.5948113799095154,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 1906.0,
+            "y1": 89.0,
+            "x2": 2365.0,
+            "y2": 537.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_c8f2ca357a224be1\\images\\doc_c8f2ca357a224be1_p0001_b0007.png"
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "Image: The image displays a digital photograph of a handheld electronic device, specifically a biometric fingerprint scanner. The device is dark grey or black with a rugged, rectangular design. At the top, there is a clear plastic window for placing a finger, and a black antenna extends from the top left corner, suggesting wireless connectivity. The front face of the device features a prominent white square logo containing a red and yellow fingerprint pattern with the text \"AADHAAR\" written below it. Below the logo, there is a grid of small, colored squares, likely representing a keypad or touch-sensitive buttons. The background is a blurred green surface, indicating the device is being held or placed on a textured material.\nSource page: 2",
+          "confidence": 0.9072871208190918,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 7.0,
+            "y1": 2247.0,
+            "x2": 845.0,
+            "y2": 3483.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_c8f2ca357a224be1\\images\\doc_c8f2ca357a224be1_p0001_b0015.png"
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "Image: The image displays a black compass rose or wheel icon centered on a solid mustard-yellow background. The design consists of a thick outer circle with a smaller inner circle. Eight thick, straight spokes radiate from the center to the outer edge, dividing the circle into eight equal segments. The image is a flat graphic with no gradients or shadows.\nSource page: 2",
+          "confidence": 0.8747177720069885,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 898.0,
+            "y1": 3107.0,
+            "x2": 1116.0,
+            "y2": 3332.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_c8f2ca357a224be1\\images\\doc_c8f2ca357a224be1_p0001_b0021.png"
+        }
+      ]
+    }
+  ]
+}

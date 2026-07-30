@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_93cf9c2b51a3448e_p0001_b0009",
+  "chart_type": "chart",
+  "title": "Figure 6: Female-Male Wage Ratios across Different Categories in India: 1983 to 2011-12",
+  "description": "| Year | Rural Regular | Rural Urban | Urban Regular | Urban Casual |\n| :--- | :--- | :--- | :--- | :--- |\n| 1983 | 0.72 | 0.63 | 0.76 | 0.50 |\n| 1993-94 | 0.60 | 0.66 | 0.81 | 0.57 |\n| 2004-05 | 0.59 | 0.63 | 0.75 | 0.58 |\n| 2011-12 | 0.63 | 0.70 | 0.80 | 0.62 |",
+  "categories": [],
+  "series": [],
+  "source_page": 16,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_93cf9c2b51a3448e_p0001_b0009.png"
+}

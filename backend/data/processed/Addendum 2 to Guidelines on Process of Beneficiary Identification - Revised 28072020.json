@@ -1,0 +1,151 @@
+{
+  "source_file": "Addendum 2 to Guidelines on Process of Beneficiary Identification - Revised 28072020.pdf",
+  "metadata": {
+    "total_pages": 4,
+    "total_blocks": 9,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.4444444444444444,
+    "processed_at": "2026-07-30T07:06:46Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-30T07:06:46Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "Addendum-II to \nBeneficiary Identification \nGuidelines \nAYUSHMAN BHARAT – PRADHAN MANTRI JAN AROGYA \nYOJANA (AB PM-JAY) \n \nDATE OF ISSUE: 28/07/2020",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 495.5999755859375,
+            "y1": 67.80000305175781,
+            "x2": 556.0799560546875,
+            "y2": 124.08000183105469
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Addendum 2 to Guidelines on Process of Beneficiary Identification - Revised 28072020_p1_img0.jpeg"
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 37.31999969482422,
+            "y1": 63.600006103515625,
+            "x2": 139.07998657226562,
+            "y2": 119.52000427246094
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Addendum 2 to Guidelines on Process of Beneficiary Identification - Revised 28072020_p1_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-30T07:06:46Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "Page 1 of 3 \nTable of Contents \n \nObjective ..................................................................................................................................................................... 2 \nAddition of Members to a PMJAY eligible household ..................................................................................... 2",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 24.599998474121094,
+            "y1": 716.0399780273438,
+            "x2": 571.199951171875,
+            "y2": 757.199951171875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Addendum 2 to Guidelines on Process of Beneficiary Identification - Revised 28072020_p2_img0.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-30T07:06:46Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "Page 2 of 3 \nObjective \n \nIn supersession to all earlier guidelines about adding new member(s) to families under AB PMJAY, the purpose of this addendum is to lay down and define controls under ‘Add Member’ functionality in \nAB PM-JAY to further strengthen and enhance the scheme design and implementation in context of \nbeneficiary e-Card generation. \nThis addendum amends and modifies Section 1E and 8B of ‘Guidelines on Process of Beneficiary \nIdentification’ and supersedes earlier addendum issued on 20.03.2020. \n \nAddition of Members to a PMJAY eligible household1 \n \nWho can be added? \n \nThe AB PM-JAY scheme allows addition of new members to AB PM-JAY eligible families for the \nfollowing relationships: \na. Father, \nb. Mother, \nc. \nSon; \nd. Daughter; \ne. Daughter-in-law \nf. \nWife (or husband in specific cases of matrilineal society) \n \nThese are the only relations where member addition will be permissible through add member \nfeature of BIS. States implementing converged schemes on national platform may request for other \nrelationships to be added for add member feature. The responsibility to deploy proper checks and balances \nwill lie with the respective State. \n \nHow can one add new member? \n \nIn order to add a family member, at least one of the existing family members must be verified and \nthe identity document used for the verification must be Aadhaar. \n \n \n1 The terms households and families are used interchangeably in context of this guideline",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 24.599998474121094,
+            "y1": 716.0399780273438,
+            "x2": 571.199951171875,
+            "y2": 757.199951171875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Addendum 2 to Guidelines on Process of Beneficiary Identification - Revised 28072020_p3_img0.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-30T07:06:46Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "Page 3 of 3 \nHowever, for States having low Aadhaar penetration or low internet penetration, they may be \nallowed to add member without Aadhaar using alternate mechanism including OTP on the mobile number \nof the existing member with respect to whom new member is being added. Any such provision will be made \nonly on the express request of SHA. However, NHA strongly recommends the mandatory use of Aadhaar \nfor add member facility. \n \nWhat documents are required? \n \nFor addition, the new member must produce: \n \n \nA birth certificate establishing relationship with exiting member OR \n \nA marriage certificate establishing relationship with exiting member OR \n \nAn Adoption certificate establishing relationship with exiting member \n \nFor AB PM-JAY families, States may be allowed to use other documents as acceptable IDs for adding \nthese relations subject to express request in this regard. These other acceptable IDs shall be those which \nare mandatorily issued by Central / State Government or equivalent authority for the purpose of \nidentification and they should bear unique verifiable number. \n \nWherever NFSA database is being used, API based integration may be done to directly fetch the family \ndetails from NFSA database. \n \nNote 1: Member addition is permitted to an existing PMJAY eligible household only if the date of birth/date \nof adoption/date of marriage registration is on or after 01/04/2011. \n \nNote 2: A PMJAY eligible female member married into a non-PMJAY eligible household is not permitted \nto add members of the non-PMJAY eligible household. However, such eligible female member shall \ncontinue to avail the benefit of PM JAY as PM JAY beneficiary. In addition, only for states with matriarchal \nsociety, addition of husband as a family member may be allowed. \n \nNote 3: This guideline should be applicable from the date of issue. Any e-Cards that have been created using \nAdd Member functionality across India before the date of release of this addendum, shall have no change, \nand shall continue to be in effect, unless otherwise specifically mentioned by NHA over any separate \ncommunication(s).",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 24.599998474121094,
+            "y1": 716.0399780273438,
+            "x2": 571.199951171875,
+            "y2": 757.199951171875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Addendum 2 to Guidelines on Process of Beneficiary Identification - Revised 28072020_p4_img0.jpeg"
+        }
+      ]
+    }
+  ]
+}

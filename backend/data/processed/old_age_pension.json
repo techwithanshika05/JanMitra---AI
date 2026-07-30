@@ -1,0 +1,48 @@
+{
+  "source_file": "old_age_pension.pdf",
+  "metadata": {
+    "total_pages": 2,
+    "total_blocks": 2,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.2222222222222222,
+    "processed_at": "2026-07-30T08:15:59Z",
+    "sarvam_visual_blocks": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T08:15:59Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "fdlku o`}koLFkk isa’ku ds fy, \nizkFkZuk & Ik= \n fu;e ¼1½ nsf[k;s \n \n\nvks-,-ih-¼1½ \nIkgyh izfr @ nwljh izfr \n\n1- Jh@Jherh   Iqk=@iq=h@iRuh   \n2- iwjk irk  xzke@eksgYyk  \nxzke iapk;r  Cykd  \nrglhy  ftyk  \n3- vk;q  o\"kZ ¼izkFkZuk Ik= nsus dh rkjh[k½ \nvk;q dk dksbZ izkFkZuk & i=ugh gSA izek.k dh vly ;k udy uRFkh gSA \n \n \n \nQksVks \n \n4- ;s izkFkhZ ds fups fy[ks fj’rsnkj gS vkSj mudh vk;q nh tkrh gS%& \n¼d½iq=   o\"kZ   ¼d½iq= dk iq=  o\"kZ   \n¼[k½ ifr@iRuh  \no\"kZ ¼[k½ ifr@iRuh   o\"kZ    \n5- f’kuk[rh dk fpUg   \n \nizkFkhZ Onkjk ÓiFk\nizkFkhZ Onkjk ÓiFk\nizkFkhZ Onkjk ÓiFk\nizkFkhZ Onkjk ÓiFk \n6- eS izekf.kr djrk gwa@djrh gwafd%& \n¼d½esjs xqtj&olj dk dksbZ tfj;k ugh gS vkenuh 1000@& ls vf/kd ugh gSA \n¼[k½Ókjhfjd v{kerk ds dkj.k eSa viuk@viuh thodksiktZu djus esa vleFkZ gawA \n¼x½ eSa foLFkkfir rFkk nwljh iznsÓ ls vkoklh gwa o mRrj izns’k esa 3 ekg ls jgk@jg jgh gwaA  \n¼?k½ esjs ikl fuEufyf[kr vpy lEifRr gS ftldk vuqekfur ewY; :Ik;s gSaA \n¼M-½ eSa mRrj iznsÓ dk@dh fuoklh gwa vkSj ,d oÔZ ls vf/kd ls mRrj izns’k esa jg jgk@jg jgh gwA \n¼p½ D;k igys dgh ukSdjh dh gS \\ ;fn gka rks fooj.k nsa%&  \n¼N½ D;k vkidks vkfFkZd lgk;rk isa’ku Hkh feyrh gS ;fn gka rks izfrekg fdruh \n \nizkFkhZ ds gLrk{kj@fuÓkuh vxwBk \nCka;k@nka;k \nQkfM+,  \nQkfM+,  \nQkfM+,  \nQkfM+,   \n  \n  \n  \n \nJh @ Jherh iq=@iq=h@iRuh  \nfuoklh dk izkFkZuk Ik= vkt \nfnukad dks izkIr fd;k x;kA \n \nxzke iapk;r fodkl vf/kdkjh ds gLrk{kj \n \n½",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T08:15:59Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "xzke iapk;r Cykd ftyk ds vkns’k \n \n1- xzke iapk;r dh [kqyh cSBd tks fnukad dks lEiUu gqbZ ;s bl izkFkZuk Ik= ij fopkj \ngqvk A \n2- ;g ik;k x;k fd izkFkhZ@izkfFkZuh ;kstuk lEcU/kh lHkh ÓrsaZ iw.kZ djrk@djrh gSA \nvFkok \nfuEu ÓrsaZ iwjh ugh djrk@djrh gSA \n 1- \n \n \n  \n 2- \n \n \n  \n 3-\n\n\n \n \n \n  \n 4- \n \n \n  \n3-xzke iapk;r dh cSBd esa izkFkhZ@izkfFkZuh dks fu;ekuqlkj c`}koLFkk isaÓu Lohd`r djus dk fu.kZ; \nfy;k x;k vkSj vk;q dh ojh;rk esa izrh{kk lwph esa uke dzekad ij ntZ fd;k x;k \nvFkok \nizkFkZuk Ik= vik= gksus ds dkj.k vLohd`r fd;k x;k A \n \n \nxzke iz/kku ds gLrk{kj ,oa eqgj \nxzke iapk;r fodkl vf/kdkjh ds gLrk{kj ,oa eqgj \n \n \n \n \nfnukad \nfnukad \n \n \n   \nTks ykxw u gks mls dkV fn;k tk; A \n \n \n \n \n \n \n \n \n \n \n2/2",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    }
+  ]
+}

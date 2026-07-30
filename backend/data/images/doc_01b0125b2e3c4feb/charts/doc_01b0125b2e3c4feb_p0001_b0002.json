@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_01b0125b2e3c4feb_p0001_b0002",
+  "chart_type": "chart",
+  "title": "Available in 12 Languages: NFSA Population Covered, Remaining Population and Total Bar Height by Percentage NFSA population covered",
+  "description": "| Percentage NFSA population covered | NFSA Population Covered (in Crore) | Remaining Population (in Crore) | Total Bar Height (%) |\n| :--- | :--- | :--- | :--- |\n| 19% | 15 | 65 | ~84% |\n| 33% | 27 | 53 | ~70% |\n| 44% | 35 | 45 | ~80% |\n| 74% | 60 | 20 | ~80% |\n| 77% | 63 | 17 | ~80% |\n| 80% | 65 | 15 | ~80% |\n| 81% | 65 | 15 | ~80% |\n| 85% | 69 | 11 | ~80% |\n| 86% | 69 | 11 | ~80% |\n| 86% | 69 | 11 | ~80% |\n| 87% | 69 | 11 | ~80% |\n| 94% | 75 | 5 | ~100% |",
+  "categories": [],
+  "series": [],
+  "source_page": 16,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_01b0125b2e3c4feb_p0001_b0002.png"
+}

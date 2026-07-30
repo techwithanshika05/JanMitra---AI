@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_b91f582a72b44524_p0008_b0009",
+  "chart_type": "chart",
+  "title": "22 STATES AND UTs DISTRIBUTED OVER 95% OF THE TOTAL LIFTED FOODGRAINS UNDER PMGKAY-I TO VII TILL NOVEMBER 2022",
+  "description": "| State | Percentage of foodgrains distributed out of total allocations (Grey) | Percentage of foodgrains distributed out of total offtake (Red) |\n| :--- | :--- | :--- |\n| West Bengal | 93% | 100% |\n| Haryana | 88% | 100% |\n| Uttar Pradesh | 85% | 99% |\n| Maharashtra | 82% | 99% |\n| Gujarat | 89% | 98% |\n| Chhattisgarh | 94% | 97% |\n| Uttarakhand | 89% | 97% |\n| Assam | 89% | 96% |\n| Bihar | 87% | 95% |\n| Odisha | 88% | 94% |\n| Punjab | 87% | 94% |\n| Rajasthan | 86% | 94% |\n| Jharkhand | 82% | 93% |\n| Sikkim | 82% | 86% |\n| Tamil Nadu | 81% | 86% |",
+  "categories": [],
+  "series": [],
+  "source_page": 8,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_b91f582a72b44524_p0008_b0009.png"
+}

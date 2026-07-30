@@ -1,0 +1,2062 @@
+{
+  "source_file": "Ration card.pdf",
+  "metadata": {
+    "total_pages": 39,
+    "total_blocks": 138,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.4444444444444444,
+    "processed_at": "2026-07-30T09:44:55Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:53Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "Work from AnyWhere (WAW) Portal\nSMART PDS\nUser Manual- New Ration Card Registration",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 826.7999877929688,
+            "y1": 3.360015869140625,
+            "x2": 942.0,
+            "y2": 44.6400146484375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p1_img0.png"
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 960.0,
+            "y2": 374.8800048828125
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p1_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:53Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "Purpose of the Manual \nThe Purpose Of This User Manual Is To Guide Citizens In Navigating And Completing \nThe New Ration Card Form Within The Smart PDS System. It Provides Step-by-step \nInstructions To Ensure A Smooth And Efficient Registration Process, Helping Users \nUnderstand Each Section Of The Form, Required Information, And Submission \nProcedures. By Following This Manual, Citizens Will Be Able To Successfully Register \ntheir New Ration card With Minimal Confusion Or Errors, Enhancing Their Overall \nExperience With The Smart PDS Platform.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p2_img0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:53Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "Login\nClick on citizen login \nto create new ration \ncard \n•\nTo create a new ration card, citizens should use the login type- citizen \nlogin to enter into the application.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p3_img0.png"
+        },
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 34.08000183105469,
+            "y1": 149.52001953125,
+            "x2": 723.8400268554688,
+            "y2": 496.32000732421875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p3_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:53Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "Citizen login page\n•\nCitizens can login using any of the 3 methods .\nLogin - Citizen\nMethod 1: Login via \nAadhaar and OTP sent \nto Aadhaar linked \nphone number\nMethod 2: Login via \nregistered mobile \nnumber\nMethod 3: Login via \nration card number\nLegacy users should use \nlogin via ration card\nOr\nOr\nOr",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p4_img0.png"
+        },
+        {
+          "page": 4,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 41.279998779296875,
+            "y1": 91.20001220703125,
+            "x2": 688.800048828125,
+            "y2": 491.7600402832031
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p4_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:53Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "text",
+          "text": "XXXX-XXXX-1234\nNew Ration Card Registration\n•\nCitizen with no existing ration card can login via aadhaar to create \na new ration card\nStep 1: Enter 12-digit \naadhaar number\nStep 2: Enter captcha\nStep 3: Click on \ngenerate OTP",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p5_img0.png"
+        },
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 24.239999771118164,
+            "y1": 134.8800048828125,
+            "x2": 701.0399780273438,
+            "y2": 492.0000305175781
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p5_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:53Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen enters the 6-digit OTP received\nNew Ration Card Registration\nStep 4: Enter 6 Digit OTP \nSent Your Mobile No. \nLinked With Aadhar No.\nStep 5: Click On Verify \nAnd Login",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 6,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p6_img0.png"
+        },
+        {
+          "page": 6,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 34.79999923706055,
+            "y1": 120.47998046875,
+            "x2": 704.1599731445312,
+            "y2": 495.1199951171875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p6_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:53Z",
+      "blocks": [
+        {
+          "page": 7,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\n Citizen lands on the home page and clicks on the “Apply New Ration Card” option\nNew Ration Card Registration\nClick on apply new \nration card\nDashboard under RC \napplication",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 7,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p7_img0.png"
+        },
+        {
+          "page": 7,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 19.68000030517578,
+            "y1": 109.92001342773438,
+            "x2": 708.0,
+            "y2": 472.08001708984375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p7_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:53Z",
+      "blocks": [
+        {
+          "page": 8,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nThe pop-up notification comes up for required documents.\nNew Ration Card Registration\nClick on proceed. \nPlease note that \naddress proof and \nfamily photograph \nwould be needed to \nfill the form",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 8,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p8_img0.png"
+        },
+        {
+          "page": 8,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 31.440000534057617,
+            "y1": 128.6400146484375,
+            "x2": 710.4000244140625,
+            "y2": 492.4800109863281
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p8_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:53Z",
+      "blocks": [
+        {
+          "page": 9,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen lands on the application form, Please fill in the HOF[head of the family] details starting with \npersonal details. HOF is eldest adult female of the household.\nIn HOF details fill personal \ndetails \nUpload photograph.\nJpeg, png \nSize< 5 MB",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 9,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p9_img0.png"
+        },
+        {
+          "page": 9,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 19.68000030517578,
+            "y1": 123.1199951171875,
+            "x2": 748.0800170898438,
+            "y2": 475.44000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p9_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:53Z",
+      "blocks": [
+        {
+          "page": 10,
+          "layout": "text",
+          "text": "New Ration Card Registration\nIn HOF details fill mobile\ndetails :\nStep 1: Enter mobile \nnumber\nStep 2: Click to generate \nOTP\nStep 3: Enter received OTP\nStep 4: Click to verify \nmobile number",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 10,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 794.6400146484375,
+            "y1": 54.71999740600586,
+            "x2": 921.3599853515625,
+            "y2": 89.27999877929688
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p10_img0.png"
+        },
+        {
+          "page": 10,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 33.36000061035156,
+            "y1": 169.4400177001953,
+            "x2": 721.5,
+            "y2": 374.70001220703125
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p10_img1.png"
+        },
+        {
+          "page": 10,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 36.47999954223633,
+            "y1": 172.55999755859375,
+            "x2": 714.239990234375,
+            "y2": 367.44000244140625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p10_img2.png"
+        },
+        {
+          "page": 10,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 600.47998046875,
+            "y1": 173.04000854492188,
+            "x2": 714.239990234375,
+            "y2": 199.92001342773438
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p10_img3.png"
+        },
+        {
+          "page": 10,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 375.3599853515625,
+            "y1": 300.0,
+            "x2": 435.8399963378906,
+            "y2": 317.2799987792969
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p10_img4.png"
+        }
+      ]
+    },
+    {
+      "page_number": 11,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:53Z",
+      "blocks": [
+        {
+          "page": 11,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen fills HOF occupation details \nIn HOF details fill \noccupation\nDetails :\n•\nCheck for PAN card \navailability , \n•\nSelect yes if available \nand provide the PAN \ncard number",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 11,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p11_img0.png"
+        },
+        {
+          "page": 11,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 20.399999618530273,
+            "y1": 110.63999938964844,
+            "x2": 669.8400268554688,
+            "y2": 318.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p11_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 12,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen fills general details and critical illness details\nIn HOF details fill general \ndetails :\n•\n Select yes , in case \nemployed under \nMGNREGA, provide ID and \nEPIC no.(Voter ID number)\n•\nSelect no , incase of no \nemployment under \nMGNREGA\nFill critical details :\n•\nSelect yes, in case of \nhaving critical illness like- \nstroke, kidney disease, \nheart attack etc. \n•\nSelect illness type and \nenter the year since \nsuffering from illness. \n•\nUpload a supporting \ncertificate.\n•\nSelect no, in case of no \ncritical illness",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 12,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p12_img0.png"
+        },
+        {
+          "page": 12,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 29.280000686645508,
+            "y1": 143.52000427246094,
+            "x2": 699.6000366210938,
+            "y2": 371.760009765625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p12_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 13,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen fills disability details\nIn HOF details fill disability \ndetails :\n•\nSelect yes, in case of \nhaving a disability. \n•\nEnter disability \npercentage between 0 – \n100 %\n•\nEnter disability type\n•\nYear since disability and\n•\nUpload supporting \ncertificate.\n•\nSelect no, in case of no \ndisability.\n•\nUpload supporting \ncertificate issued by the \nCMO. \n•\nType: pdf,png,jpeg, <5 \nMB",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 13,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p13_img0.png"
+        },
+        {
+          "page": 13,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 18.0,
+            "y1": 132.47998046875,
+            "x2": 750.9600219726562,
+            "y2": 423.3599853515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p13_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 14,
+          "layout": "text",
+          "text": "Pop up confirming \nsuccessful save\nNew Ration Card Registration\n•\nCitizen selects the category: “Non-Single member family or Single Member Family”\nIn HOF details fill single \nmember card type:\n•\nSelect single member \nfamily, if only 1 \nbeneficiary in entire \nfamily\n•\nSelect non-single \nmember family, if \nbeneficiary>1\nStep1: Click save\nStep2 : Click next",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 14,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p14_img0.png"
+        },
+        {
+          "page": 14,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 46.31999969482422,
+            "y1": 112.31999206542969,
+            "x2": 711.3599853515625,
+            "y2": 309.3599853515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p14_img1.png"
+        },
+        {
+          "page": 14,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 43.439998626708984,
+            "y1": 317.27996826171875,
+            "x2": 718.3800048828125,
+            "y2": 525.6599731445312
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p14_img2.png"
+        },
+        {
+          "page": 14,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 46.31999969482422,
+            "y1": 320.1600341796875,
+            "x2": 711.3599853515625,
+            "y2": 518.6400146484375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p14_img3.png"
+        },
+        {
+          "page": 14,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 546.239990234375,
+            "y1": 321.3599853515625,
+            "x2": 710.1599731445312,
+            "y2": 354.239990234375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p14_img4.png"
+        }
+      ]
+    },
+    {
+      "page_number": 15,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 15,
+          "layout": "text",
+          "text": "New Ration Card Registration\nAddress details\n•\nCitizen then lands on address details section and fills in required details \nIn address details, fill \npermanent residence \naddress:\n•\nChoose urban or rural as \ntype and fill the fields \naccordingly.\nSample address given \nahead",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 15,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p15_img0.png"
+        },
+        {
+          "page": 15,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 34.79999923706055,
+            "y1": 140.6400146484375,
+            "x2": 715.4400024414062,
+            "y2": 496.08001708984375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p15_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 16,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 16,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nSample Address",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 16,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p16_img0.png"
+        },
+        {
+          "page": 16,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 150.0,
+            "y1": 95.27999877929688,
+            "x2": 743.760009765625,
+            "y2": 502.32000732421875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p16_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 17,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 17,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen to fill in the present address details \nIn address details, fill present \nresidence address:\nStep 1: Choose same as \npermanent address if it present \nand permanent address are the \nsame.\nStep 2: Details are auto-filled in \ncase same as permanent \naddress is selected.\nStep 3: If not selected , enter \nthe present residence address \ndetails which is different from \nyour current address",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 17,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p17_img0.png"
+        },
+        {
+          "page": 17,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 48.2400016784668,
+            "y1": 111.1199951171875,
+            "x2": 678.719970703125,
+            "y2": 519.1199951171875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p17_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 18,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 18,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen completes in all required address details, then saves the form successfully and \nclicks on Next. \nStep 1:Click on save after \nfilling details",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 18,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p18_img0.png"
+        },
+        {
+          "page": 18,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 53.279998779296875,
+            "y1": 123.60000610351562,
+            "x2": 713.280029296875,
+            "y2": 506.8800048828125
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p18_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 19,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 19,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen completes in all required address details, then saves the form successfully and \nclicks on Next. \nStep 2: Pop up after \nsuccessfully saving\nStep 3: Click next",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 19,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p19_img0.png"
+        },
+        {
+          "page": 19,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 44.15999984741211,
+            "y1": 118.55999755859375,
+            "x2": 738.0,
+            "y2": 503.0400085449219
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p19_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 20,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 20,
+          "layout": "text",
+          "text": "New Ration Card Registration\nFamily Member(s)’ Details\n•\nCitizen lands on the “members” section and adds the personal details of family members one by one.\nStep 1:Click on add additional \nmember",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 20,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p20_img0.png"
+        },
+        {
+          "page": 20,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 44.63999938964844,
+            "y1": 147.60000610351562,
+            "x2": 628.0800170898438,
+            "y2": 521.52001953125
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p20_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 21,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 21,
+          "layout": "text",
+          "text": "New Ration Card Registration\nFamily Member(s)’ Details\n•\nCitizen lands on the “Members” section and adds the personal details of family members one by one.\nStep 2: Enter personal details \nof member\nStep 3: Upload photograph.\njpeg, png \nsize<5 MB\nStep4: Select relationship \nwith HOF",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 21,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p21_img0.png"
+        },
+        {
+          "page": 21,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 42.0,
+            "y1": 127.19998168945312,
+            "x2": 627.1199951171875,
+            "y2": 508.79998779296875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p21_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 22,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 22,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen fills in the complete family member personal details. \nStep 1: Enter phone number\nStep 2: Click on generate OTP\nStep 3: Enter OTP\nStep 4:Click on verify",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 22,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p22_img0.png"
+        },
+        {
+          "page": 22,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 26.399999618530273,
+            "y1": 89.03999328613281,
+            "x2": 707.0400390625,
+            "y2": 279.1199951171875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p22_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 23,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 23,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen fills family members occupation details \nFill occupation details of \nthe member\n•\nCheck for pan card \navailability , \n•\nSelect yes, if available \nand provide the pan \ncard number",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 23,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p23_img0.png"
+        },
+        {
+          "page": 23,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 20.399999618530273,
+            "y1": 110.63999938964844,
+            "x2": 669.8400268554688,
+            "y2": 318.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p23_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 24,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 24,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen fills general details and critical illness details of the family member\nFill the general details of \nmember\n•\n Select yes , in case \nemployed under \nMGNREGA, provide id and \nepic no.(Voter ID number)\n•\nSelect no , incase of no \nemployment under \nMGNREGA\nFill critical details :\n•\nSelect yes, in case of \nhaving critical illness like- \nstroke, kidney disease, \nheart attack etc. \n•\nSelect illness type and \nenter the year since \nsuffering from illness. \n•\nUpload a supporting \ncertificate.\n•\nSelect no, in case of no \ncritical illness",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 24,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p24_img0.png"
+        },
+        {
+          "page": 24,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 29.280000686645508,
+            "y1": 143.52000427246094,
+            "x2": 699.6000366210938,
+            "y2": 371.760009765625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p24_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 25,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 25,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen fills disability details of the family member\nFill disability details of the \nfamily member :\n•\nSelect yes, in case of \nhaving a disability. \n•\nEnter disability \npercentage between 0 – \n100 %\n•\nEnter disability type\n•\nYear since disability and\n•\nUpload supporting \ncertificate.\n•\nSelect no, in case of no \ndisability.\n•\nUpload supporting \ncertificate issued by the \nCMO. \n•\nType: pdf, png, jpeg, \n•\nSize <5 MB",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 25,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p25_img0.png"
+        },
+        {
+          "page": 25,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 18.0,
+            "y1": 132.47998046875,
+            "x2": 750.9600219726562,
+            "y2": 423.3599853515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p25_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 26,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 26,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen saves the member details.\nVerify the details and click save\nClick next",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 26,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p26_img0.png"
+        },
+        {
+          "page": 26,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 31.920000076293945,
+            "y1": 90.96002197265625,
+            "x2": 698.6399536132812,
+            "y2": 520.0800170898438
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p26_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 27,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 27,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nThe details of the new member gets added and is reflected on the screen. \nClick for adding additional new \nmember\nMember list- this shows the list of \nall members added.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 27,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p27_img0.png"
+        },
+        {
+          "page": 27,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 70.31999969482422,
+            "y1": 122.39993286132812,
+            "x2": 698.9400024414062,
+            "y2": 535.9799194335938
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p27_img1.png"
+        },
+        {
+          "page": 27,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 73.19999694824219,
+            "y1": 125.280029296875,
+            "x2": 691.9199829101562,
+            "y2": 528.9600219726562
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p27_img2.png"
+        }
+      ]
+    },
+    {
+      "page_number": 28,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 28,
+          "layout": "text",
+          "text": "New Ration Card Registration\nCommon Details\n•\nCitizen lands on the “common details” section and enters the required gas and bank details. \nIn common details fill gas \nconnection details :\n•\nSelect yes, in case of \nactive connection.\n•\nEnter consumer number, \ncompany name, agency \nname and no. Of \ncylinders.\n•\nSelect no, in case of no \ndisability.\nFill bank details",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 28,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p28_img0.png"
+        },
+        {
+          "page": 28,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 37.91999816894531,
+            "y1": 134.40000915527344,
+            "x2": 714.239990234375,
+            "y2": 341.760009765625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p28_img1.png"
+        },
+        {
+          "page": 28,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 37.91999816894531,
+            "y1": 354.95989990234375,
+            "x2": 714.239990234375,
+            "y2": 530.159912109375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p28_img2.png"
+        }
+      ]
+    },
+    {
+      "page_number": 29,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 29,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen have an option to choose a Nominee-In situations where the Head of the Family (HOF) is unable to collect \nration(due to old age, disability, or other). A nominee may be designated to collect the ration on their behalf. The nominee \nmust not be a member listed on the same ration card and can be a trusted individual such as a neighbor or another \nknown person. \nNominee details :\n•\nSelect yes, in case RC \nholder wants to \nnominate someone. Ekyc is mandatory for \nnominee.\n•\nSelect no, in case \nnominee is not required.\nSelect 2 FPS preferred fair \nprice shops from where you \nwant to lift the ration.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 29,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p29_img0.png"
+        },
+        {
+          "page": 29,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 42.0,
+            "y1": 150.23989868164062,
+            "x2": 691.9199829101562,
+            "y2": 530.159912109375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p29_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 30,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 30,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen needs to select NSFA criteria details. Need to upload address proof and family photograph\nUpload a family photo \nalong with address \nproof(aadhaar card, \nvoter ID card, passport \netc as per state \nguidelines) \nSelect Yes/No for NSFA \nCriteria\nClick save and next",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 30,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p30_img0.png"
+        },
+        {
+          "page": 30,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 35.52000045776367,
+            "y1": 138.0,
+            "x2": 712.5599975585938,
+            "y2": 392.3999938964844
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p30_img1.png"
+        },
+        {
+          "page": 30,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 181.9199981689453,
+            "y1": 339.84002685546875,
+            "x2": 438.47998046875,
+            "y2": 384.96002197265625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p30_img2.png"
+        },
+        {
+          "page": 30,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 32.63999938964844,
+            "y1": 390.0,
+            "x2": 721.02001953125,
+            "y2": 452.2200012207031
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p30_img3.png"
+        },
+        {
+          "page": 30,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 35.52000045776367,
+            "y1": 392.8800048828125,
+            "x2": 712.5599975585938,
+            "y2": 443.760009765625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p30_img4.png"
+        }
+      ]
+    },
+    {
+      "page_number": 31,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:54Z",
+      "blocks": [
+        {
+          "page": 31,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nCitizen can preview, edit and save the form. \nClick here to go back and \nedit application.\nSave an submit the \napplication",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 31,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p31_img0.png"
+        },
+        {
+          "page": 31,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 36.0,
+            "y1": 134.4000244140625,
+            "x2": 717.4199829101562,
+            "y2": 499.260009765625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p31_img1.png"
+        },
+        {
+          "page": 31,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 38.880001068115234,
+            "y1": 137.2760009765625,
+            "x2": 708.9600219726562,
+            "y2": 488.46600341796875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p31_img2.png"
+        },
+        {
+          "page": 31,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 522.47998046875,
+            "y1": 160.55899047851562,
+            "x2": 695.3399658203125,
+            "y2": 195.17999267578125
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p31_img3.png"
+        },
+        {
+          "page": 31,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 524.4000244140625,
+            "y1": 162.47999572753906,
+            "x2": 687.8400268554688,
+            "y2": 187.67999267578125
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p31_img4.png"
+        }
+      ]
+    },
+    {
+      "page_number": 32,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:55Z",
+      "blocks": [
+        {
+          "page": 32,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nChecking the status of the application \nClick to Go Back to \nCitizen Dashboard\nClick on the logo to \ncheck application status\nClick to preview the \nfilled application\nAfter submitting the \napplication. HOF and all \nmembers are required \nto get e-KYC done at the \nmera e-KYC app or \nnearest FPS Shop.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 32,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p32_img0.png"
+        },
+        {
+          "page": 32,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 40.31999969482422,
+            "y1": 97.44000244140625,
+            "x2": 712.1400146484375,
+            "y2": 364.6199951171875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p32_img1.png"
+        },
+        {
+          "page": 32,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 43.20000076293945,
+            "y1": 100.32000732421875,
+            "x2": 703.6799926757812,
+            "y2": 356.1600036621094
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p32_img2.png"
+        },
+        {
+          "page": 32,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 40.31999969482422,
+            "y1": 373.20001220703125,
+            "x2": 712.1400146484375,
+            "y2": 511.739990234375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p32_img3.png"
+        },
+        {
+          "page": 32,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 43.20000076293945,
+            "y1": 376.08001708984375,
+            "x2": 703.6799926757812,
+            "y2": 503.280029296875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p32_img4.png"
+        }
+      ]
+    },
+    {
+      "page_number": 33,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:55Z",
+      "blocks": [
+        {
+          "page": 33,
+          "layout": "text",
+          "text": "New Ration Card Registration\nShows the last \ncompleted step. \nShows the current \nstage where the \napplication is pending \nfor action. For e.g.: \nhere it is pending \nverification with \ninspector\nSection shows the \nqueries raised by the \ninspector on the \nsubmitted form.\n•\nChecking the status of the application \nNew RC \napplication \nsubmitted\ne-KYC of HOF \nand members\nVerification by \ninspector\nApproval by \nDFSO\nNew Ration card \ngenerated",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 33,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p33_img0.png"
+        },
+        {
+          "page": 33,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 23.040000915527344,
+            "y1": 144.72000122070312,
+            "x2": 639.1799926757812,
+            "y2": 538.6199951171875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p33_img1.png"
+        },
+        {
+          "page": 33,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 25.920000076293945,
+            "y1": 147.59991455078125,
+            "x2": 630.719970703125,
+            "y2": 530.159912109375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p33_img2.png"
+        }
+      ]
+    },
+    {
+      "page_number": 34,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:55Z",
+      "blocks": [
+        {
+          "page": 34,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nAfter verification from inspector, status changes to pending with DFSO.\nRation card approved\nCheck scheme and FPS \nshop details\n•\nPost approval from DFSO, ration card is approved and generated",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 34,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p34_img0.png"
+        },
+        {
+          "page": 34,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 17.280000686645508,
+            "y1": 80.63999938964844,
+            "x2": 707.1000366210938,
+            "y2": 249.89999389648438
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p34_img1.png"
+        },
+        {
+          "page": 34,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 20.399999618530273,
+            "y1": 83.760009765625,
+            "x2": 699.8400268554688,
+            "y2": 242.6400146484375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p34_img2.png"
+        },
+        {
+          "page": 34,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 17.280000686645508,
+            "y1": 306.72003173828125,
+            "x2": 707.1000366210938,
+            "y2": 526.1400146484375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p34_img3.png"
+        },
+        {
+          "page": 34,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 20.399999618530273,
+            "y1": 309.84002685546875,
+            "x2": 699.8400268554688,
+            "y2": 518.8800048828125
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p34_img4.png"
+        }
+      ]
+    },
+    {
+      "page_number": 35,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:55Z",
+      "blocks": [
+        {
+          "page": 35,
+          "layout": "text",
+          "text": "New Ration Card Registration\nRC number generated \nClick to check RC number \nand filled form\n•\nView and print ration card details\nPrint ration card details",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 35,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p35_img0.png"
+        },
+        {
+          "page": 35,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 28.079999923706055,
+            "y1": 267.59991455078125,
+            "x2": 717.6000366210938,
+            "y2": 537.5999145507812
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p35_img1.jpeg"
+        },
+        {
+          "page": 35,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 24.959999084472656,
+            "y1": 96.48001098632812,
+            "x2": 714.780029296875,
+            "y2": 268.3800048828125
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p35_img2.png"
+        },
+        {
+          "page": 35,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 28.079999923706055,
+            "y1": 99.59999084472656,
+            "x2": 707.52001953125,
+            "y2": 261.1199951171875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p35_img3.png"
+        }
+      ]
+    },
+    {
+      "page_number": 36,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:55Z",
+      "blocks": [
+        {
+          "page": 36,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nView and download ration card details\nClick to open for \ndownload",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 36,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p36_img0.png"
+        },
+        {
+          "page": 36,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 44.880001068115234,
+            "y1": 122.16000366210938,
+            "x2": 662.1600341796875,
+            "y2": 298.32000732421875
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p36_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 37,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:55Z",
+      "blocks": [
+        {
+          "page": 37,
+          "layout": "text",
+          "text": "New Ration Card Registration\nClick to download for \nNew Ration Card \n•\nView and download ration card details",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 37,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p37_img0.png"
+        },
+        {
+          "page": 37,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 90.0,
+            "y1": 113.76004028320312,
+            "x2": 693.1199951171875,
+            "y2": 513.8400268554688
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p37_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 38,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:55Z",
+      "blocks": [
+        {
+          "page": 38,
+          "layout": "text",
+          "text": "New Ration Card Registration\n•\nDownload of the ration card",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 38,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p38_img0.png"
+        },
+        {
+          "page": 38,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 278.3999938964844,
+            "y1": 50.159912109375,
+            "x2": 620.8800048828125,
+            "y2": 530.159912109375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p38_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 39,
+      "width": 960,
+      "height": 540,
+      "created_at": "2026-07-30T09:44:55Z",
+      "blocks": [
+        {
+          "page": 39,
+          "layout": "text",
+          "text": "THANK YOU",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 39,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 821.280029296875,
+            "y1": 12.960006713867188,
+            "x2": 941.280029296875,
+            "y2": 45.600006103515625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\Ration card_p39_img0.png"
+        }
+      ]
+    }
+  ]
+}

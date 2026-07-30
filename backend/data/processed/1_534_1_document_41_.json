@@ -1,0 +1,76 @@
+{
+  "source_file": "1_534_1_document_41_.pdf",
+  "metadata": {
+    "total_pages": 2,
+    "total_blocks": 4,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.2222222222222222,
+    "processed_at": "2026-07-30T06:44:55Z",
+    "sarvam_visual_blocks": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-30T06:44:55Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "68 \n418105/2021/SO(NFSA) \nT . 1.0 33004/99 \nREGD. No. D. L.-33004/99 \nm \n@h \n= \nA \nd \n- \nCThe Gazette of India \n.50, -3).Uel.-31.-18062021-227710 \nCG-DL-E-18062021-227710 \nST \nEXTRAORDINARY \nAT [—GUE 3—IT-GTe (i) \nPART II—Section 3—Sub-section (i) \nTTFERTE & JahTfera \nPUBLISHED BY AUTHORITY \n. \n336] \n7% fRwelt, AT, I 18, 2021/535 28, 1943 \nNo. 336] \nNEW DELHI, FRIDAY, JUNE 18, 2021/JYAISHTHA 28, 1943 \nSTHIRRT AN, QT \nX gt fEa<er \nw5 \n(@Ter i< Arasa faaeer fawm) \nFferEAT \n¢ faeett, 18 S, 2021 \nT, 420(37).—F4T TLFHIE, TET G qRAT Ata=aw, 2013 (2013 FT 20), Fit &2 39 Hir \nST-GTT (2) F @ (T.) FIT V& \nATRAT T TART Fd g @I \nAT (AT H dgraar) =aw, 2015 \n# \nHqerrerT e & o Refertaa \ne ot 8, sroi:- \n1. (1) =9 \n=T T GTerT 919 @ \nGIEAT (TSAT \nFH qgrEan) (Feree) Fae, 2021 ) \n(2) T TSI H THTA H AT \n& TG \ng \n2. | AT (TSAT \n&1 FgrFan) Haw, 2015 F [aw7 (7) F U+ \n(2) § \"97 % ITAN % o0 qR=ma= \nF \nAT S TS \n& [T 87 9&aT % TATq \"d¥ Fs T4 A< TG \n6l SATAT § al SorFeli=aHh a< \nF \nFT, TATAT AT TALAT \nTAT TS 3% qA JI<h 6 AT Iqh TR \no (o0 ITANT \n1 ST THAT M58 \nAT T ST \n[®T. |. 15-18/2021-TATHTHT] \nHATHT HFIHT, ATTAF TATSHIT \n3330 GI/2021 \n(1)",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.4400024414062,
+            "y2": 841.4400024414062
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\1_534_1_document_41__p1_img0.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-30T06:44:55Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "69 \n418105/2021/SO(NFSA) \n2 \nTHE GAZETTE OF INDIA \n: EXTRAORDINARY \n[PART ITI—SEC. 3(i)] \nfeoqor \n© q= Faw sfagEer @@= aran . 636(3r) aE 17 sFwEd, 2015 T WA % A9, \nFETLTL, \n- 11, §ue-3, ST-gvE (i) & Teriera o 7 o \nMINISTRY OF CONSUMER AFFAIRS, FOOD AND PUBLIC DISTRIBUTION \n(Department of Food and Public Distribution) \nNOTIFICATION \nNew Delhi, the 18th June, 2021 \nG.S.R. 420(E).—In exercise of the powers conferred by clause (e) of sub-section (2) of section 39 \nof the National Food Security Act, 2013 (20 of 2013), the Central Government hereby makes the following \nrules to amend the Food Security (Assistance to State Governments) Rules, 2015, namely:- \n1. \n(1) These rules may be called the Food Security (Assistance to State Governments) (Amendment) Rules, \n2021, \n(2) \nThey shall come into force on the date of their publication in the Official Gazette. \n2. \nIn the Food Security (Assistance to State Governments) Rules, 2015, in rule 7, in sub-rule (2) after \nthe words “its running expenses and incentive for its use”, the words “and any savings if accrued could be \nutilized for purchase, operations and maintenance of electronic weighing scales and their integration with \nthe Point of Sale device” shall be inserted. \n[F. No. 15-18/2021-NFSA] \nMANISHA SENSARMA, Economic Adviser \nNote: \nThe principal rules was published in the Gazette of India, Extraordinary Part-II, Section 3, Sub- \nsection (1) vide Notification number G.S.R. 636 (E), dated the 17th August, 2015. \nUploaded by Dte. of Printing at Government of India Press, Ring Road, Mayapuri, New Delhi-110064 \nand Published by the Controller of Publications, Delhi-110054.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.4400024414062,
+            "y2": 841.4400024414062
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\1_534_1_document_41__p2_img0.jpeg"
+        }
+      ]
+    }
+  ]
+}

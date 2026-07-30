@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_93cf9c2b51a3448e_p0001_b0004",
+  "chart_type": "chart",
+  "title": "Figure 3: Employment Status in India across Gender and Social Groups: 2011-12",
+  "description": "| Category | Self-Employed | Regular | Casual | Total (Calculated) |\n| :--- | :--- | :--- | :--- | :--- |\n| Male | 50.73 | 19.83 | ~29.44* | **~90** |\n| Female | 56.14 | 12.68 | ~31.18* | **~100** |\n| ST | 53.64 | 8.73 | ~37.63* | **~100** |\n| SC | 36.74 | 15.31 | ~47.95* | **~100** |\n| OBC | 55.32 | 15.80 | ~28.88* | **~100** |\n| Others | 57.73 | 26.37 | 15.89 | **100** |\n\n*Note: Values are rounded to one decimal place where possible.*",
+  "categories": [],
+  "series": [],
+  "source_page": 14,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_93cf9c2b51a3448e_p0001_b0004.png"
+}

@@ -1,0 +1,160 @@
+{
+  "source_file": "instructionforstudents2223.pdf",
+  "metadata": {
+    "total_pages": 2,
+    "total_blocks": 4,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.2222222222222222,
+    "processed_at": "2026-07-30T07:51:42Z",
+    "sarvam_visual_blocks": 8
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 540,
+      "height": 792,
+      "created_at": "2026-07-30T07:51:42Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "1-17 7T -\n31THTR 74N\nTHItysiy yHTU}tEDYUT (Demographic Authentication) (HTTY 4, H \nya 4 \nGITYT \n.afFtard afta Non Refundable fees) \nfrrT NTITTTR TTTE \n(SELF FINANCE) \nH \nT \n51 HEI-HEi eAYd YI",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "2-छात्र क्या न करें।\nImage: !\nSource page: 2",
+          "confidence": 0.717642068862915,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 43.0,
+            "y1": 3045.0,
+            "x2": 263.0,
+            "y2": 3133.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_022a595851344486\\images\\doc_022a595851344486_p0001_b0014.png"
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "2-छात्र क्या न करें।\nImage: (पी० के० त्रिपाठी)\nसंयुक्त निदेशक मु०\nSource page: 2",
+          "confidence": 0.7344843745231628,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 825.0,
+            "y1": 3051.0,
+            "x2": 917.0,
+            "y2": 3201.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_022a595851344486\\images\\doc_022a595851344486_p0001_b0015.png"
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "2-छात्र क्या न करें।\nImage: Pcc\nSource page: 2",
+          "confidence": 0.7673860192298889,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 1150.0,
+            "y1": 2996.0,
+            "x2": 1290.0,
+            "y2": 3133.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_022a595851344486\\images\\doc_022a595851344486_p0001_b0016.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 578,
+      "height": 792,
+      "created_at": "2026-07-30T07:51:42Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "Ftav U 3 \n3TdE U YTE(Pass)/uT (Promoted with marks) H 3 \n2-812 RT OY|",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "2-छात्र क्या न करें।\nImage: Asha\nSource page: 2",
+          "confidence": 0.5992273092269897,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 76.0,
+            "y1": 2624.0,
+            "x2": 302.0,
+            "y2": 2713.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_022a595851344486\\images\\doc_022a595851344486_p0001_b0012.png"
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "2-छात्र क्या न करें।\nImage: P\nSource page: 2",
+          "confidence": 0.5539618730545044,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 1193.0,
+            "y1": 2550.0,
+            "x2": 1390.0,
+            "y2": 2711.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_022a595851344486\\images\\doc_022a595851344486_p0001_b0013.png"
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "2-छात्र क्या न करें।\nImage: !\nSource page: 2",
+          "confidence": 0.5912490487098694,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 795.0,
+            "y1": 2705.0,
+            "x2": 894.0,
+            "y2": 2883.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_022a595851344486\\images\\doc_022a595851344486_p0001_b0014.png"
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "2-छात्र क्या न करें।\nImage: (पी० के० त्रिपाठी)\nसंयुक्त निदेशक मु०\nSource page: 2",
+          "confidence": 0.5324181318283081,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 1142.0,
+            "y1": 2725.0,
+            "x2": 1505.0,
+            "y2": 2904.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_022a595851344486\\images\\doc_022a595851344486_p0001_b0015.png"
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "2-छात्र क्या न करें।\nImage: Pcc\nSource page: 2",
+          "confidence": 0.6533058881759644,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 1954.0,
+            "y1": 2463.0,
+            "x2": 2139.0,
+            "y2": 2623.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_022a595851344486\\images\\doc_022a595851344486_p0001_b0016.png"
+        }
+      ]
+    }
+  ]
+}

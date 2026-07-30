@@ -1,0 +1,122 @@
+{
+  "document_id": "83_Guidelines-for-Portability-of-Services",
+  "source_file": "83_Guidelines-for-Portability-of-Services.pdf",
+  "source_path": "data\\raw\\83_Guidelines-for-Portability-of-Services.pdf",
+  "file_size_bytes": 494825,
+  "total_pages": 2,
+  "extraction_summary": {
+    "successful_pages": 2,
+    "empty_pages": 0,
+    "failed_pages": 0,
+    "pages_requiring_ocr": 0
+  },
+  "pdf_metadata": {
+    "format": "PDF 1.5",
+    "title": "",
+    "author": "Lenovo",
+    "subject": "",
+    "keywords": "",
+    "creator": "Microsoft® Word 2010",
+    "producer": "Microsoft® Word 2010",
+    "creationDate": "D:20180509175204+05'30'",
+    "modDate": "D:20180509175204+05'30'",
+    "trapped": "",
+    "encryption": ""
+  },
+  "extraction_info": {
+    "extractor": "PyMuPDF",
+    "extracted_at": "2026-07-22T07:59:30.518449+00:00"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \n \n \n \n \n \n \n \n \n \nPMRSSM GUIDELINES  \nFOR \nPORTABILITY OF SERVICES",
+      "character_count": 142,
+      "word_count": 15,
+      "has_text": true,
+      "needs_ocr": false,
+      "extraction_error": null,
+      "cleaned_text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM)\n\nPMRSSM GUIDELINES\nFOR\nPORTABILITY OF SERVICES",
+      "original_character_count": 142,
+      "cleaned_character_count": 121,
+      "cleaned_word_count": 15,
+      "text_changed": true,
+      "metadata": {
+        "document_id": "83_Guidelines-for-Portability-of-Services",
+        "source_file": "83_Guidelines-for-Portability-of-Services.pdf",
+        "title": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM)",
+        "page_number": 1,
+        "category": "WELFARE",
+        "subcategory": "general_welfare",
+        "service": "general_information",
+        "document_type": "GUIDELINE",
+        "state": "unknown",
+        "jurisdiction": "central",
+        "language": "english"
+      }
+    },
+    {
+      "page_number": 2,
+      "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \n1. Guidelines for Portability of Services \n \nPMRSSM offers portability of health care services across the country through public and \nempanelled private hospitals.  \n1.1. \nWhat is Portability \n \nThis means that a beneficiary will be able to get treatment outside the home State also in \nany empanelled hospital in a cashless manner. Any empanelled hospital will not be allowed \nto deny services to any PMRSSM beneficiary. \n1.2. \nHow Portability will be Enabled \n \nTo enable portability under the scheme, each of the State participating in PMRSSM will sign \nMoU with Central Government and each other which will allow any hospital empanelled \nunder PMRSSM to provide services to beneficiaries from across the country. This will also \nenable participating insurance companies/ trusts to make payment to hospitals empanelled \nbeyond the boundaries of State where they are providing services. \nPMRSSM offers portability of health care services across the country through public and \nempanelled private hospitals. Portability of benefits would be implemented as per the \nbelow: \nA. Package list and package rates as applicable in the State where the treatment \ntakes place will be applicable. \nB. The payment of claim to the hospital will be made by Trust/Insurance Company \nimplementing PMRSSM in the home State where the beneficiary belongs to.  \nC. The timelines for processing of claim and payment to the hospital would be the \nsame as other claims, i.e. within 30 days of receiving the claim.  \nD. In case, there is an alliance between PMRSSM and any State Scheme or PMRSSM \nhas been expanded, the above process for portability may be followed for all \nbeneficiaries. \nE. Case of dispute, if any, with respect to treatment sought or taken in another \nState, will be taken up the Grievance Committee of the Destination State where \nthe treatment took place.",
+      "character_count": 1932,
+      "word_count": 300,
+      "has_text": true,
+      "needs_ocr": false,
+      "extraction_error": null,
+      "cleaned_text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM)\n1. Guidelines for Portability of Services\n\nPMRSSM offers portability of health care services across the country through public and empanelled private hospitals.\n1.1.\nWhat is Portability\n\nThis means that a beneficiary will be able to get treatment outside the home State also in any empanelled hospital in a cashless manner. Any empanelled hospital will not be allowed to deny services to any PMRSSM beneficiary.\n1.2.\nHow Portability will be Enabled\n\nTo enable portability under the scheme, each of the State participating in PMRSSM will sign MoU with Central Government and each other which will allow any hospital empanelled under PMRSSM to provide services to beneficiaries from across the country. This will also enable participating insurance companies/ trusts to make payment to hospitals empanelled beyond the boundaries of State where they are providing services.\nPMRSSM offers portability of health care services across the country through public and empanelled private hospitals. Portability of benefits would be implemented as per the below:\nA. Package list and package rates as applicable in the State where the treatment\ntakes place will be applicable.\nB. The payment of claim to the hospital will be made by Trust/Insurance Company\nimplementing PMRSSM in the home State where the beneficiary belongs to.\nC. The timelines for processing of claim and payment to the hospital would be the\nsame as other claims, i.e. within 30 days of receiving the claim.\nD. In case, there is an alliance between PMRSSM and any State Scheme or PMRSSM\nhas been expanded, the above process for portability may be followed for all beneficiaries.\nE. Case of dispute, if any, with respect to treatment sought or taken in another\nState, will be taken up the Grievance Committee of the Destination State where the treatment took place.",
+      "original_character_count": 1932,
+      "cleaned_character_count": 1896,
+      "cleaned_word_count": 300,
+      "text_changed": true,
+      "metadata": {
+        "document_id": "83_Guidelines-for-Portability-of-Services",
+        "source_file": "83_Guidelines-for-Portability-of-Services.pdf",
+        "title": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM)",
+        "page_number": 2,
+        "category": "WELFARE",
+        "subcategory": "general_welfare",
+        "service": "general_information",
+        "document_type": "GUIDELINE",
+        "state": "unknown",
+        "jurisdiction": "central",
+        "language": "english"
+      }
+    }
+  ],
+  "cleaning_info": {
+    "cleaner": "TextCleaner",
+    "cleaned_at": "2026-07-22T08:03:53.312182+00:00",
+    "cleaning_version": "1.0"
+  },
+  "cleaning_summary": {
+    "document_id": "83_Guidelines-for-Portability-of-Services",
+    "total_pages": 2,
+    "pages_with_cleaned_text": 2,
+    "empty_pages": 0,
+    "pages_requiring_ocr": 0,
+    "original_character_count": 2074,
+    "cleaned_character_count": 2017,
+    "characters_removed": 57
+  },
+  "document_metadata": {
+    "document_id": "83_Guidelines-for-Portability-of-Services",
+    "title": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM)",
+    "source_file": "83_Guidelines-for-Portability-of-Services.pdf",
+    "category": "WELFARE",
+    "subcategory": "general_welfare",
+    "service": "general_information",
+    "document_type": "GUIDELINE",
+    "state": "unknown",
+    "jurisdiction": "central",
+    "language": "english",
+    "source_type": "document",
+    "classification_scores": {
+      "category_score": 3,
+      "service_score": 0,
+      "document_type_score": 8,
+      "state_score": 0
+    },
+    "metadata_version": "1.0",
+    "metadata_generated_at": "2026-07-22T09:22:16.413443+00:00"
+  }
+}

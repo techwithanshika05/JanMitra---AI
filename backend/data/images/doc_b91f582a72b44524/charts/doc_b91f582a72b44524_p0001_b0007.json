@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_b91f582a72b44524_p0001_b0007",
+  "chart_type": "chart",
+  "title": "MORE THAN 90% OF ALL INTERSTATE TRANSACTIONS FROM HOUSEHOLDS IN BIHAR AND UTTAR PRADESH WERE RECORDED IN DELHI",
+  "description": "| State | Year | Number of transactions in Haryana (in thousands) | Number of transactions in Delhi (in thousands) |\n| :--- | :--- | :--- | :--- |\n| Bihar | 2021-22 | 33 | 447 |\n| Bihar | 2022-23 | 115 | 917 |\n| Uttar Pradesh | 2021-22 | 138 | 574 |\n| Uttar Pradesh | 2022-23 | 144 | 514 |",
+  "categories": [],
+  "series": [],
+  "source_page": 11,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_b91f582a72b44524_p0001_b0007.png"
+}

@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_b91f582a72b44524_p0003_b0001",
+  "chart_type": "chart",
+  "title": "TOTAL ALLOCATIONS FOR FOOD SUBSIDY IN 2023-24 WERE 31% LOWER THAN 2022-23 REs",
+  "description": "| Fiscal Year | GoI allocations to MoCAF&PD (in ₹ crore) | Total Food Subsidy (in ₹ crore) |\n| :--- | :--- | :--- |\n| 2019-20 | 1,17,290 | 1,08,688 |\n| 2020-21 | 4,50,687 | 4,22,618 |\n| 2021-22 | 3,04,454 | 2,86,469 |\n| 2022-23 | 2,96,523 | 2,87,194 |\n| 2023-24 | 2,05,765 | 1,97,350 |",
+  "categories": [],
+  "series": [],
+  "source_page": 3,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_b91f582a72b44524_p0003_b0001.png"
+}

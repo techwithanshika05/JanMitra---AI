@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_8ff2de4e7e08400e_p0001_b0007",
+  "chart_type": "chart",
+  "title": "MORE THAN 90% OF ALL INTERSTATE TRANSACTIONS FROM HOUSEHOLDS IN BIHAR AND UTTAR PRADESH WERE RECORDED IN DELHI",
+  "description": "| State | Year | Number of transactions in Haryana (in thousands) | Number of transactions in Delhi (in thousands) | Total Transactions Visible on Chart? |\n| :--- | :--- | :--- | :--- | :--- |\n| Bihar | 2021-22 | ~35 | 447 | Yes (~482 total, label obscured by bar height/overlap issue or axis break at bottom row for first column). Note: The value \"3\" is visible below the bars but does not align with any data point above it; likely an artifact from another dataset layer.) |\n| Uttar Pradesh | 2022-23 | 115 | 917 | No explicit number labeled inside chart area.|\n| **Bihar** | - | ~~Total Label Missing~~ *(Visual estimate based only on top red segment)* | N/A | Estimated visual sum <br> Top Red Segment Height = Visual Sum * Scale Factor<br> Example calculation using second entry:<br>(Height ratio approx):  6/1 . If scale factor was actually used to derive values then we can use that.<br><br>**Uttar Pradesh:** ( 138 +  ∼(heightᵣₐₜᵢₒ*scale)) / Actual |\n*(Note: Due to significant overlap and occlusion between stacked segments within individual columns making precise extraction impossible without guessing which part represents 'Haryana' vs other layers).*",
+  "categories": [],
+  "series": [],
+  "source_page": 11,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_8ff2de4e7e08400e_p0001_b0007.png"
+}

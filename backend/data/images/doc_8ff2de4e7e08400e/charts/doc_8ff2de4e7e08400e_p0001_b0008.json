@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_8ff2de4e7e08400e_p0001_b0008",
+  "chart_type": "chart",
+  "title": "MOST UNIQUE INTERSTATE TRANSACTIONS BETWEEN SELECTED STATES WERE DONE FOR BOTH PMGKAY AND NFSA, FROM 2021-22 TO 2022-23 TILL DECEMBER 2022",
+  "description": "| Region | Both | PMGKAY | NFSA |\n| :--- | :--- | :--- | :--- |\n| Haryana-UP | 1,19,789 | 36,889 | 56,087 |\n| Haryana-Bihar | 75,635 | 7,369 | 5,931 |\n| Delhi-UP | 3,67,659 | 92,908 | 2,07,573 |\n| Delhi-Bihar | 8,79,100 | 14,739 | 13,215 |",
+  "categories": [],
+  "series": [],
+  "source_page": 12,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_8ff2de4e7e08400e_p0001_b0008.png"
+}

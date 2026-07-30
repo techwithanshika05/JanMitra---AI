@@ -1,0 +1,35 @@
+{
+  "source_file": "ApplicationForIncomeCertificateRD.pdf",
+  "metadata": {
+    "total_pages": 1,
+    "total_blocks": 1,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.7777777777777778,
+    "processed_at": "2026-07-30T07:08:24Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-30T07:08:24Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 24.947998046875,
+            "y1": -0.1319580078125,
+            "x2": 587.052001953125,
+            "y2": 792.0120239257812
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\ApplicationForIncomeCertificateRD_p1_img0.jpeg"
+        }
+      ]
+    }
+  ]
+}

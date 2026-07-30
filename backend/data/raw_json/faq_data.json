@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "question": "1. What is eSathi Mobile App/eSathi Web Portal for e-District?",
+        "answer": "eSathi Mobile App/eSathi Web Portal of eDistrict is designed for delivering the Government Services through edistrict as well as departmental portal. The services of eDistrict Project delivered directly to the registered account of Citizen."
+    },
+    {
+        "id": 2,
+        "question": "2. From where I can do the Registration for availing the Government Services covered under eSathi Mobile App/eSathi Web Portal?",
+        "answer": "You can download the Android version of Mobile app of eSathi from Google app store âeSathi UP, NIC Lucknowâ or from home page of edistrict.up.gov.in. The Mobile app contains option for Account Registration."
+    },
+    {
+        "id": 3,
+        "question": "3. What are the Services covered under eSathi Mobile App/eSathi Web Portal  of eDistrict?",
+        "answer": "Click here to view in details about the services covered under eSathi Web Portal / Mobile App"
+    },
+    {
+        "id": 4,
+        "question": "4. I am applying online, what documents do I need to submit at for processing my application?",
+        "answer": "You need to apply through your registered account of eSathi Mobile App/citizen portal along with the scanned Passport Size Photo, self-declaration certificate, copies of other supporting document as per the requirement of edistrict services. For more information, please Visit the URL https://edistrict.up.gov.in/eDistrictup/Services/services_hi.aspx#!/online_sewayein"
+    },
+    {
+        "id": 5,
+        "question": "5. What are the technical specifications for uploading photo and other document?",
+        "answer": "The file size of photo should not be more than 50 KB and the size of other documents should not be greater than 100KB. The Photo and Other document should be clearly legible."
+    },
+    {
+        "id": 6,
+        "question": "6. How can I Resize Image/documents to be uploaded to citizen portal for availing the service?",
+        "answer": "You can visit the URL http://164.100.181.16/Imgcompress/compress.aspx to compress image/documents to be uploaded to required file size. \r\nYou can also resize the image/documents through URL http://164.100.181.16/crop/crop.aspx"
+    },
+    {
+        "id": 7,
+        "question": "7. How do I receive my applied services/certificates?",
+        "answer": "Once the application is approved by concerned authority,Digitally signed certificate/approved letter will be available in the registered account of citizen on eSathi Mobile App/ eSathi Web Portal. (Please enable popup windows for opening the certificate in Desktop/Laptop)."
+    },
+    {
+        "id": 8,
+        "question": "8. What should I do if my application has been rejected?",
+        "answer": "Please examine the reason of rejection in your rejected application and after fulfilling the requirement as per reason of rejection you can re-apply the required services once again.\r\nFor further clarification you may contact to the respective approval authority of the district."
+    },
+    {
+        "id": 9,
+        "question": "9. What should I do if my application remains pending for more than the specified number of days?",
+        "answer": "Please contact the concerned approval authority of the concern district or you may appeal to the higher authority."
+    },
+    {
+        "id": 10,
+        "question": "10. Can I edit/delete/update the uploaded documents?",
+        "answer": "No, once the document is uploaded it cannot be edited/deleted/updated."
+    },
+    {
+        "id": 11,
+        "question": "11. What happens to my application if I do not attached the supporting documents while submitting the application?",
+        "answer": "Your application will get rejected if necessary attachments are not found at the time of verification process."
+    },
+    {
+        "id": 12,
+        "question": "12. My Issued Certificate is not verifying online from the edistrict.up.gov.in. What should I do?",
+        "answer": "Please contact concern district administration/approval authority with your original certificate taken from edistrict."
+    },
+    {
+        "id": 13,
+        "question": "13. How can I view the current status of my application?",
+        "answer": "This can be seen from the âApplication Status (à¤à¤µà¥à¤¦à¤¨ à¤à¥ à¤¸à¥à¤¥à¤¿à¤¤à¤¿)â link on the home page https://edistrict.up.gov.in for edistrict services."
+    },
+    {
+        "id": 14,
+        "question": "14. What do I do if I do not have a valid Aadhaar Number?",
+        "answer": "Aadhaar Number is not mandatory for registration or applying any eSathiâs services, you may use copy of ration Card, copy of EPIC photo ID card etc. as proof of ID."
+    },
+    {
+        "id": 15,
+        "question": "15. What if the eSathi web portal of eDistrict does not work on my system?",
+        "answer": "Either your browser is outdated and does not meet the system requirements or your internet connection is too slow. eSathi web portal should be viewed in a screen resolution of 1024 by 768. For best performance your browser version should be IE 8 or higher."
+    },
+    {
+        "id": 16,
+        "question": "16. What to do if I forget my registered accountâs Password?",
+        "answer": "To reset the password, please visit the URL: http://164.100.181.16/mcitizen/Login/Login.aspx and click on Reset Password link given on the login page.\r\nAfter clicking on reset password link follow the online instructions provided in the process."
+    },
+    {
+        "id": 17,
+        "question": "17. What are the Hindi Font/Hindi Typing tools acceptable eSathi Mobile App/eSathi web portal while applying the services?",
+        "answer": "eSathi web Portal of eDistrict supports mangal font(Unicode) as Hindi supported font.Google input tool, in Windows 8.1 or higher version have inbuilt Hindi typing tool support."
+    },
+    {
+        "id": 18,
+        "question": "18. To whom should I contact in case of any technical error/query?",
+        "answer": "Click on âcontact usâ link given on home page and send your queries/error screenshots to ceghelpdesk@gmail.com.\r\n                       While sending the email always mention description of your Problem/Error, Name, Address, Phone No. and eSathi Mobile App/eSathi Web Portal registered User Id."
+    }
+]

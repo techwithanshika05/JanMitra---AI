@@ -1,0 +1,804 @@
+{
+  "source_file": "RC_Form_rural.pdf",
+  "metadata": {
+    "sarvam_jobs": [
+      {
+        "job_id": "20260730_88ac8cad-b63d-46b0-b73f-bf79907717ab",
+        "status": "Completed",
+        "start_page": 1,
+        "end_page": 2,
+        "metrics": {
+          "total_pages": 2,
+          "pages_processed": 2,
+          "pages_succeeded": 2,
+          "pages_failed": 0
+        }
+      }
+    ],
+    "processor": "sarvam_system",
+    "document_id": "doc_3321704ec41e4763",
+    "sha256": "65c4d2461960e1b5a893ba79d33554e79b04a3def4997e4a217888b414b88e27",
+    "artifact_contract": {
+      "text": "text/markdown",
+      "table": "text/html",
+      "chart_graph": "text/html+application/json+optional_image/png",
+      "image": "image/png",
+      "metadata": "application/json"
+    },
+    "artifacts": [
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0001_b0000",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0001_b0000",
+        "element_type": "heading",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0001_b0000.md",
+        "content": "# राष्ट्रीय खाद्य सुरक्षा अधिनियम-2013 के अन्तर्गत पात्र गृहस्थी सत्यापन प्रपत्र (ग्रामीण)",
+        "embedding_text": "# राष्ट्रीय खाद्य सुरक्षा अधिनियम-2013 के अन्तर्गत पात्र गृहस्थी सत्यापन प्रपत्र (ग्रामीण)",
+        "metadata": {
+          "reading_order": 0,
+          "confidence": 0.7256852388381958,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0001_b0000.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0001_b0001",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0001_b0001",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0001_b0001.md",
+        "content": "* राष्ट्रीय खाद्य सुरक्षा अधिनियम-2013 की धारा-13(1) के अनुसार प्रत्येक पात्र गृहस्थी में, वरिष्ठ स्त्री, जिसकी आयु 18 वर्ष से कम की न हो, राशनकार्ड जारी किये जाने के प्रयोजन के लिए, गृहस्थी की मुखिया होगी एवं धारा-1(2) के अनुसार जहाँ किसी गृहस्थी में किसी समय कोई स्त्री या 18 वर्ष से उससे अधिक आयु की स्त्री नहीं है, किन्तु 18 वर्ष से कम आयु की महिला सदस्य है, वहाँ गृहस्थी का वरिष्ठ पुरुष सदस्य राशनकार्ड जारी किये जाने के प्रयोजन के लिए गृहस्थी का मुखिया होगा और महिला सदस्य, 18 वर्ष की आयु प्राप्त करने पर, ऐसे राशनकार्डों के लिए, ऐसे पुरुष सदस्य के स्थान पर, गृहस्थी की मुखिया बन जायेगी।",
+        "embedding_text": "* राष्ट्रीय खाद्य सुरक्षा अधिनियम-2013 की धारा-13(1) के अनुसार प्रत्येक पात्र गृहस्थी में, वरिष्ठ स्त्री, जिसकी आयु 18 वर्ष से कम की न हो, राशनकार्ड जारी किये जाने के प्रयोजन के लिए, गृहस्थी की मुखिया होगी एवं धारा-1(2) के अनुसार जहाँ किसी गृहस्थी में किसी समय कोई स्त्री या 18 वर्ष से उससे अधिक आयु की स्त्री नहीं है, किन्तु 18 वर्ष से कम आयु की महिला सदस्य है, वहाँ गृहस्थी का वरिष्ठ पुरुष सदस्य राशनकार्ड जारी किये जाने के प्रयोजन के लिए गृहस्थी का मुखिया होगा और महिला सदस्य, 18 वर्ष की आयु प्राप्त करने पर, ऐसे राशनकार्डों के लिए, ऐसे पुरुष सदस्य के स्थान पर, गृहस्थी की मुखिया बन जायेगी।",
+        "metadata": {
+          "reading_order": 1,
+          "confidence": 0.8915585279464722,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0001_b0001.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0001_b0002",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0001_b0002",
+        "element_type": "caption",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0001_b0002.md",
+        "content": "भाग-क",
+        "embedding_text": "भाग-क",
+        "metadata": {
+          "reading_order": 2,
+          "confidence": 0.39212504029273987,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0001_b0002.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0001_b0003",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0001_b0003",
+        "element_type": "caption",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0001_b0003.md",
+        "content": "भाग-एक",
+        "embedding_text": "भाग-एक",
+        "metadata": {
+          "reading_order": 3,
+          "confidence": 0.43806150555610657,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0001_b0003.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0001_b0004",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0001_b0004",
+        "element_type": "table",
+        "page_number": 1,
+        "media_type": "text/html",
+        "relative_path": "tables/doc_3321704ec41e4763_p0001_b0004.html",
+        "content": "<table></table>",
+        "embedding_text": "राष्ट्रीय खाद्य सुरक्षा अधिनियम-2013 के अन्तर्गत पात्र गृहस्थी सत्यापन प्रपत्र (ग्रामीण)\nTable:\nSource page: 1",
+        "metadata": {
+          "reading_order": 4,
+          "confidence": 0.5289644598960876,
+          "structured_data_path": "tables/doc_3321704ec41e4763_p0001_b0004.json",
+          "preview_path": "tables/doc_3321704ec41e4763_p0001_b0004.png",
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0001_b0004.html",
+          "absolute_preview_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0001_b0004.png"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0001_b0005",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0001_b0005",
+        "element_type": "table",
+        "page_number": 1,
+        "media_type": "text/html",
+        "relative_path": "tables/doc_3321704ec41e4763_p0001_b0005.html",
+        "content": "<table></table>",
+        "embedding_text": "राष्ट्रीय खाद्य सुरक्षा अधिनियम-2013 के अन्तर्गत पात्र गृहस्थी सत्यापन प्रपत्र (ग्रामीण)\nTable:\nSource page: 1",
+        "metadata": {
+          "reading_order": 5,
+          "confidence": 0.9607982039451599,
+          "structured_data_path": "tables/doc_3321704ec41e4763_p0001_b0005.json",
+          "preview_path": "tables/doc_3321704ec41e4763_p0001_b0005.png",
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0001_b0005.html",
+          "absolute_preview_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0001_b0005.png"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0001_b0006",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0001_b0006",
+        "element_type": "heading",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0001_b0006.md",
+        "content": "# भाग-ख",
+        "embedding_text": "# भाग-ख",
+        "metadata": {
+          "reading_order": 6,
+          "confidence": 0.5748032927513123,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0001_b0006.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0001_b0007",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0001_b0007",
+        "element_type": "table",
+        "page_number": 1,
+        "media_type": "text/html",
+        "relative_path": "tables/doc_3321704ec41e4763_p0001_b0007.html",
+        "content": "<table></table>",
+        "embedding_text": "भाग-ख\nTable:\nSource page: 1",
+        "metadata": {
+          "reading_order": 7,
+          "confidence": 0.9634850025177002,
+          "structured_data_path": "tables/doc_3321704ec41e4763_p0001_b0007.json",
+          "preview_path": "tables/doc_3321704ec41e4763_p0001_b0007.png",
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0001_b0007.html",
+          "absolute_preview_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0001_b0007.png"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0001_b0008",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0001_b0008",
+        "element_type": "heading",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0001_b0008.md",
+        "content": "# 12. परिवार का विवरण",
+        "embedding_text": "# 12. परिवार का विवरण",
+        "metadata": {
+          "reading_order": 8,
+          "confidence": 0.533686101436615,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0001_b0008.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0001_b0009",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0001_b0009",
+        "element_type": "table",
+        "page_number": 1,
+        "media_type": "text/html",
+        "relative_path": "tables/doc_3321704ec41e4763_p0001_b0009.html",
+        "content": "<table></table>",
+        "embedding_text": "12. परिवार का विवरण\nTable:\nSource page: 1",
+        "metadata": {
+          "reading_order": 9,
+          "confidence": 0.9560215473175049,
+          "structured_data_path": "tables/doc_3321704ec41e4763_p0001_b0009.json",
+          "preview_path": "tables/doc_3321704ec41e4763_p0001_b0009.png",
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0001_b0009.html",
+          "absolute_preview_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0001_b0009.png"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0001_b0010",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0001_b0010",
+        "element_type": "paragraph",
+        "page_number": 1,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0001_b0010.md",
+        "content": "मुखिया / वरिष्ठ परिवार सदस्य के हस्ताक्षर / निशानी अँगूठा",
+        "embedding_text": "मुखिया / वरिष्ठ परिवार सदस्य के हस्ताक्षर / निशानी अँगूठा",
+        "metadata": {
+          "reading_order": 10,
+          "confidence": 0.6257594227790833,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0001_b0010.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0002_b0001",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0002_b0001",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0002_b0001.md",
+        "content": "निष्कासन के आधार (एक्सक्लूजन क्राइटेरिया)",
+        "embedding_text": "निष्कासन के आधार (एक्सक्लूजन क्राइटेरिया)",
+        "metadata": {
+          "reading_order": 1,
+          "confidence": 0.3398989737033844,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0002_b0001.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0002_b0002",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0002_b0002",
+        "element_type": "table",
+        "page_number": 2,
+        "media_type": "text/html",
+        "relative_path": "tables/doc_3321704ec41e4763_p0002_b0002.html",
+        "content": "<table></table>",
+        "embedding_text": "12. परिवार का विवरण\nTable:\nSource page: 2",
+        "metadata": {
+          "reading_order": 2,
+          "confidence": 0.9296745657920837,
+          "structured_data_path": "tables/doc_3321704ec41e4763_p0002_b0002.json",
+          "preview_path": "tables/doc_3321704ec41e4763_p0002_b0002.png",
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0002_b0002.html",
+          "absolute_preview_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0002_b0002.png"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0002_b0003",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0002_b0003",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0002_b0003.md",
+        "content": "इन्फ्लूजन क्राइटेरिया (यदि निष्कासन आधार के अन्तर्गत न आते हों) -",
+        "embedding_text": "इन्फ्लूजन क्राइटेरिया (यदि निष्कासन आधार के अन्तर्गत न आते हों) -",
+        "metadata": {
+          "reading_order": 3,
+          "confidence": 0.3643782436847687,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0002_b0003.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0002_b0004",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0002_b0004",
+        "element_type": "table",
+        "page_number": 2,
+        "media_type": "text/html",
+        "relative_path": "tables/doc_3321704ec41e4763_p0002_b0004.html",
+        "content": "<table></table>",
+        "embedding_text": "12. परिवार का विवरण\nTable:\nSource page: 2",
+        "metadata": {
+          "reading_order": 4,
+          "confidence": 0.9588431715965271,
+          "structured_data_path": "tables/doc_3321704ec41e4763_p0002_b0004.json",
+          "preview_path": "tables/doc_3321704ec41e4763_p0002_b0004.png",
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0002_b0004.html",
+          "absolute_preview_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0002_b0004.png"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0002_b0005",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0002_b0005",
+        "element_type": "source",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0002_b0005.md",
+        "content": "* आवश्यक (Compulsory) प्रविष्टि",
+        "embedding_text": "* आवश्यक (Compulsory) प्रविष्टि",
+        "metadata": {
+          "reading_order": 5,
+          "confidence": 0.6997018456459045,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0002_b0005.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0002_b0006",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0002_b0006",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0002_b0006.md",
+        "content": "मुखिया/वरिष्ठ परिवार सदस्य के हस्ताक्षर/निशानी अँगूठा",
+        "embedding_text": "मुखिया/वरिष्ठ परिवार सदस्य के हस्ताक्षर/निशानी अँगूठा",
+        "metadata": {
+          "reading_order": 6,
+          "confidence": 0.568882167339325,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0002_b0006.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0002_b0007",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0002_b0007",
+        "element_type": "caption",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0002_b0007.md",
+        "content": "केवल सत्यापनकर्ता अधिकारी/कर्मचारी के उपयोग हेतु",
+        "embedding_text": "केवल सत्यापनकर्ता अधिकारी/कर्मचारी के उपयोग हेतु",
+        "metadata": {
+          "reading_order": 7,
+          "confidence": 0.7825525999069214,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0002_b0007.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0002_b0008",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0002_b0008",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0002_b0008.md",
+        "content": "चेक लिस्ट,",
+        "embedding_text": "चेक लिस्ट,",
+        "metadata": {
+          "reading_order": 8,
+          "confidence": 0.43781256675720215,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0002_b0008.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0002_b0009",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0002_b0009",
+        "element_type": "table",
+        "page_number": 2,
+        "media_type": "text/html",
+        "relative_path": "tables/doc_3321704ec41e4763_p0002_b0009.html",
+        "content": "<table></table>",
+        "embedding_text": "12. परिवार का विवरण\nTable:\nSource page: 2",
+        "metadata": {
+          "reading_order": 9,
+          "confidence": 0.8884484171867371,
+          "structured_data_path": "tables/doc_3321704ec41e4763_p0002_b0009.json",
+          "preview_path": "tables/doc_3321704ec41e4763_p0002_b0009.png",
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0002_b0009.html",
+          "absolute_preview_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0002_b0009.png"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0002_b0010",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0002_b0010",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0002_b0010.md",
+        "content": "नोट - आवश्यकता अनुरूप प्रविष्टि हेतु अतिरिक्त पृष्ठ संलग्न किया जा सकता है।",
+        "embedding_text": "नोट - आवश्यकता अनुरूप प्रविष्टि हेतु अतिरिक्त पृष्ठ संलग्न किया जा सकता है।",
+        "metadata": {
+          "reading_order": 10,
+          "confidence": 0.5026483535766602,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0002_b0010.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0002_b0011",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0002_b0011",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0002_b0011.md",
+        "content": "सत्यापनकर्ता, अधिकारी/कर्मचारी के हस्ताक्षर",
+        "embedding_text": "सत्यापनकर्ता, अधिकारी/कर्मचारी के हस्ताक्षर",
+        "metadata": {
+          "reading_order": 11,
+          "confidence": 0.6130082011222839,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0002_b0011.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0002_b0012",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0002_b0012",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0002_b0012.md",
+        "content": "पदनाम",
+        "embedding_text": "पदनाम",
+        "metadata": {
+          "reading_order": 12,
+          "confidence": 0.433193564414978,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0002_b0012.md"
+        }
+      },
+      {
+        "artifact_id": "artifact_doc_3321704ec41e4763_p0002_b0013",
+        "document_id": "doc_3321704ec41e4763",
+        "block_id": "doc_3321704ec41e4763_p0002_b0013",
+        "element_type": "paragraph",
+        "page_number": 2,
+        "media_type": "text/markdown",
+        "relative_path": "text/doc_3321704ec41e4763_p0002_b0013.md",
+        "content": "मोबाईल नं०",
+        "embedding_text": "मोबाईल नं०",
+        "metadata": {
+          "reading_order": 13,
+          "confidence": 0.3608990013599396,
+          "absolute_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\text\\doc_3321704ec41e4763_p0002_b0013.md"
+        }
+      }
+    ]
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 2552,
+      "height": 3510,
+      "created_at": "2026-07-30T09:45:17.660396+00:00",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "heading",
+          "text": "# राष्ट्रीय खाद्य सुरक्षा अधिनियम-2013 के अन्तर्गत पात्र गृहस्थी सत्यापन प्रपत्र (ग्रामीण)",
+          "confidence": 0.7256852388381958,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 473.0,
+            "y1": 131.0,
+            "x2": 2082.0,
+            "y2": 212.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "* राष्ट्रीय खाद्य सुरक्षा अधिनियम-2013 की धारा-13(1) के अनुसार प्रत्येक पात्र गृहस्थी में, वरिष्ठ स्त्री, जिसकी आयु 18 वर्ष से कम की न हो, राशनकार्ड जारी किये जाने के प्रयोजन के लिए, गृहस्थी की मुखिया होगी एवं धारा-1(2) के अनुसार जहाँ किसी गृहस्थी में किसी समय कोई स्त्री या 18 वर्ष से उससे अधिक आयु की स्त्री नहीं है, किन्तु 18 वर्ष से कम आयु की महिला सदस्य है, वहाँ गृहस्थी का वरिष्ठ पुरुष सदस्य राशनकार्ड जारी किये जाने के प्रयोजन के लिए गृहस्थी का मुखिया होगा और महिला सदस्य, 18 वर्ष की आयु प्राप्त करने पर, ऐसे राशनकार्डों के लिए, ऐसे पुरुष सदस्य के स्थान पर, गृहस्थी की मुखिया बन जायेगी।",
+          "confidence": 0.8915585279464722,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 192.0,
+            "y1": 223.0,
+            "x2": 2367.0,
+            "y2": 472.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "caption",
+          "text": "भाग-क",
+          "confidence": 0.39212504029273987,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 195.0,
+            "y1": 625.0,
+            "x2": 343.0,
+            "y2": 668.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "caption",
+          "text": "भाग-एक",
+          "confidence": 0.43806150555610657,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 1196.0,
+            "y1": 586.0,
+            "x2": 1365.0,
+            "y2": 632.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "table",
+          "text": "<table></table>",
+          "confidence": 0.5289644598960876,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 2100.0,
+            "y1": 465.0,
+            "x2": 2294.0,
+            "y2": 693.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0001_b0004.png"
+        },
+        {
+          "page": 1,
+          "layout": "table",
+          "text": "<table></table>",
+          "confidence": 0.9607982039451599,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 180.0,
+            "y1": 679.0,
+            "x2": 2381.0,
+            "y2": 1459.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0001_b0005.png"
+        },
+        {
+          "page": 1,
+          "layout": "heading",
+          "text": "# भाग-ख",
+          "confidence": 0.5748032927513123,
+          "reading_order": 6,
+          "coordinates": {
+            "x1": 198.0,
+            "y1": 1471.0,
+            "x2": 344.0,
+            "y2": 1515.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "table",
+          "text": "<table></table>",
+          "confidence": 0.9634850025177002,
+          "reading_order": 7,
+          "coordinates": {
+            "x1": 179.0,
+            "y1": 1526.0,
+            "x2": 2383.0,
+            "y2": 2378.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0001_b0007.png"
+        },
+        {
+          "page": 1,
+          "layout": "heading",
+          "text": "# 12. परिवार का विवरण",
+          "confidence": 0.533686101436615,
+          "reading_order": 8,
+          "coordinates": {
+            "x1": 207.0,
+            "y1": 2376.0,
+            "x2": 631.0,
+            "y2": 2425.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "table",
+          "text": "<table></table>",
+          "confidence": 0.9560215473175049,
+          "reading_order": 9,
+          "coordinates": {
+            "x1": 180.0,
+            "y1": 2427.0,
+            "x2": 2383.0,
+            "y2": 3075.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0001_b0009.png"
+        },
+        {
+          "page": 1,
+          "layout": "paragraph",
+          "text": "मुखिया / वरिष्ठ परिवार सदस्य के हस्ताक्षर / निशानी अँगूठा",
+          "confidence": 0.6257594227790833,
+          "reading_order": 10,
+          "coordinates": {
+            "x1": 1332.0,
+            "y1": 3153.0,
+            "x2": 2333.0,
+            "y2": 3223.0
+          },
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 2552,
+      "height": 3510,
+      "created_at": "2026-07-30T09:45:17.660396+00:00",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "header",
+          "text": "भाग-दो *",
+          "confidence": 0.4126925468444824,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 1238.0,
+            "y1": 158.0,
+            "x2": 1437.0,
+            "y2": 213.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "निष्कासन के आधार (एक्सक्लूजन क्राइटेरिया)",
+          "confidence": 0.3398989737033844,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 249.0,
+            "y1": 232.0,
+            "x2": 906.0,
+            "y2": 293.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "table",
+          "text": "<table></table>",
+          "confidence": 0.9296745657920837,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 285.0,
+            "y1": 360.0,
+            "x2": 2363.0,
+            "y2": 920.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0002_b0002.png"
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "इन्फ्लूजन क्राइटेरिया (यदि निष्कासन आधार के अन्तर्गत न आते हों) -",
+          "confidence": 0.3643782436847687,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 240.0,
+            "y1": 945.0,
+            "x2": 1269.0,
+            "y2": 1024.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "table",
+          "text": "<table></table>",
+          "confidence": 0.9588431715965271,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 274.0,
+            "y1": 1035.0,
+            "x2": 2355.0,
+            "y2": 2057.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0002_b0004.png"
+        },
+        {
+          "page": 2,
+          "layout": "source",
+          "text": "* आवश्यक (Compulsory) प्रविष्टि",
+          "confidence": 0.6997018456459045,
+          "reading_order": 5,
+          "coordinates": {
+            "x1": 229.0,
+            "y1": 2039.0,
+            "x2": 708.0,
+            "y2": 2099.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "मुखिया/वरिष्ठ परिवार सदस्य के हस्ताक्षर/निशानी अँगूठा",
+          "confidence": 0.568882167339325,
+          "reading_order": 6,
+          "coordinates": {
+            "x1": 1795.0,
+            "y1": 2207.0,
+            "x2": 2290.0,
+            "y2": 2327.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "caption",
+          "text": "केवल सत्यापनकर्ता अधिकारी/कर्मचारी के उपयोग हेतु",
+          "confidence": 0.7825525999069214,
+          "reading_order": 7,
+          "coordinates": {
+            "x1": 903.0,
+            "y1": 2377.0,
+            "x2": 1710.0,
+            "y2": 2453.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "चेक लिस्ट,",
+          "confidence": 0.43781256675720215,
+          "reading_order": 8,
+          "coordinates": {
+            "x1": 220.0,
+            "y1": 2404.0,
+            "x2": 388.0,
+            "y2": 2455.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "table",
+          "text": "<table></table>",
+          "confidence": 0.8884484171867371,
+          "reading_order": 9,
+          "coordinates": {
+            "x1": 382.0,
+            "y1": 2455.0,
+            "x2": 1979.0,
+            "y2": 2709.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\doc_3321704ec41e4763\\tables\\doc_3321704ec41e4763_p0002_b0009.png"
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "नोट - आवश्यकता अनुरूप प्रविष्टि हेतु अतिरिक्त पृष्ठ संलग्न किया जा सकता है।",
+          "confidence": 0.5026483535766602,
+          "reading_order": 10,
+          "coordinates": {
+            "x1": 213.0,
+            "y1": 2700.0,
+            "x2": 1418.0,
+            "y2": 2785.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "सत्यापनकर्ता, अधिकारी/कर्मचारी के हस्ताक्षर",
+          "confidence": 0.6130082011222839,
+          "reading_order": 11,
+          "coordinates": {
+            "x1": 899.0,
+            "y1": 2964.0,
+            "x2": 1558.0,
+            "y2": 3026.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "पदनाम",
+          "confidence": 0.433193564414978,
+          "reading_order": 12,
+          "coordinates": {
+            "x1": 902.0,
+            "y1": 3014.0,
+            "x2": 1013.0,
+            "y2": 3056.0
+          },
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "paragraph",
+          "text": "मोबाईल नं०",
+          "confidence": 0.3608990013599396,
+          "reading_order": 13,
+          "coordinates": {
+            "x1": 901.0,
+            "y1": 3061.0,
+            "x2": 1084.0,
+            "y2": 3107.0
+          },
+          "image_path": null
+        }
+      ]
+    }
+  ]
+}

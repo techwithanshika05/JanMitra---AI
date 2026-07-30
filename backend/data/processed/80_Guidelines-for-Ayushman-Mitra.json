@@ -1,0 +1,371 @@
+{
+  "source_file": "80_Guidelines-for-Ayushman-Mitra.pdf",
+  "metadata": {
+    "total_pages": 7,
+    "total_blocks": 24,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.4444444444444444,
+    "processed_at": "2026-07-30T06:58:03Z",
+    "sarvam_visual_blocks": 0
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-30T06:58:03Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "Ayushman Bharat – National Health \nProtection Mission \nAyushman Mitra | Guidelines \nJuly 2018 \n \n \n \n \n \nNational Health Agency \nNew Delhi",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 411.1600036621094,
+            "y1": 35.40196228027344,
+            "x2": 520.8599853515625,
+            "y2": 87.89996337890625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p1_img0.png"
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 93.75,
+            "y1": 30.75,
+            "x2": 204.75,
+            "y2": 84.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p1_img1.png"
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 6.87000010657357e-07,
+            "y1": 93.1199951171875,
+            "x2": 595.3200073242188,
+            "y2": 841.9199829101562
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p1_img2.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-30T06:58:03Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "Table of Contents \n \nAcronyms \n2 \n1. Introduction \n3 \n2. Criteria for Selection of Ayushman Mitra \n3 \n3. Recruitment of Ayushman Mitra \n3 \n4. Placement of Ayushman Mitra \n3 \n5. Roles and Responsibilities \n4 \n6. Help Desk/ Kiosk \n6 \n7. Training of Ayushman Mitra \n6 \n8. Benefits to Ayushman Mitra \n6 \n9. Term of Ayushman Mitra \n7 \n \n \n \n \nAcronyms \n1. AB-NHPM: Ayushman Bharat - National Health Protection Mission \n2. ASHA: Accredited Social Health Activist \n3. BIS: Beneficiary Identification System \n4. EHCP: Empanelled Health Care Provider \n5. IC: Insurance Company \n6. ISA: Implementation Support Agency \n7. NHA: National Health Agency \n8. AM: Ayushman Mitra \n9. SHA: State Health Agency \n10. UTs: Union Territories",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 411.1600036621094,
+            "y1": 35.40196228027344,
+            "x2": 520.8599853515625,
+            "y2": 87.89996337890625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p2_img0.png"
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 93.75,
+            "y1": 30.75,
+            "x2": 204.75,
+            "y2": 84.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p2_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-30T06:58:03Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "1. Introduction \nA support system for assisting beneficiaries at Empanelled Health Care Provider (EHCP) under Ayushman \nMitra is critical to be established. Thus, to streamline the health service delivery and provide a seamless \nexperience to the beneficiary, an Ayushman Mitra will be placed at each EHCP. An Ayushman Mitra (AM) is a \ncertified frontline health service professional who shall be present at each of the EHCP and shall serve as a first \ncontact point for beneficiaries. \n \n2. Criteria for Selection of Ayushman Mitra \nThe Ayushman Mitra (AMs) will be selected based on the following criteria: \n● \nCompleted 10+2 from a recognized institution \n● \nBasic proficiency in computer operations \n● \nCompleted the Ayushman Mitra Training Course and passed the respective course exam/certification \n● \nPossessing fluent communication skills in Hindi/ English and Local language of the State/ region \n● \nHaving adequate functional computer literacy which shall include understanding of Microsoft Office Suite \nand navigating through Internet Portals. \n \nPreference to be given to Female Candidates for the position of Ayushman Mitra. Qualified ASHA workers may \nbe given preference for the position of AM (if interested). \nExisting staff of Government hospitals can also be nominated to act as Ayushman Mitra by the State \nGovernment. \n \n3. Recruitment of Ayushman Mitra \na. \nThe State Health Agency (SHA) will have the flexibility to recruit Ayushman Mitra through third-party \nagency/agencies or through any other mechanism for public facilities. The SHA, based on the number \nof AMs required shall pay the Ayushman Mitra through a third-party agency/agencies. In case of \nrequirement of extra AMs, the SHA/Selected Agency should have the capability to promptly scale up \nits capacity and provide the required number of AMs. \nb. SHA can directly hire AMs also at State/ District or hospital level. \nc. \nIf the State Government requires, they can even nominate existing staff of public hospitals as AM. \nd. For Private EHCP, the recruitment and placement of Ayushman Mitra should be done by the health \ncare provider itself. The cost of the AM in that facility should be borne by the Private EHCP. \n \n4. Placement of Ayushman Mitra \nAMs will be placed at every public EHCP. The exact numbers of AMs to be placed shall be dependent on the \naverage case-load per day. A suggestive placement of AM based on cases registered per day is given below. \n(i) 0-10 Cases – 1 AM \n(ii) 10-20 Cases – 2 AMs \n(iii) 20-30 Cases – 3 AMs \n(iv) 30-40 Cases – 4 AMs",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 411.1600036621094,
+            "y1": 35.40196228027344,
+            "x2": 520.8599853515625,
+            "y2": 87.89996337890625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p3_img0.png"
+        },
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 93.75,
+            "y1": 30.75,
+            "x2": 204.75,
+            "y2": 84.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p3_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-30T06:58:03Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "The State can revise the number of AMs based on local conditions, however, they will need to ensure that \nservices are available to the beneficiaries 24x7 in the hospital. \n \nAfter the initial placement, State Government may also consider to shuffle AMs every 6/12 months within the \nsame city /town. The reshuffling of AMs (if required) shall be done by the district nodal officer either directly or \nthrough selected agency. \n \n \n5. Roles and Responsibilities \nThe Ayushman Mitra is the primary contact for the beneficiaries at every EHCP. The AM shall be responsible \nfor the following three broad areas: \na. \nOperating the Beneficiary Identification System to identify and verify the beneficiaries entitled under \nAB-NHPM \nb. Undertaking Transaction Management such as submitting requests for Pre-Authorization and Claims \nc. \nGuiding the Beneficiary about the overall benefits under AB-NHPM and providing information about \nreceiving prompt treatment at EHCP \nFor ensuring timely access to medical care, AM is responsible for operating the Beneficiary Identification \nSystem (BIS) to identify, authenticate and verify the beneficiaries entitled under the AB-NHPM. \nFig 1: Role of Ayushman Mitra in operating the BIS System for a New Beneficiary \nThe AM shall work on the BIS as per the process mentioned below. \na. \nAM receives the potential Beneficiary visiting an EHCP at the designated kiosk. \nb. AM collects the AADHAAR Card, Family ID Card or any other Government ID Card from the \nbeneficiary. \nc. \nAM searches the beneficiary name/family using different parameters \nd. On identification of beneficiary name in database, AM proceeds for beneficiary authentication through \nthe provided Government ID card. \ne. \nAM either does online authentication using Aadhaar or enter details in case of Non-AADHAAR \ndocument and validate beneficiary mobile number. A digital photo of the beneficiary is also taken by \nthe AM. \nf. \nPost, beneficiary authentication, AM scans the family card submitted by the beneficiary for \nestablishing the beneficiary relation in the family. \ng. The AM, after uploading Government ID and Family ID receives a ‘name match score’ and ‘family \nmatch’ score on the BIS application. \nh. \nAfter the beneficiary verification (personal and family-level) is complete, record gets inserted into the \ndatabase as a ‘silver’ record and the AM shall print a Provisional Card mentioning the AB-NHPM ID \nof the beneficiary.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 411.1600036621094,
+            "y1": 35.40196228027344,
+            "x2": 520.8599853515625,
+            "y2": 87.89996337890625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p4_img0.png"
+        },
+        {
+          "page": 4,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 93.75,
+            "y1": 30.75,
+            "x2": 204.75,
+            "y2": 84.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p4_img1.png"
+        },
+        {
+          "page": 4,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 15.800000190734863,
+            "y1": 366.9999694824219,
+            "x2": 578.1799926757812,
+            "y2": 508.3499755859375
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p4_img2.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-30T06:58:03Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "text",
+          "text": "i. \nThe AM, then submits the ‘record’ to the Approving authorities for further verification and approval. \nThe tentative time required for approval is 30 mins. \nj. \nIf beneficiary gets verified and approved by the Approving Authorities, the beneficiary data will be \nstored as a “golden record” and AM will receive the notification. \nk. AM will then print the AB-NHPM e-Card as “golden record” and give it to the beneficiary. \n \n \n \nFig 2: Role of Ayushman Mitra when a Beneficiary visits a empanelled health care facility \nAlong with ensuring a systematic operation of BIS, the AM is also responsible for the following duties: \n● \nTo provide all the necessary assistance and details about the scheme to the beneficiaries. \no \nIn case of OPD: If the ailment does not require hospitalization, AMs will have to explain to the \nbeneficiary that the AB-NHPM card does not cover the OPD treatment and hence any cost \nincurred for treatment under OPD will be necessarily borne by the patient. \n● \nTo collect, scan and upload all the necessary documents required for submitting the request for preauthorization. \n● \nTo ensure that the patient, from the time of pre-authorization to discharge, is getting all the benefits as \nper AB-NHPM norms. \n● \nTo liaison with the EHCP for timely admission and availability of bed to patient. \n● \nTo help locate facilities and guide a patient in receiving prompt treatment. \n● \nTo liaison and coordinate with the Medical officer for collecting, scanning and uploading all the \nnecessary documents required for submitting claim request. \n● \nTo ensure that all the facilities that the AB-NHPM beneficiaries requires are being rendered without \ncharging any amount. \n● \nTo verify discharge summary and follow-up details to the discharged beneficiaries. \n● \nIn an unlikely scenario of e-card being lost or damaged, AM is to guide the cardholder for obtaining a \ncopy of the e-card \n● \nTo immediately bring all grievances to the notice of Grievance Cell directly or through District \nCoordinator. \n● \nTo facilitate the hospital in giving prior phone intimation to the concerned authority for carrying out \nthe emergency surgeries. \n● \nTo track and report refund of any investigation amount collected in contravention to the Scheme \nGuidelines \n● \nTo report any irregularities or inadequacy noticed to the concerned supervisors. \n \nThus, to ensure that AMs fulfil the responsibilities in an efficient manner, it is important to have a \ncomprehensive monitoring mechanism. The SHA, (in coordination with the selected agency, if hired) shall be \nresponsible for monitoring the performance of AMs. The monitoring of AMs shall include the following \nparameters. \n● \nTracking Biometric Attendance of AMs on a daily/weekly basis \n● \nTracking the number of returns for the Pre-Authorization Requests submitted",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 411.1600036621094,
+            "y1": 35.40196228027344,
+            "x2": 520.8599853515625,
+            "y2": 87.89996337890625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p5_img0.png"
+        },
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 93.75,
+            "y1": 30.75,
+            "x2": 204.75,
+            "y2": 84.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p5_img1.png"
+        },
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 35.099998474121094,
+            "y1": 196.14999389648438,
+            "x2": 558.5999755859375,
+            "y2": 328.75
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p5_img2.png"
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-30T06:58:03Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "● \nEvaluating the percentage of complete Pre-Authorization Requests at first instance \n● \nAssessing performance in Periodic Trainings \n● \nAnalysing Beneficiary Feedback in terms of score rating and qualitative questionnaire \n● \nEvaluating the performance reviews submitted by District Coordinators and Senior AMs \n● \nTo conduct refresher training of the AMs ensuring they are aware of any changes in their role \n \n6. Help Desk/ Kiosk \na. \nA help desk/ kiosk in a standardised form (to be provided by NHA later) will need to be mandatorily \nset up by each EHCP. This is mainly to assist an AB-NHPM beneficiary in completing required \nformalities & obtain treatment as also assist hospitals by facilitating beneficiary identification and \nverification, selection of packages, and seeking authorizations whenever required. \nb. The EHCP should establish this help desk/ Kiosk near the reception of the Hospital for easy access of \nthe beneficiaries. AMs should ensure that they have access to use infrastructure and necessary \nhardware such as PC, Printer, Scanner, Digital Camera, Webcam, QR code Reader, Stationery etc. \nc. \nThe EHCP shall provide preferably a dedicated 2 Mbps or higher broadband connectivity to the \ncomputer to be exclusively used by the AM. \nd. A standard uniform shall also be provided to the AM so that they are identified easily by the \nbeneficiaries in the hospital. \n \n7. Training of Ayushman Mitra \nEach Ayushman Mitra will be trained in all aspects of their roles and responsibilities. Training will use both \nface-to-face as well as online modes. Post training, eligible Ayushman Mitra would take up tests and would \nreceive a certificate on successful completion of the test. \nNHA is collaborating with Ministry of Skill Development and Entrepreneurship (MSDE) to use platform of \nPradhan Mantri Kaushal Kendra (PMKK) to train and certify Ayushman Mitra at each district. NHA will \ncommunicate details of empanelled PMKKs to the States. \n \n8. Benefits to Ayushman Mitra \nA. For Public Hospitals \nFor all the AMs working in public facilities, benefits shall be paid by the SHA/SHA Selected Agency. \nThe suggested benefits for the AM can be done in two ways: \na. \nA fixed honorarium with case-based incentive OR \nb. A fixed salary per month based on minimum wages in the State \nHonorarium/ salary can be paid from the Rogi Kalyan Samiti from the funds generated through ABNHPM. \n \nProvision of Mobile Closed User Group (CUG) network either through the Third-Party Agency \nselected by the SHAs or through some other mechanism. \n \nState may also revise the suggested benefits to AM, based on local conditions. \n \nB. For Private Hospitals \nFor all the AMs working in Private EHCP, benefits shall be paid by the Private EHCP itself. The nature \nof benefits should be decided by the Private EHCP.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 6,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 411.1600036621094,
+            "y1": 35.40196228027344,
+            "x2": 520.8599853515625,
+            "y2": 87.89996337890625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p6_img0.png"
+        },
+        {
+          "page": 6,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 93.75,
+            "y1": 30.75,
+            "x2": 204.75,
+            "y2": 84.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p6_img1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-30T06:58:03Z",
+      "blocks": [
+        {
+          "page": 7,
+          "layout": "text",
+          "text": "9. Term of Ayushman Mitra \nAn Ayushman Mitra may be hired for initially for a period of one year and his/ her contract can be renewed \nyearly based on the performance.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 7,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 411.1600036621094,
+            "y1": 35.40196228027344,
+            "x2": 520.8599853515625,
+            "y2": 87.89996337890625
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p7_img0.png"
+        },
+        {
+          "page": 7,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 93.75,
+            "y1": 30.75,
+            "x2": 204.75,
+            "y2": 84.0
+          },
+          "image_path": "C:\\Users\\Anurag Yadav\\New folder (3)\\Desktop\\JanMitra---AI\\JanMitra---AI - Copy\\backend\\data\\images\\80_Guidelines-for-Ayushman-Mitra_p7_img1.png"
+        }
+      ]
+    }
+  ]
+}
