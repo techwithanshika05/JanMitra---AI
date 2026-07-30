@@ -15,3 +15,16 @@ sentence-transformers==3.1.1
 transformers==4.45.2
 tokenizers==0.20.3
 groq
+livekit-agents[sarvam]~=1.5
+livekit-api~=1.0
+sarvamai
+psycopg[binary]>=3.2,<4
+# Keep LiveKit telemetry and the existing Chroma/LangChain stack compatible.
+opentelemetry-api==1.39.1
+opentelemetry-sdk==1.39.1
+opentelemetry-exporter-otlp==1.39.1
+opentelemetry-semantic-conventions==0.60b1
+opentelemetry-instrumentation==0.60b1
+opentelemetry-instrumentation-asgi==0.60b1
+opentelemetry-instrumentation-fastapi==0.60b1
+packaging==24.2

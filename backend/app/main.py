@@ -12,6 +12,7 @@ from app.config import settings
 from app.database import Base, engine
 from app.checklists import router as saved_checklists
 from app.identity_tracking import router as identity_tracking
+from app.conversational_ai import router as conversational_ai
 from app.routers import (
     admin,
     analytics,
@@ -58,6 +59,7 @@ app.include_router(analytics.router)
 app.include_router(chat_history.router)
 app.include_router(saved_checklists.router)
 app.include_router(identity_tracking.router)
+app.include_router(conversational_ai)
 
 
 @app.get("/")

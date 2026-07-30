@@ -100,7 +100,7 @@ class ManyaRAGAdapter:
     def _get_pipeline(self):
         if self._pipeline is None:
             with self._lock:
-                if self._pipeline is None:
+                if self._pipeline is None: 
                     if self._pipeline_factory:
                         self._pipeline = self._pipeline_factory()
                     else:

@@ -1,6 +1,7 @@
 "use client";
 import { Phone, ShieldAlert, Wheat, Users, HeartHandshake, Baby } from "lucide-react";
 import { useLanguage } from "@/lib/i18n";
+import ConversationalAICard from "@/components/ConversationalAICard";
 
 type HelplineEntry = {
   name: string;
@@ -70,24 +71,7 @@ export default function HelplinePage() {
           : "Official helpline numbers for ration/PDS issues, welfare scheme queries, and grievances. These are publicly published government helplines."}
       </p>
 
-      <div className="mt-6 rounded-card p-5 bg-gradient-primary text-white">
-        <div className="flex items-center gap-2 font-display font-semibold">
-          <Wheat size={18} /> {lang === "hi" ? "PDS / राशन सहायता प्राथमिकता" : "PDS / Ration Help — Priority Line"}
-        </div>
-        <p className="text-sm text-white/80 mt-2">
-          {lang === "hi"
-            ? "राशन न मिलने, गलत मात्रा, या दुकानदार की शिकायत के लिए राष्ट्रीय खाद्य सुरक्षा हेल्पलाइन 1967 पर कॉल करें, या अपने राज्य के खाद्य विभाग पोर्टल पर शिकायत दर्ज करें।"
-            : "For ration not received, wrong quantity, or dealer complaints, call the National Food Security Helpline 1967, or file a complaint on your state Food Department portal."}
-        </p>
-        <a
-          href="https://nfsa.gov.in/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block mt-3 text-sm font-medium bg-white text-maroon px-4 py-2 rounded-full hover:bg-white/90 transition-colors"
-        >
-          {lang === "hi" ? "आधिकारिक NFSA पोर्टल खोलें" : "Open official NFSA portal"}
-        </a>
-      </div>
+      <ConversationalAICard />
 
       <div className="grid md:grid-cols-2 gap-5 mt-8">
         {HELPLINES.map((h) => {

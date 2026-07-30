@@ -11,6 +11,7 @@ from app.identity_tracking.models import (
     SchemeActivity,
     UserPreference,
 )
+from app.conversational_ai.persistence.models import VoiceSession
 
 
 def owned_filter(model, identity: ChatIdentity):
@@ -81,6 +82,7 @@ def claim_guest_data(db: Session, *, guest_id: str, user_id: int) -> dict[str, i
         "scheme_activities": 0,
         "preferences": 0,
         "feature_activities": 0,
+        "voice_sessions": 0,
         "already_claimed": False,
     }
     now = datetime.utcnow()
@@ -141,6 +143,18 @@ def claim_guest_data(db: Session, *, guest_id: str, user_id: int) -> dict[str, i
         row.ownership_status = "claimed"
         row.claimed_at = now
     summary["feature_activities"] = len(feature_activities)
+
+    voice_sessions = db.query(VoiceSession).filter(
+        VoiceSession.guest_session_id == guest_id,
+        VoiceSession.user_id.is_(None),
+    ).all()
+    for row in voice_sessions:
+        row.user_id = user_id
+        row.claimed_guest_session_id = guest_id
+        row.guest_session_id = None
+        row.ownership_status = "claimed"
+        row.claimed_at = now
+    summary["voice_sessions"] = len(voice_sessions)
 
     preferences = db.query(UserPreference).filter(
         UserPreference.guest_session_id == guest_id,

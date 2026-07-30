@@ -56,6 +56,21 @@ class Settings:
         os.getenv("RAG_REQUEST_TIMEOUT_SECONDS", "12")
     )
 
+    # --- Conversational voice agent (LiveKit + Sarvam) ---
+    LIVEKIT_URL: str = os.getenv("LIVEKIT_URL", "")
+    LIVEKIT_API_KEY: str = os.getenv("LIVEKIT_API_KEY", "")
+    LIVEKIT_API_SECRET: str = os.getenv("LIVEKIT_API_SECRET", "")
+    SARVAM_API_KEY: str = os.getenv("SARVAM_API_KEY", "")
+    VOICE_AGENT_NAME: str = os.getenv("VOICE_AGENT_NAME", "janmitra-scheme-agent")
+    VOICE_DEFAULT_LANGUAGE: str = os.getenv("VOICE_DEFAULT_LANGUAGE", "hi-IN")
+    VOICE_ROOM_TTL_MINUTES: int = int(os.getenv("VOICE_ROOM_TTL_MINUTES", "30"))
+    SARVAM_STT_MODEL: str = os.getenv("SARVAM_STT_MODEL", "saaras:v3")
+    SARVAM_STT_MODE: str = os.getenv("SARVAM_STT_MODE", "codemix")
+    SARVAM_TTS_MODEL: str = os.getenv("SARVAM_TTS_MODEL", "bulbul:v3")
+    SARVAM_TTS_SPEAKER: str = os.getenv("SARVAM_TTS_SPEAKER", "shubh")
+    SARVAM_TTS_PACE: float = float(os.getenv("SARVAM_TTS_PACE", "0.9"))
+    SARVAM_LLM_MODEL: str = os.getenv("SARVAM_LLM_MODEL", "sarvam-105b")
+
     # --- CORS ---
     ALLOWED_ORIGINS: list = [
         origin.strip()

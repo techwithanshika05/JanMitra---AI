@@ -15,6 +15,7 @@ from app.identity_tracking.schemas import (
     PreferencePatch,
 )
 from app.identity_tracking.service import claim_guest_data, owned_filter
+from app.conversational_ai.persistence.models import VoiceSession
 
 router = APIRouter(prefix="/api", tags=["identity-history"])
 
@@ -112,6 +113,18 @@ def history(
             )
             for row in rows
             if row.deleted_at is None
+        )
+    if feature in (None, "voice"):
+        rows = db.query(VoiceSession).filter(owned_filter(VoiceSession, identity)).all()
+        items.extend(
+            HistoryItem(
+                feature="voice",
+                record_id=row.id,
+                action=row.status,
+                title=row.summary or "Voice guidance call",
+                created_at=row.created_at,
+            )
+            for row in rows
         )
     generic_query = db.query(FeatureActivity).filter(
         owned_filter(FeatureActivity, identity)

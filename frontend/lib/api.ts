@@ -4,6 +4,17 @@ import type {
   ChatSession,
 } from "@/lib/chatTypes";
 
+export type VoiceLanguage = "hi-IN" | "en-IN";
+
+export type VoiceSessionStart = {
+  session_id: string;
+  room_name: string;
+  token: string;
+  livekit_url: string;
+  default_language: string;
+  storage_mode: string;
+};
+
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 function authHeaders(): Record<string, string> {
@@ -149,6 +160,18 @@ export const api = {
     request("/analytics/feedback", {
       method: "POST",
       body: JSON.stringify(payload),
+    }),
+
+  startVoiceSession: (language: VoiceLanguage): Promise<VoiceSessionStart> =>
+    request("/api/voice/sessions", {
+      method: "POST",
+      body: JSON.stringify({ language }),
+    }),
+
+  endVoiceSession: (sessionId: string, reason = "user_ended") =>
+    request(`/api/voice/sessions/${sessionId}/end`, {
+      method: "POST",
+      body: JSON.stringify({ reason }),
     }),
 };
 
