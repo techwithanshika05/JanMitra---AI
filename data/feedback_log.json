@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-07-23T11:21:18.680967",
+    "type": "thumbs_up",
+    "query": "How to apply for old age pension in UP?",
+    "response_id": "10",
+    "rating": null,
+    "comment": null,
+    "page": "chat"
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-07-23T11:21:21.256212",
+    "type": "thumbs_down",
+    "query": "ration card",
+    "response_id": "8",
+    "rating": null,
+    "comment": null,
+    "page": "chat"
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-07-28T07:56:16.159441",
+    "type": "general",
+    "query": null,
+    "response_id": null,
+    "rating": 4,
+    "comment": "amazing",
+    "page": "general"
+  }
+]
