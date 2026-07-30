@@ -1,0 +1,199 @@
+{
+  "source_file": "CMHELPLINE2018.pdf",
+  "metadata": {
+    "total_pages": 6,
+    "total_blocks": 12,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.7777777777777778,
+    "processed_at": "2026-07-27T11:05:37Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:05:36Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "Scanned by CamScanner",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 11.893280029296875,
+            "y1": 0.0,
+            "x2": 583.106689453125,
+            "y2": 817.0
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\CMHELPLINE2018\\page_1_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:05:36Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "Scanned by CamScanner",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 13.913209915161133,
+            "y1": 0.0,
+            "x2": 581.0867919921875,
+            "y2": 817.0
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\CMHELPLINE2018\\page_2_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:05:37Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "Scanned by CamScanner",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 12.143460273742676,
+            "y1": 0.0,
+            "x2": 582.8565063476562,
+            "y2": 817.0
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\CMHELPLINE2018\\page_3_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:05:37Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "Scanned by CamScanner",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 7.060389995574951,
+            "y1": 0.0,
+            "x2": 587.9395751953125,
+            "y2": 817.0
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\CMHELPLINE2018\\page_4_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:05:37Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "text",
+          "text": "Scanned by CamScanner",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 6.254640102386475,
+            "y1": 0.0,
+            "x2": 588.745361328125,
+            "y2": 817.0
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\CMHELPLINE2018\\page_5_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:05:37Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "Scanned by CamScanner",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 6,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 7.508699893951416,
+            "y1": 0.0,
+            "x2": 587.4913330078125,
+            "y2": 817.0
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\CMHELPLINE2018\\page_6_image_0.png"
+        }
+      ]
+    }
+  ]
+}

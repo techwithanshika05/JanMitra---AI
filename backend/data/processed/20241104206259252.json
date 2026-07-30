@@ -1,0 +1,75 @@
+{
+  "source_file": "20241104206259252.pdf",
+  "metadata": {
+    "total_pages": 2,
+    "total_blocks": 4,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.2222222222222222,
+    "processed_at": "2026-07-27T11:02:25Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:02:24Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "ONE NATION \nONE RATION CARD \nNationwide Portability of Ration Reforms in Public Distribution System \nNational Informatics Centre \n= \nMinistry of Electronics & Information Technology \nGovernment of India \nTTS \nHl \nNational \nInformatics \nCentre",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": -0.00201416015625,
+            "x2": 595.8720092773438,
+            "y2": 842.1099853515625
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\20241104206259252\\page_1_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:02:25Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "The implementation \nof nation-wide portability of \nration cards through “One Nation One Ration Card \n(ONORC) plan”, is an ambitious endeavour of the \nDepartment of Food & Public Distribution System, \nGovernment \nof India developed by NIC to empower \nabout 78.74 Crore beneficiaries \nunder the National \nFood Security Act, 2013 (NFSA). This includes \nensuring \nfood \nsecurity \nfor \nmigrants \nas \nwell. \nThrough this facility, while a migrant beneficiary is \nenabled to get his/her ration through portability in \nthe destination State/UT, \nat the same time, \nthe \nfamily back home is also allowed to get their part of \nthe entitled ration to support itself. \nONORC \nuses \nInformation \n& \nCommunication \nTechnology (ICT) to implement Right to Food with \nthe concept \nof 5R's \n= Right Quantity and Right \nQuality to Right Beneficiary at Right Time and at \nRight Fair Price. \nONORC \nis also become integral part of “Pradhan \nMantri \nGarib \nKalyan Anna \nYojna (PMGKAY)\" \nto \ndistribute \nfree \ncommodities \nto \nmigrants \nduring \nCOVID-19. \nKey \nComponents \nare \nNational \nPortability, \nDe- \nduplication of beneficiaries, Creation of ration card \nCentral repository, Data Analytics. NIC is technical \npartner and implementation agency for Department \nof Food and Public Distribution(DFPD). \nInformative Dashboards links \n: \nhttps://nfsa.gov.in, https://impds.nic.in \nSalient features of One Nation \nOne \nRation Card \n1. \nA complete technology \n- driven \ninitiative empowering \nmigrants \nto \nbe \nself-reliant \nfor \ntheir \nfood \nsecurity \nin \na \ntransparent manner. \n2. \nNo need to carry original ration card or Aadhaar card. A \ncopy of either of the two is acceptable or just quote any of \nthe two numbers to the FPS dealer. \n3. \nEntitlements from Home State are available online on \nthe ePoS devices of chosen FPS. \n4. \nLift the Foodgrains with satisfaction after establishing \nidentity through Aadhaar based \nauthentication \nof ePoS \n(portability) transactions. \nLinks with \n: UIDAL,PFMS,CSCs,PM Dashboard \n(PRAYAS),DBT Bharat, UMANG App, Ayushmann \nBharat (NHA), Ministry of Labour & Employment \n(MoLE).",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": -0.00201416015625,
+            "x2": 595.8720092773438,
+            "y2": 842.1099853515625
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\20241104206259252\\page_2_image_0.png"
+        }
+      ]
+    }
+  ]
+}

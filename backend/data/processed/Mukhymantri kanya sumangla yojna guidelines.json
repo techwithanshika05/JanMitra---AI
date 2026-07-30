@@ -1,0 +1,146 @@
+{
+  "source_file": "Mukhymantri kanya sumangla yojna guidelines.pdf",
+  "metadata": {
+    "total_pages": 7,
+    "total_blocks": 8,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.2222222222222222,
+    "processed_at": "2026-07-27T11:06:22Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:22Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "‘MukhyaMantri Kanya Sumangla Yojana’ is an important initiative of Hon’ble \nChief Minister, Uttar Pradesh to help girl child and eliminate the social vices \nand discrimination like female feticide, skewed sex ratio, child marriage and \nnegative mindset for girls in the family etc prevalent in the society, which are \nbarriers for girls and women to achieve their fundamental rights including \nprotection, health and education. \nThis is a conditional cash transfer scheme that ensures social security to the \ngirl child along with her development. In this scheme girl child can have \nmonetary benefits in six stages:- \nSTAGE 1: \nThe girl child born on 01/04/2019 or after will be benefited with Rs. \n2000/- One Time. Girl child should be born on 01/04/2019 or after \n01/04/2019. \n01/04/2019 को या उसके बाद जन्म लेने वाली बाललका को रू0 2000 एक मुश्त घन \nसे लाभवन्न्तत ककया जायेगा | \n \nSTAGE 2: \nThe girl child who has received full immunization and is not born before \n01/04/2018 will be benefited with Rs. 1000/- One Time and girl child age \nshould be less than to 2 years.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 42.5,
+            "y1": 36.0,
+            "x2": 583.25,
+            "y2": 135.0
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Mukhymantri kanya sumangla yojna guidelines\\page_1_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:22Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "न्जस बाललका को पूर्ण टीकाकरर् प्राप्त हुआ है और न्जसका जन्म 01/04/2018 से पहले \nनहीीं हुआ है, उसे रू0 1000 एक मुश्त घन से लाभान्न्वत ककया जाएगा और बाललका की \nआयु 2 वर्ण से कम होनी चाहहए। \n \n \n \nSTAGE 3: \n \n \nThe girl child who has enrolled in Standard 1 during the current academic \nyear will be benefited with Rs. 2000/- One Time and girl child age should \nbe greater than or equal to 3 years. \nचालू शैक्षणर्क वर्ण के दौरान कक्षा 1 में दाणिला लेने वाली बाललका को रू0 2000 एक मुश्त \nघन से लाभान्न्वत ककया जाएगा और बाललका की आयु 3 वर्ण से अधिक या उसके बराबर होनी \nचाहहए। \n \nSTAGE 4: \nThe girl child who has enrolled in Standard 6 during the current academic year \nwill be benefited with Rs. 2000/- One Time and girl child age should be greater \nthan or equal to 7 years. \nचालू शैक्षणर्क वर्ण के दौरान कक्षा 6 में दाणिला लेने वाली बाललका को रू0 2000 एक मुश्त \nघन से लाभान्न्वत ककया जाएगा और बाललका की आयु 7 वर्ण से अधिक या उसके बराबर होनी \nचाहहए। \n \nSTAGE 5: \nThe girl child who has enrolled in Standard 9 during the current academic year \nwill be benefited with Rs. 3000/- One Time and girl child age should be greater \nthan or equal to 10 years.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:22Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "चालू शैक्षणर्क वर्ण के दौरान कक्षा 9 में दाणिला लेने वाली बाललका को रू0 3000 एक मुश्त \nघन से लाभान्न्वत ककया जाएगा और बाललका की आयु 10 वर्ण से अधिक या उसके बराबर होनी \nचाहहए। \n \nSTAGE 6: \nThe girl who has passed standard 10/12 and has enrolled into a bachelor \ndegree/ at least 2 years of certified diploma course in the current academic \nyear will be benefited with Rs. 5000/- One Time and girl child age should \ngreater than or equal to 12 year. \nवह बाललका न्जसने 10/12 वीीं कक्षा उत्तीर्ण की है और वतणमान शैक्षणर्क वर्ण में स्नातक डिग्री / \nकम से कम 2 वर्ण के प्रमाणर्त डिप्लोमा कोसण में दाणिला ललया है, को रू0 5000 एक मुश्त \nघन से लाभान्न्वत ककया जाएगा और बाललका की आयु 12 वर्ण से अधिक या उसके बराबर होनी \nचाहहए|",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:22Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "Steps of operations on Portal \n(Mukhyamantri Kanya Sumangla Yojana) \nStep1. Applicants have to register him/her through the portal first. \nThe registration id is comprised of the following combination. \n WRYYDDnnnnnnn (13 digit) \n Women (W) , Applicant Type (U(Urban)/R(Rural)) , Year (YY) \n District Code (DD) , 7 digit Serial Number (nnnnnnn ) \nStep 2. Applicant must add beneficiary for availing different benefits. \nThe beneficiary id is comprised of the following combination. \n WRYYDDnnnnnnnn (14 digit) \n Women (W) , Applicant Type (U(Urban)/R(Rural)) , Year (YY) \n District Code (DD) , 8 digit Serial Number (nnnnnnnn) , \n No of beneficiary (1) \n Step 3. After adding beneficiary applicant must fill the application \ndepending on the criteria. The application no is comprised of the \nfollowing combination. \n YYDDSnnnnnnn (12 digit) \n Year (YY) ,District Code (DD) , Scheme Type (B/V/F/S/N/G), 7 \ndigit Serial Number (nnnnnnn)",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:22Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "text",
+          "text": "UNIQUENESS OF BENEFICIARY IN THE WEB PORTAL \n1. If applicant is Father/Mother, first priority for bank detail must be of \nmothers but if she is not then it father’s bank account will be \nconsidered. \n2. If mother and father both are not live and applicant is guardian \nthen bank detail of guardian should be necessary. \n3. If the girl child is adult then she herself can apply for the benefits \nand her bank detail should be necessary. \n \n* Documents during Applicant Registration: \n❖ Address Proof – Scan copy \n❖ Identity Proof \n❖ Voter id – Scan copy(optional) \n❖ Bank A/c No. and Passbook Scan Copy (Mother & Father or Guardian or \nSelf) \n❖ Death Certificate (in case of mother or father is not alive) \n* Documents during Online Application under Scheme: \n❖ Latest Girl Child Photo \n❖ Affidavit Certificate \n❖ Joint Family Photo \n \n* Document Required for Stage - 1 \n1. Latest photo of girl child. \n2. Joint photo of girl child with applicant. \n3. Affidavit on prescribed format. \n4. Birth Certificate.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:22Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "Validation Required for Stage - 1 \n 1. Girl child should be born on 01/04/2019 or after 01/04/2019. \n 2. Application must be apply within 6 month birth of the girl child . \n* Document Required for Stage - 2 \n1. Latest photo of girl child. \n2. Joint photo of girl child with applicant. \n3. Affidavit on prescribed format. \n4. Immunization Card. \nValidation Required for Stage - 2 \n 1. Girl child should be born on 01/04/2018 or after 01/04/2018. \n 2. Girl child age should be less than 2 year. \n* Document Required for Stage - 3 \n1. Latest photo of girl child. \n2. Joint photo of girl child with applicant. \n3. Affidavit on prescribed format. \n4. Admission certificate for class 1st. \n5. Scanned copy of aadhaar card(optional). \nValidation Required for Stage - 3 \n 1. Girl child age should be 3+ year . \n 2. Application must apply till 31st July of the same financial year as of \n admission or within 45 days of last date of admission whichever is later. \n* Document Required for Stage - 4 \n1. Latest photo of girl child. \n2. Joint photo of girl child with applicant. \n3. Affidavit on prescribed format. \n4. Admission certificate for class 6th. \n5. Scanned copy of aadhaar card(optional).",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:22Z",
+      "blocks": [
+        {
+          "page": 7,
+          "layout": "text",
+          "text": "Validation Required for Stage-4 \n 1. Girl child age should be 7+ year . \n 2. Application must apply till 31st July of the same year as of admission or \n within 45 days of last date of admission whichever is later. \n* Document Required for Stage - 5 \n1. Latest photo of girl child. \n2. Joint photo of girl child with applicant. \n3. Affidavit on prescribed format. \n4. Admission certificate for class 9th. \n5. Scanned copy of aadhaar card(optional). \nValidation Required for Stage - 5 \n 1. Girl child age should be 10+ year . \n 2. Application must apply till 30st September of the same year as of admission \n or within 45 days of last date of registration in board of the same year \n whichever is later. \n* Document Required for Stage - 6 \n1. Latest photo of girl child. \n2. Joint photo of girl child with applicant. \n3. Affidavit on prescribed format. \n4. 10th /12th Certificate/Mark sheet. \n5. ID of Institution. \n6. Admission fee receipt in Degree/Diploma course. \n7. Scanned copy of aadhaar card(optional). \nValidation Required for Stage-6 \n 1. Girl child age should be 12+ year. \n 2. Application must apply till 30st September of the same year as of admission \n or within 45 days of last date of admission whichever is later.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,480 @@
+{
+  "source_file": "grievance_portal_user_manual_V1.1.pdf",
+  "metadata": {
+    "total_pages": 11,
+    "total_blocks": 31,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.4444444444444444,
+    "processed_at": "2026-07-27T11:06:01Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:00Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "Department of Higher Education \n (HED) \n \nInternal Grievance Redress System \n(IGRS) \nUser Manual \n \n \n \n \n \n \n \n \n \nSubmitted by: \n \n \n \n \n \n \n \nSubmitted To: \nMAP_IT, Bhopal \n \n \n \n \n \n Dept. of Higher Education",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 457.20001220703125,
+            "y1": 71.90000915527344,
+            "x2": 534.7000122070312,
+            "y2": 139.45001220703125
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_1_image_0.png"
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 72.0,
+            "y1": 71.99998474121094,
+            "x2": 145.5500030517578,
+            "y2": 134.29998779296875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_1_image_1.png"
+        },
+        {
+          "page": 1,
+          "layout": "table",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 23.399999618530273,
+            "y1": 1.6559814453125,
+            "x2": 571.8500366210938,
+            "y2": 737.260009765625
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_1_table_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:00Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "DOCUMENT CONTROL \n \nDocument Publication History \n \nDate \nDescription of changes \nVersion \nAuthor \n09th Oct 2019 \nGrievance portal user manual \n1.0 \nVipen Goswami \n15 Oct 2019 \nUpdated the content and screens \n1.1 \nVipen Goswami \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nReviewers \n \nDate \nVersion \nReviewer \nRemarks \n15 Oct 2019 \n1.1 \nMr. Vinay Pandey \n \n \n \n \n \n \n \n \n \n \nDistribution \n \nDate \nVersion \nName \nLocation",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "table",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 66.63600330352783,
+            "y1": 152.93998209635416,
+            "x2": 541.8692169189453,
+            "y2": 281.6899871826172
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_2_table_0.png"
+        },
+        {
+          "page": 2,
+          "layout": "table",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 66.63600330352783,
+            "y1": 323.8192396897536,
+            "x2": 553.6587336613582,
+            "y2": 398.6379821777344
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_2_table_1.png"
+        },
+        {
+          "page": 2,
+          "layout": "table",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 66.63600330352783,
+            "y1": 441.91922701322113,
+            "x2": 553.6587336613582,
+            "y2": 516.7180419921875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_2_table_2.png"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:00Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "Table of Contents \nDepartment of Higher Education ........................................................................................................... 1 \n(HED) ........................................................................................................................................................... 1 \nAbbrevations and Definitions ................................................................................................................. 4 \n1 \nIntroduction ........................................................................................................................................... 5",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:00Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "Abbrevations and Definitions \nCOE \n \n: \nCentre of Excellence, a unit of MAP_IT responsible for development of solution \nDept \n \n: \nDepartment \nHED \n \n: \nHigher Education department \nGoMP \n: \nGovernment of Madhya Pradesh \nICT \n \n: \nInformation and Communication Technology. \nIT \n \n: \nInformation Technology. \nMAP_IT \n: \nMadhya Pradesh Agency for Promotion of Information and Technology. \nMPSEDC \n: \nMadhya Pradesh State Data Centre \nSI \n \n: \nSystem Integrator \nCMS \n \n: \nContent Management system \nIGRS : \nInternal Grievance Redress system",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:01Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "text",
+          "text": "1 Introduction \nThis document is a training document for user in Higher education department who intend to raise grievance \nthrough IGRS portal \nURL: http://www.highereducation.mp.gov.in/ \n \n विभाग की िेबसाइट \n1) \nऊपर दी गयी छवि विभाग की एप्लीकेशन का होम पेज है. \n2) एप्लीकेशन में लॉवगन करने के वलए वनचे ददए हुए ऑप्शन्स में कममचारी कानमर पर वललक करे \n3) कममचारी कानमर पे वललक करने पे आप लॉग इन पेज पर होंगे \n \n कर्मचारी के विए सविमस ऑप्शन",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 72.0,
+            "y1": 160.70001220703125,
+            "x2": 537.3499755859375,
+            "y2": 369.1000061035156
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_5_image_0.png"
+        },
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 72.0,
+            "y1": 472.10003662109375,
+            "x2": 537.7000122070312,
+            "y2": 659.4000244140625
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_5_image_1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:01Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "IGRS पोटमि िॉग इन पेज \n4) यदद आप सेिा में है तो सेिारत कममचारी के वलए ददए गए आप्शन के द्वारा लॉग इन करे \n5) अगर आप सेिावनिृत/ररटायर्म कममचारी है, तो पहले आप अपनी प्रोफाइल रवजस्टर करे और दफर लॉग इन करे \n6) लोग इन करने के वलए लॉग इन करे पे वललक करे",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 6,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 72.0,
+            "y1": 72.0,
+            "x2": 489.70001220703125,
+            "y2": 549.0
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_6_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:01Z",
+      "blocks": [
+        {
+          "page": 7,
+          "layout": "text",
+          "text": "7) लॉग इन करने के वलए “लॉग इन” पर वललक करे. वललक करने पर आप लोग इन पेज पर रर र्ायरेलट दकये जायेंगे. वनचे दी \nहुई स्रीन पे आप ”अपनी ईमेल आई र्ी और पासिर्म टाइप करे और दफर \"Sign-In\" पे वललक करे \n \n8) लोग इन करने के बाद आपको र्ैशबोर्म प्राप्त होगा \n9) र्ैशबोर्म पे आप अपनी प्रोफाइल की जानकारी और आपने द्वारा दकये गए अभ्यािेदन का वििरण भी देख सकेंगे \nईर्ेि आई डी \n पासिडम",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 7,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 72.0,
+            "y1": 111.10000610351562,
+            "x2": 534.0999755859375,
+            "y2": 440.1499938964844
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_7_image_0.png"
+        },
+        {
+          "page": 7,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 394.3999938964844,
+            "y1": 258.45001220703125,
+            "x2": 538.5499877929688,
+            "y2": 335.29998779296875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_7_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:01Z",
+      "blocks": [
+        {
+          "page": 8,
+          "layout": "text",
+          "text": "10) आंतररक वशकायत वनिारण सवमवत को नविन अभ्यािेदन प्रस्तुत करने के वलए \"आंतररक वशकायत वनिारण सवमवत हेतु \nअभ्यािेदन\" पर वललक करे \n11) उसके बाद ड्राप र्ाउन में आये हुए ऑप्शन \"निीन आिेदन\" पर वललक करे \n \n12) अभ्यािेदन के प्रकार का चयन करे \n13) अभ्यािेदन का विषय ५० से कम शब्दों में टाइप करे \n14) अभ्यािेदन का वििरण ५००० से कम शब्दों में टाइप करे. अभ्यािेदन का वििरण टाइप करने के बाद, सेि ड्राफ्ट पे वललक \nकरे \n15) नोट: आप दकसी अन्य स्थान से कॉपी करके टेलस्ट पेस्ट भी कर सकते है. ध्यान रहे की टाइपपंग पहंदी में यूवनकोर् में ही करे. \nअन्य फॉण्ट का उपयोग करने पर आपका अभ्यािेदन पंजीकृत नहीं होगा.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 8,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 72.0,
+            "y1": 71.89999389648438,
+            "x2": 538.0999755859375,
+            "y2": 298.54998779296875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_8_image_0.png"
+        },
+        {
+          "page": 8,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 72.0,
+            "y1": 367.0999755859375,
+            "x2": 531.3499755859375,
+            "y2": 589.7999877929688
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_8_image_1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:01Z",
+      "blocks": [
+        {
+          "page": 9,
+          "layout": "text",
+          "text": "16) ड्राफ्ट सेि करने के बाद अभ्यािेदन के समथमन में जो र्ॉलयूमेंट अपलोर् करना है िो अवभलेख अपलोर् करे \n17) अगर उपरोक्त अभ्यािेदन के संबंध में माननीय न्यायलय में प्रकरण विचारधीन है? तो हााँ पर वललक करे अन्यथा नहीं पर \nवललक करे \n \n1) अगर यावचका न्यायलय में दजम है तो उसका वििरण दे और उसके बाद जानकारी जोड़े बटन को वललक करे और सबवमट \nकरे \n \n2) एप्लीकेशन सबवर्ट करने पर आपको स्क्रीन पर सक्सेस र्ेसेज प्राप्त होगा",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 9,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 72.0,
+            "y1": 131.40000915527344,
+            "x2": 531.9500122070312,
+            "y2": 345.3500061035156
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_9_image_0.png"
+        },
+        {
+          "page": 9,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 72.0,
+            "y1": 394.6999816894531,
+            "x2": 532.7000122070312,
+            "y2": 616.0999755859375
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_9_image_1.png"
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:01Z",
+      "blocks": [
+        {
+          "page": 10,
+          "layout": "text",
+          "text": "3) सक्सेस र्ेसेज के “Ok” पर क्लिक करने पर आपको एप्लीकेशन नंबर प्राप्त होगा. \n \n4) एप्लीकेशन नंबर पे क्लिक करने पर आप अपने द्वारा दजम की गयी वशकायत की पंक्लि पर होंगे \n5) वकसी भी वशकायत पे “आिेदन देख” पे क्लिक कर के आप उस वशकायत पे जाकर उस आिेदन की प्रीवत वप्रंट कर \nसकते है \nआिेदन देखे",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 10,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 72.0,
+            "y1": 71.99998474121094,
+            "x2": 533.0499877929688,
+            "y2": 283.54998779296875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_10_image_0.png"
+        },
+        {
+          "page": 10,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 72.0,
+            "y1": 315.0,
+            "x2": 537.3499755859375,
+            "y2": 532.2999877929688
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_10_image_1.png"
+        },
+        {
+          "page": 10,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 511.0,
+            "y1": 371.8699951171875,
+            "x2": 621.1500244140625,
+            "y2": 427.6499938964844
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_10_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 11,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:06:01Z",
+      "blocks": [
+        {
+          "page": 11,
+          "layout": "text",
+          "text": "वप्रंट करे",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 11,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 72.0,
+            "y1": 71.90000915527344,
+            "x2": 537.0999755859375,
+            "y2": 288.6000061035156
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_11_image_0.png"
+        },
+        {
+          "page": 11,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 529.7999877929688,
+            "y1": 112.8499755859375,
+            "x2": 612.0499877929688,
+            "y2": 170.3499755859375
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\grievance_portal_user_manual_V1.1\\page_11_figure_0.png"
+        }
+      ]
+    }
+  ]
+}

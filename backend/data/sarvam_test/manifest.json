@@ -1,0 +1,21 @@
+[
+  {
+    "document_id": "111_Guidelines for unspecified packages",
+    "source_file": "C:\\Users\\hk639\\Downloads\\testing\\JanMitra---AI - Copy\\backend\\data\\raw\\111_Guidelines for unspecified packages.pdf",
+    "processor_used": "sarvam",
+    "recommended_processor": "pymupdf",
+    "confidence": 0.4444444444444444,
+    "status": "success",
+    "error": null,
+    "output_path": "data\\sarvam_test\\111_Guidelines for unspecified packages.json",
+    "analysis": {
+      "total_pages": 4,
+      "scanned_pages": 0,
+      "image_pages": 4,
+      "drawing_pages": 3,
+      "recommended_processor": "pymupdf",
+      "confidence": 0.4444444444444444
+    },
+    "processing_time_seconds": 24.079
+  }
+]

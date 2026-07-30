@@ -1,0 +1,159 @@
+{
+  "source_file": "113_Query rejection standardization.pdf",
+  "metadata": {
+    "total_pages": 2,
+    "total_blocks": 10,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.4444444444444444,
+    "processed_at": "2026-07-27T11:02:19Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:02:18Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "1 \nQuery and Rejection standardization for various roles in One TMS \n \n1. Query Standardization \nIn order to standardize appropriate reasons for queries being raised on cases by various users in One \nTMS the system should populate 2 dropdowns and textbox for entering remarks whenever action \ntype is selected as ‘Raise a query’ by PPD or CPD user. Both dropdowns and remarks should be \nmandatory. \n \nThe first dropdown will populate high level query reason – Refer standardized query/Reject \ntemplate excel for values to be populated at PPD and CPD level. \n \nBased on the selection made in the first dropdown, second dropdown will populate values \nmapped to what is selected in first dropdown – Refer standardized query/Reject template \nexcel for values mapped with high level query reason at PPD and CPD level. \n \nRemarks textbox – Once appropriate values are selected from 1st and 2nd dropdown, \nremarks textbox will be populated with text value selected in the 2nd dropdown. The text \nshould be editable so that PPD/CPD can edit the remarks as per the case. \n \nIf from the first dropdown ‘Others’ is selected, no selection to be made from 2nd dropdown \nhowever remarks textbox should appear with no text. \nExample: \nInvestigation reports \nProvide X-Ray / MRI /CT / USG/EEG brain Films/ECG graph/ ABG chart/ CAG diagram (as applicable) with patient \nname and date \nInvestigation reports of the patient supporting the diagnosis \nProvide Biopsy / HPE / FNAC / PET SCAN / any other diagnostic report confirming malignancy \n \nAbove data is taken from Standardized query/Reject template excel – As per the requirement, first \ndropdown should have ‘Investigation reports’ as one of the value. \nOnce investigation reports is selected in 1st dropdown, 2nd dropdown should populate 3 values: \n1. Provide X-Ray / MRI /CT / USG/EEG brain Films/ECG graph/ ABG chart/ CAG diagram (as \napplicable) with patient name and date \n2. Investigation reports of the patient supporting the diagnosis \n3. Provide Biopsy / HPE / FNAC / PET SCAN / any other diagnostic report confirming malignancy \nIf PPD/CPD selects ‘Investigation reports of the patient supporting the diagnosis’ from 2nd dropdown, \nthen remarks textbox will populate same text ‘Investigation reports of the patient supporting the \ndiagnosis’ which should be editable.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 31.5,
+            "y1": 35.99903106689453,
+            "x2": 155.85000610351562,
+            "y2": 100.780029296875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\113_Query rejection standardization\\page_1_image_0.png"
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 475.20001220703125,
+            "y1": 35.99998474121094,
+            "x2": 540.0,
+            "y2": 100.79998779296875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\113_Query rejection standardization\\page_1_image_1.png"
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 27.0,
+            "y1": 715.5,
+            "x2": 585.2999877929688,
+            "y2": 755.2969970703125
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\113_Query rejection standardization\\page_1_image_2.png"
+        },
+        {
+          "page": 1,
+          "layout": "table",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 49.967999649047854,
+            "y1": 430.1860046386719,
+            "x2": 562.0120178222656,
+            "y2": 507.6699981689453
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\113_Query rejection standardization\\page_1_table_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:02:19Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "2 \nPlease refer Standardized query/Reject template excel for values to be added for PPD and CPD role. \n \n2. Rejection standardization (preauth and claim) \nUpon selection action type as ‘Reject’ at from PPD/CPD user login for rejecting preauth/claim, a \nmandatory dropdown should appear populating defined rejection reason – Refer standardized \nquery/Reject template excel for claim rejected reasons and preauth rejected reasons. With each \nrejection reason there is an associated reason code, system should save rejection reason with the code \nin the database for rejected case. \nWhen ‘others’ option is selected from the dropdown, remark textbox should appear for user to enter \nthe remarks and should be mandatory.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 31.5,
+            "y1": 35.99903106689453,
+            "x2": 155.85000610351562,
+            "y2": 100.780029296875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\113_Query rejection standardization\\page_2_image_0.png"
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 475.20001220703125,
+            "y1": 35.99998474121094,
+            "x2": 540.0,
+            "y2": 100.79998779296875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\113_Query rejection standardization\\page_2_image_1.png"
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 27.0,
+            "y1": 715.5,
+            "x2": 585.2999877929688,
+            "y2": 755.2969970703125
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\113_Query rejection standardization\\page_2_image_2.png"
+        },
+        {
+          "page": 2,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 24.0,
+            "y1": 24.0,
+            "x2": 588.0999755859375,
+            "y2": 768.0960083007812
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\113_Query rejection standardization\\page_2_figure_0.png"
+        }
+      ]
+    }
+  ]
+}

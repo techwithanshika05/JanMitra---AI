@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Fraunces', ui-serif, Georgia, serif;
+  --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-indigo-900 font-body antialiased;
+}
+
+.dark body {
+  @apply bg-ink text-white;
+}
+
+/* Signature element: the "thread" motif -- a warm marigold path that runs
+   through the citizen journey timeline on the landing page and dashboard,
+   representing a single citizen's path through government services. */
+.thread-line {
+  stroke: theme('colors.marigold.DEFAULT');
+  stroke-width: 2;
+  fill: none;
+  stroke-dasharray: 6 6;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.dark .glass {
+  background: rgba(27, 42, 74, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.gradient-card {
+  background: linear-gradient(135deg, #1B2A4A 0%, #0F6A5D 100%);
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Visible keyboard focus ring, consistent everywhere */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 2px solid theme('colors.marigold.DEFAULT');
+  outline-offset: 2px;
+}

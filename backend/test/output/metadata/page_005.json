@@ -1,0 +1,164 @@
+{
+  "page_num": 5,
+  "image_width": 2480,
+  "image_height": 3507,
+  "created_at": "2026-07-24T07:16:16.732837+00:00",
+  "blocks": [
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_5_block_000",
+      "coordinates": {
+        "x1": 506.0,
+        "y1": 352.0,
+        "x2": 1977.0,
+        "y2": 407.0
+      },
+      "layout_tag": "image-caption",
+      "confidence": 0.8132719993591309,
+      "reading_order": 1,
+      "text": "MORE THAN 12 CRORE ELIGIBLE CITIZENS LEFT OUT OF NFSA IN 2022"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_5_block_001",
+      "coordinates": {
+        "x1": 235.0,
+        "y1": 425.0,
+        "x2": 2210.0,
+        "y2": 1082.0
+      },
+      "layout_tag": "chart",
+      "confidence": 0.8556489944458008,
+      "reading_order": 2,
+      "text": "| Year | Number of eligible citizens not covered (in crore) | Percentage of citizens covered (according to Census 2011) |\n| :--- | :---: | :---: |\n| 2016 | 6.7 | 98% |\n| 2017 | 7.0 | 99% |\n| 2018 | 9.2 | 98% |\n| 2019 | 9.9 | 98% |\n| 2020 | 11.1 | 98% |\n| 2021 | 12.0 | 98% |\n| 2022 | 12.3 | 98% |"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_5_block_002",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 1165.0,
+        "x2": 2254.0,
+        "y2": 1349.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.9297060966491699,
+      "reading_order": 3,
+      "text": "**Source:** (1) Number of persons/families covered under NFSA 2013 as on 30 November 2022 from Food Grain Bulletin, Department of Food and\nPublic Distribution. Available online at: https://dfpd.gov.in/food-grain-bulletin.htm. (2) Projected Population 2021 as per Ministry of Health and\nFamily Welfare (MoHFW). Available online at: https://nhm.gov.in/New_Updates_2018/Report_Population_Projection_2019.pdf. Last accessed on\n26 December 2022."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_5_block_003",
+      "coordinates": {
+        "x1": 229.0,
+        "y1": 1478.0,
+        "x2": 493.0,
+        "y2": 1534.0
+      },
+      "layout_tag": "section-title",
+      "confidence": 0.8488237857818604,
+      "reading_order": 4,
+      "text": "Distribution"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_5_block_004",
+      "coordinates": {
+        "x1": 226.0,
+        "y1": 1719.0,
+        "x2": 2252.0,
+        "y2": 1829.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9042184352874756,
+      "reading_order": 5,
+      "text": "For PMGKAY, out of the total 1,119 lakh tons of foodgrains that were allocated for a period of 28 months, 969 lakh tons or 87 per cent were distributed."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_5_block_005",
+      "coordinates": {
+        "x1": 224.0,
+        "y1": 1863.0,
+        "x2": 2256.0,
+        "y2": 2084.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9438656568527222,
+      "reading_order": 6,
+      "text": "■ There exist state-wise variations. West Bengal and Haryana, which distributed all the foodgrains lifted under\nPMGKAY, also distributed 93 per cent and 88 per cent of foodgrains allocated under PMGKAY, respectively.\nSikkim (86 per cent) and Tamil Nadu (86 per cent) were the only states with lower than 90 per cent distribution\nout of lifted foodgrains."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_5_block_006",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 1572.0,
+        "x2": 2253.0,
+        "y2": 1682.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9191425442695618,
+      "reading_order": 7,
+      "text": "Distribution of foodgrains to eligible citizens is done through a network of Fair Price Shops (FPS) that are licensed to distribute foodgrains and essential commodities to all ration card holders under the TPDS."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_5_block_007",
+      "coordinates": {
+        "x1": 524.0,
+        "y1": 2189.0,
+        "x2": 1953.0,
+        "y2": 2294.0
+      },
+      "layout_tag": "image-caption",
+      "confidence": 0.8642670512199402,
+      "reading_order": 8,
+      "text": "22 STATES AND UTs DISTRIBUTED OVER 95% OF THE TOTAL LIFTED\nFOODGRAINS UNDER PMGKAY-I TO VII TILL NOVEMBER 2022"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_5_block_008",
+      "coordinates": {
+        "x1": 245.0,
+        "y1": 2308.0,
+        "x2": 2224.0,
+        "y2": 2970.0
+      },
+      "layout_tag": "chart",
+      "confidence": 0.9132493138313293,
+      "reading_order": 9,
+      "text": "| State | Percentage of foodgrains distributed out of total allocations (Grey) | Percentage of foodgrains distributed out of total offtake (Red) |\n| :--- | :--- | :--- |\n| West Bengal | 93% | 100% |\n| Haryana | 88% | 100% |\n| Uttar Pradesh | 85% | 100% |\n| Maharashtra | 99% | 99% |\n| Gujarat | 82% | 100% |\n| Chhattisgarh | 89% | 98% |\n| Uttarakhand | 94% | 97% |\n| Assam | 89% | 96% |\n| Bihar | 87% | 95% |\n| Odisha | 88% | 94% |\n| Punjab | 87% | 94% |\n| Rajasthan | 86% | 94% |\n| Jharkhand | 82% | 93% |\n| Sikkim | ~82%* | 86% |\n| Tamil Nadu | 81% | 86% |\n\n*Note: The value for 'Sikkim' in the allocation column is estimated based on visual alignment with grid lines.*"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_5_block_009",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 3020.0,
+        "x2": 2248.0,
+        "y2": 3113.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.8897072076797485,
+      "reading_order": 10,
+      "text": "**Source:** State-wise allocation, lifting and distribution of foodgrains under PMGKAY from Lok Sabha, Unstarred Question no. 1294. Available\nonline at: https://pqals.nic.in/annex/1710/AU1294.pdf. Last accessed on 26 December 2022."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_5_block_010",
+      "coordinates": {
+        "x1": 233.0,
+        "y1": 3349.0,
+        "x2": 255.0,
+        "y2": 3384.0
+      },
+      "layout_tag": "page-number",
+      "confidence": 0.5673513412475586,
+      "reading_order": 11,
+      "text": "8"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_5_block_011",
+      "coordinates": {
+        "x1": 284.0,
+        "y1": 3347.0,
+        "x2": 1055.0,
+        "y2": 3387.0
+      },
+      "layout_tag": "footer",
+      "confidence": 0.7746887803077698,
+      "reading_order": 12,
+      "text": "ACCOUNTABILITY INITIATIVE, CENTRE FOR POLICY RESEARCH"
+    }
+  ]
+}

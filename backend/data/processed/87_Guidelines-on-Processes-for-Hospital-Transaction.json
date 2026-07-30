@@ -1,0 +1,197 @@
+{
+  "source_file": "87_Guidelines-on-Processes-for-Hospital-Transaction.pdf",
+  "metadata": {
+    "total_pages": 10,
+    "total_blocks": 11,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.0,
+    "processed_at": "2026-07-27T11:03:09Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-27T11:03:08Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \n \n \n \n \n \n \n \n \n \n \n \nPMRSSM GUIDELINES \nON PROCESSES FOR HOSPITAL \nTRANSACTION",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-27T11:03:08Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \n1. Guidelines on Processes for Hospital Transaction \n \nPMRSSM would be cashless & paperless at any of the empanelled hospitals. The \nbeneficiaries shall not be required to pay any charge for the hospitalization expenses. The \nbenefit also includes pre- and post-hospitalisation expenses. The scheme is an entitlement \nbased and entitlement of the beneficiary is decided on the basis of family being figured in \nSECC database. \nThe core principle for finalising the Balance Check and providing treatment at empanelled \nhospital guidelines for PMRSSM is to construct a broad framework as guiding posts for \nsimplifying the service delivery under the ambit of the policy and the technology. \n1.1. Decision on IT platform to be used for PMRSSM: \n \nResponsibility of – State Government \nIT platform for identification of beneficiaries and transactions at the Empanelled Health \nCare Provider (EHCP) will be provided by MoHFW/NHA. \nFor ease of convergence and on boarding, States which have their own IT systems under \ntheir own health insurance/ assurance scheme may be allowed to continue to use their own \nIT platform. However, these States will need to map their scheme ID with PMRSSM ID (AHL \nTIN) at the point of care and will need to share real time defined transaction data through \nAPI with the Central server with respect to PMRSSM beneficiaries. States will need to also \nensure that no family eligible as per SECC criteria of PMRSSM is denied services under the \nscheme and will need to provide undertaking that eligibility under their schemes covers \nPMRSSM targeted families as per SECC. \n1.2. Preparatory Activities for State/ UT’s: \n \nResponsibility of – State Government \nTimeline – within a period of 30 days, after approval of empanelment of health care \nprovider \n \nThe State will need to: \nA. Ensure the availability of requisite hardware, software and allied infrastructure \nrequired for beneficiary identification, PMRSSM e-card printing and transactions for \ndelivery of service at the EHCP. Beneficiary Identification and Transaction Software/ \nApplication/ platform will be provided free of cost by MoHFW/NHA. Specifications \nfor these will be provided by MoHFW/NHA. \nB. Ensure that a Medical Officer as Nodal Officer at EHCP for PMRSSM has been \nnominated.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-27T11:03:08Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \nC. Ensure appointment of Ayushman Mitra for the EHCP \nD. Ensure that a dedicated helpdesk for PMRSSM at a prominent place at the EHCP \nE. Availability of printed booklets, in abundant quantities at the helpdesk, which will be \ngiven to beneficiaries along with the PMRSSM e-cards, if beneficiary has not been \nissued the PMRSSM e-card earlier. \nF. State/ State Health Agency (SHA) shall identify and set-up team(s) which shall have \nthe capacities to handle hardware and basic software support, troubleshooting etc. \nG. Training of EHCP staff and Ayushman Mitras by the SHA/ Insurer. \nThe State shall ensure availability of above, in order to carry out all the activities laid down \nin this guideline. \n1.3. Process for Beneficiary identification, issuance of PMRSSM e-card and transaction \nfor service delivery \n \nResponsibility of – Ayushman Mitra or another authorised person at EHCP \nTimeline – Ongoing \nA. Beneficiary Verification & Authentication \ni) Member may bring the following to the PMRSSM helpdesk: \n- Letter from MoHFW/NHA \n- RSBY Card \n- Any other defined document as prescribed by the State Government \nii) Ayushman Mitra/Operator will check if PMRSSM e-Card/ PMRSSM ID/ \nAadhaar Number is available with the beneficiary \niii) In case Internet connectivity is available at hospital \n- \nOperator/Ayushman Mitra identifies the beneficiary’s eligibility and \nverification status from PMRSSM Central Server \n- \nIf beneficiary is eligible and verified under PMRSSM, server will show the \ndetails of the members of the family with photo of each verified member \n- \nIf found OK then beneficiary can be registered for getting the cashless \ntreatment. \n- \nIf patient is eligible but not verified then patient will be asked to produce \nAadhaar Card/Number/ Ration Card for verification (in absence of \nAadhaar) \n- \nBeneficiary mobile number will be captured. \n- \nIf Aadhaar Card/Number is available and authenticated online then \npatient will be verified under scheme and will be issued a PMRSSM e-Card \nfor getting the cashless treatment. \n- \nBeneficiary gender and year of birth will be captured with Aadhaar eKYC \nor Ration Card \n- \nIf Aadhaar Card/Number is not available then beneficiary will advised to \nget the Aadhaar Card/number within stipulated time.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-27T11:03:09Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \niv) In case Internet connectivity is not available at hospital \n- \nPMRSSM Registration Desk at Hospital will call Central Helpline and using \nIVRS enters PMRSSM ID or Aadhaar number of the patient. IVRS will speak \nout the details of all beneficiaries in the family and hospital will choose the \nbeneficiary who has come for treatment. It will also inform the verification \nstatus of the beneficiary \n- \nIf eligible and verified then beneficiary will be registered for getting \ntreatment by sending an OTP on the mobile number of the beneficiary \n- \nIn case beneficiary is eligible but not verified then she/he can be verified \nusing Aadhaar OTP authentication and can get registered for getting \ncashless treatment \nv) In case of emergency or in case person does not show PMRSSM e-Card/ID or \nAadhaar Card/Number and claims to be PMRSSM beneficiary and show some \nphoto ID proof issued by Government, then beneficiary may get the \ntreatment after getting TPIN (Telephonic Patient Identification Number) from \nthe call centre and same will be recorded. Government Photo ID proof need \nnot be insisted in case of emergency. In all such cases, relevant PMRSSM \nbeneficiary proof will be supplied within specified time before discharge \notherwise beneficiary will pay for the treatment to the Hospital. \nvi) If eligibility, verification and authentication are successful, beneficiary should \nbe allowed for treatment \n \nThese details captured will be available at SHA/ Insurance Company/ Trust level for their \napproval. Once approved, the beneficiary will be considered as successfully identified and \nverified under PMRSSM. \n1.4. Package Selection \n \nA. The operator will check for the specialty for which the hospital is empanelled. \nHospitals will only be allowed to view and apply treatment package for the specialty \nfor which they are empanelled. \nB. Based on diagnosis sheet provided by doctor, operator should be able to block \nSurgical or Non-Surgical benefit package(s) using PMRSSM IT system. \nC. Both surgical and non-surgical packages cannot be blocked together, either of the \ntype can only be blocked. \nD. As per the package list, the mandatory diagnostics/documents will need to be \nuploaded along with blocking of packages. \nE. The operator can block more than one package for the beneficiary. A logic will be \nbuilt in for multiple package selection, such that reduced payment is made in case of \nmultiple packages being blocked in the same hospitalization event.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-27T11:03:09Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "text",
+          "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \nF. Certain packages as mentioned will only be reserved for Public EHCPs as decided by \nthe SHA. They can be availed in Private EHCPs only after a referral from a Public \nEHCP is made. \nG. Packages as indicated may have differential pricing for NABH and Non-NABH, for \nHospitals running PG/ DNB Course, for rural and urban EHCPs and for EHCPs in \naspirational districts as identified by NITI Aayog. \nH. If a registered mobile number of beneficiary family is available, an SMS alert will be \nsent to the beneficiary notifying him of the packages blocked for him. \nI. At the same time, a printable registration slip needs to be generated and handed \nover to the patient or patient’s attendant. \nJ. If for any reason treatment is not availed for any package, the operator can unblock \nthe package before discharge from hospital. \n1.5. Pre-authorisation \n \nA. There would be defined packages which will require pre-authorization from the \ninsurance company/ trust. In case any inpatient treatment is not available in the \npackages defined, then hospital will be able to provide that treatment upto Rs. \n50,000 to the beneficiary only after the same gets approved by the Insurance \ncompany/ trust and will be reflected as unspecified package. Under both scenarios, \nthe operator should be able to initiate a request to the insurance company/trust for \npre-authorization using the web application. \nB. The hospital operator will send all documents required for pre-authorization to the \ninsurance company/trust using the Centralized PMRSSM/ States transaction \nmanagement application. \nC. The documents exchanged will not be stored on the PMRSSM server permanently. \nOnly the information about pre-authorization request and response received will be \nstored on the central server. It is the responsibility of the insurance company/ Trust \nto maintain the documents at their end. \nD. The documents needed may vary from package to package and hence a master list \nof all documents required for all packages will be available on the server. \nE. The request as well as approval of the form will be done using the PMRSSM IT \nsystem or using API exposed by PMRSSM (Only one option can be adopted by the \ninsurance Co.), or using State’s own IT system (if adopted by the State). \nF. In case of no or limited connectivity, the filled form can also be sent to the insurance \ncompany/ trust either through fax/ email. However, once internet connectivity is \nestablished, the form should also be submitted using online system as described \nabove. \nG. The insurance company/ trust will have to approve or reject the request latest by 6 \nhours. If the insurance company/ trust fails to do so, the request will be considered \ndeemed to be approved after 6 hours by default.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-27T11:03:09Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \nH. In case of an emergency or delay in getting the response for pre-authorization \nrequest due to technical issues, provision will be there to get the pre-authorization \ncode over the phone from Insurance Company/ Trust or the call centre setup by \nInsurance Company/ Trust. The documents required for the processing, may be sent \nusing the transaction system within stipulated time. \nI. In case of emergency, insurance company/ trust will provide the pre-authorization \ncode generated through the algorithm/ utility provided by MoHFW/NHA-NIC. \nJ. Pre-authorization code provided by the Insurer/ Trust will be entered by the \noperator and will be verified by the system. \nK. If pre-authorization request is rejected, Insurance Company/ Trust will provide the \nreasons for rejection. Rejection details will be captured and stored in the transaction \ndatabase. \nL. If the beneficiary or the hospital are not satisfied by the rejection reason, they can \nappeal through grievance system. \n1.6. Balance Check, Treatment, Discharge and Claim Request \n \nA. Based on selection of package(s), the operator will check from the Central PMRSSM \nServer if sufficient balance is available with the beneficiary to avail services. \nB. States using their own IT system for hospital transaction will be able to check and \nupdate balance from Central PMRSSM server using API \nC. If balance amount under available covers is not enough for treatment, then \nremaining amount (treatment cost - available balance), will be paid by beneficiary \n(OOP expense will also be captured and stored) \nD. The hospital will only know if there is sufficient balance to provide the selected \ntreatment in a yes or no response. The exact amount will not be visible to the \nhospital. \nE. SMS will be sent to the beneficiary registered mobile about the transaction and \navailable balance \nF. List of diagnostic reports recommended for the blocked package will be made \navailable and upload of all such reports will be mandatory before discharge of \nbeneficiary. \nG. Transaction System would have provision of implementation of Standard Treatment \nGuidelines for providing the treatment \nH. After the treatment, details will be saved and beneficiary will be discharged with a \nsummary sheet. \nI. Treatment cost will be deducted from available amount and will be updated on the \nCentral PMRSSM Server. \nJ. The operator fills the online discharge summary form and the patient will be \ndischarged. In case of mortality, a flag will be raised against the deceased member \ndeclaring him as dead or inactive.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-27T11:03:09Z",
+      "blocks": [
+        {
+          "page": 7,
+          "layout": "text",
+          "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \nK. At the same time, a printable receipt needs to be generated and handed over to the \npatient or patient’s attendant. \nL. After discharge, beneficiary gets a confirmation and feedback call from the PMRSSM \ncall centre; response from beneficiary will be stored in the database \nM. Data (Transaction details) should be updated to Central Server and accessible to \nInsurance Company/ Trust for Claim settlement. Claim will be presumed to be raised \nonce the discharge information is available on the Central server and is accessible to \nthe Trust/ Insurance Company \nN. SMS will be sent to beneficiary registered mobile about the transaction and available \nbalance \nO. After every discharge, claims would be deemed to be raised to the insurance \ncompany/ Trust. An automated email alert will be sent to the insurance \ncompany/trust specifying patient name, PMRSSM ID, registration number & date \nand discharge date. Details like Registration ID, PMRSSM ID, date and amount of \nclaim raised will be accessible to the insurance company/trust on PMRSSM System/ \nState IT system. Also details like Registration-ID, PMRSSM-ID, Date and amount of \nclaim raised, date and amount of claim disbursement, reasons for different in claims \nraised and claims settled (if any), reasons for rejection of claims (if any) will be \nretrieved from the insurance company/trust through APIs. \nP. Once the claim is processed and the hospital gets the payment, the abovementioned information along with payment transaction ID will be updated on \ncentral PMRSSM system by the insurance company/trust for each claim separately. \nQ. Hospital Transaction Management Module would be able to generate a basic MIS \nreport of beneficiary admitted, treated and claim settled and in process and any \nother report needed by Hospitals on a regular basis \nR. Upon discharge, beneficiary will receive a feedback call from the Call centre where \nhe can share his feedback about his/her hospitalisation experience. \n1.7. Monitoring of Transaction Process at EHCP \n \nResponsibility of – SHA and Insurance Company/ Trust \nTimeline – Continuous \n \nSHA and Insurance Company/ Trust will need to have very close monitoring of the process in \norder to ascertain challenges, if any, being faced and resolution of the same. Some \nexamples of the parameters on which monitoring may be based are as follows: \nA. Number of EHCP and Ayushman Mitras \nB. Time taken for verification and issuance of e-card of each member \nC. Time taken for approval of verification of beneficiaries \nD. Percentage of families with at least one member having issued e-card out of total \neligible families in SECC",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-27T11:03:09Z",
+      "blocks": [
+        {
+          "page": 8,
+          "layout": "text",
+          "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \nE. Number of admissions per family \nF. Grievances received against Ayushman Mitras or EHCP \nG. Proportion of Emergency pre-authorisation requests \nH. Percent of conviction of detected fraud. \nI. Share of pre-authorisation and claims audited \nJ. Claim repudiation/ denial/ disallowance ratio \nK. PMRSSM Beneficiary satisfaction",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "width": 841,
+      "height": 595,
+      "created_at": "2026-07-27T11:03:09Z",
+      "blocks": [
+        {
+          "page": 9,
+          "layout": "text",
+          "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \n1.8. Transaction Process Flow",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 9,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 130.69000244140625,
+            "y1": 218.76199340820312,
+            "x2": 732.8900146484375,
+            "y2": 500.74200439453125
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\87_Guidelines-on-Processes-for-Hospital-Transaction\\page_9_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-27T11:03:09Z",
+      "blocks": [
+        {
+          "page": 10,
+          "layout": "text",
+          "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM)",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        }
+      ]
+    }
+  ]
+}

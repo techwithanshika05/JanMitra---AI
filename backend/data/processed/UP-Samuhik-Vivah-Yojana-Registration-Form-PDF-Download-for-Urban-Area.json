@@ -1,0 +1,123 @@
+{
+  "source_file": "UP-Samuhik-Vivah-Yojana-Registration-Form-PDF-Download-for-Urban-Area.pdf",
+  "metadata": {
+    "total_pages": 5,
+    "total_blocks": 5,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.7777777777777778,
+    "processed_at": "2026-07-27T11:08:47Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 593,
+      "height": 802,
+      "created_at": "2026-07-27T11:08:47Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 593.1428833007812,
+            "y2": 802.2857055664062
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\UP-Samuhik-Vivah-Yojana-Registration-Form-PDF-Download-for-Urban-Area\\page_1_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 593,
+      "height": 809,
+      "created_at": "2026-07-27T11:08:47Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 593.0414428710938,
+            "y2": 809.4674682617188
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\UP-Samuhik-Vivah-Yojana-Registration-Form-PDF-Download-for-Urban-Area\\page_2_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 592,
+      "height": 803,
+      "created_at": "2026-07-27T11:08:47Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 592.8421020507812,
+            "y2": 803.368408203125
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\UP-Samuhik-Vivah-Yojana-Registration-Form-PDF-Download-for-Urban-Area\\page_3_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 594,
+      "height": 805,
+      "created_at": "2026-07-27T11:08:47Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 594.4185791015625,
+            "y2": 805.3953247070312
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\UP-Samuhik-Vivah-Yojana-Registration-Form-PDF-Download-for-Urban-Area\\page_4_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 592,
+      "height": 808,
+      "created_at": "2026-07-27T11:08:47Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 592.8421020507812,
+            "y2": 808.4210815429688
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\UP-Samuhik-Vivah-Yojana-Registration-Form-PDF-Download-for-Urban-Area\\page_5_image_0.png"
+        }
+      ]
+    }
+  ]
+}

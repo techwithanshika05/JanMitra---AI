@@ -1,0 +1,701 @@
+{
+  "source_file": "SocialWelfarePocketBooklet_opt.pdf",
+  "metadata": {
+    "total_pages": 64,
+    "total_blocks": 16,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 1.0,
+    "processed_at": "2026-07-27T11:08:41Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:23Z",
+      "blocks": []
+    },
+    {
+      "page_number": 2,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:23Z",
+      "blocks": []
+    },
+    {
+      "page_number": 3,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:24Z",
+      "blocks": []
+    },
+    {
+      "page_number": 4,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:24Z",
+      "blocks": []
+    },
+    {
+      "page_number": 5,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:24Z",
+      "blocks": []
+    },
+    {
+      "page_number": 6,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:24Z",
+      "blocks": []
+    },
+    {
+      "page_number": 7,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:25Z",
+      "blocks": []
+    },
+    {
+      "page_number": 8,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:25Z",
+      "blocks": []
+    },
+    {
+      "page_number": 9,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:25Z",
+      "blocks": []
+    },
+    {
+      "page_number": 10,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:26Z",
+      "blocks": []
+    },
+    {
+      "page_number": 11,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:26Z",
+      "blocks": []
+    },
+    {
+      "page_number": 12,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:26Z",
+      "blocks": []
+    },
+    {
+      "page_number": 13,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:27Z",
+      "blocks": []
+    },
+    {
+      "page_number": 14,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:27Z",
+      "blocks": []
+    },
+    {
+      "page_number": 15,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:27Z",
+      "blocks": []
+    },
+    {
+      "page_number": 16,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:29Z",
+      "blocks": [
+        {
+          "page": 16,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 15.638999938964844,
+            "y1": 15.63885498046875,
+            "x2": 344.3609924316406,
+            "y2": 277.0815124511719
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_16_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 17,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:30Z",
+      "blocks": []
+    },
+    {
+      "page_number": 18,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:31Z",
+      "blocks": []
+    },
+    {
+      "page_number": 19,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:33Z",
+      "blocks": []
+    },
+    {
+      "page_number": 20,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:33Z",
+      "blocks": []
+    },
+    {
+      "page_number": 21,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:33Z",
+      "blocks": []
+    },
+    {
+      "page_number": 22,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:34Z",
+      "blocks": [
+        {
+          "page": 22,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 36.47710037231445,
+            "y1": 29.464385986328125,
+            "x2": 323.5296936035156,
+            "y2": 277.0815124511719
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_22_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 23,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:35Z",
+      "blocks": [
+        {
+          "page": 23,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 36.50400161743164,
+            "y1": 30.92340087890625,
+            "x2": 323.47760009765625,
+            "y2": 182.7427978515625
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_23_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 24,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:36Z",
+      "blocks": [
+        {
+          "page": 24,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 45.959800720214844,
+            "y1": 32.79119873046875,
+            "x2": 314.0401916503906,
+            "y2": 277.0815124511719
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_24_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 25,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:39Z",
+      "blocks": [
+        {
+          "page": 25,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 37.61800003051758,
+            "y1": 29.92730712890625,
+            "x2": 322.41400146484375,
+            "y2": 277.0815124511719
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_25_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 26,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:40Z",
+      "blocks": [
+        {
+          "page": 26,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 37.644901275634766,
+            "y1": 25.023101806640625,
+            "x2": 322.39019775390625,
+            "y2": 277.0815124511719
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_26_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 27,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:41Z",
+      "blocks": []
+    },
+    {
+      "page_number": 28,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:42Z",
+      "blocks": [
+        {
+          "page": 28,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 16.72100067138672,
+            "y1": 16.72100830078125,
+            "x2": 343.74810791015625,
+            "y2": 277.0815124511719
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_28_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 29,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:44Z",
+      "blocks": []
+    },
+    {
+      "page_number": 30,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:45Z",
+      "blocks": [
+        {
+          "page": 30,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 24.08489990234375,
+            "y1": 12.31060791015625,
+            "x2": 335.91510009765625,
+            "y2": 277.0815124511719
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_30_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 31,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:46Z",
+      "blocks": []
+    },
+    {
+      "page_number": 32,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:48Z",
+      "blocks": []
+    },
+    {
+      "page_number": 33,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:48Z",
+      "blocks": []
+    },
+    {
+      "page_number": 34,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:50Z",
+      "blocks": [
+        {
+          "page": 34,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 16.72100067138672,
+            "y1": 16.72100830078125,
+            "x2": 343.27899169921875,
+            "y2": 277.0815124511719
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_34_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 35,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:50Z",
+      "blocks": [
+        {
+          "page": 35,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 24.441699981689453,
+            "y1": 14.756011962890625,
+            "x2": 343.04229736328125,
+            "y2": 177.79150390625
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_35_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 36,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:51Z",
+      "blocks": []
+    },
+    {
+      "page_number": 37,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:51Z",
+      "blocks": []
+    },
+    {
+      "page_number": 38,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:52Z",
+      "blocks": []
+    },
+    {
+      "page_number": 39,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:52Z",
+      "blocks": []
+    },
+    {
+      "page_number": 40,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:53Z",
+      "blocks": [
+        {
+          "page": 40,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.69969940185547,
+            "y1": 22.177398681640625,
+            "x2": 339.30029296875,
+            "y2": 277.0815124511719
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_40_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 41,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:54Z",
+      "blocks": []
+    },
+    {
+      "page_number": 42,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:56Z",
+      "blocks": []
+    },
+    {
+      "page_number": 43,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:57Z",
+      "blocks": []
+    },
+    {
+      "page_number": 44,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:58Z",
+      "blocks": [
+        {
+          "page": 44,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 28.38759994506836,
+            "y1": 21.25189208984375,
+            "x2": 335.3617858886719,
+            "y2": 182.322998046875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_44_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 45,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:07:59Z",
+      "blocks": []
+    },
+    {
+      "page_number": 46,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:00Z",
+      "blocks": [
+        {
+          "page": 46,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 36.2234001159668,
+            "y1": 31.278900146484375,
+            "x2": 312.39068603515625,
+            "y2": 185.07199096679688
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_46_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 47,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:01Z",
+      "blocks": [
+        {
+          "page": 47,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 36.25339889526367,
+            "y1": 28.114288330078125,
+            "x2": 323.74688720703125,
+            "y2": 277.0815124511719
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_47_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 48,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:01Z",
+      "blocks": []
+    },
+    {
+      "page_number": 49,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:02Z",
+      "blocks": [
+        {
+          "page": 49,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 15.35949993133545,
+            "y1": 15.3594970703125,
+            "x2": 344.6405029296875,
+            "y2": 277.0815124511719
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_49_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 50,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:04Z",
+      "blocks": []
+    },
+    {
+      "page_number": 51,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:05Z",
+      "blocks": []
+    },
+    {
+      "page_number": 52,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:07Z",
+      "blocks": []
+    },
+    {
+      "page_number": 53,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:08Z",
+      "blocks": []
+    },
+    {
+      "page_number": 54,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:09Z",
+      "blocks": []
+    },
+    {
+      "page_number": 55,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:12Z",
+      "blocks": []
+    },
+    {
+      "page_number": 56,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:12Z",
+      "blocks": []
+    },
+    {
+      "page_number": 57,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:38Z",
+      "blocks": []
+    },
+    {
+      "page_number": 58,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:39Z",
+      "blocks": []
+    },
+    {
+      "page_number": 59,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:40Z",
+      "blocks": []
+    },
+    {
+      "page_number": 60,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:40Z",
+      "blocks": [
+        {
+          "page": 60,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.624900817871094,
+            "y1": 14.401397705078125,
+            "x2": 339.3750915527344,
+            "y2": 277.0815124511719
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\SocialWelfarePocketBooklet_opt\\page_60_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 61,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:40Z",
+      "blocks": []
+    },
+    {
+      "page_number": 62,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:41Z",
+      "blocks": []
+    },
+    {
+      "page_number": 63,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:41Z",
+      "blocks": []
+    },
+    {
+      "page_number": 64,
+      "width": 360,
+      "height": 288,
+      "created_at": "2026-07-27T11:08:41Z",
+      "blocks": []
+    }
+  ]
+}

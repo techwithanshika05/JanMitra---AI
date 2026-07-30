@@ -1,0 +1,358 @@
+{
+  "documents": {
+    "111_Guidelines for unspecified packages.pdf": {
+      "sha256": "451fcaa270dd75a3f3903d357250185465f55c53f3d1bd00809c659e8bcdc50b",
+      "status": "success",
+      "chunks": 4,
+      "file_name": "111_Guidelines for unspecified packages.pdf"
+    },
+    "112_TMS Change Release Notes 11-11-2019.pdf": {
+      "sha256": "4e46e031d72a758b1288bb3d047ad4b21667b11fe08a1b14d56a28f0e7764c06",
+      "status": "success",
+      "chunks": 12,
+      "file_name": "112_TMS Change Release Notes 11-11-2019.pdf"
+    },
+    "113_Query rejection standardization.pdf": {
+      "sha256": "fd096a6f7e37c7f22cf5b49ffed5306b6c20c96442da21059ba126470c2a7855",
+      "status": "success",
+      "chunks": 2,
+      "file_name": "113_Query rejection standardization.pdf"
+    },
+    "201320 (1).pdf": {
+      "sha256": "6b3e87b6dc0c626bb96585dae81c0ed8f35cf0ec69f16dfdbe64b4339f4ae4a6",
+      "status": "success",
+      "chunks": 23,
+      "file_name": "201320 (1).pdf"
+    },
+    "201320.pdf": {
+      "sha256": "6b3e87b6dc0c626bb96585dae81c0ed8f35cf0ec69f16dfdbe64b4339f4ae4a6",
+      "status": "success",
+      "chunks": 23,
+      "file_name": "201320.pdf"
+    },
+    "20241104206259252.pdf": {
+      "sha256": "e3621ee6c016d1f9bcda81710d568ca146d5bb8d0daa95b18743a86b23b5b08a",
+      "status": "success",
+      "chunks": 2,
+      "file_name": "20241104206259252.pdf"
+    },
+    "202504082100174404.pdf": {
+      "sha256": "0bdf1b82671275fb91f9b08e192f76f97c45a9f17fb1bdedc476935b2666eea2",
+      "status": "success",
+      "chunks": 166,
+      "file_name": "202504082100174404.pdf"
+    },
+    "79_Guidelines-Anti-Fraud-Guidelines.pdf": {
+      "sha256": "f0ad097fcb775960feca272928d99b1ed931e8f549376faaab4d502f511a9e24",
+      "status": "success",
+      "chunks": 30,
+      "file_name": "79_Guidelines-Anti-Fraud-Guidelines.pdf"
+    },
+    "80_Guidelines-for-Ayushman-Mitra.pdf": {
+      "sha256": "06e2c6ffaeb608b2d7855c7f14f99e0740861efdd7188ed694521984d932661f",
+      "status": "success",
+      "chunks": 7,
+      "file_name": "80_Guidelines-for-Ayushman-Mitra.pdf"
+    },
+    "82_Guidelines-for-Grievance-Redressal.pdf": {
+      "sha256": "c53f6b9b5eb941fc4152738402872012598c7791cf287ff744421a896db875a3",
+      "status": "success",
+      "chunks": 19,
+      "file_name": "82_Guidelines-for-Grievance-Redressal.pdf"
+    },
+    "83978455025732b99b0165def80ab171.pdf": {
+      "sha256": "bbc851624beb6011c550fa6b8c6b6f29f0c5add6be6b8f5be5e9bc2f3b0288ec",
+      "status": "success",
+      "chunks": 38,
+      "file_name": "83978455025732b99b0165def80ab171.pdf"
+    },
+    "83_Guidelines-for-Portability-of-Services.pdf": {
+      "sha256": "7ed0a5cbf95af78572bca92b2838cc7205063754c84cdb24842a11fc3fa9e3ce",
+      "status": "success",
+      "chunks": 2,
+      "file_name": "83_Guidelines-for-Portability-of-Services.pdf"
+    },
+    "84_Guidelines-on-Claim-Settlement.pdf": {
+      "sha256": "6b5c940d51f7cd709bfd20fd62f550d641daa94943839aead1c5ef6034081490",
+      "status": "success",
+      "chunks": 4,
+      "file_name": "84_Guidelines-on-Claim-Settlement.pdf"
+    },
+    "85_Guidelines-on-Process-of-Beneficiary-Identification.pdf": {
+      "sha256": "5ce0137307176a67e883d063bfe14ab62cd18f081c1aec6ddbb2b323dedd9b62",
+      "status": "success",
+      "chunks": 16,
+      "file_name": "85_Guidelines-on-Process-of-Beneficiary-Identification.pdf"
+    },
+    "86_Guidelines-on-Processes-for-Empanelment-of-Hospitals.pdf": {
+      "sha256": "b1bebf57ded2bac706a5a714caf6c3ff14b730fe989b5a36a8bde861a4619759",
+      "status": "success",
+      "chunks": 22,
+      "file_name": "86_Guidelines-on-Processes-for-Empanelment-of-Hospitals.pdf"
+    },
+    "87_Guidelines-on-Processes-for-Hospital-Transaction.pdf": {
+      "sha256": "f74f79f1d7d3564e7cdba5cd2cab68185d99032aae0d980393b5503fc5a5585e",
+      "status": "success",
+      "chunks": 10,
+      "file_name": "87_Guidelines-on-Processes-for-Hospital-Transaction.pdf"
+    },
+    "88_Guidelines-on-Release-of-Premium-and-Escrow account.pdf": {
+      "sha256": "6276439ce424270fac79740d99c218527f513a9f6b6f5388ea856058fb8cbfff",
+      "status": "success",
+      "chunks": 10,
+      "file_name": "88_Guidelines-on-Release-of-Premium-and-Escrow account.pdf"
+    },
+    "89_Guideline-role-of-iec.pdf": {
+      "sha256": "54972058424f74a31f294b62e584df2e70821b7445f90088f32592b0d4b9efc5",
+      "status": "success",
+      "chunks": 1,
+      "file_name": "89_Guideline-role-of-iec.pdf"
+    },
+    "adb-brief-270-one-nation-one-ration-card.pdf": {
+      "sha256": "1b51bdd459263414396312a83f8d5c4e0979774be9df63b2f455bfb12ddd2cdd",
+      "status": "success",
+      "chunks": 14,
+      "file_name": "adb-brief-270-one-nation-one-ration-card.pdf"
+    },
+    "Addendum 2 to Guidelines on Process of Beneficiary Identification - Revised 28072020.pdf": {
+      "sha256": "d7423cdf87014aab28e80d3cd2c923c17be59ad88988bf957f7247e661d85b72",
+      "status": "success",
+      "chunks": 4,
+      "file_name": "Addendum 2 to Guidelines on Process of Beneficiary Identification - Revised 28072020.pdf"
+    },
+    "ae0a20105201932342.pdf": {
+      "sha256": "bbf890d6ea996ba2a5f8a02940e6a0fa705d09c1481868e1d682a0b6afc1caad",
+      "status": "success",
+      "chunks": 21,
+      "file_name": "ae0a20105201932342.pdf"
+    },
+    "all-indian-government-schemes-list-2025-207 (1).pdf": {
+      "sha256": "e4f7683bac6e79e923ac9441191f073cdbb67c41fcf84d5b401b02ce51520648",
+      "status": "success",
+      "chunks": 21,
+      "file_name": "all-indian-government-schemes-list-2025-207 (1).pdf"
+    },
+    "all-indian-government-schemes-list-2025-207.pdf": {
+      "sha256": "e4f7683bac6e79e923ac9441191f073cdbb67c41fcf84d5b401b02ce51520648",
+      "status": "success",
+      "chunks": 21,
+      "file_name": "all-indian-government-schemes-list-2025-207.pdf"
+    },
+    "Cast_Certificate.pdf": {
+      "sha256": "2be2287faadbc544b02c67f8eba33a64a2013f43d90249bd62024f17432733b3",
+      "status": "success",
+      "chunks": 2,
+      "file_name": "Cast_Certificate.pdf"
+    },
+    "catalog.pdf": {
+      "sha256": "ad122d35a22fe95220b68af244b13c2aae6e2a87ab8d80f8b77b583e91264152",
+      "status": "success",
+      "chunks": 103,
+      "file_name": "catalog.pdf"
+    },
+    "central-government-schemes-list.pdf": {
+      "sha256": "43fa2e2b209d9f796afb36d51a1cc11b0df9e764e3c1884e1c020813765576b5",
+      "status": "success",
+      "chunks": 247,
+      "file_name": "central-government-schemes-list.pdf"
+    },
+    "CMHELPLINE2018.pdf": {
+      "sha256": "bdda25a77bb68ccdc177b4f4bfbac5aad62f5b012026ab5e5af9bee7abb46291",
+      "status": "success",
+      "chunks": 6,
+      "file_name": "CMHELPLINE2018.pdf"
+    },
+    "ConsumerAffairs.pdf": {
+      "sha256": "5e904dd4b0ed4f5554be44e712a3191bd5b560f3b4990b029ece152e724b83c4",
+      "status": "success",
+      "chunks": 39,
+      "file_name": "ConsumerAffairs.pdf"
+    },
+    "ctizencharter.pdf": {
+      "sha256": "3b58ded3666d8312024c1cda5067ba5b574aefaf23e403588da838de83a99a56",
+      "status": "success",
+      "chunks": 8,
+      "file_name": "ctizencharter.pdf"
+    },
+    "doc202283198301.pdf": {
+      "sha256": "9d6c42c504ddee55ab7edbd59325313362ce17cb0bdf7401dbf55bd73e92f670",
+      "status": "success",
+      "chunks": 6,
+      "file_name": "doc202283198301.pdf"
+    },
+    "doc2024728356501.pdf": {
+      "sha256": "8fd69c1ef18140cb949031b1f1a1e4237fcf46d4d84e4404bdb437c704c5a748",
+      "status": "success",
+      "chunks": 5,
+      "file_name": "doc2024728356501.pdf"
+    },
+    "Domicile_Certificate.pdf": {
+      "sha256": "a05fce67cc6aef7f9b9d5c6f9b8747e8a6f1b0def543e3dad7a399b12952dcb3",
+      "status": "success",
+      "chunks": 2,
+      "file_name": "Domicile_Certificate.pdf"
+    },
+    "eDistrictUP.in-Income-Certificate-checklists.pdf": {
+      "sha256": "2b698ca709fc1b5c03c39d1da3b628b629b1602474f3a6c462f3ba3ba2069707",
+      "status": "success",
+      "chunks": 2,
+      "file_name": "eDistrictUP.in-Income-Certificate-checklists.pdf"
+    },
+    "Food-Subsidy-and-the-National-Food-Security-Act-2023-24.pdf": {
+      "sha256": "e7a0e7131d01f197b846a1581c84e584f82d4bac44b24c97d839bf3f0491d4ae",
+      "status": "success",
+      "chunks": 12,
+      "file_name": "Food-Subsidy-and-the-National-Food-Security-Act-2023-24.pdf"
+    },
+    "format_incomeApp (1).pdf": {
+      "sha256": "f37dc8a0367fb823842b118a65708d332845b2aae5fe1496f03401766d1cef8c",
+      "status": "success",
+      "chunks": 2,
+      "file_name": "format_incomeApp (1).pdf"
+    },
+    "format_incomeApp.pdf": {
+      "sha256": "f37dc8a0367fb823842b118a65708d332845b2aae5fe1496f03401766d1cef8c",
+      "status": "success",
+      "chunks": 2,
+      "file_name": "format_incomeApp.pdf"
+    },
+    "grievance_portal_user_manual_V1.1.pdf": {
+      "sha256": "5a56ba794edf4cc2853957dfbc15fb1194d7e78657e8bdfdbfece6139e3e6231",
+      "status": "success",
+      "chunks": 11,
+      "file_name": "grievance_portal_user_manual_V1.1.pdf"
+    },
+    "Guidelines-of-Uttar-Pradesh-Old-Age-Pension-Scheme.pdf": {
+      "sha256": "e64ab8a413208393474d93df4d1e24ea4f6802252808d9df26a628b2cee25333",
+      "status": "success",
+      "chunks": 1,
+      "file_name": "Guidelines-of-Uttar-Pradesh-Old-Age-Pension-Scheme.pdf"
+    },
+    "India Handbook  of Labour- Final- English.pdf": {
+      "sha256": "c132bdde51b00948516bbda329b7d2ced95f36d582f2e853c901341cbadf71f8",
+      "status": "success",
+      "chunks": 77,
+      "file_name": "India Handbook  of Labour- Final- English.pdf"
+    },
+    "List-of-Services-offered-through-CSCs (1).pdf": {
+      "sha256": "ed2d905fc355b05f39c3d3bc4aee102b2d3446f5568d7d1b64ec3a82fa989ce1",
+      "status": "success",
+      "chunks": 2,
+      "file_name": "List-of-Services-offered-through-CSCs (1).pdf"
+    },
+    "List-of-Services-offered-through-CSCs.pdf": {
+      "sha256": "ed2d905fc355b05f39c3d3bc4aee102b2d3446f5568d7d1b64ec3a82fa989ce1",
+      "status": "success",
+      "chunks": 2,
+      "file_name": "List-of-Services-offered-through-CSCs.pdf"
+    },
+    "Mukhymantri kanya sumangla yojna guidelines.pdf": {
+      "sha256": "be95c94cd99e798148f078a367a5966fa110af9ad7b48dd53284228fbba346a3",
+      "status": "success",
+      "chunks": 7,
+      "file_name": "Mukhymantri kanya sumangla yojna guidelines.pdf"
+    },
+    "New_Ration_Card (1).pdf": {
+      "sha256": "08bbc485cb18ed826560cdf1816e05e40b27f468ac5e2842d3fd243e948bc039",
+      "status": "success",
+      "chunks": 2,
+      "file_name": "New_Ration_Card (1).pdf"
+    },
+    "New_Ration_Card.pdf": {
+      "sha256": "08bbc485cb18ed826560cdf1816e05e40b27f468ac5e2842d3fd243e948bc039",
+      "status": "success",
+      "chunks": 2,
+      "file_name": "New_Ration_Card.pdf"
+    },
+    "New_Ration_Card_Application.pdf": {
+      "sha256": "3be07ee868fe8366df35f7622b6850fa2f43b54f2867677a5300b9f038a6e719",
+      "status": "success",
+      "chunks": 1,
+      "file_name": "New_Ration_Card_Application.pdf"
+    },
+    "nfsa_1.pdf": {
+      "sha256": "4f7f27f452ceda2a1951e4bde77177717971487453e45906b1ffc2bb75579c34",
+      "status": "success",
+      "chunks": 36,
+      "file_name": "nfsa_1.pdf"
+    },
+    "Old-Age-Pension-Go-2011.pdf": {
+      "sha256": "d9cef2f1b3d2c097110e5071a38717fc5c7d7b9a60dd0d2a4ca573397beb7696",
+      "status": "success",
+      "chunks": 2,
+      "file_name": "Old-Age-Pension-Go-2011.pdf"
+    },
+    "one_nation (1).pdf": {
+      "sha256": "991a83fb6c38453de70b562e9470bf2f7d91f0fb53b5ea5493fd72e25432c877",
+      "status": "success",
+      "chunks": 24,
+      "file_name": "one_nation (1).pdf"
+    },
+    "one_nation.pdf": {
+      "sha256": "991a83fb6c38453de70b562e9470bf2f7d91f0fb53b5ea5493fd72e25432c877",
+      "status": "success",
+      "chunks": 24,
+      "file_name": "one_nation.pdf"
+    },
+    "ration_card_niyam.pdf": {
+      "sha256": "5e08fbc8ea2ca819004e696b506d6408d9579f806118f32adf12f4c0abefdfb8",
+      "status": "success",
+      "chunks": 1,
+      "file_name": "ration_card_niyam.pdf"
+    },
+    "setuai_checklist.pdf": {
+      "sha256": "9d84a0ecc586b597cc8d2b796637d6b22743c832be5a2dd76ab2f8f7e0b39460",
+      "status": "success",
+      "chunks": 1,
+      "file_name": "setuai_checklist.pdf"
+    },
+    "showfile.pdf": {
+      "sha256": "903e1c5161b796f9b721c12a65d07d37f705ccf83c2549157f6d393e99f1cfe4",
+      "status": "success",
+      "chunks": 20,
+      "file_name": "showfile.pdf"
+    },
+    "Unconfirmed 438077.crdownload.pdf": {
+      "sha256": "c290388fe64be5bac77098b6a1ce66ad0ce93f624bdeff6493e9754549eb8dbb",
+      "status": "success",
+      "chunks": 35,
+      "file_name": "Unconfirmed 438077.crdownload.pdf"
+    },
+    "UP Mukhyamantri Bal Seva Yojana (General) Application Form.pdf": {
+      "sha256": "a5d96f423dfbb795ded613b678954c99c5ad9184e09e41d750fc2548a9a594e3",
+      "status": "success",
+      "chunks": 4,
+      "file_name": "UP Mukhyamantri Bal Seva Yojana (General) Application Form.pdf"
+    },
+    "UP-Scholarship-documents-required.pdf": {
+      "sha256": "a67730c0e554a0b1570f22d4fe3e4b751f9370534d4f5bad28aad76d25dec8fd",
+      "status": "success",
+      "chunks": 1,
+      "file_name": "UP-Scholarship-documents-required.pdf"
+    },
+    "UP__CENTRAL_SCHOLARSHIP_Policies_Guidelines.pdf": {
+      "sha256": "d82a9176154f33d27f940b803ec018538750489297578022da444d81f9607558",
+      "status": "success",
+      "chunks": 4,
+      "file_name": "UP__CENTRAL_SCHOLARSHIP_Policies_Guidelines.pdf"
+    },
+    "UPScholarship2025-2026.pdf": {
+      "sha256": "c3e16449bfe18e06fac301a53e4cda87daac8f4b593055462bdeac5981a797a7",
+      "status": "success",
+      "chunks": 1,
+      "file_name": "UPScholarship2025-2026.pdf"
+    },
+    "User-manual-Income-Certificate.pdf": {
+      "sha256": "ea113ae8df1e4bc97867986263fddd5fd8bacd51bf52611c0ce40bcf116e51bb",
+      "status": "success",
+      "chunks": 6,
+      "file_name": "User-manual-Income-Certificate.pdf"
+    },
+    "ViewGOPDF_list_user.pdf": {
+      "sha256": "9e25a672b2067c16e67e3420fb23dcb40aab424f655914929050fd6b49c0301a",
+      "status": "success",
+      "chunks": 12,
+      "file_name": "ViewGOPDF_list_user.pdf"
+    }
+  }
+}

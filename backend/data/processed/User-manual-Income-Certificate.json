@@ -1,0 +1,367 @@
+{
+  "source_file": "User-manual-Income-Certificate.pdf",
+  "metadata": {
+    "total_pages": 6,
+    "total_blocks": 24,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.4444444444444444,
+    "processed_at": "2026-07-27T11:08:50Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:08:48Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "User Manual for Income Certificate \n \n1. Login with username and password. An OTP will be sent to your registered mobile number. \n \n \n2. After successful login, if Aadhaar not update , Update Aadhaar",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 63.75,
+            "y1": 118.08999633789062,
+            "x2": 565.9500122070312,
+            "y2": 352.0899963378906
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_1_image_0.png"
+        },
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 63.0,
+            "y1": 395.13995361328125,
+            "x2": 567.0,
+            "y2": 579.3399658203125
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_1_image_1.png"
+        },
+        {
+          "page": 1,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 24.0,
+            "y1": 24.0,
+            "x2": 588.1199951171875,
+            "y2": 768.1199951171875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_1_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:08:49Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "text",
+          "text": "3. If Aadhaar not update, Update Aadhaar details. \n \n \n \n \n4. Once Aadhaar updated, Update Income certificate to fill application form. Click on “”",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 66.0,
+            "y1": 107.08999633789062,
+            "x2": 564.0,
+            "y2": 347.69000244140625
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_2_image_0.png"
+        },
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 63.75,
+            "y1": 408.6899719238281,
+            "x2": 565.9500122070312,
+            "y2": 589.2899780273438
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_2_image_1.png"
+        },
+        {
+          "page": 2,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 24.0,
+            "y1": 24.0,
+            "x2": 588.1199951171875,
+            "y2": 768.1199951171875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_2_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:08:49Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "text",
+          "text": "5. Now click on Please verify and update Your Income Certificate to go to Income certificate page. \n \n \n \n6. Enter Income certificate application number and Certificate id of father or mother and click on Verify \nCertificate Button to validate income certificate. \n \n \n \n7. Verifying certificate to validate income certificate.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 64.5,
+            "y1": 107.08999633789062,
+            "x2": 566.0999755859375,
+            "y2": 293.69000244140625
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_3_image_0.png"
+        },
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 66.75,
+            "y1": 354.69000244140625,
+            "x2": 563.5499877929688,
+            "y2": 553.8900146484375
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_3_image_1.png"
+        },
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 63.0,
+            "y1": 601.133056640625,
+            "x2": 566.4000244140625,
+            "y2": 735.5330810546875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_3_image_2.png"
+        },
+        {
+          "page": 3,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 4,
+          "coordinates": {
+            "x1": 24.0,
+            "y1": 24.0,
+            "x2": 588.1199951171875,
+            "y2": 768.1199951171875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_3_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:08:49Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "text",
+          "text": "8. If details not matched with Father or Mother than show error like this. \n \n \n \n \n9. If certificate verified, certificate verified message appears.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 4,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 66.0,
+            "y1": 107.09001159667969,
+            "x2": 564.0,
+            "y2": 318.2900085449219
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_4_image_0.png"
+        },
+        {
+          "page": 4,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 63.0,
+            "y1": 380.19000244140625,
+            "x2": 567.0,
+            "y2": 632.1900024414062
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_4_image_1.png"
+        },
+        {
+          "page": 4,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 24.0,
+            "y1": 24.0,
+            "x2": 588.1199951171875,
+            "y2": 768.1199951171875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_4_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:08:49Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "text",
+          "text": "10. When details verified, verified details shows. \n \n \n \n11. Click on Confirm Submission button to update income certificate details.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 66.0,
+            "y1": 107.08999633789062,
+            "x2": 564.0,
+            "y2": 356.0899963378906
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_5_image_0.png"
+        },
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 64.5,
+            "y1": 417.69000244140625,
+            "x2": 566.0999755859375,
+            "y2": 661.8900146484375
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_5_image_1.png"
+        },
+        {
+          "page": 5,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 3,
+          "coordinates": {
+            "x1": 24.0,
+            "y1": 24.0,
+            "x2": 588.1199951171875,
+            "y2": 768.1199951171875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_5_figure_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 612,
+      "height": 792,
+      "created_at": "2026-07-27T11:08:50Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "text",
+          "text": "12. After updated income certificate details, success message appears. \n \n \n \n**************************************************************************************",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 6,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 63.75,
+            "y1": 105.59001159667969,
+            "x2": 565.9500122070312,
+            "y2": 293.3900146484375
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_6_image_0.png"
+        },
+        {
+          "page": 6,
+          "layout": "figure",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 2,
+          "coordinates": {
+            "x1": 24.0,
+            "y1": 24.0,
+            "x2": 588.1199951171875,
+            "y2": 768.1199951171875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\User-manual-Income-Certificate\\page_6_figure_0.png"
+        }
+      ]
+    }
+  ]
+}

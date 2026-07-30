@@ -1,0 +1,50 @@
+{
+  "document_id": "113_Query rejection standardization",
+  "source_file": "113_Query rejection standardization.pdf",
+  "source_path": "data\\raw\\113_Query rejection standardization.pdf",
+  "file_size_bytes": 638193,
+  "total_pages": 2,
+  "extraction_summary": {
+    "successful_pages": 2,
+    "empty_pages": 0,
+    "failed_pages": 0,
+    "pages_requiring_ocr": 0
+  },
+  "pdf_metadata": {
+    "format": "PDF 1.5",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "",
+    "producer": "",
+    "creationDate": "D:20191012004922+05'30'",
+    "modDate": "D:20191012004922+05'30'",
+    "trapped": "",
+    "encryption": ""
+  },
+  "extraction_info": {
+    "extractor": "PyMuPDF",
+    "extracted_at": "2026-07-22T07:59:30.349204+00:00"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "1 \nQuery and Rejection standardization for various roles in One TMS \n \n1. Query Standardization \nIn order to standardize appropriate reasons for queries being raised on cases by various users in One \nTMS the system should populate 2 dropdowns and textbox for entering remarks whenever action \ntype is selected as ‘Raise a query’ by PPD or CPD user. Both dropdowns and remarks should be \nmandatory. \n \nThe first dropdown will populate high level query reason – Refer standardized query/Reject \ntemplate excel for values to be populated at PPD and CPD level. \n \nBased on the selection made in the first dropdown, second dropdown will populate values \nmapped to what is selected in first dropdown – Refer standardized query/Reject template \nexcel for values mapped with high level query reason at PPD and CPD level. \n \nRemarks textbox – Once appropriate values are selected from 1st and 2nd dropdown, \nremarks textbox will be populated with text value selected in the 2nd dropdown. The text \nshould be editable so that PPD/CPD can edit the remarks as per the case. \n \nIf from the first dropdown ‘Others’ is selected, no selection to be made from 2nd dropdown \nhowever remarks textbox should appear with no text. \nExample: \nInvestigation reports  \nProvide X-Ray / MRI /CT / USG/EEG brain Films/ECG graph/ ABG chart/ CAG diagram (as applicable) with patient \nname and date \nInvestigation reports of the patient supporting the diagnosis \nProvide Biopsy / HPE / FNAC / PET SCAN / any other diagnostic report confirming malignancy \n \nAbove data is taken from Standardized query/Reject template excel – As per the requirement, first \ndropdown should have ‘Investigation reports’ as one of the value.  \nOnce investigation reports is selected in 1st dropdown, 2nd dropdown should populate 3 values: \n1. Provide X-Ray / MRI /CT / USG/EEG brain Films/ECG graph/ ABG chart/ CAG diagram (as \napplicable) with patient name and date \n2. Investigation reports of the patient supporting the diagnosis \n3. Provide Biopsy / HPE / FNAC / PET SCAN / any other diagnostic report confirming malignancy \nIf PPD/CPD selects ‘Investigation reports of the patient supporting the diagnosis’ from 2nd dropdown, \nthen remarks textbox will populate same text ‘Investigation reports of the patient supporting the \ndiagnosis’ which should be editable.",
+      "character_count": 2320,
+      "word_count": 368,
+      "has_text": true,
+      "needs_ocr": false,
+      "extraction_error": null
+    },
+    {
+      "page_number": 2,
+      "text": "2 \nPlease refer Standardized query/Reject template excel for values to be added for PPD and CPD role. \n \n2. Rejection standardization (preauth and claim) \nUpon selection action type as ‘Reject’ at from PPD/CPD user login for rejecting preauth/claim, a \nmandatory dropdown should appear populating defined rejection reason – Refer standardized \nquery/Reject template excel for claim rejected reasons and preauth rejected reasons. With each \nrejection reason there is an associated reason code, system should save rejection reason with the code \nin the database for rejected case.  \nWhen ‘others’ option is selected from the dropdown, remark textbox should appear for user to enter \nthe remarks and should be mandatory.",
+      "character_count": 717,
+      "word_count": 106,
+      "has_text": true,
+      "needs_ocr": false,
+      "extraction_error": null
+    }
+  ]
+}

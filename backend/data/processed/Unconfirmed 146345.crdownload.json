@@ -1,0 +1,79 @@
+{
+  "source_file": "Unconfirmed 146345.crdownload.pdf",
+  "metadata": {
+    "total_pages": 3,
+    "total_blocks": 3,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.7777777777777778,
+    "processed_at": "2026-07-27T11:08:42Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:41Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 24.0,
+            "y1": 45.69000244140625,
+            "x2": 571.0,
+            "y2": 796.3099975585938
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Unconfirmed 146345.crdownload\\page_1_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:41Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 24.0,
+            "y1": 42.989990234375,
+            "x2": 571.0,
+            "y2": 799.010009765625
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Unconfirmed 146345.crdownload\\page_2_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:42Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 24.0,
+            "y1": 49.6099853515625,
+            "x2": 571.0,
+            "y2": 792.3800048828125
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Unconfirmed 146345.crdownload\\page_3_image_0.png"
+        }
+      ]
+    }
+  ]
+}

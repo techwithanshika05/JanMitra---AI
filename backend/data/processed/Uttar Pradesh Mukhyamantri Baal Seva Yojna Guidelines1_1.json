@@ -1,0 +1,299 @@
+{
+  "source_file": "Uttar Pradesh Mukhyamantri Baal Seva Yojna Guidelines1_1.pdf",
+  "metadata": {
+    "total_pages": 13,
+    "total_blocks": 13,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.7777777777777778,
+    "processed_at": "2026-07-27T11:08:50Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:50Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.0,
+            "y1": 27.8082275390625,
+            "x2": 575.0,
+            "y2": 814.1912231445312
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Uttar Pradesh Mukhyamantri Baal Seva Yojna Guidelines1_1\\page_1_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:50Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.0,
+            "y1": 27.25,
+            "x2": 575.0,
+            "y2": 814.75
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Uttar Pradesh Mukhyamantri Baal Seva Yojna Guidelines1_1\\page_2_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:50Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.0,
+            "y1": 34.14459228515625,
+            "x2": 575.0,
+            "y2": 807.8555908203125
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Uttar Pradesh Mukhyamantri Baal Seva Yojna Guidelines1_1\\page_3_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:50Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.0,
+            "y1": 35.378173828125,
+            "x2": 575.0,
+            "y2": 806.6221923828125
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Uttar Pradesh Mukhyamantri Baal Seva Yojna Guidelines1_1\\page_4_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:50Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.0,
+            "y1": 46.18511962890625,
+            "x2": 575.0,
+            "y2": 795.8151245117188
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Uttar Pradesh Mukhyamantri Baal Seva Yojna Guidelines1_1\\page_5_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:50Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.0,
+            "y1": 41.67559814453125,
+            "x2": 575.0,
+            "y2": 800.3245849609375
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Uttar Pradesh Mukhyamantri Baal Seva Yojna Guidelines1_1\\page_6_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:50Z",
+      "blocks": [
+        {
+          "page": 7,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.0,
+            "y1": 44.0469970703125,
+            "x2": 575.0,
+            "y2": 797.9530029296875
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Uttar Pradesh Mukhyamantri Baal Seva Yojna Guidelines1_1\\page_7_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:50Z",
+      "blocks": [
+        {
+          "page": 8,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.0,
+            "y1": 51.0,
+            "x2": 575.0,
+            "y2": 791.0
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Uttar Pradesh Mukhyamantri Baal Seva Yojna Guidelines1_1\\page_8_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:50Z",
+      "blocks": [
+        {
+          "page": 9,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.0,
+            "y1": 43.343994140625,
+            "x2": 575.0,
+            "y2": 798.656005859375
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Uttar Pradesh Mukhyamantri Baal Seva Yojna Guidelines1_1\\page_9_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:50Z",
+      "blocks": [
+        {
+          "page": 10,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.0,
+            "y1": 30.3714599609375,
+            "x2": 575.0,
+            "y2": 811.6284790039062
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Uttar Pradesh Mukhyamantri Baal Seva Yojna Guidelines1_1\\page_10_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 11,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:50Z",
+      "blocks": [
+        {
+          "page": 11,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.0,
+            "y1": 46.54718017578125,
+            "x2": 575.0,
+            "y2": 795.4531860351562
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Uttar Pradesh Mukhyamantri Baal Seva Yojna Guidelines1_1\\page_11_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:50Z",
+      "blocks": [
+        {
+          "page": 12,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.0,
+            "y1": 40.34136962890625,
+            "x2": 575.0,
+            "y2": 801.6583862304688
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Uttar Pradesh Mukhyamantri Baal Seva Yojna Guidelines1_1\\page_12_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "width": 595,
+      "height": 842,
+      "created_at": "2026-07-27T11:08:50Z",
+      "blocks": [
+        {
+          "page": 13,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 20.0,
+            "y1": 43.60003662109375,
+            "x2": 575.0,
+            "y2": 798.4000244140625
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\Uttar Pradesh Mukhyamantri Baal Seva Yojna Guidelines1_1\\page_13_image_0.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "source_file": "RC_Form_rural.pdf",
+  "metadata": {
+    "total_pages": 2,
+    "total_blocks": 2,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.7777777777777778,
+    "processed_at": "2026-07-27T11:06:53Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612,
+      "height": 842,
+      "created_at": "2026-07-27T11:06:52Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 6.103515625e-05,
+            "x2": 612.47998046875,
+            "y2": 842.4000244140625
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\RC_Form_rural\\page_1_image_0.png"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612,
+      "height": 842,
+      "created_at": "2026-07-27T11:06:53Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 6.103515625e-05,
+            "x2": 612.47998046875,
+            "y2": 842.4000244140625
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\RC_Form_rural\\page_2_image_0.png"
+        }
+      ]
+    }
+  ]
+}

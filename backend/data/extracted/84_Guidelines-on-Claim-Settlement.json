@@ -1,0 +1,68 @@
+{
+  "document_id": "84_Guidelines-on-Claim-Settlement",
+  "source_file": "84_Guidelines-on-Claim-Settlement.pdf",
+  "source_path": "data\\raw\\84_Guidelines-on-Claim-Settlement.pdf",
+  "file_size_bytes": 519726,
+  "total_pages": 4,
+  "extraction_summary": {
+    "successful_pages": 4,
+    "empty_pages": 0,
+    "failed_pages": 0,
+    "pages_requiring_ocr": 0
+  },
+  "pdf_metadata": {
+    "format": "PDF 1.5",
+    "title": "",
+    "author": "Lenovo",
+    "subject": "",
+    "keywords": "",
+    "creator": "Microsoft® Word 2010",
+    "producer": "Microsoft® Word 2010",
+    "creationDate": "D:20180509175726+05'30'",
+    "modDate": "D:20180509175726+05'30'",
+    "trapped": "",
+    "encryption": ""
+  },
+  "extraction_info": {
+    "extractor": "PyMuPDF",
+    "extracted_at": "2026-07-22T07:59:30.586738+00:00"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \n \n \n \n \n \n \n \n \n \n \n \n \nPMRSSM GUIDELINES  \nON  \nCLAIM SETTLEMENT",
+      "character_count": 141,
+      "word_count": 14,
+      "has_text": true,
+      "needs_ocr": false,
+      "extraction_error": null
+    },
+    {
+      "page_number": 2,
+      "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \n1. Guidelines on Claim Settlement  \n \nAll Empanelled Health Care Providers (EHCP) will make use of IT system of PMRSSM to \nmanage the claims related transactions. IT system of PMRSSM has been developed for \nonline transactions and all stakeholders are advised to maintain online transactions \npreferably to ensure the claim reporting in real time. However, keeping in mind the \nconnectivity constraints faced by some districts an offline arrangement has also been \nincluded in the IT system that has to be used only when absolute. The PMRSSM strives to \nmake the entire claim management paperless that is at any stage of claim registration, \nintimation, payment, investigation by EHCP or by the Trust/Insurer the need of submission \nof a physical paper shall not be required. This mean that this claim data will be sent \nelectronically through IT system to the Central/ State server. The NHA, SHA, Insurer (if \napplicable), and EHCP shall be able to access this data with respect to their respective \ntransaction data only.  \nOnce a claim has been raised (has hit the Central/State server), the following will need to be \nadhered to by the Trust/Insurance Companies regarding claim settlement: \n1.1. \nClaim Payments and Turn-around Time \nThe Trust/Insurer shall follow the following process regarding the processing of \nclaims received from the EHCP:  \nA. The Trust/Insurer or the agency (IRDAI compliant only) appointed by it shall decide \non the acceptance or rejection of any claim received from an EHCP. Any rejection \nnotice issued by the Trust/Insurer or the agency to EHCP shall clearly state that \nrejection is subject to the EHCP’s right to appeal against rejection of the claim. \n \nB. If a claim is not rejected, the Trust/Insurer shall either make the payment (based on \nthe applicable package rate) or shall conduct further investigation into the claim \nreceived from EHCP.  \n \nC. The process specified in clause a and b above (rejection or payment/investigation) \nin relation to claim shall be carried out in such a manner that it is completed (Turn-\naround Time, TAT) shall be no longer than 15 calendar days (irrespective of the \nnumber of working days). For claims outside the State, a time of 30 calendar days \nwill be provided.  \n \nD. The EHCP is expected to upload all claim related documents within 24 hours of \ndischarge of the beneficiary. \n \nE. The counting of days for TAT shall start from the date on which all the claim \ndocuments are accessible by the Trust/Insurer or its agency.",
+      "character_count": 2583,
+      "word_count": 414,
+      "has_text": true,
+      "needs_ocr": false,
+      "extraction_error": null
+    },
+    {
+      "page_number": 3,
+      "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \n \nF. The Trust/Insurer shall make claim payments to each EHCP against payable claims \non a weekly basis through electronic transfer to such EHCP’s designated bank \naccount. Insurer is then also required to provide the details of such payments against \neach paid claim on the online portal (IT System of PMRSSM).  \n \nG. All claims investigations shall be undertaken by a qualified and experienced \nmedical staff/team, with at least one MBBS degree holder, appointed by the \nTrust/Insurer or its representative, to ascertain the nature of the disease, illness \nor accident and to verify the eligibility thereof for availing the benefits under \nthis Agreement and relevant Cover Policy. The Trust/Insurer’s medical staff shall \nnot impart any advice on any treatment or medical procedures or provide any \nguidance related to cure or other care aspects. However, the Trust/Insurance \nCompany can ensure that the treatment was in conformity to the Standard \nTreatment Guidelines, if implemented. \n \nH. The Trust/Insurer will need to update the details on online portal (IT system of \nPMRSSM) of: \n \ni) All claims that are under investigation on a fortnightly basis for review; and \nii) Every claim that is pending beyond 15 days, along with its reasons for delay in \nprocessing such Claim. \niii) The Trust/Insurer may collect at its own cost, complete Claim papers (including \ndiagnostic reports) from the EHCP, if required for audit purposes for claims \nunder investigation. This shall not have any bearing on the Claim Payments to \nthe Empanelled Health Care Provider. \n \n1.2. \nPenalty on Delay in Settlement of Claims \nThere will be a penalty for delay in settlement of claims by the Trust/Insurance Companies \nbeyond the turnaround time of 15 days. A penalty of 1 % of claimed amount per week for \ndelay beyond 15 days to be paid directly to the hospitals by the Trust/Insurance Companies. \nIn case of Inter-State claims with respect to portability of benefits, penalty of 1 % of claimed \namount per week for delay beyond 30 days to be paid directly to the hospitals by the \nTrust/Insurance Companies. \n1.3. \nUpdate of Claim Settlement \nThe Trust/Insurance Company will need to update the claim settlement data on the portal \non a daily basis and this data will need to be updated within 24 hours of claims payment. \nAny claim payment which has not been updated shall be deemed to have been unpaid and \nthe interest, as applicable, shall be charged thereon.",
+      "character_count": 2532,
+      "word_count": 405,
+      "has_text": true,
+      "needs_ocr": false,
+      "extraction_error": null
+    },
+    {
+      "page_number": 4,
+      "text": "Guidelines for Pradhan Mantri Rashtriya Swasthya Suraksha Mission (PMRSSM) \n1.4. \nRight of Appeal and Reopening of Claims \nA. The Empanelled Health Care Provider shall have a right of appeal against a \nrejection of a Claim by the Trust/Insurer, if the Empaneled Health Care Provider \nfeels that the Claim is payable. An appeal may be made within thirty (30) days of \nthe said rejection being intimated to the hospital to the District-level Grievance \nCommittee (DGC). \n \nB. The Trust/Insurer and/or the DGC can re-open the Claim, if the Empaneled Health \nCare Provider submits the proper and relevant Claim documents that are required \nby the Trust/Insurer. \n \nC. The DGC may suo moto review any claim and direct either or both the \nTrust/Insurer and the health care provider to produce any records or make any \ndeposition as it deems fit. \n \nD. The Trust/Insurer or the health care provider may refer an appeal with the State-\nlevel Grievance Committee (SGC) on the decision of the DGC within thirty days \n(30) failing which the decision shall be final and binding. The decision of the SGC \non such appeal is final and binding. \n \nE. The decisions of the DGC and SGC shall be a speaking order stating the reasons for \nthe decision \n \nF. If the DGC (if there is no appeal) or SGC directs the Trust/Insurer to pay a claim \namount, the Trust/Insurer shall pay the amount within 15 days. Any failure to pay \nthe amount shall attract an interest on the delayed payment @ 1% for every week \nor part thereof. If the Trust/Insurer does not pay the amount within 2 months they \nshall pay a fine of Rs. 25,000/- for each decision of DGC not carried out and Rs. \n50,000 for each non-compliance of decision of SGC. This amount shall be remitted \nto the State Health Agency.",
+      "character_count": 1762,
+      "word_count": 302,
+      "has_text": true,
+      "needs_ocr": false,
+      "extraction_error": null
+    }
+  ]
+}

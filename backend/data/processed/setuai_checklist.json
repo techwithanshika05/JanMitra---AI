@@ -1,0 +1,44 @@
+{
+  "source_file": "setuai_checklist.pdf",
+  "metadata": {
+    "total_pages": 1,
+    "total_blocks": 2,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.2222222222222222,
+    "processed_at": "2026-07-27T11:06:53Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-27T11:06:53Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "text",
+          "text": "SetuAI — Document Checklist\nAI-Powered PDS & Welfare Assistant — Uttar Pradesh\nService: New Ration Card Application\nGenerated: 21 July 2026\n#\nDocument\nRequired\nNotes\n1\nAadhaar Card\n\u0013 Mandatory\nOriginal + photocopy for all family members\n2\nResidence Proof\n\u0013 Mandatory\nElectricity bill / Voter ID / Rent agreement\n3\nIncome Certificate\n\u0013 Mandatory\nFrom Lekhpal or SDM office\n4\nPassport Size Photographs\n\u0013 Mandatory\n2 copies each for all members\n5\nFamily Photo\nOptional\nOptional but speeds up process\n6\nCaste Certificate\nOptional\nRequired for SC/ST/OBC categories\nI Responsible AI Disclaimer\nSetuAI provides AI-generated guidance for educational and assistance purposes only. It is not an official Government of India service\nand does not provide legal or administrative approval. Users should verify important information with the respective government\ndepartment before taking action.",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {},
+          "image_path": null
+        },
+        {
+          "page": 1,
+          "layout": "table",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 1,
+          "coordinates": {
+            "x1": 70.86614227294922,
+            "y1": 151.1968994140625,
+            "x2": 524.409423828125,
+            "y2": 277.1968994140625
+          },
+          "image_path": "C:\\Users\\admin\\Desktop\\JanMitra---AI - Copy\\backend\\data\\images\\setuai_checklist\\page_1_table_0.png"
+        }
+      ]
+    }
+  ]
+}

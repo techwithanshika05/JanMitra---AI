@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_b91f582a72b44524_p0004_b0004",
+  "chart_type": "chart",
+  "title": "IN 2022, TOTAL STOCK OF FOODGRAINS IN CENTRAL POOL WAS HIGHER THAN THE REQUIRED STOCKING NORMS, BUT LOWER THAN IN 2020 AND 2021",
+  "description": "| Stock till | Wheat (Stocking Norms) | Rice (Stocking Norms) | Total Position in 2022 (in lakh tons) |\n| :--- | :--- | :--- | :--- |\n| **1 January** | 138 | 76 | 224 |\n|             |           |       |     554 |\n|              |-----------|-------|---------|\n|               |            |        |         -  |\n|                |      Total   |    Wheat(Norm)| Rice(Norm)| Total Posn In 2022 |\n|                 |          | Value A | Value B | Final Height/Value C |\n|                  |----------|--------:|--------:|--------------------: |\n|                   | - Red Bar|- Grey Bar-|Red Top of Stack |- Bottom Gray Segment (- Label \"602\") |\n|                    | ~90% height approx.|~10% height approx.|Top segment value (~317 or similar).|\n\n*Note on Y Axis:* The axis is labeled from '0' to over '1,000'. The visual data suggests the total position values are likely around double that range based on bar heights relative to grid lines and labels like \"~\" for intermediate segments not explicitly named.",
+  "categories": [],
+  "series": [],
+  "source_page": 4,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_b91f582a72b44524_p0004_b0004.png"
+}

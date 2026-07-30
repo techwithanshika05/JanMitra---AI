@@ -1,0 +1,177 @@
+{
+  "page_num": 6,
+  "image_width": 2480,
+  "image_height": 3507,
+  "created_at": "2026-07-24T07:16:17.401400+00:00",
+  "blocks": [
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_6_block_000",
+      "coordinates": {
+        "x1": 226.0,
+        "y1": 363.0,
+        "x2": 2254.0,
+        "y2": 586.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.943793773651123,
+      "reading_order": 1,
+      "text": "■ While there were differences across states in the total quantum of foodgrains lifted, most states and UTs had\nseen a significant increase in offtake since FY 2020-21. Similar to the national trend, allocations and offtake of\nfoodgrains reached its peak in FY 2021-22, with 11 states seeing an increase of more than 70 per cent in foodgrains\nlifted as compared to FY 2019-20."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_6_block_001",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 619.0,
+        "x2": 2250.0,
+        "y2": 732.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9132106900215149,
+      "reading_order": 2,
+      "text": "In FY 2022-23, till November, most states had already lifted more foodgrains than in previous years, from FY 2017-18 to FY 2019-20. However, this was lower than the offtake seen in FY 2021-22 for the same time period."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_6_block_002",
+      "coordinates": {
+        "x1": 224.0,
+        "y1": 764.0,
+        "x2": 2250.0,
+        "y2": 877.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9057180285453796,
+      "reading_order": 3,
+      "text": "The states with the highest offtake in FY 2022-23, till November 2022, were Uttar Pradesh (9,496 thousand tons), Bihar (6,367 thousand tons), and West Bengal (4,832 thousand tons)."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_6_block_003",
+      "coordinates": {
+        "x1": 469.0,
+        "y1": 973.0,
+        "x2": 2007.0,
+        "y2": 1075.0
+      },
+      "layout_tag": "image-caption",
+      "confidence": 0.8885047435760498,
+      "reading_order": 4,
+      "text": "FOR MOST STATES, OFFTAKE IN 2022-23 TILL NOVEMBER WAS ALREADY\nHIGHER THAN OFFTAKE IN 2019-20"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_6_block_004",
+      "coordinates": {
+        "x1": 240.0,
+        "y1": 1087.0,
+        "x2": 2237.0,
+        "y2": 1854.0
+      },
+      "layout_tag": "chart",
+      "confidence": 0.9606428146362305,
+      "reading_order": 5,
+      "text": "| State | Offtake 2019-20 (in thousand tons) | Offtake 2020-21 (in thousand tons) | Offtake in 2021-22 (in thousand tons) | Offtake 2022-23 till Nov (in thousand tons) |\n| :--- | :--- | :--- | :--- | :--- |\n| Uttar Pradesh | ~8,959 | ~14,795 | >15,694* | ~9,496 |\n| Bihar | ~5,404 | ~8,427 | ~9,187 | ~6,367 |\n| West Bengal | ~3,919 | ~6,380 | ~6,824 | ~4,832 |\n| Maharashtra | ~4,029 | ~6,664 | ~6,487 | ~4,149 |\n| Madhya Pradesh | ~3,394 | ~5,170 | ~5,517 | ~3,572 |\n| Rajasthan | ~2,843 | ~4,639 | ~4,642 | ~3,246 |\n| Gujarat | ~1,925 | ~3,432 | ~3,780 | ~2,599 |\n| Odisha | ~2,047 | ~3,330 | ~3,703 | ~2,870 |\n| Jharkhand | ~1,679 | ~2,771 | ~2,797 | ~2,019 |\n| Chhattisgarh | ~1,375 | ~2,182 | ~2,437 | ~1,623 |\n| Meghalaya | 176 | 263 | 289 | 197 |\n\n*Note: The value for 'Offtake in 2021-22' is visually estimated as it exceeds the top of the chart scale (>).*"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_6_block_005",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 1885.0,
+        "x2": 2252.0,
+        "y2": 1979.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.9213865399360657,
+      "reading_order": 6,
+      "text": "**Source:** Offtake of Foodgrains from Food Grain Bulletin, Department of Food and Public Distribution. Available online at: https://dfpd.gov.in/food-grain-bulletin.htm. Last accessed on 26 December 2022."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_6_block_006",
+      "coordinates": {
+        "x1": 226.0,
+        "y1": 2125.0,
+        "x2": 1365.0,
+        "y2": 2198.0
+      },
+      "layout_tag": "section-title",
+      "confidence": 0.8842182159423828,
+      "reading_order": 7,
+      "text": "COVERAGE AND CITIZEN ELIGIBILITY"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_6_block_007",
+      "coordinates": {
+        "x1": 224.0,
+        "y1": 2237.0,
+        "x2": 2253.0,
+        "y2": 2568.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9582118391990662,
+      "reading_order": 8,
+      "text": "■ Coverage under NFSA for state-wise rural and urban areas was determined by the erstwhile Planning Commission\nusing the National Sample Survey (NSS) Household Consumption Survey data for 2011-12 and based on Census\n2011 population estimates. While GoI determines the total state-wise number of people to be covered under\nthe scheme, states are responsible for the identification of eligible households. As per Section 10 of the NFSA\nAct, states identify AAY households based on scheme guidelines while the remaining households are covered as\nPHH in accordance with states’ own specific guidelines."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_6_block_008",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 2602.0,
+        "x2": 2250.0,
+        "y2": 2715.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9263797998428345,
+      "reading_order": 9,
+      "text": "Two-thirds or 67 per cent of India’s population are legally mandated to be covered under NFSA. Using India’s current projected population of 137.4 crore for 2022, NFSA would need to cover 92.3 crore citizens."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_6_block_009",
+      "coordinates": {
+        "x1": 225.0,
+        "y1": 2747.0,
+        "x2": 2253.0,
+        "y2": 2969.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9550904631614685,
+      "reading_order": 10,
+      "text": "■ However, since 2016, after the inclusion of all states and UTs in NFSA, the gap in the percentage of eligible citizens\nand actual citizens covered has been increasing. This is because the GoI does not update population figures and uses\ndata from the Census 2011 to date. Thus, according to official DFPD data for 2022, 80 crore citizens were covered\nunder NFSA as of November 2022, which accounts for 98 per cent of eligible households as per Census 2011."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_6_block_010",
+      "coordinates": {
+        "x1": 223.0,
+        "y1": 3004.0,
+        "x2": 2252.0,
+        "y2": 3167.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9326754808425903,
+      "reading_order": 11,
+      "text": "■ But considering population growth and projecting population, coverage falls to 87 per cent of the eligible population, lower than the 92 per cent coverage in 2016. Therefore, more than 12 crore eligible citizens are being excluded under the current coverage."
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_6_block_011",
+      "coordinates": {
+        "x1": 1507.0,
+        "y1": 3347.0,
+        "x2": 2189.0,
+        "y2": 3386.0
+      },
+      "layout_tag": "footer",
+      "confidence": 0.8058415055274963,
+      "reading_order": 12,
+      "text": "BUDGET BRIEFS, NFSA-FS, GOI 2023-24, VOL 15/ISSUE 2"
+    },
+    {
+      "block_id": "20260724_4395a07c-bd50-46f9-8294-57f22115738c_6_block_012",
+      "coordinates": {
+        "x1": 2226.0,
+        "y1": 3348.0,
+        "x2": 2247.0,
+        "y2": 3387.0
+      },
+      "layout_tag": "page-number",
+      "confidence": 0.5003842115402222,
+      "reading_order": 13,
+      "text": "7"
+    }
+  ]
+}

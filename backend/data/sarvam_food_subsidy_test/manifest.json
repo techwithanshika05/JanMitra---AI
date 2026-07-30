@@ -1,0 +1,21 @@
+[
+  {
+    "document_id": "Food-Subsidy-and-the-National-Food-Security-Act-2023-24",
+    "source_file": "C:\\Users\\hk639\\Downloads\\testing\\JanMitra---AI - Copy\\backend\\data\\raw\\Food-Subsidy-and-the-National-Food-Security-Act-2023-24.pdf",
+    "processor_used": "sarvam",
+    "recommended_processor": "pymupdf",
+    "confidence": 0.2222222222222222,
+    "status": "success",
+    "error": null,
+    "output_path": "data\\sarvam_food_subsidy_test\\Food-Subsidy-and-the-National-Food-Security-Act-2023-24.json",
+    "analysis": {
+      "total_pages": 12,
+      "scanned_pages": 0,
+      "image_pages": 1,
+      "drawing_pages": 12,
+      "recommended_processor": "pymupdf",
+      "confidence": 0.2222222222222222
+    },
+    "processing_time_seconds": 255.928
+  }
+]
