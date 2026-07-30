@@ -1,0 +1,158 @@
+{
+  "services": [
+    {
+      "id": "new_ration_card",
+      "name": "New Ration Card Application",
+      "name_hi": "नया राशन कार्ड आवेदन",
+      "category": "Ration & PDS",
+      "processing_time": "30 days",
+      "fee": "Free",
+      "documents": [
+        {"name": "Aadhaar Card", "mandatory": true, "note": "Original + photocopy for all family members"},
+        {"name": "Residence Proof", "mandatory": true, "note": "Electricity bill / Voter ID / Rent agreement"},
+        {"name": "Income Certificate", "mandatory": true, "note": "From Lekhpal or SDM office"},
+        {"name": "Passport Size Photographs", "mandatory": true, "note": "2 copies each for all members"},
+        {"name": "Family Photo", "mandatory": false, "note": "Optional but speeds up process"},
+        {"name": "Caste Certificate", "mandatory": false, "note": "Required for SC/ST/OBC categories"}
+      ]
+    },
+    {
+      "id": "add_member_ration",
+      "name": "Add Member to Ration Card",
+      "name_hi": "राशन कार्ड में सदस्य जोड़ें",
+      "category": "Ration & PDS",
+      "processing_time": "15 days",
+      "fee": "Free",
+      "documents": [
+        {"name": "Existing Ration Card", "mandatory": true, "note": "Original ration card"},
+        {"name": "Aadhaar Card of New Member", "mandatory": true, "note": "Original + photocopy"},
+        {"name": "Birth Certificate", "mandatory": true, "note": "For newborn — within 1 year of birth"},
+        {"name": "Marriage Certificate", "mandatory": false, "note": "If adding spouse"},
+        {"name": "Passport Size Photo", "mandatory": true, "note": "1 photo of new member"}
+      ]
+    },
+    {
+      "id": "old_age_pension",
+      "name": "Old Age Pension (Vridhavastha Pension)",
+      "name_hi": "वृद्धावस्था पेंशन",
+      "category": "Pension",
+      "processing_time": "45-60 days",
+      "fee": "Free",
+      "documents": [
+        {"name": "Aadhaar Card", "mandatory": true, "note": "Must be linked to bank account"},
+        {"name": "Age Proof", "mandatory": true, "note": "Birth certificate / Voter ID / School certificate (applicant must be 60+)"},
+        {"name": "Income Certificate", "mandatory": true, "note": "Annual income below Rs 46,080 from Lekhpal"},
+        {"name": "Bank Passbook", "mandatory": true, "note": "Active account for DBT"},
+        {"name": "BPL Card", "mandatory": false, "note": "If available, strengthens application"},
+        {"name": "Passport Size Photo", "mandatory": true, "note": "2 copies"}
+      ]
+    },
+    {
+      "id": "pm_kisan",
+      "name": "PM Kisan Samman Nidhi Registration",
+      "name_hi": "पीएम किसान सम्मान निधि पंजीकरण",
+      "category": "Agriculture",
+      "processing_time": "30-45 days",
+      "fee": "Free",
+      "documents": [
+        {"name": "Aadhaar Card", "mandatory": true, "note": "Seeded with bank account"},
+        {"name": "Land Records (Khatauni)", "mandatory": true, "note": "Agricultural land ownership proof from Lekhpal"},
+        {"name": "Bank Passbook", "mandatory": true, "note": "Account linked to Aadhaar"},
+        {"name": "Passport Size Photo", "mandatory": true, "note": "Recent photograph"},
+        {"name": "Mobile Number", "mandatory": true, "note": "Active number linked to Aadhaar"}
+      ]
+    },
+    {
+      "id": "up_scholarship",
+      "name": "UP Scholarship Application",
+      "name_hi": "यूपी छात्रवृत्ति आवेदन",
+      "category": "Education",
+      "processing_time": "60-90 days",
+      "fee": "Free",
+      "documents": [
+        {"name": "Aadhaar Card", "mandatory": true, "note": "Student's Aadhaar"},
+        {"name": "Income Certificate", "mandatory": true, "note": "Annual family income proof from SDM"},
+        {"name": "Caste Certificate", "mandatory": true, "note": "Required for SC/ST/OBC/Minority"},
+        {"name": "Previous Year Marksheet", "mandatory": true, "note": "Last qualifying examination"},
+        {"name": "Enrollment/Admission Certificate", "mandatory": true, "note": "Current year enrollment"},
+        {"name": "Bank Passbook", "mandatory": true, "note": "Student's own account preferred"},
+        {"name": "Passport Size Photo", "mandatory": true, "note": "Recent 2 copies"},
+        {"name": "School/College ID Card", "mandatory": false, "note": "If available"}
+      ]
+    },
+    {
+      "id": "mgnrega_job_card",
+      "name": "MGNREGA Job Card",
+      "name_hi": "मनरेगा जॉब कार्ड",
+      "category": "Employment",
+      "processing_time": "15 days",
+      "fee": "Free",
+      "documents": [
+        {"name": "Aadhaar Card", "mandatory": true, "note": "All adult family members"},
+        {"name": "Passport Size Photo", "mandatory": true, "note": "All adult members who want to work"},
+        {"name": "Bank Account Details", "mandatory": true, "note": "For wage payment"},
+        {"name": "Residence Proof", "mandatory": true, "note": "Village/ward residence"}
+      ]
+    },
+    {
+      "id": "ayushman_bharat",
+      "name": "Ayushman Bharat (PMJAY) Enrollment",
+      "name_hi": "आयुष्मान भारत (पीएमजेएवाई) नामांकन",
+      "category": "Health",
+      "processing_time": "Same day (if eligible)",
+      "fee": "Free",
+      "documents": [
+        {"name": "Aadhaar Card", "mandatory": true, "note": "Biometric verification needed"},
+        {"name": "Ration Card", "mandatory": true, "note": "BPL/SECC listed families"},
+        {"name": "Mobile Number", "mandatory": true, "note": "For OTP verification"}
+      ]
+    },
+    {
+      "id": "pm_ujjwala",
+      "name": "PM Ujjwala Yojana (Free LPG Connection)",
+      "name_hi": "पीएम उज्ज्वला योजना (मुफ़्त एलपीजी कनेक्शन)",
+      "category": "LPG & Energy",
+      "processing_time": "7-15 days",
+      "fee": "Free",
+      "documents": [
+        {"name": "Aadhaar Card", "mandatory": true, "note": "Female applicant (18+ years)"},
+        {"name": "BPL Ration Card", "mandatory": true, "note": "BPL household"},
+        {"name": "Bank Passbook", "mandatory": true, "note": "For subsidy transfer"},
+        {"name": "Passport Size Photo", "mandatory": true, "note": "Female applicant"},
+        {"name": "Self-Declaration", "mandatory": true, "note": "No LPG connection at home"}
+      ]
+    },
+    {
+      "id": "kanya_sumangala",
+      "name": "Mukhyamantri Kanya Sumangala Yojana",
+      "name_hi": "मुख्यमंत्री कन्या सुमंगला योजना",
+      "category": "Women & Child",
+      "processing_time": "30-45 days",
+      "fee": "Free",
+      "documents": [
+        {"name": "Aadhaar Card (Parent)", "mandatory": true, "note": "Parent/guardian's Aadhaar"},
+        {"name": "Girl Child's Birth Certificate", "mandatory": true, "note": "For birth stage only"},
+        {"name": "Income Certificate", "mandatory": true, "note": "Annual income below Rs 3 lakh"},
+        {"name": "Bank Account (Parent)", "mandatory": true, "note": "Linked to Aadhaar"},
+        {"name": "School Admission Certificate", "mandatory": false, "note": "For Class 1, 6, 9 stages"},
+        {"name": "Passport Size Photo", "mandatory": true, "note": "Child's photo"}
+      ]
+    },
+    {
+      "id": "widow_pension",
+      "name": "Widow Pension (Nirashrit Mahila Pension)",
+      "name_hi": "विधवा पेंशन (निराश्रित महिला पेंशन)",
+      "category": "Pension",
+      "processing_time": "45-60 days",
+      "fee": "Free",
+      "documents": [
+        {"name": "Aadhaar Card", "mandatory": true, "note": "Widow's Aadhaar"},
+        {"name": "Husband's Death Certificate", "mandatory": true, "note": "Attested copy"},
+        {"name": "Marriage Certificate", "mandatory": false, "note": "If available"},
+        {"name": "Income Certificate", "mandatory": true, "note": "Annual income below Rs 2 lakh"},
+        {"name": "Bank Passbook", "mandatory": true, "note": "For direct benefit transfer"},
+        {"name": "Passport Size Photo", "mandatory": true, "note": "2 recent copies"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "How do I apply for a new ration card in Uttar Pradesh?",
+    "answer": "To apply for a new ration card in UP: 1) Visit your nearest tehsil or CSC. 2) Fill Form RC-1 or apply online at fcs.up.gov.in. 3) Submit Aadhaar card, residence proof, income certificate, and passport-size photos. 4) After verification, a ration card is issued within 30 days.",
+    "tags": ["ration card", "new application", "UP", "food"]
+  },
+  {
+    "id": 2,
+    "question": "What is the process to add a new family member to the ration card?",
+    "answer": "To add a member: 1) Go to your local ration shop or tehsil office. 2) Submit application with birth certificate or marriage certificate (as applicable). 3) Attach the existing ration card copy and Aadhaar of the new member. 4) The update is done within 15 days.",
+    "tags": ["ration card", "add member", "update", "family"]
+  },
+  {
+    "id": 3,
+    "question": "My ration shop is not giving me my entitled grains. What should I do?",
+    "answer": "If denied your entitled ration: 1) Note the date and quantity denied. 2) File a complaint at the District Food & Supply Office. 3) Call UP food helpline: 1967. 4) File online complaint at fcs.up.gov.in. 5) You can also approach the District Magistrate or use the National Consumer Helpline 1800-11-4000.",
+    "tags": ["ration", "complaint", "denial", "grievance", "helpline"]
+  },
+  {
+    "id": 4,
+    "question": "What is PM Kisan Samman Nidhi and how to check my status?",
+    "answer": "PM Kisan provides Rs 6,000/year to small farmers in 3 installments. To check status: Visit pmkisan.gov.in → 'Beneficiary Status' → Enter Aadhaar/Account/Mobile number. If not registered, apply at your nearest CSC with land records, Aadhaar, and bank passbook.",
+    "tags": ["PM Kisan", "farmer", "status check", "installment"]
+  },
+  {
+    "id": 5,
+    "question": "How to check if I am eligible for Ayushman Bharat (PMJAY)?",
+    "answer": "Check eligibility: 1) Visit pmjay.gov.in or call 14555. 2) Enter mobile number or Ration Card number. 3) If eligible, download your e-card. 4) Use the card at any empanelled hospital for cashless treatment up to Rs 5 lakh/year.",
+    "tags": ["ayushman", "health insurance", "PMJAY", "eligibility", "hospital"]
+  },
+  {
+    "id": 6,
+    "question": "What is AAY ration card and who is eligible?",
+    "answer": "Antyodaya Anna Yojana (AAY) cards are for the poorest of poor families. Eligible: families with no regular income, daily wage labourers, elderly/disabled/widows with no support. Benefit: 35 kg food grains per month per family at Rs 2/kg (wheat) and Rs 3/kg (rice).",
+    "tags": ["AAY", "antyodaya", "ration card", "poor", "BPL"]
+  },
+  {
+    "id": 7,
+    "question": "How to transfer my ration card to a new address in UP?",
+    "answer": "For ration card transfer: 1) Visit new area tehsil or CSC. 2) Submit application with old ration card, Aadhaar, new address proof. 3) Surrender letter from old fair price shop. 4) Process takes 15-30 days. Online: fcs.up.gov.in portal.",
+    "tags": ["ration card", "transfer", "address change", "migration"]
+  },
+  {
+    "id": 8,
+    "question": "What is One Nation One Ration Card (ONORC)?",
+    "answer": "ONORC allows ration card holders to buy subsidised food grains from any fair price shop across India. Migrants can use their home state ration card anywhere in the country. Requires Aadhaar-seeding of the ration card and POS machines at shops.",
+    "tags": ["ONORC", "portability", "one nation", "migrant", "ration"]
+  },
+  {
+    "id": 9,
+    "question": "How to get MGNREGA job card and when will I get work?",
+    "answer": "For MGNREGA Job Card: 1) Apply at Gram Panchayat with Aadhaar and photo. 2) Job card issued within 15 days. 3) Request work in writing at GP. 4) Work must be provided within 15 days of application, or unemployment allowance is paid. Wages: Rs 213/day in UP.",
+    "tags": ["MGNREGA", "job card", "employment", "wages", "gram panchayat"]
+  },
+  {
+    "id": 10,
+    "question": "How to apply for UP Old Age Pension?",
+    "answer": "Apply for UP Vridhavastha Pension (60+ years): 1) Visit sspy-up.gov.in online or nearest tehsil. 2) Fill application with Aadhaar, age proof, bank account, income certificate. 3) Verification by SDM. 4) Rs 500/month credited to bank after approval. Check status online at sspy-up.gov.in.",
+    "tags": ["old age pension", "vridhavastha", "senior", "UP pension"]
+  },
+  {
+    "id": 11,
+    "question": "What documents are needed for UP Scholarship?",
+    "answer": "UP Scholarship documents: Aadhaar card, income certificate (from Lekhpal/SDM), caste certificate, latest marksheet, enrollment certificate, bank account passbook, passport photo, school/college ID. Apply online at scholarship.up.gov.in before the annual deadline (usually September-October).",
+    "tags": ["scholarship", "UP scholarship", "student", "education", "documents"]
+  },
+  {
+    "id": 12,
+    "question": "How to file a complaint about a corrupt ration shop dealer?",
+    "answer": "To complain about a corrupt dealer: 1) Call toll-free 1967 (Food helpline). 2) Lodge written complaint at District Food & Supply Office. 3) File complaint online at fcs.up.gov.in. 4) Contact District Magistrate office. 5) State Consumer Disputes Redressal Commission. Action is taken within 30 days.",
+    "tags": ["complaint", "corrupt dealer", "ration shop", "grievance", "helpline"]
+  },
+  {
+    "id": 13,
+    "question": "What is Mukhyamantri Kanya Sumangala Yojana?",
+    "answer": "Kanya Sumangala gives Rs 15,000 total to girl children in 6 stages: birth (Rs 2000), 1st vaccination (Rs 1000), Class 1 admission (Rs 2000), Class 6 admission (Rs 2000), Class 9 admission (Rs 3000), graduation/diploma (Rs 5000). Annual family income must be under Rs 3 lakh. Apply at mksy.up.gov.in.",
+    "tags": ["kanya sumangala", "girl child", "women", "education", "UP scheme"]
+  },
+  {
+    "id": 14,
+    "question": "How to correct errors in my ration card (name, age, address)?",
+    "answer": "To correct ration card errors: 1) Visit tehsil or CSC with application. 2) Attach supporting documents (Aadhaar for name/age, address proof for address). 3) Submit existing ration card. 4) Correction done within 15 days. Online corrections also available at fcs.up.gov.in.",
+    "tags": ["ration card", "correction", "name change", "error", "update"]
+  },
+  {
+    "id": 15,
+    "question": "What is the PDS system and how does it work in UP?",
+    "answer": "PDS (Public Distribution System) is India's food security network. In UP: 1) Eligible families get ration cards (AAY/PHH/NPHH). 2) Monthly ration allotted via Fair Price Shops. 3) Aadhaar-based biometric authentication required. 4) Grain allocation: 5kg/person/month for PHH, 35kg/family for AAY. 5) Over 80 crore people covered nationally.",
+    "tags": ["PDS", "public distribution", "ration", "fair price shop", "food security"]
+  }
+]
