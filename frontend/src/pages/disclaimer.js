@@ -1,6 +1,9 @@
 import { ShieldCheck, Landmark, Check, X, ArrowRight, Trash2, BarChart3, Database, Settings2, Cloud, Sparkles, GraduationCap, Wheat, HeartPulse, ArrowUpRight } from 'lucide-react'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function Disclaimer() {
+  const { t } = useLanguage()
+  
   const officialLinks = [
     { name: 'UP Food & Supply', url: 'https://fcs.up.gov.in', type: 'PDS' },
     { name: 'PM Kisan Portal', url: 'https://pmkisan.gov.in', type: 'AGRICULTURE' },
@@ -17,25 +20,25 @@ export default function Disclaimer() {
         <div className="h-full flex flex-col items-center justify-center">
           <span className="font-mono text-sm font-bold">01</span>
           <div className="w-px h-[120px] my-[18px] bg-[rgba(17,24,39,0.3)] dark:bg-[#30353b]"></div>
-          <span className="writing-mode-vertical font-mono text-[11px] font-bold tracking-[0.18em]">TRUST CHARTER</span>
+          <span className="writing-mode-vertical font-mono text-[11px] font-bold tracking-[0.18em]" data-i18n="trust_charter">TRUST CHARTER</span>
         </div>
         <div className="max-w-[850px]">
           <div className="inline-flex items-center gap-2.5 mb-6 font-mono text-[12px] font-bold tracking-[0.08em] uppercase text-[#138a63]">
             <ShieldCheck size={18} />
-            Responsible Artificial Intelligence
+            <span data-i18n="responsible_ai">Responsible Artificial Intelligence</span>
           </div>
-          <h1 className="text-[clamp(3.4rem,6vw,6.8rem)] leading-[0.94] tracking-[-0.065em] font-extrabold text-[#111827] dark:text-[#f8fafc]">
+          <h1 className="text-[clamp(3.4rem,6vw,6.8rem)] leading-[0.94] tracking-[-0.065em] font-extrabold text-[#111827] dark:text-[#f8fafc] whitespace-pre-line" data-i18n="guidance_ai">
             Guidance with AI.<br />
             <span className="text-[#138a63]">Decisions with you.</span>
           </h1>
-          <p className="max-w-[720px] mt-7 text-[18px] leading-relaxed text-[#505761] dark:text-[#aab4c1]">Understand what JanMitra AI does, where its limits are, and how your information is handled before using AI-powered welfare guidance.</p>
+          <p className="max-w-[720px] mt-7 text-[18px] leading-relaxed text-[#505761] dark:text-[#aab4c1]" data-i18n="disclaimer_sub">Understand what JanMitra AI does, where its limits are, and how your information is handled before using AI-powered welfare guidance.</p>
         </div>
         <div className="flex flex-col items-center font-mono hidden lg:flex">
           <div className="w-[105px] h-[105px] grid place-items-center mb-4 border-2 border-[#111827] dark:border-[#f8fafc] rounded-full">
             <ShieldCheck size={43} />
           </div>
           <strong className="text-sm tracking-[0.15em]">JANMITRA AI</strong>
-          <span className="mt-1 text-[8px] tracking-[0.12em] text-[#7c838d] dark:text-[#94a3b8]">TRANSPARENCY FIRST</span>
+          <span className="mt-1 text-[8px] tracking-[0.12em] text-[#7c838d] dark:text-[#94a3b8]" data-i18n="transparency_first">TRANSPARENCY FIRST</span>
         </div>
         <div className="absolute w-[380px] h-[380px] -right-[150px] -bottom-[190px] border border-[rgba(17,24,39,0.12)] dark:border-[#30353b] rounded-full"></div>
       </section>
@@ -44,13 +47,13 @@ export default function Disclaimer() {
       <section className="grid grid-cols-[190px_1fr_150px] mt-7 text-white bg-[#101a24] rounded-[6px] overflow-hidden">
         <div className="p-[35px] flex flex-col justify-center bg-[#f4c95d] text-[#111827]">
           <span className="font-mono text-[12px] font-bold tracking-[0.15em]">IMPORTANT</span>
-          <strong className="mt-2 text-[22px] leading-[1.05]">READ BEFORE USE</strong>
+          <strong className="mt-2 text-[22px] leading-[1.05]" data-i18n="read_before_use">READ BEFORE USE</strong>
         </div>
         <div className="p-[40px_50px]">
           <span className="font-mono text-[11px] tracking-[0.15em] text-[#9ca3af]">NOTICE / 001</span>
-          <h2 className="mt-3 mb-4 text-[clamp(1.8rem,3vw,3rem)] tracking-[-0.04em]">JanMitra AI is not a Government service.</h2>
-          <p className="max-w-[850px] mt-2 text-[15px] leading-relaxed text-[#cbd5e1]">JanMitra AI provides AI-generated guidance for educational and assistance purposes only. It is not an official Government of India service and does not provide legal or administrative approval.</p>
-          <p className="max-w-[850px] mt-2 text-[15px] leading-relaxed text-[#cbd5e1]">Users should independently verify important information, eligibility conditions, documents, deadlines and procedures with the respective government department before taking action.</p>
+          <h2 className="mt-3 mb-4 text-[clamp(1.8rem,3vw,3rem)] tracking-[-0.04em]" data-i18n="not_gov_service">JanMitra AI is not a Government service.</h2>
+          <p className="max-w-[850px] mt-2 text-[15px] leading-relaxed text-[#cbd5e1]" data-i18n="not_gov_desc">JanMitra AI provides AI-generated guidance for educational and assistance purposes only. It is not an official Government of India service and does not provide legal or administrative approval.</p>
+          <p className="max-w-[850px] mt-2 text-[15px] leading-relaxed text-[#cbd5e1]" data-i18n="verify_info">Users should independently verify important information, eligibility conditions, documents, deadlines and procedures with the respective government department before taking action.</p>
         </div>
         <div className="flex flex-col items-center justify-center border-l border-white/15 text-center">
           <Landmark size={34} className="mb-3" />
@@ -63,8 +66,8 @@ export default function Disclaimer() {
         <div className="grid grid-cols-[90px_1fr] max-w-[800px] mb-11">
           <span className="font-mono text-[13px] font-bold text-[#138a63]">02</span>
           <div>
-            <span className="font-mono text-[11px] font-bold tracking-[0.16em] text-[#7c838d] dark:text-[#94a3b8]">OPERATIONAL BOUNDARIES</span>
-            <h2 className="mt-2 mb-2.5 text-[clamp(2rem,4vw,4rem)] leading-none tracking-[-0.05em] text-[#111827] dark:text-[#f8fafc]">Know where the AI stops.</h2>
+            <span className="font-mono text-[11px] font-bold tracking-[0.16em] text-[#7c838d] dark:text-[#94a3b8]" data-i18n="operational_boundaries">OPERATIONAL BOUNDARIES</span>
+            <h2 className="mt-2 mb-2.5 text-[clamp(2rem,4vw,4rem)] leading-none tracking-[-0.05em] text-[#111827] dark:text-[#f8fafc]" data-i18n="know_limits">Know where the AI stops.</h2>
             <p className="max-w-[580px] text-[16px] leading-relaxed text-[#68707c] dark:text-[#aab4c1]">JanMitra AI assists with understanding processes. It does not replace government authorities.</p>
           </div>
         </div>
@@ -77,20 +80,16 @@ export default function Disclaimer() {
                 <Check size={24} />
               </span>
               <div>
-                <small className="font-mono text-[10px] tracking-[0.15em] text-[#7c838d] dark:text-[#94a3b8]">JANMITRA AI CAN</small>
-                <h3 className="mt-1 text-2xl text-[#111827] dark:text-[#f8fafc]">Assist & Explain</h3>
+                <small className="font-mono text-[10px] tracking-[0.15em] text-[#7c838d] dark:text-[#94a3b8]" data-i18n="janmitra_can">JANMITRA AI CAN</small>
+                <h3 className="mt-1 text-2xl text-[#111827] dark:text-[#f8fafc]" data-i18n="assist_explain">Assist & Explain</h3>
               </div>
             </div>
             {[
-              'Explain government scheme eligibility and benefits.',
-              'List document requirements for welfare services.',
-              'Provide grievance guidance and procedural steps.',
-              'Generate standardized complaint letter templates.',
-              'Identify relevant schemes based on major life events.'
-            ].map((item, i) => (
+              'can_1', 'can_2', 'can_3', 'can_4', 'can_5'
+            ].map((key, i) => (
               <div key={i} className="grid grid-cols-[55px_1fr] gap-4 min-h-[83px] items-center p-[17px_30px] border-b border-[#e6e7e9] dark:border-[#343b43] hover:pl-[38px] hover:bg-[rgba(15,23,42,0.025)] dark:hover:bg-[rgba(255,255,255,0.03)] transition-all">
                 <span className="font-mono text-[11px] text-[#a0a5ad] dark:text-[#94a3b8]">{String(i + 1).padStart(2, '0')}</span>
-                <p className="text-[15px] leading-relaxed text-[#39414c] dark:text-[#aab4c1]">{item}</p>
+                <p className="text-[15px] leading-relaxed text-[#39414c] dark:text-[#aab4c1]" data-i18n={key}>{key}</p>
               </div>
             ))}
           </div>
@@ -101,20 +100,16 @@ export default function Disclaimer() {
                 <X size={24} />
               </span>
               <div>
-                <small className="font-mono text-[10px] tracking-[0.15em] text-[#7c838d] dark:text-[#94a3b8]">JANMITRA AI CANNOT</small>
+                <small className="font-mono text-[10px] tracking-[0.15em] text-[#7c838d] dark:text-[#94a3b8]" data-i18n="janmitra_cannot">JANMITRA AI CANNOT</small>
                 <h3 className="mt-1 text-2xl text-[#111827] dark:text-[#f8fafc]">Approve & Decide</h3>
               </div>
             </div>
             {[
-              'Process or submit actual government applications.',
-              'Guarantee scheme eligibility, funding or approval.',
-              'Access, modify or verify official government records.',
-              'Provide legally binding advice or representation.',
-              'Make administrative decisions on your behalf.'
-            ].map((item, i) => (
+              'cannot_1', 'cannot_2', 'cannot_3', 'cannot_4', 'cannot_5'
+            ].map((key, i) => (
               <div key={i} className="grid grid-cols-[55px_1fr] gap-4 min-h-[83px] items-center p-[17px_30px] border-b border-[#e6e7e9] dark:border-[#343b43] hover:pl-[38px] hover:bg-[rgba(15,23,42,0.025)] dark:hover:bg-[rgba(255,255,255,0.03)] transition-all">
                 <span className="font-mono text-[11px] text-[#a0a5ad] dark:text-[#94a3b8]">{String(i + 1).padStart(2, '0')}</span>
-                <p className="text-[15px] leading-relaxed text-[#39414c] dark:text-[#aab4c1]">{item}</p>
+                <p className="text-[15px] leading-relaxed text-[#39414c] dark:text-[#aab4c1]" data-i18n={key}>{key}</p>
               </div>
             ))}
           </div>
@@ -126,9 +121,9 @@ export default function Disclaimer() {
         <div className="grid grid-cols-[90px_1fr] max-w-[800px] mb-11">
           <span className="font-mono text-[13px] font-bold text-[#6ee7b7]">03</span>
           <div>
-            <span className="font-mono text-[11px] font-bold tracking-[0.16em] text-[#94a3b8]">DATA PROTOCOL</span>
-            <h2 className="mt-2 mb-2.5 text-[clamp(2rem,4vw,4rem)] leading-none tracking-[-0.05em] text-white">What happens to your data?</h2>
-            <p className="max-w-[580px] text-[16px] leading-relaxed text-[#aeb9c7]">A simple view of how information moves through JanMitra AI.</p>
+            <span className="font-mono text-[11px] font-bold tracking-[0.16em] text-[#94a3b8]" data-i18n="data_protocol">DATA PROTOCOL</span>
+            <h2 className="mt-2 mb-2.5 text-[clamp(2rem,4vw,4rem)] leading-none tracking-[-0.05em] text-white" data-i18n="what_happens_data">What happens to your data?</h2>
+            <p className="max-w-[580px] text-[16px] leading-relaxed text-[#aeb9c7]" data-i18n="data_desc">A simple view of how information moves through JanMitra AI.</p>
           </div>
         </div>
 
@@ -138,8 +133,8 @@ export default function Disclaimer() {
               <Sparkles size={24} className="text-[#6ee7b7]" />
             </div>
             <span className="font-mono text-[10px] tracking-[0.13em] text-[#6ee7b7]">STEP 01</span>
-            <h3 className="mt-2 mb-3 text-[22px]">You interact</h3>
-            <p className="text-[14px] leading-relaxed text-[#aeb9c7]">Chat questions or documents are provided to the system when you use its features.</p>
+            <h3 className="mt-2 mb-3 text-[22px]" data-i18n="you_interact">You interact</h3>
+            <p className="text-[14px] leading-relaxed text-[#aeb9c7]" data-i18n="you_interact_desc">Chat questions or documents are provided to the system when you use its features.</p>
           </div>
           <div className="grid place-items-center text-[#64748b] rotate-90 md:rotate-0">
             <ArrowRight size={24} />
@@ -149,8 +144,8 @@ export default function Disclaimer() {
               <Database size={24} className="text-[#6ee7b7]" />
             </div>
             <span className="font-mono text-[10px] tracking-[0.13em] text-[#6ee7b7]">STEP 02</span>
-            <h3 className="mt-2 mb-3 text-[22px]">System processes</h3>
-            <p className="text-[14px] leading-relaxed text-[#aeb9c7]">Information is processed to generate guidance, OCR results or relevant responses.</p>
+            <h3 className="mt-2 mb-3 text-[22px]" data-i18n="system_processes">System processes</h3>
+            <p className="text-[14px] leading-relaxed text-[#aeb9c7]" data-i18n="system_processes_desc">Information is processed to generate guidance, OCR results or relevant responses.</p>
           </div>
           <div className="grid place-items-center text-[#64748b] rotate-90 md:rotate-0">
             <ArrowRight size={24} />
@@ -160,37 +155,37 @@ export default function Disclaimer() {
               <Trash2 size={24} className="text-[#6ee7b7]" />
             </div>
             <span className="font-mono text-[10px] tracking-[0.13em] text-[#6ee7b7]">STEP 03</span>
-            <h3 className="mt-2 mb-3 text-[22px]">Sensitive files leave</h3>
-            <p className="text-[14px] leading-relaxed text-[#aeb9c7]">Uploaded documents are processed and immediately deleted. Chat conversations are not permanently stored.</p>
+            <h3 className="mt-2 mb-3 text-[22px]" data-i18n="sensitive_leave">Sensitive files leave</h3>
+            <p className="text-[14px] leading-relaxed text-[#aeb9c7]" data-i18n="sensitive_leave_desc">Uploaded documents are processed and immediately deleted. Chat conversations are not permanently stored.</p>
           </div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-12 border-t border-white/15">
           <div className="p-[30px_25px] border-r border-white/15">
             <Sparkles size={24} className="text-[#6ee7b7]" />
-            <strong className="block mt-4 mb-2 text-[15px]">No identity vault</strong>
-            <span className="text-[12px] leading-relaxed text-[#9da9b8]">No Aadhaar, bank or identity data is stored.</span>
+            <strong className="block mt-4 mb-2 text-[15px]" data-i18n="no_identity_vault">No identity vault</strong>
+            <span className="text-[12px] leading-relaxed text-[#9da9b8]" data-i18n="no_identity_vault_desc">No Aadhaar, bank or identity data is stored.</span>
           </div>
           <div className="p-[30px_25px] border-r border-white/15">
             <BarChart3 size={24} className="text-[#6ee7b7]" />
-            <strong className="block mt-4 mb-2 text-[15px]">Anonymous telemetry</strong>
-            <span className="text-[12px] leading-relaxed text-[#9da9b8]">Only anonymised ratings and comments are retained.</span>
+            <strong className="block mt-4 mb-2 text-[15px]" data-i18n="anonymous_telemetry">Anonymous telemetry</strong>
+            <span className="text-[12px] leading-relaxed text-[#9da9b8]" data-i18n="anonymous_telemetry_desc">Only anonymised ratings and comments are retained.</span>
           </div>
           <div className="p-[30px_25px] border-r border-white/15">
             <Database size={24} className="text-[#6ee7b7]" />
-            <strong className="block mt-4 mb-2 text-[15px]">Local knowledge</strong>
-            <span className="text-[12px] leading-relaxed text-[#9da9b8]">Scheme and FAQ information uses local data files.</span>
+            <strong className="block mt-4 mb-2 text-[15px]" data-i18n="local_knowledge">Local knowledge</strong>
+            <span className="text-[12px] leading-relaxed text-[#9da9b8]" data-i18n="local_knowledge_desc">Scheme and FAQ information uses local data files.</span>
           </div>
           <div className="p-[30px_25px]">
             <Settings2 size={24} className="text-[#6ee7b7]" />
-            <strong className="block mt-4 mb-2 text-[15px]">Browser preferences</strong>
-            <span className="text-[12px] leading-relaxed text-[#9da9b8]">localStorage stores language and theme preferences.</span>
+            <strong className="block mt-4 mb-2 text-[15px]" data-i18n="browser_preferences">Browser preferences</strong>
+            <span className="text-[12px] leading-relaxed text-[#9da9b8]" data-i18n="browser_preferences_desc">localStorage stores language and theme preferences.</span>
           </div>
         </div>
 
         <div className="flex gap-4 items-center mt-5 p-[18px_22px] text-[#d9e1ea] bg-white/5">
           <Cloud size={20} />
-          <p className="text-[13px] leading-relaxed"><strong>External processing:</strong> JanMitra AI uses Groq API for LLM inference, subject to Groq's privacy policy.</p>
+          <p className="text-[13px] leading-relaxed"><span data-i18n="external_processing">External processing:</span> JanMitra AI uses Groq API for LLM inference, subject to Groq's privacy policy.</p>
         </div>
       </section>
 
@@ -198,8 +193,8 @@ export default function Disclaimer() {
       <section className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-[70px] py-[100px]">
         <div>
           <span className="font-mono text-[11px] font-bold tracking-[0.13em] text-[#138a63]">04 / SYSTEM</span>
-          <h2 className="mt-3 mb-3 text-[38px] leading-[1.05] tracking-[-0.045em] text-[#111827] dark:text-[#f8fafc]">What's behind JanMitra AI?</h2>
-          <p className="text-[#68707c] dark:text-[#aab4c1] leading-relaxed">JanMitra AI is an AI-powered welfare assistance tool built for the HCLTech hackathon.</p>
+          <h2 className="mt-3 mb-3 text-[38px] leading-[1.05] tracking-[-0.045em] text-[#111827] dark:text-[#f8fafc]" data-i18n="behind_janmitra">What's behind JanMitra AI?</h2>
+          <p className="text-[#68707c] dark:text-[#aab4c1]" data-i18n="system_desc">JanMitra AI is an AI-powered welfare assistance tool built for the HCLTech hackathon.</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border-t border-[#d7d9dd] dark:border-[#343b43]">
           {[
@@ -223,9 +218,9 @@ export default function Disclaimer() {
         <div className="flex flex-col sm:flex-row items-end justify-between gap-12 mb-12">
           <div>
             <span className="font-mono text-[11px] font-bold tracking-[0.13em] text-[#138a63]">05 / VERIFY</span>
-            <h2 className="mt-2.5 text-[clamp(2.3rem,4vw,4.2rem)] leading-none tracking-[-0.055em] text-[#111827] dark:text-[#f8fafc]">Continue on official sources.</h2>
+            <h2 className="mt-2.5 text-[clamp(2.3rem,4vw,4.2rem)] leading-none tracking-[-0.055em] text-[#111827] dark:text-[#f8fafc]" data-i18n="verify_official">Continue on official sources.</h2>
           </div>
-          <p className="max-w-[390px] text-[#68707c] dark:text-[#aab4c1] leading-relaxed">Always verify important information directly with the appropriate government portal.</p>
+          <p className="max-w-[390px] text-[#68707c] dark:text-[#aab4c1]" data-i18n="verify_desc">Always verify important information directly with the appropriate government portal.</p>
         </div>
         <div className="border-t border-[#bbbdbf] dark:border-[#34383d]">
           {officialLinks.map((link, i) => (
@@ -246,8 +241,8 @@ export default function Disclaimer() {
       <div className="grid grid-cols-[70px_1fr] gap-6 items-center mt-7 p-[45px_50px] text-white bg-[#138a63] rounded-[6px]">
         <ShieldCheck size={45} />
         <div>
-          <span className="block mb-2 font-mono text-[10px] font-bold tracking-[0.14em] opacity-80">JANMITRA AI RESPONSIBLE AI PRINCIPLE</span>
-          <strong className="block max-w-[900px] text-[clamp(1.3rem,2.4vw,2.2rem)] leading-[1.25]">AI should make government information easier to understand — not pretend to be the government.</strong>
+          <span className="block mb-2 font-mono text-[10px] font-bold tracking-[0.14em] opacity-80" data-i18n="responsible_ai_principle">JANMITRA AI RESPONSIBLE AI PRINCIPLE</span>
+          <strong className="block max-w-[900px] text-[clamp(1.3rem,2.4vw,2.2rem)] leading-[1.25]" data-i18n="principle_text">AI should make government information easier to understand — not pretend to be the government.</strong>
         </div>
       </div>
 

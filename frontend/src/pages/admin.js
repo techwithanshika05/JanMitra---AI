@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react'
-import { RefreshCw, MessagesSquare, ThumbsUp, ThumbsDown, Sparkles, TrendingUp, ShieldCheck } from 'lucide-react'
+import { RefreshCw, MessagesSquare, ThumbsUp, ThumbsDown, Sparkles, TrendingUp, ShieldCheck, Search, MessageCircleHeart } from 'lucide-react'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function Admin() {
+  const { t } = useLanguage()
   const [loading, setLoading] = useState(true)
   const [stats, setStats] = useState(null)
 
@@ -34,21 +36,21 @@ export default function Admin() {
         <div className="relative z-10 max-w-[760px]">
           <div className="flex items-center gap-2.5 mb-6 text-[12px] font-extrabold tracking-[0.16em] text-[#8ff5da]">
             <span className="w-2 h-2 rounded-full bg-[#5ee8ba] shadow-[0_0_0_6px_rgba(94,232,186,0.13)] animate-pulse"></span>
-            LIVE SYSTEM OVERVIEW
+            <span data-i18n="live_system">LIVE SYSTEM OVERVIEW</span>
           </div>
-          <h1 className="text-[clamp(42px,5vw,72px)] leading-[0.98] tracking-[-0.055em] font-extrabold">
+          <h1 className="text-[clamp(42px,5vw,72px)] leading-[0.98] tracking-[-0.055em] font-extrabold whitespace-pre-line" data-i18n="see_inside">
             See what's happening<br />
             inside <span className="text-[#6ef0ca]">JanMitra AI.</span>
           </h1>
-          <p className="max-w-[620px] mt-6 text-[17px] leading-relaxed text-white/75">Real citizen interactions, AI usage and feedback — presented directly from the current application logs.</p>
+          <p className="max-w-[620px] mt-6 text-[17px] leading-relaxed text-white/75" data-i18n="admin_desc">Real citizen interactions, AI usage and feedback — presented directly from the current application logs.</p>
         </div>
         <button onClick={loadStats} disabled={loading} className="relative z-10 flex items-center gap-3.5 px-5 py-3 pl-3 rounded-[18px] border border-white/20 bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-[#09203f] transition-all disabled:opacity-50 disabled:cursor-not-allowed flex-shrink-0">
           <span className="w-[46px] h-[46px] grid place-items-center rounded-[13px] bg-[#6ef0ca] text-[#09203f]">
             <RefreshCw size={20} className={loading ? 'animate-spin' : ''} />
           </span>
           <span className="flex flex-col text-left text-sm font-bold">
-            <small className="text-[10px] font-medium opacity-65">Latest metrics</small>
-            Refresh dashboard
+            <small className="text-[10px] font-medium opacity-65" data-i18n="latest_metrics">Latest metrics</small>
+            <span data-i18n="refresh_dashboard">Refresh dashboard</span>
           </span>
         </button>
         <div className="absolute w-[280px] h-[280px] -right-20 -bottom-[120px] border-[55px] border-white/10 rounded-full"></div>
@@ -77,8 +79,8 @@ export default function Admin() {
                 {stats?.total_queries ?? 0}
               </div>
               <div>
-                <strong className="text-[18px] text-[#162d2b] dark:text-[#edf7f4]">AI Queries</strong>
-                <span className="block text-[13px] text-[#7a8987] dark:text-[#94a3b8]">Total conversations handled</span>
+                <strong className="text-[18px] text-[#162d2b] dark:text-[#edf7f4]" data-i18n="ai_queries">AI Queries</strong>
+                <span className="block text-[13px] text-[#7a8987] dark:text-[#94a3b8]" data-i18n="total_conversations">Total conversations handled</span>
               </div>
             </div>
             <div className="min-h-[280px] p-7 flex flex-col justify-between border-r border-[#e4e8ed] dark:border-[#293533] hover:bg-[#f7faf9] dark:hover:bg-[#1d2927] transition-colors">
@@ -90,8 +92,8 @@ export default function Admin() {
                 {fb.thumbs_up ?? 0}
               </div>
               <div>
-                <strong className="text-[18px] text-[#162d2b] dark:text-[#edf7f4]">Positive</strong>
-                <span className="block text-[13px] text-[#7a8987] dark:text-[#94a3b8]">Helpful responses reported</span>
+                <strong className="text-[18px] text-[#162d2b] dark:text-[#edf7f4]" data-i18n="positive">Positive</strong>
+                <span className="block text-[13px] text-[#7a8987] dark:text-[#94a3b8]" data-i18n="helpful_responses">Helpful responses reported</span>
               </div>
             </div>
             <div className="min-h-[280px] p-7 flex flex-col justify-between border-r border-[#e4e8ed] dark:border-[#293533] hover:bg-[#f7faf9] dark:hover:bg-[#1d2927] transition-colors">
@@ -103,8 +105,8 @@ export default function Admin() {
                 {fb.thumbs_down ?? 0}
               </div>
               <div>
-                <strong className="text-[18px] text-[#162d2b] dark:text-[#edf7f4]">Needs Work</strong>
-                <span className="block text-[13px] text-[#7a8987] dark:text-[#94a3b8]">Negative responses reported</span>
+                <strong className="text-[18px] text-[#162d2b] dark:text-[#edf7f4]" data-i18n="needs_work">Needs Work</strong>
+                <span className="block text-[13px] text-[#7a8987] dark:text-[#94a3b8]" data-i18n="negative_responses">Negative responses reported</span>
               </div>
             </div>
             <div className="min-h-[280px] p-7 flex flex-col justify-between bg-[#f5b942] hover:bg-[#ffc84e] transition-colors">
@@ -116,8 +118,8 @@ export default function Admin() {
                 {fb.satisfaction_rate != null ? fb.satisfaction_rate + '%' : '—'}
               </div>
               <div>
-                <strong className="text-[18px] text-[#18201d]">Satisfaction</strong>
-                <span className="block text-[13px] text-[rgba(24,32,29,0.67)]">Overall feedback performance</span>
+                <strong className="text-[18px] text-[#18201d]" data-i18n="satisfaction">Satisfaction</strong>
+                <span className="block text-[13px] text-[rgba(24,32,29,0.67)]" data-i18n="overall_feedback">Overall feedback performance</span>
               </div>
             </div>
           </section>
@@ -128,8 +130,8 @@ export default function Admin() {
             <article className="min-h-[530px] p-8 border border-[#e4e8ed] dark:border-[#293533] rounded-[30px] bg-white dark:bg-[#17201f]">
               <div className="flex justify-between items-start gap-5 mb-9">
                 <div>
-                  <span className="block font-mono text-[10px] font-bold tracking-[0.12em] text-[#118b77] mb-3">01 / DISCOVERY</span>
-                  <h2 className="text-[35px] leading-[1.05] tracking-[-0.04em] text-[#142321] dark:text-[#edf7f4]">What citizens<br />ask the most.</h2>
+                  <span className="block font-mono text-[10px] font-bold tracking-[0.12em] text-[#118b77] mb-3" data-i18n="discovery">01 / DISCOVERY</span>
+                  <h2 className="text-[35px] leading-[1.05] tracking-[-0.04em] text-[#142321] dark:text-[#edf7f4]" data-i18n="what_ask_most">What citizens ask the most.</h2>
                 </div>
                 <span className="w-[50px] h-[50px] grid place-items-center rounded-full bg-[#e8f7f3] text-[#118b77]">
                   <TrendingUp size={24} />
@@ -139,7 +141,7 @@ export default function Admin() {
                 {fb.top_queries?.length === 0 ? (
                   <div className="min-h-[180px] flex flex-col items-center justify-center gap-3 text-center text-[14px] text-[#899694] dark:text-[#94a3b8]">
                     <Search size={30} className="opacity-55" />
-                    <span>No query activity yet.</span>
+                    <span data-i18n="no_query">No query activity yet.</span>
                   </div>
                 ) : (
                   fb.top_queries?.map((q, i) => (
@@ -159,8 +161,8 @@ export default function Admin() {
               <div className="relative z-10">
                 <div className="flex justify-between items-start gap-5 mb-9">
                   <div>
-                    <span className="block font-mono text-[10px] font-bold tracking-[0.12em] text-[#6ef0ca] mb-3">02 / ACTIVITY</span>
-                    <h2 className="text-[35px] leading-[1.05] tracking-[-0.04em] text-white">Citizen<br />feedback feed.</h2>
+                    <span className="block font-mono text-[10px] font-bold tracking-[0.12em] text-[#6ef0ca] mb-3" data-i18n="activity">02 / ACTIVITY</span>
+                    <h2 className="text-[35px] leading-[1.05] tracking-[-0.04em] text-white" data-i18n="feedback_feed">Citizen feedback feed.</h2>
                   </div>
                   <span className="inline-flex items-center gap-2 px-3 py-2 border border-white/15 rounded-full font-mono text-[10px] font-bold text-[#9af2d8]">
                     <span className="w-1.5 h-1.5 rounded-full bg-[#6ef0ca]"></span>
@@ -171,7 +173,7 @@ export default function Admin() {
                   {fb.recent?.length === 0 ? (
                     <div className="min-h-[180px] flex flex-col items-center justify-center gap-3 text-center text-[14px] text-white/55">
                       <MessageCircleHeart size={30} className="opacity-55" />
-                      <span>No feedback recorded yet.</span>
+                      <span data-i18n="no_feedback">No feedback recorded yet.</span>
                     </div>
                   ) : (
                     fb.recent?.map((f, i) => (
@@ -198,8 +200,8 @@ export default function Admin() {
               <ShieldCheck size={24} />
             </span>
             <div>
-              <span className="block text-[10px] font-extrabold tracking-[0.13em] text-[#118b77] mb-1">DATA INTEGRITY</span>
-              <p className="text-[13px] leading-relaxed text-[#687775] dark:text-[#94a3b8]">Every number shown here comes from actual JanMitra AI activity. No demo statistics or fabricated engagement numbers are inserted.</p>
+              <span className="block text-[10px] font-extrabold tracking-[0.13em] text-[#118b77] mb-1" data-i18n="data_integrity">DATA INTEGRITY</span>
+              <p className="text-[13px] leading-relaxed text-[#687775] dark:text-[#94a3b8]" data-i18n="data_integrity_desc">Every number shown here comes from actual JanMitra AI activity. No demo statistics or fabricated engagement numbers are inserted.</p>
             </div>
           </section>
         </>
@@ -207,7 +209,3 @@ export default function Admin() {
     </div>
   )
 }
-
-// Missing imports
-const Search = ({ size, className }) => <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-const MessageCircleHeart = ({ size, className }) => <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>

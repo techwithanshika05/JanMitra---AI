@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react'
-import { Landmark, ShoppingBasket, IndianRupee, ShieldAlert, CirclePause, Phone, ShieldCheck, ArrowUpRight, User, MessageSquareWarning, FileCheck2, LockKeyhole, ListFilter, Route, CircleAlert, PhoneCall, MoveRight, BadgeCheck, X } from 'lucide-react'
+import { Landmark, ShoppingBasket, IndianRupee, ShieldAlert, CirclePause, Phone, ShieldCheck, ArrowUpRight, User, MessageSquareWarning, FileCheck2, LockKeyhole, ListFilter, Route, CircleAlert, PhoneCall, MoveRight, BadgeCheck, X, ChevronDown, Copy, Printer, Loader } from 'lucide-react'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function Grievance() {
+  const { t } = useLanguage()
   const [activeCategory, setActiveCategory] = useState('ration_denial')
   const [steps, setSteps] = useState(null)
   const [loading, setLoading] = useState(false)
@@ -104,22 +106,22 @@ export default function Grievance() {
         <div className="relative z-10 max-w-[850px]">
           <div className="inline-flex items-center gap-2.5 mb-6 text-[13px] font-extrabold tracking-[2px] uppercase text-[#ffd5cc]">
             <Landmark size={19} />
-            Citizen Resolution Desk
+            <span data-i18n="citizen_resolution">Citizen Resolution Desk</span>
           </div>
-          <h1 className="text-[clamp(46px,5vw,78px)] leading-[0.98] tracking-[-4px] font-extrabold">
+          <h1 className="text-[clamp(46px,5vw,78px)] leading-[0.98] tracking-[-4px] font-extrabold whitespace-pre-line" data-i18n="grievance_title">
             Don't know where to<br />
             <span className="text-[#ffb4a6]">raise your complaint?</span>
           </h1>
-          <p className="max-w-[680px] mt-7 text-[18px] leading-relaxed text-white/75">Choose your issue, follow the official escalation path, and prepare a formal complaint without getting lost in the process.</p>
+          <p className="max-w-[680px] mt-7 text-[18px] leading-relaxed text-white/75" data-i18n="grievance_sub">Choose your issue, follow the official escalation path, and prepare a formal complaint without getting lost in the process.</p>
         </div>
         <div className="relative z-10 flex items-center gap-4 p-5 bg-white/10 border border-white/15 backdrop-blur-sm rounded-[18px] flex-shrink-0 w-full sm:w-auto">
           <span className="w-[54px] h-[54px] flex-shrink-0 grid place-items-center rounded-full bg-white text-[#d92d20]">
             <ShieldCheck size={25} />
           </span>
           <div>
-            <small className="text-[10px] font-extrabold tracking-[1.5px] text-[#ffb4a6]">GUIDED PROCESS</small>
-            <strong className="block mt-1 text-[18px]">3 Simple Stages</strong>
-            <span className="block mt-1 text-[12px] text-white/65">Identify → Resolve → Escalate</span>
+            <small className="text-[10px] font-extrabold tracking-[1.5px] text-[#ffb4a6]" data-i18n="guided_process">GUIDED PROCESS</small>
+            <strong className="block mt-1 text-[18px]" data-i18n="three_stages">3 Simple Stages</strong>
+            <span className="block mt-1 text-[12px] text-white/65">{t('identify')} → {t('resolve')} → {t('escalate')}</span>
           </div>
         </div>
         <div className="absolute w-[420px] h-[420px] -right-[130px] -top-[180px] border-[70px] border-white/5 rounded-full"></div>
@@ -134,8 +136,8 @@ export default function Grievance() {
         <div className="min-w-0 pl-5">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-12 mb-9">
             <div>
-              <span className="block mb-2 text-[11px] font-extrabold tracking-[2px] text-[#d92d20]">START HERE</span>
-              <h2 className="text-[clamp(30px,3vw,45px)] leading-[1.1] tracking-[-1.7px] text-[#101828] dark:text-[#f8fafc]">What went wrong?</h2>
+              <span className="block mb-2 text-[11px] font-extrabold tracking-[2px] text-[#d92d20]" data-i18n="start_here_grievance">START HERE</span>
+              <h2 className="text-[clamp(30px,3vw,45px)] leading-[1.1] tracking-[-1.7px] text-[#101828] dark:text-[#f8fafc]" data-i18n="what_went_wrong">What went wrong?</h2>
             </div>
             <p className="max-w-[460px] text-[15px] leading-relaxed text-[#667085] dark:text-[#94a3b8]">Pick the situation closest to your problem. We'll show the appropriate resolution route.</p>
           </div>
@@ -179,25 +181,25 @@ export default function Grievance() {
         <div className="min-w-0 pl-5">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-12 mb-9">
             <div>
-              <span className="block mb-2 text-[11px] font-extrabold tracking-[2px] text-[#d92d20]">RESOLUTION ROUTE</span>
-              <h2 className="text-[clamp(30px,3vw,45px)] leading-[1.1] tracking-[-1.7px] text-[#101828] dark:text-[#f8fafc]">Follow your escalation path</h2>
+              <span className="block mb-2 text-[11px] font-extrabold tracking-[2px] text-[#d92d20]" data-i18n="resolution_route">RESOLUTION ROUTE</span>
+              <h2 className="text-[clamp(30px,3vw,45px)] leading-[1.1] tracking-[-1.7px] text-[#101828] dark:text-[#f8fafc]" data-i18n="follow_path">Follow your escalation path</h2>
             </div>
             <p className="max-w-[460px] text-[15px] leading-relaxed text-[#667085] dark:text-[#94a3b8]">Start with the first recommended action. Escalate only when the previous stage doesn't resolve your issue.</p>
           </div>
 
           {loading ? (
             <div className="min-h-[180px] flex flex-col items-center justify-center gap-4 text-[#667085] dark:text-[#94a3b8]">
-              <div className="spinner-ring w-[36px] h-[36px] border-3 border-[rgba(13,124,102,0.14)] border-t-[#0d7c66] rounded-full animate-spin-slow"></div>
+              <div className="w-[36px] h-[36px] border-3 border-[rgba(13,124,102,0.14)] border-t-[#0d7c66] rounded-full animate-spin-slow"></div>
               <span>Preparing resolution route...</span>
             </div>
           ) : steps && (
             <div className="overflow-hidden bg-white dark:bg-[#182230] border border-[#e4e7ec] dark:border-[#344054]">
               <div className="flex items-center justify-between gap-5 p-[27px_32px] bg-[#f9fafb] dark:bg-[#0f172a] border-b border-[#e4e7ec] dark:border-[#344054]">
                 <div>
-                  <span className="block mb-1 text-[10px] font-extrabold tracking-[1.6px] text-[#d92d20]">CURRENT CASE</span>
+                  <span className="block mb-1 text-[10px] font-extrabold tracking-[1.6px] text-[#d92d20]" data-i18n="current_case">CURRENT CASE</span>
                   <h3 className="text-2xl text-[#101828] dark:text-[#f8fafc]">{steps.name}</h3>
                 </div>
-                <span className="px-3 py-2 bg-white dark:bg-[#182230] border border-[#e4e7ec] dark:border-[#344054] rounded-full text-[12px] font-bold text-[#667085] dark:text-[#94a3b8]">{steps.steps.length} Actions</span>
+                <span className="px-3 py-2 bg-white dark:bg-[#182230] border border-[#e4e7ec] dark:border-[#344054] rounded-full text-[12px] font-bold text-[#667085] dark:text-[#94a3b8]">{steps.steps.length} <span data-i18n="actions">Actions</span></span>
               </div>
               <div className="p-0 sm:p-0">
                 {steps.steps.map((step, index) => (
@@ -209,7 +211,7 @@ export default function Grievance() {
                         className="w-full flex items-center justify-between gap-5 p-[24px_0] border-0 bg-transparent text-left cursor-pointer"
                       >
                         <div>
-                          <small className="text-[9px] font-extrabold tracking-[1.4px] text-[#98a2b3]">ACTION {step.step}</small>
+                          <small className="text-[9px] font-extrabold tracking-[1.4px] text-[#98a2b3]">{t('action')} {step.step}</small>
                           <strong className="block text-[17px] text-[#101828] dark:text-[#f8fafc]">{step.title}</strong>
                         </div>
                         <div className="flex items-center gap-5">
@@ -232,8 +234,8 @@ export default function Grievance() {
                 <div className="p-[30px_32px] bg-[#101828] text-white">
                   <div className="flex justify-between items-center mb-5">
                     <div>
-                      <small className="text-[9px] tracking-[1.5px] text-[#fda29b]">NEED DIRECT HELP?</small>
-                      <h4 className="mt-1 text-xl">Official Contacts</h4>
+                      <small className="text-[9px] tracking-[1.5px] text-[#fda29b]" data-i18n="need_direct_help">NEED DIRECT HELP?</small>
+                      <h4 className="mt-1 text-xl" data-i18n="official_contacts">Official Contacts</h4>
                     </div>
                     <PhoneCall size={24} />
                   </div>
@@ -268,22 +270,22 @@ export default function Grievance() {
           <div className="grid grid-cols-1 lg:grid-cols-[0.72fr_1.28fr] overflow-hidden bg-[#101828] rounded-[0_35px_0_0]">
             {/* Left Intro */}
             <div className="p-8 sm:p-14 bg-[radial-gradient(circle_at_20%_100%,rgba(217,45,32,0.25),transparent_38%),#101828] text-white">
-              <span className="block mb-2 text-[11px] font-extrabold tracking-[2px] text-[#d92d20]">ESCALATION TOOL</span>
-              <h2 className="mt-3 mb-5 text-[39px] leading-[1.05] tracking-[-1.8px]">Turn your issue into a <span className="text-[#fda29b]">formal complaint.</span></h2>
-              <p className="text-[15px] leading-relaxed text-[#98a2b3]">Provide the essential details and SetuAI will prepare a structured complaint draft for the concerned authority.</p>
+              <span className="block mb-2 text-[11px] font-extrabold tracking-[2px] text-[#d92d20]" data-i18n="escalation_tool">ESCALATION TOOL</span>
+              <h2 className="mt-3 mb-5 text-[39px] leading-[1.05] tracking-[-1.8px] whitespace-pre-line" data-i18n="complaint_title">Turn your issue into a <span className="text-[#fda29b]">formal complaint.</span></h2>
+              <p className="text-[15px] leading-relaxed text-[#98a2b3]" data-i18n="complaint_sub">Provide the essential details and JanMitra AI will prepare a structured complaint draft for the concerned authority.</p>
               <div className="flex flex-col gap-6 mt-11">
                 {[
-                  { icon: User, title: 'Your Details', desc: 'Name and location information' },
-                  { icon: MessageSquareWarning, title: 'Describe Problem', desc: 'Explain exactly what happened' },
-                  { icon: FileCheck2, title: 'Get Draft', desc: 'Receive a ready complaint letter' },
+                  { icon: User, title: 'your_details', desc: 'name_location' },
+                  { icon: MessageSquareWarning, title: 'describe_problem', desc: 'explain_happened' },
+                  { icon: FileCheck2, title: 'get_draft', desc: 'ready_letter' },
                 ].map((item, i) => (
                   <div key={i} className="flex gap-4">
                     <span className="w-[40px] h-[40px] flex-shrink-0 grid place-items-center border border-[#475467] rounded-full text-[#fda29b]">
                       <item.icon size={17} />
                     </span>
                     <div>
-                      <strong className="text-sm text-white">{item.title}</strong>
-                      <p className="text-[12px] leading-relaxed text-[#98a2b3]">{item.desc}</p>
+                      <strong className="text-sm text-white" data-i18n={item.title}>{item.title}</strong>
+                      <p className="text-[12px] leading-relaxed text-[#98a2b3]" data-i18n={item.desc}>{item.desc}</p>
                     </div>
                   </div>
                 ))}
@@ -294,19 +296,19 @@ export default function Grievance() {
             <div className="p-8 sm:p-12 bg-white dark:bg-[#182230]">
               <div className="flex justify-between items-center mb-8 pb-5 border-b border-[#e4e7ec] dark:border-[#344054]">
                 <div>
-                  <span className="text-[9px] font-extrabold tracking-[1.5px] text-[#d92d20]">COMPLAINT BUILDER</span>
-                  <h3 className="mt-1.5 text-2xl text-[#101828] dark:text-[#f8fafc]">Citizen Information</h3>
+                  <span className="text-[9px] font-extrabold tracking-[1.5px] text-[#d92d20]" data-i18n="complaint_builder">COMPLAINT BUILDER</span>
+                  <h3 className="mt-1.5 text-2xl text-[#101828] dark:text-[#f8fafc]" data-i18n="citizen_info">Citizen Information</h3>
                 </div>
                 <span className="flex items-center gap-2 text-[11px] font-bold text-[#039855]">
                   <LockKeyhole size={15} />
-                  Form Data
+                  <span data-i18n="form_data">Form Data</span>
                 </span>
               </div>
 
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                   <div>
-                    <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]">Full Name <span className="text-[#d92d20]">*</span></label>
+                    <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]" data-i18n="full_name">Full Name <span className="text-[#d92d20]">*</span></label>
                     <input
                       id="name"
                       value={formData.name}
@@ -317,7 +319,7 @@ export default function Grievance() {
                     />
                   </div>
                   <div>
-                    <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]">District <span className="text-[#d92d20]">*</span></label>
+                    <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]" data-i18n="district">District <span className="text-[#d92d20]">*</span></label>
                     <input
                       id="district"
                       value={formData.district}
@@ -330,7 +332,7 @@ export default function Grievance() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                   <div>
-                    <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]">Block / Tehsil</label>
+                    <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]" data-i18n="block_tehsil">Block / Tehsil</label>
                     <input
                       id="block"
                       value={formData.block}
@@ -340,7 +342,7 @@ export default function Grievance() {
                     />
                   </div>
                   <div>
-                    <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]">Village / Ward</label>
+                    <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]" data-i18n="village_ward">Village / Ward</label>
                     <input
                       id="village"
                       value={formData.village}
@@ -351,7 +353,7 @@ export default function Grievance() {
                   </div>
                 </div>
                 <div>
-                  <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]">Issue Type <span className="text-[#d92d20]">*</span></label>
+                  <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]" data-i18n="issue_type">Issue Type <span className="text-[#d92d20]">*</span></label>
                   <div className="relative">
                     <ListFilter size={18} className="absolute left-4 top-1/2 -translate-y-1/2 text-[#64748b] pointer-events-none" />
                     <select
@@ -361,7 +363,7 @@ export default function Grievance() {
                       required
                       className="w-full p-4 pl-12 border border-[#d0d5dd] dark:border-[#344054] rounded-[5px] bg-white dark:bg-[#0f172a] text-[#101828] dark:text-[#f8fafc] appearance-none outline-none focus:border-[#d92d20] focus:shadow-[0_0_0_3px_rgba(217,45,32,0.08)] transition-all"
                     >
-                      <option value="">— Select Official Issue Category —</option>
+                      <option value="" data-i18n="select_category">— Select Official Issue Category —</option>
                       <option value="Ration Denied or Short Supply">Ration Denied or Short Supply</option>
                       <option value="Government Scheme Benefit Not Received">Scheme Benefit Not Received</option>
                       <option value="Corruption / Bribery by Government Official">Corruption / Bribery</option>
@@ -372,7 +374,7 @@ export default function Grievance() {
                   </div>
                 </div>
                 <div>
-                  <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]">Description of Issue <span className="text-[#d92d20]">*</span></label>
+                  <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]" data-i18n="issue_desc">Description of Issue <span className="text-[#d92d20]">*</span></label>
                   <textarea
                     id="description"
                     value={formData.description}
@@ -385,7 +387,7 @@ export default function Grievance() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                   <div>
-                    <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]">Date of Incident</label>
+                    <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]" data-i18n="incident_date">Date of Incident</label>
                     <input
                       id="date_of_incident"
                       type="date"
@@ -395,7 +397,7 @@ export default function Grievance() {
                     />
                   </div>
                   <div>
-                    <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]">Previous Complaint No.</label>
+                    <label className="block mb-2 text-[12px] font-bold text-[#344054] dark:text-[#94a3b8]" data-i18n="previous_complaint">Previous Complaint No.</label>
                     <input
                       id="previous_complaint_no"
                       value={formData.previous_complaint_no}
@@ -417,7 +419,7 @@ export default function Grievance() {
                     </>
                   ) : (
                     <>
-                      <span>Generate Complaint Draft</span>
+                      <span data-i18n="generate_complaint">Generate Complaint Draft</span>
                       <MoveRight size={18} />
                     </>
                   )}
@@ -431,12 +433,12 @@ export default function Grievance() {
             <div className="mt-16">
               <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 mb-6">
                 <div>
-                  <span className="block mb-2 text-[11px] font-extrabold tracking-[2px] text-[#d92d20]">DOCUMENT READY</span>
-                  <h2 className="text-[clamp(30px,3vw,45px)] leading-[1.1] tracking-[-1.7px] text-[#101828] dark:text-[#f8fafc]">Your complaint draft</h2>
+                  <span className="block mb-2 text-[11px] font-extrabold tracking-[2px] text-[#d92d20]" data-i18n="document_ready">DOCUMENT READY</span>
+                  <h2 className="text-[clamp(30px,3vw,45px)] leading-[1.1] tracking-[-1.7px] text-[#101828] dark:text-[#f8fafc]" data-i18n="your_complaint">Your complaint draft</h2>
                 </div>
                 <span className="flex items-center gap-2 px-3 py-2 rounded-full bg-[#ecfdf3] text-[#039855] text-[12px] font-bold">
                   <BadgeCheck size={16} />
-                  Generated
+                  <span data-i18n="generated">Generated</span>
                 </span>
               </div>
 
@@ -446,8 +448,8 @@ export default function Grievance() {
                     <div className="flex items-center gap-3">
                       <FileCheck2 size={20} className="text-[#d92d20]" />
                       <div>
-                        <small className="text-[8px] tracking-[1.4px] text-[#98a2b3]">FORMAL LETTER</small>
-                        <strong className="block text-sm text-[#101828] dark:text-[#f8fafc]">Complaint Draft</strong>
+                        <small className="text-[8px] tracking-[1.4px] text-[#98a2b3]" data-i18n="formal_letter">FORMAL LETTER</small>
+                        <strong className="block text-sm text-[#101828] dark:text-[#f8fafc]" data-i18n="complaint_draft">Complaint Draft</strong>
                       </div>
                     </div>
                     <div className="flex gap-2">
@@ -471,8 +473,8 @@ export default function Grievance() {
                       <Route size={20} />
                     </span>
                     <div>
-                      <small className="text-[8px] tracking-[1.3px] text-[#98a2b3]">WHAT NOW?</small>
-                      <h3 className="mt-1 text-[17px]">Submission Route</h3>
+                      <small className="text-[8px] tracking-[1.3px] text-[#98a2b3]" data-i18n="what_now">WHAT NOW?</small>
+                      <h3 className="mt-1 text-[17px]" data-i18n="submission_route">Submission Route</h3>
                     </div>
                   </div>
                   <div className="p-[10px_22px_22px]">
@@ -492,18 +494,6 @@ export default function Grievance() {
           )}
         </div>
       </section>
-
-      <style jsx>{`
-        .step-open .step-toggle-icon {
-          transform: rotate(180deg);
-        }
-      `}</style>
     </div>
   )
 }
-
-// Missing imports
-const ChevronDown = ({ size, className }) => <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="m6 9 6 6 6-6"/></svg>
-const Copy = ({ size, className }) => <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
-const Printer = ({ size, className }) => <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></svg>
-const Loader = ({ size, className }) => <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M12 2v4"/><path d="M12 18v4"/><path d="M4.93 4.93l2.83 2.83"/><path d="M16.24 16.24l2.83 2.83"/><path d="M2 12h4"/><path d="M18 12h4"/><path d="M4.93 19.07l2.83-2.83"/><path d="M16.24 7.76l2.83-2.83"/></svg>

@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import { Sparkles, Landmark, GraduationCap, Wheat, HeartPulse, CalendarDays, BriefcaseBusiness, UsersRound, ChevronDown, Search, ArrowRight, ShieldCheck, ScanSearch, BadgeCheck, Gift, Files, MapPin, ArrowUpRight, Check, SearchX, Loader } from 'lucide-react'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function Schemes() {
+  const { t } = useLanguage()
   const [form, setForm] = useState({
     age: '',
     occupation: 'farmer',
@@ -44,13 +46,13 @@ export default function Schemes() {
         <div className="relative z-10 max-w-[800px]">
           <div className="inline-flex items-center gap-2.5 mb-5 text-[13px] font-extrabold tracking-[1.7px] text-[#8d3e13] dark:text-[#ffc18d]">
             <Sparkles size={18} />
-            PERSONALIZED WELFARE DISCOVERY
+            <span data-i18n="personalized_welfare">PERSONALIZED WELFARE DISCOVERY</span>
           </div>
-          <h1 className="text-[clamp(44px,5vw,76px)] leading-[0.98] tracking-[-3.5px] font-extrabold text-[#192236] dark:text-white">
+          <h1 className="text-[clamp(44px,5vw,76px)] leading-[0.98] tracking-[-3.5px] font-extrabold text-[#192236] dark:text-white whitespace-pre-line" data-i18n="schemes_title">
             Find government schemes
             <span className="block text-[#b64a17] dark:text-[#ffc18d]">made for your profile.</span>
           </h1>
-          <p className="max-w-[690px] mt-7 text-[18px] leading-relaxed text-[#654a3d] dark:text-[#e0c3b2]">Tell us a few basic details and JanMitra AI will match your profile with relevant welfare schemes, benefits and required documents.</p>
+          <p className="max-w-[690px] mt-7 text-[18px] leading-relaxed text-[#654a3d] dark:text-[#e0c3b2]" data-i18n="schemes_sub">Tell us a few basic details and JanMitra AI will match your profile with relevant welfare schemes, benefits and required documents.</p>
         </div>
         <div className="relative min-h-[300px] flex items-center justify-center">
           <div className="absolute w-[250px] h-[250px] border border-dashed border-[rgba(77,44,27,0.25)] dark:border-[rgba(255,255,255,0.15)] rounded-full"></div>
@@ -81,21 +83,21 @@ export default function Schemes() {
           <div className="flex gap-4 items-start mb-9">
             <span className="w-[44px] h-[44px] flex-shrink-0 flex items-center justify-center rounded-[14px] bg-[#ffb16c] text-[#48200d] text-[13px] font-black">01</span>
             <div>
-              <span className="block mb-1 text-[11px] tracking-[1.5px] font-extrabold opacity-60">PROFILE DETAILS</span>
-              <h2 className="text-[25px] tracking-[-0.7px]">Tell us about yourself</h2>
+              <span className="block mb-1 text-[11px] tracking-[1.5px] font-extrabold opacity-60" data-i18n="profile_details">PROFILE DETAILS</span>
+              <h2 className="text-[25px] tracking-[-0.7px]" data-i18n="tell_about_self">Tell us about yourself</h2>
             </div>
           </div>
 
           <form onSubmit={handleSubmit} className="flex flex-col gap-6">
             <div>
-              <label className="block mb-2.5 text-sm font-bold text-[#eef1f7]">Your Age</label>
+              <label className="block mb-2.5 text-sm font-bold text-[#eef1f7]" data-i18n="your_age">Your Age</label>
               <div className="relative min-h-[57px] flex items-center border border-white/15 rounded-[15px] bg-white/10 focus-within:border-[#ffb16c] focus-within:bg-white/15 focus-within:shadow-[0_0_0_4px_rgba(255,177,108,0.11)] transition-all">
                 <CalendarDays size={19} className="absolute left-4 text-[#ffb16c]" />
                 <input
                   type="number"
                   value={form.age}
                   onChange={(e) => setForm({ ...form, age: e.target.value })}
-                  placeholder="Example: 45"
+                  placeholder={t('example_age') || 'Example: 45'}
                   required
                   className="w-full h-[57px] pl-12 pr-4 border-0 outline-none bg-transparent text-white text-[15px] font-medium placeholder:text-[#8e98aa]"
                 />
@@ -103,7 +105,7 @@ export default function Schemes() {
             </div>
 
             <div>
-              <label className="block mb-2.5 text-sm font-bold text-[#eef1f7]">What do you do?</label>
+              <label className="block mb-2.5 text-sm font-bold text-[#eef1f7]" data-i18n="what_do">What do you do?</label>
               <div className="relative min-h-[57px] flex items-center border border-white/15 rounded-[15px] bg-white/10 focus-within:border-[#ffb16c] focus-within:bg-white/15 focus-within:shadow-[0_0_0_4px_rgba(255,177,108,0.11)] transition-all">
                 <BriefcaseBusiness size={19} className="absolute left-4 text-[#ffb16c]" />
                 <select
@@ -111,18 +113,18 @@ export default function Schemes() {
                   onChange={(e) => setForm({ ...form, occupation: e.target.value })}
                   className="w-full h-[57px] pl-12 pr-11 appearance-none border-0 outline-none bg-transparent text-white text-[15px] font-medium cursor-pointer"
                 >
-                  <option value="farmer" className="text-[#172033] bg-white">Farmer / Kisan</option>
-                  <option value="labour" className="text-[#172033] bg-white">Daily Wage Labour</option>
-                  <option value="student" className="text-[#172033] bg-white">Student</option>
-                  <option value="unemployed" className="text-[#172033] bg-white">Unemployed / Homemaker</option>
-                  <option value="other" className="text-[#172033] bg-white">Other / Salaried</option>
+                  <option value="farmer" className="text-[#172033] bg-white" data-i18n="farmer">Farmer / Kisan</option>
+                  <option value="labour" className="text-[#172033] bg-white" data-i18n="labour">Daily Wage Labour</option>
+                  <option value="student" className="text-[#172033] bg-white" data-i18n="student">Student</option>
+                  <option value="unemployed" className="text-[#172033] bg-white" data-i18n="unemployed">Unemployed / Homemaker</option>
+                  <option value="other" className="text-[#172033] bg-white" data-i18n="other">Other / Salaried</option>
                 </select>
                 <ChevronDown size={17} className="absolute right-4 pointer-events-none text-[#a9b1c0]" />
               </div>
             </div>
 
             <div>
-              <label className="block mb-2.5 text-sm font-bold text-[#eef1f7]">Social Category</label>
+              <label className="block mb-2.5 text-sm font-bold text-[#eef1f7]" data-i18n="social_category">Social Category</label>
               <div className="relative min-h-[57px] flex items-center border border-white/15 rounded-[15px] bg-white/10 focus-within:border-[#ffb16c] focus-within:bg-white/15 focus-within:shadow-[0_0_0_4px_rgba(255,177,108,0.11)] transition-all">
                 <UsersRound size={19} className="absolute left-4 text-[#ffb16c]" />
                 <select
@@ -142,8 +144,8 @@ export default function Schemes() {
 
             <div>
               <div className="flex justify-between items-center mb-2.5">
-                <label className="text-sm font-bold text-[#eef1f7]">Annual Family Income</label>
-                <span className="text-[10px] tracking-[1px] font-extrabold text-[#ffbd83]">OPTIONAL</span>
+                <label className="text-sm font-bold text-[#eef1f7]" data-i18n="annual_income">Annual Family Income</label>
+                <span className="text-[10px] tracking-[1px] font-extrabold text-[#ffbd83]" data-i18n="optional">OPTIONAL</span>
               </div>
               <div className="relative min-h-[57px] flex items-center border border-white/15 rounded-[15px] bg-white/10 focus-within:border-[#ffb16c] focus-within:bg-white/15 focus-within:shadow-[0_0_0_4px_rgba(255,177,108,0.11)] transition-all">
                 <span className="absolute left-4 text-xl text-[#ffb16c]">₹</span>
@@ -151,7 +153,7 @@ export default function Schemes() {
                   type="number"
                   value={form.income}
                   onChange={(e) => setForm({ ...form, income: e.target.value })}
-                  placeholder="Example: 120000"
+                  placeholder={t('example_income') || 'Example: 120000'}
                   className="w-full h-[57px] pl-12 pr-4 border-0 outline-none bg-transparent text-white text-[15px] font-medium placeholder:text-[#8e98aa]"
                 />
               </div>
@@ -171,7 +173,7 @@ export default function Schemes() {
                 <>
                   <span className="flex items-center gap-2.5">
                     <Search size={20} />
-                    <span>Find My Schemes</span>
+                    <span data-i18n="find_my_schemes">Find My Schemes</span>
                   </span>
                   <ArrowRight size={20} />
                 </>
@@ -182,8 +184,8 @@ export default function Schemes() {
           <div className="flex gap-3 mt-7 pt-6 border-t border-white/10">
             <ShieldCheck size={19} className="flex-shrink-0 text-[#77d9ae]" />
             <div>
-              <strong className="block text-[13px]">Privacy first</strong>
-              <span className="block text-[11px] leading-relaxed text-[#99a3b4]">Your profile is only used to calculate scheme matches.</span>
+              <strong className="block text-[13px]" data-i18n="privacy_first">Privacy first</strong>
+              <span className="block text-[11px] leading-relaxed text-[#99a3b4]" data-i18n="privacy_desc">Your profile is only used to calculate scheme matches.</span>
             </div>
           </div>
         </aside>
@@ -193,8 +195,8 @@ export default function Schemes() {
           <div className="flex gap-4 items-start mb-9">
             <span className="w-[44px] h-[44px] flex-shrink-0 flex items-center justify-center rounded-[14px] bg-[#172033] dark:bg-[#0a0f1a] text-white text-[13px] font-black">02</span>
             <div>
-              <span className="block mb-1 text-[11px] tracking-[1.5px] font-extrabold opacity-60">YOUR RESULTS</span>
-              <h2 className="text-[25px] tracking-[-0.7px]">Recommended schemes</h2>
+              <span className="block mb-1 text-[11px] tracking-[1.5px] font-extrabold opacity-60" data-i18n="your_results">YOUR RESULTS</span>
+              <h2 className="text-[25px] tracking-[-0.7px]" data-i18n="recommended_schemes">Recommended schemes</h2>
             </div>
           </div>
 
@@ -221,20 +223,20 @@ export default function Schemes() {
                   <ScanSearch size={29} />
                 </div>
               </div>
-              <h3 className="text-2xl tracking-[-0.5px] text-[#172033] dark:text-[#edf0f6]">Your matches will appear here</h3>
-              <p className="max-w-[470px] text-[15px] leading-relaxed text-[#737b89] dark:text-[#94a3b8]">Complete your profile and we'll search available welfare schemes for suitable matches.</p>
+              <h3 className="text-2xl tracking-[-0.5px] text-[#172033] dark:text-[#edf0f6]" data-i18n="your_matches">Your matches will appear here</h3>
+              <p className="max-w-[470px] text-[15px] leading-relaxed text-[#737b89] dark:text-[#94a3b8]" data-i18n="complete_profile">Complete your profile and we'll search available welfare schemes for suitable matches.</p>
               <div className="flex flex-wrap gap-2.5 justify-center mt-6">
                 <span className="inline-flex items-center gap-1.5 px-3 py-2 border border-[#e0e2e7] dark:border-[#303643] rounded-full bg-white dark:bg-[#1d2430] text-[#555e6e] dark:text-[#bdc4d0] text-[11px] font-bold">
                   <BadgeCheck size={14} />
-                  Eligibility
+                  <span data-i18n="eligibility">Eligibility</span>
                 </span>
                 <span className="inline-flex items-center gap-1.5 px-3 py-2 border border-[#e0e2e7] dark:border-[#303643] rounded-full bg-white dark:bg-[#1d2430] text-[#555e6e] dark:text-[#bdc4d0] text-[11px] font-bold">
                   <Gift size={14} />
-                  Benefits
+                  <span data-i18n="benefits">Benefits</span>
                 </span>
                 <span className="inline-flex items-center gap-1.5 px-3 py-2 border border-[#e0e2e7] dark:border-[#303643] rounded-full bg-white dark:bg-[#1d2430] text-[#555e6e] dark:text-[#bdc4d0] text-[11px] font-bold">
                   <Files size={14} />
-                  Documents
+                  <span>Documents</span>
                 </span>
               </div>
             </div>
@@ -242,8 +244,8 @@ export default function Schemes() {
             <div className="space-y-4">
               <div className="flex justify-between items-center mb-2 p-[19px_22px] rounded-[18px] bg-[#e7f7ee] dark:bg-[#1a3a2e]">
                 <div>
-                  <span className="block mb-1 text-[10px] font-black tracking-[1.2px] text-[#32815c] dark:text-[#6ef0ca]">MATCHING COMPLETE</span>
-                  <h3 className="text-[18px] text-[#17452f] dark:text-[#edf7f4]">{schemes.length} scheme{schemes.length !== 1 ? 's' : ''} found for you</h3>
+                  <span className="block mb-1 text-[10px] font-black tracking-[1.2px] text-[#32815c] dark:text-[#6ef0ca]" data-i18n="matching_complete">MATCHING COMPLETE</span>
+                  <h3 className="text-[18px] text-[#17452f] dark:text-[#edf7f4]">{schemes.length} <span data-i18n="schemes_found">schemes found for you</span></h3>
                 </div>
                 <span className="w-[42px] h-[42px] flex items-center justify-center rounded-full bg-[#2e8b61] text-white">
                   <Check size={20} />
@@ -271,14 +273,14 @@ export default function Schemes() {
                       <div className="flex gap-3 p-[18px_10px_18px_0]">
                         <Gift size={19} className="flex-shrink-0 text-[#c35a22]" />
                         <div>
-                          <span className="block text-[9px] font-extrabold tracking-[1px] text-[#9a9faa] dark:text-[#94a3b8]">WHAT YOU GET</span>
+                          <span className="block text-[9px] font-extrabold tracking-[1px] text-[#9a9faa] dark:text-[#94a3b8]" data-i18n="what_you_get">WHAT YOU GET</span>
                           <strong className="text-[12px] leading-relaxed text-[#343d4c] dark:text-[#dce1e9]">{scheme.benefits}</strong>
                         </div>
                       </div>
                       <div className="flex gap-3 p-[18px_10px_18px_20px] border-l border-[#eceef1] dark:border-[#333a47]">
                         <Files size={19} className="flex-shrink-0 text-[#c35a22]" />
                         <div>
-                          <span className="block text-[9px] font-extrabold tracking-[1px] text-[#9a9faa] dark:text-[#94a3b8]">DOCUMENTS NEEDED</span>
+                          <span className="block text-[9px] font-extrabold tracking-[1px] text-[#9a9faa] dark:text-[#94a3b8]" data-i18n="documents_needed">DOCUMENTS NEEDED</span>
                           <strong className="text-[12px] leading-relaxed text-[#343d4c] dark:text-[#dce1e9]">{(scheme.documents || []).join(', ') || 'Check official portal'}</strong>
                         </div>
                       </div>
@@ -294,7 +296,7 @@ export default function Schemes() {
                         rel="noopener"
                         className="inline-flex items-center gap-2 px-4 py-3 rounded-[11px] bg-[#ffad63] dark:bg-[#4a3a1a] text-[#321708] dark:text-white text-[11px] font-extrabold hover:bg-[#172033] dark:hover:bg-[#0a0f1a] hover:text-white transition-all"
                       >
-                        Visit Official Portal
+                        <span data-i18n="visit_official">Visit Official Portal</span>
                         <ArrowUpRight size={15} />
                       </a>
                     </div>
@@ -305,8 +307,8 @@ export default function Schemes() {
               <div className="flex gap-3 mt-1 p-[17px_19px] border border-[#f1d49e] dark:border-[#4a3a1a] rounded-[16px] bg-[#fff7e7] dark:bg-[#1a1a0a] text-[#74501e] dark:text-[#fbbf24]">
                 <ShieldCheck size={19} className="flex-shrink-0" />
                 <div>
-                  <strong className="block text-[12px]">Important</strong>
-                  <span className="text-[11px] leading-relaxed">JanMitra AI provides AI-generated guidance for educational purposes only. Verify important information with official sources.</span>
+                  <strong className="block text-[12px]" data-i18n="important">Important</strong>
+                  <span className="text-[11px] leading-relaxed" data-i18n="scheme_disclaimer">JanMitra AI provides AI-generated guidance for educational purposes only. Verify important information with official sources.</span>
                 </div>
               </div>
             </div>

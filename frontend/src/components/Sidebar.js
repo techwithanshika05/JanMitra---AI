@@ -9,20 +9,20 @@ export default function Sidebar({ isOpen, onClose }) {
   const router = useRouter()
 
   const navItems = [
-    { href: '/', icon: House, label: 'Home', description: 'Your starting point' },
-    { href: '/chat', icon: MessageCircleMore, label: 'Ask JanMitra AI', description: 'Get instant welfare guidance', badge: 'AI', featured: true },
+    { href: '/', icon: House, label: 'home', description: 'home_desc' },
+    { href: '/chat', icon: MessageCircleMore, label: 'ask_janmitra', description: 'ask_desc', badge: 'AI', featured: true },
   ]
 
   const services = [
-    { href: '/schemes', icon: Radar, label: 'Scheme Finder', description: 'Discover benefits' },
-    { href: '/checklist', icon: ListChecks, label: 'Checklist', description: 'Prepare documents' },
-    { href: '/grievance', icon: MessagesSquare, label: 'Grievance', description: 'Resolve an issue' },
+    { href: '/schemes', icon: Radar, label: 'scheme_finder', description: 'scheme_desc' },
+    { href: '/checklist', icon: ListChecks, label: 'checklist', description: 'checklist_desc' },
+    { href: '/grievance', icon: MessagesSquare, label: 'grievance', description: 'grievance_desc' },
   ]
 
   const secondary = [
-    { href: '/feedback', icon: Star, label: 'Feedback' },
-    { href: '/disclaimer', icon: ShieldCheck, label: 'Responsible AI' },
-    { href: '/admin', icon: Activity, label: 'Admin' },
+    { href: '/feedback', icon: Star, label: 'feedback' },
+    { href: '/disclaimer', icon: ShieldCheck, label: 'responsible_ai' },
+    { href: '/admin', icon: Activity, label: 'admin' },
   ]
 
   return (
@@ -47,16 +47,16 @@ export default function Sidebar({ isOpen, onClose }) {
 
       {/* Intro */}
       <div className="pb-7 border-b border-white/10">
-        <span className="inline-flex mb-2.5 text-[#62dfbd] text-[11px] font-extrabold tracking-[1.5px] uppercase">Explore JanMitra AI</span>
-        <h2 className="text-[clamp(29px,4vw,42px)] leading-[1.08] tracking-[-1.8px] font-heading">What can we help<br />you with today?</h2>
-        <p className="max-w-[380px] mt-3 text-white/55 text-sm">Choose a service or ask the AI assistant directly.</p>
+        <span className="inline-flex mb-2.5 text-[#62dfbd] text-[11px] font-extrabold tracking-[1.5px] uppercase" data-i18n="explore">Explore JanMitra AI</span>
+        <h2 className="text-[clamp(29px,4vw,42px)] leading-[1.08] tracking-[-1.8px] font-heading" data-i18n="what_help">What can we help<br />you with today?</h2>
+        <p className="max-w-[380px] mt-3 text-white/55 text-sm" data-i18n="choose_service">Choose a service or ask the AI assistant directly.</p>
       </div>
 
       {/* Navigation */}
       <nav className="py-7 flex flex-col gap-7">
         {/* Primary */}
         <div className="flex flex-col gap-2.5">
-          <span className="mb-1 text-white/35 text-[10px] font-extrabold tracking-[1.6px] uppercase">Start here</span>
+          <span className="mb-1 text-white/35 text-[10px] font-extrabold tracking-[1.6px] uppercase" data-i18n="start_here">Start here</span>
           {navItems.map((item) => {
             const Icon = item.icon
             return (
@@ -69,8 +69,8 @@ export default function Sidebar({ isOpen, onClose }) {
                   <Icon size={19} />
                 </span>
                 <span className="flex-1 min-w-0 flex flex-col">
-                  <strong className="text-sm font-bold">{item.label}</strong>
-                  {item.description && <small className="mt-0.5 text-white/40 text-[11px]">{item.description}</small>}
+                  <strong className="text-sm font-bold" data-i18n={item.label}>{item.label}</strong>
+                  {item.description && <small className="mt-0.5 text-white/40 text-[11px]" data-i18n={item.description}>{item.description}</small>}
                 </span>
                 {item.badge && <span className="px-2 py-1 rounded-[7px] bg-[#f4c95d] text-[#142019] text-[9px] font-black">{item.badge}</span>}
               </Link>
@@ -80,7 +80,7 @@ export default function Sidebar({ isOpen, onClose }) {
 
         {/* Services */}
         <div className="flex flex-col gap-2.5">
-          <span className="mb-1 text-white/35 text-[10px] font-extrabold tracking-[1.6px] uppercase">Citizen tools</span>
+          <span className="mb-1 text-white/35 text-[10px] font-extrabold tracking-[1.6px] uppercase" data-i18n="citizen_tools">Citizen tools</span>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
             {services.map((item) => {
               const Icon = item.icon
@@ -94,8 +94,8 @@ export default function Sidebar({ isOpen, onClose }) {
                     <Icon size={18} />
                   </span>
                   <span className="flex-1 min-w-0 flex flex-col">
-                    <strong className="text-sm font-bold">{item.label}</strong>
-                    <small className="mt-0.5 text-white/40 text-[11px]">{item.description}</small>
+                    <strong className="text-sm font-bold" data-i18n={item.label}>{item.label}</strong>
+                    <small className="mt-0.5 text-white/40 text-[11px]" data-i18n={item.description}>{item.description}</small>
                   </span>
                 </Link>
               )
@@ -117,7 +117,7 @@ export default function Sidebar({ isOpen, onClose }) {
                 <span className="w-[38px] h-[38px] flex-shrink-0 grid place-items-center rounded-[13px] bg-white/10">
                   <Icon size={18} />
                 </span>
-                <strong className="text-sm font-bold">{item.label}</strong>
+                <strong className="text-sm font-bold" data-i18n={item.label}>{item.label}</strong>
               </Link>
             )
           })}
@@ -129,8 +129,8 @@ export default function Sidebar({ isOpen, onClose }) {
         <div className="p-4 flex gap-3 rounded-[17px] bg-white/5 border border-white/10 text-white/65">
           <ShieldCheck size={18} className="flex-shrink-0 text-[#f4c95d]" />
           <div>
-            <strong className="text-white text-xs">Independent assistance tool</strong>
-            <span className="block text-[10px]">Not an official Government service.</span>
+            <strong className="text-white text-xs" data-i18n="independent_tool">Independent assistance tool</strong>
+            <span className="block text-[10px]" data-i18n="not_official">Not an official Government service.</span>
           </div>
         </div>
       </div>

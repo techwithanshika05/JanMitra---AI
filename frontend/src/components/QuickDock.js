@@ -4,7 +4,10 @@ import { House, Sparkles, Radar, ClipboardCheck, MessageSquare } from 'lucide-re
 
 export default function QuickDock() {
   const router = useRouter()
-
+// Chat page pe hide karo
+  if (router.pathname === '/chat') {
+    return null
+  }
   const items = [
     { href: '/', icon: House, label: 'Home' },
     { href: '/chat', icon: Sparkles, label: 'Ask AI' },

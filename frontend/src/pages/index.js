@@ -1,7 +1,16 @@
+import { useEffect } from 'react'
 import Link from 'next/link'
-import { Sparkles, ArrowUpRight, Search, ClipboardCheck, FileWarning, HeartHandshake, PhoneCall, Bot, ShieldCheck, Languages, Landmark } from 'lucide-react'
+import { Sparkles, ArrowUpRight, Search, ClipboardCheck, FileWarning, PhoneCall, Bot, ShieldCheck, Languages, Landmark } from 'lucide-react'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function Home() {
+  const { language, t } = useLanguage()
+
+  // Debug: Log current language
+  useEffect(() => {
+    console.log('Current language in Home:', language)
+  }, [language])
+
   return (
     <div className="setu-home animate-fade-in max-w-[1480px] mx-auto px-4 sm:px-8 py-7 sm:py-10">
       {/* HERO */}
@@ -9,21 +18,19 @@ export default function Home() {
         <div className="relative z-10">
           <div className="inline-flex items-center gap-2.5 px-3.5 py-2 rounded-full border border-black/10 dark:border-white/10 bg-white/70 dark:bg-[#182131] text-sm font-extrabold uppercase tracking-wide">
             <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse shadow-[0_0_0_5px_rgba(18,183,106,0.12)]"></span>
-            AI-Powered · Uttar Pradesh
+            {t('hero_badge')}
           </div>
-          <h1 className="mt-8 mb-5 text-[clamp(52px,5.6vw,88px)] leading-[0.98] tracking-[-0.065em] font-extrabold text-[#101828] dark:text-white">
-            Government schemes<br />
-            shouldn't feel <span className="relative inline-block text-[#ff6b35] after:content-[''] after:absolute after:left-[2%] after:right-0 after:bottom-[-8px] after:h-[7px] after:rounded-full after:bg-[#ffd166] after:-rotate-[2deg]">complicated.</span>
+          <h1 className="mt-8 mb-5 text-[clamp(52px,5.6vw,88px)] leading-[0.98] tracking-[-0.065em] font-extrabold text-[#101828] dark:text-white whitespace-pre-line">
+            {t('hero_title')}
           </h1>
           <p className="max-w-[620px] text-[#667085] dark:text-[#94a3b8] text-lg leading-[1.8]">
-            JanMitra AI helps citizens understand welfare schemes, documents,
-            eligibility and government services without confusing paperwork.
+            {t('hero_sub')}
           </p>
           <div className="flex flex-wrap items-center gap-3.5 mt-9">
             <Link href="/chat" className="min-w-[225px] flex items-center justify-between px-4 py-4 bg-[#101828] dark:bg-white text-white dark:text-[#101828] rounded-[18px] transition-all hover:-translate-y-1 hover:shadow-lg">
               <span className="flex flex-col text-[17px] font-extrabold">
-                <small className="text-[10px] tracking-[0.14em] text-[#98a2b3] dark:text-[#667085]">START HERE</small>
-                Ask JanMitra AI
+                <small className="text-[10px] tracking-[0.14em] text-[#98a2b3] dark:text-[#667085]">{t('start_here_btn')}</small>
+                {t('ask_janmitra_btn')}
               </span>
               <span className="w-[46px] h-[46px] grid place-items-center rounded-[13px] bg-[#ff6b35]">
                 <ArrowUpRight size={18} />
@@ -31,7 +38,7 @@ export default function Home() {
             </Link>
             <Link href="/schemes" className="inline-flex items-center gap-2.5 px-5 py-[18px] rounded-[16px] border border-[#e5e7eb] dark:border-[#273244] bg-white dark:bg-[#182131] text-[#101828] dark:text-white font-bold transition-all hover:-translate-y-1 hover:border-[#176bff]">
               <Sparkles size={18} />
-              <span>Discover my schemes</span>
+              <span>{t('discover_schemes')}</span>
             </Link>
           </div>
         </div>
@@ -49,7 +56,7 @@ export default function Home() {
             <h3 className="text-[34px] font-bold tracking-[-0.04em]">Namaste 👋</h3>
             <p className="text-[#98a2b3] text-base leading-relaxed">Tell me what government service you need help with.</p>
             <Link href="/chat" className="flex items-center justify-between mt-7 px-[18px] py-4 rounded-[15px] bg-white/5 border border-white/10 text-[#d0d5dd] hover:bg-white/10 transition-all">
-              <span>Ask your question...</span>
+              <span>{t('ask_anything') || 'Ask your question...'}</span>
               <ArrowUpRight className="text-[#ffd166]" size={18} />
             </Link>
           </div>
@@ -75,9 +82,9 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end gap-4 mb-11">
           <div>
             <span className="text-[#ff6b35] font-mono text-sm font-extrabold">01</span>
-            <p className="mt-2 text-xs font-extrabold tracking-[0.13em] text-[#667085] dark:text-[#94a3b8]">WHAT DO YOU NEED?</p>
+            <p className="mt-2 text-xs font-extrabold tracking-[0.13em] text-[#667085] dark:text-[#94a3b8]">{t('what_need')}</p>
           </div>
-          <h2 className="text-[clamp(38px,4vw,60px)] leading-[1.05] tracking-[-0.05em] text-[#101828] dark:text-white max-w-[600px]">Choose a task.<br />We'll guide you.</h2>
+          <h2 className="text-[clamp(38px,4vw,60px)] leading-[1.05] tracking-[-0.05em] text-[#101828] dark:text-white max-w-[600px] whitespace-pre-line">{t('choose_task')}</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-[1.35fr_1fr_1fr] gap-3.5">
           <Link href="/schemes" className="md:row-span-2 min-h-[584px] p-7 rounded-[24px] bg-[#176bff] text-white flex flex-col justify-between transition-all hover:-translate-y-2 hover:shadow-[0_30px_60px_rgba(23,107,255,0.25)]">
@@ -89,8 +96,8 @@ export default function Home() {
             </div>
             <div>
               <span className="block font-mono text-xs opacity-55 mb-3">01</span>
-              <h3 className="text-[48px] font-bold tracking-[-0.035em]">Find Schemes</h3>
-              <p className="max-w-[430px] text-white/75 text-[17px] leading-relaxed">Discover government schemes based on your age, occupation and category.</p>
+              <h3 className="text-[48px] font-bold tracking-[-0.035em]">{t('find_schemes')}</h3>
+              <p className="max-w-[430px] text-white/75 text-[17px] leading-relaxed">{t('find_schemes_desc')}</p>
             </div>
           </Link>
           <Link href="/checklist" className="min-h-[285px] p-7 rounded-[24px] border border-[#e5e7eb] dark:border-[#273244] bg-white dark:bg-[#182131] text-[#101828] dark:text-white flex flex-col transition-all hover:-translate-y-2 hover:shadow-md hover:border-blue-400/40">
@@ -102,8 +109,8 @@ export default function Home() {
             </div>
             <div className="mt-auto">
               <span className="block font-mono text-xs opacity-55 mb-3">02</span>
-              <h3 className="text-[26px] font-bold tracking-[-0.035em]">Documents</h3>
-              <p className="text-[15px] leading-relaxed text-[#667085] dark:text-[#94a3b8]">Know exactly what documents you need before visiting an office.</p>
+              <h3 className="text-[26px] font-bold tracking-[-0.035em]">{t('documents')}</h3>
+              <p className="text-[15px] leading-relaxed text-[#667085] dark:text-[#94a3b8]">{t('documents_desc')}</p>
             </div>
           </Link>
           <Link href="/grievance" className="min-h-[285px] p-7 rounded-[24px] border border-[#e5e7eb] dark:border-[#273244] bg-white dark:bg-[#182131] text-[#101828] dark:text-white flex flex-col transition-all hover:-translate-y-2 hover:shadow-md hover:border-blue-400/40">
@@ -115,21 +122,8 @@ export default function Home() {
             </div>
             <div className="mt-auto">
               <span className="block font-mono text-xs opacity-55 mb-3">03</span>
-              <h3 className="text-[26px] font-bold tracking-[-0.035em]">Raise a Grievance</h3>
-              <p className="text-[15px] leading-relaxed text-[#667085] dark:text-[#94a3b8]">Understand complaint procedures and generate a formal grievance.</p>
-            </div>
-          </Link>
-          <Link href="/life-events" className="min-h-[285px] p-7 rounded-[24px] border border-[#e5e7eb] dark:border-[#273244] bg-white dark:bg-[#182131] text-[#101828] dark:text-white flex flex-col transition-all hover:-translate-y-2 hover:shadow-md hover:border-blue-400/40">
-            <div className="flex items-center justify-between">
-              <span className="w-[54px] h-[54px] grid place-items-center rounded-[16px] bg-[#f2f4f7] dark:bg-[#273244]">
-                <HeartHandshake size={24} />
-              </span>
-              <ArrowUpRight size={20} className="text-[#667085] dark:text-[#94a3b8]" />
-            </div>
-            <div className="mt-auto">
-              <span className="block font-mono text-xs opacity-55 mb-3">04</span>
-              <h3 className="text-[26px] font-bold tracking-[-0.035em]">Life Events</h3>
-              <p className="text-[15px] leading-relaxed text-[#667085] dark:text-[#94a3b8]">Find relevant support after marriage, childbirth or turning 60.</p>
+              <h3 className="text-[26px] font-bold tracking-[-0.035em]">{t('raise_grievance')}</h3>
+              <p className="text-[15px] leading-relaxed text-[#667085] dark:text-[#94a3b8]">{t('raise_grievance_desc')}</p>
             </div>
           </Link>
         </div>
@@ -139,25 +133,25 @@ export default function Home() {
       <section className="grid grid-cols-1 lg:grid-cols-[.85fr_1.15fr] gap-12 p-8 sm:p-[75px] rounded-[32px] bg-[#101828] text-white">
         <div>
           <span className="text-[#ff6b35] font-mono text-sm font-extrabold">02</span>
-          <h2 className="mt-4 mb-4 text-[43px] leading-[1.08] tracking-[-0.045em]">Built to make public services easier to understand.</h2>
-          <p className="max-w-[440px] text-[#98a2b3] text-base leading-relaxed">One simple interface for welfare information, document guidance and citizen assistance.</p>
+          <h2 className="mt-4 mb-4 text-[43px] leading-[1.08] tracking-[-0.045em]">{t('built_to')}</h2>
+          <p className="max-w-[440px] text-[#98a2b3] text-base leading-relaxed">{t('built_desc')}</p>
         </div>
         <div className="grid grid-cols-2 border-l border-white/10">
           <div className="p-[30px_38px] border-r border-b border-white/10">
             <strong className="block text-[clamp(40px,4vw,64px)] tracking-[-0.06em]">80<span className="text-[#ffd166]">Cr+</span></strong>
-            <p className="mt-1.5 text-[#98a2b3]">Beneficiaries Covered</p>
+            <p className="mt-1.5 text-[#98a2b3]">{t('beneficiaries')}</p>
           </div>
           <div className="p-[30px_38px] border-b border-white/10">
             <strong className="block text-[clamp(40px,4vw,64px)] tracking-[-0.06em]">10<span className="text-[#ffd166]">+</span></strong>
-            <p className="mt-1.5 text-[#98a2b3]">Welfare Schemes</p>
+            <p className="mt-1.5 text-[#98a2b3]">{t('welfare_schemes')}</p>
           </div>
           <div className="p-[30px_38px] border-r border-white/10">
             <strong className="block text-[clamp(40px,4vw,64px)] tracking-[-0.06em]">24<span className="text-[#ffd166]">/7</span></strong>
-            <p className="mt-1.5 text-[#98a2b3]">AI Assistance</p>
+            <p className="mt-1.5 text-[#98a2b3]">{t('ai_assistance')}</p>
           </div>
           <div className="p-[30px_38px]">
             <strong className="block text-[clamp(40px,4vw,64px)] tracking-[-0.06em]">UP</strong>
-            <p className="mt-1.5 text-[#98a2b3]">Uttar Pradesh Focus</p>
+            <p className="mt-1.5 text-[#98a2b3]">{t('uttar_pradesh')}</p>
           </div>
         </div>
       </section>
@@ -169,8 +163,8 @@ export default function Home() {
             <PhoneCall size={24} />
           </span>
           <div>
-            <span className="text-[10px] font-extrabold tracking-[0.12em] text-[#b54708] dark:text-[#fbbf24]">NEED HUMAN HELP?</span>
-            <h2 className="text-xl font-bold mt-1 text-[#101828] dark:text-white">Important Helplines</h2>
+            <span className="text-[10px] font-extrabold tracking-[0.12em] text-[#b54708] dark:text-[#fbbf24]">{t('need_human_help')}</span>
+            <h2 className="text-xl font-bold mt-1 text-[#101828] dark:text-white">{t('important_helplines')}</h2>
           </div>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-0">

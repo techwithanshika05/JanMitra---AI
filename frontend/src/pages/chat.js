@@ -108,166 +108,101 @@ export default function Chat() {
     }
   }
 
-  const suggestedQuestions = [
+  const sampleQuestions = [
     'How do I apply for a new ration card in UP?',
     'What documents are needed for PM Kisan?',
     'How to check Ayushman Bharat eligibility?',
     'What is MGNREGA and how to get a job card?',
-    'How to apply for old age pension in UP?'
+    'How to apply for old age pension in UP?',
+    'How to add a member to my ration card?'
   ]
 
+  const handleSampleClick = (question) => {
+    setInput(question)
+    setCharCount(question.length)
+    setTimeout(() => handleSend(), 100)
+  }
+
   return (
-    <div className="setu-chat w-full h-[calc(100vh-110px)] max-w-none mx-auto p-6 grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-5">
-      {/* Left Panel */}
-      <div className="p-8 flex flex-col justify-start rounded-[30px] bg-gradient-to-br from-[#102d2a] to-[#173c36] text-white overflow-y-auto">
-        <div>
-          <div className="flex items-center gap-2.5 mb-5 font-mono text-[10px] font-extrabold tracking-[0.13em] text-[#86e9c9]">
-            <span className="w-2 h-2 rounded-full bg-[#65e6bd] shadow-[0_0_0_6px_rgba(101,230,189,0.12)]"></span>
-            JANMITRA AI IS ONLINE
-          </div>
-          <h1 className="text-[clamp(30px,2.4vw,44px)] leading-[1.02] font-extrabold tracking-[-0.055em]">
-            Ask.<br />
-            Understand.<br />
-            <em className="not-italic text-[#ffd35c]">Take action.</em>
-          </h1>
-          <p className="mt-4 text-sm leading-relaxed text-white/70">Simple guidance for welfare schemes, ration cards, documents and government services in Uttar Pradesh.</p>
-        </div>
-
-        {/* Session History - No heading */}
-        <div className="mt-8">
-          <button onClick={newChat} className="flex items-center gap-1.5 px-3 py-2 rounded-[7px] border border-white/20 bg-white/5 text-white/75 text-[10px] font-bold uppercase hover:border-[#ffd35c] hover:bg-[#ffd35c]/10 hover:text-[#ffd35c] transition-all mb-3">
-            <Plus size={14} />
-            <span>New chat</span>
-          </button>
-          <div className="max-h-[190px] overflow-y-auto space-y-1.5 custom-scrollbar">
-            {history.length === 0 ? (
-              <div className="min-h-[42px] flex items-center gap-2 p-2.5 border border-dashed border-white/15 rounded-[9px] text-white/40 text-xs">
-                <MessagesSquare size={14} />
-                <span>Your questions will appear here.</span>
-              </div>
-            ) : (
-              history.map((item, index) => (
-                <button 
-                  key={index}
-                  onClick={() => setInput(item)}
-                  className="w-full flex items-center gap-2.5 p-2.5 rounded-[9px] bg-white/5 text-white/80 text-xs hover:border-[#ffd35c]/35 hover:bg-[#ffd35c]/10 hover:text-[#ffd35c] hover:translate-x-1 transition-all"
+    <div className="chat-redesign w-full h-[calc(100vh-110px)] max-w-5xl mx-auto p-6 flex flex-col pb-[90px]">
+      
+      {/* Chat Messages Area */}
+      <div className="flex-1 overflow-y-auto px-4 py-6 custom-scrollbar">
+        {messages.length === 0 ? (
+          /* ===== WELCOME STATE — CENTERED ===== */
+          <div className="flex flex-col items-center justify-center h-full text-center max-w-2xl mx-auto">
+            {/* Icon */}
+            <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#0d7c66] to-[#0a5a4a] flex items-center justify-center mb-6 shadow-lg">
+              <Sparkles size={36} className="text-white" />
+            </div>
+            
+            {/* Heading */}
+            <h1 className="text-4xl md:text-5xl font-extrabold text-[#101828] dark:text-white tracking-tight">
+              JanMitra <span className="text-[#0d7c66]">AI</span>
+            </h1>
+            
+            {/* Tagline */}
+            <p className="text-lg text-[#667085] dark:text-[#94a3b8] mt-3">
+              Your welfare assistance guide for Uttar Pradesh
+            </p>
+            
+            {/* Divider */}
+            <div className="w-16 h-1 bg-[#0d7c66] rounded-full mt-6"></div>
+            
+            {/* Prompt */}
+            <p className="text-xl font-semibold text-[#101828] dark:text-white mt-8">
+              What can I help you with today?
+            </p>
+            
+            {/* Sample Questions Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-6 w-full">
+              {sampleQuestions.map((q, i) => (
+                <button
+                  key={i}
+                  onClick={() => handleSampleClick(q)}
+                  className="group text-left px-5 py-4 rounded-2xl border border-[#e5e7eb] dark:border-[#2c3a37] bg-white dark:bg-[#182230] hover:border-[#0d7c66] hover:shadow-md transition-all duration-200 hover:-translate-y-0.5"
                 >
-                  <MessageCircle size={13} className="text-[#78e8c4]" />
-                  <span className="truncate">{item}</span>
-                </button>
-              ))
-            )}
-          </div>
-        </div>
-
-        {/* Suggested Topics - No heading */}
-        <div className="mt-6">
-          <div className="space-y-0">
-            {suggestedQuestions.map((q, i) => (
-              <button
-                key={i}
-                onClick={() => setInput(q)}
-                className="w-full py-3 px-2 grid grid-cols-[30px_1fr_20px] items-center gap-2 border-t border-white/10 text-white/80 text-[12.5px] font-semibold text-left hover:pl-4 hover:text-[#ffd35c] transition-all"
-              >
-                <span className="font-mono text-[9px] text-white/35">{String(i + 1).padStart(2, '0')}</span>
-                <b className="truncate font-semibold">{q}</b>
-                <ArrowUpRight size={15} className="opacity-50" />
-              </button>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Chat Area */}
-      <div className="min-w-0 min-h-0 grid grid-rows-[auto_1fr_auto] border border-[#e1e7e5] dark:border-[#293532] rounded-[30px] bg-[#fbfcfb] dark:bg-[#111918] overflow-hidden">
-        {/* Header */}
-        <div className="min-h-[82px] p-4 flex items-center justify-between gap-5 border-b border-[#e7ebe9] dark:border-[#2c3a37] bg-white/90 dark:bg-[#182220]">
-          <div className="flex items-center gap-3">
-            <div className="w-[45px] h-[45px] grid place-items-center rounded-[14px] bg-[#173c36] dark:bg-[#2c3a37] text-[#78e8c4]">
-              <Sparkles size={21} />
-            </div>
-            <div>
-              <strong className="text-[15px] text-[#152522] dark:text-[#edf5f2]">JanMitra AI Assistant</strong>
-              <span className="block text-[11px] text-[#83918e] dark:text-[#94a3b8]">Citizen welfare assistant</span>
-            </div>
-          </div>
-          <div className="flex gap-2">
-            <button onClick={exportPDF} className="h-[39px] px-3.5 flex items-center gap-2 border border-[#dce3e0] dark:border-[#32403d] rounded-[11px] bg-white dark:bg-[#1c2725] text-[#455753] dark:text-[#ccd8d5] text-xs font-semibold hover:border-[#173c36] hover:text-[#173c36] transition-all">
-              <Download size={15} />
-              <span>Export</span>
-            </button>
-            <button onClick={clearChat} className="h-[39px] px-3.5 flex items-center gap-2 border border-[#dce3e0] dark:border-[#32403d] rounded-[11px] bg-white dark:bg-[#1c2725] text-[#455753] dark:text-[#ccd8d5] text-xs font-semibold hover:border-red-500 hover:text-red-500 transition-all">
-              <Trash2 size={15} />
-              <span>Clear</span>
-            </button>
-          </div>
-        </div>
-
-        {/* Messages */}
-        <div className="min-h-0 overflow-y-auto p-8 bg-[linear-gradient(rgba(20,60,54,0.025)_1px,transparent_1px),linear-gradient(90deg,rgba(20,60,54,0.025)_1px,transparent_1px)] bg-[length:32px_32px] dark:bg-[#111918] custom-scrollbar">
-          {messages.length === 0 ? (
-            <div className="flex gap-3.5 mb-7 max-w-full">
-              <div className="w-[38px] h-[38px] flex-shrink-0 grid place-items-center rounded-[12px] bg-[#173c36] text-[#77e5c2]">
-                <Bot size={18} />
-              </div>
-              <div className="flex-1 min-w-0 max-w-full">
-                <div className="text-[9px] font-extrabold tracking-[0.13em] text-[#1a8c76] mb-2">JANMITRA AI</div>
-                <div className="p-5 rounded-[4px_20px_20px_20px] border border-[#e0e7e4] dark:border-[#2c3a37] bg-white dark:bg-[#182220] shadow-sm text-[#344642] dark:text-[#edf5f2] text-sm leading-relaxed w-full">
-                  <p className="mt-0">Hello! I'm JanMitra AI, your welfare assistance guide for Uttar Pradesh. Tell me what you're trying to do and I'll help you understand the next steps.</p>
-                  <div className="my-4 grid grid-cols-2 gap-2">
-                    <div className="p-3 flex items-center gap-2.5 rounded-[11px] bg-[#f2f7f5] dark:bg-[#202d2a] text-[12px] font-semibold text-[#38514c] dark:text-[#d5e0dd]">
-                      <CreditCard size={15} className="text-[#118b77]" />
-                      <span>Ration Cards</span>
-                    </div>
-                    <div className="p-3 flex items-center gap-2.5 rounded-[11px] bg-[#f2f7f5] dark:bg-[#202d2a] text-[12px] font-semibold text-[#38514c] dark:text-[#d5e0dd]">
-                      <Landmark size={15} className="text-[#118b77]" />
-                      <span>Welfare Schemes</span>
-                    </div>
-                    <div className="p-3 flex items-center gap-2.5 rounded-[11px] bg-[#f2f7f5] dark:bg-[#202d2a] text-[12px] font-semibold text-[#38514c] dark:text-[#d5e0dd]">
-                      <Files size={15} className="text-[#118b77]" />
-                      <span>Documents</span>
-                    </div>
-                    <div className="p-3 flex items-center gap-2.5 rounded-[11px] bg-[#f2f7f5] dark:bg-[#202d2a] text-[12px] font-semibold text-[#38514c] dark:text-[#d5e0dd]">
-                      <MessageSquareWarning size={15} className="text-[#118b77]" />
-                      <span>Grievances</span>
-                    </div>
+                  <div className="flex items-center gap-3">
+                    <span className="text-[10px] font-bold text-[#0d7c66] bg-[#dff5ec] dark:bg-[#1a3a2e] px-2 py-1 rounded-full">
+                      {String(i + 1).padStart(2, '0')}
+                    </span>
+                    <span className="text-sm font-medium text-[#15201b] dark:text-[#edf5f2] group-hover:text-[#0d7c66] transition-colors">
+                      {q.length > 50 ? q.slice(0, 50) + '...' : q}
+                    </span>
+                    <ArrowUpRight size={16} className="text-[#667085] dark:text-[#94a3b8] group-hover:text-[#0d7c66] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all ml-auto flex-shrink-0" />
                   </div>
-                  <p className="font-semibold text-[#173c36] dark:text-[#73e3bf]">What can I help you with today?</p>
-                </div>
-                <div className="flex items-center gap-2 mt-2">
-                  <span className="text-[10px] text-[#9ba6a4]">{new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
-                  <button onClick={() => speakText('Hello! I\'m JanMitra AI, your welfare assistance guide for Uttar Pradesh. Tell me what you\'re trying to do and I\'ll help you understand the next steps.')} className="w-[27px] h-[27px] grid place-items-center rounded-[8px] bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#118b77] transition-all">
-                    <Volume2 size={14} />
-                  </button>
-                </div>
-              </div>
+                </button>
+              ))}
             </div>
-          ) : (
-            messages.map((msg, index) => (
-              <div key={index} className={`flex gap-3.5 mb-7 ${msg.role === 'user' ? 'justify-end' : ''} max-w-full`}>
-                <div className={`w-[38px] h-[38px] flex-shrink-0 grid place-items-center rounded-[12px] ${msg.role === 'user' ? 'order-2 bg-[#ffd35c] text-[#182c28]' : 'bg-[#173c36] text-[#77e5c2]'}`}>
+          </div>
+        ) : (
+          /* ===== MESSAGES VIEW ===== */
+          <div className="max-w-3xl mx-auto space-y-6">
+            {messages.map((msg, index) => (
+              <div key={index} className={`flex gap-3.5 ${msg.role === 'user' ? 'justify-end' : ''}`}>
+                <div className={`w-9 h-9 flex-shrink-0 grid place-items-center rounded-full ${msg.role === 'user' ? 'order-2 bg-[#ffd35c] text-[#182c28]' : 'bg-[#0d7c66] text-white'}`}>
                   {msg.role === 'user' ? <User size={18} /> : <Bot size={18} />}
                 </div>
-                <div className={`flex-1 min-w-0 max-w-full ${msg.role === 'user' ? 'flex flex-col items-end' : ''}`}>
-                  <div className={`p-5 w-full ${msg.role === 'user' ? 'rounded-[20px_4px_20px_20px] bg-[#173c36] text-white' : 'rounded-[4px_20px_20px_20px] border border-[#e0e7e4] dark:border-[#2c3a37] bg-white dark:bg-[#182220] text-[#344642] dark:text-[#edf5f2]'} text-sm leading-relaxed`}>
+                <div className={`max-w-[80%] ${msg.role === 'user' ? 'flex flex-col items-end' : ''}`}>
+                  <div className={`p-4 rounded-2xl ${msg.role === 'user' ? 'bg-[#0d7c66] text-white rounded-tr-sm' : 'bg-white dark:bg-[#182230] border border-[#e5e7eb] dark:border-[#2c3a37] text-[#344642] dark:text-[#edf5f2] rounded-tl-sm'}`}>
                     <div dangerouslySetInnerHTML={{ __html: msg.content.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>') }} />
                   </div>
-                  <div className="flex items-center gap-1 mt-2">
+                  <div className="flex items-center gap-1 mt-1.5">
                     <span className="text-[10px] text-[#9ba6a4]">{msg.timestamp}</span>
                     {msg.role === 'assistant' && (
                       <>
-                        <button onClick={() => speakText(msg.content)} className="w-[27px] h-[27px] grid place-items-center rounded-[8px] bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#118b77] transition-all">
-                          <Volume2 size={14} />
+                        <button onClick={() => speakText(msg.content)} className="w-6 h-6 grid place-items-center rounded-md bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#0d7c66] transition-all">
+                          <Volume2 size={13} />
                         </button>
                         <div className="flex items-center gap-0.5">
-                          <button className="w-[27px] h-[27px] grid place-items-center rounded-[8px] bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#173c36] transition-all">
-                            <Copy size={15} />
+                          <button className="w-6 h-6 grid place-items-center rounded-md bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#0d7c66] transition-all">
+                            <Copy size={13} />
                           </button>
-                          <button className="w-[27px] h-[27px] grid place-items-center rounded-[8px] bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#173c36] transition-all">
-                            <ThumbsUp size={15} />
+                          <button className="w-6 h-6 grid place-items-center rounded-md bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#0d7c66] transition-all">
+                            <ThumbsUp size={13} />
                           </button>
-                          <button className="w-[27px] h-[27px] grid place-items-center rounded-[8px] bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#173c36] transition-all">
-                            <ThumbsDown size={15} />
+                          <button className="w-6 h-6 grid place-items-center rounded-md bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#0d7c66] transition-all">
+                            <ThumbsDown size={13} />
                           </button>
                         </div>
                       </>
@@ -275,30 +210,30 @@ export default function Chat() {
                   </div>
                 </div>
               </div>
-            ))
-          )}
-          {isTyping && (
-            <div className="flex gap-3.5 mb-7 max-w-full">
-              <div className="w-[38px] h-[38px] flex-shrink-0 grid place-items-center rounded-[12px] bg-[#173c36] text-[#77e5c2]">
-                <Bot size={18} />
-              </div>
-              <div className="flex-1 min-w-0">
-                <div className="p-5 rounded-[4px_20px_20px_20px] border border-[#e0e7e4] dark:border-[#2c3a37] bg-white dark:bg-[#182220] w-full">
+            ))}
+            {isTyping && (
+              <div className="flex gap-3.5">
+                <div className="w-9 h-9 flex-shrink-0 grid place-items-center rounded-full bg-[#0d7c66] text-white">
+                  <Bot size={18} />
+                </div>
+                <div className="p-4 rounded-2xl bg-white dark:bg-[#182230] border border-[#e5e7eb] dark:border-[#2c3a37]">
                   <div className="flex gap-1.5">
-                    <div className="w-2 h-2 rounded-full bg-[#118b77] animate-bounce [animation-delay:-0.3s]"></div>
-                    <div className="w-2 h-2 rounded-full bg-[#118b77] animate-bounce [animation-delay:-0.15s]"></div>
-                    <div className="w-2 h-2 rounded-full bg-[#118b77] animate-bounce"></div>
+                    <div className="w-2 h-2 rounded-full bg-[#0d7c66] animate-bounce [animation-delay:-0.3s]"></div>
+                    <div className="w-2 h-2 rounded-full bg-[#0d7c66] animate-bounce [animation-delay:-0.15s]"></div>
+                    <div className="w-2 h-2 rounded-full bg-[#0d7c66] animate-bounce"></div>
                   </div>
                 </div>
               </div>
-            </div>
-          )}
-          <div ref={messagesEndRef} />
-        </div>
+            )}
+            <div ref={messagesEndRef} />
+          </div>
+        )}
+      </div>
 
-        {/* Composer */}
-        <div className="p-4 pb-5 bg-gradient-to-t from-[#fbfcfb] to-transparent dark:from-[#111918]">
-          <div className="p-3 px-[18px] border border-[#d7dfdc] dark:border-[#2c3a37] rounded-[20px] bg-white dark:bg-[#182220] shadow-[0_16px_45px_rgba(17,48,42,0.09)] focus-within:border-[#168b76] focus-within:shadow-[0_0_0_4px_rgba(22,139,118,0.08),0_18px_50px_rgba(17,48,42,0.1)] transition-all">
+      {/* ===== COMPOSER — BOTTOM ===== */}
+      <div className="flex-shrink-0 pt-4 border-t border-[#e5e7eb] dark:border-[#2c3a37]">
+        <div className="max-w-3xl mx-auto">
+          <div className="flex items-end gap-2 bg-white dark:bg-[#182230] border border-[#e5e7eb] dark:border-[#2c3a37] rounded-2xl p-2 shadow-sm focus-within:border-[#0d7c66] focus-within:shadow-[0_0_0_3px_rgba(13,124,102,0.1)] transition-all">
             <textarea
               ref={inputRef}
               value={input}
@@ -307,29 +242,45 @@ export default function Chat() {
               placeholder="Ask JanMitra AI anything..."
               rows="1"
               maxLength="1000"
-              className="w-full max-h-[150px] p-1 pb-3 border-0 outline-none resize-none bg-transparent text-[#233632] dark:text-[#edf5f2] text-sm leading-relaxed placeholder:text-[#9aa5a2] dark:placeholder:text-[#64748b]"
+              className="flex-1 max-h-[120px] p-3 border-0 outline-none resize-none bg-transparent text-[#15201b] dark:text-[#edf5f2] text-sm leading-relaxed placeholder:text-[#9aa5a2] dark:placeholder:text-[#64748b]"
             />
-            <div className="flex items-center justify-between gap-4">
-              <div className="flex items-center gap-1.5 text-[#929e9b] text-[10px]">
-                <ShieldCheck size={13} />
-                <span className="hidden sm:inline">AI guidance only. Verify important information with official sources.</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <span className="font-mono text-[9px] text-[#a2aaa8]">{charCount}/1000</span>
-                <button
-                  onClick={handleVoiceInput}
-                  className={`w-11 h-11 flex items-center justify-center flex-shrink-0 border rounded-[13px] transition-all ${isListening ? 'bg-[#ff6840] text-white border-[#ff6840] shadow-[0_0_0_5px_rgba(255,104,64,0.12)] animate-mic-pulse' : 'border-[#dce5e1] bg-[#f4f8f6] text-[#315149] hover:bg-[#e8f5f0] hover:text-[#0f6b56] hover:border-[#b9ddd2]'}`}
-                >
-                  <Mic size={18} className={isListening ? 'animate-mic-scale' : ''} />
-                </button>
-                <button
-                  onClick={handleSend}
-                  disabled={!input.trim()}
-                  className="w-[39px] h-[39px] grid place-items-center rounded-[12px] bg-[#173c36] dark:bg-[#2c3a37] text-white disabled:opacity-50 disabled:cursor-not-allowed hover:bg-[#0d725f] hover:-translate-y-0.5 transition-all"
-                >
-                  <ArrowUp size={18} />
-                </button>
-              </div>
+            <div className="flex items-center gap-1 flex-shrink-0">
+              <span className="text-[10px] text-[#a2aaa8] font-mono px-1">{charCount}/1000</span>
+              <button
+                onClick={handleVoiceInput}
+                className={`w-10 h-10 flex items-center justify-center rounded-xl transition-all ${isListening ? 'bg-[#ff6840] text-white shadow-[0_0_0_4px_rgba(255,104,64,0.15)]' : 'text-[#667085] hover:bg-[#f0f1eb] dark:hover:bg-[#2c3a37]'}`}
+              >
+                <Mic size={18} className={isListening ? 'animate-pulse' : ''} />
+              </button>
+              <button
+                onClick={handleSend}
+                disabled={!input.trim()}
+                className="w-10 h-10 flex items-center justify-center rounded-xl bg-[#0d7c66] text-white disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[#075c4d] transition-all"
+              >
+                <ArrowUp size={18} />
+              </button>
+            </div>
+          </div>
+          
+          {/* Bottom Bar — Export + Clear + Disclaimer */}
+          <div className="flex items-center justify-between mt-2 px-1">
+            <div className="flex items-center gap-3">
+              <button onClick={exportPDF} className="text-xs font-medium text-[#667085] dark:text-[#94a3b8] hover:text-[#0d7c66] transition-colors flex items-center gap-1.5">
+                <Download size={14} />
+                <span>Export</span>
+              </button>
+              <button onClick={clearChat} className="text-xs font-medium text-[#667085] dark:text-[#94a3b8] hover:text-red-500 transition-colors flex items-center gap-1.5">
+                <Trash2 size={14} />
+                <span>Clear</span>
+              </button>
+              <button onClick={newChat} className="text-xs font-medium text-[#667085] dark:text-[#94a3b8] hover:text-[#0d7c66] transition-colors flex items-center gap-1.5">
+                <Plus size={14} />
+                <span>New Chat</span>
+              </button>
+            </div>
+            <div className="flex items-center gap-1.5 text-[10px] text-[#929e9b] dark:text-[#94a3b8]">
+              <ShieldCheck size={13} />
+              <span className="hidden sm:inline">AI guidance only. Verify with official sources.</span>
             </div>
           </div>
         </div>

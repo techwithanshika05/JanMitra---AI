@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react'
 import { Files, ClipboardCheck, Landmark, ChevronDown, Clock, IndianRupee, Printer, Download, Check, Info, Lightbulb, FileSearch, CheckCheck, BadgeCheck } from 'lucide-react'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function Checklist() {
+  const { t } = useLanguage()
   const [selectedService, setSelectedService] = useState('')
   const [checklist, setChecklist] = useState(null)
   const [checkedItems, setCheckedItems] = useState([])
@@ -211,13 +213,13 @@ export default function Checklist() {
         <div className="relative z-10 max-w-[790px]">
           <div className="inline-flex items-center gap-2.5 mb-6 text-[0.76rem] font-extrabold tracking-[0.16em] text-[#dff45f]">
             <Files size={18} />
-            DOCUMENT PREPARATION DESK
+            <span data-i18n="doc_prep_desk">DOCUMENT PREPARATION DESK</span>
           </div>
-          <h1 className="text-[clamp(2.8rem,5vw,5.3rem)] leading-[0.96] tracking-[-0.06em] font-extrabold">
+          <h1 className="text-[clamp(2.8rem,5vw,5.3rem)] leading-[0.96] tracking-[-0.06em] font-extrabold whitespace-pre-line" data-i18n="checklist_title">
             Get your documents<br />
             <span className="text-[#dff45f]">ready before you go.</span>
           </h1>
-          <p className="max-w-[680px] mt-6 text-[1.08rem] leading-relaxed text-white/75">
+          <p className="max-w-[680px] mt-6 text-[1.08rem] leading-relaxed text-white/75" data-i18n="checklist_sub">
             Choose the government service you're applying for. JanMitra AI will prepare a clear document checklist for you.
           </p>
         </div>
@@ -236,13 +238,13 @@ export default function Checklist() {
         <aside className="p-8 sm:p-[55px_42px] bg-[#ebe5d7] dark:bg-[#19211c] border-r border-[#d4cebf] dark:border-[#303830]">
           <div className="font-mono text-[4rem] leading-none font-bold tracking-[-0.08em] text-[rgba(23,33,27,0.12)] dark:text-[rgba(255,255,255,0.08)] mb-11">01</div>
           <div>
-            <span className="font-mono text-[0.7rem] font-bold tracking-[0.15em] text-[#0b6847] dark:text-[#6ef0ca]">START HERE</span>
-            <h2 className="mt-2.5 mb-3 text-3xl leading-[1.08] tracking-[-0.04em] text-[#17211b] dark:text-[#edf7f4]">What are you applying for?</h2>
+            <span className="font-mono text-[0.7rem] font-bold tracking-[0.15em] text-[#0b6847] dark:text-[#6ef0ca]" data-i18n="start_here">START HERE</span>
+            <h2 className="mt-2.5 mb-3 text-3xl leading-[1.08] tracking-[-0.04em] text-[#17211b] dark:text-[#edf7f4]" data-i18n="what_went_wrong">What are you applying for?</h2>
             <p className="text-[0.96rem] leading-relaxed text-[#6d706a] dark:text-[#94a3b8]">Select one service and we'll prepare the documents you need.</p>
           </div>
 
           <div className="mt-9">
-            <label className="block mb-2.5 text-[0.75rem] font-extrabold uppercase tracking-[0.09em] text-[#4d554f] dark:text-[#94a3b8]">Government Service</label>
+            <label className="block mb-2.5 text-[0.75rem] font-extrabold uppercase tracking-[0.09em] text-[#4d554f] dark:text-[#94a3b8]" data-i18n="gov_service">Government Service</label>
             <div className="relative flex items-center bg-[#fffef9] dark:bg-[#101512] border-2 border-[#17211b] dark:border-[#dbe5d9] shadow-[5px_5px_0_#17211b] dark:shadow-[5px_5px_0_#526257] focus-within:translate-x-[-2px] focus-within:translate-y-[-2px] focus-within:shadow-[8px_8px_0_#0b6847] transition-all">
               <span className="w-[54px] h-[58px] flex-shrink-0 grid place-items-center text-[#0b6847] dark:text-[#6ef0ca] border-r border-[#ddd8cc] dark:border-[#303830]">
                 <Landmark size={21} />
@@ -252,7 +254,7 @@ export default function Checklist() {
                 onChange={handleServiceChange}
                 className="w-full h-[58px] px-4 pr-12 appearance-none border-0 outline-none bg-transparent text-[0.93rem] font-semibold text-[#17211b] dark:text-[#edf7f4] cursor-pointer"
               >
-                <option value="">Choose your service</option>
+                <option value="" data-i18n="choose_service">Choose your service</option>
                 {services.map(s => (
                   <option key={s.id} value={s.id}>{s.name}</option>
                 ))}
@@ -266,22 +268,22 @@ export default function Checklist() {
             <div className="relative z-10 flex items-start gap-4 mb-6">
               <span className="w-[37px] h-[37px] flex-shrink-0 grid place-items-center border border-[#b7b0a2] dark:border-[#303830] rounded-full bg-[#ebe5d7] dark:bg-[#19211c] font-mono text-[0.72rem] font-bold text-[#0b6847] dark:text-[#6ef0ca]">1</span>
               <div>
-                <strong className="block text-[0.91rem] text-[#17211b] dark:text-[#edf7f4]">Select service</strong>
+                <strong className="block text-[0.91rem] text-[#17211b] dark:text-[#edf7f4]" data-i18n="select_service">Select service</strong>
                 <p className="text-[0.8rem] leading-relaxed text-[#7c7c73] dark:text-[#94a3b8]">Tell us what you're applying for.</p>
               </div>
             </div>
             <div className="relative z-10 flex items-start gap-4 mb-6">
               <span className="w-[37px] h-[37px] flex-shrink-0 grid place-items-center border border-[#b7b0a2] dark:border-[#303830] rounded-full bg-[#ebe5d7] dark:bg-[#19211c] font-mono text-[0.72rem] font-bold text-[#0b6847] dark:text-[#6ef0ca]">2</span>
               <div>
-                <strong className="block text-[0.91rem] text-[#17211b] dark:text-[#edf7f4]">Collect documents</strong>
-                <p className="text-[0.8rem] leading-relaxed text-[#7c7c73] dark:text-[#94a3b8]">Tick each document when ready.</p>
+                <strong className="block text-[0.91rem] text-[#17211b] dark:text-[#edf7f4]" data-i18n="collect_docs">Collect documents</strong>
+                <p className="text-[0.8rem] leading-relaxed text-[#7c7c73] dark:text-[#94a3b8]" data-i18n="tick_ready">Tick each document when ready.</p>
               </div>
             </div>
             <div className="relative z-10 flex items-start gap-4">
               <span className="w-[37px] h-[37px] flex-shrink-0 grid place-items-center border border-[#b7b0a2] dark:border-[#303830] rounded-full bg-[#ebe5d7] dark:bg-[#19211c] font-mono text-[0.72rem] font-bold text-[#0b6847] dark:text-[#6ef0ca]">3</span>
               <div>
-                <strong className="block text-[0.91rem] text-[#17211b] dark:text-[#edf7f4]">Take your checklist</strong>
-                <p className="text-[0.8rem] leading-relaxed text-[#7c7c73] dark:text-[#94a3b8]">Print it or save it as PDF.</p>
+                <strong className="block text-[0.91rem] text-[#17211b] dark:text-[#edf7f4]" data-i18n="take_checklist">Take your checklist</strong>
+                <p className="text-[0.8rem] leading-relaxed text-[#7c7c73] dark:text-[#94a3b8]" data-i18n="print_save">Print it or save it as PDF.</p>
               </div>
             </div>
           </div>
@@ -289,8 +291,8 @@ export default function Checklist() {
           <div className="mt-10 p-[18px] flex gap-3 bg-[#dff45f] dark:bg-[#4a5a1a] border border-[#17211b] dark:border-[#6ef0ca]">
             <Lightbulb size={20} className="flex-shrink-0" />
             <div>
-              <strong className="text-[0.85rem]">Quick tip</strong>
-              <p className="mt-1 text-[0.76rem] leading-relaxed">Keep originals and photocopies together before visiting the office.</p>
+              <strong className="text-[0.85rem]" data-i18n="quick_tip">Quick tip</strong>
+              <p className="mt-1 text-[0.76rem] leading-relaxed" data-i18n="tip_text">Keep originals and photocopies together before visiting the office.</p>
             </div>
           </div>
         </aside>
@@ -302,9 +304,9 @@ export default function Checklist() {
               <div className="w-[105px] h-[105px] grid place-items-center border-2 border-dashed border-[#a9a99e] dark:border-[#303830] rounded-full -rotate-[7deg] text-[#8b8d84] dark:text-[#94a3b8]">
                 <FileSearch size={40} />
               </div>
-              <span className="mt-6 font-mono text-[0.68rem] font-bold tracking-[0.16em] text-[#96968c] dark:text-[#94a3b8]">WAITING FOR SERVICE</span>
-              <h2 className="mt-3 mb-2 text-3xl tracking-[-0.04em] text-[#17211b] dark:text-[#edf7f4]">Your checklist will appear here.</h2>
-              <p className="max-w-[440px] text-[#83837b] dark:text-[#94a3b8] leading-relaxed">Select a government service from the left panel to begin.</p>
+              <span className="mt-6 font-mono text-[0.68rem] font-bold tracking-[0.16em] text-[#96968c] dark:text-[#94a3b8]" data-i18n="waiting_service">WAITING FOR SERVICE</span>
+              <h2 className="mt-3 mb-2 text-3xl tracking-[-0.04em] text-[#17211b] dark:text-[#edf7f4]" data-i18n="checklist_here">Your checklist will appear here.</h2>
+              <p className="max-w-[440px] text-[#83837b] dark:text-[#94a3b8] leading-relaxed" data-i18n="select_left">Select a government service from the left panel to begin.</p>
               <div className="w-[min(400px,80%)] mt-10">
                 <div className="h-[1px] my-[18px] bg-[#e2dfd6] dark:bg-[#303830]"></div>
                 <div className="h-[1px] my-[18px] bg-[#e2dfd6] dark:bg-[#303830]"></div>
@@ -317,18 +319,18 @@ export default function Checklist() {
               {/* PAPER HEADER */}
               <div className="flex flex-col sm:flex-row items-start justify-between gap-7 pb-8 border-b-2 border-[#17211b] dark:border-[#edf7f4]">
                 <div>
-                  <span className="font-mono text-[0.68rem] font-bold tracking-[0.15em] text-[#0b6847] dark:text-[#6ef0ca]">DOCUMENT REQUIREMENT SHEET</span>
+                  <span className="font-mono text-[0.68rem] font-bold tracking-[0.15em] text-[#0b6847] dark:text-[#6ef0ca]" data-i18n="doc_requirement">DOCUMENT REQUIREMENT SHEET</span>
                   <h2 className="mt-2 mb-5 text-[clamp(2rem,3vw,3.3rem)] leading-none tracking-[-0.055em] text-[#17211b] dark:text-[#edf7f4]">{checklist.name}</h2>
                   <div className="flex flex-wrap gap-7">
                     <div className="flex flex-col gap-1.5">
-                      <span className="font-mono text-[0.61rem] font-bold tracking-[0.12em] text-[#99988f] dark:text-[#94a3b8]">PROCESSING</span>
+                      <span className="font-mono text-[0.61rem] font-bold tracking-[0.12em] text-[#99988f] dark:text-[#94a3b8]" data-i18n="processing">PROCESSING</span>
                       <strong className="flex items-center gap-2 text-[0.85rem] text-[#444b45] dark:text-[#edf7f4]">
                         <Clock size={15} className="text-[#0b6847] dark:text-[#6ef0ca]" />
                         {checklist.processing_time}
                       </strong>
                     </div>
                     <div className="flex flex-col gap-1.5">
-                      <span className="font-mono text-[0.61rem] font-bold tracking-[0.12em] text-[#99988f] dark:text-[#94a3b8]">APPLICATION FEE</span>
+                      <span className="font-mono text-[0.61rem] font-bold tracking-[0.12em] text-[#99988f] dark:text-[#94a3b8]" data-i18n="application_fee">APPLICATION FEE</span>
                       <strong className="flex items-center gap-2 text-[0.85rem] text-[#444b45] dark:text-[#edf7f4]">
                         <IndianRupee size={15} className="text-[#0b6847] dark:text-[#6ef0ca]" />
                         {checklist.fee}
@@ -356,12 +358,13 @@ export default function Checklist() {
                 </div>
                 <div className="p-[23px_26px]">
                   <div className="flex items-center justify-between gap-4 mb-3.5">
-                    <strong className="text-[0.9rem] text-[#17211b] dark:text-[#edf7f4]">Document readiness</strong>
+                    <strong className="text-[0.9rem] text-[#17211b] dark:text-[#edf7f4]" data-i18n="doc_readiness">Document readiness</strong>
                     <span className="text-[0.78rem] text-[#73756e] dark:text-[#94a3b8]">
                       <b className="text-[#17211b] dark:text-[#edf7f4]">{checkedItems.length}</b>
                       {' of '}
                       <b className="text-[#17211b] dark:text-[#edf7f4]">{checklist.documents.length}</b>
-                      {' collected'}
+                      {' '}
+                      <span data-i18n="collected">collected</span>
                     </span>
                   </div>
                   <div className="w-full h-2 overflow-hidden bg-[#ddd9ce] dark:bg-[#343d35]">
@@ -373,7 +376,7 @@ export default function Checklist() {
               {/* DOCUMENT LIST */}
               <div className="flex items-end justify-between mb-4">
                 <div>
-                  <span className="font-mono text-[0.61rem] font-bold tracking-[0.13em] text-[#99978e] dark:text-[#94a3b8]">CHECK EACH ITEM</span>
+                  <span className="font-mono text-[0.61rem] font-bold tracking-[0.13em] text-[#99978e] dark:text-[#94a3b8]" data-i18n="required_docs">Required documents</span>
                   <h3 className="mt-1.5 text-[1.55rem] tracking-[-0.035em] text-[#17211b] dark:text-[#edf7f4]">Required documents</h3>
                 </div>
                 <CheckCheck size={26} className="text-[#0b6847] dark:text-[#6ef0ca]" />
@@ -399,9 +402,9 @@ export default function Checklist() {
                         <div className="flex items-center flex-wrap gap-2.5">
                           <span className={`text-base font-bold ${checkedItems.includes(index) ? 'text-[#72786f] dark:text-[#94a3b8] line-through' : 'text-[#17211b] dark:text-[#edf7f4]'}`}>{doc.name}</span>
                           {doc.mandatory ? (
-                            <span className="px-2 py-1 font-mono text-[0.56rem] font-bold uppercase tracking-[0.06em] bg-[#ffe1d5] text-[#b13d18]">Required</span>
+                            <span className="px-2 py-1 font-mono text-[0.56rem] font-bold uppercase tracking-[0.06em] bg-[#ffe1d5] text-[#b13d18]" data-i18n="required">Required</span>
                           ) : (
-                            <span className="px-2 py-1 font-mono text-[0.56rem] font-bold uppercase tracking-[0.06em] bg-[#e7eee9] dark:bg-[#2a3a32] text-[#607268] dark:text-[#94a3b8]">Optional</span>
+                            <span className="px-2 py-1 font-mono text-[0.56rem] font-bold uppercase tracking-[0.06em] bg-[#e7eee9] dark:bg-[#2a3a32] text-[#607268] dark:text-[#94a3b8]" data-i18n="optional_badge">Optional</span>
                           )}
                         </div>
                         {doc.note && (
@@ -418,7 +421,7 @@ export default function Checklist() {
 
               <div className="mt-9 pt-5 flex gap-3 border-t border-dashed border-[#c6c3b9] dark:border-[#303830] text-[#7e8079] dark:text-[#94a3b8]">
                 <Info size={17} className="flex-shrink-0" />
-                <p className="text-[0.76rem] leading-relaxed">Requirements may vary depending on your case. Confirm important details with the respective department before submission.</p>
+                <p className="text-[0.76rem] leading-relaxed" data-i18n="req_note">Requirements may vary depending on your case. Confirm important details with the respective department before submission.</p>
               </div>
             </>
           )}
