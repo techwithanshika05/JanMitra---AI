@@ -69,11 +69,7 @@ cp .env.example .env
 python -m app.seed        # creates DB, admin user, loads sample data, builds embeddings
 uvicorn app.main:app --reload
 ```
-Default admin login: mobile `9999999999` / password `Admin@123`
-
-> **Database:** configured for PostgreSQL (Neon) via `DATABASE_URL` in `backend/.env`.
-> Users register with full name, address, gender, pincode, and mobile number (no email) —
-> each account gets an auto-generated `unique_id` like `PDS482913`.
+Default admin login: `admin@janmitra.gov.in` / `Admin@123`
 
 **Frontend**
 ```bash

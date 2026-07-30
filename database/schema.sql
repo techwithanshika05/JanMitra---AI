@@ -1,20 +1,15 @@
 -- JanMitra AI — reference SQL schema (SQLAlchemy generates this automatically
 -- via Base.metadata.create_all(), this file documents it for review / ER diagram use)
--- Target: PostgreSQL (e.g. Neon). SQLite also works via DATABASE_URL for local dev,
--- but SERIAL/TIMESTAMP syntax below is Postgres-specific.
 
 CREATE TABLE users (
-    id SERIAL PRIMARY KEY,
-    unique_id VARCHAR(15) UNIQUE NOT NULL,      -- auto-generated, e.g. PDS482913
-    full_name VARCHAR(100) NOT NULL,
-    address TEXT NOT NULL,
-    gender VARCHAR(10) CHECK (gender IN ('male', 'female', 'other')),
-    pincode VARCHAR(6) NOT NULL,
-    mobile VARCHAR(10) UNIQUE,
-    password_hash TEXT NOT NULL,
-    is_guest BOOLEAN DEFAULT FALSE,
-    role VARCHAR DEFAULT 'citizen',             -- citizen | admin (needed for admin-only endpoints)
-    created_at TIMESTAMP DEFAULT NOW()
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR NOT NULL,
+    email VARCHAR UNIQUE NOT NULL,
+    hashed_password VARCHAR NOT NULL,
+    role VARCHAR DEFAULT 'citizen',
+    state VARCHAR,
+    preferred_language VARCHAR DEFAULT 'en',
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE schemes (
@@ -85,5 +80,4 @@ CREATE TABLE analytics (
 );
 
 CREATE INDEX idx_chat_session ON chat_history(session_id);
-CREATE INDEX idx_users_mobile ON users(mobile);
-CREATE INDEX idx_users_unique_id ON users(unique_id);
+CREATE INDEX idx_users_email ON users(email);
