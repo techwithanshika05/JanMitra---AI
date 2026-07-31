@@ -22,14 +22,14 @@ export default function Sidebar({ isOpen, onClose }) {
     { href: '/saved-checklists', icon: ListChecks, label: 'saved_checklists', description: 'saved_checklists_desc' },
     { href: '/ration', icon: Wheat, label: 'ration_guides', description: 'ration_guides_desc' },
     { href: '/grievance', icon: MessagesSquare, label: 'grievance', description: 'grievance_desc' },
-    { href: '/documents', icon: FileText, label: 'document_qa', description: 'document_qa_desc' },
+    // { href: '#', icon: FileText, label: 'document_qa', description: 'document_qa_desc' },
     { href: '/faqs', icon: HelpCircle, label: 'faqs', description: 'faqs_desc' },
     { href: '/voice', icon: Mic, label: 'voice_assistant', description: 'voice_assistant_desc' },
   ]
 
   const secondary = [
     { href: '/feedback', icon: Star, label: 'feedback' },
-    { href: '/disclaimer', icon: ShieldCheck, label: 'responsible_ai' },
+    // { href: '#', icon: ShieldCheck, label: 'responsible_ai' },
     { href: '/admin', icon: Activity, label: 'admin' },
     { href: '/profile', icon: UserCircle, label: 'profile' },
   ]
