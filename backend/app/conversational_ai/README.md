@@ -34,7 +34,7 @@ Start the API:
 Start the independent LiveKit worker:
 
 ```powershell
-.\venv\Scripts\python.exe -m app.conversational_ai.agent.worker dev
+.\venv\Scripts\python.exe -m app.conversational_ai.agent.worker start
 ```
 
 ## API

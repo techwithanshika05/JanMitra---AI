@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_0bcd1e7cb94d4b98_p0003_b0002",
+  "chart_type": "chart",
+  "title": "ONORC WAS ACCESSED BY 174 LAKH ELIGIBLE CITIZENS FROM APRIL 2021 TO DECEMBER 2022",
+  "description": "| Month | Eligible citizens accessing ONORC (in lakhs) |\n| :--- | :---: |\n| Apr-21 | 0.5 |\n| May-21 | 0.4 |\n| Jun-21 | 0.7 |\n| Jul-21 | 1.7 |\n| Aug-21 | 3.1 |\n| Sep-21 | 5.8 |\n| Oct-21 | 6.8 |\n| Nov-21 | 5.7 |\n| Dec-21 | 10.8 |\n| Jan-22 | 12.2 |\n| Feb-22 | 11.8 |\n| Mar-22 | 13.3 |\n| Apr-22 | 11.2 |\n| May-22 | 10.2 |\n| Jun-22 | 6.1 |\n| Jul-22 | 10.2 |\n| Aug-22 | 13.3 |\n| Sep-22 | 10.2 |\n| Oct-22 | 19.4 |\n| Nov-22 | 20.5 |",
+  "categories": [],
+  "series": [],
+  "source_page": 3,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_0bcd1e7cb94d4b98_p0003_b0002.png"
+}

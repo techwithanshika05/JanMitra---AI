@@ -5,7 +5,7 @@ import { useLanguage } from '@/contexts/LanguageContext'
 export default function Footer() {
   const { t } = useLanguage()
   return (
-    <footer className="w-[min(1440px,calc(100%-48px))] mx-auto mb-[110px] pt-8 border-t border-[#dde2dc] dark:border-[#2c3a37]">
+    <footer className="w-[min(1440px,calc(100%-48px))] mx-auto mb-5 sm:mb-7 pt-8 border-t border-[#dde2dc] dark:border-[#2c3a37]">
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-7">
         <div className="flex items-center gap-3">
           <span className="w-[46px] h-[46px] grid place-items-center rounded-[14px] bg-[#dff5ec] dark:bg-[#1a3a2e] text-[#0d7c66]">

@@ -7,6 +7,7 @@ from pathlib import Path
 from threading import RLock
 from time import monotonic
 from typing import Any, Callable
+from urllib.parse import quote
 
 from app.config import settings
 
@@ -16,6 +17,8 @@ DISCLAIMER = (
     "This response is generated from available government scheme data and "
     "does not constitute official confirmation of eligibility or approval."
 )
+DATA_ROOT = (Path(__file__).resolve().parent.parent / "data").resolve()
+PUBLIC_VISUAL_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 
 
 class RAGInitializationCoolingDown(RuntimeError):
@@ -129,6 +132,33 @@ class ManyaRAGAdapter:
         }
 
     @staticmethod
+    def _public_visual(result: dict[str, Any]) -> dict[str, Any] | None:
+        """Convert an internal image path into a safe chat API reference."""
+        image_value = result.get("image_path")
+        if not image_value:
+            return None
+        try:
+            image_path = Path(str(image_value)).resolve()
+            relative_path = image_path.relative_to(DATA_ROOT)
+        except (OSError, ValueError):
+            logger.warning("Ignoring visual outside the backend data directory: %s", image_value)
+            return None
+        if (
+            not image_path.is_file()
+            or image_path.suffix.casefold() not in PUBLIC_VISUAL_EXTENSIONS
+        ):
+            return None
+
+        visual = {
+            key: value
+            for key, value in result.items()
+            if key != "image_path"
+        }
+        encoded_path = quote(relative_path.as_posix(), safe="/")
+        visual["url"] = f"/api/chat/visual-evidence/{encoded_path}"
+        return visual
+
+    @staticmethod
     def _controlled_fallback(language: str) -> dict[str, Any]:
         answer = (
             "क्षमा करें, अभी दस्तावेज़ खोज सेवा उपलब्ध नहीं है। कृपया कुछ समय बाद पुनः प्रयास करें।"
@@ -141,6 +171,7 @@ class ManyaRAGAdapter:
             "is_grounded": False,
             "disclaimer": DISCLAIMER,
             "sources": [],
+            "retrieved_images": [],
         }
 
     def _retrieval_only(self, question: str, language: str) -> dict[str, Any]:
@@ -158,6 +189,7 @@ class ManyaRAGAdapter:
                 "is_grounded": False,
                 "disclaimer": DISCLAIMER,
                 "sources": [],
+                "retrieved_images": [],
             }
         bullets = "\n".join(
             f"- {source['snippet']}... (Source: {source['title']})"
@@ -174,6 +206,7 @@ class ManyaRAGAdapter:
             "is_grounded": confidence >= settings.MIN_CONFIDENCE_TO_ANSWER,
             "disclaimer": DISCLAIMER,
             "sources": sources,
+            "retrieved_images": [],
         }
 
     def answer(self, question: str, language: str = "en") -> dict[str, Any]:
@@ -200,12 +233,18 @@ class ManyaRAGAdapter:
                 confidence = max(
                     (source["score"] for source in sources), default=0.0
                 )
+                retrieved_images = [
+                    visual
+                    for item in (response.retrieved_images or [])[:1]
+                    if (visual := self._public_visual(item)) is not None
+                ]
                 return {
                     "answer": response.answer,
                     "confidence": confidence,
                     "is_grounded": bool(sources),
                     "disclaimer": DISCLAIMER,
                     "sources": sources,
+                    "retrieved_images": retrieved_images,
                 }
             return self._retrieval_only(question, normalized_language)
         except RAGInitializationCoolingDown as exc:

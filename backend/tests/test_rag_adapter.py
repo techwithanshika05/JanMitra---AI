@@ -1,4 +1,13 @@
+from types import SimpleNamespace
+
+import pytest
+
 from integration.rag_adapter import ManyaRAGAdapter
+
+
+@pytest.fixture(autouse=True)
+def disable_live_generation(monkeypatch):
+    monkeypatch.setenv("GROQ_API_KEY", "")
 
 
 class WorkingRetriever:
@@ -24,6 +33,28 @@ class FailingFactory:
         raise OSError("paging file is too small")
 
 
+class WorkingPipeline:
+    def __init__(self, visual_path):
+        self.visual_path = visual_path
+
+    def query(self, question, top_k):
+        return SimpleNamespace(
+            answer="The chart shows the record allocation.",
+            sources=[{
+                "file_name": "foodgrain.pdf",
+                "source_id": "foodgrain",
+                "score": 0.91,
+            }],
+            retrieved_images=[{
+                "image_path": str(self.visual_path),
+                "layout": "chart",
+                "title": "Total foodgrain allocations",
+                "page_number": 6,
+                "source_file": "foodgrain.pdf",
+            }],
+        )
+
+
 def test_adapter_preserves_legacy_contract():
     result = ManyaRAGAdapter(retriever_factory=WorkingRetriever).answer(
         "What documents are needed?"
@@ -32,8 +63,10 @@ def test_adapter_preserves_legacy_contract():
     assert result["is_grounded"] is True
     assert result["sources"][0]["title"] == "ration-guidelines.pdf"
     assert set(result) == {
-        "answer", "confidence", "is_grounded", "disclaimer", "sources"
+        "answer", "confidence", "is_grounded", "disclaimer", "sources",
+        "retrieved_images",
     }
+    assert result["retrieved_images"] == []
 
 
 def test_adapter_controls_retrieval_failure():
@@ -43,6 +76,7 @@ def test_adapter_controls_retrieval_failure():
     assert result["is_grounded"] is False
     assert result["confidence"] == 0.0
     assert result["sources"] == []
+    assert result["retrieved_images"] == []
 
 
 def test_initialization_failure_uses_cooldown_before_retrying():
@@ -64,3 +98,26 @@ def test_initialization_failure_uses_cooldown_before_retrying():
     now[0] = 161.0
     adapter.answer("Retry after cooldown")
     assert factory.calls == 2
+
+
+def test_adapter_exposes_one_safe_visual_url(monkeypatch, tmp_path):
+    from integration import rag_adapter as rag_adapter_module
+
+    data_root = tmp_path / "data"
+    visual_path = data_root / "retrieved_visuals" / "allocation chart.png"
+    visual_path.parent.mkdir(parents=True)
+    visual_path.write_bytes(b"\x89PNG\r\n\x1a\n")
+    monkeypatch.setattr(rag_adapter_module, "DATA_ROOT", data_root.resolve())
+    monkeypatch.setenv("GROQ_API_KEY", "test-key")
+
+    result = ManyaRAGAdapter(
+        pipeline_factory=lambda: WorkingPipeline(visual_path)
+    ).answer("Show the foodgrain allocation chart")
+
+    assert result["is_grounded"] is True
+    assert len(result["retrieved_images"]) == 1
+    visual = result["retrieved_images"][0]
+    assert visual["url"].endswith(
+        "/retrieved_visuals/allocation%20chart.png"
+    )
+    assert "image_path" not in visual

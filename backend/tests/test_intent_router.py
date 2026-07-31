@@ -75,6 +75,22 @@ def test_mixed_thanks_and_new_question_uses_llm_decision(monkeypatch):
     assert fake.calls == 1
 
 
+def test_foodgrain_document_question_routes_to_rag_without_classifier(monkeypatch):
+    def unexpected_llm():
+        raise AssertionError("Explicit foodgrain evidence queries should route directly")
+
+    monkeypatch.setenv("GROQ_API_KEY", "test-key")
+    decision = IntentRouter(llm_factory=unexpected_llm).route(
+        "TOTAL FOODGRAIN ALLOCATIONS REACHED A RECORD HIGH "
+        "OF 1,002 LAKH TONS IN 2021-22",
+        "en",
+    )
+
+    assert decision.kind == "pds_welfare"
+    assert decision.has_new_question is True
+    assert decision.confidence == 0.95
+
+
 def test_response_router_sends_only_domain_queries_to_rag(monkeypatch):
     class FakeIntentRouter:
         def route(self, message, language, conversation_context=None):

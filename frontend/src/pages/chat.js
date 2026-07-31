@@ -1,9 +1,15 @@
 import { useState, useEffect, useRef } from 'react'
-import { Bot, User, Volume2, Copy, ThumbsUp, ThumbsDown, Download, Trash2, Plus, MessagesSquare, Sparkles, CreditCard, Landmark, Files, MessageSquareWarning, ArrowUpRight, Mic, ArrowUp, ShieldCheck, MessageCircle, Pencil, X, RotateCcw } from 'lucide-react'
+import { Bot, User, Volume2, Copy, ThumbsUp, ThumbsDown, Download, Trash2, Plus, MessagesSquare, Sparkles, CreditCard, Landmark, Files, MessageSquareWarning, ArrowUpRight, Mic, ArrowUp, ShieldCheck, MessageCircle, Pencil, X, RotateCcw, Image as ImageIcon, ExternalLink } from 'lucide-react'
 import { useLanguage } from '@/contexts/LanguageContext'
 import { useChat } from '@/hooks/useChat'
-import { api } from '@/utils/api'
 import ChatResponse from '@/components/ChatResponse'
+
+const visualUrl = visual => {
+  const url = String(visual?.url || '')
+  return url.startsWith('/api/')
+    ? `/backend-api/${url.slice('/api/'.length)}`
+    : url
+}
 
 export default function Chat() {
   const { language, t } = useLanguage()
@@ -19,25 +25,42 @@ export default function Chat() {
     newChat,
     loadSession,
     renameSession,
-    removeSession
+    removeSession,
+    feedbackPending,
+    saveMessageFeedback,
+    removeMessageFeedback
   } = useChat()
   
   const [input, setInput] = useState('')
   const [charCount, setCharCount] = useState(0)
   const [isListening, setIsListening] = useState(false)
   const [showSessions, setShowSessions] = useState(false)
-  const messagesEndRef = useRef(null)
+  const [selectedVisual, setSelectedVisual] = useState(null)
+  const [visualLoadFailed, setVisualLoadFailed] = useState(false)
+  const messagesScrollRef = useRef(null)
   const inputRef = useRef(null)
   const recognitionRef = useRef(null)
   const sendingRef = useRef(false)
 
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
+    const container = messagesScrollRef.current
+    if (!container) return
+    container.scrollTo({ top: container.scrollHeight, behavior: 'smooth' })
   }
+
+  useEffect(() => {
+    // Opening or restoring a chat must keep the page header visible. Message
+    // updates scroll inside the chat panel instead of moving the whole page.
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [])
 
   useEffect(() => {
     scrollToBottom()
   }, [messages])
+
+  useEffect(() => {
+    setVisualLoadFailed(false)
+  }, [selectedVisual])
 
   const handleSend = async (requestedText) => {
     const query = typeof requestedText === 'string' ? requestedText : input
@@ -135,7 +158,10 @@ export default function Chat() {
   }
 
   return (
-    <div className="chat-redesign w-full h-[calc(100vh-110px)] max-w-5xl mx-auto p-6 flex flex-col pb-[90px]">
+    <>
+    <div className={`chat-redesign w-full h-[calc(100vh-110px)] max-w-5xl mx-auto px-6 pt-6 pb-4 flex flex-col transition-transform duration-500 ease-out ${
+      selectedVisual ? 'xl:-translate-x-52' : 'translate-x-0'
+    }`}>
       <div className="flex-shrink-0 mb-3 flex items-center justify-between gap-3">
         <button onClick={() => setShowSessions(!showSessions)} className="h-10 px-4 inline-flex items-center gap-2 rounded-xl border border-[#e5e7eb] dark:border-[#2c3a37] bg-white dark:bg-[#182230] text-sm font-bold">
           <MessagesSquare size={17} /> {t('conversations')} ({sessions.length})
@@ -159,7 +185,7 @@ export default function Chat() {
       )}
       
       {/* Chat Messages Area */}
-      <div className="flex-1 overflow-y-auto px-4 py-6 custom-scrollbar">
+      <div ref={messagesScrollRef} className="flex-1 overflow-y-auto overscroll-contain px-4 py-6 custom-scrollbar">
         {messages.length === 0 ? (
           /* ===== WELCOME STATE — CENTERED ===== */
           <div className="flex flex-col items-center justify-center h-full text-center max-w-2xl mx-auto">
@@ -223,6 +249,29 @@ export default function Chat() {
                   </div>
                   <div className="flex items-center gap-1 mt-1.5">
                     <span className="text-[10px] text-[#9ba6a4]">{msg.timestamp}</span>
+                    {msg.role === 'user' && (
+                      <div className="flex items-center gap-0.5">
+                        <button
+                          type="button"
+                          title={t('copy')}
+                          aria-label="Copy question"
+                          onClick={() => navigator.clipboard.writeText(msg.content).catch(() => undefined)}
+                          className="w-7 h-7 grid place-items-center rounded-md bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#0d7c66] transition-all"
+                        >
+                          <Copy size={13} />
+                        </button>
+                        <button
+                          type="button"
+                          title="Retry question"
+                          aria-label="Retry question"
+                          disabled={isTyping}
+                          onClick={() => handleSend(msg.content)}
+                          className="w-7 h-7 grid place-items-center rounded-md bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#0d7c66] transition-all disabled:cursor-not-allowed disabled:opacity-40"
+                        >
+                          <RotateCcw size={13} />
+                        </button>
+                      </div>
+                    )}
                     {msg.role === 'assistant' && (
                       <>
                         <button onClick={() => speakText(msg.content)} className="w-6 h-6 grid place-items-center rounded-md bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#0d7c66] transition-all">
@@ -232,28 +281,91 @@ export default function Chat() {
                           <button title={t('copy')} aria-label={t('copy')} onClick={() => navigator.clipboard.writeText(msg.content)} className="w-6 h-6 grid place-items-center rounded-md bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#0d7c66] transition-all">
                             <Copy size={13} />
                           </button>
-                          <button onClick={() => msg.id && api.saveChatFeedback(msg.id, { reaction: 'like', rating: 5, feedback_text: 'Helpful response' }).catch(error => alert(error.message))} className="w-6 h-6 grid place-items-center rounded-md bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#0d7c66] transition-all">
+                          <button
+                            title="Helpful"
+                            aria-label="Mark response as helpful"
+                            aria-pressed={msg.feedback?.reaction === 'like'}
+                            disabled={!msg.id || feedbackPending[msg.id]}
+                            onClick={() => (
+                              msg.feedback?.reaction === 'like'
+                                ? removeMessageFeedback(msg.id)
+                                : saveMessageFeedback(msg.id, 'like')
+                            ).catch(error => alert(error.message))}
+                            className={`w-7 h-7 grid place-items-center rounded-md transition-all disabled:opacity-45 ${
+                              msg.feedback?.reaction === 'like'
+                                ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/50 dark:text-emerald-300'
+                                : 'bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#0d7c66]'
+                            }`}
+                          >
                             <ThumbsUp size={13} />
                           </button>
-                          <button onClick={() => msg.id && api.saveChatFeedback(msg.id, { reaction: 'dislike', rating: 1, feedback_text: 'Unhelpful response' }).catch(error => alert(error.message))} className="w-6 h-6 grid place-items-center rounded-md bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#0d7c66] transition-all">
+                          <button
+                            title="Not helpful"
+                            aria-label="Mark response as not helpful"
+                            aria-pressed={msg.feedback?.reaction === 'dislike'}
+                            disabled={!msg.id || feedbackPending[msg.id]}
+                            onClick={() => (
+                              msg.feedback?.reaction === 'dislike'
+                                ? removeMessageFeedback(msg.id)
+                                : saveMessageFeedback(msg.id, 'dislike')
+                            ).catch(error => alert(error.message))}
+                            className={`w-7 h-7 grid place-items-center rounded-md transition-all disabled:opacity-45 ${
+                              msg.feedback?.reaction === 'dislike'
+                                ? 'bg-red-100 text-red-700 dark:bg-red-900/50 dark:text-red-300'
+                                : 'bg-transparent text-[#899693] hover:bg-[#fdf0ee] hover:text-red-600'
+                            }`}
+                          >
                             <ThumbsDown size={13} />
                           </button>
-                          <button title={t('remove_feedback')} aria-label={t('remove_feedback')} onClick={() => msg.id && api.deleteChatFeedback(msg.id).catch(error => error.status !== 404 && alert(error.message))} className="w-6 h-6 grid place-items-center rounded-md bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#0d7c66] transition-all">
-                            <RotateCcw size={12} />
-                          </button>
+                          {msg.feedback && (
+                            <button
+                              title={t('remove_feedback')}
+                              aria-label={t('remove_feedback')}
+                              disabled={feedbackPending[msg.id]}
+                              onClick={() => removeMessageFeedback(msg.id).catch(error => alert(error.message))}
+                              className="w-7 h-7 grid place-items-center rounded-md bg-transparent text-[#899693] hover:bg-[#eaf4f1] hover:text-[#0d7c66] transition-all disabled:opacity-45"
+                            >
+                              <RotateCcw size={12} />
+                            </button>
+                          )}
                         </div>
                       </>
                     )}
                   </div>
-                  {msg.role === 'assistant' && msg.sources?.length > 0 && (
-                    <details className="mt-2 max-w-[90%] text-[11px] text-[#667085]">
-                      <summary className="cursor-pointer font-bold text-[#0d7c66]">{t('verified_sources')} ({msg.sources.length})</summary>
-                      <ul className="mt-2 space-y-1">
-                        {msg.sources.map((source, sourceIndex) => (
-                          <li key={`${source.title}-${sourceIndex}`}>{source.title}</li>
-                        ))}
-                      </ul>
-                    </details>
+                  {msg.role === 'assistant' && (feedbackPending[msg.id] || msg.feedback) && (
+                    <span className={`mt-1 text-[10px] font-bold ${
+                      msg.feedback?.reaction === 'dislike' ? 'text-red-600' : 'text-emerald-700 dark:text-emerald-300'
+                    }`}>
+                      {feedbackPending[msg.id]
+                        ? 'Saving feedback...'
+                        : msg.feedback?.reaction === 'like'
+                          ? 'Thanks for your feedback'
+                          : 'Feedback saved — we will improve'}
+                    </span>
+                  )}
+                  {msg.role === 'assistant' && (msg.sources?.length > 0 || msg.visualEvidence?.length > 0) && (
+                    <div className="mt-2 flex max-w-[95%] flex-wrap items-start gap-2 text-[11px]">
+                      {msg.sources?.length > 0 && (
+                        <details className="rounded-lg border border-[#dce7e3] bg-white px-3 py-2 text-[#667085] dark:border-[#2c3a37] dark:bg-[#182230]">
+                          <summary className="cursor-pointer font-bold text-[#0d7c66]">{t('verified_sources')} ({msg.sources.length})</summary>
+                          <ul className="mt-2 space-y-1">
+                            {msg.sources.map((source, sourceIndex) => (
+                              <li key={`${source.title}-${sourceIndex}`}>{source.title}</li>
+                            ))}
+                          </ul>
+                        </details>
+                      )}
+                      {msg.visualEvidence?.[0] && (
+                        <button
+                          type="button"
+                          onClick={() => setSelectedVisual(msg.visualEvidence[0])}
+                          className="inline-flex items-center gap-2 rounded-lg border border-[#b9ddd4] bg-[#eef8f5] px-3 py-2 font-bold text-[#0d7c66] shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-[#0d7c66] hover:bg-[#dff5ec] focus:outline-none focus:ring-2 focus:ring-[#0d7c66]/30 dark:border-[#285f52] dark:bg-[#15332b] dark:text-[#7de2c9]"
+                        >
+                          <ImageIcon size={14} />
+                          Visual evidence
+                        </button>
+                      )}
+                    </div>
                   )}
                   {msg.role === 'assistant' && msg.alert && (
                     <div className={`mt-2 max-w-[90%] px-3 py-2 rounded-lg text-[11px] font-semibold ${
@@ -282,7 +394,6 @@ export default function Chat() {
                 </div>
               </div>
             )}
-            <div ref={messagesEndRef} />
           </div>
         )}
       </div>
@@ -347,5 +458,94 @@ export default function Chat() {
         </div>
       </div>
     </div>
+    <button
+      type="button"
+      aria-label="Close visual evidence"
+      onClick={() => setSelectedVisual(null)}
+      className={`fixed inset-0 z-40 bg-[#0b1814]/35 backdrop-blur-[2px] transition-opacity duration-500 xl:hidden ${
+        selectedVisual ? 'opacity-100' : 'pointer-events-none opacity-0'
+      }`}
+    />
+    <aside
+      role="dialog"
+      aria-modal="false"
+      aria-label="Visual evidence"
+      aria-hidden={!selectedVisual}
+      className={`fixed bottom-0 right-0 top-[72px] z-50 flex w-[min(440px,94vw)] flex-col border-l border-[#dce7e3] bg-[#f8fbfa] shadow-[-18px_0_55px_rgba(13,45,37,0.18)] transition-transform duration-500 ease-out dark:border-[#2c3a37] dark:bg-[#101c18] ${
+        selectedVisual ? 'translate-x-0' : 'pointer-events-none translate-x-full'
+      }`}
+    >
+      <div className="flex items-start justify-between gap-4 border-b border-[#dce7e3] bg-white px-5 py-4 dark:border-[#2c3a37] dark:bg-[#182230]">
+        <div>
+          <div className="flex items-center gap-2 text-xs font-extrabold uppercase tracking-[0.14em] text-[#0d7c66]">
+            <ImageIcon size={15} />
+            Visual evidence
+          </div>
+          <h2 className="mt-1 line-clamp-2 text-base font-extrabold text-[#172033] dark:text-white">
+            {selectedVisual?.title || 'Related document visual'}
+          </h2>
+        </div>
+        <button
+          type="button"
+          title="Close visual evidence"
+          aria-label="Close visual evidence"
+          onClick={() => setSelectedVisual(null)}
+          className="grid h-9 w-9 flex-shrink-0 place-items-center rounded-xl text-[#667085] transition-colors hover:bg-[#eef4f1] hover:text-[#0d7c66] dark:hover:bg-[#263832]"
+        >
+          <X size={18} />
+        </button>
+      </div>
+
+      <div className="custom-scrollbar flex-1 overflow-y-auto p-5">
+        <div className="overflow-hidden rounded-2xl border border-[#dce7e3] bg-white shadow-sm dark:border-[#2c3a37] dark:bg-[#182230]">
+          {selectedVisual && !visualLoadFailed ? (
+            <img
+              src={visualUrl(selectedVisual)}
+              alt={selectedVisual.title || 'Visual evidence from the cited government document'}
+              onError={() => setVisualLoadFailed(true)}
+              className="h-auto w-full bg-white object-contain"
+            />
+          ) : (
+            <div className="grid min-h-64 place-items-center px-6 text-center text-sm text-[#667085]">
+              This visual is no longer available. Re-run the question to generate it again.
+            </div>
+          )}
+        </div>
+
+        {selectedVisual && (
+          <div className="mt-4 rounded-2xl border border-[#dce7e3] bg-white p-4 text-sm dark:border-[#2c3a37] dark:bg-[#182230]">
+            <dl className="space-y-3">
+              {selectedVisual.source_file && (
+                <div>
+                  <dt className="text-[11px] font-extrabold uppercase tracking-wide text-[#82908c]">Source</dt>
+                  <dd className="mt-0.5 break-words font-semibold text-[#344642] dark:text-[#edf5f2]">{selectedVisual.source_file}</dd>
+                </div>
+              )}
+              {selectedVisual.page_number != null && (
+                <div>
+                  <dt className="text-[11px] font-extrabold uppercase tracking-wide text-[#82908c]">Page</dt>
+                  <dd className="mt-0.5 font-semibold text-[#344642] dark:text-[#edf5f2]">{selectedVisual.page_number}</dd>
+                </div>
+              )}
+              {selectedVisual.layout && (
+                <div>
+                  <dt className="text-[11px] font-extrabold uppercase tracking-wide text-[#82908c]">Evidence type</dt>
+                  <dd className="mt-0.5 capitalize font-semibold text-[#344642] dark:text-[#edf5f2]">{selectedVisual.layout}</dd>
+                </div>
+              )}
+            </dl>
+            <a
+              href={visualUrl(selectedVisual)}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-4 inline-flex items-center gap-2 font-bold text-[#0d7c66] hover:underline"
+            >
+              Open full image <ExternalLink size={14} />
+            </a>
+          </div>
+        )}
+      </div>
+    </aside>
+    </>
   )
 }

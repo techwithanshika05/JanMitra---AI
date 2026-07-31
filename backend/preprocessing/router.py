@@ -1,7 +1,7 @@
 """
 router.py
 
-Routes PDFs between two processing paths based on DocumentAnalyzer's 
+Routes PDFs between two processing paths based on DocumentAnalyzer's
 per-page heuristics:
 
     "pymupdf" -> cheap local text extraction (document_analyzer.py's
@@ -35,9 +35,14 @@ from .document_analyzer import DocumentAnalyzer, DocumentAnalysisResult
 from .sarvam_processor import SarvamProcessor, SarvamConfig
 from .document_normalizer import (
     NormalizedDocument,
+    VISUAL_LAYOUTS,
     document_to_dict,
     normalize_from_pymupdf,
 )
+
+
+BACKEND_DIR = Path(__file__).resolve().parent.parent
+DEFAULT_IMAGE_OUTPUT_DIR = BACKEND_DIR / "data" / "images"
 
 
 logger = logging.getLogger("router")
@@ -102,11 +107,12 @@ class DocumentRouter:
         sarvam_processor: Optional[SarvamProcessor] = None,
         force_processor: Optional[str] = None,
         fallback_to_pymupdf: bool = True,
+        image_output_dir: Optional[Union[str, Path]] = DEFAULT_IMAGE_OUTPUT_DIR,
     ):
-        if force_processor not in (None, "pymupdf", "sarvam"):
+        if force_processor not in (None, "pymupdf", "sarvam", "hybrid"):
 
             raise ValueError(
-                "force_processor must be 'pymupdf', 'sarvam' or None, "
+                "force_processor must be 'pymupdf', 'sarvam', 'hybrid' or None, "
                 f"got {force_processor!r}"
             )
 
@@ -121,6 +127,11 @@ class DocumentRouter:
         # instead of failing the whole file. Quality may suffer on
         # scanned/graphic-heavy pages, but the pipeline keeps moving.
         self.fallback_to_pymupdf = fallback_to_pymupdf
+
+        self.image_output_dir = (
+            Path(image_output_dir)
+            if image_output_dir is not None else None
+        )
 
 
 # =============================================================================
@@ -151,6 +162,17 @@ class DocumentRouter:
             return self._failure_result(pdf_path, start, str(e)), None
 
         processor = self.force_processor or analysis.recommended_processor
+
+        # Hybrid is the credit-efficient explicit mode: text always comes
+        # from local PyMuPDF, while only visually complex pages go to Sarvam.
+        if processor == "hybrid" and self.sarvam_processor is None:
+            if not self.fallback_to_pymupdf:
+                return self._failure_result(
+                    pdf_path, start,
+                    "Hybrid processing requires a configured SarvamProcessor.",
+                    analysis, processor,
+                ), None
+            logger.warning("%s: Sarvam unavailable; hybrid mode will use local visual extraction only.", pdf_path.name)
 
         if processor == "sarvam" and self.sarvam_processor is None:
 
@@ -201,7 +223,28 @@ class DocumentRouter:
 
         try:
 
-            if processor == "sarvam":
+            if processor == "hybrid":
+
+                document = self._process_with_pymupdf(pdf_path, analysis)
+                visual_pages = self._visual_page_numbers(analysis)
+
+                if self.sarvam_processor is not None and visual_pages:
+                    try:
+                        sarvam_document = self.sarvam_processor.process_visual_pages(
+                            pdf_path, visual_pages
+                        )
+                        self._merge_sarvam_visuals(document, sarvam_document)
+                    except Exception as sarvam_error:
+                        if not self.fallback_to_pymupdf:
+                            raise
+                        logger.warning(
+                            "Sarvam visual processing failed for %s (%s); retaining local visual blocks.",
+                            pdf_path.name, sarvam_error,
+                        )
+                elif not visual_pages:
+                    logger.info("%s has no visual pages; no Sarvam credits used.", pdf_path.name)
+
+            elif processor == "sarvam":
 
                 try:
 
@@ -258,11 +301,55 @@ class DocumentRouter:
 
         return route_result, document
 
+    @staticmethod
+    def _visual_page_numbers(analysis: DocumentAnalysisResult) -> List[int]:
+        """Select only pages worth sending to Sarvam for layout-aware visuals."""
+
+        return [
+            page.page_number
+            for page in analysis.pages
+            if page.scanned_page or page.image_count > 0 or page.drawing_count >= 3
+        ]
+
+    @staticmethod
+    def _merge_sarvam_visuals(
+        text_document: NormalizedDocument,
+        sarvam_document: NormalizedDocument,
+    ) -> None:
+        """Replace local visual heuristics with Sarvam's layout-aware blocks."""
+
+        pages_by_number = {page.page_number: page for page in text_document.pages}
+        visual_layouts = {layout.lower() for layout in VISUAL_LAYOUTS}
+        added = 0
+        for sarvam_page in sarvam_document.pages:
+            target_page = pages_by_number.get(sarvam_page.page_number)
+            if target_page is None:
+                continue
+            sarvam_visuals = [
+                block for block in sarvam_page.blocks
+                if block.image_path and str(block.layout).lower() in visual_layouts
+            ]
+            if not sarvam_visuals:
+                continue
+            target_page.blocks = [
+                block for block in target_page.blocks
+                if not (block.image_path and str(block.layout).lower() in visual_layouts)
+            ]
+            next_order = max((block.reading_order for block in target_page.blocks), default=-1) + 1
+            for block in sarvam_visuals:
+                block.page = target_page.page_number
+                block.reading_order = next_order
+                next_order += 1
+                target_page.blocks.append(block)
+                added += 1
+        text_document.metadata["sarvam_visual_blocks"] = added
+
     def process_directory(
         self,
         input_dir: Union[str, Path],
         output_dir: Union[str, Path],
         pattern: str = "*.pdf",
+        overwrite: bool = False,
     ) -> List[RouteResult]:
 
         input_dir = Path(input_dir)
@@ -288,7 +375,7 @@ class DocumentRouter:
             # Skip files that were already processed successfully in a
             # previous run, so re-running process_directory() doesn't
             # redo work (and doesn't re-burn Sarvam credits).
-            if out_file.exists():
+            if out_file.exists() and not overwrite:
 
                 logger.info(
                     "Skipping already processed: %s", pdf_path.name
@@ -367,6 +454,8 @@ class DocumentRouter:
         return normalize_from_pymupdf(
             pdf_path,
             routing_confidence=analysis.confidence,
+            image_output_dir=self.image_output_dir,
+            document_id=pdf_path.stem,
         )
 
 
@@ -450,7 +539,7 @@ def main() -> None:
 
     parser.add_argument(
         "--force-processor",
-        choices=["pymupdf", "sarvam"],
+        choices=["pymupdf", "sarvam", "hybrid"],
         default=None,
         help="Skip analysis and force a specific processor for every file",
     )
@@ -462,6 +551,12 @@ def main() -> None:
             "Fail instead of falling back to pymupdf when Sarvam is "
             "needed but unavailable"
         ),
+    )
+
+    parser.add_argument(
+        "--overwrite",
+        action="store_true",
+        help="Reprocess PDFs even when normalized JSON output already exists.",
     )
 
     parser.add_argument(
@@ -510,7 +605,7 @@ def main() -> None:
     if input_path.is_dir():
 
         router.process_directory(
-            input_path, output_dir, pattern=args.pattern
+            input_path, output_dir, pattern=args.pattern, overwrite=args.overwrite
         )
 
         return

@@ -8,9 +8,12 @@ passlib[bcrypt]==1.7.4
 bcrypt==4.0.1
 python-multipart==0.0.9
 chromadb==0.5.5
+posthog<3.0.0
 langchain==0.3.1
 langchain-community==0.3.1
 reportlab==4.2.2
+PyMuPDF>=1.24,<2
+PyPDF2>=3.0,<4
 python-dotenv==1.0.1
 numpy==1.26.4
 sentence-transformers==3.1.1

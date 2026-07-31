@@ -1,7 +1,8 @@
-"""Run with: python -m app.conversational_ai.agent.worker dev"""
+"""Run with: python -m app.conversational_ai.agent.worker start"""
 from app.conversational_ai.agent.janmitra_agent import build_agent
 from app.conversational_ai.agent.session_factory import build_agent_session
 from app.conversational_ai.config import voice_settings
+from app.conversational_ai.monitoring.worker_heartbeat import record_worker_registration
 from app.conversational_ai.prompts.system_prompt import HINDI_GREETING
 
 
@@ -21,6 +22,14 @@ def main() -> None:
     # first caller does not wait for Windows to spawn a cold process.
     server = AgentServer(num_idle_processes=1)
     server.rtc_session(entrypoint, agent_name=voice_settings.agent_name)
+    server.on(
+        "worker_registered",
+        lambda worker_id, server_info: record_worker_registration(
+            worker_id,
+            agent_name=voice_settings.agent_name,
+            region=str(getattr(server_info, "region", "") or ""),
+        ),
+    )
     cli.run_app(server)
 
 

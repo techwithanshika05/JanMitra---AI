@@ -2136,6 +2136,7 @@ def ingest(
     output_format: str = "md",
     force_processor: Optional[str] = None,
     fallback_to_pymupdf: bool = True,
+    overwrite: bool = False,
 ) -> List[RouteResult]:
 
     input_dir = Path(input_dir)
@@ -2178,7 +2179,10 @@ def ingest(
     start = time.perf_counter()
 
     results = router.process_directory(
-        input_dir, output_dir, pattern=pattern
+        input_dir,
+        output_dir,
+        pattern=pattern,
+        overwrite=overwrite,
     )
 
     build_corpus(output_dir, results)
@@ -2232,9 +2236,18 @@ def main() -> None:
 
     parser.add_argument(
         "--force-processor",
-        choices=["pymupdf", "sarvam"],
+        choices=["pymupdf", "sarvam", "hybrid"],
         default=None,
-        help="Skip analysis and force a specific processor for every file",
+        help=(
+            "Skip automatic routing and force local, Sarvam, or hybrid "
+            "processing for every file"
+        ),
+    )
+
+    parser.add_argument(
+        "--overwrite",
+        action="store_true",
+        help="Reprocess PDFs even when normalized JSON output already exists",
     )
 
     parser.add_argument(
@@ -2256,6 +2269,7 @@ def main() -> None:
         output_format=args.output_format,
         force_processor=args.force_processor,
         fallback_to_pymupdf=not args.no_fallback,
+        overwrite=args.overwrite,
     )
 
 

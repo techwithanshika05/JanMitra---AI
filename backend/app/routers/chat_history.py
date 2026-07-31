@@ -1,8 +1,10 @@
 """Owned persistent chat sessions and per-response feedback."""
 from datetime import datetime
 from inspect import signature
+from pathlib import Path
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Request, Response, status
+from fastapi.responses import FileResponse
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
@@ -20,10 +22,28 @@ from app.rag.language import resolve_response_language
 from app.rag.response_router import generate_chat_response
 
 router = APIRouter(prefix="/api/chat", tags=["chat-history"])
+VISUAL_DATA_ROOT = (Path(__file__).resolve().parents[2] / "data").resolve()
+VISUAL_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 
 
 def identity_for(request: Request, response: Response, db: Session) -> ChatIdentity:
     return resolve_identity(request, response, db)
+
+
+@router.get("/visual-evidence/{visual_path:path}", response_class=FileResponse)
+def visual_evidence(visual_path: str):
+    """Serve only image evidence generated beneath the backend data directory."""
+    candidate = (VISUAL_DATA_ROOT / visual_path).resolve()
+    if (
+        VISUAL_DATA_ROOT not in candidate.parents
+        or candidate.suffix.casefold() not in VISUAL_EXTENSIONS
+        or not candidate.is_file()
+    ):
+        raise HTTPException(status_code=404, detail="Visual evidence not found")
+    return FileResponse(
+        candidate,
+        headers={"Cache-Control": "public, max-age=86400"},
+    )
 
 
 @router.post("/sessions", response_model=chat_schemas.SessionOut, status_code=201)
@@ -164,6 +184,12 @@ def send_message(
             response_type, structured = format_if_informational(
                 payload.message, result["answer"], response_language
             )
+        visual_evidence = list(result.get("retrieved_images") or [])[:1]
+        if visual_evidence:
+            structured = {
+                **(structured or {}),
+                "visual_evidence": visual_evidence,
+            }
     except Exception:
         error_message = chat_models.ChatMessage(
             session_id=session.id,

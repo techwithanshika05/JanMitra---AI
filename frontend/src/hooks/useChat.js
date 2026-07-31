@@ -10,6 +10,7 @@ export function useChat() {
   const [messages, setMessages] = useState([])
   const [history, setHistory] = useState([])
   const [isTyping, setIsTyping] = useState(false)
+  const [feedbackPending, setFeedbackPending] = useState({})
   const [sessionId, setSessionId] = useState('')
   const [sessions, setSessions] = useState([])
 
@@ -34,14 +35,32 @@ export function useChat() {
     timestamp: displayTime(message.created_at),
     confidence: message.confidence,
     sources: message.sources,
-    disclaimer: message.disclaimer
+    disclaimer: message.disclaimer,
+    structuredContent: message.structured_content,
+    visualEvidence: (
+      message.visual_evidence
+      || message.structured_content?.visual_evidence
+      || []
+    ).slice(0, 1),
+    feedback: message.feedback || null
   })
+
+  const loadFeedback = async message => {
+    if (message.role !== 'assistant' || !message.id) return message
+    try {
+      return { ...message, feedback: await api.chatFeedback(message.id) }
+    } catch (error) {
+      if (error.status !== 404) console.warn('Could not load chat feedback', error)
+      return message
+    }
+  }
 
   const loadSession = async id => {
     try {
       const session = await api.chatSession(id)
       const normalized = (session.messages || []).map(normalizeMessage)
-      setMessages(normalized)
+      const withFeedback = await Promise.all(normalized.map(loadFeedback))
+      setMessages(withFeedback)
       setHistory(normalized.filter(message => message.role === 'user').map(message => message.content))
       setSessionId(id)
       localStorage.setItem(SESSION_STORAGE_KEY, id)
@@ -150,8 +169,45 @@ export function useChat() {
     await refreshSessions()
   }
 
+  const saveMessageFeedback = async (messageId, reaction) => {
+    if (!messageId || feedbackPending[messageId]) return
+    setFeedbackPending(previous => ({ ...previous, [messageId]: true }))
+    try {
+      const feedback = await api.saveChatFeedback(messageId, {
+        reaction,
+        rating: reaction === 'like' ? 5 : 1,
+        feedback_text: reaction === 'like' ? 'Helpful response' : 'Unhelpful response'
+      })
+      setMessages(previous => previous.map(message => (
+        message.id === messageId ? { ...message, feedback } : message
+      )))
+      return feedback
+    } finally {
+      setFeedbackPending(previous => ({ ...previous, [messageId]: false }))
+    }
+  }
+
+  const removeMessageFeedback = async messageId => {
+    if (!messageId || feedbackPending[messageId]) return
+    setFeedbackPending(previous => ({ ...previous, [messageId]: true }))
+    try {
+      await api.deleteChatFeedback(messageId)
+      setMessages(previous => previous.map(message => (
+        message.id === messageId ? { ...message, feedback: null } : message
+      )))
+    } catch (error) {
+      if (error.status !== 404) throw error
+      setMessages(previous => previous.map(message => (
+        message.id === messageId ? { ...message, feedback: null } : message
+      )))
+    } finally {
+      setFeedbackPending(previous => ({ ...previous, [messageId]: false }))
+    }
+  }
+
   return {
     messages, history, isTyping, sessionId, sessions, sendMessage, clearChat,
-    exportPDF, newChat, loadSession, renameSession, removeSession, refreshSessions
+    exportPDF, newChat, loadSession, renameSession, removeSession, refreshSessions,
+    feedbackPending, saveMessageFeedback, removeMessageFeedback
   }
 }

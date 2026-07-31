@@ -4,8 +4,10 @@ import Footer from './Footer'
 import QuickDock from './QuickDock'
 import LoadingScreen from './LoadingScreen'
 import { useState, useEffect } from 'react'
+import { useRouter } from 'next/router'
 
 export default function Layout({ children }) {
+  const router = useRouter()
   const [loading, setLoading] = useState(true)
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
@@ -27,7 +29,9 @@ export default function Layout({ children }) {
 
       <div className="main-wrapper min-h-screen flex flex-col overflow-x-clip">
         <Navbar onMenuClick={() => setSidebarOpen(true)} />
-        <main className="workspace-content w-full flex-1 mx-auto pt-3 sm:pt-5 pb-[120px]">
+        <main className={`workspace-content w-full flex-1 mx-auto pt-3 sm:pt-5 ${
+          router.pathname === '/chat' ? 'pb-0' : 'pb-5 sm:pb-7'
+        }`}>
           {children}
         </main>
         <QuickDock />

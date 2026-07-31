@@ -3,6 +3,39 @@ import { Mic, MicOff, Phone, PhoneOff, Volume2, VolumeX } from 'lucide-react'
 import { api } from '@/utils/api'
 import { useLanguage } from '@/contexts/LanguageContext'
 
+const ROOM_CONNECT_TIMEOUT_MS = 15000
+const AGENT_JOIN_TIMEOUT_MS = 12000
+
+const withTimeout = (promise, timeoutMs, message) => new Promise((resolve, reject) => {
+  const timer = window.setTimeout(() => reject(new Error(message)), timeoutMs)
+  Promise.resolve(promise).then(
+    value => {
+      window.clearTimeout(timer)
+      resolve(value)
+    },
+    error => {
+      window.clearTimeout(timer)
+      reject(error)
+    }
+  )
+})
+
+const waitForAgent = (room, RoomEvent) => {
+  if (room.remoteParticipants.size > 0) return Promise.resolve()
+  return new Promise((resolve, reject) => {
+    const timer = window.setTimeout(() => {
+      room.off(RoomEvent.ParticipantConnected, handleParticipant)
+      reject(new Error('The voice assistant did not join. Check that the LiveKit worker is running.'))
+    }, AGENT_JOIN_TIMEOUT_MS)
+    const handleParticipant = () => {
+      window.clearTimeout(timer)
+      room.off(RoomEvent.ParticipantConnected, handleParticipant)
+      resolve()
+    }
+    room.on(RoomEvent.ParticipantConnected, handleParticipant)
+  })
+}
+
 const formatDuration = totalSeconds => {
   const seconds = Math.max(0, totalSeconds || 0)
   const minutes = Math.floor(seconds / 60)
@@ -20,21 +53,45 @@ export default function Voice() {
   const [muted, setMuted] = useState(false)
   const [speakerMuted, setSpeakerMuted] = useState(false)
   const [agentSpeaking, setAgentSpeaking] = useState(false)
+  const [connectionMessage, setConnectionMessage] = useState('')
   const roomRef = useRef(null)
   const sessionRef = useRef(null)
   const audioRef = useRef(null)
   const startedAtRef = useRef(null)
+  const livekitPromiseRef = useRef(null)
+  const busyRef = useRef(false)
 
   useEffect(() => {
-    api.voiceHealth()
+    // Download and parse the LiveKit client while the user reads the page so
+    // clicking the call button does not pay this one-time cost.
+    livekitPromiseRef.current = import('livekit-client')
+
+    let disposed = false
+    const checkHealth = () => api.voiceHealth()
       .then(health => {
+        if (disposed) return
         const available = health?.status === 'ready'
         setReady(available)
-        setConnectionState(available ? 'idle' : 'unavailable')
+        if (!sessionRef.current && !busyRef.current) {
+          setConnectionState(available ? 'idle' : 'unavailable')
+          setConnectionMessage(available
+            ? ''
+            : 'The voice worker is offline. Start it and this page will become ready automatically.')
+        }
       })
-      .catch(() => setConnectionState('unavailable'))
+      .catch(() => {
+        if (disposed || sessionRef.current || busyRef.current) return
+        setReady(false)
+        setConnectionState('unavailable')
+        setConnectionMessage('Voice health could not be verified. Check the backend service.')
+      })
+
+    checkHealth()
+    const healthTimer = window.setInterval(checkHealth, 5000)
 
     return () => {
+      disposed = true
+      window.clearInterval(healthTimer)
       roomRef.current?.disconnect()
       roomRef.current = null
     }
@@ -54,13 +111,20 @@ export default function Voice() {
   const start = async () => {
     if (!ready || busy) return
     setBusy(true)
+    busyRef.current = true
     setConnectionState('connecting')
+    setConnectionMessage('Connecting to the secure voice room...')
     let created = null
 
     try {
-      created = await api.startVoice('hi-IN')
-      const { Room, RoomEvent, Track } = await import('livekit-client')
+      const [createdSession, livekit] = await Promise.all([
+        api.startVoice('hi-IN'),
+        livekitPromiseRef.current || import('livekit-client')
+      ])
+      created = createdSession
+      const { Room, RoomEvent, Track } = livekit
       const room = new Room({ adaptiveStream: true, dynacast: true })
+      roomRef.current = room
 
       room.on(RoomEvent.TrackSubscribed, track => {
         if (track.kind !== Track.Kind.Audio || !audioRef.current) return
@@ -80,9 +144,20 @@ export default function Voice() {
         setAgentSpeaking(false)
       })
 
-      await room.connect(created.livekit_url, created.token)
+      await withTimeout(
+        room.connect(created.livekit_url, created.token),
+        ROOM_CONNECT_TIMEOUT_MS,
+        'LiveKit room connection timed out. Check your network and try again.'
+      )
       await room.startAudio().catch(() => undefined)
       await room.localParticipant.setMicrophoneEnabled(true)
+
+      setConnectionMessage(
+        room.remoteParticipants.size > 0
+          ? ''
+          : 'Room connected. Preparing the voice assistant...'
+      )
+      await waitForAgent(room, RoomEvent)
 
       roomRef.current = room
       sessionRef.current = created
@@ -90,22 +165,26 @@ export default function Voice() {
       setSession(created)
       setMuted(false)
       setSpeakerMuted(false)
-      setConnectionState(room.remoteParticipants.size > 0 ? 'listening' : 'connecting')
-    } catch {
+      setConnectionState('listening')
+      setConnectionMessage('')
+    } catch (error) {
       roomRef.current?.disconnect()
       roomRef.current = null
       if (created?.session_id) {
-        await api.endVoice(created.session_id, 'connection_failed').catch(() => undefined)
+        api.endVoice(created.session_id, 'connection_failed').catch(() => undefined)
       }
       setConnectionState('error')
+      setConnectionMessage(error?.message || 'The voice connection failed. Please try again.')
     } finally {
       setBusy(false)
+      busyRef.current = false
     }
   }
 
   const end = async () => {
     if (!sessionRef.current || busy) return
     setBusy(true)
+    busyRef.current = true
     const currentSession = sessionRef.current
     roomRef.current?.disconnect()
     await api.endVoice(currentSession.session_id).catch(() => undefined)
@@ -114,11 +193,13 @@ export default function Voice() {
     startedAtRef.current = null
     setSession(null)
     setConnectionState('idle')
+    setConnectionMessage('')
     setAgentSpeaking(false)
     setMuted(false)
     setSpeakerMuted(false)
     audioRef.current?.replaceChildren()
     setBusy(false)
+    busyRef.current = false
   }
 
   const toggleMicrophone = async () => {
@@ -173,6 +254,12 @@ export default function Voice() {
         <h1 className="mt-10 text-[clamp(38px,6vw,68px)] font-black tracking-[-.06em] text-[#10271f] dark:text-white">
           {status}
         </h1>
+
+        {connectionMessage && (
+          <p className="mt-3 max-w-xl text-sm font-semibold text-[#667085] dark:text-[#aab8b3]">
+            {connectionMessage}
+          </p>
+        )}
 
         {active ? (
           <div className="mt-10 flex items-center justify-center gap-4">

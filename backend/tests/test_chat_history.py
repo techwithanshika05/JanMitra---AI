@@ -73,6 +73,19 @@ def fake_generate(message: str, language: str):
     }
 
 
+def fake_generate_with_visual(message: str, language: str):
+    return {
+        **fake_generate(message, language),
+        "retrieved_images": [{
+            "url": "/api/chat/visual-evidence/retrieved_visuals/allocation.png",
+            "layout": "chart",
+            "title": "Total foodgrain allocations",
+            "source_file": "foodgrain.pdf",
+            "page_number": 6,
+        }],
+    }
+
+
 def create_user(email: str = "citizen@example.com") -> tuple[int, str]:
     db = TestingSession()
     user = models.User(name="Citizen", email=email, hashed_password="unused")
@@ -125,6 +138,42 @@ def test_message_persistence_idempotency_and_faq(monkeypatch):
     detail = client.get(f"/api/chat/sessions/{session_id}").json()
     assert len(detail["messages"]) == 2
     assert detail["messages"][0]["content"] == payload["message"]
+
+
+def test_visual_evidence_is_persisted_with_assistant_message(monkeypatch):
+    monkeypatch.setattr(chat_history, "_generate", fake_generate_with_visual)
+    client = TestClient(app)
+    session_id = client.post("/api/chat/sessions", json={}).json()["id"]
+    sent = client.post(
+        f"/api/chat/sessions/{session_id}/messages",
+        json={
+            "message": "Show the allocation chart",
+            "language": "en",
+            "client_message_id": "visual-message-0001",
+        },
+    )
+    assert sent.status_code == 201
+    visual = sent.json()["assistant_message"]["structured_content"]["visual_evidence"][0]
+    assert visual["layout"] == "chart"
+    assert visual["page_number"] == 6
+
+
+def test_visual_evidence_endpoint_serves_only_images_under_data_root(
+    monkeypatch, tmp_path
+):
+    visual_root = tmp_path / "data"
+    image = visual_root / "retrieved_visuals" / "allocation.png"
+    image.parent.mkdir(parents=True)
+    image.write_bytes(b"\x89PNG\r\n\x1a\n")
+    (visual_root / "private.txt").write_text("not public", encoding="utf-8")
+    monkeypatch.setattr(chat_history, "VISUAL_DATA_ROOT", visual_root.resolve())
+
+    client = TestClient(app)
+    served = client.get("/api/chat/visual-evidence/retrieved_visuals/allocation.png")
+    assert served.status_code == 200
+    assert served.headers["content-type"] == "image/png"
+    assert client.get("/api/chat/visual-evidence/private.txt").status_code == 404
+    assert client.get("/api/chat/visual-evidence/../private.txt").status_code == 404
 
 
 def test_feedback_create_update_validation_and_ownership(monkeypatch):

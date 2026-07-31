@@ -1,0 +1,21 @@
+[
+  {
+    "document_id": "sample",
+    "source_file": "D:\\H_K\\merging\\hariom\\Testing\\backend\\test\\sample.pdf",
+    "processor_used": "pymupdf",
+    "recommended_processor": "sarvam",
+    "confidence": 0.7777777777777778,
+    "status": "success",
+    "error": null,
+    "output_path": "test\\preprocessing_local_scan_output\\sample.json",
+    "analysis": {
+      "total_pages": 8,
+      "scanned_pages": 8,
+      "image_pages": 8,
+      "drawing_pages": 0,
+      "recommended_processor": "sarvam",
+      "confidence": 0.7777777777777778
+    },
+    "processing_time_seconds": 3.743
+  }
+]

@@ -1,0 +1,189 @@
+{
+  "source_file": "sample.pdf",
+  "metadata": {
+    "total_pages": 8,
+    "total_blocks": 8,
+    "average_confidence": 1.0,
+    "processor": "pymupdf",
+    "routing_confidence": 0.7777777777777778,
+    "processed_at": "2026-07-31T07:32:08Z"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-31T07:32:05Z",
+      "blocks": [
+        {
+          "page": 1,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.0,
+            "y2": 841.47998046875
+          },
+          "image_path": "D:\\H_K\\merging\\hariom\\Testing\\backend\\data\\images\\sample_p1_img0.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-31T07:32:05Z",
+      "blocks": [
+        {
+          "page": 2,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.0,
+            "y2": 841.47998046875
+          },
+          "image_path": "D:\\H_K\\merging\\hariom\\Testing\\backend\\data\\images\\sample_p2_img0.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-31T07:32:06Z",
+      "blocks": [
+        {
+          "page": 3,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.0,
+            "y2": 841.47998046875
+          },
+          "image_path": "D:\\H_K\\merging\\hariom\\Testing\\backend\\data\\images\\sample_p3_img0.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-31T07:32:06Z",
+      "blocks": [
+        {
+          "page": 4,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.0,
+            "y2": 841.47998046875
+          },
+          "image_path": "D:\\H_K\\merging\\hariom\\Testing\\backend\\data\\images\\sample_p4_img0.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-31T07:32:07Z",
+      "blocks": [
+        {
+          "page": 5,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.0,
+            "y2": 841.47998046875
+          },
+          "image_path": "D:\\H_K\\merging\\hariom\\Testing\\backend\\data\\images\\sample_p5_img0.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-31T07:32:07Z",
+      "blocks": [
+        {
+          "page": 6,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.0,
+            "y2": 841.47998046875
+          },
+          "image_path": "D:\\H_K\\merging\\hariom\\Testing\\backend\\data\\images\\sample_p6_img0.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-31T07:32:08Z",
+      "blocks": [
+        {
+          "page": 7,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.0,
+            "y2": 841.47998046875
+          },
+          "image_path": "D:\\H_K\\merging\\hariom\\Testing\\backend\\data\\images\\sample_p7_img0.jpeg"
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "width": 595,
+      "height": 841,
+      "created_at": "2026-07-31T07:32:08Z",
+      "blocks": [
+        {
+          "page": 8,
+          "layout": "image",
+          "text": "",
+          "confidence": 1.0,
+          "reading_order": 0,
+          "coordinates": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.0,
+            "y2": 841.47998046875
+          },
+          "image_path": "D:\\H_K\\merging\\hariom\\Testing\\backend\\data\\images\\sample_p8_img0.jpeg"
+        }
+      ]
+    }
+  ]
+}

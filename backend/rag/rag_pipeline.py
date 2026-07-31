@@ -35,10 +35,16 @@ Those operations belong to the ingestion pipeline.
 
 from __future__ import annotations
 
+import hashlib
+import json
 import logging
+import re
 import time
 from dataclasses import asdict, dataclass, field
+from pathlib import Path
 from typing import Any, Dict, List, Optional
+
+import fitz
 
 
 # ============================================================
@@ -147,6 +153,10 @@ class RAGResponse:
         processing_time:
             Total execution time in seconds.
 
+        retrieved_images:
+            At most one strongest visual tied to indexed metadata or the
+            highest-ranked source page.
+
         metadata:
             Additional diagnostic information.
     """
@@ -172,6 +182,10 @@ class RAGResponse:
     context_truncated: bool
 
     processing_time: float
+
+    retrieved_images: List[Dict[str, Any]] = field(
+        default_factory=list
+    )
 
     metadata: Dict[str, Any] = field(
         default_factory=dict
@@ -862,6 +876,19 @@ class RAGPipeline:
             )
         )
 
+        # Visual evidence is optional. A missing or malformed visual must not
+        # make an otherwise grounded text answer fail.
+        try:
+            retrieved_images = self._prepare_retrieved_images(
+                retrieval_query,
+                retrieved_results,
+            )
+        except Exception:
+            logger.exception(
+                "Visual retrieval failed; returning the grounded text answer."
+            )
+            retrieved_images = []
+
         # ====================================================
         # STEP 9: Build Final Response
         # ====================================================
@@ -878,6 +905,8 @@ class RAGPipeline:
             answer=answer,
 
             sources=sources,
+
+            retrieved_images=retrieved_images,
 
             processed_query=(
                 normalized_query
@@ -1047,6 +1076,364 @@ class RAGPipeline:
             "Retriever must implement "
             "either retrieve() or search()."
         )
+
+    # ========================================================
+    # Prepare Visual Evidence
+    # ========================================================
+
+    @classmethod
+    def _prepare_retrieved_images(
+        cls,
+        query: str,
+        results: List[Any],
+        data_dir: Optional[Path] = None,
+        output_dir: Optional[Path] = None,
+    ) -> List[Dict[str, Any]]:
+        """Return only the strongest relevant image/chart/graph.
+
+        Captioned preprocessing records are preferred. If this checkout has
+        not indexed visual records yet, the highest-ranked text source and
+        page are used to crop the query-matching visual from the source PDF.
+        """
+
+        backend_dir = Path(__file__).resolve().parent.parent
+        data_dir = Path(data_dir) if data_dir else backend_dir / "data"
+        output_dir = (
+            Path(output_dir)
+            if output_dir
+            else data_dir / "retrieved_visuals"
+        )
+        normalized_results = [
+            result for result in results if isinstance(result, dict)
+        ]
+
+        indexed = cls._best_indexed_visual(
+            query,
+            normalized_results,
+            data_dir,
+        )
+        if indexed is not None:
+            return [indexed]
+
+        for result in normalized_results:
+            fallback = cls._crop_source_page_visual(
+                query,
+                result,
+                data_dir,
+                output_dir,
+            )
+            if fallback is not None:
+                return [fallback]
+
+        return []
+
+    @classmethod
+    def _best_indexed_visual(
+        cls,
+        query: str,
+        results: List[Dict[str, Any]],
+        data_dir: Path,
+    ) -> Optional[Dict[str, Any]]:
+        """Rank visual records represented in preprocessing corpus metadata."""
+
+        query_tokens = cls._meaningful_tokens(query)
+        if len(query_tokens) < 2:
+            return None
+
+        source_pages = {
+            (
+                cls._source_file(result.get("metadata") or {}),
+                cls._page_number(result.get("metadata") or {}),
+            )
+            for result in results
+        }
+        best: Optional[Dict[str, Any]] = None
+        best_score = 0.0
+        corpus_paths = sorted(data_dir.glob("**/corpus.jsonl"))
+
+        for corpus_path in corpus_paths:
+            try:
+                lines = corpus_path.read_text(encoding="utf-8").splitlines()
+            except OSError:
+                logger.warning("Could not read visual corpus: %s", corpus_path)
+                continue
+
+            for line in lines:
+                try:
+                    record = json.loads(line)
+                except (json.JSONDecodeError, TypeError):
+                    continue
+                if not isinstance(record, dict):
+                    continue
+
+                metadata = record.get("metadata") or {}
+                if not isinstance(metadata, dict):
+                    metadata = {}
+                layout = str(
+                    record.get("layout")
+                    or metadata.get("layout")
+                    or ""
+                ).casefold()
+                image_value = (
+                    record.get("image_path")
+                    or metadata.get("image_path")
+                    or metadata.get("preview_path")
+                )
+                if layout not in {
+                    "image", "chart", "graph", "diagram", "figure", "picture",
+                } or not image_value:
+                    continue
+
+                image_path = cls._resolve_image_path(image_value, data_dir)
+                if image_path is None:
+                    continue
+
+                searchable = " ".join(
+                    str(value or "")
+                    for value in (
+                        record.get("text"),
+                        record.get("title"),
+                        metadata.get("title"),
+                        metadata.get("caption"),
+                        metadata.get("parent_section"),
+                    )
+                )
+                matched = query_tokens & cls._meaningful_tokens(searchable)
+                if len(matched) < 2:
+                    continue
+
+                coverage = len(matched) / len(query_tokens)
+                source_file = (
+                    cls._source_file(record)
+                    or cls._source_file(metadata)
+                )
+                page_number = (
+                    cls._page_number(record)
+                    or cls._page_number(metadata)
+                )
+                source_bonus = (
+                    0.20
+                    if (source_file, page_number) in source_pages
+                    else 0.0
+                )
+                score = min(1.0, coverage + source_bonus)
+                if coverage < 0.40 or score <= best_score:
+                    continue
+
+                best_score = score
+                best = {
+                    "image_path": str(image_path),
+                    "layout": layout,
+                    "coordinates": (
+                        record.get("coordinates")
+                        or metadata.get("coordinates")
+                        or {}
+                    ),
+                    "source_file": source_file,
+                    "page_number": page_number,
+                    "chunk_id": (
+                        record.get("chunk_id")
+                        or metadata.get("chunk_id")
+                    ),
+                    "title": (
+                        record.get("title")
+                        or metadata.get("title")
+                        or searchable[:180]
+                    ),
+                    "score": round(score, 4),
+                    "selection_method": "indexed_visual_metadata",
+                }
+
+        return best
+
+    @classmethod
+    def _crop_source_page_visual(
+        cls,
+        query: str,
+        result: Dict[str, Any],
+        data_dir: Path,
+        output_dir: Path,
+    ) -> Optional[Dict[str, Any]]:
+        """Crop the matching chart region from a retrieved source PDF page."""
+
+        metadata = result.get("metadata") or {}
+        if not isinstance(metadata, dict):
+            return None
+        source_file = cls._source_file(metadata)
+        page_number = cls._page_number(metadata)
+        if not source_file or page_number is None:
+            return None
+
+        source_path = cls._resolve_source_pdf(metadata, data_dir, source_file)
+        if source_path is None:
+            return None
+
+        query_tokens = cls._meaningful_tokens(query)
+        if len(query_tokens) < 2:
+            return None
+
+        with fitz.open(source_path) as document:
+            if page_number < 1 or page_number > document.page_count:
+                return None
+            page = document.load_page(page_number - 1)
+            blocks = page.get_text("blocks")
+
+            title_block: Optional[tuple[Any, ...]] = None
+            title_score = 0.0
+            for block in blocks:
+                text = str(block[4] or "")
+                block_tokens = cls._meaningful_tokens(text)
+                matched = query_tokens & block_tokens
+                coverage = len(matched) / len(query_tokens)
+                if len(matched) >= 2 and coverage > title_score:
+                    title_score = coverage
+                    title_block = block
+
+            if title_block is None or title_score < 0.40:
+                return None
+
+            title_y0 = float(title_block[1])
+            title_y1 = float(title_block[3])
+            source_blocks = [
+                block
+                for block in blocks
+                if float(block[1]) > title_y1
+                and str(block[4] or "").lstrip().casefold().startswith("source:")
+            ]
+            source_block = (
+                min(source_blocks, key=lambda block: float(block[1]))
+                if source_blocks
+                else None
+            )
+
+            x0 = max(page.rect.x0, float(title_block[0]) - 12)
+            x1 = min(page.rect.x1, float(title_block[2]) + 12)
+            y0 = max(page.rect.y0, title_y0 - 12)
+            if source_block is not None:
+                x0 = max(page.rect.x0, min(x0, float(source_block[0]) - 8))
+                x1 = min(page.rect.x1, max(x1, float(source_block[2]) + 8))
+                y1 = min(page.rect.y1, float(source_block[3]) + 6)
+            else:
+                y1 = min(page.rect.y1, title_y1 + page.rect.height * 0.32)
+
+            clip = fitz.Rect(x0, y0, x1, y1) & page.rect
+            if clip.is_empty or clip.width < 80 or clip.height < 80:
+                return None
+
+            digest = hashlib.sha256(
+                f"{source_file}|{page_number}|{query.casefold()}".encode("utf-8")
+            ).hexdigest()[:10]
+            safe_stem = re.sub(
+                r"[^A-Za-z0-9._-]+",
+                "_",
+                Path(source_file).stem,
+            ).strip("._") or "document"
+            output_dir.mkdir(parents=True, exist_ok=True)
+            output_path = (
+                output_dir
+                / f"{safe_stem}_p{page_number:04d}_{digest}.png"
+            )
+            if not output_path.is_file() or output_path.stat().st_size == 0:
+                pixmap = page.get_pixmap(
+                    matrix=fitz.Matrix(2, 2),
+                    clip=clip,
+                    alpha=False,
+                )
+                pixmap.save(output_path)
+
+        score_value = result.get("similarity")
+        if score_value is None:
+            distance = result.get("distance")
+            try:
+                score_value = 1.0 - float(distance)
+            except (TypeError, ValueError):
+                score_value = title_score
+
+        return {
+            "image_path": str(output_path.resolve()),
+            "layout": "chart",
+            "coordinates": {
+                "x1": round(clip.x0, 2),
+                "y1": round(clip.y0, 2),
+                "x2": round(clip.x1, 2),
+                "y2": round(clip.y1, 2),
+            },
+            "source_file": source_file,
+            "page_number": page_number,
+            "chunk_id": (
+                result.get("chunk_id")
+                or metadata.get("chunk_id")
+            ),
+            "title": " ".join(str(title_block[4]).split()),
+            "score": round(float(score_value or 0.0), 4),
+            "selection_method": "retrieved_source_page_crop",
+        }
+
+    @staticmethod
+    def _meaningful_tokens(value: Any) -> set[str]:
+        stop_words = {
+            "about", "after", "also", "and", "are", "been", "for", "from",
+            "has", "have", "how", "into", "its", "of", "on", "the", "this",
+            "to", "was", "were", "what", "when", "where", "which", "with",
+        }
+        return {
+            token
+            for token in re.findall(r"[A-Za-z0-9]+", str(value).casefold())
+            if len(token) >= 2 and token not in stop_words
+        }
+
+    @staticmethod
+    def _source_file(metadata: Dict[str, Any]) -> Optional[str]:
+        value = (
+            metadata.get("source_file")
+            or metadata.get("file_name")
+            or metadata.get("source")
+        )
+        if not value:
+            return None
+        return Path(str(value).replace("\\", "/")).name
+
+    @staticmethod
+    def _page_number(metadata: Dict[str, Any]) -> Optional[int]:
+        value = metadata.get("page_number") or metadata.get("page")
+        try:
+            number = int(value)
+            return number if number >= 1 else None
+        except (TypeError, ValueError):
+            return None
+
+    @staticmethod
+    def _resolve_source_pdf(
+        metadata: Dict[str, Any],
+        data_dir: Path,
+        source_file: str,
+    ) -> Optional[Path]:
+        source_value = metadata.get("source")
+        if source_value:
+            candidate = Path(str(source_value))
+            if candidate.is_file():
+                return candidate.resolve()
+        candidate = data_dir / "raw" / source_file
+        return candidate.resolve() if candidate.is_file() else None
+
+    @staticmethod
+    def _resolve_image_path(
+        value: Any,
+        data_dir: Path,
+    ) -> Optional[Path]:
+        candidate = Path(str(value))
+        if candidate.is_file():
+            return candidate.resolve()
+        normalized = str(value).replace("\\", "/")
+        marker = "/data/images/"
+        lowered = normalized.casefold()
+        index = lowered.find(marker)
+        if index >= 0:
+            relative = normalized[index + len("/data/"):]
+            candidate = data_dir / Path(relative)
+            if candidate.is_file():
+                return candidate.resolve()
+        return None
 
     # ========================================================
     # Prepare Sources
@@ -1454,6 +1841,75 @@ def main() -> None:
                     ):
 
                         pass
+
+        # ----------------------------------------------------
+        # Display Best Visual Evidence
+        # ----------------------------------------------------
+
+        print(
+            "\n"
+            + "=" * 60
+        )
+
+        print(
+            "BEST VISUAL EVIDENCE"
+        )
+
+        print(
+            "=" * 60
+        )
+
+        if not response.retrieved_images:
+
+            print(
+                "No relevant image/chart/graph found."
+            )
+
+        else:
+
+            visual = response.retrieved_images[0]
+            image_path = str(
+                visual.get("image_path") or ""
+            )
+
+            try:
+                image_link = Path(
+                    image_path
+                ).resolve().as_uri()
+            except (OSError, ValueError):
+                image_link = image_path
+
+            print(
+                f"Type: {visual.get('layout', 'image')}"
+            )
+
+            if visual.get("title"):
+                print(
+                    f"Title: {visual['title']}"
+                )
+
+            if visual.get("source_file"):
+                print(
+                    f"Source: {visual['source_file']}"
+                )
+
+            if visual.get("page_number") is not None:
+                print(
+                    f"Page: {visual['page_number']}"
+                )
+
+            print(
+                f"Selection: "
+                f"{visual.get('selection_method', 'visual_metadata')}"
+            )
+
+            print(
+                f"Image path: {image_path}"
+            )
+
+            print(
+                f"Image link: {image_link}"
+            )
 
         # ----------------------------------------------------
         # Display Pipeline Information

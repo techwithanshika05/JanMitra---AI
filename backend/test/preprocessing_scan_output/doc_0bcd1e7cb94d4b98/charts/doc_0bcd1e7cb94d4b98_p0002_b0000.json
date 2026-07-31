@@ -1,0 +1,15 @@
+{
+  "chart_id": "doc_0bcd1e7cb94d4b98_p0002_b0000",
+  "chart_type": "chart",
+  "title": "UNIQUE TRANSACTIONS: Bihar, Madhya Pradesh, Uttar Pradesh and Total by Month",
+  "description": "| Month | Bihar (Green) | Madhya Pradesh (Yellow) | Uttar Pradesh (Grey) | Total (Red Stacked Top) |\n| :--- | :--- | :--- | :--- | :--- |\n| Apr-21 | ~5,000 | 0 | 0 | < 5,000 |\n| May-21 | - | 0 | 0 | Low (< 10,000 approx.) |\n| Jun-21 | - | Small (~3k range?) | Very small/Negligible | Medium Growth (> 10,000 but below Red Peak)|\n| Jul-21 to Mar-22 Range: Fluctuating Trend<br>Total Volume Peaks in Feb-Mar at >4M and dips around Jan.<br><br>**Note:** Values for months between Nov '21 & Oct '22 are not explicitly labeled on the Y-axis scale provided; values listed here represent visual estimates based on relative height compared to explicit labels.**\n\n**Explicit Data Points from Legend Labels:**\n*   **Bihar**: Ends exactly **7,48,306**. Starts near zero or negligible before April.\n*   **Madhya Pradesh**: ends approximately halfway up its segment (**~9L**) starting low then rising steadily through Sep-'Oct'.\n*   **Uttar Pradesh**: starts very high early ('High' bar), drops significantly by Dec', rises again mid year ending just above medium level of stack total volume end point(s).\n*   **Total End Value**: Explicitly stated as **38,98,875**, which is roughly double that of UP alone suggesting significant contribution primarily comes from Punjab area.",
+  "categories": [],
+  "series": [],
+  "source_page": 2,
+  "verification_status": "visual_only",
+  "render": {
+    "library": "echarts",
+    "renderer": "svg"
+  },
+  "preview_path": "charts/doc_0bcd1e7cb94d4b98_p0002_b0000.png"
+}

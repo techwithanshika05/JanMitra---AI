@@ -5,7 +5,7 @@ Canonical normalized-document schema for the RAG ingestion pipeline,
 plus converters that turn raw output from each processing path
 (Sarvam Document Intelligence ZIPs, local PyMuPDF extraction) into
 that shared schema.
- 
+
 This schema lives in its own module -- not inside sarvam_processor.py
 or router.py -- so both processing paths (and any future one) produce
 interchangeable output without importing each other.
@@ -91,6 +91,59 @@ class NormalizedDocument:
 
 
 # =============================================================================
+# Layouts treated as "visual" -- these get a cropped image saved
+# alongside their OCR'd/extracted text, since text alone (e.g. numbers
+# read off a bar chart) is a lossy representation of the original.
+# =============================================================================
+
+VISUAL_LAYOUTS = {
+    "image", "figure", "picture", "chart", "graph", "table", "diagram",
+    "flowchart", "flow_chart", "flow chart", "flow-diagram", "flow_diagram",
+}
+
+
+def _safe_document_name(value: str) -> str:
+    """Return a portable directory name while preserving useful provenance."""
+
+    cleaned = re.sub(r'[<>:"/\\|?*\x00-\x1f]+', "_", value).strip(" ._")
+    return cleaned or "document"
+
+
+def _normalise_coordinates(value: Any) -> Dict[str, float]:
+    """Accept common Sarvam bounding-box formats and return x1/y1/x2/y2."""
+
+    if isinstance(value, (list, tuple)) and len(value) == 4:
+        value = dict(zip(("x1", "y1", "x2", "y2"), value))
+    if not isinstance(value, dict):
+        return {}
+
+    aliases = {
+        "x1": ("x1", "x0", "left", "x"), "y1": ("y1", "y0", "top", "y"),
+        "x2": ("x2", "right"), "y2": ("y2", "bottom"),
+    }
+    result: Dict[str, float] = {}
+    try:
+        for target, keys in aliases.items():
+            for key in keys:
+                if key in value and value[key] is not None:
+                    result[target] = float(value[key])
+                    break
+    except (TypeError, ValueError):
+        logger.warning("Ignoring malformed visual bounding box: %r", value)
+        return {}
+    # Some layout APIs emit x/y/width/height instead of two corners.
+    try:
+        if "x2" not in result and "width" in value and "x1" in result:
+            result["x2"] = result["x1"] + float(value["width"])
+        if "y2" not in result and "height" in value and "y1" in result:
+            result["y2"] = result["y1"] + float(value["height"])
+    except (TypeError, ValueError):
+        logger.warning("Ignoring malformed visual bounding box: %r", value)
+        return {}
+    return result if len(result) == 4 else {}
+
+
+# =============================================================================
 # Serialization
 # =============================================================================
 
@@ -118,6 +171,12 @@ def document_to_dict(document: NormalizedDocument) -> Dict[str, Any]:
                         "confidence": block.confidence,
                         "reading_order": block.reading_order,
                         "coordinates": block.coordinates,
+                        # NOTE: this was previously missing, which
+                        # silently dropped image_path for every block
+                        # the moment a NormalizedDocument round-tripped
+                        # through JSON (i.e. every document processed
+                        # via router.process_directory()).
+                        "image_path": block.image_path,
                     }
                     for block in page.blocks
                 ],
@@ -146,6 +205,9 @@ def document_from_dict(data: Dict[str, Any]) -> NormalizedDocument:
                 confidence=float(raw_block.get("confidence", 1.0)),
                 reading_order=int(raw_block.get("reading_order", 0)),
                 coordinates=raw_block.get("coordinates", {}),
+                # NOTE: this was previously missing too -- same bug,
+                # inverse direction.
+                image_path=raw_block.get("image_path"),
             )
             for raw_block in raw_page.get("blocks", [])
         ]
@@ -208,6 +270,121 @@ def _now() -> str:
 
 
 # =============================================================================
+# Image Cropping Helper
+# =============================================================================
+
+def _crop_block_image(
+    pdf_doc: "fitz.Document",
+    page_number: int,
+    coordinates: Dict[str, float],
+    reported_width: float,
+    reported_height: float,
+    output_dir: Path,
+    image_id: str,
+    dpi: int = 200,
+    pad_points: float = 4.0,
+) -> Optional[str]:
+    """
+    Crops a region of a PDF page (given a bounding box in the same
+    coordinate space the processor reported page width/height in) and
+    saves it as a PNG. Returns the saved path, or None if cropping
+    wasn't possible (missing/degenerate coordinates, bad page number,
+    I/O failure, etc). Never raises -- a failed crop should not fail
+    the whole document.
+    """
+
+    try:
+
+        coordinates = _normalise_coordinates(coordinates)
+        if not coordinates:
+
+            logger.warning("Skipping visual crop for %s: missing or invalid bounding box.", image_id)
+
+            return None
+
+        if page_number < 1 or page_number > pdf_doc.page_count:
+
+            logger.warning(
+                "Cannot crop image for %s: page %d out of range "
+                "(document has %d pages).",
+                image_id, page_number, pdf_doc.page_count,
+            )
+
+            return None
+
+        page = pdf_doc[page_number - 1]
+
+        page_rect = page.rect
+
+        # The bounding box coordinates were reported against
+        # (reported_width, reported_height) from the processor's own
+        # page-analysis, which doesn't always match the PDF's native
+        # point size 1:1. Scale into the actual page's coordinate
+        # space before cropping.
+        scale_x = (
+            page_rect.width / reported_width if reported_width else 1.0
+        )
+
+        scale_y = (
+            page_rect.height / reported_height if reported_height else 1.0
+        )
+
+        x1 = float(coordinates.get("x1", 0)) * scale_x
+        y1 = float(coordinates.get("y1", 0)) * scale_y
+        x2 = float(coordinates.get("x2", page_rect.width)) * scale_x
+        y2 = float(coordinates.get("y2", page_rect.height)) * scale_y
+
+        if x2 < x1:
+            x1, x2 = x2, x1
+
+        if y2 < y1:
+            y1, y2 = y2, y1
+
+        clip = fitz.Rect(
+            max(0.0, x1 - pad_points),
+            max(0.0, y1 - pad_points),
+            min(page_rect.width, x2 + pad_points),
+            min(page_rect.height, y2 + pad_points),
+        )
+
+        if clip.is_empty or clip.width < 2 or clip.height < 2:
+
+            logger.warning(
+                "Skipping degenerate crop for %s: %s", image_id, clip
+            )
+
+            return None
+
+        output_dir.mkdir(parents=True, exist_ok=True)
+
+        out_path = output_dir / f"{image_id}.png"
+
+        # Re-processing a document must be idempotent: do not render the
+        # same visual region again and do not modify an existing evidence file.
+        if out_path.is_file() and out_path.stat().st_size > 0:
+            return str(out_path)
+
+        zoom = dpi / 72.0
+
+        matrix = fitz.Matrix(zoom, zoom)
+
+        pixmap = page.get_pixmap(matrix=matrix, clip=clip)
+
+        pixmap.save(str(out_path))
+
+        return str(out_path)
+
+    except Exception as exc:
+
+        logger.warning(
+            "Failed to crop image block %s (page %d): %s",
+            image_id, page_number, exc,
+        )
+
+        return None
+
+
+# =============================================================================
 # PyMuPDF -> NormalizedDocument
 # =============================================================================
 
@@ -215,15 +392,26 @@ def normalize_from_pymupdf(
     pdf_path: Union[str, Path],
     clean: bool = True,
     routing_confidence: Optional[float] = None,
+    image_output_dir: Optional[Union[str, Path]] = None,
+    document_id: Optional[str] = None,
 ) -> NormalizedDocument:
     """
     Extracts plain text per page via PyMuPDF and wraps it in the
     NormalizedDocument schema. `routing_confidence` is optional context
     from DocumentAnalyzer, stored in metadata for traceability, not
     used for anything here.
+
+    If `image_output_dir` is given, embedded raster images on each
+    page (photos, charts exported as images, etc) are also extracted
+    and saved there, each as its own DocumentBlock with layout="image"
+    and image_path set. This is best-effort: PyMuPDF's page.get_images()
+    only finds images embedded as XObjects, not vector-drawn charts
+    (those require Sarvam's layout detection to crop by bounding box).
     """
 
     pdf_path = Path(pdf_path)
+
+    doc_id = document_id or pdf_path.stem
 
     doc = fitz.open(pdf_path)
 
@@ -246,6 +434,8 @@ def normalize_from_pymupdf(
 
             blocks: List[DocumentBlock] = []
 
+            reading_order = 0
+
             if text:
 
                 blocks.append(
@@ -254,10 +444,76 @@ def normalize_from_pymupdf(
                         layout="text",
                         text=text,
                         confidence=1.0,
-                        reading_order=0,
+                        reading_order=reading_order,
                         coordinates={},
                     )
                 )
+
+                reading_order += 1
+
+            if image_output_dir is not None:
+
+                out_dir = Path(image_output_dir)
+
+                for img_index, img in enumerate(page.get_images(full=True)):
+
+                    xref = img[0]
+
+                    try:
+
+                        rects = page.get_image_rects(xref)
+
+                    except Exception:
+
+                        rects = []
+
+                    rect = rects[0] if rects else None
+
+                    coordinates = (
+                        {
+                            "x1": rect.x0, "y1": rect.y0,
+                            "x2": rect.x1, "y2": rect.y1,
+                        }
+                        if rect else {}
+                    )
+
+                    image_id = f"{doc_id}_p{i}_img{img_index}"
+
+                    try:
+
+                        out_dir.mkdir(parents=True, exist_ok=True)
+
+                        base_image = doc.extract_image(xref)
+
+                        ext = base_image.get("ext", "png")
+
+                        out_path = out_dir / f"{image_id}.{ext}"
+
+                        with open(out_path, "wb") as f:
+
+                            f.write(base_image["image"])
+
+                        blocks.append(
+                            DocumentBlock(
+                                page=i,
+                                layout="image",
+                                text="",
+                                confidence=1.0,
+                                reading_order=reading_order,
+                                coordinates=coordinates,
+                                image_path=str(out_path),
+                            )
+                        )
+
+                        reading_order += 1
+
+                    except Exception as exc:
+
+                        logger.warning(
+                            "Failed to extract embedded image %s on "
+                            "%s page %d: %s",
+                            image_id, pdf_path.name, i, exc,
+                        )
 
             rect = page.rect
 
@@ -301,6 +557,11 @@ def normalize_from_pymupdf(
 def normalize_from_sarvam_zip(
     zip_path: Union[str, Path],
     clean: bool = True,
+    source_pdf_path: Optional[Union[str, Path]] = None,
+    image_output_dir: Optional[Union[str, Path]] = None,
+    document_id: Optional[str] = None,
+    chunk_index: int = 0,
+    page_offset: int = 0,
 ) -> List[DocumentPage]:
     """
     Opens a ZIP downloaded from Sarvam Document Intelligence, locates
@@ -311,49 +572,97 @@ def normalize_from_sarvam_zip(
     single source PDF may be split into several Sarvam jobs (one per
     <=10-page chunk); the caller is responsible for concatenating and
     re-numbering pages across chunks.
+
+    If `source_pdf_path` and `image_output_dir` are both given, blocks
+    whose layout is visual (chart/graph/table/image/figure -- see
+    VISUAL_LAYOUTS) get the corresponding region of the PDF cropped
+    and saved as a PNG, with the path stored on the block's
+    `image_path`. `source_pdf_path` should be the exact PDF file that
+    was uploaded to Sarvam for this chunk (page numbers in the JSON
+    output are local to that file, 1-indexed from its own start, not
+    the original un-split document).
     """
 
     zip_path = Path(zip_path)
 
     pages: List[DocumentPage] = []
 
-    with zipfile.ZipFile(zip_path, "r") as archive:
+    pdf_doc: Optional["fitz.Document"] = None
 
-        json_names = [
-            name for name in archive.namelist()
-            if name.lower().endswith(".json")
-        ]
+    if source_pdf_path is not None and image_output_dir is not None:
 
-        if not json_names:
+        try:
+
+            pdf_doc = fitz.open(Path(source_pdf_path))
+
+        except Exception as exc:
 
             logger.warning(
-                "No JSON file found inside %s; skipping page "
-                "extraction for this chunk.",
-                zip_path.name,
+                "Could not open %s for image cropping; visual blocks "
+                "in %s will have no image_path: %s",
+                source_pdf_path, zip_path.name, exc,
             )
 
-            return pages
+            pdf_doc = None
 
-        for json_name in sorted(json_names):
+    try:
 
-            with archive.open(json_name) as f:
+        with zipfile.ZipFile(zip_path, "r") as archive:
 
-                try:
+            json_names = [
+                name for name in archive.namelist()
+                if name.lower().endswith(".json")
+            ]
 
-                    payload = json.load(
-                        io.TextIOWrapper(f, encoding="utf-8")
+            if not json_names:
+
+                logger.warning(
+                    "No JSON file found inside %s; skipping page "
+                    "extraction for this chunk.",
+                    zip_path.name,
+                )
+
+                return pages
+
+            for json_name in sorted(json_names):
+
+                with archive.open(json_name) as f:
+
+                    try:
+
+                        payload = json.load(
+                            io.TextIOWrapper(f, encoding="utf-8")
+                        )
+
+                    except json.JSONDecodeError as e:
+
+                        logger.error(
+                            "Could not decode %s in %s: %s",
+                            json_name, zip_path.name, e,
+                        )
+
+                        continue
+
+                pages.extend(
+                    _parse_sarvam_payload(
+                        payload,
+                        clean=clean,
+                        pdf_doc=pdf_doc,
+                        image_output_dir=(
+                            Path(image_output_dir) / _safe_document_name(document_id or zip_path.stem)
+                            if image_output_dir is not None else None
+                        ),
+                        document_id=document_id or zip_path.stem,
+                        chunk_index=chunk_index,
+                        page_offset=page_offset,
                     )
+                )
 
-                except json.JSONDecodeError as e:
+    finally:
 
-                    logger.error(
-                        "Could not decode %s in %s: %s",
-                        json_name, zip_path.name, e,
-                    )
+        if pdf_doc is not None:
 
-                    continue
-
-            pages.extend(_parse_sarvam_payload(payload, clean))
+            pdf_doc.close()
 
     return pages
 
@@ -361,6 +670,11 @@ def normalize_from_sarvam_zip(
 def _parse_sarvam_payload(
     payload: Any,
     clean: bool,
+    pdf_doc: Optional["fitz.Document"] = None,
+    image_output_dir: Optional[Path] = None,
+    document_id: Optional[str] = None,
+    chunk_index: int = 0,
+    page_offset: int = 0,
 ) -> List[DocumentPage]:
     """
     Normalizes Sarvam's page-level JSON structure into DocumentPage
@@ -400,10 +714,16 @@ def _parse_sarvam_payload(
             or (page_index + 1 if isinstance(page_index, int) else 0)
         )
 
+        page_number = int(page_number or 0)
+
+        reported_width = float(raw_page.get("width", 0) or 0)
+
+        reported_height = float(raw_page.get("height", 0) or 0)
+
         page = DocumentPage(
-            page_number=int(page_number or 0),
-            width=int(raw_page.get("width", 0) or 0),
-            height=int(raw_page.get("height", 0) or 0),
+            page_number=page_number,
+            width=int(reported_width),
+            height=int(reported_height),
             created_at=raw_page.get(
                 "created_at", raw_page.get("timestamp", "")
             ),
@@ -418,23 +738,12 @@ def _parse_sarvam_payload(
 
         for order, raw_block in enumerate(raw_blocks):
 
-            coordinates = (
+            coordinates = _normalise_coordinates(
                 raw_block.get("coordinates")
                 or raw_block.get("bbox")
                 or raw_block.get("bounding_box")
                 or {}
             )
-
-            # Normalize a bbox given as [x1, y1, x2, y2] into a dict,
-            # in case Sarvam returns coordinates that way.
-            if isinstance(coordinates, list) and len(coordinates) == 4:
-
-                coordinates = {
-                    "x1": coordinates[0],
-                    "y1": coordinates[1],
-                    "x2": coordinates[2],
-                    "y2": coordinates[3],
-                }
 
             text = raw_block.get("text", "") or ""
 
@@ -442,15 +751,46 @@ def _parse_sarvam_payload(
 
                 text = clean_text(text)
 
+            layout = raw_block.get(
+                "layout", raw_block.get("type", "text")
+            )
+
+            reading_order = int(raw_block.get("reading_order", order))
+
+            image_path: Optional[str] = None
+
+            if (
+                pdf_doc is not None
+                and image_output_dir is not None
+                and str(layout).lower() in VISUAL_LAYOUTS
+            ):
+
+                # page_offset makes names unique when Sarvam receives a
+                # split PDF.  The persisted block page is renumbered later.
+                image_id = (
+                    f"page_{page_number + page_offset}_"
+                    f"{_safe_document_name(str(layout).lower())}_"
+                    f"{reading_order}"
+                )
+
+                image_path = _crop_block_image(
+                    pdf_doc=pdf_doc,
+                    page_number=page_number,
+                    coordinates=coordinates,
+                    reported_width=reported_width,
+                    reported_height=reported_height,
+                    output_dir=image_output_dir,
+                    image_id=image_id,
+                )
+
             block = DocumentBlock(
                 page=page.page_number,
-                layout=raw_block.get(
-                    "layout", raw_block.get("type", "text")
-                ),
+                layout=layout,
                 text=text,
                 confidence=float(raw_block.get("confidence", 1.0) or 1.0),
-                reading_order=int(raw_block.get("reading_order", order)),
+                reading_order=reading_order,
                 coordinates=coordinates,
+                image_path=image_path,
             )
 
             page.blocks.append(block)
@@ -508,7 +848,7 @@ def validate_document(document: NormalizedDocument) -> List[str]:
 
         for block in page.blocks:
 
-            if not block.text.strip():
+            if not block.text.strip() and not block.image_path:
 
                 warnings.append(
                     f"empty block text on page {page.page_number}"
@@ -534,6 +874,10 @@ def renumber_pages(document: NormalizedDocument) -> None:
     reference to match) in place. Used after merging pages from
     multiple split-chunk jobs, each of which numbers its own pages
     starting at 1, into a single continuous sequence.
+
+    Note: this does NOT rewrite image_path -- images stay wherever
+    they were cropped to; only the logical page_number/block.page
+    references are renumbered.
     """
 
     for offset, page in enumerate(document.pages, start=1):

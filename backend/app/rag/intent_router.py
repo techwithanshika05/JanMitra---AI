@@ -77,6 +77,13 @@ DOMAIN_TERMS = {
     "पेंशन", "सब्सिडी", "पात्रता", "शिकायत", "आधार", "खाद्य सुरक्षा",
 }
 
+DOCUMENT_DOMAIN_TERMS = {
+    "foodgrain", "food grain", "food subsidy", "grain allocation",
+    "food allocation", "pmgkay", "procurement of wheat",
+    "procurement of rice", "procurement of paddy", "lakh tons",
+    "lakh tonnes",
+}
+
 CLASSIFIER_SYSTEM_PROMPT = """You are the context-aware intent classifier for JanMitra AI,
 an assistant limited to India's PDS, ration services, and government welfare schemes.
 
@@ -141,6 +148,11 @@ class IntentRouter:
         cleaned = message.casefold()
         return any(term in cleaned for term in DOMAIN_TERMS)
 
+    @staticmethod
+    def _clearly_document_domain_related(message: str) -> bool:
+        cleaned = message.casefold()
+        return any(term in cleaned for term in DOCUMENT_DOMAIN_TERMS)
+
     def _client(self):
         if self._llm is None:
             if self._llm_factory is not None:
@@ -201,6 +213,14 @@ class IntentRouter:
         common = self._common_intent(message, resolved_language)
         if common:
             return common
+
+        # Document-style food distribution questions are unambiguously within
+        # JanMitra's PDS scope. Route them deterministically so a classifier
+        # cannot incorrectly prevent indexed text and visual retrieval.
+        if self._clearly_document_domain_related(message):
+            return IntentDecision(
+                kind="pds_welfare", confidence=0.95, has_new_question=True
+            )
 
         if os.getenv("GROQ_API_KEY"):
             try:

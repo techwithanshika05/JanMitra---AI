@@ -48,6 +48,10 @@ from preprocessing.document_normalizer import (
     normalize_from_sarvam_zip,
     renumber_pages,
 )
+from preprocessing.sarvam_system.pipeline import (
+    DocumentPipeline,
+    PipelineConfig,
+)
 
 load_dotenv()
 
@@ -73,6 +77,12 @@ if not logger.handlers:
     logger.addHandler(stream)
 
 
+# Stable, public-by-convention location for visual evidence.  Each document
+# gets its own directory below this root; keeping this separate from
+# ``processed`` means re-building corpus JSON does not invalidate images.
+DEFAULT_IMAGE_OUTPUT_DIR = BACKEND_DIR / "data" / "images"
+
+
 # =============================================================================
 # Configuration
 # =============================================================================
@@ -91,6 +101,10 @@ class SarvamConfig:
     # a 422 max_page_limit_exceeded error.
     max_pages_per_job: int = 10
 
+    # Sarvam upload-size guard. The system splitter reduces the number
+    # of pages in a transport chunk until it fits this limit.
+    max_chunk_bytes: int = 20_000_000
+
     poll_interval: int = 5
 
     timeout: int = 600
@@ -98,6 +112,12 @@ class SarvamConfig:
     retries: int = 3
 
     cleanup_temp: bool = True
+
+    # Where cropped chart/graph/table/image blocks get saved. Relative
+    # paths are resolved against BACKEND_DIR. Set to None to disable
+    # image cropping entirely (blocks will still carry their OCR'd
+    # text, just no image_path).
+    image_output_dir: Optional[str] = str(DEFAULT_IMAGE_OUTPUT_DIR)
 
 
 # =============================================================================
@@ -121,7 +141,9 @@ class SarvamProcessor:
 
         • Extract JSON
 
-        • Parse layout blocks
+        • Parse layout blocks (and crop out chart/table/image blocks
+          from the original PDF, so visual content isn't lost to OCR
+          text alone)
 
         • Merge pages
 
@@ -149,11 +171,61 @@ class SarvamProcessor:
             api_subscription_key=config.api_key
         )
 
+        # Public processor facade -> executable sarvam_system pipeline.
+        # Passing the already-created SDK client also keeps SDK setup in
+        # one place for callers that inject or patch it in tests.
+        self.pipeline = DocumentPipeline(
+            PipelineConfig(
+                api_key=config.api_key,
+                language=config.language,
+                output_format=config.output_format,
+                max_pages_per_job=config.max_pages_per_job,
+                max_chunk_bytes=config.max_chunk_bytes,
+                poll_interval=config.poll_interval,
+                timeout=config.timeout,
+                retries=config.retries,
+                cleanup_temp=config.cleanup_temp,
+                artifact_output_dir=(
+                    (
+                        Path(config.image_output_dir)
+                        if Path(config.image_output_dir).is_absolute()
+                        else BACKEND_DIR / config.image_output_dir
+                    )
+                    if config.image_output_dir
+                    else None
+                ),
+            ),
+            client=self.client,
+        )
+
         # Temp dirs created for split chunks / downloaded zips, cleaned
         # up at the end of process_pdf() if cleanup_temp is True.
         self._temp_dirs: List[Path] = []
 
+        self._image_output_dir: Optional[Path] = None
+        if self.config.image_output_dir:
+            configured_image_dir = Path(self.config.image_output_dir)
+            self._image_output_dir = (
+                configured_image_dir
+                if configured_image_dir.is_absolute()
+                else BACKEND_DIR / configured_image_dir
+            )
+
         logger.info("Sarvam client initialized.")
+
+        if self._image_output_dir is not None:
+
+            logger.info(
+                "Cropped visual blocks will be saved to %s",
+                self._image_output_dir,
+            )
+
+        else:
+
+            logger.info(
+                "image_output_dir is disabled; visual blocks will "
+                "have no image_path."
+            )
 
 
 # =============================================================================
@@ -164,63 +236,24 @@ class SarvamProcessor:
         self,
         pdf_path: str | Path
     ) -> NormalizedDocument:
+        return self.pipeline.process(pdf_path)
+
+    def process_visual_pages(
+        self,
+        pdf_path: str | Path,
+        page_numbers: List[int],
+    ) -> NormalizedDocument:
+        """Process only selected 1-based PDF pages with Sarvam.
+
+        This keeps Sarvam usage proportional to visual content while callers
+        can retain PyMuPDF text extraction for every page.
+        """
 
         pdf_path = Path(pdf_path)
-
-        if not pdf_path.exists():
-
-            raise FileNotFoundError(pdf_path)
-
-        logger.info(f"Processing {pdf_path.name}")
-
-        try:
-
-            chunks = self._split_pdf(pdf_path)
-
-            logger.info(
-                f"PDF split into {len(chunks)} part(s)."
-            )
-
-            merged_document = NormalizedDocument(
-                source_file=pdf_path.name
-            )
-
-            for index, chunk in enumerate(chunks, start=1):
-
-                logger.info(
-                    f"Uploading {chunk.name} "
-                    f"({index}/{len(chunks)})"
-                )
-
-                zip_file = self._process_chunk(chunk)
-
-                logger.info(
-                    "Parsing Sarvam output..."
-                )
-
-                pages = self._parse_zip(zip_file)
-
-                merged_document.pages.extend(pages)
-
-            # Re-number pages sequentially across all chunks, since each
-            # chunk's Sarvam job reports page numbers starting at 1.
-            renumber_pages(merged_document)
-
-            merged_document.metadata = self._build_metadata(
-                merged_document
-            )
-
-            logger.info(
-                f"Completed {pdf_path.name}"
-            )
-
-            return merged_document
-
-        finally:
-
-            if self.config.cleanup_temp:
-
-                self._cleanup()
+        selected_pages = sorted(set(page_numbers))
+        if not selected_pages:
+            return NormalizedDocument(source_file=pdf_path.name)
+        return self.pipeline.process(pdf_path, page_numbers=selected_pages)
 
 
 # =============================================================================
@@ -417,15 +450,33 @@ class SarvamProcessor:
 
     def _parse_zip(
         self,
-        zip_path: Path
+        zip_path: Path,
+        source_pdf_path: Optional[Path] = None,
+        document_id: Optional[str] = None,
+        chunk_index: int = 0,
+        page_offset: int = 0,
+        page_number_map: Optional[Dict[int, int]] = None,
     ) -> List[DocumentPage]:
         """
         Thin wrapper around document_normalizer.normalize_from_sarvam_zip
         so the ZIP/JSON parsing logic lives in one shared place rather
         than being duplicated across processors.
+
+        source_pdf_path/document_id/chunk_index are forwarded so that
+        visual blocks (charts, tables, images -- see
+        document_normalizer.VISUAL_LAYOUTS) get cropped out of the
+        original PDF and saved to self._image_output_dir.
         """
 
-        return normalize_from_sarvam_zip(zip_path)
+        return normalize_from_sarvam_zip(
+            zip_path,
+            source_pdf_path=source_pdf_path,
+            image_output_dir=self._image_output_dir,
+            document_id=document_id,
+            chunk_index=chunk_index,
+            page_offset=page_offset,
+            page_number_map=page_number_map,
+        )
 
 
 # =============================================================================
@@ -454,9 +505,17 @@ class SarvamProcessor:
             if confidences else None
         )
 
+        total_images = sum(
+            1
+            for page in document.pages
+            for block in page.blocks
+            if block.image_path
+        )
+
         return {
             "total_pages": total_pages,
             "total_blocks": total_blocks,
+            "total_images": total_images,
             "average_confidence": avg_confidence,
             "language": self.config.language,
             "output_format": self.config.output_format,
@@ -503,6 +562,16 @@ def main() -> None:
         help="Sarvam output format for the ZIP content",
     )
 
+    parser.add_argument(
+        "--image-output-dir", default=str(DEFAULT_IMAGE_OUTPUT_DIR),
+        help="Directory to save cropped chart/table/image blocks into",
+    )
+
+    parser.add_argument(
+        "--no-images", action="store_true",
+        help="Disable cropping/saving visual blocks entirely",
+    )
+
     args = parser.parse_args()
 
     api_key = os.getenv("SARVAM_API_KEY")
@@ -515,6 +584,9 @@ def main() -> None:
         api_key=api_key,
         language=args.language,
         output_format=args.output_format,
+        image_output_dir=(
+            None if args.no_images else args.image_output_dir
+        ),
     )
 
     processor = SarvamProcessor(config=config)
@@ -534,4 +606,4 @@ def main() -> None:
 
 if __name__ == "__main__":
 
-    main() 
+    main()

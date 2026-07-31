@@ -24,6 +24,7 @@ def _rag_answer_with_deadline(message: str, language: str) -> dict:
             "is_grounded": False,
             "disclaimer": "",
             "sources": [],
+            "retrieved_images": [],
             "response_type": "rag_timeout",
             "structured_content": None,
         }
@@ -74,6 +75,7 @@ def generate_chat_response(
         "is_grounded": False,
         "disclaimer": "",
         "sources": [],
+        "retrieved_images": [],
         "response_type": decision.kind,
         "structured_content": None,
         "api_status": "not_used",
