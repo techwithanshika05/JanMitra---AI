@@ -26,6 +26,12 @@ class Settings:
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 12  # 12 hours
     COOKIE_SECURE: bool = os.getenv("COOKIE_SECURE", "false").lower() == "true"
 
+    # --- Fixed administrator ---
+    # Override both values in production. This account is the only identity
+    # accepted by the dedicated admin login endpoint.
+    ADMIN_EMAIL: str = os.getenv("ADMIN_EMAIL", "admin@janmitra.in").strip().lower()
+    ADMIN_PASSWORD: str = os.getenv("ADMIN_PASSWORD", "Admin@123")
+
     # --- Vector DB ---
     CHROMA_DIR: str = str(
         Path(os.getenv("CHROMA_DIR", "./data/vector_db/chroma")).resolve()

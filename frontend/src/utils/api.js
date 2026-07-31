@@ -82,6 +82,7 @@ const json = (method, body) => ({
 export const api = {
   health: () => request('/api/health'),
   login: payload => request('/api/auth/login', json('POST', payload)),
+  adminLogin: payload => request('/api/auth/admin-login', json('POST', payload)),
   register: payload => request('/api/auth/register', json('POST', payload)),
   me: () => request('/api/auth/me'),
 

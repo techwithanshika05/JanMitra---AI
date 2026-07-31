@@ -54,5 +54,8 @@ async def upload_document(
 
 
 @router.get("/documents")
-def list_documents(db: Session = Depends(get_db)):
+def list_documents(
+    db: Session = Depends(get_db),
+    _admin: models.User = Depends(auth.require_admin),
+):
     return db.query(models.Document).all()

@@ -2,7 +2,9 @@ from fastapi import APIRouter, Depends, HTTPException, Request, Response
 from sqlalchemy import or_
 from sqlalchemy.orm import Session
 import secrets
+import hmac
 
+from app.config import settings
 from app.database import get_db
 from app import models, schemas, auth
 from app.chat_identity import GUEST_COOKIE, guest_id_from_request
@@ -110,6 +112,39 @@ def login(
         guest_data_imported=imported,
         migration=migration,
     )
+
+
+@router.post("/admin-login", response_model=schemas.Token)
+def admin_login(payload: schemas.AdminLogin, db: Session = Depends(get_db)):
+    """Authenticate the single fixed administrator and issue a normal JWT."""
+    email_matches = hmac.compare_digest(
+        str(payload.email).strip().lower(), settings.ADMIN_EMAIL
+    )
+    password_matches = hmac.compare_digest(payload.password, settings.ADMIN_PASSWORD)
+    if not (email_matches and password_matches):
+        raise HTTPException(status_code=401, detail="Invalid admin credentials")
+
+    user = db.query(models.User).filter(models.User.email == settings.ADMIN_EMAIL).first()
+    if user is None:
+        user = models.User(
+            name="JanMitra Administrator",
+            email=settings.ADMIN_EMAIL,
+            public_id=_new_public_id(db),
+            hashed_password=auth.hash_password(settings.ADMIN_PASSWORD),
+            role="admin",
+            preferred_language="en",
+        )
+        db.add(user)
+    else:
+        user.name = "JanMitra Administrator"
+        user.role = "admin"
+        if not auth.verify_password(settings.ADMIN_PASSWORD, user.hashed_password):
+            user.hashed_password = auth.hash_password(settings.ADMIN_PASSWORD)
+
+    db.commit()
+    db.refresh(user)
+    token = auth.create_access_token({"sub": str(user.id), "role": "admin"})
+    return schemas.Token(access_token=token, user=user)
 
 
 @router.get("/me", response_model=schemas.UserOut)

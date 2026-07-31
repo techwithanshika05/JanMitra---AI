@@ -23,7 +23,10 @@ def submit_feedback(
 
 
 @router.get("/events-by-type")
-def events_by_type(db: Session = Depends(get_db)):
+def events_by_type(
+    db: Session = Depends(get_db),
+    _admin: models.User = Depends(auth.require_admin),
+):
     rows = (
         db.query(models.AnalyticsEvent.event_type, func.count(models.AnalyticsEvent.id))
         .group_by(models.AnalyticsEvent.event_type)

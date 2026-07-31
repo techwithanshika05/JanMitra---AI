@@ -1,17 +1,24 @@
 import { useState, useEffect } from 'react'
-import { RefreshCw, MessagesSquare, ThumbsUp, ThumbsDown, Sparkles, TrendingUp, ShieldCheck, Search, MessageCircleHeart, Upload, FileText, AlertTriangle } from 'lucide-react'
+import { RefreshCw, MessagesSquare, ThumbsUp, ThumbsDown, Sparkles, TrendingUp, ShieldCheck, Search, MessageCircleHeart, Upload, FileText, AlertTriangle, LockKeyhole, LogIn } from 'lucide-react'
 import { useLanguage } from '@/contexts/LanguageContext'
 import { api } from '@/utils/api'
+import { useAuth } from '@/contexts/AuthContext'
 
 export default function Admin() {
   const { t } = useLanguage()
-  const [loading, setLoading] = useState(true)
+  const { user, loading: authLoading, completeAuth } = useAuth()
+  const [loading, setLoading] = useState(false)
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const [loginError, setLoginError] = useState('')
+  const [loginBusy, setLoginBusy] = useState(false)
   const [stats, setStats] = useState(null)
   const [documents, setDocuments] = useState([])
   const [missing, setMissing] = useState([])
   const [checklistStats, setChecklistStats] = useState(null)
   const [adminError, setAdminError] = useState('')
   const [events, setEvents] = useState([])
+  const isAdmin = user?.role === 'admin'
 
   const loadStats = async () => {
     setLoading(true)
@@ -67,8 +74,24 @@ export default function Admin() {
   }
 
   useEffect(() => {
-    loadStats()
-  }, [])
+    if (isAdmin) loadStats()
+  }, [isAdmin])
+
+  const loginAdmin = async event => {
+    event.preventDefault()
+    setLoginBusy(true)
+    setLoginError('')
+    try {
+      const data = await api.adminLogin({ email, password })
+      if (data.user?.role !== 'admin') throw new Error('Admin access required')
+      completeAuth(data, 'Admin login successful')
+      setPassword('')
+    } catch (error) {
+      setLoginError(error.message || 'Invalid admin credentials')
+    } finally {
+      setLoginBusy(false)
+    }
+  }
 
   const uploadKnowledge = async event => {
     const file = event.target.files?.[0]
@@ -78,6 +101,40 @@ export default function Admin() {
   }
 
   const fb = stats?.feedback || {}
+
+  if (authLoading) {
+    return <div className="min-h-[70vh] grid place-items-center"><RefreshCw className="animate-spin text-[#0d7c66]" /></div>
+  }
+
+  if (!isAdmin) {
+    return (
+      <main className="min-h-[calc(100vh-90px)] grid place-items-center px-4 py-12 bg-[#f7faf9] dark:bg-[#0b1210]">
+        <section className="w-full max-w-md p-8 sm:p-10 rounded-[30px] border border-[#dfe8e4] dark:border-white/10 bg-white dark:bg-[#14231c] shadow-[0_24px_70px_rgba(16,39,31,.12)]">
+          <span className="w-14 h-14 grid place-items-center rounded-2xl bg-[#e5f7f1] text-[#0d7c66]">
+            <LockKeyhole size={26} />
+          </span>
+          <h1 className="mt-6 text-4xl font-black tracking-[-.04em] text-[#10271f] dark:text-white">Admin login</h1>
+          <p className="mt-2 text-sm leading-relaxed text-[#667085]">Sign in with the authorized JanMitra administrator account to view analytics.</p>
+          {user && <p className="mt-4 p-3 rounded-xl bg-amber-50 text-amber-800 text-sm">The current account is not an administrator.</p>}
+          <form onSubmit={loginAdmin} className="mt-7 space-y-5">
+            <label className="block">
+              <span className="block mb-2 text-sm font-bold">Admin email</span>
+              <input type="email" required autoComplete="username" value={email} onChange={event => setEmail(event.target.value)} className="w-full h-12 px-4 rounded-xl border border-[#d8e1dd] dark:border-white/10 bg-white dark:bg-[#0e1914] outline-none focus:border-[#0d7c66]" />
+            </label>
+            <label className="block">
+              <span className="block mb-2 text-sm font-bold">Password</span>
+              <input type="password" required autoComplete="current-password" value={password} onChange={event => setPassword(event.target.value)} className="w-full h-12 px-4 rounded-xl border border-[#d8e1dd] dark:border-white/10 bg-white dark:bg-[#0e1914] outline-none focus:border-[#0d7c66]" />
+            </label>
+            {loginError && <p role="alert" className="p-3 rounded-xl bg-red-50 text-red-700 text-sm">{loginError}</p>}
+            <button type="submit" disabled={loginBusy} className="w-full h-12 flex items-center justify-center gap-2 rounded-xl bg-[#0d7c66] text-white font-extrabold disabled:opacity-60">
+              {loginBusy ? <RefreshCw size={18} className="animate-spin" /> : <LogIn size={18} />}
+              {loginBusy ? 'Signing in...' : 'Open analytics'}
+            </button>
+          </form>
+        </section>
+      </main>
+    )
+  }
 
   return (
     <div className="admin-workspace max-w-[1500px] mx-auto px-4 sm:px-8 py-8 sm:py-12">
