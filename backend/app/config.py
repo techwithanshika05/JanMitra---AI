@@ -55,6 +55,9 @@ class Settings:
     RAG_REQUEST_TIMEOUT_SECONDS: float = float(
         os.getenv("RAG_REQUEST_TIMEOUT_SECONDS", "12")
     )
+    CHAT_RAG_TIMEOUT_SECONDS: float = float(
+        os.getenv("CHAT_RAG_TIMEOUT_SECONDS", "60")
+    )
 
     # --- Conversational voice agent (LiveKit + Sarvam) ---
     LIVEKIT_URL: str = os.getenv("LIVEKIT_URL", "")

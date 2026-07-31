@@ -82,6 +82,8 @@ class ChatResponse(BaseModel):
     sources: List[SourceRef]
     disclaimer: str
     is_grounded: bool
+    api_status: Optional[str] = None
+    alert: Optional[str] = None
 
 
 # ---------- Scheme Finder ----------

@@ -49,6 +49,8 @@ def chat(payload: schemas.ChatRequest, db: Session = Depends(get_db)):
         sources=[schemas.SourceRef(**s) for s in result["sources"]],
         disclaimer=result["disclaimer"],
         is_grounded=result["is_grounded"],
+        api_status=result.get("api_status"),
+        alert=result.get("alert"),
     )
 
 

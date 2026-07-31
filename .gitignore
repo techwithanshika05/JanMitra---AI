@@ -1,4 +1,5 @@
 # ============ Python / Backend ============
+myenv/
 venv/
 env/
 ENV/

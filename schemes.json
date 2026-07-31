@@ -1,0 +1,192 @@
+[
+  {
+    "id": "pm_kisan",
+    "name": "PM Kisan Samman Nidhi",
+    "name_hi": "पीएम किसान सम्मान निधि",
+    "category": "Agriculture",
+    "description": "Direct income support of Rs 6,000 per year in three equal installments to small and marginal farmer families.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "occupation": ["farmer"],
+      "categories": ["General", "OBC", "SC", "ST"],
+      "income_limit": null
+    },
+    "benefits": "Rs 6,000 per year (Rs 2,000 every 4 months) directly to bank account.",
+    "documents": ["Aadhaar Card", "Land Records (Khatauni)", "Bank Account Details", "Passport Size Photo"],
+    "apply_at": "Common Service Center (CSC) or PM Kisan Portal",
+    "website": "https://pmkisan.gov.in",
+    "tags": ["farmer", "agriculture", "income support", "kisan"]
+  },
+  {
+    "id": "pmay",
+    "name": "Pradhan Mantri Awas Yojana (Gramin)",
+    "name_hi": "प्रधान मंत्री आवास योजना (ग्रामीण)",
+    "category": "Housing",
+    "description": "Financial assistance to rural homeless and kutcha house dwellers to construct pucca houses.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "occupation": ["farmer", "labour", "unemployed", "other"],
+      "categories": ["General", "OBC", "SC", "ST", "BPL"],
+      "income_limit": 300000
+    },
+    "benefits": "Rs 1,20,000 in plains and Rs 1,30,000 in hilly/difficult areas.",
+    "documents": ["Aadhaar Card", "BPL Ration Card", "Bank Account Details", "Land Ownership Proof"],
+    "apply_at": "Gram Panchayat or Block Development Office",
+    "website": "https://pmayg.nic.in",
+    "tags": ["housing", "house", "awas", "rural", "construction"]
+  },
+  {
+    "id": "nfsa_ration",
+    "name": "National Food Security Act (Ration Card)",
+    "name_hi": "राष्ट्रीय खाद्य सुरक्षा अधिनियम (राशन कार्ड)",
+    "category": "Food & Nutrition",
+    "description": "Subsidised food grains through the Public Distribution System for eligible households.",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 99,
+      "occupation": ["farmer", "labour", "unemployed", "student", "other"],
+      "categories": ["BPL", "AAY", "PHH"],
+      "income_limit": 200000
+    },
+    "benefits": "5 kg of food grains (rice/wheat) per person per month at subsidised rates. AAY families get 35 kg per month.",
+    "documents": ["Aadhaar Card", "Residence Proof", "Income Certificate", "Passport Size Photo"],
+    "apply_at": "District Food & Supply Office or CSC",
+    "website": "https://fcs.up.gov.in",
+    "tags": ["ration", "food", "grain", "PDS", "BPL"]
+  },
+  {
+    "id": "up_pension",
+    "name": "UP Old Age / Disability / Widow Pension",
+    "name_hi": "यूपी वृद्धावस्था / विकलांग / विधवा पेंशन",
+    "category": "Pension & Social Security",
+    "description": "Monthly pension for senior citizens (60+), disabled persons, and widows living below poverty line in Uttar Pradesh.",
+    "eligibility": {
+      "min_age": 60,
+      "max_age": 99,
+      "occupation": ["unemployed", "farmer", "labour", "other"],
+      "categories": ["BPL", "General", "OBC", "SC", "ST"],
+      "income_limit": 46080
+    },
+    "benefits": "Rs 500 per month pension directly to bank account.",
+    "documents": ["Aadhaar Card", "Age Proof", "BPL Card", "Bank Account", "Income Certificate"],
+    "apply_at": "Block Development Office or online at sspy-up.gov.in",
+    "website": "https://sspy-up.gov.in",
+    "tags": ["pension", "old age", "widow", "disability", "senior"]
+  },
+  {
+    "id": "ayushman_bharat",
+    "name": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana",
+    "name_hi": "आयुष्मान भारत प्रधान मंत्री जन आरोग्य योजना",
+    "category": "Health",
+    "description": "World's largest health insurance scheme providing coverage of Rs 5 lakh per family per year for secondary and tertiary care hospitalisation.",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 99,
+      "occupation": ["farmer", "labour", "unemployed", "other"],
+      "categories": ["BPL", "SECC"],
+      "income_limit": null
+    },
+    "benefits": "Rs 5,00,000 health cover per family per year. Cashless treatment at empanelled hospitals.",
+    "documents": ["Aadhaar Card", "Ration Card", "PMJAY e-card (generated after verification)"],
+    "apply_at": "Empanelled hospital or CSC or pmjay.gov.in",
+    "website": "https://pmjay.gov.in",
+    "tags": ["health", "insurance", "hospital", "medical", "ayushman"]
+  },
+  {
+    "id": "pm_ujjwala",
+    "name": "PM Ujjwala Yojana",
+    "name_hi": "पीएम उज्ज्वला योजना",
+    "category": "LPG & Energy",
+    "description": "Free LPG gas connection to women from BPL households to reduce dependence on traditional cooking fuel.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "occupation": ["farmer", "labour", "unemployed", "other"],
+      "categories": ["BPL", "SC", "ST", "OBC"],
+      "income_limit": 200000
+    },
+    "benefits": "Free LPG connection with one free cylinder. Subsidised refills.",
+    "documents": ["Aadhaar Card", "BPL Ration Card", "Bank Account", "Passport Size Photo"],
+    "apply_at": "Nearest LPG distributor or pmuy.gov.in",
+    "website": "https://pmuy.gov.in",
+    "tags": ["LPG", "gas", "ujjwala", "cooking", "women"]
+  },
+  {
+    "id": "up_scholarship",
+    "name": "UP Scholarship (Pre & Post Matric)",
+    "name_hi": "यूपी छात्रवृत्ति (प्री और पोस्ट मैट्रिक)",
+    "category": "Education",
+    "description": "Scholarships for students from OBC, SC, ST, and minority communities studying in UP for pre and post matric classes.",
+    "eligibility": {
+      "min_age": 5,
+      "max_age": 35,
+      "occupation": ["student"],
+      "categories": ["SC", "ST", "OBC", "Minority"],
+      "income_limit": 200000
+    },
+    "benefits": "Annual scholarship amount varies by class and category (Rs 3,000 to Rs 12,000+). Maintenance allowance included.",
+    "documents": ["Aadhaar Card", "Income Certificate", "Caste Certificate", "Mark Sheet", "School/College Enrollment Proof", "Bank Account"],
+    "apply_at": "scholarship.up.gov.in (online)",
+    "website": "https://scholarship.up.gov.in",
+    "tags": ["scholarship", "education", "student", "school", "college"]
+  },
+  {
+    "id": "mnrega",
+    "name": "MGNREGA (100 Days Employment Guarantee)",
+    "name_hi": "मनरेगा (100 दिन रोजगार गारंटी)",
+    "category": "Employment",
+    "description": "Provides at least 100 days of guaranteed wage employment per financial year to every rural household whose adult members volunteer to do unskilled manual work.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "occupation": ["labour", "farmer", "unemployed"],
+      "categories": ["General", "OBC", "SC", "ST"],
+      "income_limit": null
+    },
+    "benefits": "100 days guaranteed employment at minimum wages (Rs 213/day in UP). Wages paid directly to bank account.",
+    "documents": ["Aadhaar Card", "Job Card (from Gram Panchayat)", "Bank Account"],
+    "apply_at": "Gram Panchayat",
+    "website": "https://nrega.nic.in",
+    "tags": ["employment", "job", "work", "NREGA", "wages", "labour"]
+  },
+  {
+    "id": "kanya_sumangala",
+    "name": "Mukhyamantri Kanya Sumangala Yojana",
+    "name_hi": "मुख्यमंत्री कन्या सुमंगला योजना",
+    "category": "Women & Child",
+    "description": "UP government scheme to improve health, education, and social status of girl child through financial assistance at six stages of life.",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 21,
+      "occupation": ["student", "other"],
+      "categories": ["General", "OBC", "SC", "ST"],
+      "income_limit": 300000
+    },
+    "benefits": "Total Rs 15,000 in 6 installments from birth to graduation.",
+    "documents": ["Birth Certificate", "Aadhaar Card (parents)", "Income Certificate", "Bank Account (parent)", "Admission Certificate (for later stages)"],
+    "apply_at": "mksy.up.gov.in (online)",
+    "website": "https://mksy.up.gov.in",
+    "tags": ["girl child", "kanya", "women", "education", "sumangala"]
+  },
+  {
+    "id": "pm_svamitva",
+    "name": "PM SVAMITVA Yojana",
+    "name_hi": "पीएम स्वामित्व योजना",
+    "category": "Property Rights",
+    "description": "Mapping of land in rural inhabited areas using drone technology and providing 'Record of Rights' to village household owners.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "occupation": ["farmer", "labour", "other"],
+      "categories": ["General", "OBC", "SC", "ST"],
+      "income_limit": null
+    },
+    "benefits": "Legal property card (Adhikar Patra) enabling use of property as financial asset for loans.",
+    "documents": ["Aadhaar Card", "Voter ID", "Residence Proof"],
+    "apply_at": "Gram Panchayat",
+    "website": "https://svamitva.nic.in",
+    "tags": ["property", "land", "svamitva", "rural", "rights"]
+  }
+]

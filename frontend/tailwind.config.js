@@ -2,34 +2,14 @@
 module.exports = {
   darkMode: "class",
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/pages/**/*.{js,jsx}",
+    "./src/components/**/*.{js,jsx}",
+    "./src/contexts/**/*.{js,jsx}",
+    "./src/hooks/**/*.{js,jsx}",
   ],
   theme: {
     extend: {
       colors: {
-        // Legacy aliases are retained for Hariom's chat workspace and existing
-        // pages while Anshika's redesigned components use the newer token names.
-        ink: "#10192E",
-        indigo: {
-          DEFAULT: "#1B2A4A",
-          50: "#EEF1F7",
-          100: "#D6DCEA",
-          600: "#24365D",
-          900: "#10192E",
-          950: "#0B1224",
-        },
-        marigold: {
-          DEFAULT: "#E8871E",
-          50: "#FDF3E7",
-          400: "#F0A24C",
-          600: "#C96E0E",
-        },
-        teal: {
-          DEFAULT: "#0F6A5D",
-          50: "#E7F3F1",
-          600: "#0B5347",
-        },
         // Token names (maroon/rose/blush/gold) kept as-is so every existing
         // page/component keeps working unmodified -- only the underlying hex
         // values are reverted to the original civic (indigo/marigold) palette.

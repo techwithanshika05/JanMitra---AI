@@ -84,6 +84,8 @@ class MessagePair(BaseModel):
     sources: list[dict]
     disclaimer: str
     is_grounded: bool
+    api_status: Optional[str] = None
+    alert: Optional[str] = None
 
 
 class MessagePage(BaseModel):

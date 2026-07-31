@@ -1,0 +1,168 @@
+{
+  "categories": [
+    {
+      "id": "ration_denial",
+      "name": "Ration Denied or Short Supply",
+      "name_hi": "राशन से इनकार या कम आपूर्ति",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Collect Evidence",
+          "description": "Note the date, quantity denied, and name of the fair price shop dealer. Ask for a written receipt or note if denied.",
+          "time": "Same day"
+        },
+        {
+          "step": 2,
+          "title": "Contact the Helpline",
+          "description": "Call the UP Food helpline: 1967 (toll-free). Register your complaint and get a complaint number.",
+          "time": "Same day"
+        },
+        {
+          "step": 3,
+          "title": "Visit District Supply Office",
+          "description": "If helpline doesn't resolve, visit the District Food & Supply Officer with your ration card and complaint details.",
+          "time": "Within 3 days"
+        },
+        {
+          "step": 4,
+          "title": "Online Complaint",
+          "description": "File complaint at fcs.up.gov.in → 'Complaint Registration'. Upload any evidence photos.",
+          "time": "Within 7 days"
+        },
+        {
+          "step": 5,
+          "title": "Escalate to DM",
+          "description": "If unresolved in 15 days, submit written complaint to the District Magistrate (DM) office.",
+          "time": "After 15 days"
+        }
+      ],
+      "contacts": [
+        {"name": "UP Food Helpline", "number": "1967", "type": "Toll-Free"},
+        {"name": "National Consumer Helpline", "number": "1800-11-4000", "type": "Toll-Free"},
+        {"name": "UP CM Helpline", "number": "1076", "type": "Toll-Free"}
+      ]
+    },
+    {
+      "id": "scheme_not_received",
+      "name": "Government Scheme Benefit Not Received",
+      "name_hi": "सरकारी योजना का लाभ नहीं मिला",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Check Application Status",
+          "description": "Visit the scheme's official portal to check if your application is approved, pending, or rejected.",
+          "time": "Same day"
+        },
+        {
+          "step": 2,
+          "title": "Visit Block Development Office",
+          "description": "For rural schemes, visit BDO with application receipt. For urban, visit Municipal Office.",
+          "time": "Within 2 days"
+        },
+        {
+          "step": 3,
+          "title": "Call Scheme Helpline",
+          "description": "Call the specific scheme's helpline (e.g., PM Kisan: 155261, PMJAY: 14555) for status.",
+          "time": "Within 3 days"
+        },
+        {
+          "step": 4,
+          "title": "File RTI Application",
+          "description": "Under Right to Information Act, file RTI with the concerned department to get status in writing.",
+          "time": "Within 30 days (RTI must be responded in 30 days)"
+        },
+        {
+          "step": 5,
+          "title": "Approach District Collector",
+          "description": "File grievance at Jan Sunwai or through UP Jansunwai portal (jansunwai.up.nic.in).",
+          "time": "As needed"
+        }
+      ],
+      "contacts": [
+        {"name": "UP CM Helpline", "number": "1076", "type": "Toll-Free"},
+        {"name": "PM Kisan Helpline", "number": "155261", "type": "Helpline"},
+        {"name": "PMJAY Helpline", "number": "14555", "type": "Toll-Free"}
+      ]
+    },
+    {
+      "id": "corruption",
+      "name": "Corruption / Bribery by Government Official",
+      "name_hi": "सरकारी अधिकारी द्वारा भ्रष्टाचार / रिश्वत",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Do Not Pay the Bribe",
+          "description": "Firmly refuse. Note the official's name, designation, date, and what bribe was demanded.",
+          "time": "Immediately"
+        },
+        {
+          "step": 2,
+          "title": "Call Anti-Corruption Helpline",
+          "description": "Call UP Anti-Corruption Helpline: 1064. Report with full details of the incident.",
+          "time": "Same day"
+        },
+        {
+          "step": 3,
+          "title": "File Complaint with Vigilance Commission",
+          "description": "Submit written complaint to UP Vigilance Establishment, Lucknow or file online.",
+          "time": "Within 3 days"
+        },
+        {
+          "step": 4,
+          "title": "Report to Senior Officer",
+          "description": "Submit complaint to the accused officer's senior (e.g., DM if dealing with block-level officer).",
+          "time": "Within 7 days"
+        },
+        {
+          "step": 5,
+          "title": "File FIR if Needed",
+          "description": "If bribe was paid, file FIR at local police station under Prevention of Corruption Act, 1988.",
+          "time": "As needed"
+        }
+      ],
+      "contacts": [
+        {"name": "UP Anti-Corruption Helpline", "number": "1064", "type": "Toll-Free"},
+        {"name": "Central Vigilance Commission", "number": "011-24600200", "type": "Helpline"},
+        {"name": "UP CM Helpline", "number": "1076", "type": "Toll-Free"}
+      ]
+    },
+    {
+      "id": "pension_stopped",
+      "name": "Pension Stopped or Not Received",
+      "name_hi": "पेंशन बंद हुई या नहीं मिली",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Check Status Online",
+          "description": "Visit sspy-up.gov.in → Pensioner Status. Check if Aadhaar is linked and bank account is active.",
+          "time": "Same day"
+        },
+        {
+          "step": 2,
+          "title": "Visit Block Office",
+          "description": "Visit your Block Development Office with Aadhaar and bank passbook. Ensure annual verification is done.",
+          "time": "Within 2 days"
+        },
+        {
+          "step": 3,
+          "title": "Ensure Bank Account is Active",
+          "description": "Inactive or dormant bank accounts stop pension. Visit your bank branch to reactivate.",
+          "time": "Within 3 days"
+        },
+        {
+          "step": 4,
+          "title": "File Online Complaint",
+          "description": "File complaint at sspy-up.gov.in or UP Jansunwai portal with pension ID and details.",
+          "time": "Within 7 days"
+        }
+      ],
+      "contacts": [
+        {"name": "SSPY UP Helpline", "number": "18004190001", "type": "Toll-Free"},
+        {"name": "UP CM Helpline", "number": "1076", "type": "Toll-Free"}
+      ]
+    }
+  ],
+  "complaint_template": {
+    "fields": ["name", "aadhaar_last4", "district", "block", "village", "issue_type", "description", "date_of_incident", "previous_complaint_no"]
+  }
+}

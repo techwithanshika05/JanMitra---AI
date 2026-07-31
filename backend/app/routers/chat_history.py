@@ -205,6 +205,8 @@ def _pair(user_message, assistant, result: dict | None = None):
         "sources": assistant.sources or [],
         "disclaimer": assistant.disclaimer or "",
         "is_grounded": result["is_grounded"] if result else bool(confidence),
+        "api_status": result.get("api_status") if result else None,
+        "alert": result.get("alert") if result else None,
     }
 
 

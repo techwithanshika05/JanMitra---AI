@@ -1,0 +1,112 @@
+{
+  "events": [
+    {
+      "id": "marriage",
+      "title": "Marriage",
+      "title_hi": "विवाह",
+      "icon": "heart",
+      "description": "Recently married? Here are the government schemes and documents you should know about.",
+      "schemes": [
+        {
+          "name": "Mukhyamantri Samoohik Vivah Yojana",
+          "description": "UP government provides Rs 51,000 assistance for mass wedding ceremonies for economically weak families.",
+          "eligibility": "Family income below Rs 2 lakh. Bride must be 18+, groom 21+.",
+          "action": "Apply at Block/Urban Office"
+        },
+        {
+          "name": "Update Ration Card",
+          "description": "Add spouse's name to family ration card after marriage.",
+          "eligibility": "Newly married couples",
+          "action": "Visit CSC or Tehsil with marriage certificate"
+        },
+        {
+          "name": "Pradhan Mantri Awas Yojana",
+          "description": "If homeless, apply for PMAY housing assistance.",
+          "eligibility": "No pucca house, income below Rs 3 lakh/year",
+          "action": "Apply at CSC or pmaymis.gov.in"
+        },
+        {
+          "name": "PM Ujjwala Yojana",
+          "description": "If no LPG connection, new wife can apply for free LPG connection.",
+          "eligibility": "BPL household, no existing LPG connection",
+          "action": "Visit nearest LPG distributor"
+        }
+      ],
+      "documents_needed": ["Marriage Certificate", "Aadhaar Cards (both)", "Residence Proof", "Passport Photos", "Ration Card Update Application"]
+    },
+    {
+      "id": "newborn",
+      "title": "Newborn / New Baby",
+      "title_hi": "नवजात शिशु",
+      "icon": "baby",
+      "description": "Congratulations! Here are the essential schemes and steps for your newborn.",
+      "schemes": [
+        {
+          "name": "Janani Suraksha Yojana (JSY)",
+          "description": "Cash incentive for institutional delivery. Rs 1,400 in rural areas, Rs 1,000 in urban for BPL mothers.",
+          "eligibility": "Pregnant women from BPL families. Delivery at government/accredited hospital.",
+          "action": "Apply through ASHA worker or PHC"
+        },
+        {
+          "name": "Mukhyamantri Kanya Sumangala Yojana",
+          "description": "Rs 2,000 at birth for girl child. Total Rs 15,000 in 6 stages till graduation.",
+          "eligibility": "Girl child born after April 2019, family income < Rs 3 lakh",
+          "action": "Apply at mksy.up.gov.in within 6 months of birth"
+        },
+        {
+          "name": "Universal Immunisation Programme",
+          "description": "Free vaccines for all children. BCG, Polio, DPT, MMR, and more.",
+          "eligibility": "All children from birth",
+          "action": "Visit nearest PHC or government hospital"
+        },
+        {
+          "name": "Add to Ration Card",
+          "description": "Add newborn's name to family ration card for additional food entitlement.",
+          "eligibility": "All families with PDS ration card",
+          "action": "Visit CSC or Tehsil within 1 year of birth"
+        }
+      ],
+      "documents_needed": ["Hospital Birth Certificate", "Aadhaar (Parents)", "Ration Card", "Bank Account (Mother)", "Vaccination Record Book"]
+    },
+    {
+      "id": "senior_citizen",
+      "title": "Senior Citizen (60+)",
+      "title_hi": "वरिष्ठ नागरिक (60+)",
+      "icon": "elderly",
+      "description": "Turning 60 or caring for an elderly family member? Know your entitlements.",
+      "schemes": [
+        {
+          "name": "UP Old Age Pension (Vridhavastha Pension)",
+          "description": "Rs 500/month for senior citizens from BPL families above 60 years.",
+          "eligibility": "Age 60+, UP resident, annual income < Rs 46,080",
+          "action": "Apply at Block Office or sspy-up.gov.in"
+        },
+        {
+          "name": "Ayushman Bharat (PMJAY)",
+          "description": "Rs 5 lakh annual health insurance for cashless treatment at empanelled hospitals.",
+          "eligibility": "BPL/SECC listed families",
+          "action": "Check eligibility at pmjay.gov.in or nearest CSC"
+        },
+        {
+          "name": "Rashtriya Vayoshri Yojana",
+          "description": "Free assistive devices (walking sticks, wheelchairs, hearing aids) for BPL seniors with disability.",
+          "eligibility": "60+, BPL, with disability",
+          "action": "Apply through ALIMCO or District Social Welfare Office"
+        },
+        {
+          "name": "Senior Citizen Railway Concession",
+          "description": "40% discount for men 60+ and 50% for women 60+ on Indian Railways.",
+          "eligibility": "All citizens 60+",
+          "action": "Book tickets at IRCTC showing age proof"
+        },
+        {
+          "name": "AAY / Priority Ration Card",
+          "description": "Senior citizens without income may qualify for AAY (35 kg/month) or Priority ration card.",
+          "eligibility": "No regular income, BPL",
+          "action": "Visit District Food Office"
+        }
+      ],
+      "documents_needed": ["Aadhaar Card", "Age Proof (Birth Certificate / Voter ID / 10th Certificate)", "Income Certificate", "BPL Card", "Bank Passbook", "Passport Size Photos"]
+    }
+  ]
+}

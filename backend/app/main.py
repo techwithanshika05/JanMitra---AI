@@ -20,6 +20,7 @@ from app.routers import (
     chat,
     chat_history,
     checklist,
+    documents,
     faqs,
     grievance,
     ration,
@@ -50,6 +51,7 @@ app.include_router(auth.router)
 app.include_router(chat.router)
 app.include_router(schemes.router)
 app.include_router(checklist.router)
+app.include_router(documents.router)
 app.include_router(faqs.router)
 app.include_router(ration.router)
 app.include_router(grievance.router)

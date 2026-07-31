@@ -57,8 +57,13 @@ def _matches(scheme: models.Scheme, f: schemas.SchemeFinderRequest) -> tuple[boo
     elif f.occupation and scheme.occupation:
         reasons.append(f"Matches occupation: {f.occupation}")
 
-    if f.category and scheme.category and f.category.lower() != scheme.category.lower():
-        ok = False
+    # The finder UI collects the citizen's social category (General/OBC/SC/ST/BPL),
+    # while Scheme.category stores a benefit domain such as "Housing" or
+    # "Farmer Welfare". Comparing those two unrelated values rejected every
+    # scheme. Keep social category available for the RAG profile, but do not use
+    # it as a database-domain filter.
+    if f.category:
+        reasons.append(f"Citizen category recorded: {f.category}")
 
     if scheme.disability_required and not f.disability:
         ok = False
@@ -90,6 +95,11 @@ def _rag_query(payload: schemas.SchemeFinderRequest) -> str:
         for key, value in filters.items()
         if value not in ("", False)
     )
+    return (
+        "Find a government welfare scheme matching this citizen profile. "
+        f"{details or 'No profile filters supplied.'} "
+        "Only use verified government scheme documents and cite the source."
+    )
 
 
 def _rag_answer_with_timeout(payload: schemas.SchemeFinderRequest) -> dict:
@@ -104,11 +114,6 @@ def _rag_answer_with_timeout(payload: schemas.SchemeFinderRequest) -> dict:
             "is_grounded": False,
             "sources": [],
         }
-    return (
-        "Find a government welfare scheme matching this citizen profile. "
-        f"{details or 'No profile filters supplied.'} "
-        "Only use verified government scheme documents and cite the source."
-    )
 
 
 @router.post("/find", response_model=list[schemas.SchemeOut])
